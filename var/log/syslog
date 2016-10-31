@@ -364,3 +364,13 @@ Oct 30 23:30:43 localhost lxcfs[705]:   8: fd:  15: perf_event
 Oct 30 23:30:43 localhost lxcfs[705]:   9: fd:  16: hugetlb
 Oct 30 23:30:43 localhost lxcfs[705]:  10: fd:  17: name=systemd
 Oct 30 23:30:43 localhost lxcfs[705]: lxcfs: reloaded
+Oct 30 23:39:01 localhost CRON[8287]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Oct 30 23:40:01 localhost CRON[8329]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
+Oct 30 23:41:36 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Oct 30 23:41:36 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Oct 30 23:41:36 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1495 seconds.
+Oct 30 23:42:51 localhost crontab[8346]: (root) LIST (root)
+Oct 30 23:43:14 localhost crontab[8350]: (root) BEGIN EDIT (root)
+Oct 30 23:43:20 localhost crontab[8350]: (root) REPLACE (root)
+Oct 30 23:43:20 localhost crontab[8350]: (root) END EDIT (root)
+Oct 30 23:44:01 localhost cron[703]: (root) RELOAD (crontabs/root)

@@ -1041,3 +1041,7 @@ Oct 30 23:31:02 localhost sshd[7971]: input_userauth_request: invalid user suppo
 Oct 30 23:31:03 localhost sshd[7971]: error: Received disconnect from 14.163.189.153 port 49229:3: com.jcraft.jsch.JSchException: Auth fail [preauth]
 Oct 30 23:31:03 localhost sshd[7971]: Disconnected from 14.163.189.153 port 49229 [preauth]
 Oct 30 23:31:30 localhost sshd[8017]: Connection closed by 130.0.39.254 port 35337 [preauth]
+Oct 30 23:39:01 localhost CRON[8286]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 23:39:01 localhost CRON[8286]: pam_unix(cron:session): session closed for user root
+Oct 30 23:40:01 localhost CRON[8328]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 23:40:01 localhost CRON[8328]: pam_unix(cron:session): session closed for user root

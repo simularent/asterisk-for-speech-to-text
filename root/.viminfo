@@ -73,40 +73,42 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-"1	LINE	0
-	
+""1	LINE	0
+	*/20 * * * * rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1
 "2	LINE	0
 	
 "3	LINE	0
-	allow=gsm
+	
 "4	LINE	0
-	secret=1234567
+	allow=gsm
 "5	LINE	0
-	[123654987](office-phone)
+	secret=1234567
 "6	LINE	0
-	
+	[123654987](office-phone)
 "7	LINE	0
-	include => demo
-"8	LINE	0
-	;
-"9	LINE	0
 	
-""-	CHAR	0
+"8	LINE	0
+	include => demo
+"9	LINE	0
+	;
+"-	CHAR	0
 		
 
 # File marks:
-'0  6  3  /.gitignore
-'1  69  7  /etc/asterisk/sip.conf
-'2  23  0  /tmp/crontab.DC5Kju/crontab
-'3  1  61  /etc/apt/sources.list.d/google-cloud-sdk.list
-'4  613  43  /etc/asterisk/extensions.conf
-'5  5  0  /etc/asterisk/onsite-wait.sh
-'6  2  0  /etc/asterisk/onsite.sh
-'7  1  0  /etc/asterisk/transcribe-env.sh
-'8  4  0  /var/spool/asterisk/monitor/onsite-transcribe.php
-'9  7  0  /etc/asterisk/transcribe-env.sh
+'0  22  0  /tmp/crontab.BKegcS/crontab
+'1  6  3  /.gitignore
+'2  69  7  /etc/asterisk/sip.conf
+'3  23  0  /tmp/crontab.DC5Kju/crontab
+'4  1  61  /etc/apt/sources.list.d/google-cloud-sdk.list
+'5  613  43  /etc/asterisk/extensions.conf
+'6  5  0  /etc/asterisk/onsite-wait.sh
+'7  2  0  /etc/asterisk/onsite.sh
+'8  1  0  /etc/asterisk/transcribe-env.sh
+'9  4  0  /var/spool/asterisk/monitor/onsite-transcribe.php
 
 # Jumplist (newest first):
+-'  22  0  /tmp/crontab.BKegcS/crontab
+-'  1  0  /tmp/crontab.BKegcS/crontab
 -'  6  3  /.gitignore
 -'  1  0  /.gitignore
 -'  69  7  /etc/asterisk/sip.conf
@@ -204,10 +206,13 @@
 -'  588  46  /etc/asterisk/extensions.conf
 -'  634  0  /etc/asterisk/extensions.conf
 -'  20  32  /etc/nginx/sites-enabled/default
--'  56  25  ~/scratch/transcribe.py
--'  1  0  ~/scratch/transcribe.py
 
 # History of marks within files (newest to oldest):
+
+> /tmp/crontab.BKegcS/crontab
+	"	22	0
+	.	23	0
+	+	23	0
 
 > /.gitignore
 	"	6	3
