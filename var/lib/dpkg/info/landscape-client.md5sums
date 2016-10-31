@@ -1,0 +1,17 @@
+9de5c182c1492b0d9a2f1ae7e644ecd1  usr/bin/landscape-broker
+27a6f06f7bf35a5421e7e7401e1f93a5  usr/bin/landscape-client
+a09cacf98b01c64ac8bfce9d70ff2735  usr/bin/landscape-config
+fda2ceb8a2afff65caa56e9252bcf14e  usr/bin/landscape-dbus-proxy
+4f4a6031a10493dbca39b88b3b3918e1  usr/bin/landscape-manager
+5f0a571e7327e1e1cd56bb7954d18d6c  usr/bin/landscape-message
+4a7bd37d648da0f3acd02145f13ea7a8  usr/bin/landscape-monitor
+682981898c60c39f49dfb4923561a4a8  usr/bin/landscape-package-changer
+58e0a7b4fd1c28151568d381ae00bfc9  usr/bin/landscape-package-reporter
+f281996d9fb90c2fd6db457bcdfcf985  usr/bin/landscape-release-upgrader
+e2aac02d84d9caafe2c7257e93d37bae  usr/lib/landscape/apt-update
+c641ff13d1661585bea2612d6d812031  usr/share/doc/landscape-client/README
+c995cce46ab36159e366128d96004682  usr/share/doc/landscape-client/copyright
+868dbf753010546db982dd2eda9a4b26  usr/share/doc/landscape-client/example.conf.gz
+60f078be10267dfacbca2a3e30151067  usr/share/man/man1/landscape-client.1.gz
+5eaec65f6b483f5c9ec306a0489fd30d  usr/share/man/man1/landscape-config.1.gz
+b44fca49a7fb7125a4d2ce3dbbe952f9  usr/share/man/man1/landscape-message.1.gz

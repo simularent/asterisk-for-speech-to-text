@@ -1,0 +1,8 @@
+8e075d0f724144c0440b0f9abada46ea  usr/share/doc/libmodule-pluggable-perl/changelog.Debian.gz
+a5df9860b1d083267841697efe44274e  usr/share/doc/libmodule-pluggable-perl/copyright
+72eb1a3924ba926adbce920d633bd611  usr/share/man/man3/Devel::InnerPackage.3pm.gz
+cec39dc38dd57a93d6460035fbfc91ac  usr/share/man/man3/Module::Pluggable.3pm.gz
+5636981325dde2849111cc2b074ee0e3  usr/share/man/man3/Module::Pluggable::Object.3pm.gz
+82837002e4475d62322a58f23c4464ff  usr/share/perl5/Devel/InnerPackage.pm
+8fb8d2b5e9feb1d9bafa9916bcca418f  usr/share/perl5/Module/Pluggable.pm
+c7d65f579a26e26477e8c02646599972  usr/share/perl5/Module/Pluggable/Object.pm

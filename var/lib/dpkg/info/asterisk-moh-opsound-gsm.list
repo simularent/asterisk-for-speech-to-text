@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/asterisk
+/usr/share/asterisk/moh
+/usr/share/asterisk/moh/macroform-cold_day.gsm
+/usr/share/asterisk/moh/macroform-robot_dity.gsm
+/usr/share/asterisk/moh/macroform-the_simplicity.gsm
+/usr/share/asterisk/moh/manolo_camp-morning_coffee.gsm
+/usr/share/asterisk/moh/reno_project-system.gsm
+/usr/share/doc
+/usr/share/doc/asterisk-moh-opsound-gsm
+/usr/share/doc/asterisk-moh-opsound-gsm/copyright
+/usr/share/doc/asterisk-moh-opsound-gsm/changelog.Debian.gz

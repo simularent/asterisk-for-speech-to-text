@@ -1,0 +1,11 @@
+9ab1636fd74b0cc812a7e0b16b147292  usr/bin/newgidmap
+9eee4c88148b8ab3281b368a8c031aac  usr/bin/newuidmap
+59eaeeeee38776d0b5072ed1d4cb6f4c  usr/share/doc/uidmap/NEWS.Debian.gz
+580d1b7eba9762d53a4198758c3c44c2  usr/share/doc/uidmap/NEWS.gz
+2fd7ff4cc850cd4a65ffd381313062ca  usr/share/doc/uidmap/README
+92e04195fe971e46db9f27bc97d88f7c  usr/share/doc/uidmap/TODO.gz
+d561f25b3e9830737cb5a6f93d00d462  usr/share/doc/uidmap/changelog.Debian.gz
+4b6b514ee926d7b7f09355cb7fc2e312  usr/share/doc/uidmap/copyright
+0ef2dfbeadb422a93b51c9804e92d5b8  usr/share/lintian/overrides/uidmap
+712bf67e0dc975f72a14d7cc78eb1b7b  usr/share/man/man1/newgidmap.1.gz
+a5c08d2851c29cff184843af3111e436  usr/share/man/man1/newuidmap.1.gz

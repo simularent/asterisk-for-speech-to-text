@@ -1,0 +1,25 @@
+# It's Go, not much we can do about this
+embedded-library usr/bin/lxd: libyaml
+hardening-no-pie usr/bin/lxd
+hardening-no-bindnow usr/bin/lxd
+hardening-no-pie usr/lib/lxd/lxd-bridge-proxy
+hardening-no-bindnow usr/lib/lxd/lxd-bridge-proxy
+hardening-no-relro usr/lib/lxd/lxd-bridge-proxy
+
+# Not coming directly from the lxd code
+spelling-error-in-binary usr/bin/lxd savable saveable
+spelling-error-in-binary usr/bin/lxd secund second
+spelling-error-in-binary usr/bin/lxd changable changeable
+spelling-error-in-binary usr/bin/lxd collapsable collapsible
+spelling-error-in-binary usr/bin/lxd misformed malformed
+spelling-error-in-binary usr/bin/lxd unuseful useless
+spelling-error-in-binary usr/bin/lxd Nam Name
+spelling-error-in-binary usr/bin/lxd eror error
+spelling-error-in-binary usr/bin/lxd sematic semantic
+spelling-error-in-binary usr/bin/lxd unsued unused
+spelling-error-in-binary usr/bin/lxd writeN written
+spelling-error-in-binary usr/bin/lxd pervious previous
+spelling-error-in-binary usr/bin/lxd uncomplete incomplete
+
+# The "random" warning should only be shown in interactive mode
+possible-debconf-note-abuse * lxd/bridge-random-warning

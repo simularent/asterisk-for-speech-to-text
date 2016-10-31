@@ -1,0 +1,13 @@
+#! /bin/sh
+
+set -e
+
+rmdir /usr/local/share/asterisk/sounds 2>/dev/null || true
+rmdir /usr/local/share/asterisk        2>/dev/null || true
+
+# Automatically added by dh_installinit
+if [ -x "/etc/init.d/asterisk" ] || [ -e "/etc/init/asterisk.conf" ]; then
+	invoke-rc.d asterisk stop || exit $?
+fi
+# End automatically added section
+

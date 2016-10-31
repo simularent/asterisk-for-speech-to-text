@@ -1,0 +1,16 @@
+/.
+/etc
+/etc/update-motd.d
+/usr
+/usr/sbin
+/usr/sbin/update-motd
+/usr/share
+/usr/share/doc
+/usr/share/doc/update-motd
+/usr/share/doc/update-motd/README
+/usr/share/doc/update-motd/THANKS
+/usr/share/doc/update-motd/changelog.Debian.gz
+/usr/share/doc/update-motd/copyright
+/usr/share/man
+/usr/share/man/man8
+/usr/share/man/man8/update-motd.8.gz

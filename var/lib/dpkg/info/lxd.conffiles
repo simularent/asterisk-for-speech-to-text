@@ -1,0 +1,3 @@
+/etc/apparmor.d/usr.lib.lxd.lxd-bridge-proxy
+/etc/init.d/lxd
+/etc/init/lxd.conf

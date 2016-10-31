@@ -1,0 +1,14 @@
+ac1ae2c79e041e9dd14f83918e8e5a43  lib/systemd/system/lxd-bridge.service
+558dc28d97b90f7fe3590412b679197a  lib/systemd/system/lxd-containers.service
+897a9bd4be97936cb2ee9d4b23f5d7f3  lib/systemd/system/lxd.service
+815284858c436f666435b8cab6940242  lib/systemd/system/lxd.socket
+5184285e8878507ba90853ff6aebfc0a  usr/bin/lxd
+f9a8bd343ea75c095c4611949ba5dff2  usr/lib/lxd/lxd-bridge
+2f4605dd66c0dc2469d7d79f7245f0bd  usr/lib/lxd/lxd-bridge-proxy
+1ebcccbdb5b29ecba42321e920cae5a7  usr/lib/lxd/lxd-bridge.start
+b8f0248d3ffc725e45cc436c6dbd749f  usr/lib/lxd/profile-config
+a51e465dc5950a9a7e1fd4d91a75a3fe  usr/lib/lxd/shutdown
+eee1d679748823fe6ddc149ec629f776  usr/share/doc/lxd/changelog.Debian.gz
+09c4d2bff6c375f3b7540bee6728c5f1  usr/share/doc/lxd/copyright
+d7c7594243771bf42cf58a77941eec54  usr/share/lintian/overrides/lxd
+728e84bd102934b27409b9ef297b937d  usr/share/man/man1/lxd.1.gz

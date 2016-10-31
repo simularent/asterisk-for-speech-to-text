@@ -1,0 +1,35 @@
+2016-09-06 02:23:42,951 INFO Using config files '['./DistUpgrade.cfg']'
+2016-09-06 02:23:42,951 INFO uname information: 'Linux asterisk 3.13.0-92-generic #139-Ubuntu SMP Tue Jun 28 20:42:26 UTC 2016 x86_64'
+2016-09-06 02:23:43,681 INFO apt version: '1.2.12~ubuntu16.04.1'
+2016-09-06 02:23:43,681 INFO python version: '3.5.2 (default, Jul  5 2016, 12:43:10) 
+[GCC 5.4.0 20160609]'
+2016-09-06 02:23:43,685 INFO release-upgrader version '16.04.16' started
+2016-09-06 02:23:43,705 INFO locale: 'en_US' 'UTF-8'
+2016-09-06 02:23:43,961 DEBUG Using 'DistUpgradeViewText' view
+2016-09-06 02:23:44,065 DEBUG aufsOptionsAndEnvironmentSetup()
+2016-09-06 02:23:44,067 DEBUG using '/tmp/upgrade-rw-in5gh7y3' as aufs_rw_dir
+2016-09-06 02:23:44,067 DEBUG using '/tmp/upgrade-chroot-y4q1sx4r' as aufs chroot dir
+2016-09-06 02:23:44,068 DEBUG enable dpkg --force-overwrite
+2016-09-06 02:23:44,147 DEBUG creating statefile: '/var/log/dist-upgrade/apt-clone_system_state.tar.gz'
+2016-09-06 02:23:47,433 DEBUG lsb-release: 'xenial'
+2016-09-06 02:23:47,433 DEBUG _pythonSymlinkCheck run
+2016-09-06 02:23:47,437 DEBUG openCache()
+2016-09-06 02:23:47,437 DEBUG No such plugin directory: ./plugins
+2016-09-06 02:23:47,437 DEBUG plugins for condition 'PreCacheOpen' are '[]'
+2016-09-06 02:23:47,437 DEBUG plugins for condition 'xenialPreCacheOpen' are '[]'
+2016-09-06 02:23:47,437 DEBUG plugins for condition 'from_wilyPreCacheOpen' are '[]'
+2016-09-06 02:23:47,437 DEBUG quirks: running PreCacheOpen
+2016-09-06 02:23:47,437 DEBUG running Quirks.PreCacheOpen
+2016-09-06 02:23:48,073 DEBUG /openCache(), new cache size 54059
+2016-09-06 02:23:48,075 DEBUG need_server_mode(): can not find a desktop meta package or key deps, running in server mode
+2016-09-06 02:23:48,081 DEBUG checkViewDepends()
+2016-09-06 02:23:48,081 DEBUG depends: 'apt (>= 1.0.10.2ubuntu2)'
+2016-09-06 02:23:48,081 DEBUG checking: '[('apt', '1.0.10.2ubuntu2', '>=')]' 
+2016-09-06 02:23:48,081 DEBUG running doUpdate() (showErrors=False)
+2016-09-06 02:23:48,898 DEBUG openCache()
+2016-09-06 02:23:52,214 DEBUG /openCache(), new cache size 54059
+2016-09-06 02:23:52,214 DEBUG doPostInitialUpdate
+2016-09-06 02:23:52,214 DEBUG plugins for condition 'PostInitialUpdate' are '[]'
+2016-09-06 02:23:52,214 DEBUG plugins for condition 'xenialPostInitialUpdate' are '[]'
+2016-09-06 02:23:52,214 DEBUG plugins for condition 'from_wilyPostInitialUpdate' are '[]'
+2016-09-06 02:23:56,099 DEBUG MetaPkgs: 

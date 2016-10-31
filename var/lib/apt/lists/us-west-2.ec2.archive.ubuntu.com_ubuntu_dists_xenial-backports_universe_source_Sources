@@ -1,0 +1,59 @@
+Package: ansible
+Binary: ansible
+Version: 2.1.1.0-1~ubuntu16.04.1
+Priority: optional
+Section: universe/misc
+Maintainer: Harlan Lieberman-Berg <hlieberman@debian.org>
+Build-Depends: debhelper (>= 9), python-all, python-crypto, python-setuptools, python-yaml, asciidoc, python-nose, python-passlib, dh-python
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Directory: pool/universe/a/ansible
+Files:
+ 5148aa0d96264301b3fa72169aa6a0d8 2056 ansible_2.1.1.0-1~ubuntu16.04.1.dsc
+ d2521bc6416d07996e924fdd2d1fa6a2 1844349 ansible_2.1.1.0.orig.tar.gz
+ e83ebcd4f43ddeecd80a68ee0acafc8e 19784 ansible_2.1.1.0-1~ubuntu16.04.1.debian.tar.xz
+Uploaders: Michael Vogt <mvo@debian.org>, Janos Guljas <janos@debian.org>
+Homepage: http://ansible.com
+Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/ansible.git
+Vcs-Git: https://anonscm.debian.org/git/collab-maint/ansible.git
+Package-List:
+ ansible deb admin optional arch=all
+Checksums-Sha1:
+ 83371810e513d794fed678ab423a6b6c5b78284a 2056 ansible_2.1.1.0-1~ubuntu16.04.1.dsc
+ f596a7950ebe839eaf650643e9afeb8c1307817a 1844349 ansible_2.1.1.0.orig.tar.gz
+ 2a3268b38a7e7ef8efc46c2630bb5b522bc4a3f7 19784 ansible_2.1.1.0-1~ubuntu16.04.1.debian.tar.xz
+Checksums-Sha256:
+ d984f392fcb5cddf5fce7d8f4ba1353ea5e06f1b25e1753bd29e022e80a09570 2056 ansible_2.1.1.0-1~ubuntu16.04.1.dsc
+ 61e739c123923ba90169f42c54e5f51df759ed40b4e332a7160d7db963d5678b 1844349 ansible_2.1.1.0.orig.tar.gz
+ 8e180fafd4ab47c79786c6f15b239cb1b4897d8ae8cbeb833c5f8d7e0a176052 19784 ansible_2.1.1.0-1~ubuntu16.04.1.debian.tar.xz
+
+Package: mustache-d
+Binary: libmustache-d-dev
+Version: 0.1.1-1~ubuntu16.04.1
+Priority: optional
+Section: universe/misc
+Maintainer: Matthias Klumpp <mak@debian.org>
+Build-Depends: debhelper (>= 9.0.0), dub
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Directory: pool/universe/m/mustache-d
+Files:
+ 7d0a9a9340447178806455b833f7a270 1936 mustache-d_0.1.1-1~ubuntu16.04.1.dsc
+ 46c8feb9eadc1629e03ea4c3e94220bd 16939 mustache-d_0.1.1.orig.tar.gz
+ 884ee1014d1c7d4d82c8b7ded005563d 2360 mustache-d_0.1.1-1~ubuntu16.04.1.debian.tar.xz
+Homepage: https://github.com/repeatedly/mustache-d
+Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/mustache-d.git
+Vcs-Git: https://anonscm.debian.org/git/collab-maint/mustache-d.git
+Package-List:
+ libmustache-d-dev deb libdevel optional arch=any
+Checksums-Sha1:
+ a098888e8d227f7cc509d68f2721f33c46cc489b 1936 mustache-d_0.1.1-1~ubuntu16.04.1.dsc
+ d02af3c3e8d1fc83b94d562e505fbc0a0b128c95 16939 mustache-d_0.1.1.orig.tar.gz
+ f6c7d369bc21c8560bbf243bbd6cc77382dccdca 2360 mustache-d_0.1.1-1~ubuntu16.04.1.debian.tar.xz
+Checksums-Sha256:
+ fa8d31f65248c692d397e9459bde45c940f4660decadc4ad001357ec3c2f6f5d 1936 mustache-d_0.1.1-1~ubuntu16.04.1.dsc
+ 9ae0c4da58f81da9bb1734b6907fc22f5d00727fdc64085c5167ee7df5b3bece 16939 mustache-d_0.1.1.orig.tar.gz
+ b06dd16f3f6fc72770b338f74d5681dbd7429578b937628ffd7a91ef27207073 2360 mustache-d_0.1.1-1~ubuntu16.04.1.debian.tar.xz
+

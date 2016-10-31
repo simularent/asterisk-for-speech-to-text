@@ -1,0 +1,3 @@
+update-alternatives 2016-10-17 12:04:04: run with --install /usr/bin/php php /usr/bin/php7.0 70 --slave /usr/share/man/man1/php.1.gz php.1.gz /usr/share/man/man1/php7.0.1.gz
+update-alternatives 2016-10-17 12:04:04: run with --install /usr/bin/phar phar /usr/bin/phar7.0 70 --slave /usr/share/man/man1/phar.1.gz phar.1.gz /usr/share/man/man1/phar7.0.1.gz
+update-alternatives 2016-10-17 12:04:04: run with --install /usr/bin/phar.phar phar.phar /usr/bin/phar.phar7.0 70 --slave /usr/share/man/man1/phar.phar.1.gz phar.phar.1.gz /usr/share/man/man1/phar.phar7.0.1.gz

@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apparmor.d/usr.bin.ubuntu-core-launcher 1.0.29~ -- "$@"
+# End automatically added section

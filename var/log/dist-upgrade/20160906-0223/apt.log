@@ -1,0 +1,539 @@
+Log time: 2016-09-06 02:15:11.577799
+Log time: 2016-09-06 02:15:14.181763
+Log time: 2016-09-06 02:15:26.045449
+  MarkInstall bind9-host [ amd64 ] < 1:9.9.5.dfsg-3ubuntu0.8 -> 1:9.10.3.dfsg.P4-8ubuntu1 > ( net ) FU=0
+  Installing libbind9-140 as Depends of bind9-host
+    MarkInstall libbind9-140 [ amd64 ] < none -> 1:9.10.3.dfsg.P4-8ubuntu1 > ( libs ) FU=0
+    Installing libdns162 as Depends of libbind9-140
+      MarkInstall libdns162 [ amd64 ] < none -> 1:9.10.3.dfsg.P4-8ubuntu1 > ( libs ) FU=0
+      Installing libisc160 as Depends of libdns162
+        MarkInstall libisc160 [ amd64 ] < none -> 1:9.10.3.dfsg.P4-8ubuntu1 > ( libs ) FU=0
+    Installing libisccfg140 as Depends of libbind9-140
+      MarkInstall libisccfg140 [ amd64 ] < none -> 1:9.10.3.dfsg.P4-8ubuntu1 > ( libs ) FU=0
+      Installing libisccc140 as Depends of libisccfg140
+        MarkInstall libisccc140 [ amd64 ] < none -> 1:9.10.3.dfsg.P4-8ubuntu1 > ( libs ) FU=0
+  Installing liblwres141 as Depends of bind9-host
+    MarkInstall liblwres141 [ amd64 ] < none -> 1:9.10.3.dfsg.P4-8ubuntu1 > ( libs ) FU=0
+  MarkInstall python3 [ amd64 ] < 3.4.0-0ubuntu2 -> 3.5.1-3 > ( python ) FU=0
+  Installing python3.5 as Depends of python3
+    MarkInstall python3.5 [ amd64 ] < none -> 3.5.2-2~16.01 > ( python ) FU=0
+    Installing python3.5-minimal as Depends of python3.5
+      MarkInstall python3.5-minimal [ amd64 ] < none -> 3.5.2-2~16.01 > ( python ) FU=0
+      Installing libpython3.5-minimal as Depends of python3.5-minimal
+        MarkInstall libpython3.5-minimal [ amd64 ] < none -> 3.5.2-2~16.01 > ( python ) FU=0
+        Installing libpython3.5-stdlib as Recommends of libpython3.5-minimal
+          MarkInstall libpython3.5-stdlib [ amd64 ] < none -> 3.5.2-2~16.01 > ( python ) FU=0
+  MarkInstall gettext-base [ amd64 ] < 0.18.3.1-1ubuntu3 -> 0.19.7-2ubuntu3 > ( utils ) FU=0
+  Installing libasprintf0v5 as Depends of gettext-base
+    MarkInstall libasprintf0v5 [ amd64 ] < none -> 0.19.7-2ubuntu3 > ( libs ) FU=0
+     Removing: libasprintf0c2
+      MarkDelete libasprintf0c2 [ amd64 ] < 0.18.3.1-1ubuntu3 > ( libs ) FU=0
+  MarkInstall open-vm-tools [ amd64 ] < 2:9.4.0-1280544-5ubuntu6.2 -> 2:10.0.7-3227872-2ubuntu1 > ( admin ) FU=0
+  Installing libicu55 as Depends of open-vm-tools
+    MarkInstall libicu55 [ amd64 ] < none -> 55.1-7 > ( libs ) FU=0
+  Installing libmspack0 as Depends of open-vm-tools
+    MarkInstall libmspack0 [ amd64 ] < none -> 0.5-1 > ( libs ) FU=0
+  MarkInstall gawk [ amd64 ] < 1:4.0.1+dfsg-2.1ubuntu2 -> 1:4.1.3+dfsg-0.1 > ( interpreters ) FU=0
+  Installing libgmp10 as PreDepends of gawk
+    MarkInstall libgmp10 [ amd64 ] < none -> 2:6.1.0+dfsg-2 > ( libs ) FU=0
+  Installing libmpfr4 as PreDepends of gawk
+    MarkInstall libmpfr4 [ amd64 ] < none -> 3.1.4-1 > ( libs ) FU=0
+  MarkInstall apt [ amd64 ] < 1.0.1ubuntu2.14 -> 1.2.12~ubuntu16.04.1 > ( admin ) FU=0
+  Installing libapt-pkg5.0 as Depends of apt
+    MarkInstall libapt-pkg5.0 [ amd64 ] < none -> 1.2.12~ubuntu16.04.1 > ( libs ) FU=0
+    Installing liblz4-1 as Depends of libapt-pkg5.0
+      MarkInstall liblz4-1 [ amd64 ] < none -> 0.0~r131-2ubuntu2 > ( libs ) FU=0
+  MarkInstall apt-xapian-index [ amd64 ] < 0.45ubuntu4 -> 0.47ubuntu8.3 > ( universe/admin ) FU=0
+  Installing python3-xapian1.3 as Depends of apt-xapian-index
+    MarkInstall python3-xapian1.3 [ amd64 ] < none -> 1.3.4-0ubuntu1 > ( universe/python ) FU=0
+    Installing libxapian-1.3-5 as Depends of python3-xapian1.3
+      MarkInstall libxapian-1.3-5 [ amd64 ] < none -> 1.3.4-0ubuntu6 > ( universe/libs ) FU=0
+  Installing python3-debian as Depends of apt-xapian-index
+    MarkInstall python3-debian [ amd64 ] < none -> 0.1.27ubuntu2 > ( python ) FU=0
+    Installing python3-chardet as Depends of python3-debian
+      MarkInstall python3-chardet [ amd64 ] < none -> 2.3.0-2 > ( python ) FU=0
+      Installing python3-pkg-resources as Depends of python3-chardet
+        MarkInstall python3-pkg-resources [ amd64 ] < none -> 20.7.0-1 > ( python ) FU=0
+    Installing python3-six as Depends of python3-debian
+      MarkInstall python3-six [ amd64 ] < none -> 1.10.0-3 > ( python ) FU=0
+  MarkInstall linux-headers-generic [ amd64 ] < 3.13.0.92.99 -> 4.4.0.36.38 > ( devel ) FU=0
+  Installing linux-headers-4.4.0-36-generic as Depends of linux-headers-generic
+    MarkInstall linux-headers-4.4.0-36-generic [ amd64 ] < none -> 4.4.0-36.55 > ( devel ) FU=0
+    Installing linux-headers-4.4.0-36 as Depends of linux-headers-4.4.0-36-generic
+      MarkInstall linux-headers-4.4.0-36 [ amd64 ] < none -> 4.4.0-36.55 > ( devel ) FU=0
+  MarkInstall libgnutls-openssl27 [ amd64 ] < 2.12.23-12ubuntu2.5 -> 3.4.10-4ubuntu1.1 > ( libs ) FU=0
+  Installing libgnutls30 as Depends of libgnutls-openssl27
+    MarkInstall libgnutls30 [ amd64 ] < none -> 3.4.10-4ubuntu1.1 > ( libs ) FU=0
+    Installing libhogweed4 as Depends of libgnutls30
+      MarkInstall libhogweed4 [ amd64 ] < none -> 3.2-1 > ( libs ) FU=0
+      Installing libnettle6 as Depends of libhogweed4
+        MarkInstall libnettle6 [ amd64 ] < none -> 3.2-1 > ( libs ) FU=0
+  MarkInstall perl [ amd64 ] < 5.18.2-2ubuntu1.1 -> 5.22.1-9 > ( perl ) FU=0
+  Installing perl-modules-5.22 as Depends of perl
+    MarkInstall perl-modules-5.22 [ amd64 ] < none -> 5.22.1-9 > ( perl ) FU=0
+     Removing: perl-modules
+      MarkDelete perl-modules [ amd64 ] < 5.18.2-2ubuntu1.1 > ( perl ) FU=0
+  Installing libperl5.22 as Depends of perl
+    MarkInstall libperl5.22 [ amd64 ] < none -> 5.22.1-9 > ( libs ) FU=0
+  new important dependency: rename:amd64
+  Installing rename as Recommends of perl
+    MarkInstall rename [ amd64 ] < none -> 0.20-4 > ( perl ) FU=0
+  MarkInstall tmux [ amd64 ] < 1.8-5 -> 2.1-3build1 > ( admin ) FU=0
+  Installing libutempter0 as Depends of tmux
+    MarkInstall libutempter0 [ amd64 ] < none -> 1.1.6-3 > ( libs ) FU=0
+  MarkInstall procps [ amd64 ] < 1:3.3.9-1ubuntu2.2 -> 2:3.3.10-4ubuntu2 > ( admin ) FU=0
+  Installing libprocps4 as Depends of procps
+    MarkInstall libprocps4 [ amd64 ] < none -> 2:3.3.10-4ubuntu2 > ( libs ) FU=0
+    Installing libsystemd0 as Depends of libprocps4
+      MarkInstall libsystemd0 [ amd64 ] < none -> 229-4ubuntu7 > ( libs ) FU=0
+      Installing libgcrypt20 as PreDepends of libsystemd0
+        MarkInstall libgcrypt20 [ amd64 ] < none -> 1.6.5-2ubuntu0.2 > ( libs ) FU=0
+  MarkInstall libgomp1 [ amd64 ] < 4.8.4-2ubuntu1~14.04.3 -> 5.4.0-6ubuntu1~16.04.2 > ( libs ) FU=0
+  Installing gcc-5-base as Depends of libgomp1
+    MarkInstall gcc-5-base [ amd64 ] < none -> 5.4.0-6ubuntu1~16.04.2 > ( libs ) FU=0
+  MarkInstall python-urllib3 [ amd64 ] < 1.7.1-1ubuntu4 -> 1.13.1-2ubuntu0.16.04.1 > ( python ) FU=0
+  new important dependency: python-ndg-httpsclient:amd64
+  Installing python-ndg-httpsclient as Recommends of python-urllib3
+    MarkInstall python-ndg-httpsclient [ amd64 ] < none -> 0.4.0-3 > ( python ) FU=0
+    Installing python-pyasn1 as Recommends of python-ndg-httpsclient
+      MarkInstall python-pyasn1 [ amd64 ] < none -> 0.1.9-1 > ( python ) FU=0
+  MarkInstall liblog-message-simple-perl [ amd64 ] < 0.10-1 -> 0.10-2 > ( universe/perl ) FU=0
+  Installing liblog-message-perl as Depends of liblog-message-simple-perl
+    MarkInstall liblog-message-perl [ amd64 ] < none -> 0.8-1 > ( universe/perl ) FU=0
+  MarkInstall byobu [ amd64 ] < 5.77-0ubuntu1.2 -> 5.106-0ubuntu1 > ( misc ) FU=0
+  new important dependency: pastebinit:amd64
+  Installing pastebinit as Recommends of byobu
+    MarkInstall pastebinit [ amd64 ] < none -> 1.5-1 > ( misc ) FU=0
+  MarkInstall console-setup [ amd64 ] < 1.70ubuntu8 -> 1.108ubuntu15.2 > ( utils ) FU=0
+  Installing console-setup-linux as Depends of console-setup
+    MarkInstall console-setup-linux [ amd64 ] < none -> 1.108ubuntu15.2 > ( utils ) FU=0
+  MarkInstall eatmydata [ amd64 ] < 26-2 -> 105-3 > ( utils ) FU=0
+  Installing libeatmydata1 as Depends of eatmydata
+    MarkInstall libeatmydata1 [ amd64 ] < none -> 105-3 > ( utils ) FU=0
+  MarkInstall apt-utils [ amd64 ] < 1.0.1ubuntu2.14 -> 1.2.12~ubuntu16.04.1 > ( admin ) FU=0
+  Installing libapt-inst2.0 as Depends of apt-utils
+    MarkInstall libapt-inst2.0 [ amd64 ] < none -> 1.2.12~ubuntu16.04.1 > ( libs ) FU=0
+  MarkInstall iproute2 [ amd64 ] < 3.12.0-2ubuntu1 -> 4.3.0-1ubuntu3 > ( net ) FU=0
+  Installing libmnl0 as Depends of iproute2
+    MarkInstall libmnl0 [ amd64 ] < none -> 1.0.3-5 > ( libs ) FU=0
+  ignore old unsatisfied important dependency on libatm1:amd64
+  new important dependency: libxtables11:amd64
+  Installing libxtables11 as Recommends of iproute2
+    MarkInstall libxtables11 [ amd64 ] < none -> 1.6.0-2ubuntu3 > ( net ) FU=0
+  MarkInstall python-xapian [ amd64 ] < 1.2.16-2ubuntu1 -> 1.2.22-2build1 > ( python ) FU=0
+  Installing libxapian22v5 as Depends of python-xapian
+    MarkInstall libxapian22v5 [ amd64 ] < none -> 1.2.22-2 > ( libs ) FU=0
+     Removing: libxapian22
+      MarkDelete libxapian22 [ amd64 ] < 1.2.16-2ubuntu1 > ( libs ) FU=0
+  MarkInstall plymouth-theme-ubuntu-text [ amd64 ] < 0.8.8-0ubuntu17.1 -> 0.9.2-3ubuntu13.1 > ( x11 ) FU=0
+  Installing libplymouth4 as Depends of plymouth-theme-ubuntu-text
+    MarkInstall libplymouth4 [ amd64 ] < none -> 0.9.2-3ubuntu13.1 > ( libs ) FU=0
+  MarkInstall mount [ amd64 ] < 2.20.1-5.1ubuntu20.7 -> 2.27.1-6ubuntu3.1 > ( admin ) FU=0
+  Installing libsmartcols1 as PreDepends of mount
+    MarkInstall libsmartcols1 [ amd64 ] < none -> 2.27.1-6ubuntu3.1 > ( libs ) FU=0
+  MarkInstall parted [ amd64 ] < 2.3-19ubuntu1.14.04.1 -> 3.2-15 > ( admin ) FU=0
+  Installing libparted2 as Depends of parted
+    MarkInstall libparted2 [ amd64 ] < none -> 3.2-15 > ( libs ) FU=0
+  MarkInstall asterisk [ amd64 ] < 1:11.7.0~dfsg-1ubuntu1 -> 1:13.1.0~dfsg-1.1ubuntu4 > ( universe/comm ) FU=0
+  Installing libjansson4 as Depends of asterisk
+    MarkInstall libjansson4 [ amd64 ] < none -> 2.7-3 > ( libs ) FU=0
+  Installing libxslt1.1 as Depends of asterisk
+    MarkInstall libxslt1.1 [ amd64 ] < none -> 1.1.28-2.1 > ( libs ) FU=0
+  MarkInstall linux-image-virtual [ amd64 ] < 3.13.0.92.99 -> 4.4.0.36.38 > ( kernel ) FU=0
+  Installing linux-image-4.4.0-36-generic as Depends of linux-image-virtual
+    MarkInstall linux-image-4.4.0-36-generic [ amd64 ] < none -> 4.4.0-36.55 > ( kernel ) FU=0
+  MarkInstall libgcc1 [ amd64 ] < 1:4.9.3-0ubuntu4 -> 1:6.0.1-0ubuntu1 > ( libs ) FU=0
+  Installing gcc-6-base as Depends of libgcc1
+    MarkInstall gcc-6-base [ amd64 ] < none -> 6.0.1-0ubuntu1 > ( libs ) FU=0
+  MarkInstall libpam-systemd [ amd64 ] < 204-5ubuntu20.19 -> 229-4ubuntu7 > ( admin ) FU=0
+  Installing systemd as Depends of libpam-systemd
+    MarkInstall systemd [ amd64 ] < none -> 229-4ubuntu7 > ( admin ) FU=0
+    Installing libseccomp2 as Depends of systemd
+      MarkInstall libseccomp2 [ amd64 ] < none -> 2.2.3-3ubuntu3 > ( libs ) FU=0
+     Removing: systemd-services
+      MarkDelete systemd-services [ amd64 ] < 204-5ubuntu20.19 > ( admin ) FU=0
+  MarkInstall libglib2.0-0 [ amd64 ] < 2.40.2-0ubuntu1 -> 2.48.1-1~ubuntu16.04.1 > ( libs ) FU=0
+  new important dependency: xdg-user-dirs:amd64
+  Installing xdg-user-dirs as Recommends of libglib2.0-0
+    MarkInstall xdg-user-dirs [ amd64 ] < none -> 0.15-2ubuntu6 > ( utils ) FU=0
+  MarkInstall libperl5.18 [ amd64 ] < 5.18.2-2ubuntu1.1 > ( libs ) FU=0
+  MarkInstall initramfs-tools [ amd64 ] < 0.103ubuntu4.4 -> 0.122ubuntu8.1 > ( utils ) FU=0
+  Installing initramfs-tools-core as Depends of initramfs-tools
+    MarkInstall initramfs-tools-core [ amd64 ] < none -> 0.122ubuntu8.1 > ( utils ) FU=0
+  Installing linux-base as Depends of initramfs-tools
+    MarkInstall linux-base [ amd64 ] < none -> 4.0ubuntu1 > ( kernel ) FU=0
+  MarkInstall libpam-modules [ amd64 ] < 1.1.8-1ubuntu2.2 -> 1.1.8-3.2ubuntu2 > ( admin ) FU=0
+  new important dependency: update-motd:amd64
+  Installing update-motd as Recommends of libpam-modules
+    MarkInstall update-motd [ amd64 ] < none -> 3.6-0ubuntu1 > ( admin ) FU=0
+  MarkInstall ubuntu-standard [ amd64 ] < 1.325 -> 1.361 > ( metapackages ) FU=0
+  Installing systemd-sysv as Depends of ubuntu-standard
+    MarkInstall systemd-sysv [ amd64 ] < none -> 229-4ubuntu7 > ( admin ) FU=0
+  Setting NOT as auto-installed (direct Depends of pkg in APT::Never-MarkAuto-Sections)
+  MarkInstall ssh-import-id [ amd64 ] < 3.21-0ubuntu1 -> 5.5-0ubuntu1 > ( misc ) FU=0
+  Installing python3-requests as Depends of ssh-import-id
+    MarkInstall python3-requests [ amd64 ] < none -> 2.9.1-3 > ( python ) FU=0
+    Installing python3-urllib3 as Depends of python3-requests
+      MarkInstall python3-urllib3 [ amd64 ] < none -> 1.13.1-2ubuntu0.16.04.1 > ( python ) FU=0
+  MarkInstall lsb-release [ amd64 ] < 4.1+Debian11ubuntu6.1 -> 9.20160110ubuntu0.2 > ( misc ) FU=0
+  Installing distro-info-data as Depends of lsb-release
+    MarkInstall distro-info-data [ amd64 ] < none -> 0.28ubuntu0.1 > ( devel ) FU=0
+    MarkKeep perl-modules [ amd64 ] < 5.18.2-2ubuntu1.1 > ( perl ) FU=0
+  MarkInstall isc-dhcp-client [ amd64 ] < 4.2.4-7ubuntu12.5 -> 4.3.3-5ubuntu12.1 > ( net ) FU=0
+  Installing libdns-export162 as Depends of isc-dhcp-client
+    MarkInstall libdns-export162 [ amd64 ] < none -> 1:9.10.3.dfsg.P4-8ubuntu1 > ( libs ) FU=0
+    Installing libisc-export160 as Depends of libdns-export162
+      MarkInstall libisc-export160 [ amd64 ] < none -> 1:9.10.3.dfsg.P4-8ubuntu1 > ( libs ) FU=0
+  MarkInstall asterisk-modules [ amd64 ] < 1:11.7.0~dfsg-1ubuntu1 -> 1:13.1.0~dfsg-1.1ubuntu4 > ( universe/libs ) FU=0
+  Installing libical1a as Depends of asterisk-modules
+    MarkInstall libical1a [ amd64 ] < none -> 1.0.1-0ubuntu2 > ( libs ) FU=0
+     Removing: libical1
+      MarkDelete libical1 [ amd64 ] < 1.0-0ubuntu1 > ( libs ) FU=0
+  Installing libpjmedia2 as Depends of asterisk-modules
+    MarkInstall libpjmedia2 [ amd64 ] < none -> 2.1.0.0.ast20130823-1 > ( universe/comm ) FU=0
+    Installing libpjmedia-audiodev2 as Depends of libpjmedia2
+      MarkInstall libpjmedia-audiodev2 [ amd64 ] < none -> 2.1.0.0.ast20130823-1 > ( universe/comm ) FU=0
+      Installing libportaudio2 as Depends of libpjmedia-audiodev2
+        MarkInstall libportaudio2 [ amd64 ] < none -> 19+svn20140130-1build1 > ( libs ) FU=0
+  Installing libpjsip-simple2 as Depends of asterisk-modules
+    MarkInstall libpjsip-simple2 [ amd64 ] < none -> 2.1.0.0.ast20130823-1 > ( universe/comm ) FU=0
+    Installing libpjsip2 as Depends of libpjsip-simple2
+      MarkInstall libpjsip2 [ amd64 ] < none -> 2.1.0.0.ast20130823-1 > ( universe/comm ) FU=0
+  Installing libpjsip-ua2 as Depends of asterisk-modules
+    MarkInstall libpjsip-ua2 [ amd64 ] < none -> 2.1.0.0.ast20130823-1 > ( universe/comm ) FU=0
+  MarkInstall python-openssl [ amd64 ] < 0.13-2ubuntu6 -> 0.15.1-2build1 > ( python ) FU=0
+  Installing python-cryptography as Depends of python-openssl
+    MarkInstall python-cryptography [ amd64 ] < none -> 1.2.3-1 > ( python ) FU=0
+    Installing python-cffi-backend as Depends of python-cryptography
+      MarkInstall python-cffi-backend [ amd64 ] < none -> 1.5.2-1ubuntu1 > ( python ) FU=0
+    Installing python-enum34 as Depends of python-cryptography
+      MarkInstall python-enum34 [ amd64 ] < none -> 1.1.2-1 > ( python ) FU=0
+    Installing python-idna as Depends of python-cryptography
+      MarkInstall python-idna [ amd64 ] < none -> 2.0-3 > ( python ) FU=0
+    Installing python-ipaddress as Depends of python-cryptography
+      MarkInstall python-ipaddress [ amd64 ] < none -> 1.0.16-1 > ( python ) FU=0
+  MarkInstall python-twisted-core [ amd64 ] < 13.2.0-1ubuntu1 -> 16.0.0-1 > ( python ) FU=0
+  Installing python-service-identity as Depends of python-twisted-core
+    MarkInstall python-service-identity [ amd64 ] < none -> 16.0.0-2 > ( python ) FU=0
+    Installing python-attr as Depends of python-service-identity
+      MarkInstall python-attr [ amd64 ] < none -> 15.2.0-1 > ( python ) FU=0
+    Installing python-pyasn1-modules as Depends of python-service-identity
+      MarkInstall python-pyasn1-modules [ amd64 ] < none -> 0.0.7-0.1 > ( python ) FU=0
+  MarkInstall vim [ amd64 ] < 2:7.4.052-1ubuntu3 -> 2:7.4.1689-3ubuntu1.1 > ( editors ) FU=0
+  Installing libpython3.5 as Depends of vim
+    MarkInstall libpython3.5 [ amd64 ] < none -> 3.5.2-2~16.01 > ( libs ) FU=0
+  MarkInstall libcurl3 [ amd64 ] < 7.35.0-1ubuntu2.8 -> 7.47.0-1ubuntu2.1 > ( libs ) FU=0
+  Installing librtmp1 as Depends of libcurl3
+    MarkInstall librtmp1 [ amd64 ] < none -> 2.4+20151223.gitfa8646d-1build1 > ( libs ) FU=0
+  MarkInstall apport [ amd64 ] < 2.14.1-0ubuntu3.21 -> 2.20.1-0ubuntu2.1 > ( utils ) FU=0
+  new important dependency: python3-systemd:amd64
+  Installing python3-systemd as Recommends of apport
+    MarkInstall python3-systemd [ amd64 ] < none -> 231-2build1 > ( python ) FU=0
+  MarkInstall libmodule-pluggable-perl [ amd64 ] < 5.1-1 -> 5.2-1 > ( universe/perl ) FU=0
+  new important dependency: libmodule-runtime-perl:amd64
+  Installing libmodule-runtime-perl as Recommends of libmodule-pluggable-perl
+    MarkInstall libmodule-runtime-perl [ amd64 ] < none -> 0.014-2 > ( universe/perl ) FU=0
+    Installing libparams-classify-perl as Depends of libmodule-runtime-perl
+      MarkInstall libparams-classify-perl [ amd64 ] < none -> 0.013-5build1 > ( universe/perl ) FU=0
+  MarkInstall aptitude [ amd64 ] < 0.6.8.2-1ubuntu4 -> 0.7.4-2ubuntu2 > ( admin ) FU=0
+  Installing libboost-iostreams1.58.0 as Depends of aptitude
+    MarkInstall libboost-iostreams1.58.0 [ amd64 ] < none -> 1.58.0+dfsg-5ubuntu3.1 > ( libs ) FU=0
+  Installing libcwidget3v5 as Depends of aptitude
+    MarkInstall libcwidget3v5 [ amd64 ] < none -> 0.5.17-4ubuntu2 > ( libs ) FU=0
+    Installing libsigc++-2.0-0v5 as Depends of libcwidget3v5
+      MarkInstall libsigc++-2.0-0v5 [ amd64 ] < none -> 2.6.2-1 > ( libs ) FU=0
+       Removing: libsigc++-2.0-0c2a
+        MarkDelete libsigc++-2.0-0c2a [ amd64 ] < 2.2.10-0.2ubuntu2 > ( libs ) FU=0
+     Removing: libcwidget3
+      MarkDelete libcwidget3 [ amd64 ] < 0.5.16-3.5ubuntu1 > ( libs ) FU=0
+    MarkKeep libasprintf0c2 [ amd64 ] < 0.18.3.1-1ubuntu3 > ( libs ) FU=0
+  MarkInstall systemd-shim [ amd64 ] < 6-2bzr1 -> 9-1bzr4ubuntu1 > ( admin ) FU=0
+  Installing cgmanager as Depends of systemd-shim
+    MarkInstall cgmanager [ amd64 ] < none -> 0.39-2ubuntu5 > ( admin ) FU=0
+  MarkInstall findutils [ amd64 ] < 4.4.2-7 -> 4.6.0+git+20160126-2 > ( utils ) FU=0
+   Removing: libpython3.4-minimal
+    MarkDelete libpython3.4-minimal [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python ) FU=0
+  MarkInstall cloud-init [ amd64 ] < 0.7.5-0ubuntu1.19 -> 0.7.7~bzr1256-0ubuntu1~16.04.1 > ( admin ) FU=0
+  Installing python3-configobj as Depends of cloud-init
+    MarkInstall python3-configobj [ amd64 ] < none -> 5.0.6-2 > ( python ) FU=0
+  Installing python3-jinja2 as Depends of cloud-init
+    MarkInstall python3-jinja2 [ amd64 ] < none -> 2.8-1 > ( python ) FU=0
+    Installing python3-markupsafe as Depends of python3-jinja2
+      MarkInstall python3-markupsafe [ amd64 ] < none -> 0.23-2build2 > ( python ) FU=0
+  Installing python3-jsonpatch as Depends of cloud-init
+    MarkInstall python3-jsonpatch [ amd64 ] < none -> 1.19-3 > ( python ) FU=0
+    Installing python3-json-pointer as Depends of python3-jsonpatch
+      MarkInstall python3-json-pointer [ amd64 ] < none -> 1.9-3 > ( python ) FU=0
+  Installing python3-oauthlib as Depends of cloud-init
+    MarkInstall python3-oauthlib [ amd64 ] < none -> 1.0.3-1 > ( python ) FU=0
+    Installing python3-blinker as Depends of python3-oauthlib
+      MarkInstall python3-blinker [ amd64 ] < none -> 1.3.dfsg2-1build1 > ( python ) FU=0
+    Installing python3-cryptography as Depends of python3-oauthlib
+      MarkInstall python3-cryptography [ amd64 ] < none -> 1.2.3-1 > ( python ) FU=0
+      Installing python3-cffi-backend as Depends of python3-cryptography
+        MarkInstall python3-cffi-backend [ amd64 ] < none -> 1.5.2-1ubuntu1 > ( python ) FU=0
+      Installing python3-idna as Depends of python3-cryptography
+        MarkInstall python3-idna [ amd64 ] < none -> 2.0-3 > ( python ) FU=0
+      Installing python3-pyasn1 as Depends of python3-cryptography
+        MarkInstall python3-pyasn1 [ amd64 ] < none -> 0.1.9-1 > ( python ) FU=0
+    Installing python3-jwt as Depends of python3-oauthlib
+      MarkInstall python3-jwt [ amd64 ] < none -> 1.3.0-1 > ( python ) FU=0
+  Installing python3-prettytable as Depends of cloud-init
+    MarkInstall python3-prettytable [ amd64 ] < none -> 0.7.2-3 > ( python ) FU=0
+  Installing python3-yaml as Depends of cloud-init
+    MarkInstall python3-yaml [ amd64 ] < none -> 3.11-3build1 > ( python ) FU=0
+  MarkInstall util-linux [ amd64 ] < 2.20.1-5.1ubuntu20.7 -> 2.27.1-6ubuntu3.1 > ( utils ) FU=0
+  Installing libfdisk1 as PreDepends of util-linux
+    MarkInstall libfdisk1 [ amd64 ] < none -> 2.27.1-6ubuntu3.1 > ( libs ) FU=0
+  MarkInstall libgpgme11 [ amd64 ] < 1.4.3-0.1ubuntu5.1 -> 1.6.0-1 > ( libs ) FU=0
+  Installing gnupg2 as Depends of libgpgme11
+    MarkInstall gnupg2 [ amd64 ] < none -> 2.1.11-6ubuntu2 > ( utils ) FU=0
+    Installing gnupg-agent as Depends of gnupg2
+      MarkInstall gnupg-agent [ amd64 ] < none -> 2.1.11-6ubuntu2 > ( utils ) FU=0
+      Installing pinentry-curses as Depends of gnupg-agent
+        MarkInstall pinentry-curses [ amd64 ] < none -> 0.9.7-3 > ( utils ) FU=0
+      Installing libnpth0 as Depends of gnupg-agent
+        MarkInstall libnpth0 [ amd64 ] < none -> 1.2-3 > ( libs ) FU=0
+    Installing libksba8 as Depends of gnupg2
+      MarkInstall libksba8 [ amd64 ] < none -> 1.3.3-1ubuntu0.16.04.1 > ( libs ) FU=0
+    Installing dirmngr as Recommends of gnupg2
+      MarkInstall dirmngr [ amd64 ] < none -> 2.1.11-6ubuntu2 > ( utils ) FU=0
+  MarkInstall init [ amd64 ] < none -> 1.29ubuntu2 > ( metapackages ) FU=0
+    MarkKeep libxapian22 [ amd64 ] < 1.2.16-2ubuntu1 > ( libs ) FU=0
+    MarkKeep systemd-services [ amd64 ] < 204-5ubuntu20.19 > ( admin ) FU=0
+    MarkKeep libcwidget3 [ amd64 ] < 0.5.16-3.5ubuntu1 > ( libs ) FU=0
+    MarkKeep libical1 [ amd64 ] < 1.0-0ubuntu1 > ( libs ) FU=0
+    MarkKeep libsigc++-2.0-0c2a [ amd64 ] < 2.2.10-0.2ubuntu2 > ( libs ) FU=0
+    MarkKeep libpython3.4-minimal [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python ) FU=0
+Starting pkgProblemResolver with broken count: 10
+Starting 2 pkgProblemResolver with broken count: 10
+Investigating (0) perl-base [ amd64 ] < 5.18.2-2ubuntu1.1 -> 5.22.1-9 > ( perl )
+Broken perl-base:amd64 Breaks on perl-modules [ amd64 ] < 5.18.2-2ubuntu1.1 > ( perl ) (< 5.22.1~)
+  Considering perl-modules:amd64 -1 as a solution to perl-base:amd64 5169
+  Added perl-modules:amd64 to the remove list
+  Fixing perl-base:amd64 via remove of perl-modules:amd64
+  MarkDelete perl-modules [ amd64 ] < 5.18.2-2ubuntu1.1 > ( perl ) FU=0
+Investigating (0) findutils [ amd64 ] < 4.4.2-7 -> 4.6.0+git+20160126-2 > ( utils )
+Broken findutils:amd64 Breaks on libpython3.4-minimal [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python ) (< 3.4.4-2)
+  Considering libpython3.4-minimal:amd64 -2 as a solution to findutils:amd64 5103
+  Added libpython3.4-minimal:amd64 to the remove list
+  Fixing findutils:amd64 via remove of libpython3.4-minimal:amd64
+  MarkDelete libpython3.4-minimal [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python ) FU=0
+Investigating (0) systemd [ amd64 ] < none -> 229-4ubuntu7 > ( admin )
+Broken systemd:amd64 Conflicts on systemd-services [ amd64 ] < 204-5ubuntu20.19 > ( admin )
+  Considering systemd-services:amd64 -2 as a solution to systemd:amd64 15
+  Added systemd-services:amd64 to the remove list
+  Fixing systemd:amd64 via remove of systemd-services:amd64
+  MarkDelete systemd-services [ amd64 ] < 204-5ubuntu20.19 > ( admin ) FU=0
+Investigating (0) libasprintf0v5 [ amd64 ] < none -> 0.19.7-2ubuntu3 > ( libs )
+Broken libasprintf0v5:amd64 Breaks on libasprintf0c2 [ amd64 ] < 0.18.3.1-1ubuntu3 > ( libs )
+  Considering libasprintf0c2:amd64 0 as a solution to libasprintf0v5:amd64 6
+  Added libasprintf0c2:amd64 to the remove list
+  Fixing libasprintf0v5:amd64 via remove of libasprintf0c2:amd64
+  MarkDelete libasprintf0c2 [ amd64 ] < 0.18.3.1-1ubuntu3 > ( libs ) FU=0
+Investigating (0) libparse-debianchangelog-perl [ amd64 ] < 1.2.0-1ubuntu1 -> 1.2.0-8 > ( perl )
+Broken libparse-debianchangelog-perl:amd64 Depends on libcgi-pm-perl [ amd64 ] < none -> 4.26-1 > ( perl )
+  Considering libcgi-pm-perl:amd64 1 as a solution to libparse-debianchangelog-perl:amd64 2
+  Added libcgi-pm-perl:amd64 to the remove list
+Broken libparse-debianchangelog-perl:amd64 Depends on perl [ amd64 ] < 5.18.2-2ubuntu1.1 -> 5.22.1-9 > ( perl ) (< 5.19)
+  Considering perl:amd64 26 as a solution to libparse-debianchangelog-perl:amd64 2
+  MarkKeep libparse-debianchangelog-perl [ amd64 ] < 1.2.0-1ubuntu1 -> 1.2.0-8 > ( perl ) FU=0
+  Holding Back libparse-debianchangelog-perl:amd64 rather than change perl:amd64
+  Fixing libparse-debianchangelog-perl:amd64 via keep of libcgi-pm-perl:amd64
+Investigating (0) libcwidget3v5 [ amd64 ] < none -> 0.5.17-4ubuntu2 > ( libs )
+Broken libcwidget3v5:amd64 Conflicts on libcwidget3 [ amd64 ] < 0.5.16-3.5ubuntu1 > ( libs )
+  Considering libcwidget3:amd64 2 as a solution to libcwidget3v5:amd64 1
+  MarkKeep libcwidget3v5 [ amd64 ] < none -> 0.5.17-4ubuntu2 > ( libs ) FU=0
+  Holding Back libcwidget3v5:amd64 rather than change libcwidget3:amd64
+Investigating (0) libxapian22v5 [ amd64 ] < none -> 1.2.22-2 > ( libs )
+Broken libxapian22v5:amd64 Conflicts on libxapian22 [ amd64 ] < 1.2.16-2ubuntu1 > ( libs )
+  Considering libxapian22:amd64 -2 as a solution to libxapian22v5:amd64 1
+  Added libxapian22:amd64 to the remove list
+  Fixing libxapian22v5:amd64 via remove of libxapian22:amd64
+  MarkDelete libxapian22 [ amd64 ] < 1.2.16-2ubuntu1 > ( libs ) FU=0
+Investigating (0) aptitude [ amd64 ] < 0.6.8.2-1ubuntu4 -> 0.7.4-2ubuntu2 > ( admin )
+Broken aptitude:amd64 Depends on libcwidget3v5 [ amd64 ] < none -> 0.5.17-4ubuntu2 > ( libs )
+  Considering libcwidget3v5:amd64 1 as a solution to aptitude:amd64 1
+  MarkKeep aptitude [ amd64 ] < 0.6.8.2-1ubuntu4 -> 0.7.4-2ubuntu2 > ( admin ) FU=0
+  Removing aptitude:amd64 rather than change libcwidget3v5:amd64
+  MarkDelete aptitude [ amd64 ] < 0.6.8.2-1ubuntu4 -> 0.7.4-2ubuntu2 > ( admin ) FU=0
+Investigating (0) libpython3.4-stdlib [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python )
+Broken libpython3.4-stdlib:amd64 Depends on libpython3.4-minimal [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python ) (= 3.4.3-1ubuntu1~14.04.3)
+  Considering libpython3.4-minimal:amd64 -2 as a solution to libpython3.4-stdlib:amd64 0
+  Added libpython3.4-minimal:amd64 to the remove list
+  Fixing libpython3.4-stdlib:amd64 via keep of libpython3.4-minimal:amd64
+  MarkKeep libpython3.4-minimal [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python ) FU=0
+Investigating (0) libsigc++-2.0-0v5 [ amd64 ] < none -> 2.6.2-1 > ( libs )
+Broken libsigc++-2.0-0v5:amd64 Conflicts on libsigc++-2.0-0c2a [ amd64 ] < 2.2.10-0.2ubuntu2 > ( libs )
+  Considering libsigc++-2.0-0c2a:amd64 0 as a solution to libsigc++-2.0-0v5:amd64 0
+  MarkKeep libsigc++-2.0-0v5 [ amd64 ] < none -> 2.6.2-1 > ( libs ) FU=0
+  Holding Back libsigc++-2.0-0v5:amd64 rather than change libsigc++-2.0-0c2a:amd64
+Investigating (0) libical1a [ amd64 ] < none -> 1.0.1-0ubuntu2 > ( libs )
+Broken libical1a:amd64 Breaks on libical1 [ amd64 ] < 1.0-0ubuntu1 > ( libs )
+  Considering libical1:amd64 -2 as a solution to libical1a:amd64 -1
+  Added libical1:amd64 to the remove list
+  Fixing libical1a:amd64 via remove of libical1:amd64
+  MarkDelete libical1 [ amd64 ] < 1.0-0ubuntu1 > ( libs ) FU=0
+Investigating (0) libperl5.18 [ amd64 ] < 5.18.2-2ubuntu1.1 > ( libs )
+Broken libperl5.18:amd64 Depends on perl-base [ amd64 ] < 5.18.2-2ubuntu1.1 -> 5.22.1-9 > ( perl ) (= 5.18.2-2ubuntu1.1)
+  Considering perl-base:amd64 5169 as a solution to libperl5.18:amd64 -1
+  Removing libperl5.18:amd64 rather than change perl-base:amd64
+  MarkDelete libperl5.18 [ amd64 ] < 5.18.2-2ubuntu1.1 > ( libs ) FU=0
+Investigating (1) findutils [ amd64 ] < 4.4.2-7 -> 4.6.0+git+20160126-2 > ( utils )
+Broken findutils:amd64 Breaks on libpython3.4-minimal [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python ) (< 3.4.4-2)
+  Considering libpython3.4-minimal:amd64 -2 as a solution to findutils:amd64 5103
+  Added libpython3.4-minimal:amd64 to the remove list
+  Fixing findutils:amd64 via remove of libpython3.4-minimal:amd64
+  MarkDelete libpython3.4-minimal [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python ) FU=0
+Investigating (1) libparse-debianchangelog-perl [ amd64 ] < 1.2.0-1ubuntu1 -> 1.2.0-8 > ( perl )
+Broken libparse-debianchangelog-perl:amd64 Depends on libcgi-pm-perl [ amd64 ] < none -> 4.26-1 > ( perl )
+  Considering libcgi-pm-perl:amd64 1 as a solution to libparse-debianchangelog-perl:amd64 2
+  Added libcgi-pm-perl:amd64 to the remove list
+Broken libparse-debianchangelog-perl:amd64 Depends on perl [ amd64 ] < 5.18.2-2ubuntu1.1 -> 5.22.1-9 > ( perl ) (< 5.19)
+  Considering perl:amd64 26 as a solution to libparse-debianchangelog-perl:amd64 2
+  MarkKeep libparse-debianchangelog-perl [ amd64 ] < 1.2.0-1ubuntu1 -> 1.2.0-8 > ( perl ) FU=0
+  Holding Back libparse-debianchangelog-perl:amd64 rather than change perl:amd64
+  Fixing libparse-debianchangelog-perl:amd64 via keep of libcgi-pm-perl:amd64
+Investigating (1) libpython3.4-stdlib [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python )
+Broken libpython3.4-stdlib:amd64 Depends on libpython3.4-minimal [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python ) (= 3.4.3-1ubuntu1~14.04.3)
+  Considering libpython3.4-minimal:amd64 -2 as a solution to libpython3.4-stdlib:amd64 0
+  Added libpython3.4-minimal:amd64 to the remove list
+  Fixing libpython3.4-stdlib:amd64 via keep of libpython3.4-minimal:amd64
+  MarkKeep libpython3.4-minimal [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python ) FU=0
+Investigating (2) findutils [ amd64 ] < 4.4.2-7 -> 4.6.0+git+20160126-2 > ( utils )
+Broken findutils:amd64 Breaks on libpython3.4-minimal [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python ) (< 3.4.4-2)
+  Considering libpython3.4-minimal:amd64 -2 as a solution to findutils:amd64 5103
+  Added libpython3.4-minimal:amd64 to the remove list
+  Fixing findutils:amd64 via remove of libpython3.4-minimal:amd64
+  MarkDelete libpython3.4-minimal [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python ) FU=0
+Investigating (2) libparse-debianchangelog-perl [ amd64 ] < 1.2.0-1ubuntu1 -> 1.2.0-8 > ( perl )
+Broken libparse-debianchangelog-perl:amd64 Depends on libcgi-pm-perl [ amd64 ] < none -> 4.26-1 > ( perl )
+  Considering libcgi-pm-perl:amd64 1 as a solution to libparse-debianchangelog-perl:amd64 2
+  Added libcgi-pm-perl:amd64 to the remove list
+Broken libparse-debianchangelog-perl:amd64 Depends on perl [ amd64 ] < 5.18.2-2ubuntu1.1 -> 5.22.1-9 > ( perl ) (< 5.19)
+  Considering perl:amd64 26 as a solution to libparse-debianchangelog-perl:amd64 2
+  MarkKeep libparse-debianchangelog-perl [ amd64 ] < 1.2.0-1ubuntu1 -> 1.2.0-8 > ( perl ) FU=0
+  Holding Back libparse-debianchangelog-perl:amd64 rather than change perl:amd64
+  Fixing libparse-debianchangelog-perl:amd64 via keep of libcgi-pm-perl:amd64
+Investigating (2) libpython3.4-stdlib [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python )
+Broken libpython3.4-stdlib:amd64 Depends on libpython3.4-minimal [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python ) (= 3.4.3-1ubuntu1~14.04.3)
+  Considering libpython3.4-minimal:amd64 5103 as a solution to libpython3.4-stdlib:amd64 0
+  Removing libpython3.4-stdlib:amd64 rather than change libpython3.4-minimal:amd64
+  MarkDelete libpython3.4-stdlib [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python ) FU=0
+Investigating (2) python3.4-minimal [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python )
+Broken python3.4-minimal:amd64 Depends on libpython3.4-minimal [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python ) (= 3.4.3-1ubuntu1~14.04.3)
+  Considering libpython3.4-minimal:amd64 5103 as a solution to python3.4-minimal:amd64 -1
+  Removing python3.4-minimal:amd64 rather than change libpython3.4-minimal:amd64
+  MarkDelete python3.4-minimal [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python ) FU=0
+Investigating (3) libparse-debianchangelog-perl [ amd64 ] < 1.2.0-1ubuntu1 -> 1.2.0-8 > ( perl )
+Broken libparse-debianchangelog-perl:amd64 Depends on libcgi-pm-perl [ amd64 ] < none -> 4.26-1 > ( perl )
+  Considering libcgi-pm-perl:amd64 2 as a solution to libparse-debianchangelog-perl:amd64 2
+  MarkKeep libparse-debianchangelog-perl [ amd64 ] < 1.2.0-1ubuntu1 -> 1.2.0-8 > ( perl ) FU=0
+  Holding Back libparse-debianchangelog-perl:amd64 rather than change libcgi-pm-perl:amd64
+Broken libparse-debianchangelog-perl:amd64 Depends on perl [ amd64 ] < 5.18.2-2ubuntu1.1 -> 5.22.1-9 > ( perl ) (< 5.19)
+  Considering perl:amd64 26 as a solution to libparse-debianchangelog-perl:amd64 2
+  MarkKeep libparse-debianchangelog-perl [ amd64 ] < 1.2.0-1ubuntu1 -> 1.2.0-8 > ( perl ) FU=0
+  Holding Back libparse-debianchangelog-perl:amd64 rather than change perl:amd64
+  Or group keep for libparse-debianchangelog-perl:amd64
+  MarkKeep libparse-debianchangelog-perl [ amd64 ] < 1.2.0-1ubuntu1 -> 1.2.0-8 > ( perl ) FU=0
+Investigating (3) python3.4 [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python )
+Broken python3.4:amd64 Depends on python3.4-minimal [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python ) (= 3.4.3-1ubuntu1~14.04.3)
+  Considering python3.4-minimal:amd64 5103 as a solution to python3.4:amd64 0
+  Removing python3.4:amd64 rather than change python3.4-minimal:amd64
+  MarkDelete python3.4 [ amd64 ] < 3.4.3-1ubuntu1~14.04.3 > ( python ) FU=0
+ Try to Re-Instate (4) libparse-debianchangelog-perl:amd64
+  MarkKeep libparse-debianchangelog-perl [ amd64 ] < 1.2.0-1ubuntu1 -> 1.2.0-8 > ( perl ) FU=0
+Done
+  MarkInstall linux-generic [ amd64 ] < none -> 4.4.0.36.38 > ( kernel ) FU=1
+  Installing linux-image-generic as Depends of linux-generic
+    MarkInstall linux-image-generic [ amd64 ] < none -> 4.4.0.36.38 > ( kernel ) FU=0
+    Installing linux-image-extra-4.4.0-36-generic as Depends of linux-image-generic
+      MarkInstall linux-image-extra-4.4.0-36-generic [ amd64 ] < none -> 4.4.0-36.55 > ( kernel ) FU=0
+      Installing crda as Depends of linux-image-extra-4.4.0-36-generic
+        MarkInstall crda [ amd64 ] < none -> 3.13-1 > ( net ) FU=0
+        Installing libnl-3-200 as Depends of crda
+          MarkInstall libnl-3-200 [ amd64 ] < none -> 3.2.27-1 > ( libs ) FU=0
+        Installing libnl-genl-3-200 as Depends of crda
+          MarkInstall libnl-genl-3-200 [ amd64 ] < none -> 3.2.27-1 > ( libs ) FU=0
+        Installing wireless-regdb as Depends of crda
+          MarkInstall wireless-regdb [ amd64 ] < none -> 2015.07.20-1ubuntu1 > ( net ) FU=0
+        Installing iw as Depends of crda
+          MarkInstall iw [ amd64 ] < none -> 3.17-1 > ( net ) FU=0
+    Installing linux-firmware as Depends of linux-image-generic
+      MarkInstall linux-firmware [ amd64 ] < none -> 1.157.3 > ( misc ) FU=0
+    Installing thermald as Recommends of linux-image-generic
+      MarkInstall thermald [ amd64 ] < none -> 1.5-2ubuntu2 > ( admin ) FU=0
+Log time: 2016-09-06 02:23:08.489235
+  MarkDelete libisc95 [ amd64 ] < 1:9.9.5.dfsg-3ubuntu0.8 > ( libs ) FU=1
+Starting pkgProblemResolver with broken count: 4
+Starting 2 pkgProblemResolver with broken count: 4
+Investigating (0) libdns100 [ amd64 ] < 1:9.9.5.dfsg-3ubuntu0.8 > ( libs )
+Broken libdns100:amd64 Depends on libisc95 [ amd64 ] < 1:9.9.5.dfsg-3ubuntu0.8 > ( libs )
+  Considering libisc95:amd64 10004 as a solution to libdns100:amd64 4
+  Removing libdns100:amd64 rather than change libisc95:amd64
+  MarkDelete libdns100 [ amd64 ] < 1:9.9.5.dfsg-3ubuntu0.8 > ( libs ) FU=0
+Investigating (0) libisccfg90 [ amd64 ] < 1:9.9.5.dfsg-3ubuntu0.8 > ( libs )
+Broken libisccfg90:amd64 Depends on libdns100 [ amd64 ] < 1:9.9.5.dfsg-3ubuntu0.8 > ( libs )
+  Considering libdns100:amd64 4 as a solution to libisccfg90:amd64 1
+  Removing libisccfg90:amd64 rather than change libdns100:amd64
+  MarkDelete libisccfg90 [ amd64 ] < 1:9.9.5.dfsg-3ubuntu0.8 > ( libs ) FU=0
+Investigating (0) libbind9-90 [ amd64 ] < 1:9.9.5.dfsg-3ubuntu0.8 > ( libs )
+Broken libbind9-90:amd64 Depends on libdns100 [ amd64 ] < 1:9.9.5.dfsg-3ubuntu0.8 > ( libs )
+  Considering libdns100:amd64 4 as a solution to libbind9-90:amd64 1
+  Removing libbind9-90:amd64 rather than change libdns100:amd64
+  MarkDelete libbind9-90 [ amd64 ] < 1:9.9.5.dfsg-3ubuntu0.8 > ( libs ) FU=0
+Investigating (0) libisccc90 [ amd64 ] < 1:9.9.5.dfsg-3ubuntu0.8 > ( libs )
+Broken libisccc90:amd64 Depends on libisc95 [ amd64 ] < 1:9.9.5.dfsg-3ubuntu0.8 > ( libs )
+  Considering libisc95:amd64 10004 as a solution to libisccc90:amd64 0
+  Removing libisccc90:amd64 rather than change libisc95:amd64
+  MarkDelete libisccc90 [ amd64 ] < 1:9.9.5.dfsg-3ubuntu0.8 > ( libs ) FU=0
+Done
+  MarkDelete libapt-inst1.5 [ amd64 ] < 1.0.1ubuntu2.14 > ( libs ) FU=1
+  MarkDelete libplymouth2 [ amd64 ] < 0.8.8-0ubuntu17.1 > ( libs ) FU=1
+  MarkDelete libapt-pkg4.12 [ amd64 ] < 1.0.1ubuntu2.14 > ( libs ) FU=1
+Starting pkgProblemResolver with broken count: 1
+Starting 2 pkgProblemResolver with broken count: 1
+Investigating (0) libept1.4.12 [ amd64 ] < 1.0.12 > ( libs )
+Broken libept1.4.12:amd64 Depends on libapt-pkg4.12 [ amd64 ] < 1.0.1ubuntu2.14 > ( libs ) (>= 0.8.16~exp9)
+  Considering libapt-pkg4.12:amd64 10000 as a solution to libept1.4.12:amd64 3
+  Removing libept1.4.12:amd64 rather than change libapt-pkg4.12:amd64
+  MarkDelete libept1.4.12 [ amd64 ] < 1.0.12 > ( libs ) FU=0
+Done
+  MarkDelete libgnutls26 [ amd64 ] < 2.12.23-12ubuntu2.5 > ( libs ) FU=1
+Starting pkgProblemResolver with broken count: 1
+Starting 2 pkgProblemResolver with broken count: 1
+Investigating (0) librtmp0 [ amd64 ] < 2.4+20121230.gitdf6c518-1 > ( libs )
+Broken librtmp0:amd64 Depends on libgnutls26 [ amd64 ] < 2.12.23-12ubuntu2.5 > ( libs ) (>= 2.12.17-0)
+  Considering libgnutls26:amd64 10000 as a solution to librtmp0:amd64 -2
+  Removing librtmp0:amd64 rather than change libgnutls26:amd64
+  MarkDelete librtmp0 [ amd64 ] < 2.4+20121230.gitdf6c518-1 > ( libs ) FU=0
+Done
+  MarkDelete libprocps3 [ amd64 ] < 1:3.3.9-1ubuntu2.2 > ( libs ) FU=1
+  MarkDelete libcwidget3 [ amd64 ] < 0.5.16-3.5ubuntu1 > ( libs ) FU=1
+  MarkDelete libboost-iostreams1.58.0 [ amd64 ] < 1.58.0+dfsg-5ubuntu3.1 > ( libs ) FU=1
+  MarkDelete libicu52 [ amd64 ] < 52.1-3ubuntu0.4 > ( libs ) FU=1
+  MarkDelete libsigc++-2.0-0c2a [ amd64 ] < 2.2.10-0.2ubuntu2 > ( libs ) FU=1
+  MarkDelete libsystemd-daemon0 [ amd64 ] < 204-5ubuntu20.19 > ( libs ) FU=1
+  MarkDelete linux-headers-3.13.0-92 [ amd64 ] < 3.13.0-92.139 > ( devel ) FU=1
+Starting pkgProblemResolver with broken count: 1
+Starting 2 pkgProblemResolver with broken count: 1
+Investigating (0) linux-headers-3.13.0-92-generic [ amd64 ] < 3.13.0-92.139 > ( devel )
+Broken linux-headers-3.13.0-92-generic:amd64 Depends on linux-headers-3.13.0-92 [ amd64 ] < 3.13.0-92.139 > ( devel )
+  Considering linux-headers-3.13.0-92:amd64 10001 as a solution to linux-headers-3.13.0-92-generic:amd64 -1
+  Removing linux-headers-3.13.0-92-generic:amd64 rather than change linux-headers-3.13.0-92:amd64
+  MarkDelete linux-headers-3.13.0-92-generic [ amd64 ] < 3.13.0-92.139 > ( devel ) FU=0
+Done
+  Ignore MarkGarbage of linux-headers-3.13.0-92 [ amd64 ] < 3.13.0-92.139 > ( devel ) as its mode (Delete) is protected
+  MarkDelete liblwres90 [ amd64 ] < 1:9.9.5.dfsg-3ubuntu0.8 > ( libs ) FU=1
+  Ignore MarkGarbage of linux-headers-3.13.0-92 [ amd64 ] < 3.13.0-92.139 > ( devel ) as its mode (Delete) is protected
+  MarkDelete libsystemd-login0 [ amd64 ] < 204-5ubuntu20.19 > ( libs ) FU=1
+  Ignore MarkGarbage of linux-headers-3.13.0-92 [ amd64 ] < 3.13.0-92.139 > ( devel ) as its mode (Delete) is protected
+  MarkDelete libgcrypt11 [ amd64 ] < 1.5.3-2ubuntu4.4 > ( libs ) FU=1
+  Ignore MarkGarbage of linux-headers-3.13.0-92 [ amd64 ] < 3.13.0-92.139 > ( devel ) as its mode (Delete) is protected
+  MarkDelete libparted0debian1 [ amd64 ] < 2.3-19ubuntu1.14.04.1 > ( libs ) FU=1
+  Ignore MarkGarbage of linux-headers-3.13.0-92 [ amd64 ] < 3.13.0-92.139 > ( devel ) as its mode (Delete) is protected
+  MarkDelete libboost-iostreams1.54.0 [ amd64 ] < 1.54.0-4ubuntu3.1 > ( libs ) FU=1
+  Ignore MarkGarbage of linux-headers-3.13.0-92 [ amd64 ] < 3.13.0-92.139 > ( devel ) as its mode (Delete) is protected
+  MarkDelete libxtables10 [ amd64 ] < 1.4.21-1ubuntu1 > ( net ) FU=1
+  Ignore MarkGarbage of linux-headers-3.13.0-92 [ amd64 ] < 3.13.0-92.139 > ( devel ) as its mode (Delete) is protected
+  Ignore MarkGarbage of linux-headers-3.13.0-92 [ amd64 ] < 3.13.0-92.139 > ( devel ) as its mode (Delete) is protected

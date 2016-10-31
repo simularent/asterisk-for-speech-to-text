@@ -1,0 +1,8 @@
+auto
+/usr/bin/jsondiff
+
+/usr/bin/python2-jsondiff
+300
+/usr/bin/python3-jsondiff
+200
+

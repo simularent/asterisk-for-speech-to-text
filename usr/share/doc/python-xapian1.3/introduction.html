@@ -1,0 +1,489 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Python3 bindings for Xapian &mdash; Xapian Python3 Bindings 1.3.4 documentation</title>
+    
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.3.4',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Xapian Python3 Bindings 1.3.4 documentation" href="index.html" />
+    <link rel="next" title="Examples" href="examples.html" />
+    <link rel="prev" title="Welcome to Xapian Python Bindings’s documentation!" href="index.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="examples.html" title="Examples"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to Xapian Python Bindings’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Xapian Python3 Bindings 1.3.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="python3-bindings-for-xapian">
+<h1><a class="toc-backref" href="#id3">Python3 bindings for Xapian</a><a class="headerlink" href="#python3-bindings-for-xapian" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="table-of-contents">
+<p class="topic-title first">Table of contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#python3-bindings-for-xapian" id="id3">Python3 bindings for Xapian</a><ul>
+<li><a class="reference internal" href="#strings" id="id4">Strings</a></li>
+<li><a class="reference internal" href="#unicode" id="id5">Unicode</a></li>
+<li><a class="reference internal" href="#exceptions" id="id6">Exceptions</a></li>
+<li><a class="reference internal" href="#iterators" id="id7">Iterators</a></li>
+<li><a class="reference internal" href="#mset" id="id8">MSet</a></li>
+<li><a class="reference internal" href="#non-class-functions" id="id9">Non-Class Functions</a></li>
+<li><a class="reference internal" href="#query" id="id10">Query</a><ul>
+<li><a class="reference internal" href="#matchall-and-matchnothing" id="id11">MatchAll and MatchNothing</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#matchdecider" id="id12">MatchDecider</a></li>
+<li><a class="reference internal" href="#valuerangeprocessor" id="id13">ValueRangeProcessor</a></li>
+<li><a class="reference internal" href="#apache-and-mod-python-mod-wsgi" id="id14">Apache and mod_python/mod_wsgi</a></li>
+<li><a class="reference internal" href="#test-suite" id="id15">Test Suite</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>Xapian&#8217;s Python3 bindings are packaged in the <cite>xapian</cite> module - to use
+them, you&#8217;ll need to add this to your code:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="kn">import</span> <span class="nn">xapian</span>
+</pre></div>
+</div>
+<p>They currently require at least Python 3.2.  We&#8217;ve not tested with
+Python 3.1 - test results and any patches needed are most welcome.</p>
+<p>The Python API largely follows the C++ API - the differences and
+additions are noted below.</p>
+<p>The <cite>examples</cite> subdirectory contains examples (based on the simple C++ example)
+showing how to use the Python bindings:
+<a class="reference external" href="examples/simpleindex.py">simpleindex.py</a>,
+<a class="reference external" href="examples/simplesearch.py">simplesearch.py</a>,
+<a class="reference external" href="examples/simpleexpand.py">simpleexpand.py</a>.
+There&#8217;s also
+<a class="reference external" href="examples/simplematchdecider.py">simplematchdecider.py</a>
+which shows how to define a MatchDecider in Python.</p>
+<div class="section" id="strings">
+<h2><a class="toc-backref" href="#id4">Strings</a><a class="headerlink" href="#strings" title="Permalink to this headline">¶</a></h2>
+<p>The Xapian C++ API is largely agnostic about character encoding, and uses the
+<cite>std::string</cite> type as an opaque container for a sequence of bytes.
+In places where the bytes represent text (for example, in the
+<cite>Stem</cite>, <cite>QueryParser</cite> and <cite>TermGenerator</cite> classes), UTF-8 encoding is used.  In
+order to wrap this for Python, <cite>std::string</cite> is mapped to/from the Python
+<cite>bytes</cite> type.</p>
+<p>As a convenience, you can also pass Python
+<cite>str</cite> objects as parameters where this is appropriate, which will be
+converted to UTF-8 encoded text.  Where <cite>std::string</cite> is
+returned, it&#8217;s always mapped to <cite>bytes</cite> in Python, which you can
+convert to a Python <cite>str</cite> by calling <cite>.decode(&#8216;utf-8&#8217;)</cite>
+on it like so:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">doc</span><span class="o">.</span><span class="n">termlist</span><span class="p">():</span>
+  <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="o">.</span><span class="n">term</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s">&#39;utf-8&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="unicode">
+<h2><a class="toc-backref" href="#id5">Unicode</a><a class="headerlink" href="#unicode" title="Permalink to this headline">¶</a></h2>
+<p>Currently Xapian doesn&#8217;t have built-in support for normalising Unicode, so
+if you want to normalise Unicode text, you&#8217;ll need to do so in Python.  The
+standard <cite>unicodedata</cite> module provides a way to do this - you probably want the
+<cite>NFKC</cite> normalisation scheme, so normalising a query string prior to parsing it
+would look something like this:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">query_string</span> <span class="o">=</span> <span class="n">get_query_string</span><span class="p">()</span>
+<span class="n">query_string</span> <span class="o">=</span> <span class="n">unicodedata</span><span class="o">.</span><span class="n">normalize</span><span class="p">(</span><span class="s">&#39;NFKC&#39;</span><span class="p">,</span> <span class="n">query_string</span><span class="p">)</span>
+<span class="n">qp</span> <span class="o">=</span> <span class="n">xapian</span><span class="o">.</span><span class="n">QueryParser</span><span class="p">()</span>
+<span class="n">query_obj</span> <span class="o">=</span> <span class="n">qp</span><span class="o">.</span><span class="n">parse_query</span><span class="p">(</span><span class="n">query_string</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="exceptions">
+<h2><a class="toc-backref" href="#id6">Exceptions</a><a class="headerlink" href="#exceptions" title="Permalink to this headline">¶</a></h2>
+<p>Xapian exceptions are translated into Python exceptions with the same names
+and inheritance hierarchy as the C++ exception classes.  The base class of
+all Xapian exceptions is the <cite>xapian.Error</cite> class, and this in
+turn is a child of the standard python <cite>exceptions.Exception</cite>
+class.</p>
+<p>This means that programs can trap all xapian exceptions using <cite>except
+xapian.Error</cite>, and can trap all exceptions which don&#8217;t indicate that
+the program should terminate using <cite>except Exception</cite>.</p>
+</div>
+<div class="section" id="iterators">
+<h2><a class="toc-backref" href="#id7">Iterators</a><a class="headerlink" href="#iterators" title="Permalink to this headline">¶</a></h2>
+<p>The iterator classes in the Xapian C++ API are wrapped in a Pythonic style.
+The following are supported (where marked as &#8220;default iterator&#8221;, it means
+<cite>__iter__()</cite> does the right thing, so you can for instance use
+<cite>for term in document</cite> to iterate over terms in a Document object):</p>
+<table border="1" class="docutils" id="id1">
+<caption><span class="caption-text">Python iterators</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="20%" />
+<col width="34%" />
+<col width="32%" />
+<col width="14%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Class</th>
+<th class="head">Python Method</th>
+<th class="head">Equivalent C++ Method</th>
+<th class="head">Iterator type</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><cite>MSet</cite></td>
+<td>default iterator</td>
+<td><cite>begin()</cite></td>
+<td><cite>MSetIter</cite></td>
+</tr>
+<tr class="row-odd"><td><cite>ESet</cite></td>
+<td>default iterator</td>
+<td><cite>begin()</cite></td>
+<td><cite>ESetIter</cite></td>
+</tr>
+<tr class="row-even"><td><cite>Enquire</cite></td>
+<td><cite>matching_terms()</cite></td>
+<td><cite>get_matching_terms_begin()</cite></td>
+<td><cite>TermIter</cite></td>
+</tr>
+<tr class="row-odd"><td><cite>Query</cite></td>
+<td>default iterator</td>
+<td><cite>get_terms_begin()</cite></td>
+<td><cite>TermIter</cite></td>
+</tr>
+<tr class="row-even"><td><cite>Database</cite></td>
+<td><cite>allterms()</cite> (and default iterator)</td>
+<td><cite>allterms_begin()</cite></td>
+<td><cite>TermIter</cite></td>
+</tr>
+<tr class="row-odd"><td><cite>Database</cite></td>
+<td><cite>postlist(term)</cite></td>
+<td><cite>postlist_begin(term)</cite></td>
+<td><cite>PostingIter</cite></td>
+</tr>
+<tr class="row-even"><td><cite>Database</cite></td>
+<td><cite>termlist(docid)</cite></td>
+<td><cite>termlist_begin(docid)</cite></td>
+<td><cite>TermIter</cite></td>
+</tr>
+<tr class="row-odd"><td><cite>Database</cite></td>
+<td><cite>positionlist(docid, term)</cite></td>
+<td><cite>positionlist_begin(docid, term)</cite></td>
+<td><cite>PositionIter</cite></td>
+</tr>
+<tr class="row-even"><td><cite>Database</cite></td>
+<td><cite>metadata_keys(prefix)</cite></td>
+<td><cite>metadata_keys(prefix)</cite></td>
+<td><cite>TermIter</cite></td>
+</tr>
+<tr class="row-odd"><td><cite>Database</cite></td>
+<td><cite>spellings()</cite></td>
+<td><cite>spellings_begin(term)</cite></td>
+<td><cite>TermIter</cite></td>
+</tr>
+<tr class="row-even"><td><cite>Database</cite></td>
+<td><cite>synonyms(term)</cite></td>
+<td><cite>synonyms_begin(term)</cite></td>
+<td><cite>TermIter</cite></td>
+</tr>
+<tr class="row-odd"><td><cite>Database</cite></td>
+<td><cite>synonym_keys(prefix)</cite></td>
+<td><cite>synonym_keys_begin(prefix)</cite></td>
+<td><cite>TermIter</cite></td>
+</tr>
+<tr class="row-even"><td><cite>Document</cite></td>
+<td><cite>values()</cite></td>
+<td><cite>values_begin()</cite></td>
+<td><cite>ValueIter</cite></td>
+</tr>
+<tr class="row-odd"><td><cite>Document</cite></td>
+<td><cite>termlist()</cite> (and default iterator)</td>
+<td><cite>termlist_begin()</cite></td>
+<td><cite>TermIter</cite></td>
+</tr>
+<tr class="row-even"><td><cite>QueryParser</cite></td>
+<td><cite>stoplist()</cite></td>
+<td><cite>stoplist_begin()</cite></td>
+<td><cite>TermIter</cite></td>
+</tr>
+<tr class="row-odd"><td><cite>QueryParser</cite></td>
+<td><cite>unstemlist(term)</cite></td>
+<td><cite>unstem_begin(term)</cite></td>
+<td><cite>TermIter</cite></td>
+</tr>
+<tr class="row-even"><td><cite>ValueCountMatchSpy</cite></td>
+<td><cite>values()</cite></td>
+<td><cite>values_begin()</cite></td>
+<td><cite>TermIter</cite></td>
+</tr>
+<tr class="row-odd"><td><cite>ValueCountMatchSpy</cite></td>
+<td><cite>top_values()</cite></td>
+<td><cite>top_values_begin()</cite></td>
+<td><cite>TermIter</cite></td>
+</tr>
+</tbody>
+</table>
+<p>The pythonic iterators generally return Python objects, with properties
+available as attribute values, with lazy evaluation where appropriate.  An
+exception is <cite>PositionIter</cite> (as returned by <cite>Database.positionlist</cite>), which
+returns an integer.</p>
+<p>The lazy evaluation is mainly transparent, but does become visible in one situation: if you keep an object returned by an iterator, without evaluating its properties to force the lazy evaluation to happen, and then move the iterator forward, the object may no longer be able to efficiently perform the lazy evaluation.  In this situation, an exception will be raised indicating that the information requested wasn&#8217;t available.  This will only happen for a few of the properties - most are either not evaluated lazily (because the underlying Xapian implementation doesn&#8217;t evaluate them lazily, so there&#8217;s no advantage in lazy evaluation), or can be accessed even after the iterator has moved.  The simplest work around is to evaluate any properties you wish to use which are affected by this before moving the iterator.  The complete set of iterator properties affected by this is:</p>
+<blockquote>
+<div><ul class="simple">
+<li><cite>Database.allterms</cite> (also accessible as <cite>Database.__iter__</cite>): <cite>termfreq</cite></li>
+<li><cite>Database.termlist</cite>: <cite>termfreq</cite> and <cite>positer</cite></li>
+<li><cite>Document.termlist</cite> (also accessible as <cite>Document.__iter__</cite>): <cite>termfreq</cite> and <cite>positer</cite></li>
+<li><cite>Database.postlist</cite>: <cite>positer</cite></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="mset">
+<h2><a class="toc-backref" href="#id8">MSet</a><a class="headerlink" href="#mset" title="Permalink to this headline">¶</a></h2>
+<p>MSet objects have some additional methods to simplify access (these
+work using the C++ array dereferencing):</p>
+<table border="1" class="docutils" id="id2">
+<caption><span class="caption-text">MSet additional methods</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="47%" />
+<col width="53%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Method name</th>
+<th class="head">Explanation</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><cite>get_hit(i)</cite></td>
+<td>returns MSetItem at index i</td>
+</tr>
+<tr class="row-odd"><td><cite>get_document_percentage(i)</cite></td>
+<td><cite>convert_to_percent(get_hit(i))</cite></td>
+</tr>
+<tr class="row-even"><td><cite>get_document(i)</cite></td>
+<td><cite>get_hit(i).get_document()</cite></td>
+</tr>
+<tr class="row-odd"><td><cite>get_docid(i)</cite></td>
+<td><cite>get_hit(i).get_docid()</cite></td>
+</tr>
+</tbody>
+</table>
+<p>Two MSet objects are equal if they have the same number and maximum possible
+number of members, and if every document member of the first MSet exists at the
+same index in the second MSet, with the same weight.</p>
+</div>
+<div class="section" id="non-class-functions">
+<h2><a class="toc-backref" href="#id9">Non-Class Functions</a><a class="headerlink" href="#non-class-functions" title="Permalink to this headline">¶</a></h2>
+<p>The C++ API contains a few non-class functions (the Database factory
+functions, and some functions reporting version information), which are
+wrapped like so for Python 3:</p>
+<blockquote>
+<div><ul class="simple">
+<li><cite>Xapian::version_string()</cite> is wrapped as <cite>xapian.version_string()</cite></li>
+<li><cite>Xapian::major_version()</cite> is wrapped as <cite>xapian.major_version()</cite></li>
+<li><cite>Xapian::minor_version()</cite> is wrapped as <cite>xapian.minor_version()</cite></li>
+<li><cite>Xapian::revision()</cite> is wrapped as <cite>xapian.revision()</cite></li>
+<li><cite>Xapian::Auto::open_stub()</cite> is deprecated in C++, so not wrapped for Python 3</li>
+<li><cite>Xapian::Chert::open()</cite> is deprecated in C++, so not wrapped for Python 3</li>
+<li><cite>Xapian::InMemory::open()</cite> is wrapped as <cite>xapian.inmemory_open()</cite></li>
+<li><cite>Xapian::Remote::open()</cite> is wrapped as <cite>xapian.remote_open()</cite> (both
+the TCP and &#8220;program&#8221; versions are wrapped - the SWIG wrapper checks the parameter list to
+decide which to call).</li>
+<li><cite>Xapian::Remote::open_writable()</cite> is wrapped as <cite>xapian.remote_open_writable()</cite> (both
+the TCP and &#8220;program&#8221; versions are wrapped - the SWIG wrapper checks the parameter list to
+decide which to call).</li>
+</ul>
+</div></blockquote>
+<p>The version of the bindings in use is available as <cite>xapian.__version__</cite> (as
+recommended by PEP 396).  This may not be the same as <cite>xapian.version_string()</cite>
+as the latter is the version of xapian-core (the C++ library) in use.</p>
+</div>
+<div class="section" id="query">
+<h2><a class="toc-backref" href="#id10">Query</a><a class="headerlink" href="#query" title="Permalink to this headline">¶</a></h2>
+<p>In C++ there&#8217;s a Xapian::Query constructor which takes a query operator and
+start/end iterators specifying a number of terms or queries, plus an optional
+parameter.  In Python, this is wrapped to accept any Python sequence (for
+example a list or tuple) of terms or queries (or even a mixture of terms
+and queries).  For example:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">subq</span> <span class="o">=</span> <span class="n">xapian</span><span class="o">.</span><span class="n">Query</span><span class="p">(</span><span class="n">xapian</span><span class="o">.</span><span class="n">Query</span><span class="o">.</span><span class="n">OP_AND</span><span class="p">,</span> <span class="s">&quot;hello&quot;</span><span class="p">,</span> <span class="s">&quot;world&quot;</span><span class="p">)</span>
+<span class="n">q</span> <span class="o">=</span> <span class="n">xapian</span><span class="o">.</span><span class="n">Query</span><span class="p">(</span><span class="n">xapian</span><span class="o">.</span><span class="n">Query</span><span class="o">.</span><span class="n">OP_AND</span><span class="p">,</span> <span class="p">[</span><span class="n">subq</span><span class="p">,</span> <span class="s">&quot;foo&quot;</span><span class="p">,</span> <span class="n">xapian</span><span class="o">.</span><span class="n">Query</span><span class="p">(</span><span class="s">&quot;bar&quot;</span><span class="p">,</span> <span class="mi">2</span><span class="p">)])</span>
+</pre></div>
+</div>
+<div class="section" id="matchall-and-matchnothing">
+<h3><a class="toc-backref" href="#id11">MatchAll and MatchNothing</a><a class="headerlink" href="#matchall-and-matchnothing" title="Permalink to this headline">¶</a></h3>
+<p>As of 1.1.1, these are wrapped as <cite>xapian.Query.MatchAll</cite> and
+<cite>xapian.Query.MatchNothing</cite>.</p>
+</div>
+</div>
+<div class="section" id="matchdecider">
+<h2><a class="toc-backref" href="#id12">MatchDecider</a><a class="headerlink" href="#matchdecider" title="Permalink to this headline">¶</a></h2>
+<p>Custom MatchDeciders can be created in Python by subclassing
+<cite>xapian.MatchDecider</cite> and defining a <cite>__call__</cite> method
+that will do the work.  Make sure you call the base class constructor in
+your constructor.  The simplest example (which does nothing useful) would be as
+follows:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">class</span> <span class="nc">mymatchdecider</span><span class="p">(</span><span class="n">xapian</span><span class="o">.</span><span class="n">MatchDecider</span><span class="p">):</span>
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="n">xapian</span><span class="o">.</span><span class="n">MatchDecider</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+
+  <span class="k">def</span> <span class="nf">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">doc</span><span class="p">):</span>
+    <span class="k">return</span> <span class="mi">1</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="valuerangeprocessor">
+<h2><a class="toc-backref" href="#id13">ValueRangeProcessor</a><a class="headerlink" href="#valuerangeprocessor" title="Permalink to this headline">¶</a></h2>
+<p>The ValueRangeProcessor class (and its subclasses) provide an operator() method
+(which is exposed in python as a __call__() method, making the class instances
+into callables).  This method checks whether a beginning and end of a range are
+in a format understood by the ValueRangeProcessor, and if so, converts the
+beginning and end into strings which sort appropriately.  ValueRangeProcessors
+can be defined in python (and then passed to the QueryParser), or there are
+several default built-in ones which can be used.</p>
+<p>In C++ the operator() method takes two std::string arguments by reference,
+which the subclassed method can modify, and returns a value slot number.
+In Python, we wrap this by passing two <cite>bytes</cite> objects to
+__call__ and having it return a tuple of (value_slot, modified_begin,
+modified_end).  For example:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">vrp</span> <span class="o">=</span> <span class="n">xapian</span><span class="o">.</span><span class="n">NumberValueRangeProcessor</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s">&#39;$&#39;</span><span class="p">,</span> <span class="bp">True</span><span class="p">)</span>
+<span class="n">a</span> <span class="o">=</span> <span class="s">&#39;$10&#39;</span>
+<span class="n">b</span> <span class="o">=</span> <span class="s">&#39;20&#39;</span>
+<span class="n">slot</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">vrp</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>You can implement your own ValueRangeProcessor in Python.  The Python
+implementation should override the __call__() method with its own
+implementation, which returns a tuple as above.  For example:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">class</span> <span class="nc">MyVRP</span><span class="p">(</span><span class="n">xapian</span><span class="o">.</span><span class="n">ValueRangeProcessor</span><span class="p">):</span>
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="n">xapian</span><span class="o">.</span><span class="n">ValueRangeProcessor</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+  <span class="k">def</span> <span class="nf">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">begin</span><span class="p">,</span> <span class="n">end</span><span class="p">):</span>
+    <span class="k">return</span> <span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="s">&quot;A&quot;</span><span class="o">+</span><span class="n">begin</span><span class="p">,</span> <span class="s">&quot;B&quot;</span><span class="o">+</span><span class="n">end</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="apache-and-mod-python-mod-wsgi">
+<h2><a class="toc-backref" href="#id14">Apache and mod_python/mod_wsgi</a><a class="headerlink" href="#apache-and-mod-python-mod-wsgi" title="Permalink to this headline">¶</a></h2>
+<p>Prior to Xapian 1.3.0, applications which use the xapian module had to be
+run in the main interpreter under mod_python and mod_wsgi.  As of 1.3.0,
+the xapian module no longer uses Python&#8217;s simplified GIL state API, and so this
+restriction should no longer apply.</p>
+</div>
+<div class="section" id="test-suite">
+<h2><a class="toc-backref" href="#id15">Test Suite</a><a class="headerlink" href="#test-suite" title="Permalink to this headline">¶</a></h2>
+<p>The Python bindings come with a test suite, consisting of two test files:
+<cite>smoketest.py</cite> and <cite>pythontest.py</cite>. These are run by the <cite>make check</cite> command,
+or may be run manually.  By default, they will display the names of any tests
+which failed, and then display a count of tests which run and which failed.
+The verbosity may be increased by setting the <cite>VERBOSE</cite> environment variable,
+for example:</p>
+<div class="highlight-python"><div class="highlight"><pre>make check VERBOSE=1
+</pre></div>
+</div>
+<p>Setting VERBOSE to 1 will display detailed information about failures, and a
+value of 2 will display further information about the progress of tests.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Python3 bindings for Xapian</a><ul>
+<li><a class="reference internal" href="#strings">Strings</a></li>
+<li><a class="reference internal" href="#unicode">Unicode</a></li>
+<li><a class="reference internal" href="#exceptions">Exceptions</a></li>
+<li><a class="reference internal" href="#iterators">Iterators</a></li>
+<li><a class="reference internal" href="#mset">MSet</a></li>
+<li><a class="reference internal" href="#non-class-functions">Non-Class Functions</a></li>
+<li><a class="reference internal" href="#query">Query</a><ul>
+<li><a class="reference internal" href="#matchall-and-matchnothing">MatchAll and MatchNothing</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#matchdecider">MatchDecider</a></li>
+<li><a class="reference internal" href="#valuerangeprocessor">ValueRangeProcessor</a></li>
+<li><a class="reference internal" href="#apache-and-mod-python-mod-wsgi">Apache and mod_python/mod_wsgi</a></li>
+<li><a class="reference internal" href="#test-suite">Test Suite</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Welcome to Xapian Python Bindings&#8217;s documentation!</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="examples.html"
+                        title="next chapter">Examples</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/introduction.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="examples.html" title="Examples"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to Xapian Python Bindings’s documentation!"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Xapian Python3 Bindings 1.3.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright .
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.4.
+    </div>
+  </body>
+</html>

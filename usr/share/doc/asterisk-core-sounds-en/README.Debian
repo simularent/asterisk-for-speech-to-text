@@ -1,0 +1,5 @@
+For more details on handling the sound files, see README.Debian of the
+Asterisk package (/usr/share/doc/asterisk/README.Debian.gz).
+
+Note that the alternatives (asterisk-prompt-*) are provided by the -gsm
+variants, and therefore those must be installed.

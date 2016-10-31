@@ -1,0 +1,3 @@
+/etc/dbus-1/system.d/landscape.conf
+/etc/init.d/landscape-client
+/etc/logrotate.d/landscape-client

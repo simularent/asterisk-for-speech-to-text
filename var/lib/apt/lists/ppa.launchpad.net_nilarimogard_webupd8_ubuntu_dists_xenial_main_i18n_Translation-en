@@ -1,0 +1,2183 @@
+Package: albert
+Description-md5: 65340123144b0fbe1500f64d763ee55a
+Description-en: Albert Launcher
+ An amazing, desktop environment agnostic omnilauncher.
+
+Package: youtube-dl
+Description-md5: 26e4ffa66f541a7d0f35c8f7a62a2d56
+Description-en: downloader of videos from YouTube and other sites
+ youtube-dl is a small command-line program to download videos from
+ YouTube.com and other sites that don't provide direct links to the
+ videos served.
+ .
+ youtube-dl allows the user, among other things, to choose a specific video
+ quality to download (if available) or let the program automatically
+ determine the best (or worst) quality video to grab. It supports
+ downloading entire playlists and all videos from a given user.
+ .
+ Currently supported sites (or features of sites) are:
+ .
+ 1tv, 1up.com, 20min, 220.ro, 22tracks:genre, 22tracks:track, 24video, 3sat,
+ 4tube, 56.com, 5min, 8tracks, 91porn, 9gag, abc.net.au, Abc7News,
+ AcademicEarth:Course, acast, acast:channel, AddAnime, AdobeTV,
+ AdobeTVChannel, AdobeTVShow, AdobeTVVideo, AdultSwim, aenetworks,
+ Aftonbladet, AirMozilla, AlJazeera, Allocine, AlphaPorno, AnimeOnDemand,
+ anitube.se, AnySex, Aparat, AppleConnect, AppleDaily, appletrailers,
+ appletrailers:section, archive.org, ARD, ARD:mediathek, ARD:mediathek,
+ arte.tv, arte.tv:+7, arte.tv:cinema, arte.tv:concert, arte.tv:creative,
+ arte.tv:ddc, arte.tv:embed, arte.tv:future, arte.tv:magazine, AtresPlayer,
+ ATTTechChannel, AudiMedia, audiomack, audiomack:album, Azubu, AzubuLive,
+ BaiduVideo, bambuser, bambuser:channel, Bandcamp, Bandcamp:album, bbc,
+ bbc.co.uk, bbc.co.uk:article, BeatportPro, Beeg, BehindKink, Bet, Bigflix,
+ Bild, BiliBili, BleacherReport, BleacherReportCMS, blinkx, Bloomberg, Bpb,
+ BR, Break, brightcove:legacy, brightcove:new, bt:article, bt:vestlendingen,
+ BuzzFeed, BYUtv, Camdemy, CamdemyFolder, canalc2.tv, Canalplus, Canvas,
+ CBC, CBCPlayer, CBS, CBSNews, CBSNewsLiveVideo, CBSSports, CeskaTelevize,
+ channel9, Chaturbate, Chilloutzone, chirbit, chirbit:profile, Cinchcast,
+ Cinemassacre, Clipfish, cliphunter, Clipsyndicate, cloudtime, Cloudy,
+ Clubic, Clyp, cmt.com, CNET, CNN, CNNArticle, CNNBlogs, CollegeHumor,
+ CollegeRama, ComCarCoff, ComedyCentral, ComedyCentralShows, CommonMistakes,
+ CondeNast, Cracked, Crackle, Criterion, CrooksAndLiars, Crunchyroll,
+ crunchyroll:playlist, CSpan, CtsNews, culturebox.francetvinfo.fr,
+ CultureUnplugged, CWTV, dailymotion, dailymotion:playlist,
+ dailymotion:user, DailymotionCloud, daum.net, daum.net:clip,
+ daum.net:playlist, daum.net:user, DBTV, DCN, dcn:live, dcn:season,
+ dcn:video, DctpTv, DeezerPlaylist, defense.gouv.fr, democracynow, DHM,
+ Digiteka, Discovery, Dotsub, DouyuTV, DPlay, dramafever, dramafever:series,
+ DRBonanza, Dropbox, DrTuber, DRTV, Dump, Dumpert, dvtv, EaglePlatform,
+ EbaumsWorld, EchoMsk, eHow, Einthusan, eitb.tv, EllenTV, EllenTV:clips,
+ ElPais, Embedly, EMPFlix, Engadget, Eporner, EroProfile, Escapist, ESPN,
+ EsriVideo, Europa, EveryonesMixtape, exfm, ExpoTV, ExtremeTube, facebook,
+ facebook:post, faz.net, fc2, Fczenit, fernsehkritik.tv, Firstpost, FiveTV,
+ Flickr, Folketinget, FootyRoom, FOX, Foxgay, FoxNews, FoxSports,
+ france2.fr:generation-quoi, FranceCulture, FranceCultureEmission,
+ FranceInter, francetv, francetvinfo.fr, Freesound, freespeech.org,
+ FreeVideo, Funimation, FunnyOrDie, GameInformer, Gamekings, GameOne,
+ gameone:playlist, Gamersyde, GameSpot, GameStar, Gametrailers, Gazeta,
+ GDCVault, generic, Gfycat, GiantBomb, Giga, Glide, Globo, GloboArticle,
+ GodTube, GoldenMoustache, Golem, GoogleDrive, Goshgay, GPUTechConf,
+ Groupon, Hark, HearThisAt, Heise, HellPorno, Helsinki, HentaiStigma,
+ HistoricFilms, hitbox, hitbox:live, HornBunny, HotNewHipHop, HotStar,
+ Howcast, HowStuffWorks, HuffPost, Hypem, Iconosquare, ign.com, imdb,
+ imdb:list, Imgur, ImgurAlbum, Ina, Indavideo, IndavideoEmbed, InfoQ,
+ Instagram, instagram:user, InternetVideoArchive, IPrima, iqiyi, Ir90Tv,
+ ivi, ivi:compilation, ivideon, Izlesene, JadoreCettePub, JeuxVideo, Jove,
+ jpopsuki.tv, JWPlatform, Kaltura, KanalPlay, Kankan, Karaoketv,
+ KarriereVideos, keek, KeezMovies, KhanAcademy, KickStarter,
+ KonserthusetPlay, kontrtube, KrasView, Ku6, kuwo:album, kuwo:category,
+ kuwo:chart, kuwo:mv, kuwo:singer, kuwo:song, la7.tv, Laola1Tv, Lecture2Go,
+ Lemonde, Letv, LetvCloud, LetvPlaylist, LetvTv, Libsyn, life:embed,
+ lifenews, limelight, limelight:channel, limelight:channel_list, LiveLeak,
+ livestream, livestream:original, livestream:shortener, LnkGo, LoveHomePorn,
+ lrt.lt, lynda, lynda:course, m6, macgamestore, mailru, MakerTV, Malemotion,
+ MatchTV, MDR, media.ccc.de, metacafe, Metacritic, Mgoon, Minhateca,
+ MinistryGrid, miomio.tv, MiTele, mixcloud, MLB, MoeVideo, Mofosex,
+ Mojvideo, Moniker, mooshare, Morningstar, Motherless, Motorsport,
+ MovieClips, MovieFap, Moviezine, MPORA, MSNBC, MTV, mtv.de, mtviggy.com,
+ mtvservices:embedded, MuenchenTV, MusicPlayOn, muzu.tv, Mwave, MySpace,
+ MySpace:album, MySpass, Myvi, myvideo (CURRENTLY BROKEN), MyVidster,
+ n-tv.de, NationalGeographic, Naver, NBA, NBC, NBCNews, NBCSports,
+ NBCSportsVPlayer, ndr, ndr:embed, ndr:embed:base, NDTV, NerdCubedFeed,
+ Nerdist, netease:album, netease:djradio, netease:mv, netease:playlist,
+ netease:program, netease:singer, netease:song, Netzkino, Newgrounds,
+ Newstube, NextMedia, NextMediaActionNews, nextmovie.com, nfb, nfl.com,
+ nhl.com, nhl.com:news, nhl.com:videocenter, nick.com, niconico,
+ NiconicoPlaylist, njoy, njoy:embed, Noco, Normalboots, NosVideo, Nova,
+ novamov, nowness, nowness:playlist, nowness:series, NowTV (CURRENTLY
+ BROKEN), NowTVList, nowvideo, Noz, npo, npo.nl:live, npo.nl:radio,
+ npo.nl:radio:fragment, Npr, NRK, NRKPlaylist, NRKTV, ntv.ru, Nuvid,
+ NYTimes, NYTimesArticle, ocw.mit.edu, Odnoklassniki, OktoberfestTV,
+ on.aol.com, OnionStudios, Ooyala, OoyalaExternal, OraTV, orf:fm4, orf:iptv,
+ orf:oe1, orf:tvthek, pandora.tv, parliamentlive.tv, Patreon, pbs, pcmag,
+ Periscope, PhilharmonieDeParis, phoenix.de, Photobucket, Pinkbike,
+ Pladform, PlanetaPlay, play.fm, played.to, PlaysTV, Playtvak, Playvid,
+ Playwire, pluralsight, pluralsight:course, plus.google, pluzz.francetv.fr,
+ podomatic, PornHd, PornHub, PornHubPlaylist, PornHubUserVideos, Pornotube,
+ PornoVoisines, PornoXO, PrimeShareTV, PromptFile, prosiebensat1, Puls4,
+ Pyvideo, qqmusic, qqmusic:album, qqmusic:playlist, qqmusic:singer,
+ qqmusic:toplist, QuickVid, R7, radio.de, radiobremen, radiofrance,
+ RadioJavan, Rai, RaiTV, RBMARadio, RDS, RedTube, RegioTV, Restudy,
+ ReverbNation, Revision3, RingTV, RottenTomatoes, Roxwel, RTBF, rte,
+ rte:radio, rtl.nl, RTL2, RTP, RTS, rtve.es:alacarta, rtve.es:infantil,
+ rtve.es:live, RTVNH, RUHD, RulePorn, rutube, rutube:channel, rutube:embed,
+ rutube:movie, rutube:person, RUTV, Ruutu, safari, safari:course, Sandia,
+ Sapo, savefrom.net, SBS, schooltv, SciVee, screen.yahoo:search, Screencast,
+ ScreencastOMatic, ScreenJunkies, ScreenwaveMedia, SenateISVP, ServingSys,
+ Sexu, SexyKarma, Shahid, Shared, ShareSix, Sina, skynewsarabia:video,
+ skynewsarabia:video, Slideshare, Slutload, smotri, smotri:broadcast,
+ smotri:community, smotri:user, SnagFilms, SnagFilmsEmbed, Snotr, Sohu,
+ soundcloud, soundcloud:playlist, soundcloud:search, soundcloud:set,
+ soundcloud:user, soundgasm, soundgasm:profile, southpark.cc.com,
+ southpark.cc.com:español, southpark.de, southpark.nl, southparkstudios.dk,
+ Space, SpankBang, Spankwire, Spiegel, Spiegel:Article, Spiegeltv, Spike,
+ Sport5, SportBox, SportBoxEmbed, SportDeutschland, Sportschau, SRGSSR,
+ SRGSSRPlay, SSA, stanfordoc, Steam, Stitcher, streamcloud.eu, StreamCZ,
+ StreetVoice, SunPorno, SVT, SVTPlay, SWRMediathek, Syfy, SztvHu,
+ Tagesschau, Tapely, Tass, teachertube, teachertube:user:collection,
+ TeachingChannel, Teamcoco, TeamFour, TechTalks, techtv.mit.edu, ted,
+ Tele13, TeleBruxelles, Telecinco, Telegraaf, TeleMB, TeleTask, TenPlay,
+ TestURL, TF1, TheIntercept, TheOnion, ThePlatform, ThePlatformFeed,
+ TheSixtyOne, ThisAmericanLife, ThisAV, THVideo, THVideoPlaylist, tinypic,
+ tlc.de, TMZ, TMZArticle, TNAFlix, toggle, tou.tv, Toypics, ToypicsUser,
+ TrailerAddict (CURRENTLY BROKEN), Trilulilu, trollvids, TruTube, Tube8,
+ TubiTv, tudou, tudou:album, tudou:playlist, Tumblr, tunein:clip,
+ tunein:program, tunein:shortener, tunein:station, tunein:topic, Turbo,
+ Tutv, tv.dfb.de, TV2, TV2Article, TV4, TVC, TVCArticle, tvigle, tvland.com,
+ tvp.pl, tvp.pl:Series, TVPlay, Tweakers, twitch:bookmarks, twitch:chapter,
+ twitch:past_broadcasts, twitch:profile, twitch:stream, twitch:video,
+ twitch:vod, twitter, twitter:amplify, twitter:card, Ubu, udemy,
+ udemy:course, UDNEmbed, UnicodeBOM, Unistra, Urort, ustream,
+ ustream:channel, Varzesh3, Vbox7, VeeHD, Veoh, Vessel, Vesti, Vevo, VGTV,
+ vh1.com, Vice, Viddler, video.google:search, video.mit.edu, VideoDetective,
+ videofy.me, VideoMega (CURRENTLY BROKEN), videomore, videomore:season,
+ videomore:video, VideoPremium, VideoTt (CURRENTLY BROKEN), videoweed,
+ vidme, vidme:user, vidme:user:likes, Vidzi, vier, vier:videos, Viewster,
+ Viidea, viki, viki:channel, vimeo, vimeo:album, vimeo:channel, vimeo:group,
+ vimeo:likes, vimeo:review, vimeo:user, vimeo:watchlater, Vimple, Vine,
+ vine:user, vk, vk:uservideos, vlive, Vodlocker, VoiceRepublic, Vporn, vpro,
+ VRT, vube, VuClip, vulture.com, Walla, WashingtonPost, wat.tv,
+ WayOfTheMaster, WDR, wdr:mobile, WDRMaus, WebOfStories,
+ WebOfStoriesPlaylist, Weibo, WeiqiTV, wholecloud, Wimp, Wistia, WNL,
+ WorldStarHipHop, wrzuta.pl, WSJ, XBef, XboxClips, XFileShare, XHamster,
+ XHamsterEmbed, XMinus, XNXX, Xstream, XTube, XTubeUser, Xuite, XVideos,
+ XXXYMovies, Yahoo, Yam, yandexmusic:album, yandexmusic:playlist,
+ yandexmusic:track, YesJapan, yinyuetai:video, Ynet, YouJizz, youku,
+ YouPorn, YourUpload, youtube, youtube:channel, youtube:favorites,
+ youtube:history, youtube:playlist, youtube:playlists, youtube:recommended,
+ youtube:search, youtube:search:date, youtube:search_url, youtube:show,
+ youtube:subscriptions, youtube:truncated_id, youtube:truncated_url,
+ youtube:user, youtube:watchlater, Zapiks, ZDF, ZDFChannel, zingmp3:album,
+ zingmp3:song, ZippCast
+
+Package: audacious
+Description-md5: d470d09f622e70fd59980cea65fe3da4
+Description-en: small and fast audio player which supports lots of formats
+ Audacious is a fork of beep-media-player which supports Winamp skins
+ and many codecs.
+ .
+ In the default install, the following codecs are supported:
+ .
+ * MP3
+ * Ogg Vorbis / Theora
+ * AAC and AAC+
+ * FLAC
+ * ALAC
+ * Windows Media (WMA)
+ * WAVE
+ .
+ Additionally, Audacious is extendable through plugins, and contains
+ other useful features like LIRC support. Support for many more codecs
+ can also be added through plugins.
+ .
+ This package contains the core player and its localization.
+
+Package: audacious-dev
+Description-md5: ddb4ecb3a9c0b52ca783cc1628abca1b
+Description-en: audacious development files
+ Audacious is a fork of beep-media-player which supports Winamp skins
+ and many codecs.
+ .
+ In the default install, the following codecs are supported:
+ .
+ * MP3
+ * Ogg Vorbis / Theora
+ * AAC and AAC+
+ * FLAC
+ * ALAC
+ * Windows Media (WMA)
+ * WAVE
+ .
+ Additionally, Audacious is extendable through plugins, and contains
+ other useful features like LIRC support. Support for many more codecs
+ can also be added through plugins.
+ .
+ This package contains the development libraries and header files
+ required for developing components for audacious.
+ .
+ Please note that this package no longer contains libaudacious, as
+ libaudacious was dropped in Audacious 1.4.
+
+Package: audacious-plugins
+Description-md5: fac1bccca3ce1bcc0ca7b3b5015762e7
+Description-en: Base plugins for audacious
+ Audacious is a fork of beep-media-player which supports winamp skins
+ and many codecs.
+ .
+ In the default install, the following codecs are supported:
+ .
+ * MP3
+ * Ogg Vorbis
+ * AAC and AAC+
+ * FLAC
+ * Windows Media (WMA)
+ * Many module formats and much more!
+ .
+ Additionally, Audacious is extendable through plugins, and contains
+ other useful features like LIRC support.
+ .
+ This package contains the plugins for Audacious.
+ * Audio CD reading
+ * MPEG support (mp3)
+ * Ogg Vorbis support
+ * Windows Media support (WMA)
+ * AAC support
+ * FLAC support
+ * ALAC support
+ * WAVE support
+ * ALSA output
+ * OSS output
+ * Disk writer output
+ * And many more!
+
+Package: exaile
+Description-md5: 1ebcebcbb43ac9da7b5974eb9b02fe9f
+Description-en: flexible, full-featured audio player
+ Exaile is a media player which incorporates many of the cool things from
+ Amarok (and other media players) like automatic fetching of album art,
+ handling of large libraries, lyrics fetching, artist/album information via
+ Wikipedia, last.fm support, and optional iPod support (assuming you have
+ python-gpod installed).
+ .
+ In addition, Exaile also includes tabbed playlists (so you can have more
+ than one playlist open at a time), blacklisting of tracks (so they don't
+ get scanned into your library), downloading of guitar tablature from
+ fretplay.com, and submitting played tracks on your iPod to last.fm.
+ .
+ Exaile aims to be similar to AmaroK, but uses Python and GTK+.
+
+Package: libwxbase2.8-0
+Description-md5: 1bf8e142738d1262aea4a852f4974f57
+Description-en: wxBase library (runtime) - non-GUI support classes of wxWidgets toolkit
+ wxBase is a collection of C++ classes providing basic data structures
+ (strings, lists, arrays), powerful wxDateTime class for date manipulations,
+ portable wrappers around many OS-specific functions allowing the same
+ program to work for all supported platforms, wxThread class for writing
+ multithreaded programs, and much more.
+ .
+ wxBase currently supports the following platforms: Generic Unix (Linux,
+ FreeBSD, Solaris, HP-UX, ...), Microsoft Windows, and Mac OS X.
+ .
+ This package is only useful for non-GUI apps.  It offers a subset of the
+ classes in libwx_gtk2.8 for use in console apps and daemons.  You do not need
+ this package to build or use wxWidgets GUI apps.
+
+Package: libwxbase2.8-dev
+Description-md5: dd37b29e987748ac37824bc755a17984
+Description-en: wxBase library (development) - non-GUI support classes of wxWidgets toolkit
+ wxBase is a collection of C++ classes providing basic data structures
+ (strings, lists, arrays), powerful wxDateTime class for date manipulations,
+ portable wrappers around many OS-specific functions allowing the same
+ program to work for all supported platforms, wxThread class for writing
+ multithreaded programs, and much more.
+ .
+ wxBase currently supports the following platforms: Generic Unix (Linux,
+ FreeBSD, Solaris, HP-UX, ...), Microsoft Windows, and Mac OS X.
+ .
+ This package provides the files needed to compile apps using the wxBase
+ library.
+
+Package: libwxbase2.8-dbg
+Description-md5: 63a2b09b252bda157f8c8a0fe288b8b4
+Description-en: wxBase library (debug) - non-GUI support classes of wxWidgets toolkit
+ wxBase is a collection of C++ classes providing basic data structures
+ (strings, lists, arrays), powerful wxDateTime class for date manipulations,
+ portable wrappers around many OS-specific functions allowing the same
+ program to work for all supported platforms, wxThread class for writing
+ multithreaded programs, and much more.
+ .
+ wxBase currently supports the following platforms: Generic Unix (Linux,
+ FreeBSD, Solaris, HP-UX, ...), Microsoft Windows, and Mac OS X.
+ .
+ This package provides a debug version of the wxBase library.  It is compiled
+ both with -g for normal debugger tracing and with the __WXDEBUG__ flag which
+ provides many internal checks by wxWidgets itself that are not performed on
+ apps compiled with the 'release version' libs in the -dev package.
+
+Package: libwxgtk2.8-0
+Description-md5: db1b52969097be0cfc5a04083f06ab3b
+Description-en: wxWidgets Cross-platform C++ GUI toolkit (GTK+ runtime)
+ wxWidgets (formerly known as wxWindows) is a class library for C++ providing
+ GUI components and other facilities on several popular platforms (and some
+ unpopular ones as well).  For more information see http://wxwidgets.org
+ .
+ This package provides the shared libraries needed to run programs linked
+ against wxWidgets.  To use the (optional) glcanvas library you will need
+ to have Mesa or OpenGL installed.
+
+Package: libwxgtk2.8-dev
+Description-md5: cdd3748070a3a19d864686da4bbebd39
+Description-en: wxWidgets Cross-platform C++ GUI toolkit (GTK+ development)
+ wxWidgets (formerly known as wxWindows) is a class library for C++ providing
+ GUI components and other facilities on several popular platforms (and some
+ unpopular ones as well).
+ .
+ This package provides files needed to compile wxWidgets programs.  If you
+ want to compile apps using the (optional) glcanvas library you will need
+ to have Mesa or OpenGL installed too.
+ .
+ This package also provides the wx-config script.
+
+Package: libwxgtk2.8-dbg
+Description-md5: 19f70a2df6eb5ad882ad20edc4b2230c
+Description-en: wxWidgets Cross-platform C++ GUI toolkit (GTK+ debug)
+ wxWidgets (formerly known as wxWindows) is a class library for C++ providing
+ GUI components and other facilities on several popular platforms (and some
+ unpopular ones as well).
+ .
+ This package provides a debug version of the wxGTK library.  It is compiled
+ both with -g for normal debugger tracing and with the __WXDEBUG__ flag which
+ provides many internal checks by wxWidgets itself that are not performed on
+ apps compiled with the 'release version' libs in the -dev package.
+
+Package: python-wxgtk2.8
+Description-md5: 512d862ab885e743c6f3b61ad713b1a9
+Description-en: wxWidgets Cross-platform C++ GUI toolkit (wxPython binding)
+ wxWidgets (formerly known as wxWindows) is a class library for C++ providing
+ GUI components and other facilities on several popular platforms (and some
+ unpopular ones as well).
+ .
+ This package provides a Python binding to the wxGTK library and the
+ wxPython runtime support libraries.
+
+Package: python-wxgtk2.8-dbg
+Description-md5: 0aa2a1c35a267e5f9647744a3fe7d423
+Description-en: wxWidgets Cross-platform C++ GUI toolkit (wxPython binding, debug version)
+ wxWidgets is a class library for C++ providing GUI (Graphical User
+ Interface) and other facilities on more than one platform.  Version 2.8
+ currently supports GTK+, Motif, X11, Mac OS X, and MS Windows.
+ .
+ This package provides a Python binding to the wxGTK debug library.
+ This package contains the extensions built for the Python debug interpreter.
+
+Package: wx2.8-headers
+Description-md5: 0184fba378176058d996a54456f52722
+Description-en: wxWidgets Cross-platform C++ GUI toolkit (header files)
+ wxWidgets (formerly known as wxWindows) is a class library for C++ providing
+ GUI components and other facilities on several popular platforms (and some
+ unpopular ones as well).
+ .
+ This package provides the common header files required to build applications
+ using the wxWidgets toolkit.
+
+Package: wx2.8-i18n
+Description-md5: 9137d8d61097c85924014cd2519d6ceb
+Description-en: wxWidgets Cross-platform C++ GUI toolkit (i18n support)
+ wxWidgets (formerly known as wxWindows) is a class library for C++ providing
+ GUI components and other facilities on several popular platforms (and some
+ unpopular ones as well).
+ .
+ This package provides the i18n message catalogs for wxWidgets.
+
+Package: wx2.8-doc
+Description-md5: e34113c9bc7b0e51fed2104e2c70cc24
+Description-en: wxWidgets Cross-platform C++ GUI toolkit (documentation)
+ wxWidgets (formerly known as wxWindows) is a class library for C++ providing
+ GUI components and other facilities on several popular platforms (and some
+ unpopular ones as well).
+ .
+ This package provides a HTML version of the wxWidgets reference manual.
+
+Package: wx2.8-examples
+Description-md5: f60dbf94469ca64574ae693847db44d9
+Description-en: wxWidgets Cross-platform C++ GUI toolkit (examples)
+ wxWidgets (formerly known as wxWindows) is a class library for C++ providing
+ GUI components and other facilities on several popular platforms (and some
+ unpopular ones as well).
+ .
+ This package contains examples of using the wxWidgets toolkit in
+ C++ and with the wxPython language binding.
+
+Package: avant-window-navigator
+Description-md5: f86753fefb94e77dd855b10d0ab0d2a9
+Description-en: MacOS X like panel for GNOME
+ Avant-window-navigator (Awn) is a MacOS X like panel for the GNOME Desktop
+ written in C.  In addition to launchers that can be dragged onto the bar,
+ it features a taskbar that behaves similarly to the Mac OSX dock. The window
+ navigator uses the composite extension for transparency and other effects.
+
+Package: libawn-dev
+Description-md5: 96dcfe0ae0fc50d4ff10f7e6ca3e17a6
+Description-en: library for avant-window-navigator - development files
+ This package provides the include files and static library for the
+ avant-window-navigator library functions.
+
+Package: python-awn
+Description-md5: 92245c7a33bba33216c4037d07c85632
+Description-en: Python bindings for avant-window-navigator library
+ This library is used by avant-window-navigator. It provides Python bindings
+ to create and use Python applets for avant-window-navigator.
+
+Package: guake
+Description-md5: dea59684bb9d39df8af8a54964b9acc8
+Description-en: Drop-down terminal for GNOME Desktop Environment
+ Guake is a drop-down terminal for GNOME Desktop Environment, so you just
+ need to press a key to invoke him, and press again to hide.
+ Guake supports hotkeys, tabs, background transparent, etc.
+
+Package: avant-window-navigator-data
+Description-md5: 18f343731f07166283923b6f3c42fa3c
+Description-en: Common files for avant-window-navigator
+ This package contains all images and locales for avant-windows-navigator.
+
+Package: libawn-doc
+Description-md5: 6a5e8aef785ab13d7b5f4f0d0f24557e
+Description-en: library for avant-window-navigator - documentation files
+ This package contains documentation for avant-window-navigator and its library
+ libawn to develop applets or the bar.
+
+Package: python-awn-extras
+Description-md5: d5c6690492be9fe6acb5762270f652c0
+Description-en: Python bindings for avant-window-navigator's applets
+ This package provides Python bindings to create and use Python applets with
+ functions of libawn-extras. It also includes AWNLib, a collection of
+ functions to simplify the creation of applets with Python.
+
+Package: audacious-dbg
+Description-md5: 86266acea2262b767897a03a0316c83e
+Description-en: audacious media player (debugging symbols)
+ Audacious is a fork of beep-media-player which supports Winamp skins
+ and many codecs.
+ .
+ In the default install, the following codecs are supported:
+ .
+ * MP3
+ * Ogg Vorbis / Theora
+ * AAC and AAC+
+ * FLAC
+ * ALAC
+ * Windows Media (WMA)
+ * WAVE
+ .
+ Additionally, Audacious is extendable through plugins, and contains
+ other useful features like LIRC support. Support for many more codecs
+ can also be added through plugins.
+ .
+ This package contains the debugging symbols. Please install it before
+ reporting crashes, as this makes the backtrace output more usable.
+
+Package: audacious-plugins-dbg
+Description-md5: 0981e9706f144bf428cfaac0a7a7104d
+Description-en: Audacious-Plugins debug symbols
+ Audacious is a fork of beep-media-player which supports winamp skins
+ and many codecs.
+ .
+ In the default install, the following codecs are supported:
+ .
+ * MP3
+ * Ogg Vorbis
+ * AAC and AAC+
+ * FLAC
+ * Windows Media (WMA)
+ * Many module formats and much more!
+ .
+ Additionally, Audacious is extendable through plugins, and contains
+ other useful features like LIRC support.
+ .
+ This package contains the debugging symbols for the plugins collection of
+ Audacious. Please install it before reporting any crashes, as it makes bug
+ triage an easier process.
+
+Package: ncmpcpp
+Description-md5: c6739cd11252a85b2f8244d62a155bd3
+Description-en: ncurses-based client for the Music Player Daemon (MPD)
+ ncmpcpp is almost an exact clone of ncmpc which is a text-mode client
+ for MPD, the Music Player Daemon. It provides a keyboard oriented and
+ consistent interface to MPD and contains some new features ncmpc
+ doesn't have. It's been also rewritten from scratch in C++.
+ .
+ New features include:
+ - tag editor;
+ - playlists editor;
+ - easy to use search screen;
+ - media library screen;
+ - lyrics screen;
+ - possibility of going to any position in currently playing track
+ without rewinding/fastforwarding;
+ - multi colored main window (if you want);
+ - songs can be added to playlist more than once;
+ - a lot of minor useful functions.
+
+Package: libdesktop-agnostic0
+Description-md5: efe3c0d943280e72d6de09c34d937c6d
+Description-en: Desktop-agnostic library for GLib-based projects
+ This library provides an extensible configuration API, a unified virtual file
+ system API, and a desktop item editor (all with pluggable backends) for
+ GLib-based projects. It is not tied to any one desktop environment, although
+ there are desktop-specific modules.
+ .
+ This package contains the core library.
+
+Package: libdesktop-agnostic-vfs-gio
+Description-md5: db75d23c5b448dcc5d1fedf4a0ec4e53
+Description-en: GIO-based VFS module for libdesktop-agnostic
+ This library provides an extensible configuration API, a unified virtual file
+ system API, and a desktop item editor (all with pluggable backends) for
+ GLib-based projects. It is not tied to any one desktop environment, although
+ there are desktop-specific modules.
+ .
+ This package contains the GIO module.
+
+Package: libdesktop-agnostic-cfg-gconf
+Description-md5: a50d9dd07ddc3c5690713327bc54c389
+Description-en: GConf-based configuration module for libdesktop-agnostic
+ This library provides an extensible configuration API, a unified virtual file
+ system API, and a desktop item editor (all with pluggable backends) for
+ GLib-based projects. It is not tied to any one desktop environment, although
+ there are desktop-specific modules.
+ .
+ This package contains the GConf module.
+
+Package: libdesktop-agnostic0-dbg
+Description-md5: 013ef46c89771b45c4e303d53ab904e1
+Description-en: Debugging symbols for libdesktop-agnostic
+ This library provides an extensible configuration API, a unified virtual file
+ system API, and a desktop item editor (all with pluggable backends) for
+ GLib-based projects. It is not tied to any one desktop environment, although
+ there are desktop-specific modules.
+ .
+ This package contains the debugging symbols for the core library.
+
+Package: libdesktop-agnostic-dev
+Description-md5: 607c2fb7a5eaf193ac8488f1ea6ccffa
+Description-en: Development files for libdesktop-agnostic
+ This library provides an extensible configuration API, a unified virtual file
+ system API, and a desktop item editor (all with pluggable backends) for
+ GLib-based projects. It is not tied to any one desktop environment, although
+ there are desktop-specific modules.
+ .
+ This package contains the development files for the core library.
+
+Package: dockbarx
+Description-md5: 7423625adedd6ffe5d7135be47c3515f
+Description-en: DockBarX, an icon-based taskbar
+ TaskBar with groupping and group manipulation.
+ Experimental version.
+
+Package: libdesktop-agnostic-bin
+Description-md5: cba11379a047f30277a07349595d7145
+Description-en: Helper applications for libdesktop-agnostic
+ This library provides an extensible configuration API, a unified virtual file
+ system API, and a desktop item editor (all with pluggable backends) for
+ GLib-based projects. It is not tied to any one desktop environment, although
+ there are desktop-specific modules.
+ .
+ This package contains helper applications for libdesktop-agnostic, such as a
+ schema converter.
+
+Package: libdesktop-agnostic-cfg-keyfile
+Description-md5: a8eac2541d99875d548c51ecf350d54e
+Description-en: Keyfile-based configuration module for libdesktop-agnostic
+ This library provides an extensible configuration API, a unified virtual file
+ system API, and a desktop item editor (all with pluggable backends) for
+ GLib-based projects. It is not tied to any one desktop environment, although
+ there are desktop-specific modules.
+ .
+ This package contains the keyfile-based configuration module.
+
+Package: libdesktop-agnostic-fdo-glib
+Description-md5: c5678ac92a6d326cfb5d7b66faa106c6
+Description-en: GLib-based desktop entry/menu module for libdesktop-agnostic
+ This library provides an extensible configuration API, a unified virtual file
+ system API, and a desktop item editor (all with pluggable backends) for
+ GLib-based projects. It is not tied to any one desktop environment, although
+ there are desktop-specific modules.
+ .
+ This package contains the GLib-based desktop entry/menu module.
+
+Package: gloobus-preview
+Description-md5: 38b9da6927703d5e35fe9a8d5f155a1e
+Description-en: A quicklook for the GNU/Linux desktop
+ Gloobus is an extension of GNOME designed to enable a
+ full screen preview of any kind of file. Ever been
+ annoyed by those tiny miniatures of your files that are
+ helpless. Outraged by the fact that there's no miniature
+ for half of the file formats you're using. Excruciated by
+ the painful loading time to see if you're dealing with
+ the right file? Hail to Gloobus, for tis' is the Holy
+ Grail of preview! Designed as an extendable,
+ standards-compliant previewer , so that it plays nice
+ with Gnome and can be easily extended to support any kind
+ of file, Gloobus enables instant previewing of your files,
+ without even having to open them. Hit space, and BANG,
+ here's the content of your file, displayed as it would if
+ it was opened.
+ .
+ Currently, Gloobus supports TXT , PDF, JPG, BMP, GIF, PNG,
+ PSD, MP3, OGG, MPG, WMV, XCF It has a sleek black
+ interface which will put your files in focus.
+
+Package: exaile-plugin-contextinfo
+Description-md5: 65ad94f2a4d4c7a47210c8ed1eac0d53
+Description-en: Exaile plugin for contextual information
+ This Exaile plugin adds a sidepanel for contextual information based on
+ the Exaile internal tags and statistics, on lyrics plugins, and on the
+ LastFM API.
+ .
+ Exaile is a media player which incorporates many of the cool things from
+ Amarok (and other media players) like automatic fetching of album art,
+ handling of large libraries, lyrics fetching, artist/album information via
+ Wikipedia, last.fm support, and optional iPod support (assuming you have
+ python-gpod installed).
+ .
+ In addition, Exaile also includes tabbed playlists (so you can have more
+ than one playlist open at a time), blacklisting of tracks (so they don't
+ get scanned into your library), downloading of guitar tablature from
+ fretplay.com, and submitting played tracks on your iPod to last.fm.
+ .
+ Exaile aims to be similar to AmaroK, but uses Python and GTK+.
+
+Package: exaile-plugin-ipod
+Description-md5: 80e64a753dff9ffcdefe37d7ba045727
+Description-en: Exaile plugin for iPod support
+ This Exaile plugin adds support for the iPod portable media players in the
+ Exaile device manager.
+ .
+ Exaile is a media player which incorporates many of the cool things from
+ Amarok (and other media players) like automatic fetching of album art,
+ handling of large libraries, lyrics fetching, artist/album information via
+ Wikipedia, last.fm support, and optional iPod support (assuming you have
+ python-gpod installed).
+ .
+ In addition, Exaile also includes tabbed playlists (so you can have more
+ than one playlist open at a time), blacklisting of tracks (so they don't
+ get scanned into your library), downloading of guitar tablature from
+ fretplay.com, and submitting played tracks on your iPod to last.fm.
+ .
+ Exaile aims to be similar to AmaroK, but uses Python and GTK+.
+
+Package: exaile-plugin-moodbar
+Description-md5: a17ca6ace5d5320535bb11471941c868
+Description-en: Exaile plugin for moodbar
+ This Exaile plugin turns the progress bar of the tracks into a bar which
+ color depends on the tracks' mood.
+ .
+ Exaile is a media player which incorporates many of the cool things from
+ Amarok (and other media players) like automatic fetching of album art,
+ handling of large libraries, lyrics fetching, artist/album information via
+ Wikipedia, last.fm support, and optional iPod support (assuming you have
+ python-gpod installed).
+ .
+ In addition, Exaile also includes tabbed playlists (so you can have more
+ than one playlist open at a time), blacklisting of tracks (so they don't
+ get scanned into your library), downloading of guitar tablature from
+ fretplay.com, and submitting played tracks on your iPod to last.fm.
+ .
+ Exaile aims to be similar to AmaroK, but uses Python and GTK+.
+
+Package: python-desktop-agnostic
+Description-md5: 352e4553b88ef9978d02e0b859654df6
+Description-en: Python bindings for libdesktop-agnostic
+ This library provides an extensible configuration API, a unified virtual file
+ system API, and a desktop item editor (all with pluggable backends) for
+ GLib-based projects. It is not tied to any one desktop environment, although
+ there are desktop-specific modules.
+ .
+ This package contains the Python bindings for the core library.
+
+Package: libawn1
+Description-md5: b1cfd5698e6b349fad2d20a258cbd738
+Description-en: library for avant-window-navigator
+ This library is used by avant-window-navigator and its applets. It provides
+ functions to create the bar and the applets.
+
+Package: awn-settings
+Description-md5: 082c75924570840a883f3de914622363
+Description-en: Preferences manager for avant-window-navigator
+ awn-settings provides a simple way to configure avant-window-navigator.
+ You can manage preferences, themes, applets and launchers.
+
+Package: libawn1-dbg
+Description-md5: 5fef7c014d95409f0b525018a20b84a4
+Description-en: library for avant-window-navigator - debug package
+ This library is used by avant-window-navigator and its applets. It provides
+ functions to create the bar and the applets.
+ .
+ This package contains the debugging symbols.
+
+Package: pulseaudio-equalizer
+Description-md5: 32479d654bf0606f5e6f41a4366e8535
+Description-en: PulseAudio Equalizer - LADSPA plugin graphical user interface
+ GUI for PulseAudio's LADSPA interface using Steve Harris' Multiband EQ (mbeq_1197) plugin
+
+Package: metamorphose2
+Description-md5: 4f42343b8a315afb2f6315ad90cefcba
+Description-en: A mass renamer for files and folders (version 2).
+ A profesional renaming tool for almost any situation, it has many powerful
+ functions. Well suited for those that need to rename many files and/or folders
+ on a regular basis. In addition to general usage operations, it is useful for
+ photo and music collections, webmasters, programmers, legal and clerical, et
+ cetera.
+ .
+ Main Features:
+ * Renames files and folders at the same time.
+ * Preview every item to be renamed before committing changes.
+ * Load all files in directory and in subdirectories (recursive renaming).
+ * Undo renaming operation in case of mistakes.
+ * Retrieve audio and image metadata tags.
+ * Save all program settings to file for later use.
+
+Package: cardapio
+Description-md5: 0128244ce47774ab7e6ab7e768448f69
+Description-en: An alternative Gnome menu, launcher, and much more!
+ Cardapio is a launcher that can work in two modes: as a panel applet
+ (in which case it is an alternative to Gnome's application menu
+ applet) or as a launcher (in which case it is a lightweight
+ alternative to Gnome Do). Either way, it features a beautiful,
+ well-thought-out interface, supports tracker searching, and much more.
+ Give it a try today!
+
+Package: python-ephem
+Description-md5: 9af087a99cc4a2d364b6f65c099f3048
+Description-en: perform high-precision astronomy computations from python
+ PyEphem provides an "ephem" Python package
+ for performing high-precision astronomy computations.
+ The underlying numeric routines are coded in C
+ and are the same ones that drive the popular "XEphem" astronomy application.
+
+Package: notifyosdconfig
+Description-md5: b59e43b2810e2e18c10529979ecfae0d
+Description-en: tool to configure Ubuntu's notify-osd notification system
+ Customize the appearance and behaviour of Notify OSD, from an easy GUI.
+
+Package: launchpad-getkeys
+Description-md5: 325f3a753d0fb7103c43db40ddd82746
+Description-en: Import missing GPG keys automatically
+ .
+ This package provides a script capable of automatically
+ downloading the missing GPG keys for all your PPAs, even if you are
+ behind a firewall that blocks port 11371.
+ .
+ The tool does not fix broken keys!
+ .
+ To use it, run: sudo launchpad-getkeys
+
+Package: dockbarx-themes-extra
+Description-md5: 19ef6ba5c2e884c763492d43861afb04
+Description-en: DockBarX themes
+ Extra themes for DockBarX
+
+Package: libdesktop-agnostic-doc
+Description-md5: 98d414165d3ef1e1307331672c4f194c
+Description-en: Documentation for libdesktop-agnostic
+ This library provides an extensible configuration API, a unified virtual file
+ system API, and a desktop item editor (all with pluggable backends) for
+ GLib-based projects. It is not tied to any one desktop environment, although
+ there are desktop-specific modules.
+ .
+ This package contains the documentation for the core library.
+
+Package: puddletag
+Description-md5: d472c8561b9889b0c2df023db4308d2a
+Description-en: simple, powerful audio tag editor
+ puddletag is an audio tag editor (primarily created) for GNU/Linux
+ similar to the Windows program, Mp3tag. Unlike most taggers for
+ GNU/Linux, it uses a spreadsheet-like layout so that all the tags you
+ want to edit by hand are visible and easily editable.
+ .
+ The usual tag editor features are supported like extracting tag
+ information from filenames, renaming files based on their tags by
+ using patterns and basic tag editing.
+ .
+ Then there're Functions, which can do things like replace text, trim
+ it, do case conversions, etc. Actions can automate repetitive
+ tasks. You can import your QuodLibet library, lookup tags using
+ Amazon (including cover art), Discogs (does cover art too!), FreeDB
+ and MusicBrainz (and more).
+ .
+ Supported formats: ID3v1, ID3v2 (mp3), MP4 (mp4, m4a, etc.),
+ VorbisComments (ogg, flac), Musepack (mpc), Monkey's Audio (ape) and
+ WavPack (wv).
+
+Package: awn-applet-dockbarx
+Description-md5: 094955c1f7ba814fd08a24f127dddf92
+Description-en: Avant Window Navigator DockBarX applet
+ Avant Window Navigator support for DockBarX
+
+Package: awn-applets-common
+Description-md5: c0756a0ac0f339baa7d7cdafebf91bd6
+Description-en: A collection of applets for avant-window-navigator - common files
+ Awn-extras-applets is a collection of applets for avant-window-navigator. It
+ provides some extensions to the bar and some new features (like
+ applets in the gnome-panel).
+ .
+ This package contains common files like translations.
+
+Package: yarock
+Description-md5: 57b575b53e325a6ded3d722aae28fd6b
+Description-en: a Qt based music player
+ Yarock is a music player in c++/Qt designed to provide a clean,
+ simple and beautiful music collection based on album coverart.
+ .
+ Yarock is written in C++ using Qt and Phonon multimedia framework, only for
+ linux platform.
+ .
+ Features include:
+ * Music collection database (SQLite 3)
+ * Browse your local music collection based on cover art
+ * Easy search and filter music collection
+ * Manage favorites item (album, artist)
+ * Play music directly from collection or playqueue
+ * Simple Playqueue
+ * Smart playlist generator
+ * Support mp3,Ogg Vorbis,flac music files (depending on phonon backend)
+ * Support load/save playlist file (m3u, pls, xspf)
+ * Play radio stream (icecast, shoutcast, user stream files)
+ * Mp3Gain tag support for volume normalization
+ * Cover art download (Last.fm/discogs services)
+ * Last Fm scrobbler
+ * Command line interface, Mpris interface
+ * Clean and simple user interface
+ * No GNOME or KDE dependancies
+ .
+ http://qt-apps.org/content/show.php/YaRock?content=129372
+
+Package: nautilus-terminal
+Description-md5: 4553e3515f84bfeb4dedb63d6a721192
+Description-en: Nautilus extension to enable an embedded terminal
+ Nautilus Terminal is an embedded terminal.
+ It embeds a terminal pane into Nautilus that is accessible by
+ hotkey (default F4) and automatically follows the currently
+ active directory in Nautilus.
+
+Package: awn-applet-wm
+Description-md5: ee8739e2c1552b9b580a95c048960bdb
+Description-en: applet for Avant Window Navigator
+ *** Unofficial package ***
+ .
+ A window manager for the AWN dock
+ .
+ This package provides applet for Avant Window Navigator.
+
+Package: awn-applet-radio
+Description-md5: 806d25292746df79e8eed2b51fc75f31
+Description-en: applet for Avant Window Navigator
+ *** Unofficial package ***
+ .
+ A radio player for the avant window navigator dock
+ .
+ This package provides applet for Avant Window Navigator.
+
+Package: update-java
+Description-md5: f72aa1344c5dff6f05fb0b328a39a024
+Description-en: Updates JDK to the latest version
+
+Package: nautilus-columns
+Description-md5: 42c2709a216944fd74eaa80ad6edf100
+Description-en: Nautilus Extension
+ *** Unofficial package ***
+ .
+ A Nautilus extension to display music/EXIF and PDF metadata info in the Nautilus List View
+ .
+ This package provides a Nautilus extension.
+
+Package: yad
+Description-md5: a08f82aa39e1e6ed3a00d2e52bec7037
+Description-en: Yet Another Dialog - dialogs for shell
+ Yad (yet another dialog) is a fork of Zenity with many improvements, such
+ as custom buttons, additional dialogs, pop-up menu in notification icon
+ and more.
+ .
+ There were two main reasons to make this fork. The first one is to remove
+ dependencies on deprecated libraries, such as libglade and gnome-canvas.
+ And the second one - as for me, Zenity looks like an abandoned project. Its
+ ChangeLog consists of just "bump version to..." and "translation updated" for
+ the long time, but many interesting ideas which are ignored by
+ developers/maintainers were in GNOME Bugzilla.
+
+Package: cardapio-docky
+Description-md5: 39b3d5c98b66cd3ff49fa6c861b43cef
+Description-en: Cardapio helper for Docky
+ Cardapio is a launcher that can work in two modes: as a panel applet
+ (in which case it is an alternative to Gnome's application menu
+ applet) or as a launcher (in which case it is a lightweight
+ alternative to Gnome Do). Either way, it features a beautiful,
+ well-thought-out interface, supports tracker searching, and much more.
+ Give it a try today!
+ .
+ This package installs a Docky helper that lets you easily add Cardapio
+ to your  Docky configuration. This can also be done by hand through
+ gconf, but this package aims to  automate the process.
+
+Package: cardapio-awn
+Description-md5: b6825b44a2607b3f7aed3761761d0e19
+Description-en: Cardapio applet for Avant Window Navigator
+ Cardapio is a launcher that can work in two modes: as a panel applet
+ (in which case it is an alternative to Gnome's application menu
+ applet) or as a launcher (in which case it is a lightweight
+ alternative to Gnome Do). Either way, it features a beautiful,
+ well-thought-out interface, supports tracker searching, and much more.
+ Give it a try today!
+ .
+ This package installs an AWN applet that can be used to show/hide
+ the Cardapio menu.
+
+Package: awn-applet-awn-notification-daemon
+Description-md5: 5cc1610d64112aa118fb9db35f3e9725
+Description-en: Libnotify notification daemon implementation for Awn
+ awn-notification-daemon is a libnotify notification daemon implementation in
+ an Awn applet.
+
+Package: awn-applet-awn-system-monitor
+Description-md5: d3adf941d84b3a7aac4f3c0ed823e030
+Description-en: Display CPU activity and system stats on click in Awn
+ awn-applet-awn-system-monitor is an for Awn to display CPU activity and system
+ stats on click.
+
+Package: awn-applet-awnterm
+Description-md5: 5bf724212e5a685c8a3c2f788f867aca
+Description-en: A pop-up terminal that lives in Awn
+ awn-applet-awnterm is a pop-up terminal that lives in Awn.
+
+Package: awn-applet-cairo-main-menu
+Description-md5: bbc643fca75f298115c8fd28be94a5fe
+Description-en: Displays a menu in an Awn applet
+ awn-applet-cairo-main-menu is an applet for Awn which displays a list of all
+ the applications on your computer in a standard menu format.
+
+Package: awn-applet-indicator
+Description-md5: 64aa7f301a9ce73b028376eae60aeba2
+Description-en: Display indicator applets in Awn
+ awn-applet-indicator is an applet for Awn which displays indicator applets.
+
+Package: awn-applet-related
+Description-md5: ce43ec0449158a80a2b5351ad7f46ade
+Description-en: Display information from zeitgeist
+ awn-applet-related is an applet for Awn which Displays information from
+ zeitgeist.
+
+Package: awn-applet-notification-area
+Description-md5: f429950cab41165b4ed4e7e6a0badadd
+Description-en: Notification area for Awn
+ awn-applet-notification-area is an applet for Awn which replaces the
+ gnome-panel notification area and shows it right on your dock.
+
+Package: awn-applet-shinyswitcher
+Description-md5: 66c18cb1a78f37984aa1926a6f32239e
+Description-en: A workspace switcher supporting compiz and other WMs for Awn
+ awn-applet-shinyswitcher is a workspace switcher supporting compiz and other
+ WMs for Awn.
+
+Package: awn-applet-showdesktop
+Description-md5: 69f68d0fa6fa819844b68383be8eb79f
+Description-en: An applet for Awn, similar to the showdesktop icon of gnome-panel
+ awn-applet-showdesktop is an for Awn which hides/shows all of the windows of
+ the current viewport, similar to the showdesktop icon of gnome-panel.
+
+Package: awn-applet-garbage
+Description-md5: 8f49ad14459a040cf5f583469df928dd
+Description-en: A trash applet for Awn, like the one from gnome-panel
+ awn-applet-garbage is a trash applet for Awn, like the one from gnome-panel.
+
+Package: awn-applet-digital-clock
+Description-md5: fb714f4a28fbe224d2613c97aa39bf8b
+Description-en: A digital clock and calendar applet for Awn
+ awn-applet-digital-clock is a digital clock and calendar applet for Awn.
+
+Package: awn-applet-places
+Description-md5: 1470fd023c882949cc56e22ce2965cf0
+Description-en: Displays shortcuts in buttons for Awn
+ awn-applet-places is an applet for Awn which displays shortcuts in buttons.
+
+Package: awn-applet-sysmon
+Description-md5: 63263850760dd95f6c838f06edc5ef80
+Description-en: Display CPU activity and system stats on click for Awn
+ awn-applet-sysmon is an applet for Awn which displays CPU activity and system
+ stats on click.
+
+Package: awn-applet-webapplet
+Description-md5: 103ee8d67f90c506776ba02f74f58cf9
+Description-en: Display a web page for Awn
+ awn-applet-webapplet is an applet for Awn which displays a web page.
+
+Package: awn-applets-dbg
+Description-md5: 6aab9313f645876651a66920cff17c72
+Description-en: Debug symbols for applets for avant-window-navigator
+ This package contains the debugging symbols for all applets of Awn.
+
+Package: awn-applet-animal-farm
+Description-md5: bc8a8fbd0d041878b730f015ee47108b
+Description-en: Various animals tell your fortune for Awn
+ awn-applet-animal-farm is an applet for Awn where various animals tell your
+ fortune.
+
+Package: awn-applet-battery-applet
+Description-md5: 5b48043170d3820b2746e354fb282497
+Description-en: Display your computers current power status for Awn
+ awn-applet-battery-applet is an applet for Awn which displays your computers
+ current power status.
+
+Package: awn-applet-cairo-clock
+Description-md5: 310c27d872dde1334823e89fe20a61cf
+Description-en: Display an analog clock for Awn
+ awn-applet-cairo-clock is an applet for Awn which displays an analog clock.
+
+Package: awn-applet-comics
+Description-md5: 18340940effb12be4d4377a2831c0dda
+Description-en: View your favourite comics on your desktop for Awn
+ awn-applet-comics is an applet for Awn which is allow you to view your
+ favourite comics on your desktop.
+
+Package: awn-applet-common-folder
+Description-md5: 7287a84a81f0d5da2be5dd481fbb8547
+Description-en: Launcher for common folders and bookmarks for Awn
+ awn-applet-common-folder is launcher for common folders and bookmarks for Awn.
+
+Package: awn-applet-cpufreq
+Description-md5: 56587ecef229dee0618b203fd5ae3f7f
+Description-en: Monitors and controls the CPU frequency for Awn
+ awn-applet-cpufreq is an applet for Awn which monitors and controls the CPU
+ frequency.
+
+Package: awn-applet-dialect
+Description-md5: 9089e68761c97850a20ed0eaef222313
+Description-en: Manages keyboard layouts for Awn
+ awn-applet-dialect is an applet for Awn which manages keyboard layouts.
+
+Package: awn-applet-feeds
+Description-md5: f206607739d49cdcc5253658909eb6bd
+Description-en: A Python feed launcher for Awn
+ awn-applet-feeds is a Python feed launcher for Awn.
+
+Package: awn-applet-file-browser-launcher
+Description-md5: 47442e9b19535354611e97be9bd4bdf9
+Description-en: Launches the user's file manager or opens bookmarks for Awn
+ awn-applet-file-browser-launcher is an applet for Awn which launches the
+ user's file manager or opens bookmarks.
+
+Package: awn-applet-hardware-sensors
+Description-md5: 648a57de889e3f8abf25548a9a6afa36
+Description-en: Displays information from sensors for Awn
+ awn-applet-hardware-sensors is an applet for Awn which displays information
+ from sensors.
+
+Package: awn-applet-mail
+Description-md5: 0408ff90bff4a90827d1eb7ff2f04c28
+Description-en: Check your mail from Awn
+ awn-applet-mail is an applet for Awn which lets you check your mail from Awn.
+
+Package: awn-applet-media-control
+Description-md5: 4fda297a6629af819c52861f3a989287
+Description-en: Display album art and control your favorite media players for Awn
+ awn-applet-media-control is an applet for Awn which displays album art in a
+ awn dialog while allowing you to control your favorite media players.
+
+Package: awn-applet-media-player
+Description-md5: 55b8e7b382601b5c44295bffea0cf2e1
+Description-en: Play any media files you drop on it for Awn
+ awn-applet-media-player is an applet for Awn which plays any media files you
+ drop on it.
+
+Package: awn-applet-quit-applet
+Description-md5: 45d1f62f46845a013398744221da7e9d
+Description-en: A simple gnome-quit launcher for Awn
+ awn-applet-quit-applet is a simple gnome-quit launcher for Awn.
+
+Package: awn-applet-stack
+Description-md5: e3d7cf478083f443e35c65f50b6e4991
+Description-en: Provide a convenient location to place commonly used files for Awn
+ awn-applet-stack is an applet for Awn which provides a convenient location to
+ place commonly used files.
+
+Package: awn-applet-thinkhdaps
+Description-md5: 66d8cb3463895e487a6792332a34a73c
+Description-en: Display the status of HDAPS for Awn
+ awn-applet-thinkhdaps is an applet for Awn which displays the status of HDAPS.
+
+Package: awn-applet-todo
+Description-md5: 7769a65279980ece7a66b79e789e07ca
+Description-en: Manage a simple To-Do list for Awn
+ awn-applet-todo is an applet for Awn which manages a simple To-Do list.
+
+Package: awn-applet-volume-control
+Description-md5: cb6b4f4b3385500add09669abcbab827
+Description-en: A fancy volume changing applet for Awn
+ awn-applet-volume-control is an fancy volume changing applet that works much
+ like the gnome-panel version.
+
+Package: awn-applet-weather
+Description-md5: 05a684e8155963a8e1e024ca8d4f0cbe
+Description-en: A applet to display weather information for Awn
+ awn-applet-weather is an applet for Awn which downloads and displays the
+ current weather conditions and weather forecast from weather.com.
+
+Package: awn-applet-calendar
+Description-md5: 9e9f6993d2858ea48a3f25a843035e16
+Description-en: Display a clock and calendar on Awn
+ awn-applet-calendar is an applet for Awn which displays a clock and calendar
+ on the bar, and integrates with several external calendar applications to
+ display appointments.
+
+Package: awn-applet-media-icon-applet
+Description-md5: 715e208dc29486f879601890ae1b08ad
+Description-en: Allow you to add media icons for Awn
+ awn-applet-media-icon-applet is an applet for Awn which allows you to add
+ media icons like play, pause, and next/back to your awn bar, and control a
+ list of media players.
+
+Package: awn-applet-pandora
+Description-md5: e83e9bc942f713dc8cbfb3715bfd963c
+Description-en: Play Pandora internet radio for Awn
+ awn-applet-pandora is an applet for Awn which plays Pandora internet radio.
+
+Package: awn-applet-slickswitcher
+Description-md5: 4968e1bdb0a798a133bda7f6411f3f97
+Description-en: A visual workspace switcher for Awn
+ awn-applet-slickswitcher is a visual workspace switcher for Awn.
+
+Package: awn-applet-tomboy-applet
+Description-md5: 27468bd34cd684867b484c06f1dd59b1
+Description-en: Control Tomboy with D-Bus
+ awn-applet-tomboy-applet is an applet for Awn which controls Tomboy with D-Bus.
+
+Package: awn-applets-all
+Description-md5: b6d10e6a78f3bddc975f62089e9c1cc1
+Description-en: Metapackage to install all applets for Awn
+ awn-applets-all is a metapackage to install all applets for Awn.
+
+Package: mcomix
+Description-md5: b9d25d2e7cf32ea10bb69411c7131f09
+Description-en: GTK+ image viewer for comic books
+ MComix is an user-friendly, customizable image viewer. It is specifically
+ designed to handle comic books, but also serves as a generic viewer.
+ It reads images in ZIP, RAR, 7Zip or tar archives as well as plain image
+ files. It is written in Python and uses GTK+ through the PyGTK bindings,
+ and runs on both Linux and Windows.
+ .
+ MComix is a fork of the Comix project, and aims to add bug fixes
+ and stability improvements after Comix development came to a halt in late
+ 2009.
+
+Package: textadept
+Description-md5: 9e2e0f3b564f6e3720da812e08e75bbc
+Description-en: Textadept
+ Light, extensible text editor
+
+Package: screenkey
+Description-md5: 3b5ccfc1ef76e208ce279990172ff50a
+Description-en: screencast tool to display your keystrokes
+ Screenkey is a screencast tool to display your keys inspired
+ by Screenflick for Mac OS and based initially on key-mon project.
+ .
+ It’s useful to create screencasts and is also a powerful teaching tool.
+
+Package: cardapio-gnomepanel
+Description-md5: 6f25282d3ec84de31b444e48fa669161
+Description-en: Cardapio applet for Gnome Panel
+ Cardapio is a launcher that can work in two modes: as a panel applet
+ (in which case it is an alternative to Gnome's application menu
+ applet) or as a launcher (in which case it is a lightweight
+ alternative to Gnome Do). Either way, it features a beautiful,
+ well-thought-out interface, supports tracker searching, and much more.
+ Give it a try today!
+ .
+ This is a package that also installs the dependencies required to
+ allow Cardapio to run in the Gnome panel.
+
+Package: syspeek
+Description-md5: 569f033f7fe9b44c6ea56f3c5c17a142
+Description-en: A system monitor indicator.
+ SysPeek is a system monitor indicator that displays
+ CPU usage, memory usage, swap usage, disk usage
+ and network traffic.
+
+Package: winusb
+Description-md5: 2eeec1880f4c6d52b0df7907d46d20fd
+Description-en: WinUSB can create bootable windows installer on usb.
+ This package contains two programs:
+ - WinUSB-gui: a simple tool that enable you to create
+ your own usb stick windows installer from iso image
+ or a real DVD.
+ - winusb: the command line tool.
+ Supported images: Windows Vista, Seven, 8 installer
+ for any language and any version (home, pro...)
+ and Windows PE.
+
+Package: cardapio-gnomeshell
+Description-md5: 78807a0d34d78b3f0c84b7a1a3679625
+Description-en: Cardapio extension for Gnome Shell
+ Cardapio is a launcher that can work in two modes: as a panel applet
+ (in which case it is an alternative to Gnome's application menu
+ applet) or as a launcher (in which case it is a lightweight
+ alternative to Gnome Do). Either way, it features a beautiful,
+ well-thought-out interface, supports tracker searching, and much more.
+ Give it a try today!
+ .
+ This package installs a Gnome Shell extension that lets you easily add
+ Cardapio to your Gnome Shell top panel.
+
+Package: libdesktop-agnostic-data
+Description-md5: ec761fbcd5e2eae876a0012ad43ecc78
+Description-en: Locales and data for libdesktop-agnostic
+ This library provides an extensible configuration API, a unified virtual file
+ system API, and a desktop item editor (all with pluggable backends) for
+ GLib-based projects. It is not tied to any one desktop environment, although
+ there are desktop-specific modules.
+ .
+ This package contains the locales for libdesktop-agnostic.
+
+Package: libdesktop-agnostic-fdo-gio
+Description-md5: 154e9c9f00e7740996a43e8891663ee1
+Description-en: GIO-based desktop entry/menu module for libdesktop-agnostic
+ This library provides an extensible configuration API, a unified virtual file
+ system API, and a desktop item editor (all with pluggable backends) for
+ GLib-based projects. It is not tied to any one desktop environment, although
+ there are desktop-specific modules.
+ .
+ This package contains the GIO-based desktop entry/menu module.
+
+Package: unity-reboot
+Description-md5: 056f1061f1bdf52a190b2d0ec64bfcc3
+Description-en: Unity Reboot
+ An Unity Launcher icon for quickly rebooting the computer in other operating systems such as Microsoft Windows or other Linux distributions.
+
+Package: gloobus-sushi
+Description-md5: 08d47f6a0f06a6d12ed12dcbcd47705b
+Description-en: GloobusPreview replacement for Gnome Sushi
+ .
+ This package replaces GNOME Sushi quick previewer with Gloobus Preview.
+ To use it, select a file in Nautilus and press SPACE.
+
+Package: musique
+Description-md5: c6c199030c66d47d083463558b2e2e14
+Description-en: Simple but sophisticated graphical music player
+ Musique unclutters your music listening experience with a clean and innovative
+ interface. It comes with one playlist, plain and simple, but also
+ with graphical display of your albums and artists using pictures downloaded
+ from last.fm. At the same time you can, of course, also browse your music
+ directories and files.
+ .
+ The use of an internal database makes musique pretty fast.
+
+Package: syncwall
+Description-md5: 852f35476b945eac2e225ee729cac6be
+Description-en: Wallpaper changer
+ SyncWall is quite a basic wallpaper changer with a special feature, it is the ability to synchronize wallpaper change between several workstations with a basic (and unsecured) client/server protocol. SyncWall has also some multi monitor support.
+
+Package: audacious-plugins-data
+Description-md5: 1719d6de393b2f9bb46167b11f37780c
+Description-en: Data files for Audacious plugins
+ Audacious is a fork of beep-media-player which supports winamp skins
+ and many codecs.
+ .
+ This package contains internationalized messages and skins for
+ Audacious plugins.
+
+Package: cardapio-matepanel
+Description-md5: 3b0bdf5b04f46130225d3507ac887a66
+Description-en: Cardapio applet for Mate Panel
+ Cardapio is a launcher that can work in two modes: as a panel applet
+ (in which case it is an alternative to Mate's application menu
+ applet) or as a launcher (in which case it is a lightweight
+ alternative to Mate Do). Either way, it features a beautiful,
+ well-thought-out interface, supports tracker searching, and much more.
+ Give it a try today!
+ .
+ This is a package that also installs the dependencies required to
+ allow Cardapio to run in the Mate panel.
+
+Package: rosa-media-player
+Description-md5: 2b91cfeef49a64ebcac5d494771bfd6c
+Description-en: Front-end for MPlayer
+ Rosa Media Player (ROMP) - multimedia player that supports most of audio and video formats such as Audio CD, DVD, Video CD,
+ multimedia files in AVi, ASF/WMV/WMA, MOV/MP4, RealMedia, Ogg Vorbis, NUT, NSV, VIVO, FLI, NuppelVideo, yuv4mpeg, FILM (.cpk),
+ RoQ, PVA and Matroska  formats recorded with video codecs - DivX , MPEG-1, MPEG-2, MPEG-4, Sorenson, WMV, RealVideo, x264
+ and audio codecs MP3, Musepack, Vorbis, RealAudio, AC3/A52 (Dolby Digital), AAC (MPEG-4 audio), QuickTime, VIVO audio and WMA
+ and many other less widespread video and audio codecs.
+ It also supports streaming via HTTP/FTP, RTP/RTSP, MMS/MMST, MPST, SDP, capture and record (via mencoder) of television signal.
+ ROMP allows you to trim a particular piece of video, extract audio from multimedia files and record screen presentations and
+ many other things.
+
+Package: grive
+Description-md5: ccdb28acb59d37f2ce469d1f5ea4aa98
+Description-en: Grive2: an open source Linux client for Google Drive
+ .
+ This is the up-to-date fork of the original "Grive" (https://github.com/Grive/grive)
+ Google Drive client with the support for the new Drive REST API and partial
+ sync.
+ .
+ For the first time running grive, you should use the "-a" argument to grant
+ permission to grive to access to your Google Drive. An URL should be printed.
+ Go to the page. You will need to login to your google account if you haven't
+ done so. After granting the permission to grive, the browser will show you
+ an authenication code. Copy-and-paste that to the standard input of grive.
+ If everything works fine, grive will create .grive and .grive_state inside the
+ synchronized directory. It will also start downloading files from your Google
+ Drive to that directory.
+
+Package: cardapio-cinnamon
+Description-md5: e0378ed23824169bb29f59b6d5f4d947
+Description-en: Cardapio extension for Cinnamon
+ Cardapio is a launcher that can work in two modes: as a panel applet
+ (in which case it is an alternative to Gnome's application menu
+ applet) or as a launcher (in which case it is a lightweight
+ alternative to Gnome Do). Either way, it features a beautiful,
+ well-thought-out interface, supports tracker searching, and much more.
+ Give it a try today!
+ .
+ This package installs a Cinnamon applet that lets you easily add Cardapio
+ to your panel.
+
+Package: dockbarx-common
+Description-md5: 42770aca72f8a6da4a35e65606a3e306
+Description-en: DockBarX common files
+ This package contains the DockBarX common files
+
+Package: dockbarx-dockx
+Description-md5: 61df18a90279d85e38d883fd87bbf378
+Description-en: The stand-alone DockBarX dock called DockX
+ The stand-alone DockX package
+
+Package: gnomepanel-applet-dockbarx
+Description-md5: 729787149c771d2446dccd57176d1642
+Description-en: The DockBarX applet for GNOME panel
+ The DockBarX GNOME panel applet package
+
+Package: dockbarx-applet-appindicator
+Description-md5: a558caa7983b8ed2923a2d32d342fa53
+Description-en: DockBarX DockX AppIndicator applet
+ This package contains the DockBarX DockX AppIndicator applet
+
+Package: dockbarx-applet-cardapio
+Description-md5: 1bd845a36b11e6403c04059f31fdc6d7
+Description-en: DockBarX DockX Cardapio applet
+ This package contains the DockBarX DockX Cardapio menu applet. Requires the Cardapio PPA.
+
+Package: dockbarx-applet-clock
+Description-md5: e9b0c1dab94016aadef911aea2260078
+Description-en: DockBarX DockX Clock applet
+ This package contains the DockBarX DockX Clock applet
+
+Package: dockbarx-applet-hello-world
+Description-md5: b1e5d7be9e13ec3185883a24d00a682c
+Description-en: DockBarX DockX Hello World applet
+ This package contains the DockBarX DockX Hello World (example) applet
+
+Package: dockbarx-applet-namebar
+Description-md5: cd70cbe9e3012a6d455f37bfd6ab0f7a
+Description-en: DockBarX DockX Namebar applet
+ This package contains the DockBarX DockX Namebar applet (window list and window buttons)
+
+Package: dockbarx-applet-all
+Description-md5: 18b8cb786a1a5d71d7d6aab58217b241
+Description-en: All DockBarX DockX applets
+ This is a meta package which installs all the DockBarX DockX applets
+
+Package: dockbarx-applet-volume-control
+Description-md5: 341280bb855f0da0cf4d626dfce19348
+Description-en: DockBarX DockX Volume Control applet
+ This package contains the DockBarX DockX Volume Control applet
+
+Package: textadept-default-cli
+Description-md5: 28d439f85f85fd834d68c6f09d25bcee
+Description-en: Textadept default cli
+ Makes TextAdept the defult command line editor, instead of Nano or Vi
+
+Package: xfce4-dockbarx-plugin
+Description-md5: dba8074602c4243f7fd871524a16bfe3
+Description-en: DockBarX plugin for Xfce
+ This is a DockBarX plugin for the Xfce panel
+
+Package: libwxgtk-media2.8-0
+Description-md5: 4d453ea781b1c02f5f12d3bc28d3d46d
+Description-en: wxWidgets Cross-platform C++ GUI toolkit (GTK+ media library runtime)
+ wxWidgets (formerly known as wxWindows) is a class library for C++ providing
+ GUI components and other facilities on several popular platforms (and some
+ unpopular ones as well).  For more information see http://wxwidgets.org
+ .
+ This package provides the media shared libraries needed to run programs linked
+ against libwx_gtk2u_media.
+
+Package: libwxgtk-media2.8-dbg
+Description-md5: cdd23ceadafcb172f73e6e79727e06cc
+Description-en: wxWidgets Cross-platform C++ GUI toolkit (GTK+ media library debug)
+ wxWidgets (formerly known as wxWindows) is a class library for C++ providing
+ GUI components and other facilities on several popular platforms (and some
+ unpopular ones as well).
+ .
+ This package provides a debug version of the gtk-media library.  It is compiled
+ both with -g for normal debugger tracing and with the __WXDEBUG__ flag which
+ provides many internal checks by wxWidgets itself that are not performed on
+ apps compiled with the 'release version' libs in the -dev package.
+
+Package: libwxgtk-media2.8-dev
+Description-md5: cf53a6b6bd424856703612f9cc25c61b
+Description-en: wxWidgets Cross-platform C++ GUI toolkit (GTK+ media library development)
+ wxWidgets (formerly known as wxWindows) is a class library for C++ providing
+ GUI components and other facilities on several popular platforms (and some
+ unpopular ones as well).
+ .
+ This package provides files needed to compile wxWidgets programs using
+ wxgtk-media lib.
+
+Package: libvdpau-va-gl1
+Description-md5: 4c5078cf58e37672fd6ff35511fb6e80
+Description-en: VDPAU driver with OpenGL/VAAPI backend
+ Many applications can use VDPAU to accelerate portions of the video
+ decoding process and video post-processing to the GPU video
+ hardware. Unfortunately, there is no such library for many graphic
+ chipsets. Some applications also support VA-API but many of them,
+ including Adobe Flash Player, don't.
+ .
+ This library proposes a generic VDPAU library. It uses OpenGL under
+ the hood to accelerate drawing and scaling and VA-API (if available)
+ to accelerate video decoding.
+
+Package: antimicro
+Description-md5: fcb78d2f20b6da4b27947f142661a952
+Description-en: Graphical program used to map keyboard keys and mouse controls to a gamepad
+ antimicro is a graphical program that can be used to map keyboard
+ keys and mouse controls to a gamepad. This functionality is
+ useful for playing games with no built-in or
+ poor gamepad support.
+
+Package: ipad-charge
+Description-md5: a0881f31d092bc90a7c5a7ddfbb11c74
+Description-en: Enables USB charging for Apple devices, e.g. iPad.
+
+Package: prime-indicator
+Description-md5: 88974948e440579fd20734ee81f9dfe9
+Description-en: PRIME Indicator
+ Indicator applet for Ubuntu 14.04+ laptop users with NVIDIA/Intel switchable
+ graphics (Optimus). This indicator has only been tested on Ubuntu 14.04 but should be
+ working just as well on 12.04 with the newest hardware enablement stack.
+ Apply Google magic in case you want to use this on a version other than 14.04.
+ .
+ This indicator applet allows owners of laptops with NVIDIA/Intel hybrid graphics
+ to quickly switch between the graphics cards and log out from within the Unity top
+ panel in seconds.
+
+Package: pidgin-indicator
+Description-md5: 4c3ddb60d33557eca521e7d15414bb45
+Description-en: Ubuntu Indicator Plugin for Pidgin
+ .
+ This plugin provides an Ubuntu Indicator icon, for use in the Unity desktop
+ environment. Unity no longer provides a general purpose notification tray,
+ so the standard Pidgin tray icon does not appear. The official Ubuntu
+ alternative is an integration with their Messaging indicator, which
+ consolidates status from multiple applications. I've found this indicator to
+ be much less usable than the original Pidgin tray icon, so I decided to
+ build this plugin to restore the icon's functionality in a maintainable
+ way (in constrat to having to run a patched version of Unity).
+
+Package: kkedit
+Description-md5: 5ac22afa2fb39d5abae1b97348c7d597
+Description-en: KKEdit
+ A GTK2 text editor inspired by (but not based on) BBEdit.
+
+Package: youtube-dlg
+Description-md5: 2d79415e7266bce882943f27e374c810
+Description-en: youtube-dl gui
+ A cross platform front-end GUI of the popular youtube-dl written in wxPython.
+
+Package: todo-indicator
+Description-md5: 3bea352a919940573e5bb578b7470710
+Description-en: Todo Indicator
+ An Ubuntu app indicator for todo.txt-style todo lists
+
+Package: indicator-netspeed
+Description-md5: fe8101ea3e1e72f4cf5f299a5eb56dee
+Description-en: Network speed indicator for Unity
+ Network speed indicator for Unity, inspired by the old netspeed GNOME applet.
+
+Package: freshplayerplugin
+Description-md5: dcc812ecb56bf331e7bb747859566406
+Description-en: Dummy meta package
+ This package ensures those using the old package named
+ freshplayerplugin get the new one, called
+ browser-plugin-freshplayer-pepperflash.
+ .
+ It's safe to remove this package
+
+Package: dockbarx-applet-battery-status
+Description-md5: b556caca78c21d2da84e435aa70ba490
+Description-en: DockBarX DockX Battery Status applet
+ This package contains the DockBarX DockX Battery Status applet
+
+Package: caffeine-plus
+Description-md5: a5cc79551c2f45cd38243e576933ae9b
+Description-en: Prevent the desktop becoming idle
+ Caffeine Plus is a small daemon that prevents
+ the desktop from becoming idle (and hence the
+ screen saver and/or blanker from activating).
+ It does this automatically when the active
+ window is full-screen, or on demand when
+ enabled through its system tray icon.
+ .
+ This is a fork of Caffeine 2.7 which restores
+ the system tray icon for toggling it on and
+ off. Manual toggling is the primary use case
+ for many users, but the original author is
+ unwilling to restore that functionality.
+
+Package: gtk3-nocsd
+Description-md5: 8b951ed34e19b48a27da7890dd71b3f9
+Description-en: Disable Gtk+ 3 client side decorations (CSD)
+ gtk3-nocsd LD_PRELOADs a small library to disable the client side
+ decorations (CSD) of Gtk+ 3.
+ .
+ Since Gtk+ 3.10, its developers added a so-called header bar or custom
+ title bar. With this and the client-side decoration, the original
+ title bar and window border provided by the window manager are
+ disabled by Gtk+. This makes all Gtk+ 3 programs look like alike, but
+ have different handling from other windows on non-GNOME desktops. Even
+ worse, this may break some window manager or compositors.
+ .
+ Unfortunately, there is no reliable way of turning off CSDs in Gtk+
+ directly. This library makes this possible.
+
+Package: libaudcore3
+Description-md5: b2e660e29b59004089d4f0e6e15a5b64
+Description-en: audacious core engine library
+ Audacious is a fork of beep-media-player which supports Winamp skins
+ and many codecs.
+ .
+ In the default install, the following codecs are supported:
+ .
+ * MP3
+ * Ogg Vorbis / Theora
+ * AAC and AAC+
+ * FLAC
+ * ALAC
+ * Windows Media (WMA)
+ * WAVE
+ .
+ Additionally, Audacious is extendable through plugins, and contains
+ other useful features like LIRC support. Support for many more codecs
+ can also be added through plugins.
+ .
+ This package contains a library which provides core functionality
+ of Audacious.
+
+Package: libaudqt0
+Description-md5: d97086a2dcab8b6f713f26cdc38598a1
+Description-en: audacious media player (libaudqt shared library)
+ Audacious is a fork of beep-media-player which supports Winamp skins
+ and many codecs.
+ .
+ In the default install, the following codecs are supported:
+ .
+ * MP3
+ * Ogg Vorbis / Theora
+ * AAC and AAC+
+ * FLAC
+ * ALAC
+ * Windows Media (WMA)
+ * WAVE
+ .
+ Additionally, Audacious is extendable through plugins, and contains
+ other useful features like LIRC support. Support for many more codecs
+ can also be added through plugins.
+ .
+ This package provides the libaudqt shared library.
+
+Package: libaudgui3
+Description-md5: 2423dab97806e203e24b3ffcfb830b74
+Description-en: audacious media player (libaudgui shared library)
+ Audacious is a fork of beep-media-player which supports Winamp skins
+ and many codecs.
+ .
+ In the default install, the following codecs are supported:
+ .
+ * MP3
+ * Ogg Vorbis / Theora
+ * AAC and AAC+
+ * FLAC
+ * ALAC
+ * Windows Media (WMA)
+ * WAVE
+ .
+ Additionally, Audacious is extendable through plugins, and contains
+ other useful features like LIRC support. Support for many more codecs
+ can also be added through plugins.
+ .
+ This package provides the libaudgui shared library.
+
+Package: indicator-xkbmod
+Description-md5: 776014c601c4271507b741fab765e597
+Description-en: Simple Ubuntu keyboard modifiers indicator
+ Keyboard modifiers state indicator for Ubuntu Unity desktop.
+ As current state, it's just a prototype.
+ .
+ Unity lacks such accessibility tools which most likely needed when
+ sticky is activated.
+
+Package: syncthing-gtk
+Description-md5: f9ed066201192cdbe6de76908db97c44
+Description-en: GUI for Syncthing
+ Syncthing GUI is a GTK3 & python based GUI and notification
+ area icon for Syncthing.
+ .
+ Supported syncthing features:
+ - Everything what WebUI can display
+ - Adding / editing / deleting nodes
+ - Adding / editing / deleting repositories
+ - Restart / shutdown server
+ - Editing daemon settings
+ .
+ Additional features:
+ - Running Syncthing daemon in background
+ - Half-automatic setup for new nodes and repositories
+ - Filesystem watching and instant synchronization using inotify
+
+Package: telegram-purple
+Description-md5: c730caacc3e1e952b46ebd7c99acf143
+Description-en: Telegram plugin for Pidgin
+ .
+ Telegram-purple is a Libpurple plugin that adds support
+ for the Telegram messenger. Its still in an early
+ (pre-alpha) development stage, but already provides
+ basic chat functionality and group chats.
+ .
+ This plugin is based on Telegram-cli, a full-featured
+ terminal-based client for Telegram created by Vysheng.
+
+Package: libaudtag2
+Description-md5: 1266f8fa45c00c966eca3c6508df630a
+Description-en: audacious media player (libaudtag shared library)
+ Audacious is a fork of beep-media-player which supports Winamp skins
+ and many codecs.
+ .
+ In the default install, the following codecs are supported:
+ .
+ * MP3
+ * Ogg Vorbis / Theora
+ * AAC and AAC+
+ * FLAC
+ * ALAC
+ * Windows Media (WMA)
+ * WAVE
+ .
+ Additionally, Audacious is extendable through plugins, and contains
+ other useful features like LIRC support. Support for many more codecs
+ can also be added through plugins.
+ .
+ This package provides the libaudtag shared library.
+
+Package: nemo-gloobus-sushi
+Description-md5: f986b6bc32e7f55a7a9a6e912708d099
+Description-en: GloobusPreview replacement for Nemo Preview
+ .
+ This package replaces Nemo Preview quick previewer with Gloobus Preview.
+ To use it, select a file in Nemo and press SPACE.
+
+Package: lcurse
+Description-md5: 4b243a5641d320ced4c34672b775d380
+Description-en: Python Curse client for Linux
+ This is a Python Curse client for Linux, which only supports
+ World of Warcraft. It supports updating addons and installing
+ new addons by adding the Curse addon URL manually.
+ .
+ lcurse can also be used to start WoW, with various options,
+ like running the game with optirun (Bumblebee).
+
+Package: pidgin-skypeweb
+Description-md5: 298bf27aa6252204d3325ed2a2d88ac2
+Description-en: Hangouts icons and for Pidgin
+ Adds pixmaps for Skype protocol implemented by
+ the purple-skypeweb package.
+
+Package: twitch-indicator
+Description-md5: 173caec42bbc51baa5af77e227ae5ff4
+Description-en: Twitch.tv indicator
+ Twitch.tv indicator for Linux. Tracks your followed
+ channels and notifies when they go live.
+
+Package: maim
+Description-md5: 2258bf457fab0bdb6ebec0bcfe005191
+Description-en: takes screenshts of your desktop
+ maim (make image) takes screenshots of your desktop. It has options to take
+ only a region, and relies on slop to query for regions. maim is supposed to be
+ an improved scrot.
+
+Package: youtube-viewer
+Description-md5: 1970060700e15414bd269c664e4b9f54
+Description-en: YouTube Viewer
+ A Gtk2 application (+Terminal utility) for searching
+ and streaming videos from YouTube.
+
+Package: browser-plugin-freshplayer-pepperflash
+Description-md5: efb8cdb83d2a1db04174dfb14143ebd9
+Description-en: PPAPI-host NPAPI-plugin adapter for pepperflash
+ The main goal of the project is to get PPAPI (Chrome) plugins
+ working in Firefox (and any other web-browser supporting NPAPI plugins).
+ It implements a wrapper which behaves like
+ browser to PPAPI plugin and implements NPAPI plugin interface
+ for browser to use.
+ .
+ This particular implementation doesn't implement any sandboxing,
+ which means any malicious code can break through plugin security
+ as there are no additional barriers.  This is the same level of security as
+ NPAPI Flash have.
+ .
+ Flash plugin for Linux provided by adobe stopped at version 11.2; for
+ chrome/chromium users there is pepperflash plugin but it's not supported by
+ firefox/iceweasel/other browsers.
+ .
+ This package allows one to use the Pepper Flash plugin from Chrome
+ in NPAPI web browsers.
+
+Package: browser-plugin-freshplayer-libpdf
+Description-md5: 89e57b37bb65a92b203e4b812489d0e7
+Description-en: PPAPI-host NPAPI-plugin adapter for libpdf.so from Chrome
+ The main goal of the project is to get PPAPI (Chrome) plugins
+ working in Firefox (and any other web-browser supporting NPAPI plugins).
+ It implements a wrapper which behaves like
+ browser to PPAPI plugin and implements NPAPI plugin interface
+ for browser to use.
+ .
+ This particular implementation doesn't implement any sandboxing,
+ which means any malicious code can break through plugin security
+ as there are no additional barriers.  This is the same level of security as
+ NPAPI Flash have.
+ .
+ This package allows one to use the libpdf.so plugin from Chrome
+ in NPAPI web browsers.
+
+Package: browser-plugin-freshplayer-nacl
+Description-md5: 2ff74a7db1bb4fef979f63e63ec15efa
+Description-en: PPAPI-host NPAPI-plugin adapter for Native Client from Chrome
+ The main goal of the project is to get PPAPI (Chrome) plugins
+ working in Firefox (and any other web-browser supporting NPAPI plugins).
+ It implements a wrapper which behaves like
+ browser to PPAPI plugin and implements NPAPI plugin interface
+ for browser to use.
+ .
+ This particular implementation doesn't implement any sandboxing,
+ which means any malicious code can break through plugin security
+ as there are no additional barriers.  This is the same level of security as
+ NPAPI Flash have.
+ .
+ This package allows one to use the Native Client plugin from Chrome
+ (libppGoogleNaClPluginChrome.so) in NPAPI web browsers.
+
+Package: penguin-subtitle-player
+Description-md5: e9776138dc896cbc40f0e580fdd23085
+Description-en: a Qt based subtitle player
+ Penguin Subtitle Player is an open-source, cross-platform
+ standalone subtitle player, as an alternative to Greenfish
+ Subtitle Player, SrtViewer (Mac), SRTPlayer, JustSubsPlayer
+ and Free Subtitle Player.
+ .
+ You download the .srt file from any sites you like and load
+ it into the subtitle player. The subtitle player provides a
+ translucent window which always stays on the top so that
+ subtitles can be shown on top of the video without blocking
+ anything.
+ .
+ With Penguin Subtitle Player, just open your favorite online
+ streaming site, load the srt into the player, and enjoy.
+
+Package: gnome-twitch
+Description-md5: 3712e665b65252075dcc49b68204fd40
+Description-en: GNOME Twitch app for watching Twitch.tv streams without a browser or flash
+ gnome-twitch provides a GTK3 interface for viewing streams on Twitch.
+ At the moment you can
+ * browse popular streams,
+ * browse streams by game,
+ * search for streams,
+ * view streams,
+ * use the chat with a Twitch account,
+ * change the video quality,
+ * mark streams as favorites for faster access.
+ More features like recording streams, VODs (Video-On-Demand),
+ other player backends and integration of Twitch account features
+ like following streams are planned.
+
+Package: qt5ct
+Description-md5: 2cfebb4a2ac7224bf58594dccb23541f
+Description-en: Qt5 Configuration Utility
+
+Package: slop
+Description-md5: c3c21dc657d0787ef6e8bff43f27636f
+Description-en: Queries for a selection from the user and prints the region to stdout
+ slop (Select Operation) is an application that querys for a
+ selection from the user and prints the region to stdout.
+ It grabs the mouse and turns it into a crosshair, lets the
+ user click and drag to make a selection (or click on a
+ window) while drawing a pretty box around it, then finally
+ prints the selection's dimensions to stdout.
+
+Package: libgtk3-nocsd0
+Description-md5: 0c8cb3cf8154423b59945dd8bb53453a
+Description-en: Library to disable Gtk+ 3 client side decorations (CSD)
+ libgtk3-nocsd is a small LD_PRELOADable library used to disable the
+ client side decorations (CSD) of Gtk+ 3.
+ .
+ Since Gtk+ 3.10, its developers added a so-called header bar or custom
+ title bar. With this and the client-side decoration, the original
+ title bar and window border provided by the window manager are
+ disabled by Gtk+. This makes all Gtk+ 3 programs look like alike, but
+ have different handling from other windows on non-GNOME desktops. Even
+ worse, this may break some window manager or compositors.
+ .
+ Unfortunately, there is no reliable way of turning off CSDs in Gtk+
+ directly. This library makes this possible.
+
+Package: pidgin-hangouts
+Description-md5: 8894af0723e13b23bac5cc2e6a275ea9
+Description-en: Hangouts icons and for Pidgin
+ Adds pixmaps for Hangouts protocol implemented by
+ the purple-hangouts package.
+
+Package: purple-hangouts
+Description-md5: 0e604a6b38392eac2f10e7fa32c2a277
+Description-en: Hangouts Plugin for libpurple / Pidgin
+ A replacement prpl for Hangouts in Pidgin/libpurple to
+ support the proprietary protocol that Google uses for
+ its Hangouts service. So far it supports all the fun
+ things that aren't part of the XMPP interface, such as
+ Group Chats, synchronised history between devices and
+ SMS support via Google Voice.
+ .
+ This plugin is written by Eion Robb and Mike 'Maiku'
+ Ruprecht. Heavily inspired by the hangups library by Tom
+ Dryer (et. al.) using code from Nakul Gulati and protobufs
+ from Darryl Pogue.
+
+Package: razercfg
+Description-md5: 6eaebdec1e5f80d38f4c80ed7be87dfe
+Description-en: Razer device configuration tool
+ This is a system daemon and Python-powered CLI configuration utility for Razer
+ devices on Linux systems.
+
+Package: gnome-appfolders-manager
+Description-md5: 5bfe82ebe00e3fb5ab4965ea7108a6c7
+Description-en: GNOME Apps Folder Manager
+ a free GTK+ application to create and edit applications
+ folders (AppFolders) for GNOME Shell.
+
+Package: oomox
+Description-md5: a56a016c949dfe825a4b60ed2304430f
+Description-en: Create your own Numix-based themes
+ Graphical application for generating different color
+ variations of Numix theme (GTK2, GTK3)
+
+Package: qrazercfg-applet
+Description-md5: 5586b5edf50eabcbf4603d7379b809b2
+Description-en: Graphical Razer device configuration tool - applet
+ Python- and QT-powered configuration utility for the configuration of Razer
+ devices on Linux systems.
+
+Package: qrazercfg
+Description-md5: 7c9740b687466d44276ec78cf1dafba9
+Description-en: Graphical Razer device configuration tool
+ Python- and QT-powered configuration utility for the configuration of Razer
+ devices on Linux systems.
+
+Package: purple-skypeweb
+Description-md5: 15b8b24704e1d2d220d2f699f00601c4
+Description-en: SkypeWeb Plugin for Pidgin
+ Adds a "Skype (HTTP)" protocol to the accounts list of Pidgin,
+ Adium, Finch and other libpurple based messengers.
+
+Package: encryptpad
+Description-md5: 66e53ea882bb196cdcb76af9dcc5d8f6
+Description-en: Text editor for password protecting and encrypting files
+ Minimalist secure text editor and binary encryptor that
+ implements RFC 4880 Open PGP format: symmetrically
+ encrypted, compressed and integrity protected. The editor
+ can protect files with passwords, key files or both.
+
+Package: encryptcli
+Description-md5: f93f68aea7aa33decdb18348e6d2976f
+Description-en: CLI utility for EncryptPad
+ EncryptPad Is a minimalist secure text editor and binary
+ encryptor that implements RFC 4880 Open PGP format:
+ symmetrically encrypted, compressed and integrity protected.
+ The editor can protect files with passwords, key files or
+ both.
+ .
+ This is the command line utility.
+
+Package: stream2chromecast
+Description-md5: ec5e08ce7ba56895b5ef83b17fd7858d
+Description-en: Python Chromecast media streamer for Linux
+ Stream2Chromecast casts audio and video files to a
+ Chromecast device from Linux. It can also transcode any
+ unsupported files in real time and play them on the
+ Chromecast.
+ .
+ It is written in Python 2.7 and uses either ffmpeg or
+ avconv for transcoding.
+
+Package: libampache-browser-dev
+Description-md5: 2fa19c3aedfaa0415dec87475f446ac5
+Description-en: Ampache desktop client library -- development files
+ Ampache Browser is a library that implements desktop
+ client for Ampache. It provides end-user Qt UI and has
+ a simple C++ interface that allows easy integration to
+ a client application.
+ .
+ This package contains the development files.
+
+Package: libampache-browser
+Description-md5: b5a8650655e5a758028bd33b11ce4dc5
+Description-en: Ampache desktop client library
+ Ampache Browser is a library that implements desktop
+ client for Ampache. It provides end-user Qt UI and has
+ a simple C++ interface that allows easy integration to
+ a client application.
+
+Package: libaudcore4
+Description-md5: b2e660e29b59004089d4f0e6e15a5b64
+Description-en: audacious core engine library
+ Audacious is a fork of beep-media-player which supports Winamp skins
+ and many codecs.
+ .
+ In the default install, the following codecs are supported:
+ .
+ * MP3
+ * Ogg Vorbis / Theora
+ * AAC and AAC+
+ * FLAC
+ * ALAC
+ * Windows Media (WMA)
+ * WAVE
+ .
+ Additionally, Audacious is extendable through plugins, and contains
+ other useful features like LIRC support. Support for many more codecs
+ can also be added through plugins.
+ .
+ This package contains a library which provides core functionality
+ of Audacious.
+
+Package: libaudgui4
+Description-md5: 2423dab97806e203e24b3ffcfb830b74
+Description-en: audacious media player (libaudgui shared library)
+ Audacious is a fork of beep-media-player which supports Winamp skins
+ and many codecs.
+ .
+ In the default install, the following codecs are supported:
+ .
+ * MP3
+ * Ogg Vorbis / Theora
+ * AAC and AAC+
+ * FLAC
+ * ALAC
+ * Windows Media (WMA)
+ * WAVE
+ .
+ Additionally, Audacious is extendable through plugins, and contains
+ other useful features like LIRC support. Support for many more codecs
+ can also be added through plugins.
+ .
+ This package provides the libaudgui shared library.
+
+Package: libaudqt1
+Description-md5: d97086a2dcab8b6f713f26cdc38598a1
+Description-en: audacious media player (libaudqt shared library)
+ Audacious is a fork of beep-media-player which supports Winamp skins
+ and many codecs.
+ .
+ In the default install, the following codecs are supported:
+ .
+ * MP3
+ * Ogg Vorbis / Theora
+ * AAC and AAC+
+ * FLAC
+ * ALAC
+ * Windows Media (WMA)
+ * WAVE
+ .
+ Additionally, Audacious is extendable through plugins, and contains
+ other useful features like LIRC support. Support for many more codecs
+ can also be added through plugins.
+ .
+ This package provides the libaudqt shared library.
+
+Package: libaudtag3
+Description-md5: 1266f8fa45c00c966eca3c6508df630a
+Description-en: audacious media player (libaudtag shared library)
+ Audacious is a fork of beep-media-player which supports Winamp skins
+ and many codecs.
+ .
+ In the default install, the following codecs are supported:
+ .
+ * MP3
+ * Ogg Vorbis / Theora
+ * AAC and AAC+
+ * FLAC
+ * ALAC
+ * Windows Media (WMA)
+ * WAVE
+ .
+ Additionally, Audacious is extendable through plugins, and contains
+ other useful features like LIRC support. Support for many more codecs
+ can also be added through plugins.
+ .
+ This package provides the libaudtag shared library.
+
+Package: lxpanel-multiload-ng-plugin
+Description-md5: 096c8059b2682f7f83d1a97bd09cdd27
+Description-en: Multiload-ng applet for the LXDE panel
+ Multiload-ng is a modern graphical system monitor.
+ It's a near-complete rewrite of the good old GNOME
+ multiload applet.
+ .
+ This package provides a Multiload-ng plugin for the
+ LXDE desktop environment.
+
+Package: mate-multiload-ng-applet
+Description-md5: 1c3f2b341bf27ff930436ebf0f2b665c
+Description-en: Multiload-ng applet for the MATE panel
+ Multiload-ng is a modern graphical system monitor.
+ It's a near-complete rewrite of the good old GNOME
+ multiload applet.
+ .
+ This package provides a Multiload-ng plugin for the
+ MATE desktop environment.
+
+Package: multiload-ng-standalone
+Description-md5: 447ef3c985b71415a83bd4f4856b12d3
+Description-en: Multiload-ng standalone
+ Multiload-ng is a modern graphical system monitor.
+ It's a near-complete rewrite of the good old GNOME
+ multiload applet.
+ .
+ This package provides Multiload-ng that runs in a
+ standalone window.
+
+Package: xfce4-multiload-ng-plugin
+Description-md5: 44c9563ee9dd96da8bb5e9b4314e44d2
+Description-en: Multiload-ng applet for the Xfce panel
+ Multiload-ng is a modern graphical system monitor.
+ It's a near-complete rewrite of the good old GNOME
+ multiload applet.
+ .
+ This package provides a Multiload-ng plugin for the
+ Xfce desktop environment.
+
+Package: multiload-ng-common
+Description-md5: d0dc162ee3ddb0fcfd37e69a5ec1c231
+Description-en: Multiload-ng (common files)
+ Multiload-ng is a modern graphical system monitor.
+ It's a near-complete rewrite of the good old GNOME
+ multiload applet.
+ .
+ This package provides a Multiload-ng common files.
+
+Package: launcher-list-indicator
+Description-md5: ec61ff9c5f77231f534d5bf1b7370f3c
+Description-en: Switch between Unity launcher pinned apps profiles
+ This indicator allows easy switching between multiple
+ lists of Unity Launcher icons. It is intended for
+ people who are seeking to have extra icons on the
+ launcher, those who seek to theme the launcher per their
+ specific purpose, or as alternative to having miltiple
+ docks or quicklists on the launcher.
+
+Package: purple-funyahoo-plusplus
+Description-md5: f441d48d55149bc69b735dac3fa9fb63
+Description-en: A replacement Yahoo prpl (protocol plugin) for Pidgin/libpurple
+ A replacement prpl for Yahoo in Pidgin/libpurple to
+ support the proprietary protocol that Yahoo uses for
+ its Messenger service.
+ .
+ If you're having trouble logging in, try logging into
+ http://messenger.yahoo.com once. It seems to initialize
+ your account in some way.
+ .
+ There are several features that the new Yahoo protocol
+ doesn't have, and thus, are not available with this
+ plugin:
+ - Typing notifications
+ - Away/Idle statuses
+ - Your old buddy list
+ - Bold/italic/underline formatting
+
+Package: multiload-ng-indicator
+Description-md5: 4cf2fecccf2aede6a7e5598889027ad1
+Description-en: Multiload-ng Indicator
+ Multiload-ng is a modern graphical system monitor.
+ It's a near-complete rewrite of the good old GNOME
+ multiload applet.
+ .
+ This package provides the Multiload-ng Ubuntu
+ indicator.
+
+Package: multiload-ng-systray
+Description-md5: 62caff5fd871417e7e2392ab39bf66a9
+Description-en: Multiload-ng Systray applet
+ Multiload-ng is a modern graphical system monitor.
+ It's a near-complete rewrite of the good old GNOME
+ multiload applet.
+ .
+ This package provides the Multiload-ng Systray
+ applet.
+
+Package: prime-indicator-plus
+Description-md5: e1318b8e0bab8c39cc1a77b458cc6483
+Description-en: PRIME Indicator Plus
+ Indicator applet for Ubuntu 14.04+ laptop users with NVIDIA/Intel switchable
+ graphics (Optimus).
+ .
+ This indicator applet allows owners of laptops with NVIDIA/Intel hybrid graphics
+ to quickly switch between the graphics cards and log out from within the
+ panel in seconds.
+ .
+ This is a fork of the original PRIME Indicator, by André Brait.
+
+Package: nvidia-power-indicator
+Description-md5: 3a99a3f09d58c362d430f4f328e7b15b
+Description-en: NVIDIA Power Indicator
+ Indicator applet for laptop users with NVIDIA/Intel hybrid GPUs,
+ allowing one to view which GPU is being used and to manually
+ turn the dedicated GPU on or off when needed.
+
+Package: python-streamlink-doc
+Description-md5: 168a6d182e305b2459232c955f474f18
+Description-en: library to extract video streams from various services - documentation
+ The API lists available video qualities from URLs which are
+ visible to a service’s users. It can extract any such quality
+ and pass on the raw video data.
+ .
+ Currently most of the big streaming services are supported
+ (e.g. Dailymotion, Livestream, Justin.tv, Twitch, YouTube Live
+ and UStream) and more specialized content providers can be
+ added easily using Streamlink’s plugin system.
+ .
+ This package contains the Streamlink usage, API and plugins
+ documentation in HTML format.
+
+Package: python-streamlink
+Description-md5: ee8a0f44b6568351663e9cbf06b71bc5
+Description-en: library to extract video streams from various services - Python 2
+ The API lists available video qualities from URLs which are
+ visible to a service’s users. It can extract any such quality
+ and pass on the raw video data.
+ .
+ Currently most of the big streaming services are supported
+ (e.g. Dailymotion, Livestream, Justin.tv, Twitch, YouTube Live
+ and UStream) and more specialized content providers can be
+ added easily using Streamlink’s plugin system.
+ .
+ This package makes Streamlink APIs accessible in Python 2.
+
+Package: python3-streamlink
+Description-md5: 1f860e1dff57e5893a830f3c33f4ca89
+Description-en: library to extract video streams from various services - Python 3
+ The API lists available video qualities from URLs which are
+ visible to a service’s users. It can extract any such quality
+ and pass on the raw video data.
+ .
+ Currently most of the big streaming services are supported
+ (e.g. Dailymotion, Livestream, Justin.tv, Twitch, YouTube Live
+ and UStream) and more specialized content providers can be
+ added easily using Livestreamer’s plugin system.
+ .
+ This package makes Streamlink APIs accessible in Python 3.
+
+Package: streamlink
+Description-md5: 1d0bc6764fd61c8d73b08772d8cd8a02
+Description-en: CLI that pipes video streams to video players
+ Streamlink is a Command Line Interface that extracts video
+ streams from various services and hands them to a video player,
+ such as VLC. The main purpose of Streamlink is to allow the
+ user to avoid buggy and CPU heavy flash plugins but still
+ be able to enjoy various streamed content.
+ .
+ Currently most of the big streaming services are supported
+ (e.g. Dailymotion, Livestream, Justin.tv, Twitch, YouTube Live
+ and UStream) and more specialized content providers can be
+ added easily using Streamlink’s plugin system.
+

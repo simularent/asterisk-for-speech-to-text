@@ -1,0 +1,16 @@
+07eda052be1eb3cc16cc8f67a8f7da72  lib/systemd/system/snapd.boot-ok.service
+c08c667fa009e293f6fb7afcbe50daa7  lib/systemd/system/snapd.firstboot.service
+43d47a603df17945654e8a9b6e0d15a4  lib/systemd/system/snapd.frameworks-pre.target
+ccea040423fb4fabe3c42513d6a6b099  lib/systemd/system/snapd.frameworks.target
+61f0f4b509757e50fb966700c8cfa9e7  lib/systemd/system/snapd.refresh.service
+2d68aba2982839bc65f0145cf0bd04e9  lib/systemd/system/snapd.refresh.timer
+6b6c5296f6273a97f829e56bc92ee053  lib/systemd/system/snapd.service
+80fb1e47aa5a2b66582e77e9d154107c  lib/systemd/system/snapd.socket
+1f33d3a2b78c4dcf87ca8d5f1fd51e46  usr/bin/snap
+3528e1070b8672f525be7fe63d0f0233  usr/bin/snapctl
+333838a7db251e9ab19ceba8c9401cf3  usr/lib/snapd/snap-exec
+77f791805562567ccf709c0a8f0f4167  usr/lib/snapd/snapd
+a4195f6e40faa706b4137841d17ce6ce  usr/share/bash-completion/completions/snap
+7704daba7aea4544dddec64737d7f481  usr/share/doc/snapd/changelog.gz
+fe1d0809673e12b4e0587e061e53c8ac  usr/share/doc/snapd/copyright
+c9deafd746bc9b469cbff521a4c49c71  usr/share/man/man1/snap.1.gz

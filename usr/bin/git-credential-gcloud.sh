@@ -1,0 +1,1 @@
+../lib/google-cloud-sdk/bin/git-credential-gcloud.sh

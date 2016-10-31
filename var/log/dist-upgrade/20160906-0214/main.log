@@ -1,0 +1,11 @@
+2016-09-06 02:14:50,750 INFO Using config files '['./DistUpgrade.cfg.trusty']'
+2016-09-06 02:14:50,750 INFO uname information: 'Linux asterisk 3.13.0-92-generic #139-Ubuntu SMP Tue Jun 28 20:42:26 UTC 2016 x86_64'
+2016-09-06 02:14:50,915 INFO apt version: '1.0.1ubuntu2.14'
+2016-09-06 02:14:50,916 INFO python version: '3.4.3 (default, Oct 14 2015, 20:28:29) 
+[GCC 4.8.4]'
+2016-09-06 02:14:50,917 INFO release-upgrader version '16.04.16' started
+2016-09-06 02:14:50,926 INFO locale: 'en_US' 'UTF-8'
+2016-09-06 02:14:50,941 DEBUG screen returned: 'No Sockets found in /var/run/screen/S-root.
+
+'
+2016-09-06 02:14:50,942 INFO re-exec inside screen: '['screen', '-e', '\\0\\0', '-L', '-c', 'screenrc', '-S', 'ubuntu-release-upgrade-screen-window', '/tmp/ubuntu-release-upgrader-84k8wlea/xenial', '--mode=server', '--frontend=DistUpgradeViewText']'

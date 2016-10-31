@@ -1,0 +1,42 @@
+t=2016-09-06T02:22:20+0000 lvl=info msg="LXD is starting in setup mode" path=/var/lib/lxd
+t=2016-09-06T02:22:20+0000 lvl=warn msg="Couldn't find the CGroup blkio controller, I/O limits will be ignored."
+t=2016-09-06T02:22:20+0000 lvl=warn msg="Couldn't find the CGroup CPU controller, CPU time limits will be ignored."
+t=2016-09-06T02:22:20+0000 lvl=warn msg="Couldn't find the CGroup CPUset controller, CPU pinning will be ignored."
+t=2016-09-06T02:22:20+0000 lvl=warn msg="Couldn't find the CGroup devices controller, device access control won't work."
+t=2016-09-06T02:22:20+0000 lvl=warn msg="Couldn't find the CGroup memory controller, memory limits will be ignored."
+t=2016-09-06T02:22:20+0000 lvl=warn msg="Couldn't find the CGroup network class controller, network limits will be ignored."
+t=2016-09-06T02:22:20+0000 lvl=warn msg="Couldn't find the CGroup pids controller, process limits will be ignored."
+t=2016-09-06T02:22:20+0000 lvl=warn msg="CGroup memory swap accounting is disabled, swap limits will be ignored."
+t=2016-09-06T02:22:20+0000 lvl=info msg="Default uid/gid map:"
+t=2016-09-06T02:22:20+0000 lvl=info msg=" - u 0 165536 65536"
+t=2016-09-06T02:22:20+0000 lvl=info msg=" - g 0 165536 65536"
+t=2016-09-06T02:22:20+0000 lvl=info msg=Init driver=storage/dir
+t=2016-09-06T02:22:20+0000 lvl=info msg="Looking for existing certificates" cert=/var/lib/lxd/server.crt key=/var/lib/lxd/server.key
+t=2016-09-06T02:22:28+0000 lvl=info msg="LXD isn't socket activated"
+t=2016-09-06T02:22:28+0000 lvl=info msg="REST API daemon:"
+t=2016-09-06T02:22:28+0000 lvl=info msg=" - binding Unix socket" socket=/var/lib/lxd/unix.socket
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=GET url=/1.0 ip=@
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=GET url=/1.0 ip=@
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=GET url=/1.0 ip=@
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=GET url=/1.0 ip=@
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=GET url=/1.0/profiles/default ip=@
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=GET url=/1.0 ip=@
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=GET url=/1.0/profiles/default ip=@
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=PUT url=/1.0/profiles/default ip=@
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=GET url=/1.0 ip=@
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=GET url=/1.0/profiles/default ip=@
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling url=/1.0/profiles/default ip=@ method=PUT
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling url=/1.0 ip=@ method=GET
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling ip=@ method=GET url=/1.0
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=GET url=/1.0/profiles/default ip=@
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=PUT url=/1.0/profiles/default ip=@
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=GET url=/1.0 ip=@
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=GET url=/1.0/profiles/default ip=@
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling url=/1.0/profiles/default ip=@ method=PUT
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=GET url=/1.0 ip=@
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=GET url=/1.0/profiles/default ip=@
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=PUT url=/1.0/profiles/default ip=@
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=GET url=/1.0 ip=@
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=PUT url=/internal/ready ip=@
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=GET url=/1.0 ip=@
+t=2016-09-06T02:22:29+0000 lvl=info msg=handling method=GET url=/internal/ready ip=@

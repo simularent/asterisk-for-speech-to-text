@@ -1,0 +1,60 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Codename: cloud-sdk-xenial
+Date: Wed, 26 Oct 2016 16:07:07 UTC
+Description: cloud-sdk-xenial
+Label: cloud-sdk-xenial
+Origin: cloud-sdk-xenial
+Suite: cloud-sdk-xenial
+Components: main
+Architectures: amd64 i386
+MD5Sum:
+ a836865abf141b6469484641abcb6112 3833 main/binary-amd64/Packages
+ bbb2d88becbb33187f9199420e9cf115 995 main/binary-amd64/Packages.gz
+ 3a89ddee2d6a954b33516a1f8268ae4c 202 main/binary-amd64/Release
+ 333886abdd84e55e42adb4fd072b6a7f 3831 main/binary-i386/Packages
+ 717395421622a960cbc3b91384381059 996 main/binary-i386/Packages.gz
+ c9b9b75798441d1b0c53c563758e70f7 201 main/binary-i386/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
+ c12a04246055b5e7e54c4246425010ce 23 main/debian-installer/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-i386/Packages
+ c12a04246055b5e7e54c4246425010ce 23 main/debian-installer/binary-i386/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ c12a04246055b5e7e54c4246425010ce 23 main/source/Sources.gz
+SHA1:
+ 29b5ab096a8df4de258199ca267626f61f743e47 3833 main/binary-amd64/Packages
+ b405efb62ed5db47029014c990ed955e2ad54add 995 main/binary-amd64/Packages.gz
+ ac1881b9d3e20ec3f334c2842052e29d02b6ebee 202 main/binary-amd64/Release
+ 52b46674ac350b25152523b66b9a6fd916fee9a9 3831 main/binary-i386/Packages
+ f3ca0c85547d80f46300e997192b99230db78b60 996 main/binary-i386/Packages.gz
+ 2b093bd636be09f4cfce983e331dc27c9f376693 201 main/binary-i386/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
+ 966b5242581489ae227a6709656a9213596c3041 23 main/debian-installer/binary-amd64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-i386/Packages
+ 966b5242581489ae227a6709656a9213596c3041 23 main/debian-installer/binary-i386/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 966b5242581489ae227a6709656a9213596c3041 23 main/source/Sources.gz
+SHA256:
+ b926d61a5c5330689f50144504ab29d98fae2919a944125f3f551843145e4cfb 3833 main/binary-amd64/Packages
+ 343d11809b78a96874a3af09f59105934968034394926343a2bcad458051fa84 995 main/binary-amd64/Packages.gz
+ b8aee2bbd8ca917bbff346c5589861281fbfea2705da6f2c3582b89b16a0cc29 202 main/binary-amd64/Release
+ 5a62399072aad859f1a9c1f4c733fb9a8663b183b84227ffa78b10674661f19c 3831 main/binary-i386/Packages
+ 719b7642459fd6230e170884c424c1dbc94811999dae90f6c377362c2a0537bd 996 main/binary-i386/Packages.gz
+ 00088986a65e1c194a05c62bfa51261aada7513ecf2df72c264468c33e87e1bb 201 main/binary-i386/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
+ 73a3f54120f15151df4634877dc53444e3f2cfc4b4a7260a7664f14798ff3702 23 main/debian-installer/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-i386/Packages
+ 73a3f54120f15151df4634877dc53444e3f2cfc4b4a7260a7664f14798ff3702 23 main/debian-installer/binary-i386/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 73a3f54120f15151df4634877dc53444e3f2cfc4b4a7260a7664f14798ff3702 23 main/source/Sources.gz
+-----BEGIN PGP SIGNATURE-----
+
+wsBcBAEBCAAQBQJYENaDCRA3RsIIpzF7DwAAW1QIANoZoJCbJGMRQaz9yKIoP0hq
+tVfhYRzfEtTw9lckBkfPgrO6qJ9PTiBcHNEL1CiK3mFXQrglOil3Wx8WXrJG7WHH
+byFtdykxRXJptJ01Vs8WJPz+c9Zq/sKLkTsF4WTtlO+oR/f5uuWfNF/DgklAo/86
+ck+KYZd+dhoiHjDN41kl/mMlU0iVSfVd51a5ZlmR7nSovSn/WGWHdwYkFmARHOms
+FhKtqytwcU+PuKlbaN8Dv7BncVdLQYeFF857vLTHuOHiXo73urM7Ic25HUWbM8eh
+Dngj8phdvixdfw6ezg0yh2ET+rYv6SK+b0nbc5+4McAkxT4zwBIfCJOY8Fl3dzw=
+=hupD
+-----END PGP SIGNATURE-----

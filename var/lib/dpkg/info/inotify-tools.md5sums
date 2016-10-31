@@ -1,0 +1,5 @@
+e47995dc39da897d744530ed545a0d5c  usr/bin/inotifywait
+4ed29a197b06633ec0bfb36be8ac106e  usr/bin/inotifywatch
+21c5f73c830a2494dd752e5c4f5886ce  usr/share/doc/inotify-tools/copyright
+7448117ad8a2a4687185b092edf45bcd  usr/share/man/man1/inotifywait.1.gz
+c18d6e8b35e582b29260ff2aa4048815  usr/share/man/man1/inotifywatch.1.gz

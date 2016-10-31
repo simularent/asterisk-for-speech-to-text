@@ -1,0 +1,3670 @@
+Package: albert
+Priority: optional
+Section: utils
+Installed-Size: 2622
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: amd64
+Version: 0.8.11-1~webupd8~xenial0
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libmuparser2v5 (>= 2.2.3), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libqt5x11extras5 (>= 5.1.0), libstdc++6 (>= 5.2), libx11-6
+Filename: pool/main/a/albert/albert_0.8.11-1~webupd8~xenial0_amd64.deb
+Size: 585616
+MD5sum: cfdd6a7d5e445a3f0ad2e6874b0a7245
+SHA1: 6f042027cbe10108b264cefb8c7fa7acbd879b94
+SHA256: 909a7de627ae46fd0e2b521bcc32ea8393ca06ef2d9125f6051ed1057a32ea05
+Description: Albert Launcher
+Description-md5: 65340123144b0fbe1500f64d763ee55a
+
+Package: youtube-dl
+Priority: extra
+Section: web
+Installed-Size: 4307
+Maintainer: Rogério Brito <rbrito@ime.usp.br>
+Architecture: all
+Version: 1:2016.10.26-1~webupd8~xenial0
+Recommends: aria2 | wget | curl, ca-certificates, ffmpeg | libav-tools, mpv | mplayer | mplayer2, rtmpdump
+Depends: python-pkg-resources, python:any (<< 2.8), python:any (>= 2.7.5-5~)
+Filename: pool/main/y/youtube-dl/youtube-dl_2016.10.26-1~webupd8~xenial0_all.deb
+Size: 809764
+MD5sum: f7baea0f25760875eead872dbac9065f
+SHA1: b17fb09865bfb526101aeffc2e766a58af5dd49f
+SHA256: 3eb73f60d4f27ccd417355d7168daa91a66f4f65d38cb848f6e0e88f2e0a6554
+Description: downloader of videos from YouTube and other sites
+Description-md5: 26e4ffa66f541a7d0f35c8f7a62a2d56
+
+Package: audacious
+Priority: optional
+Section: sound
+Installed-Size: 1312
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 3.8.0-1~webupd8~xenial0
+Recommends: unzip
+Depends: audacious-plugins (>= 3.8.0), dbus, dbus-x11, gtk2-engines-pixbuf, libaudcore4 (= 3.8.0-1~webupd8~xenial0), libaudgui4 (= 3.8.0-1~webupd8~xenial0), libaudtag3 (= 3.8.0-1~webupd8~xenial0), libaudqt1 (= 3.8.0-1~webupd8~xenial0), libc6 (>= 2.4), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.37.3), libstdc++6 (>= 4.1.1)
+Filename: pool/main/a/audacious/audacious_3.8.0-1~webupd8~xenial0_amd64.deb
+Size: 263792
+MD5sum: f0b00b3fb000fe18e7f6120cdcc6faa4
+SHA1: d1efe1493c7d724b11d178f5dc18f00042540311
+SHA256: 41d084aaa1db3d21c6bb2386365b1cd6c53858522ab4ef3d24c1a9db009dafd1
+Description: small and fast audio player which supports lots of formats
+Description-md5: d470d09f622e70fd59980cea65fe3da4
+
+Package: audacious-dev
+Source: audacious
+Priority: optional
+Section: libdevel
+Installed-Size: 216
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 3.8.0-1~webupd8~xenial0
+Depends: libaudcore4 (= 3.8.0-1~webupd8~xenial0), libaudgui4 (= 3.8.0-1~webupd8~xenial0), libaudtag3 (= 3.8.0-1~webupd8~xenial0), libaudqt1 (= 3.8.0-1~webupd8~xenial0), libdbus-1-dev (>= 0.60), libdbus-glib-1-dev (>= 0.60), libgtk2.0-dev, qtbase5-dev
+Filename: pool/main/a/audacious/audacious-dev_3.8.0-1~webupd8~xenial0_amd64.deb
+Size: 45176
+MD5sum: 551425eb05dbce68a9b997bed47d95f4
+SHA1: 8e10d26b2527a17d6f6b8216826e5729cdc12ee1
+SHA256: 3f65648e03d417f5552a7dd97bd95e6e3a15b6f00c8dfc107beeba0b54638cbc
+Description: audacious development files
+Description-md5: ddb4ecb3a9c0b52ca783cc1628abca1b
+Multi-Arch: same
+
+Package: audacious-plugins
+Priority: optional
+Section: sound
+Installed-Size: 3658
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 3.8.0-1~webupd8~xenial0
+Recommends: audacious (>= 3.8.0)
+Replaces: audacious (<< 2.4.3), audacious-plugins-extra
+Depends: audacious-plugins-data (>= 3.8.0-1~webupd8~xenial0), libampache-browser, libasound2 (>= 1.0.16), libaudcore4 (>= 3.8.0-1~webupd8~xenial0), libaudgui4 (>= 3.8.0-1~webupd8~xenial0), libaudqt1 (>= 3.8.0~beta1-1~webupd8~trusty2), libaudtag3 (>= 3.8.0~beta1-1~webupd8~trusty2), libavcodec-ffmpeg56 (>= 7:2.4) | libavcodec-ffmpeg-extra56 (>= 7:2.4), libavformat-ffmpeg56 (>= 7:2.4), libavutil-ffmpeg54 (>= 7:2.4), libbs2b0, libc6 (>= 2.15), libcairo2 (>= 1.2.4), libcddb2, libcdio-cdda1 (>= 0.83), libcdio13 (>= 0.83), libcue1, libcurl3 (>= 7.16.2), libdbus-glib-1-2 (>= 0.78), libfaad2 (>= 2.7), libflac8 (>= 1.3.0), libfluidsynth1, libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libjack-jackd2-0 (>= 1.9.5~dfsg-14) | libjack-0.116, liblircclient0, libmms0 (>= 0.4), libmodplug1 (>= 1:0.8.8.5), libmp3lame0, libmpg123-0 (>= 1.12.1), libneon27-gnutls, libnotify4 (>= 0.7.0), libogg0 (>= 1.1.0), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5multimedia5 (>= 5.2.0), libqt5opengl5 (>= 5.0.2) | libqt5opengl5-gles (>= 5.0.2), libqt5widgets5 (>= 5.4.0), libsamplerate0 (>= 0.1.7), libsdl1.2debian (>= 1.2.11), libsidplayfp4, libsndfile1 (>= 1.0.20), libsoxr0 (>= 0.1.0), libstdc++6 (>= 5.2), libvorbis0a (>= 1.2.0), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 4.40.0), libx11-6, libxcomposite1 (>= 1:0.3-1), libxml2 (>= 2.7.4), libxrender1, zlib1g (>= 1:1.1.4)
+Breaks: audacious (<< 3.8.0~beta1), audacious-plugins-extra (<< 1.3.5-4)
+Filename: pool/main/a/audacious-plugins/audacious-plugins_3.8.0-1~webupd8~xenial0_amd64.deb
+Size: 890212
+MD5sum: 19973530a38c15dca80392371e356a4b
+SHA1: 87990a4a3f1c75ce7015b1be6bebb58c06b7dd6d
+SHA256: 0e945daa6bdef7c727f8a3c241c98b220de6fce3f5d66f52b4d473aa1ff4ec42
+Description: Base plugins for audacious
+Description-md5: fac1bccca3ce1bcc0ca7b3b5015762e7
+Multi-Arch: same
+
+Package: exaile
+Priority: optional
+Section: sound
+Installed-Size: 6587
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Architecture: all
+Version: 3.4.5-1~webupd8~xenial0
+Recommends: gstreamer0.10-ffmpeg, python-cddb, python-mmkeys, python-notify, python-lxml
+Suggests: exaile-plugin-contextinfo, exaile-plugin-ipod, exaile-plugin-moodbar, exfalso, gstreamer0.10-plugins-bad, gstreamer0.10-plugins-ugly, ipython, notify-osd, python-avahi, python-beautifulsoup, python-eggtrayicon, python-pymtp, streamripper
+Depends: gstreamer0.10-plugins-good, librsvg2-common, python (>= 2.5), python-dbus, python-gobject (>= 2.18), python-gst0.10, python-gtk2 (>= 2.17), python-mutagen (>= 1.10), python:any (>= 2.6.6-7~)
+Filename: pool/main/e/exaile/exaile_3.4.5-1~webupd8~xenial0_all.deb
+Size: 1181114
+MD5sum: b6ef4fc6f1e3ed8e04ad96f6d07348f4
+SHA1: 4d6d1b80bf718197eded365b13aed405647de42a
+SHA256: 180d44ddef0a1d5c7ef24724ae378dcbc7d03dd1d84dee4a708ddc16122c7986
+Description: flexible, full-featured audio player
+Description-md5: 1ebcebcbb43ac9da7b5974eb9b02fe9f
+
+Package: libwxbase2.8-0
+Source: wxwidgets2.8
+Priority: optional
+Section: oldlibs
+Installed-Size: 1658
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0
+Depends: libc6 (>= 2.15), libexpat1 (>= 2.0.1), libgcc1 (>= 1:3.0), libstdc++6 (>= 4.4.0), zlib1g (>= 1:1.1.4)
+Filename: pool/main/w/wxwidgets2.8/libwxbase2.8-0_2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0_amd64.deb
+Size: 550690
+MD5sum: 89a292d093d8750f6a76d08cc356b78e
+SHA1: 65aa200768041221b446464a184a79a67c2a2552
+SHA256: 570e004aedff8044eb4549b2f40b375fcc9a47a663e5522633522d47ea6bac7e
+Description: wxBase library (runtime) - non-GUI support classes of wxWidgets toolkit
+Description-md5: 1bf8e142738d1262aea4a852f4974f57
+Multi-Arch: same
+Original-Maintainer: wxWidgets Maintainers <freewx-maint@lists.alioth.debian.org>
+
+Package: libwxbase2.8-dev
+Source: wxwidgets2.8
+Priority: optional
+Section: oldlibs
+Installed-Size: 184
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0
+Suggests: wx2.8-doc, gettext
+Depends: wx2.8-headers (= 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0), libwxbase2.8-0 (= 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0), libc6-dev | libc-dev
+Filename: pool/main/w/wxwidgets2.8/libwxbase2.8-dev_2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0_amd64.deb
+Size: 107114
+MD5sum: d822c4dbfc84fc830dd232bfccca2822
+SHA1: 4963acb95f4f25a46ec8401763d474ab6b176d6b
+SHA256: bfb817855a62538fe27fa09f353ef885438ef54245b898d638402176ce08953e
+Description: wxBase library (development) - non-GUI support classes of wxWidgets toolkit
+Description-md5: dd37b29e987748ac37824bc755a17984
+Original-Maintainer: wxWidgets Maintainers <freewx-maint@lists.alioth.debian.org>
+
+Package: libwxbase2.8-dbg
+Source: wxwidgets2.8
+Priority: extra
+Section: debug
+Installed-Size: 12950
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0
+Depends: wx2.8-headers (= 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0), libc6-dev
+Filename: pool/main/w/wxwidgets2.8/libwxbase2.8-dbg_2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0_amd64.deb
+Size: 2900988
+MD5sum: 0f780de06def8283a9d25c08bcd34c7b
+SHA1: 46e2669e6f81b942ef4313f21afc80525d2ecac4
+SHA256: 50962101f66e270d55c60d6571bfb8e9fa6b10dd0b62ef6f34b2ceb28aa734f1
+Description: wxBase library (debug) - non-GUI support classes of wxWidgets toolkit
+Description-md5: 63a2b09b252bda157f8c8a0fe288b8b4
+Original-Maintainer: wxWidgets Maintainers <freewx-maint@lists.alioth.debian.org>
+
+Package: libwxgtk2.8-0
+Source: wxwidgets2.8
+Priority: optional
+Section: oldlibs
+Installed-Size: 10408
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.24.0), libjpeg8 (>= 8c), libpango-1.0-0 (>= 1.14.0), libpng12-0 (>= 1.2.13-4), libsm6, libstdc++6 (>= 4.1.1), libtiff5 (>= 4.0.3), libwxbase2.8-0 (>= 2.8.12.1+dfsg2), libxinerama1, libxxf86vm1
+Filename: pool/main/w/wxwidgets2.8/libwxgtk2.8-0_2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0_amd64.deb
+Size: 2609668
+MD5sum: aff7c2326d2d1ade33f29aba25126acf
+SHA1: 91d05a29faa0060f303253e6fb92d6a7a00f57e6
+SHA256: 696b1eeaac024690aae566d21ba41177cb55a3e0305639d8cc21cedbc4a5009d
+Description: wxWidgets Cross-platform C++ GUI toolkit (GTK+ runtime)
+Description-md5: db1b52969097be0cfc5a04083f06ab3b
+Multi-Arch: same
+Original-Maintainer: wxWidgets Maintainers <freewx-maint@lists.alioth.debian.org>
+
+Package: libwxgtk2.8-dev
+Source: wxwidgets2.8
+Priority: optional
+Section: oldlibs
+Installed-Size: 196
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0
+Suggests: wx2.8-doc, libstdc++-dev, gettext, libgl1-mesa-dev | libgl-dev, xlibmesa-glu-dev | libglu-dev
+Depends: wx-common, wx2.8-headers (= 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0), libwxgtk2.8-0 (= 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0), libwxbase2.8-dev (= 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0)
+Filename: pool/main/w/wxwidgets2.8/libwxgtk2.8-dev_2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0_amd64.deb
+Size: 107352
+MD5sum: bc80b0895606cca8171939173af28a9d
+SHA1: 9af2e9a3d8147e74cb6c8cc5a457c9fd122bea7e
+SHA256: 23ab1ecfae3944a5e7f925d33e0de47b415afb1d634e7f9fc36697d4b0d34684
+Description: wxWidgets Cross-platform C++ GUI toolkit (GTK+ development)
+Description-md5: cdd3748070a3a19d864686da4bbebd39
+Original-Maintainer: wxWidgets Maintainers <freewx-maint@lists.alioth.debian.org>
+
+Package: libwxgtk2.8-dbg
+Source: wxwidgets2.8
+Priority: extra
+Section: oldlibs
+Installed-Size: 83349
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.24.0), libjpeg8 (>= 8c), libpango-1.0-0 (>= 1.14.0), libpng12-0 (>= 1.2.13-4), libsm6, libstdc++6 (>= 4.1.1), libtiff5 (>= 4.0.3), libwxbase2.8-dbg (= 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0), libxinerama1, libxxf86vm1, wx2.8-headers (= 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0)
+Filename: pool/main/w/wxwidgets2.8/libwxgtk2.8-dbg_2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0_amd64.deb
+Size: 16738234
+MD5sum: 7027986623bb5e2a93611d53fd96c8ce
+SHA1: 0a901656ca7fdf669125c76ddb77901ee8199165
+SHA256: 82227080b505af468aff14eb36e19988dfe32f9852207c4a09de7903a17156d3
+Description: wxWidgets Cross-platform C++ GUI toolkit (GTK+ debug)
+Description-md5: 19f70a2df6eb5ad882ad20edc4b2230c
+Original-Maintainer: wxWidgets Maintainers <freewx-maint@lists.alioth.debian.org>
+
+Package: python-wxgtk2.8
+Source: wxwidgets2.8
+Priority: optional
+Section: python
+Installed-Size: 22998
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0
+Replaces: libwxgtk2.6-0-python, wxpython2.6-0
+Suggests: wx2.8-doc, wx2.8-examples, editra
+Provides: python2.7-wxgtk2.8
+Depends: python-wxversion (>= 2.6.3.2.2-2), python (>= 2.7), python (<< 2.8), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 4.1.1), libwxbase2.8-0 (>= 2.8.12.1+dfsg2), libwxgtk-media2.8-0 (>= 2.8.12.1+dfsg2), libwxgtk2.8-0 (>= 2.8.12.1+dfsg2)
+Conflicts: libwxgtk2.6-0-python, python-wxaddons, wxpython2.6-0
+Filename: pool/main/w/wxwidgets2.8/python-wxgtk2.8_2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0_amd64.deb
+Size: 4098226
+MD5sum: 173b859d6228e3ab7457dc175be88863
+SHA1: 5f95f76287da13fe8d822a498e3f9d2b48d47736
+SHA256: 2add1f189de1bf49a0a9a7cef465f1c320bb7b450b9f5c8988ba06bdd9a82d3a
+Description: wxWidgets Cross-platform C++ GUI toolkit (wxPython binding)
+Description-md5: 512d862ab885e743c6f3b61ad713b1a9
+Original-Maintainer: wxWidgets Maintainers <freewx-maint@lists.alioth.debian.org>
+
+Package: python-wxgtk2.8-dbg
+Source: wxwidgets2.8
+Priority: extra
+Section: debug
+Installed-Size: 62760
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0
+Depends: python-wxgtk2.8 (= 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0), python-dbg, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 4.1.1), libwxbase2.8-dbg (>= 2.8.12.1+dfsg2), libwxgtk-media2.8-dbg (>= 2.8.12.1+dfsg2), libwxgtk2.8-dbg (>= 2.8.12.1+dfsg2)
+Filename: pool/main/w/wxwidgets2.8/python-wxgtk2.8-dbg_2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0_amd64.deb
+Size: 20129614
+MD5sum: d7685f2c2863c5f91c027b0a91588fbf
+SHA1: 1230f92f1865fb98e74485ce0fa01862bec5aee8
+SHA256: 90fa0c016549d5cb9cfe332bb7a4e0d9edad431f791c188a17a8b8d70b50a0e1
+Description: wxWidgets Cross-platform C++ GUI toolkit (wxPython binding, debug version)
+Description-md5: 0aa2a1c35a267e5f9647744a3fe7d423
+Build-Ids: 08763e7b279883b0675e88e38c8ad6cb7539d769 0bf98c7d1a72b2725b4cd15d598dc4df3836c6a3 0c20d33ed2b0281f842cfeda1ea0f2e9b0f550e2 166e685c025e38f6a18e86ddb16933558e912e40 2b89d19a04065d4e505ea60332ab3149dfdfe619 3423e8cf6e871f1eb8be099fdf8b57fa51114f21 47aad05c1c7b75291f1db13d6fc6e61b804c1186 588b0ab383238e061c2c65097335f844f02c6af9 67fbc23dbdd2b163f42c0b17b0a258babf4cc400 6c9ce27a31270281f0eae10888ff212890796aa1 7f7fd6ae30c274ddcc5af36a82bc56bceccbf9f4 868e5ef5c036d96a3c88f8b88202782227d45a9b 91976e84f1d3c5c3fbd95e5e2aef9d5cd6a3ed59 b584e1360087735ef326f73e9faa359575486b98 ba798acaa614ddf22cf1386172982587ae31830c d8886b8ef1d2d3304257b75207dd73ede409cba9 de8844fb7ee463e9b2356a1999266cd236ba1859 e6f9001b83705c3a87d92692255f85c7d52c46a0 ee98966d04ea089c36a83ab7214cada96b13f535
+Original-Maintainer: wxWidgets Maintainers <freewx-maint@lists.alioth.debian.org>
+
+Package: wx2.8-headers
+Source: wxwidgets2.8
+Priority: optional
+Section: oldlibs
+Installed-Size: 7091
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0
+Filename: pool/main/w/wxwidgets2.8/wx2.8-headers_2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0_amd64.deb
+Size: 1101216
+MD5sum: 1848bad46887ad1510821cb3b3dbe8a3
+SHA1: 620fec8de64f0f493981b9b7c0d95506c90e1ba5
+SHA256: d2a4b3623d10e2c49f4478ebbc76332de2ba1a1afe60d17cfc0e8d7609e519ac
+Description: wxWidgets Cross-platform C++ GUI toolkit (header files)
+Description-md5: 0184fba378176058d996a54456f52722
+Original-Maintainer: wxWidgets Maintainers <freewx-maint@lists.alioth.debian.org>
+
+Package: wx2.8-i18n
+Source: wxwidgets2.8
+Priority: optional
+Section: oldlibs
+Installed-Size: 2147
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0
+Replaces: wx-i18n
+Provides: wx-i18n
+Conflicts: wx-i18n
+Filename: pool/main/w/wxwidgets2.8/wx2.8-i18n_2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0_all.deb
+Size: 446502
+MD5sum: 80c51ddbd7b8bbc46c32110bae28c261
+SHA1: bf0e41c4905bb4c1b74ef78a4732fc65e3d54562
+SHA256: 16d85b78f9623ae45cb2b1b82a05cd54e4fc040110890200dba409e6482e0893
+Description: wxWidgets Cross-platform C++ GUI toolkit (i18n support)
+Description-md5: 9137d8d61097c85924014cd2519d6ceb
+Original-Maintainer: wxWidgets Maintainers <freewx-maint@lists.alioth.debian.org>
+
+Package: wx2.8-doc
+Source: wxwidgets2.8
+Priority: optional
+Section: oldlibs
+Installed-Size: 7427
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0
+Suggests: doc-base, www-browser
+Provides: wx-doc
+Filename: pool/main/w/wxwidgets2.8/wx2.8-doc_2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0_all.deb
+Size: 1642658
+MD5sum: 313db6dee111457d37c97fc380ed2187
+SHA1: 8ab4fcba1e4deb74ae1aa7f21ddc3a085d9dd3e0
+SHA256: c82cd27473cfc59e28f85fa62473319d0bb64af461962b2f0083b282a76ef514
+Description: wxWidgets Cross-platform C++ GUI toolkit (documentation)
+Description-md5: e34113c9bc7b0e51fed2104e2c70cc24
+Original-Maintainer: wxWidgets Maintainers <freewx-maint@lists.alioth.debian.org>
+
+Package: wx2.8-examples
+Source: wxwidgets2.8
+Priority: optional
+Section: oldlibs
+Installed-Size: 12078
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0
+Suggests: libwxgtk2.8-dev (= 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0), wx2.8-doc
+Filename: pool/main/w/wxwidgets2.8/wx2.8-examples_2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0_all.deb
+Size: 5870796
+MD5sum: 1b39508e503612cbbb042897e94eb860
+SHA1: 2c91681a0e3be27386b2bb5a427a7a62be23dc0f
+SHA256: bb7aa4ffa812dae3a94602f187b5cd36349b392d08c055c2ca0e3398f16b7834
+Description: wxWidgets Cross-platform C++ GUI toolkit (examples)
+Description-md5: f60dbf94469ca64574ae693847db44d9
+Original-Maintainer: wxWidgets Maintainers <freewx-maint@lists.alioth.debian.org>
+
+Package: avant-window-navigator
+Priority: optional
+Section: gnome
+Installed-Size: 1118
+Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+Architecture: amd64
+Version: 0.4.2~1+gitb8c2248-ubuntu1
+Recommends: awn-applets-python-core, awn-applets-c-core, awn-settings (>= 0.4.2~1+gitb8c2248-ubuntu1), dockmanager, metacity (>= 2.21.5) | xcompmgr | compiz | xfwm4 (>= 4.2) | kde-window-manager (>= 4:4.0.0) | mutter
+Replaces: awn-applets-c-core (<< 0.3.9~bzr1890)
+Depends: libawn1, libc6 (>= 2.14), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.88), libdesktop-agnostic0 (>= 0.3.92), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgtk2.0-0 (>= 2.24.0), libgtop-2.0-10 (>= 2.22.3), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 5.2), libwnck22 (>= 1:2.30.7), libx11-6, libxext6, gconf2 (>= 2.28.1-2), avant-window-navigator-data (>= 0.4.2~1+gitb8c2248-ubuntu1), libdesktop-agnostic-bin, libdesktop-agnostic-vfs, libdesktop-agnostic-fdo, libdesktop-agnostic-cfg-gconf, dbus-x11
+Conflicts: libdesktop-agnostic-cfg-keyfile
+Breaks: awn-applets-c-core (<< 0.3.9~bzr1890)
+Filename: pool/main/a/avant-window-navigator/avant-window-navigator_0.4.2~1+gitb8c2248-ubuntu1_amd64.deb
+Size: 374142
+MD5sum: a49dd1bc51db164fd8cdb570dc0ae2c3
+SHA1: b5b1dba823f66047e047453b4657631e00e2e0ad
+SHA256: f507f69487c1474aac6790f6482261bf8e75db80cc0e0b793b7d785d02662265
+Description: MacOS X like panel for GNOME
+Description-md5: f86753fefb94e77dd855b10d0ab0d2a9
+
+Package: libawn-dev
+Source: avant-window-navigator
+Priority: optional
+Section: libdevel
+Installed-Size: 273
+Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+Architecture: amd64
+Version: 0.4.2~1+gitb8c2248-ubuntu1
+Replaces: vala-awn
+Depends: libawn1 (= 0.4.2~1+gitb8c2248-ubuntu1), libdesktop-agnostic-dev, libgtk2.0-dev, libdbus-glib-1-dev
+Conflicts: vala-awn
+Filename: pool/main/a/avant-window-navigator/libawn-dev_0.4.2~1+gitb8c2248-ubuntu1_amd64.deb
+Size: 129742
+MD5sum: b98bb6dc419b021420db152c80998a7b
+SHA1: 320ea646e6a97869aa67c60977886c7b039ba8f8
+SHA256: 0b6300cfaf8a9d6692bed921423c2247ff05c73f0a994a32cb2bb3523e292962
+Description: library for avant-window-navigator - development files
+Description-md5: 96dcfe0ae0fc50d4ff10f7e6ca3e17a6
+
+Package: python-awn
+Source: avant-window-navigator
+Priority: optional
+Section: python
+Installed-Size: 275
+Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+Architecture: amd64
+Version: 0.4.2~1+gitb8c2248-ubuntu1
+Depends: libawn1 (= 0.4.2~1+gitb8c2248-ubuntu1), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libdesktop-agnostic0 (>= 0.3.90), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.12.0), libpython2.7 (>= 2.7), python-gtk2, python-desktop-agnostic
+Filename: pool/main/a/avant-window-navigator/python-awn_0.4.2~1+gitb8c2248-ubuntu1_amd64.deb
+Size: 137762
+MD5sum: e6905a24d2e405376e959175c72643f2
+SHA1: 6746e24977963d2e24906ab9eb096696504eacac
+SHA256: 5f19b01951e1eb3dfaedf428555436fec0572671bc1965f2d4bdb44916443c7d
+Description: Python bindings for avant-window-navigator library
+Description-md5: 92245c7a33bba33216c4037d07c85632
+
+Package: guake
+Priority: optional
+Section: x11
+Installed-Size: 1182
+Maintainer: Daniel Echeverry <epsilon77@gmail.com>
+Architecture: amd64
+Version: 0.8.5-1~webupd8~xenial0
+Provides: x-terminal-emulator
+Depends: gconf2 (>= 2.28.1-2), libgtk2.0-0, notification-daemon, python, python-dbus, python-gconf, python-glade2, python-keybinder, python-notify, python-vte, python-xdg, python2.7, python:any (<< 2.8), python:any (>= 2.7.5-5~)
+Filename: pool/main/g/guake/guake_0.8.5-1~webupd8~xenial0_amd64.deb
+Size: 244936
+MD5sum: 5eae7befdfe19af16dd012b5b0badc5e
+SHA1: 42dabd6daba016944c0dd8d2abf20e8d0c0a07b7
+SHA256: 8a61dbc5302e053c3e024ffdc503835b82b73d01f65da0b9593c30e4f292e234
+Description: Drop-down terminal for GNOME Desktop Environment
+Description-md5: dea59684bb9d39df8af8a54964b9acc8
+
+Package: avant-window-navigator-data
+Source: avant-window-navigator
+Priority: optional
+Section: gnome
+Installed-Size: 1345
+Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+Architecture: all
+Version: 0.4.2~1+gitb8c2248-ubuntu1
+Replaces: avant-window-navigator (<= 0.2.1-dfsg1-1)
+Breaks: avant-window-navigator (<= 0.2.1-dfsg1-1)
+Filename: pool/main/a/avant-window-navigator/avant-window-navigator-data_0.4.2~1+gitb8c2248-ubuntu1_all.deb
+Size: 340952
+MD5sum: b45dbed192490c023cb488389b4adbfb
+SHA1: 5f61809c7bfea2827f2f3ccac50cb2b37c32ea79
+SHA256: b9dc5dc8991219eac20b4769ef7d64a3025ed28270eccb0a1f31c9a0f1f1003c
+Description: Common files for avant-window-navigator
+Description-md5: 18f343731f07166283923b6f3c42fa3c
+
+Package: libawn-doc
+Source: avant-window-navigator
+Priority: optional
+Section: doc
+Installed-Size: 643
+Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+Architecture: all
+Version: 0.4.2~1+gitb8c2248-ubuntu1
+Depends: libawn1 (>= 0.4.2~1+gitb8c2248-ubuntu1)
+Filename: pool/main/a/avant-window-navigator/libawn-doc_0.4.2~1+gitb8c2248-ubuntu1_all.deb
+Size: 150244
+MD5sum: 788275bf3bf37913e3d964018a2ea836
+SHA1: 4b405b8ed5fe2bee3620677cfc1835b58a3fe909
+SHA256: a92afb11b5a557de29939bbd3a64fe319b8cc2612692b7680c7099352a647719
+Description: library for avant-window-navigator - documentation files
+Description-md5: 6a5e8aef785ab13d7b5f4f0d0f24557e
+
+Package: python-awn-extras
+Source: awn-extras
+Priority: optional
+Section: python
+Installed-Size: 147
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: python-awnlib
+Conflicts: python-awnlib
+Filename: pool/main/a/awn-extras/python-awn-extras_0.4.1~1+git1081e3f-ubuntu2_amd64.deb
+Size: 36894
+MD5sum: 179ff905fce768cc33e2e2a4d17e061d
+SHA1: 89b2e7aa2237287508294510a8a76f362948cc2a
+SHA256: 2d24390936597a69cfe05a7348289785762021cfaaa0ced8243189edb59e3b3b
+Description: Python bindings for avant-window-navigator's applets
+Description-md5: d5c6690492be9fe6acb5762270f652c0
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: audacious-dbg
+Source: audacious
+Priority: extra
+Section: debug
+Installed-Size: 3098
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 3.7.2-1~webupd8~xenial0
+Recommends: audacious-plugins-dbg
+Provides: libaudcore3-dbg
+Depends: audacious (= 3.7.2-1~webupd8~xenial0)
+Filename: pool/main/a/audacious/audacious-dbg_3.7.2-1~webupd8~xenial0_amd64.deb
+Size: 2838564
+MD5sum: 2dd74a352b5e69b1e28beb362f5669ab
+SHA1: 66f06e1138894a535e30ffc2f6a9a80528b5007f
+SHA256: 2a7e063e435ce66719afa3581232498f58b803f2e45b5aa6f534ba282906e5f4
+Description: audacious media player (debugging symbols)
+Description-md5: 86266acea2262b767897a03a0316c83e
+Build-Ids: a53bae6872e7a7a1b5c8e40dce79fe46c20d8218 bf3e76a57982c000ff636f0851fe858121b1da67
+Multi-Arch: same
+
+Package: audacious-plugins-dbg
+Source: audacious-plugins
+Priority: extra
+Section: debug
+Installed-Size: 10652
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 3.8.0-1~webupd8~xenial0
+Recommends: audacious-dbg
+Depends: audacious-plugins (= 3.8.0-1~webupd8~xenial0)
+Filename: pool/main/a/audacious-plugins/audacious-plugins-dbg_3.8.0-1~webupd8~xenial0_amd64.deb
+Size: 9641862
+MD5sum: afb32e2f0a100b73473432e6794f1cab
+SHA1: 473713bc3e936e8da7f8f0c82beb217fb14649e6
+SHA256: 41b3125a10cfe5aea1210fa612eeeefab547b375b8221c2962923360b2084fdf
+Description: Audacious-Plugins debug symbols
+Description-md5: 0981e9706f144bf428cfaac0a7a7104d
+Build-Ids: 000517ed6bb500016ea083c9c44c4d1a9c366c24 03a61ea38dbc6782c6d9a7f8aaa67fa2ff739da8 09eff1a3004821e4702fe50bee9e04e9f57ed706 0f30bba3a0264d88a6962f49ff1b651079df80de 100573fd38611013940c08db96284d6b70197e26 15ee688034b2f95e3183ce21d05bf055d203003e 173e7772b0cefe1eb466d6dc5f9e2993020587da 177d14e5c8a822a32beee999a9b1d7ce5096b636 18c457f479ef0d42ba0a1f17cfcd2b12e583e5b7 1b71322029ab8f35a04fac9642d868720692ec6a 24e7a8b63b74e21710ba3c6322a6e912ef834172 25cf51af8fe206b63dc3c541a59a3bd81a8939e0 2ad9da098f044b1d6da046f810a4039bd5daa1bb 2b24198f3f9e46b65d7550f055b5b36a18024e1f 2c10fe041abdf895ebc44dfbbf0a74cc24ec26c1 2d2e459b1cbe6144ad59c93dc1d89496a36a68dd 2db1a6d84b8ac601d34eecdeb3c077feb83a0ebd 2ebb3bec8e63cdfdc35ab3573bf031d52e5f8af4 2fd8a1ea8ee811654e395d721335e7ec2c17dd9e 368a45bcc3587a448b29e55ebd440ab5cbc2973d 41250e40cfa5d529c288e075eca460e468782006 4525b62f249aa20157c8593874f2458b7b0aaa8d 4604ff081baaae0115309aeabcb73c88d15444d5 499d3c3e7a6a3726e24944f8a8f6a663ce348f4c 49a96891a52bc70bbd3d132319fd1ef9fc97b92c 4d61b0a0545e715737f0e2569e6285f1e6cb7ddb 4ff4791ea016b8d971772243ffa0c45fe7b08d08 5034f1bdd4f27cd08d96951ce83f499900194027 5238fb328994b58b302d8df8dcd021dde57f20b9 5c593a60f5e98acc5dfb0845d860a50dfa5a49f7 6797c285d7340519ce0a516b6e8588487a7d9b23 6ab997c41ad3dd4575a9d31d7e44526544db1887 6c1a098e7c893a08d60211470fe33cfdf2c48871 74f72dadbb3a7ae1cac7afc1dbe0e0fe1048cba0 76ce30edc9884c33a7b6855b111d57a6194e92c6 7dcce9ce66fecaa5a7747f62bf5825fc7542d196 81b4c552ea702da6ceb09f019d7a66ec67bcca09 82a64c9bd7f3d78f79e9365c7ae8fbefbd776e35 841133e0a66896e1f852b35d1b4e60d26dc24293 8c60e9c2fd61662633d9f5a0b7f36e237ce0b985 8d7d62f157d769c98e03888a66c80cdf0274813f 902ec224c17e0190a4c21b714641f8aaa25bea02 911a45cf85b2bae47b69b3dac0b71ed72bfa24f5 9cabe2bb778d0378445b4bf4ea883bc893e0a208 abddc8b11842bcaf9babfc81f3b063153d05a86f ad3157209e802d30e37f28b71b2ab16aca4003b4 b2034b694761ccf220a490dba2301b277130f782 b3fca05c8e18e9044fc3e010be55b1ea5bf3b1c4 b4e454d2ef8e984462dafad64ae91531e88ca89d b65f5f9a371a335b45ac2ae3a31d361443af445b b7eacc7c39c5c0025a017e2fffc31e6e948d3f99 b82f4aa7b226352562c846bb787dc091d09e4177 bb48fa022ed6a50ffeba4f51d556fda2665f0e3c c150b0d9fa1f070831f3c03df5ab2db6b0694d4e c19389e77f3260ab5e3fc73302dc1290154f8606 c1c91f9148bfd9d57164558814e1f1d6b20d731c c4beff8dc64ad80ca50831242d35c0334a1f2cd8 c535baaba1d3ef3fa4c98e63288c3ef31be65ae3 c864424c1fb27ed27589af29b7d8c73711518874 c8ba82069d288c3a1204c9507a5a7180c375411c cb30482563b4b654f117f40e4fae6b2ea895e254 cb799fdb93ce34195f5eddfd89928328fcda8855 cc80f80547001fb2096b6273f13f3296fa87147c d00c3cd3ae318ef951038084a2c2452ad2079877 d6433fafebde577e3f2da681aaf9e765344c0a22 d77741cd9ebdb593feccf5bda2fe622715d4d2ae d8c32cdbb7bc16567adfedf07f3b0bacc394aa64 d9842e891d2fa5b5daebccdb30f92e976d1c1adc e64746062d20f849387acae18227434f2aa58faa e667746e963b3b7e2823093617bdc2e1b1af2339 e7ad9f0774fed9a9af2ab5b4d2cd20d7d9c46db4 ecb71cb3855262e4079baccb9b4ceec634b4d626 ef7497d19f8c74f9a3c9117c05cf737e1a55c05f f08ad07cc9cfab9db82e06d601c7c577cf755694 f6b6ee3067c0c18266573999961a0705e5416c39 f8eb4516164ee961e9fe112e80ccccd5cbf76e71 fa17e4ac7ab02d45a8c0f86933f8106257c86281 fa24c06d17809dd60fee312e0f4cddf31302164a fb42ede682437dd33ad99b202599d292d586126c
+Multi-Arch: same
+
+Package: ncmpcpp
+Priority: optional
+Section: sound
+Installed-Size: 2826
+Maintainer: Christoph Egger <christoph@debian.org>
+Architecture: amd64
+Version: 0.7.5-1~webupd8~xenial
+Suggests: mpd, desktop-file-utils
+Provides: mpd-client, ncmpcpp-completion
+Depends: libboost-filesystem1.58.0, libboost-locale1.58.0, libboost-program-options1.58.0, libboost-regex1.58.0, libboost-system1.58.0, libboost-thread1.58.0, libc6 (>= 2.15), libcurl3-gnutls (>= 7.16.2), libfftw3-double3, libgcc1 (>= 1:3.0), libicu55 (>= 55.1-1~), libmpdclient2 (>= 2.9), libncursesw5 (>= 6), libreadline6 (>= 6.0), libstdc++6 (>= 5.2), libtag1v5 (>= 1.9.1-2.4ubuntu1), libtinfo5 (>= 6)
+Filename: pool/main/n/ncmpcpp/ncmpcpp_0.7.5-1~webupd8~xenial_amd64.deb
+Size: 699776
+MD5sum: 74a681c5e682a1977548de5655ac6573
+SHA1: 44fc78d25b979419f50e8dc3b05c4ebb6e9383e9
+SHA256: 97b804e49dcf4adb03c4d5ccd2b487bc9b5071a9eb4c64d3da7f438207e51fd0
+Description: ncurses-based client for the Music Player Daemon (MPD)
+Description-md5: c6739cd11252a85b2f8244d62a155bd3
+
+Package: libdesktop-agnostic0
+Source: libdesktop-agnostic
+Priority: extra
+Section: libs
+Installed-Size: 454
+Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+Architecture: amd64
+Version: 0.3.94~1+git4d9b6fd-ubuntu0
+Suggests: libdesktop-agnostic-vfs, libdesktop-agnostic-cfg, libdesktop-agnostic-fdo
+Depends: libc6 (>= 2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgtk2.0-0 (>= 2.18.0), libdesktop-agnostic-data (>= 0.3.94~1+git4d9b6fd-ubuntu0)
+Filename: pool/main/libd/libdesktop-agnostic/libdesktop-agnostic0_0.3.94~1+git4d9b6fd-ubuntu0_amd64.deb
+Size: 89580
+MD5sum: 73d9988dbc33995579414196a0030f0b
+SHA1: 4da576fd192f8d72e27e901fb85a01bceb76c8dc
+SHA256: 23386af4136cf853535fc4c7a329e5c91d39e8520892fafe6642f0e2cd1fbff4
+Description: Desktop-agnostic library for GLib-based projects
+Description-md5: efe3c0d943280e72d6de09c34d937c6d
+
+Package: libdesktop-agnostic-vfs-gio
+Source: libdesktop-agnostic
+Priority: extra
+Section: libs
+Installed-Size: 93
+Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+Architecture: amd64
+Version: 0.3.94~1+git4d9b6fd-ubuntu0
+Provides: libdesktop-agnostic-vfs
+Depends: libc6 (>= 2.4), libdesktop-agnostic0 (= 0.3.94~1+git4d9b6fd-ubuntu0), libglib2.0-0 (>= 2.24.0)
+Filename: pool/main/libd/libdesktop-agnostic/libdesktop-agnostic-vfs-gio_0.3.94~1+git4d9b6fd-ubuntu0_amd64.deb
+Size: 21930
+MD5sum: 48cb9adae81d76e8b29a4c941f6326ba
+SHA1: e6b27e5ce4d6edd212694ef9171f97b03838b3df
+SHA256: a23862dec587c73d157c98168034ef6c7feaa7b3f9cf9680d9ca7ff319f1741b
+Description: GIO-based VFS module for libdesktop-agnostic
+Description-md5: db75d23c5b448dcc5d1fedf4a0ec4e53
+
+Package: libdesktop-agnostic-cfg-gconf
+Source: libdesktop-agnostic
+Priority: extra
+Section: libs
+Installed-Size: 85
+Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+Architecture: amd64
+Version: 0.3.94~1+git4d9b6fd-ubuntu0
+Provides: libdesktop-agnostic-cfg
+Depends: gconf-service, libc6 (>= 2.4), libdesktop-agnostic0 (= 0.3.94~1+git4d9b6fd-ubuntu0), libgconf-2-4 (>= 3.2.5), libglib2.0-0 (>= 2.30.0)
+Filename: pool/main/libd/libdesktop-agnostic/libdesktop-agnostic-cfg-gconf_0.3.94~1+git4d9b6fd-ubuntu0_amd64.deb
+Size: 20772
+MD5sum: b68df23570f12778286faa40228e5e78
+SHA1: 05b64f68295b36388e001433237eaceb5ac8f15c
+SHA256: 88d88286a134499c14732f2514f629524f23905781ed2f4c5593212c58806af9
+Description: GConf-based configuration module for libdesktop-agnostic
+Description-md5: a50d9dd07ddc3c5690713327bc54c389
+
+Package: libdesktop-agnostic0-dbg
+Source: libdesktop-agnostic
+Priority: extra
+Section: debug
+Installed-Size: 1102
+Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+Architecture: amd64
+Version: 0.3.94~1+git4d9b6fd-ubuntu0
+Depends: libdesktop-agnostic0 (= 0.3.94~1+git4d9b6fd-ubuntu0)
+Filename: pool/main/libd/libdesktop-agnostic/libdesktop-agnostic0-dbg_0.3.94~1+git4d9b6fd-ubuntu0_amd64.deb
+Size: 259672
+MD5sum: b23d91b61c926173b66fbec1b3d8de72
+SHA1: cace5cc6b00abf1ba0fda713b8fc0e97b1575824
+SHA256: 463d2e24dee690632af98e1ded95d8408f42587c0a09130ef8f50466bf6b4bf6
+Description: Debugging symbols for libdesktop-agnostic
+Description-md5: 013ef46c89771b45c4e303d53ab904e1
+
+Package: libdesktop-agnostic-dev
+Source: libdesktop-agnostic
+Priority: extra
+Section: libdevel
+Installed-Size: 131
+Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+Architecture: amd64
+Version: 0.3.94~1+git4d9b6fd-ubuntu0
+Replaces: vala-desktop-agnostic
+Suggests: glade (>= 3) | glade-3
+Depends: libdesktop-agnostic0 (= 0.3.94~1+git4d9b6fd-ubuntu0), libglib2.0-dev, libgtk2.0-dev
+Conflicts: vala-desktop-agnostic
+Filename: pool/main/libd/libdesktop-agnostic/libdesktop-agnostic-dev_0.3.94~1+git4d9b6fd-ubuntu0_amd64.deb
+Size: 15888
+MD5sum: ad5c14779ebbab0cd23e278f1423b3b6
+SHA1: 235bb286c629919653c49e18dfab508e910d8f97
+SHA256: 46890fa242c00915469af45426c764197519619e36f8330024465bb1f8a0407d
+Description: Development files for libdesktop-agnostic
+Description-md5: 607c2fb7a5eaf193ac8488f1ea6ccffa
+
+Package: dockbarx
+Priority: extra
+Section: gnome
+Installed-Size: 29
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.92-1~webupd8~xenial4
+Recommends: gnomepanel-applet-dockbarx
+Depends: dockbarx-dockx
+Filename: pool/main/d/dockbarx/dockbarx_0.92-1~webupd8~xenial4_all.deb
+Size: 23450
+MD5sum: 219b0a383322091a02025d6ecbe4b358
+SHA1: e73707868e262d7a4ab0e7c8c9f60bddae5f22d3
+SHA256: 142c54f7a6d0cef3402eec7df6fe757c5bf7260d9fbcb39a1dd206fe9b306b62
+Description: DockBarX, an icon-based taskbar
+Description-md5: 7423625adedd6ffe5d7135be47c3515f
+
+Package: libdesktop-agnostic-bin
+Source: libdesktop-agnostic
+Priority: extra
+Section: libs
+Installed-Size: 53
+Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+Architecture: amd64
+Version: 0.3.94~1+git4d9b6fd-ubuntu0
+Depends: libc6 (>= 2.4), libdesktop-agnostic0 (= 0.3.94~1+git4d9b6fd-ubuntu0), libglib2.0-0 (>= 2.18.0), libgtk2.0-0 (>= 2.8.0), libdesktop-agnostic-cfg-gconf
+Filename: pool/main/libd/libdesktop-agnostic/libdesktop-agnostic-bin_0.3.94~1+git4d9b6fd-ubuntu0_amd64.deb
+Size: 13456
+MD5sum: 76c16db20acc7c0529989c4c85ee60a7
+SHA1: e2d96ed021643b6c5decfa59afbe4ccd491bed91
+SHA256: 3589680b11575a66ff02b3d2a2fbf43ead8b95ac5216896fc382d915483c72d2
+Description: Helper applications for libdesktop-agnostic
+Description-md5: cba11379a047f30277a07349595d7145
+
+Package: libdesktop-agnostic-cfg-keyfile
+Source: libdesktop-agnostic
+Priority: extra
+Section: libs
+Installed-Size: 97
+Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+Architecture: amd64
+Version: 0.3.94~1+git4d9b6fd-ubuntu0
+Provides: libdesktop-agnostic-cfg
+Depends: libc6 (>= 2.4), libdesktop-agnostic0 (= 0.3.94~1+git4d9b6fd-ubuntu0), libglib2.0-0 (>= 2.30.0)
+Filename: pool/main/libd/libdesktop-agnostic/libdesktop-agnostic-cfg-keyfile_0.3.94~1+git4d9b6fd-ubuntu0_amd64.deb
+Size: 22824
+MD5sum: fc7161b1c6fae53f90216bb490eb60f2
+SHA1: d9541fc3532a71f8157904e42d3cd1fea7bb3c8e
+SHA256: a27c1e24b04829a68e0feb459e52f15ac6553c1ad9b39d384097e39115b1d08e
+Description: Keyfile-based configuration module for libdesktop-agnostic
+Description-md5: a8eac2541d99875d548c51ecf350d54e
+
+Package: libdesktop-agnostic-fdo-glib
+Source: libdesktop-agnostic
+Priority: extra
+Section: libs
+Installed-Size: 68
+Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+Architecture: amd64
+Version: 0.3.94~1+git4d9b6fd-ubuntu0
+Provides: libdesktop-agnostic-fdo
+Depends: libc6 (>= 2.4), libdesktop-agnostic0 (= 0.3.94~1+git4d9b6fd-ubuntu0), libglib2.0-0 (>= 2.35.9)
+Filename: pool/main/libd/libdesktop-agnostic/libdesktop-agnostic-fdo-glib_0.3.94~1+git4d9b6fd-ubuntu0_amd64.deb
+Size: 17964
+MD5sum: 5a7d64fe7cf7a28c4e247fdf601ab08e
+SHA1: e93c9072e961b35d9fd69130ce65f0f7879080e0
+SHA256: ea12376c02c656c6fa062ec5e3c5abdc3cf5273f3933146d275b580ecd49e871
+Description: GLib-based desktop entry/menu module for libdesktop-agnostic
+Description-md5: c5678ac92a6d326cfb5d7b66faa106c6
+
+Package: gloobus-preview
+Priority: optional
+Section: utils
+Installed-Size: 3616
+Maintainer: ammonkey <am.monkeyd@gmail.com>
+Architecture: amd64
+Version: 0.4.5-ubuntu11~ppa335-16.04+2
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libdjvulibre21 (>= 3.5.27.1), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgtk-3-0 (>= 3.0.0), libgtksourceview-3.0-1 (>= 2.91.4), libgxps2 (>= 0.2.1), libpango-1.0-0 (>= 1.14.0), libpoppler-glib8 (>= 0.18.0), libspectre1 (>= 0.2.3), libstdc++6 (>= 5.2), libx11-6, libcairomm-1.0-1 (>= 1.6.4) | libcairomm-1.0-1v5, libtag1v5, libbz2-1.0, imagemagick, python3-gi, python3, gir1.2-gconf-2.0, gir1.2-glib-2.0
+Filename: pool/main/g/gloobus-preview/gloobus-preview_0.4.5-ubuntu11~ppa335-16.04+2_amd64.deb
+Size: 537142
+MD5sum: b2d53036f4aa4d6566f21938bd03d575
+SHA1: 3892be18c7da88d9612fcbe43b41982cd63be722
+SHA256: 8e94102fac02a082226bf28ca52bc8e76c0eea65232112dd8edffd483dab06d9
+Description: A quicklook for the GNU/Linux desktop
+Description-md5: 38b9da6927703d5e35fe9a8d5f155a1e
+
+Package: exaile-plugin-contextinfo
+Source: exaile
+Priority: optional
+Section: sound
+Installed-Size: 146
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Architecture: all
+Version: 3.4.5-1~webupd8~xenial0
+Depends: exaile (= 3.4.5-1~webupd8~xenial0), python-imaging, python-webkit (>= 1.1.2), python:any (>= 2.6.6-7~)
+Filename: pool/main/e/exaile/exaile-plugin-contextinfo_3.4.5-1~webupd8~xenial0_all.deb
+Size: 28942
+MD5sum: f9545854f23df2771be881c8dea8063d
+SHA1: eda60fdf9fd33d796f121da2e333eae759f195f0
+SHA256: 0d213b148e4a03a2d9ee7c03eeda3da92f6fc63b358081f65efe9c32b87a3c62
+Description: Exaile plugin for contextual information
+Description-md5: 65ad94f2a4d4c7a47210c8ed1eac0d53
+
+Package: exaile-plugin-ipod
+Source: exaile
+Priority: optional
+Section: sound
+Installed-Size: 35
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Architecture: all
+Version: 3.4.5-1~webupd8~xenial0
+Depends: exaile (= 3.4.5-1~webupd8~xenial0), python-gpod, python:any (>= 2.6.6-7~)
+Filename: pool/main/e/exaile/exaile-plugin-ipod_3.4.5-1~webupd8~xenial0_all.deb
+Size: 11022
+MD5sum: f40c796e3b31538c235bcd221ad2f235
+SHA1: 70ebe0f2f07e06e9d88ecba6d646bc89609b2d21
+SHA256: 1a0e196da5a79687f51c953cee4eed9ab9cc51085a2ca14a0da9fa120d666756
+Description: Exaile plugin for iPod support
+Description-md5: 80e64a753dff9ffcdefe37d7ba045727
+
+Package: exaile-plugin-moodbar
+Source: exaile
+Priority: optional
+Section: sound
+Installed-Size: 63
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Architecture: all
+Version: 3.4.5-1~webupd8~xenial0
+Depends: exaile (= 3.4.5-1~webupd8~xenial0), moodbar, python:any (>= 2.6.6-7~)
+Filename: pool/main/e/exaile/exaile-plugin-moodbar_3.4.5-1~webupd8~xenial0_all.deb
+Size: 14902
+MD5sum: 4e57db7d368e147f40ae96278a920e90
+SHA1: 9300934f2b5d29b47ff12f34ab189df98e11d855
+SHA256: b1e189f65bb76ebdd79ee588fc700ea429f5642b33c4bfe5703bace6193709e9
+Description: Exaile plugin for moodbar
+Description-md5: a17ca6ace5d5320535bb11471941c868
+
+Package: python-desktop-agnostic
+Source: libdesktop-agnostic
+Priority: extra
+Section: python
+Installed-Size: 189
+Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+Architecture: amd64
+Version: 0.3.94~1+git4d9b6fd-ubuntu0
+Depends: libc6 (>= 2.4), libdesktop-agnostic0 (>= 0.3.94~1+git4d9b6fd-ubuntu0), libglib2.0-0 (>= 2.18.0), libgtk2.0-0 (>= 2.8.0), libpython2.7 (>= 2.7)
+Filename: pool/main/libd/libdesktop-agnostic/python-desktop-agnostic_0.3.94~1+git4d9b6fd-ubuntu0_amd64.deb
+Size: 30394
+MD5sum: 5f8052d7bc20551564cbea24582790cd
+SHA1: 4ba7f138939f56271affe100b88613540474ae9b
+SHA256: 25617676498dd78f765351264daaa99e25eaf9e0323ec9b7256cce241072b27d
+Description: Python bindings for libdesktop-agnostic
+Description-md5: 352e4553b88ef9978d02e0b859654df6
+
+Package: libawn1
+Source: avant-window-navigator
+Priority: optional
+Section: libs
+Installed-Size: 438
+Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+Architecture: amd64
+Version: 0.4.2~1+gitb8c2248-ubuntu1
+Suggests: metacity (>= 2.21.5) | xcompmgr | compiz | xfwm4 (>= 4.2) | kde-window-manager (>= 4:4.0.0) | mutter
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.78), libdesktop-agnostic0 (>= 0.3.90), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgtk2.0-0 (>= 2.20.0), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0)
+Filename: pool/main/a/avant-window-navigator/libawn1_0.4.2~1+gitb8c2248-ubuntu1_amd64.deb
+Size: 211318
+MD5sum: b6de5379c1484bb3cc5d90d2b8ff18b5
+SHA1: 1fb2f044bcfc8397bd9e9a40c57279bba66fbac1
+SHA256: 12d3a52bc35d13339ecfc10913e92e7256b9df6dfe99b81ee3fd5ad974272c6f
+Description: library for avant-window-navigator
+Description-md5: b1cfd5698e6b349fad2d20a258cbd738
+
+Package: awn-settings
+Source: avant-window-navigator
+Priority: optional
+Section: gnome
+Installed-Size: 529
+Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+Architecture: all
+Version: 0.4.2~1+gitb8c2248-ubuntu1
+Replaces: awn-manager
+Depends: gnome-menus, librsvg2-common, python-awn, python-xdg, avant-window-navigator, python-desktop-agnostic, bzr, python-dbus
+Conflicts: awn-manager
+Filename: pool/main/a/avant-window-navigator/awn-settings_0.4.2~1+gitb8c2248-ubuntu1_all.deb
+Size: 153798
+MD5sum: dd7fbdbf2d2804abc8ad4e646873bddc
+SHA1: 8002373d7aab022b8a6c65206fe47b380ec3b87f
+SHA256: b3922abfc3e1dff5cb11c70029e6d0742ceed16d715d09825f9e15ecdb96a11e
+Description: Preferences manager for avant-window-navigator
+Description-md5: 082c75924570840a883f3de914622363
+
+Package: libawn1-dbg
+Source: avant-window-navigator
+Priority: extra
+Section: debug
+Installed-Size: 4412
+Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+Architecture: amd64
+Version: 0.4.2~1+gitb8c2248-ubuntu1
+Replaces: libawn0-dbg
+Depends: libawn1 (= 0.4.2~1+gitb8c2248-ubuntu1)
+Conflicts: libawn0-dbg
+Filename: pool/main/a/avant-window-navigator/libawn1-dbg_0.4.2~1+gitb8c2248-ubuntu1_amd64.deb
+Size: 1108020
+MD5sum: f3262d4f1a1bf0275be2482a95fc5d14
+SHA1: 28a4d43a9112cd6c1cd8be7efb7e4e95853e1967
+SHA256: 708e7109c55943b8ac0e9fb322a76c949206a48be838106f72e9e0ed79a8bb74
+Description: library for avant-window-navigator - debug package
+Description-md5: 5fef7c014d95409f0b525018a20b84a4
+
+Package: pulseaudio-equalizer
+Priority: optional
+Section: admin
+Installed-Size: 75
+Maintainer: Conn O Griofa <connogriofa@gmail.com>
+Architecture: all
+Version: 2.7.0.2-5~webupd8~xenial0
+Depends: swh-plugins, ladspa-sdk, python-gtk2, python-glade2, python-gobject, python-gnome2
+Filename: pool/main/p/pulseaudio-equalizer/pulseaudio-equalizer_2.7.0.2-5~webupd8~xenial0_all.deb
+Size: 12612
+MD5sum: 2ed3e42d725ce119f651a200d0183ab7
+SHA1: 1a015604ab0a18e165833d76dec46ac46f01e54e
+SHA256: e4ef44fd8dc4627f49d8ce3fa6f005fb0c074660305e158816a73c6b15fb2d12
+Description: PulseAudio Equalizer - LADSPA plugin graphical user interface
+Description-md5: 32479d654bf0606f5e6f41a4366e8535
+
+Package: metamorphose2
+Priority: optional
+Section: utils
+Installed-Size: 1637
+Maintainer: ianaré sévi <ianare@gmail.com>
+Architecture: all
+Version: 0.8.4-1~webupd8~1
+Depends: python (>= 2.6), python-wxgtk2.8 (>= 2.8), python-imaging (>= 1.1.6), python-mutagen (>= 1.20), python-exif (>= 2.1.1)
+Filename: pool/main/m/metamorphose2/metamorphose2_0.8.4-1~webupd8~1_all.deb
+Size: 475048
+MD5sum: 75c88bc4636b041085a1b01ae28258cf
+SHA1: c1a808ff4ffb4ec3bc8ed2316d3d377efd800085
+SHA256: a0f37f20a70a263e73f4b277fd3e0a540b0b42b11aec7b771f1d7ad0967f6b4f
+Description: A mass renamer for files and folders (version 2).
+Description-md5: 4f42343b8a315afb2f6315ad90cefcba
+
+Package: cardapio
+Priority: extra
+Section: gnome
+Installed-Size: 1290
+Maintainer: tvst <tvst@hotmail.com>
+Architecture: all
+Version: 0.9.202-0recipe887+1~custom~webupd8~xenial0
+Recommends: tracker
+Suggests: cardapio-gnomepanel | cardapio-gnomeshell | cardapio-awn | cardapio-docky
+Depends: python-gtk2 (>= 2.17), python-tk, python-glade2, python-gmenu, python-keybinder, xdg-user-dirs, xdg-user-dirs-gtk
+Filename: pool/main/c/cardapio/cardapio_0.9.202-0recipe887+1~custom~webupd8~xenial0_all.deb
+Size: 250670
+MD5sum: 642ffb2105c9f83b1fafb4cf1b304fe8
+SHA1: 43c2f2f93d90120892a49a079d69ef57b9b089b8
+SHA256: 51c6b99b611d3299b57592fa0a1b0944dc584b62ebaeeeaa1f7cea7c209e2253
+Description: An alternative Gnome menu, launcher, and much more!
+Description-md5: 0128244ce47774ab7e6ab7e768448f69
+
+Package: python-ephem
+Source: pyephem
+Priority: extra
+Section: python
+Installed-Size: 1543
+Maintainer: Marien Zwart <m_zwart@123mail.org>
+Architecture: amd64
+Version: 3.7.3.4-1~webupd8~raring
+Provides: python2.7-ephem
+Depends: python (<< 2.8), python (>= 2.7), python-support (>= 0.90.0), libc6 (>= 2.14)
+Filename: pool/main/p/pyephem/python-ephem_3.7.3.4-1~webupd8~raring_amd64.deb
+Size: 744078
+MD5sum: 7323e7dd143e604bfcd98ff04bfaf8dc
+SHA1: 5a02c703c82b3bea808abae81884dbb964678d57
+SHA256: 3e954d0ef802b0f6926b317d07f73a25e3f6797eedbf757a259a66d59caa76c1
+Description: perform high-precision astronomy computations from python
+Description-md5: 9af087a99cc4a2d364b6f65c099f3048
+Python-Version: 2.7
+
+Package: notifyosdconfig
+Priority: optional
+Section: x11
+Installed-Size: 234
+Maintainer: Amandeep Grewal <me@amandeep.ca>
+Architecture: amd64
+Version: 0.3+22+201404260950~ubuntu16.04.1
+Depends: notify-osd
+Filename: pool/main/n/notifyosdconfig/notifyosdconfig_0.3+22+201404260950~ubuntu16.04.1_amd64.deb
+Size: 74780
+MD5sum: ef424710b729d397856474016b3ca386
+SHA1: 948a7ae8df34556936cd49790132ee8a7f4e4e62
+SHA256: 385767770de75c2685a1ecac8b132cac9c982d80cd6d0e6e3472e7ff6a2bf49d
+Description: tool to configure Ubuntu's notify-osd notification system
+Description-md5: b59e43b2810e2e18c10529979ecfae0d
+
+Package: launchpad-getkeys
+Priority: extra
+Section: admin
+Installed-Size: 33
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.3.3-1~webupd8~2
+Filename: pool/main/l/launchpad-getkeys/launchpad-getkeys_0.3.3-1~webupd8~2_all.deb
+Size: 3636
+MD5sum: 10203c7b07127e032d38fa49c406643f
+SHA1: e4a356f3d419e94ecdaea3afc0c4caed695cff11
+SHA256: b146237b6f546a7df699c0f5eff3e367a588b384de6b6a89ea39dec57128aebd
+Description: Import missing GPG keys automatically
+Description-md5: 325f3a753d0fb7103c43db40ddd82746
+
+Package: dockbarx-themes-extra
+Priority: extra
+Section: gnome
+Installed-Size: 308
+Maintainer: T. Scott Barnes <tsbarnes@tsbarnes.com>
+Architecture: all
+Version: 2.1-1~2
+Depends: dockbarx-common | dockbarx-mate
+Filename: pool/main/d/dockbarx-themes-extra/dockbarx-themes-extra_2.1-1~2_all.deb
+Size: 201506
+MD5sum: b590d46f061f5247902138a9d7a19d02
+SHA1: df4f0b861ae1c907e5f039876a931aa1a5a1d040
+SHA256: 37bea95a98a0deaa967627e988cf3c02e98c68946c2fe83cdddde73d2c504135
+Description: DockBarX themes
+Description-md5: 19ef6ba5c2e884c763492d43861afb04
+
+Package: libdesktop-agnostic-doc
+Source: libdesktop-agnostic
+Priority: extra
+Section: doc
+Installed-Size: 509
+Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+Architecture: all
+Version: 0.3.94~1+git4d9b6fd-ubuntu0
+Filename: pool/main/libd/libdesktop-agnostic/libdesktop-agnostic-doc_0.3.94~1+git4d9b6fd-ubuntu0_all.deb
+Size: 122758
+MD5sum: 4862a3366a30a3b4cd91ae7cb4bf5252
+SHA1: 94dcaf847efb7a9e7e1f4da02bccf33f22197ff6
+SHA256: 92775be831989136a6d881f3f2bd5fac861d05f90af1ac680665074f476f78b5
+Description: Documentation for libdesktop-agnostic
+Description-md5: 98d414165d3ef1e1307331672c4f194c
+
+Package: puddletag
+Priority: optional
+Section: sound
+Installed-Size: 9759
+Maintainer: Sandro Tosi <morph@debian.org>
+Architecture: all
+Version: 1.1.1-1~webupd8~xenial
+Recommends: python-musicbrainz2, libchromaprint-tools
+Suggests: quodlibet
+Depends: python:any (<< 2.8), python:any (>= 2.7.5-5~), libjs-sphinxdoc (>= 1.0), python-mutagen (>= 1.14), python-qt4 (>= 4.5), python-pyparsing (>= 1.5.1), python-configobj (>= 4.5), python-audioread, python-acoustid
+Filename: pool/main/p/puddletag/puddletag_1.1.1-1~webupd8~xenial_all.deb
+Size: 2070646
+MD5sum: 648779eea9ca61bd898e496ea4227147
+SHA1: f5b4803f3603159ddf81fdec97fefc0189f4e420
+SHA256: 90ecc13a6fe1b0ee9182c395e45a42f37666bf27e901d1224e2ac72a25801506
+Description: simple, powerful audio tag editor
+Description-md5: d472c8561b9889b0c2df023db4308d2a
+
+Package: awn-applet-dockbarx
+Source: dockbarx
+Priority: extra
+Section: gnome
+Installed-Size: 27
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.92-1~webupd8~xenial4
+Depends: dockbarx-common, python-awn | python-awn-trunk
+Conflicts: dockbarx (<< 0.39.6.1)
+Filename: pool/main/d/dockbarx/awn-applet-dockbarx_0.92-1~webupd8~xenial4_all.deb
+Size: 7360
+MD5sum: faaffe68adf95729fa55eb2e8966ff7c
+SHA1: 87dd579fea8986601f26d5b3806b2c158990c282
+SHA256: 516b5dc4e9ea69686c47363c94e181ff7e551037bb7984952cd6d986350da7c5
+Description: Avant Window Navigator DockBarX applet
+Description-md5: 094955c1f7ba814fd08a24f127dddf92
+
+Package: awn-applets-common
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 1187
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Filename: pool/main/a/awn-extras/awn-applets-common_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 232200
+MD5sum: a6283241af88a057ae9c3c958b2c7088
+SHA1: e7eeeca90e13eaca115d43cf573bd36f37013093
+SHA256: 5ee181b417a1e3b184383ece509ba818609bf42e4296db5571ff50d3a7d793fe
+Description: A collection of applets for avant-window-navigator - common files
+Description-md5: c0756a0ac0f339baa7d7cdafebf91bd6
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: yarock
+Priority: extra
+Section: sound
+Installed-Size: 4623
+Maintainer: Rog131 <samrog131@hotmail.com>
+Architecture: amd64
+Version: 1.1.6-1~webupd8~xenial2
+Recommends: gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libhtmlcxx3v5 (>= 0.85), libphonon4qt5-4 (>= 4:4.8.0), libqt5core5a (>= 5.5.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libtag1v5 (>= 1.9.1-2.4ubuntu1), libx11-6, phonon4qt5-backend-gstreamer, libqt5sql5-sqlite
+Filename: pool/main/y/yarock/yarock_1.1.6-1~webupd8~xenial2_amd64.deb
+Size: 1309362
+MD5sum: 6c95417d02b2006bf9ce935adb6decfc
+SHA1: 0d950afdd75c22d8fc7c79bcd6ab13b5e65283d4
+SHA256: 955cf45ffa00c55ef912bc1df4a992121bc495291061ded9b5020857dfcad702
+Description: a Qt based music player
+Description-md5: 57b575b53e325a6ded3d722aae28fd6b
+
+Package: nautilus-terminal
+Priority: optional
+Section: gnome
+Installed-Size: 9
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Architecture: all
+Version: 3.0.1-1~webupd8~xenial3
+Depends: nautilus (>= 3.0.0), python (>= 2.6), python-nautilus (>= 1.0), python-gi (>= 3.2.2~), gir1.2-vte-2.90 (>= 1:0.34.6~) | gir1.2-vte-2.91, gir1.2-gtk-3.0 (>= 3.8.4~), gir1.2-gdkpixbuf-2.0 (>= 2.28.1~), gir1.2-glib-2.0 (>= 1.38.0~)
+Filename: pool/main/n/nautilus-terminal/nautilus-terminal_3.0.1-1~webupd8~xenial3_all.deb
+Size: 2092
+MD5sum: 32e99b0e396628076451ff844dd20190
+SHA1: ba69722ff4f3a9a65128d48c4718d3e9094ce41c
+SHA256: cb77ceb2bb513487cd3e89b694364266455416c122c55cd17699e33197166267
+Description: Nautilus extension to enable an embedded terminal
+Description-md5: 4553e3515f84bfeb4dedb63d6a721192
+
+Package: awn-applet-wm
+Priority: extra
+Section: gnome
+Installed-Size: 112
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.8-0~webupd8~natty
+Depends: avant-window-navigator (>= 0.4.0) | avant-window-navigator-trunk
+Filename: pool/main/a/awn-applet-wm/awn-applet-wm_0.8-0~webupd8~natty_all.deb
+Size: 9412
+MD5sum: d29b0afb2381ce419487efcb13e002e1
+SHA1: cbffbdef195c443eab6eb6bbe091843e79acc166
+SHA256: d814d7abcaa492ca3fd6a29c6a09dd8defbc3bb38bd85568afd1bd237b29430a
+Description: applet for Avant Window Navigator
+Description-md5: ee8739e2c1552b9b580a95c048960bdb
+
+Package: awn-applet-radio
+Priority: extra
+Section: gnome
+Installed-Size: 168
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.10-1~webupd8~natty
+Depends: avant-window-navigator (>= 0.4.0) | avant-window-navigator-trunk, python-awn-extras | python-awn-extras-trunk, mplayer
+Filename: pool/main/a/awn-applet-radio/awn-applet-radio_0.10-1~webupd8~natty_all.deb
+Size: 21792
+MD5sum: 6d833046cfadaa8891e0edcebc42bddf
+SHA1: 5f65a331099bf2543d7d99b6b79743fa97ce7775
+SHA256: 8c81cf02fe884c3aedfe6a27f5ff183edc64394930a302692ddd1c2d44739c0b
+Description: applet for Avant Window Navigator
+Description-md5: 806d25292746df79e8eed2b51fc75f31
+
+Package: update-java
+Priority: optional
+Section: misc
+Installed-Size: 44
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.5.2-2~webupd8
+Depends: zenity, gksu
+Filename: pool/main/u/update-java/update-java_0.5.2-2~webupd8_all.deb
+Size: 4318
+MD5sum: 35180e133d174218fca8b2b073c9d9d8
+SHA1: 92e617c47c8825691e06545a4c36579c5aab5090
+SHA256: 887408a7f685dede149e9306c3ac92853283516b994ca1c7dc1d1a7b76420e71
+Description: Updates JDK to the latest version
+Description-md5: f72aa1344c5dff6f05fb0b328a39a024
+
+Package: nautilus-columns
+Priority: extra
+Section: gnome
+Installed-Size: 23
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.3.3-1~webupd8~1
+Depends: python-nautilus, python-mutagen, python-pyexiv2, python-kaa-metadata, libnautilus-extension1a, python-pypdf, python-imaging
+Filename: pool/main/n/nautilus-columns/nautilus-columns_0.3.3-1~webupd8~1_all.deb
+Size: 4818
+MD5sum: f597ca46fb028fed132626d6acaf2b2d
+SHA1: 3924361c37906be72aad682cdd19216d10f9f5cd
+SHA256: a2da2ccf1dedb536f039a95f6242f3ef75a909a67cd499e157777a35e4e0d766
+Description: Nautilus Extension
+Description-md5: 42c2709a216944fd74eaa80ad6edf100
+
+Package: yad
+Priority: extra
+Section: x11
+Installed-Size: 515
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: amd64
+Version: 0.37.0-1~webupd8~xenial0
+Depends: libc6 (>= 2.7), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.30.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libsoup2.4-1 (>= 2.33.92), libwebkitgtk-3.0-0 (>= 1.7.92)
+Filename: pool/main/y/yad/yad_0.37.0-1~webupd8~xenial0_amd64.deb
+Size: 165568
+MD5sum: cb25449b8c5c134cd433502a4b1a467d
+SHA1: 7f4d3c52fe51e8709c8b3f13bd3f14c782c0a3bb
+SHA256: dfd10dae1f72c9782bba08448685c43489c603cc087297ebb49b10e2ae066b89
+Description: Yet Another Dialog - dialogs for shell
+Description-md5: a08f82aa39e1e6ed3a00d2e52bec7037
+
+Package: cardapio-docky
+Source: cardapio
+Priority: extra
+Section: gnome
+Installed-Size: 32
+Maintainer: tvst <tvst@hotmail.com>
+Architecture: all
+Version: 0.9.202-0recipe887+1~custom~webupd8~xenial0
+Depends: cardapio, docky, python-dockmanager | python-docky
+Filename: pool/main/c/cardapio/cardapio-docky_0.9.202-0recipe887+1~custom~webupd8~xenial0_all.deb
+Size: 11180
+MD5sum: 617fff845d2922e6bdfc893f0529affb
+SHA1: 1a3f6748fe0739396f308bb8cbcd1f9bffc96872
+SHA256: 6d1ca16caba7f38698f38078d2101b668b5378d1b9d6ecfdf39d89bee0564434
+Description: Cardapio helper for Docky
+Description-md5: 39b3d5c98b66cd3ff49fa6c861b43cef
+
+Package: cardapio-awn
+Source: cardapio
+Priority: extra
+Section: gnome
+Installed-Size: 27
+Maintainer: tvst <tvst@hotmail.com>
+Architecture: all
+Version: 0.9.202-0recipe887+1~custom~webupd8~xenial0
+Depends: cardapio, avant-window-navigator (>= 0.4.0) | avant-window-navigator-trunk (>= 0.4.0)
+Filename: pool/main/c/cardapio/cardapio-awn_0.9.202-0recipe887+1~custom~webupd8~xenial0_all.deb
+Size: 10218
+MD5sum: d68f7743c74d47f962e15c68fc5b2480
+SHA1: ac43646861fce08cb16f8d5bb2b3f76a9bac4de5
+SHA256: f8d496702c732f629116693567f84b0e3e82aeaac04e858c7e05ecc8ecce1492
+Description: Cardapio applet for Avant Window Navigator
+Description-md5: b6825b44a2607b3f7aed3761761d0e19
+
+Package: awn-applet-awn-notification-daemon
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 148
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-c-core, awn-applets-c-extras (<< 0.4.0-1)
+Provides: notification-daemon
+Depends: libatk1.0-0 (>= 1.12.4), libawn1, libc6 (>= 2.4), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.88), libdesktop-agnostic0 (>= 0.3.90), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgstreamer0.10-0 (>= 0.10.0), libgtk2.0-0 (>= 2.12.0), libnotify4 (>= 0.7.0), libwnck22 (>= 1:2.30.7), libx11-6, gconf2 (>= 2.28.1-2), awn-applets-common
+Breaks: avant-windows-navigator (<< 0.4.0-1), awn-applets-c-core (<< 0.4.1~bzr1485-0ubuntu1), awn-applets-python-core (<< 0.4.0-1)
+Filename: pool/main/a/awn-extras/awn-applet-awn-notification-daemon_0.4.1~1+git1081e3f-ubuntu2_amd64.deb
+Size: 46086
+MD5sum: be7cb69794fabcdd8a38a1befb3af94d
+SHA1: 0cd830580d90d2ac85b154c7a92b4800a67b12a8
+SHA256: a3ce84ec393013ae8a3212921a628862242e031648afcc19d0cee570725bfb0c
+Description: Libnotify notification daemon implementation for Awn
+Description-md5: 5cc1610d64112aa118fb9db35f3e9725
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-awn-system-monitor
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 164
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-c-core, awn-applets-c-extras (<< 0.4.0-1)
+Depends: gconf-service, libawn1, libc6 (>= 2.14), libcairo2 (>= 1.2.4), libdesktop-agnostic0 (>= 0.3.90), libgconf-2-4 (>= 3.2.5), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.8.0), libgtop-2.0-10 (>= 2.22.3), gconf2 (>= 2.28.1-2), awn-applets-common
+Breaks: avant-windows-navigator (<< 0.4.0-1), awn-applets-c-core (<< 0.4.1~bzr1485-0ubuntu1), awn-applets-python-core (<< 0.4.0-1)
+Filename: pool/main/a/awn-extras/awn-applet-awn-system-monitor_0.4.1~1+git1081e3f-ubuntu2_amd64.deb
+Size: 52950
+MD5sum: bb94833e1139ba2a398b37ab4e66752f
+SHA1: 5360e5576525a18b179d2ee96fef7df2ceade44d
+SHA256: c7762c8594b50301c374735fd302d681f8e68cfdefe222d3da280323a28cf6da
+Description: Display CPU activity and system stats on click in Awn
+Description-md5: d3adf941d84b3a7aac4f3c0ed823e030
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-awnterm
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 132
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-c-core, awn-applets-c-extras (<< 0.4.0-1)
+Depends: libawn1, libc6 (>= 2.4), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.78), libdesktop-agnostic0 (>= 0.3.90), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libvte9 (>= 1:0.24.0), libx11-6, gconf2 (>= 2.28.1-2), awn-applets-common
+Breaks: avant-windows-navigator (<< 0.4.0-1), awn-applets-c-core (<< 0.4.1~bzr1485-0ubuntu1), awn-applets-python-core (<< 0.4.0-1)
+Filename: pool/main/a/awn-extras/awn-applet-awnterm_0.4.1~1+git1081e3f-ubuntu2_amd64.deb
+Size: 41804
+MD5sum: aa490b107649dcb40b92413c7bd353f1
+SHA1: eaba73ba823e0d867c329e6af606311b3bcaa061
+SHA256: ae0c44aae280f4d837f15d4e599f3e8854c0e54a88d8d6c7d2063bd170cd7fed
+Description: A pop-up terminal that lives in Awn
+Description-md5: 5bf724212e5a685c8a3c2f788f867aca
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-cairo-main-menu
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 167
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-c-core, awn-applets-c-extras (<< 0.4.0-1)
+Depends: libawn1, libc6 (>= 2.4), libcairo2 (>= 1.2.4), libdbus-glib-1-2 (>= 0.78), libdesktop-agnostic0 (>= 0.3.90), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgnome-menu-3-0 (>= 3.2.0.1), libgtk2.0-0 (>= 2.18.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), gconf2 (>= 2.28.1-2), awn-applets-common
+Breaks: avant-windows-navigator (<< 0.4.0-1), awn-applets-c-core (<< 0.4.1~bzr1485-0ubuntu1), awn-applets-python-core (<< 0.4.0-1)
+Filename: pool/main/a/awn-extras/awn-applet-cairo-main-menu_0.4.1~1+git1081e3f-ubuntu2_amd64.deb
+Size: 45974
+MD5sum: f3a039130faaf5d4cfd2422f04797975
+SHA1: 762ab733d24cbfa00e70896da2cc0e58ba4b1ca6
+SHA256: 670915608ff0db0058360f677140e54698fcf94d5cca684fd5f38259ffb8c167
+Description: Displays a menu in an Awn applet
+Description-md5: bbc643fca75f298115c8fd28be94a5fe
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-indicator
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 97
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-c-core, awn-applets-c-extras (<< 0.4.0-1)
+Provides: indicator-renderer
+Depends: libawn1, libc6 (>= 2.4), libcairo2 (>= 1.2.4), libdesktop-agnostic0 (>= 0.3.90), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk2.0-0 (>= 2.14.0), libindicator7 (>= 0.4.90), gconf2 (>= 2.28.1-2), awn-applets-common
+Breaks: avant-windows-navigator (<< 0.4.0-1), awn-applets-c-core (<< 0.4.1~bzr1485-0ubuntu1), awn-applets-python-core (<< 0.4.0-1)
+Filename: pool/main/a/awn-extras/awn-applet-indicator_0.4.1~1+git1081e3f-ubuntu2_amd64.deb
+Size: 29904
+MD5sum: df6af891bd1857e4b1f4e9bdcb8090a6
+SHA1: 74af4c13c963cd5368e4ce8f483fc9609b6cedce
+SHA256: d882eef5e492cd676929a256f67304b12cd82f23ed324591a3e7cf4a122e7757
+Description: Display indicator applets in Awn
+Description-md5: 64aa7f301a9ce73b028376eae60aeba2
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-related
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 160
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-c-core, awn-applets-c-extras (<< 0.4.0-1)
+Depends: libawn1, libc6 (>= 2.4), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.78), libdesktop-agnostic0 (>= 0.3.90), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.14.0), libgtop-2.0-10 (>= 2.22.3), libwnck22 (>= 1:2.30.7), libzeitgeist-1.0-1 (>= 0.3.2), awn-applets-common, zeitgeist | zeitgeist-core, zeitgeist-fts-extension | zeitgeist-extension-fts
+Breaks: avant-windows-navigator (<< 0.4.0-1), awn-applets-c-core (<< 0.4.1~bzr1485-0ubuntu1), awn-applets-python-core (<< 0.4.0-1)
+Filename: pool/main/a/awn-extras/awn-applet-related_0.4.1~1+git1081e3f-ubuntu2_amd64.deb
+Size: 48304
+MD5sum: fc79d6c920e46a36665695bcc7743d16
+SHA1: d9711e48eba4bd05de8944385ef61f030b51547b
+SHA256: 6a1d1b8fe2d89a1dc69b446d38aad18c3d26a7ae4acfa36fd8b120677f57dadc
+Description: Display information from zeitgeist
+Description-md5: ce43ec0449158a80a2b5351ad7f46ade
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-notification-area
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 179
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Recommends: python-gconf
+Replaces: awn-applets-c-core, awn-applets-c-extras (<< 0.4.0-1)
+Depends: libawn1, libc6 (>= 2.14), libcairo2 (>= 1.4.10), libdesktop-agnostic0 (>= 0.3.90), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libx11-6, gconf2 (>= 2.28.1-2), awn-applets-common
+Breaks: avant-windows-navigator (<< 0.4.0-1), awn-applets-c-core (<< 0.4.1~bzr1485-0ubuntu1), awn-applets-python-core (<< 0.4.0-1)
+Filename: pool/main/a/awn-extras/awn-applet-notification-area_0.4.1~1+git1081e3f-ubuntu2_amd64.deb
+Size: 43858
+MD5sum: 7276e09de2ad177a9538eef7b0274298
+SHA1: a5eb7ef677c628ffcf935558fc8544fc579b31e0
+SHA256: 45d735fcf140c47a6a890269f559fde184ec35cd40f2dd48fd29f44680ad7925
+Description: Notification area for Awn
+Description-md5: f429950cab41165b4ed4e7e6a0badadd
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-shinyswitcher
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 203
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-c-core, awn-applets-c-extras (<< 0.4.0-1)
+Depends: libawn1, libc6 (>= 2.4), libcairo2 (>= 1.2.4), libdesktop-agnostic0 (>= 0.3.90), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.22.0), libwnck22 (>= 1:2.30.7), libx11-6, libxcomposite1 (>= 1:0.3-1), libxrender1, gconf2 (>= 2.28.1-2), awn-applets-common
+Breaks: avant-windows-navigator (<< 0.4.0-1), awn-applets-c-core (<< 0.4.1~bzr1485-0ubuntu1), awn-applets-python-core (<< 0.4.0-1)
+Filename: pool/main/a/awn-extras/awn-applet-shinyswitcher_0.4.1~1+git1081e3f-ubuntu2_amd64.deb
+Size: 44188
+MD5sum: 2bbed630d692d5c257ff1099efc0361d
+SHA1: 17b5a804cf004bf034003e6e5fdf0f5f76b01581
+SHA256: fb407e2ac23f7774b0f9bec656a0f4513b77261d545295bc60227d8ffcc94c04
+Description: A workspace switcher supporting compiz and other WMs for Awn
+Description-md5: 66c18cb1a78f37984aa1926a6f32239e
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-showdesktop
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 66
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-c-core, awn-applets-c-extras (<< 0.4.0-1)
+Depends: libawn1, libc6 (>= 2.2.5), libglib2.0-0 (>= 2.14.0), libgtk2.0-0 (>= 2.8.0), libwnck22 (>= 1:2.30.7), awn-applets-common
+Breaks: avant-windows-navigator (<< 0.4.0-1), awn-applets-c-core (<< 0.4.1~bzr1485-0ubuntu1), awn-applets-python-core (<< 0.4.0-1)
+Filename: pool/main/a/awn-extras/awn-applet-showdesktop_0.4.1~1+git1081e3f-ubuntu2_amd64.deb
+Size: 22018
+MD5sum: ec617112ff2c7f9891cc8e71cff89d8f
+SHA1: c556fab0365533babe6210b04b93cc7bc1bef05d
+SHA256: 0a6ad602982476ccff7dbebda1eff7bc25729d7cfcba0e296e2e5093da63a1eb
+Description: An applet for Awn, similar to the showdesktop icon of gnome-panel
+Description-md5: 69f68d0fa6fa819844b68383be8eb79f
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-garbage
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 88
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-c-core, awn-applets-c-extras (<< 0.4.0-1)
+Depends: libawn1, libc6 (>= 2.4), libdesktop-agnostic0 (>= 0.3.90), libglib2.0-0 (>= 2.14.0), libgtk2.0-0 (>= 2.18.0), gconf2 (>= 2.28.1-2), awn-applets-common, xdg-utils
+Breaks: avant-windows-navigator (<< 0.4.0-1), awn-applets-c-core (<< 0.4.1~bzr1485-0ubuntu1), awn-applets-python-core (<< 0.4.0-1)
+Filename: pool/main/a/awn-extras/awn-applet-garbage_0.4.1~1+git1081e3f-ubuntu2_amd64.deb
+Size: 28718
+MD5sum: 30040d5b87a00024cff6ca7225907e29
+SHA1: 2431eeb26c423602f1e10fe533c3458510f942e3
+SHA256: b910631fc8f197df06b50ed1ef9a1cc631abbc881cda287227ecb95825d2e1c2
+Description: A trash applet for Awn, like the one from gnome-panel
+Description-md5: 8f49ad14459a040cf5f583469df928dd
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-digital-clock
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 140
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-c-core (<< 0.4.0-1), awn-applets-c-extras
+Depends: libawn1, libc6 (>= 2.4), libdesktop-agnostic0 (>= 0.3.90), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.24.0), libgtk2.0-0 (>= 2.12.0), gconf2 (>= 2.28.1-2), awn-applets-common
+Breaks: awn-applets-c-extras (<< 0.4.1~bzr1485-0ubuntu1), awn-applets-python-extras (<< 0.4.0-1)
+Filename: pool/main/a/awn-extras/awn-applet-digital-clock_0.4.1~1+git1081e3f-ubuntu2_amd64.deb
+Size: 35732
+MD5sum: 6f5f9e62766a2ed49441be22227f293f
+SHA1: 07b4f83f24a08b80d8e2a99f57ecf640489bb30a
+SHA256: e0c33dc55db387ad6e528a6267d71c7b5c40a870c581ba0a75fa60a280205ddb
+Description: A digital clock and calendar applet for Awn
+Description-md5: fb714f4a28fbe224d2613c97aa39bf8b
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-places
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 103
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-c-core (<< 0.4.0-1), awn-applets-c-extras
+Depends: libawn1, libc6 (>= 2.4), libcairo2 (>= 1.2.4), libdesktop-agnostic0 (>= 0.3.90), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgtk2.0-0 (>= 2.12.0), gconf2 (>= 2.28.1-2), awn-applets-common
+Breaks: awn-applets-c-extras (<< 0.4.1~bzr1485-0ubuntu1), awn-applets-python-extras (<< 0.4.0-1)
+Filename: pool/main/a/awn-extras/awn-applet-places_0.4.1~1+git1081e3f-ubuntu2_amd64.deb
+Size: 31140
+MD5sum: cb9f355808e058511ae22e1dcf66fbe3
+SHA1: 344c45df2ec12432bf370a48ef547f07401df07f
+SHA256: e1a827c1515e65bd4e35a108a55edbb265e31559f572dc83974476dc03207b5e
+Description: Displays shortcuts in buttons for Awn
+Description-md5: 1470fd023c882949cc56e22ce2965cf0
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-sysmon
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 119
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-c-core (<< 0.4.0-1), awn-applets-c-extras
+Depends: libawn1, libc6 (>= 2.4), libcairo2 (>= 1.2.4), libdesktop-agnostic0 (>= 0.3.90), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.8.0), libgtop-2.0-10 (>= 2.22.3), gconf2 (>= 2.28.1-2), awn-applets-common
+Breaks: awn-applets-c-extras (<< 0.4.1~bzr1485-0ubuntu1), awn-applets-python-extras (<< 0.4.0-1)
+Filename: pool/main/a/awn-extras/awn-applet-sysmon_0.4.1~1+git1081e3f-ubuntu2_amd64.deb
+Size: 38514
+MD5sum: f7549d9bda2d8345a52a31a3137e64a8
+SHA1: b1151c4db26610f0df23cac45af80729f1e4d670
+SHA256: 58cbd149568ee6f96ef51a4cc7d4ee3f97cfe1014f94cfa17c88c971662f6991
+Description: Display CPU activity and system stats on click for Awn
+Description-md5: 63263850760dd95f6c838f06edc5ef80
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-webapplet
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 194
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-c-core (<< 0.4.0-1), awn-applets-c-extras
+Depends: libawn1, libc6 (>= 2.4), libdesktop-agnostic0 (>= 0.3.90), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.8.0), libwebkitgtk-1.0-0 (>= 1.3.10), gconf2 (>= 2.28.1-2), awn-applets-common
+Breaks: awn-applets-c-extras (<< 0.4.1~bzr1485-0ubuntu1), awn-applets-python-extras (<< 0.4.0-1)
+Filename: pool/main/a/awn-extras/awn-applet-webapplet_0.4.1~1+git1081e3f-ubuntu2_amd64.deb
+Size: 45858
+MD5sum: cf048d3ac9409a7e4c2b9fc0ece3cf30
+SHA1: fb006bb4364eb37b62b53afb9906e834bfa62b71
+SHA256: 2e5dade5dd84d3201a4bc47928acd92268a98ae10bbd370780541f52a17beae0
+Description: Display a web page for Awn
+Description-md5: 103ee8d67f90c506776ba02f74f58cf9
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applets-dbg
+Source: awn-extras
+Priority: extra
+Section: debug
+Installed-Size: 2828
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Depends: awn-applet-awn-notification-daemon (= 0.4.1~1+git1081e3f-ubuntu2) | awn-applet-awn-system-monitor (= 0.4.1~1+git1081e3f-ubuntu2) | awn-applet-awnterm (= 0.4.1~1+git1081e3f-ubuntu2) | awn-applet-cairo-main-menu (= 0.4.1~1+git1081e3f-ubuntu2) | awn-applet-indicator (= 0.4.1~1+git1081e3f-ubuntu2) | awn-applet-related (= 0.4.1~1+git1081e3f-ubuntu2) | awn-applet-notification-area (= 0.4.1~1+git1081e3f-ubuntu2) | awn-applet-shinyswitcher (= 0.4.1~1+git1081e3f-ubuntu2) | awn-applet-showdesktop (= 0.4.1~1+git1081e3f-ubuntu2) | awn-applet-garbage (= 0.4.1~1+git1081e3f-ubuntu2) | awn-applet-digital-clock (= 0.4.1~1+git1081e3f-ubuntu2) | awn-applet-main-menu (= 0.4.1~1+git1081e3f-ubuntu2) | awn-applet-places (= 0.4.1~1+git1081e3f-ubuntu2) | awn-applet-sysmon (= 0.4.1~1+git1081e3f-ubuntu2) | awn-applet-webapplet (= 0.4.1~1+git1081e3f-ubuntu2)
+Filename: pool/main/a/awn-extras/awn-applets-dbg_0.4.1~1+git1081e3f-ubuntu2_amd64.deb
+Size: 714282
+MD5sum: 7dc0282ffa350b5f806313f991d48930
+SHA1: 2112a56fee3e3ac01c669079f749cbece54119cc
+SHA256: f909dd8310e97c95713b8b92eff2775f5d9598e0154113e972b841197338aa2d
+Description: Debug symbols for applets for avant-window-navigator
+Description-md5: 6aab9313f645876651a66920cff17c72
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-animal-farm
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 273
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-core
+Depends: awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0), fortune
+Breaks: awn-applets-python-core (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-animal-farm_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 41792
+MD5sum: e8c2258bfde7846e9c73d824b4cfdfc5
+SHA1: e887393a7cf999822bfebe41b36b8baae69b5e6c
+SHA256: ac9cb6bf03870cf6573c86c62f6a01ddc224b36c108a5c17917e863eb522d931
+Description: Various animals tell your fortune for Awn
+Description-md5: bc8a8fbd0d041878b730f015ee47108b
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-battery-applet
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 774
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-core
+Depends: gconf2 (>= 2.28.1-2), awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0), python-notify
+Breaks: awn-applets-python-core (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-battery-applet_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 39018
+MD5sum: 5bb5ab58a87c9a95ee4a889a8a623558
+SHA1: fc0dd42e736ea24acd40dc7f350ef0a09db26581
+SHA256: e435220d31515177fdcc235929c19bc3f320da2169d731d383a8b38bb25a4509
+Description: Display your computers current power status for Awn
+Description-md5: 5b48043170d3820b2746e354fb282497
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-cairo-clock
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 586
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-core
+Depends: gconf2 (>= 2.28.1-2), awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0), python-rsvg | python-gnome2-desktop, python-dateutil
+Breaks: awn-applets-python-core (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-cairo-clock_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 43834
+MD5sum: ba225275beba0721a0acb8323e43097f
+SHA1: 77ee04f5f236fc847be744ebc7252891b36b96f3
+SHA256: eff55d85da5ab67049082e0b20a88e1e79e671befe534aef9f6cca3cbeaaf219
+Description: Display an analog clock for Awn
+Description-md5: 310c27d872dde1334823e89fe20a61cf
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-comics
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 298
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-core
+Depends: gconf2 (>= 2.28.1-2), awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0), python-rsvg | python-gnome2-desktop, python-notify, python-feedparser
+Breaks: awn-applets-python-core (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-comics_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 47490
+MD5sum: 69f481baa3d738641ce64b060fc9eb5b
+SHA1: 5efbe0c6f1c3dd0423f50bccc84bd3bc38fedf7e
+SHA256: d3424591d42123119283c6e58387dcf960557fd5faca23e738734eb29f06c299
+Description: View your favourite comics on your desktop for Awn
+Description-md5: 18340940effb12be4d4377a2831c0dda
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-common-folder
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 55
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Depends: awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0)
+Filename: pool/main/a/awn-extras/awn-applet-common-folder_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 19984
+MD5sum: 77aa8dc3ab26caefd9230cd0a1ca53db
+SHA1: c6bc4c3a569d75b817e4b35d643709600336a8be
+SHA256: 98f850ca7648acf369209f9eb7bff0919c82c3ae79244f5e24aca4eaba7199c6
+Description: Launcher for common folders and bookmarks for Awn
+Description-md5: 7287a84a81f0d5da2be5dd481fbb8547
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-cpufreq
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 714
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-core
+Depends: gconf2 (>= 2.28.1-2), awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0), gnome-applets
+Breaks: awn-applets-python-core (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-cpufreq_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 31474
+MD5sum: 71deace2c24cf1f2c755f3d24952d11f
+SHA1: 297ca51e07200487ed180fa513a40d4a9705206e
+SHA256: 5ca90744732a5204c9a681fb787a55240c7d327d4b703d84c5b2f15bcdea24db
+Description: Monitors and controls the CPU frequency for Awn
+Description-md5: 56587ecef229dee0618b203fd5ae3f7f
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-dialect
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 271
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-core
+Depends: gconf2 (>= 2.28.1-2), awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0), python-xklavier
+Breaks: awn-applets-python-core (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-dialect_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 84090
+MD5sum: a7bf96bf280323b37ee653dc03525a50
+SHA1: b0af15acea4e3c838628068acf9e205083ba4d51
+SHA256: 6f490dd0d67716c22c9065389dbf5e30551cfa799c6be9572fbd1c5191b26519
+Description: Manages keyboard layouts for Awn
+Description-md5: 9089e68761c97850a20ed0eaef222313
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-feeds
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 242
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-core
+Depends: gconf2 (>= 2.28.1-2), awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0), python-feedparser, python (>= 2.6) | python-simplejson
+Breaks: awn-applets-python-core (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-feeds_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 44274
+MD5sum: feb4c982869bae4a7fe4705feee74f0d
+SHA1: c10a80bf0166cd5205965c9d5f84351d027a108b
+SHA256: 86c7dd1b4c927d8115286caf7682b066427d83f63b88d98a683f2d35314c4576
+Description: A Python feed launcher for Awn
+Description-md5: f206607739d49cdcc5253658909eb6bd
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-file-browser-launcher
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 130
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-core
+Depends: gconf2 (>= 2.28.1-2), awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0)
+Breaks: awn-applets-python-core (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-file-browser-launcher_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 34014
+MD5sum: f6a4d00611195f032f2ddb5ee7081067
+SHA1: 60b2e57ae422bf42f74f43306f945c8dfef25115
+SHA256: a4ab358f8f038b25cb8c970afae9cad6f1815160d6bb23fb4338fd7a7c8156a1
+Description: Launches the user's file manager or opens bookmarks for Awn
+Description-md5: 47442e9b19535354611e97be9bd4bdf9
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-hardware-sensors
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 273
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-core
+Depends: gconf2 (>= 2.28.1-2), awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0), python-rsvg | python-gnome2-desktop
+Breaks: awn-applets-python-core (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-hardware-sensors_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 43938
+MD5sum: baf76e0ba1ca456868fac47b7e4ff4ab
+SHA1: a1e6e4cf5677f8bda21d3113fca7458a5b1f6802
+SHA256: a9b3de6dbca9c1546bbb32f5f1095d0af3d7bd08773ee5dc71ab3edc9ab676cf
+Description: Displays information from sensors for Awn
+Description-md5: 648a57de889e3f8abf25548a9a6afa36
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-mail
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 429
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-core
+Depends: gconf2 (>= 2.28.1-2), awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0)
+Breaks: awn-applets-python-core (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-mail_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 41250
+MD5sum: 1453d97128081030ba8a6cc7f705e309
+SHA1: 5f283fd42f43cc5fd316d25747ae5498df207dc5
+SHA256: b47288bf839468fb843b7a00a6ebd22b67394affb0de9853955078f383e9e98c
+Description: Check your mail from Awn
+Description-md5: 0408ff90bff4a90827d1eb7ff2f04c28
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-media-control
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 161
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-core
+Depends: gconf2 (>= 2.28.1-2), awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0)
+Breaks: awn-applets-python-core (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-media-control_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 31592
+MD5sum: dec2cdabada8e89b248f391f0dc9ba83
+SHA1: ed64f195a53220c2d89f25c9e9f5a295088d4559
+SHA256: b23d4e5e9a6fe4b00f805b1a88050e3e788e9a8dbf22328fc1883b2087a3e7f2
+Description: Display album art and control your favorite media players for Awn
+Description-md5: 4fda297a6629af819c52861f3a989287
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-media-player
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 115
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-core
+Depends: gconf2 (>= 2.28.1-2), awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0)
+Breaks: awn-applets-python-core (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-media-player_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 48056
+MD5sum: c56451cb014288a9d35e2ff1acb62e44
+SHA1: abe05e465a1721d61b4e0e80109e87d5b81170d0
+SHA256: d3afd8f67da674629cc33ff381bb821714453722708b26dea089de0073507c93
+Description: Play any media files you drop on it for Awn
+Description-md5: 55b8e7b382601b5c44295bffea0cf2e1
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-quit-applet
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 70
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-core
+Depends: gconf2 (>= 2.28.1-2), awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0)
+Breaks: awn-applets-python-core (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-quit-applet_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 22242
+MD5sum: 61ada20dc8dfd973a6745f85bd5ea891
+SHA1: 82f61def025f0fa0d3a048a02511f63ef30c5c1d
+SHA256: bd5fb16643a5d5208fe1d82b54e263b2ee67fd15813b3cf1ce05c447aa8febf8
+Description: A simple gnome-quit launcher for Awn
+Description-md5: 45d1f62f46845a013398744221da7e9d
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-stack
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 410
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-core
+Depends: gconf2 (>= 2.28.1-2), awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0), python-glade2
+Breaks: awn-applets-python-core (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-stack_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 51554
+MD5sum: 30e73b59ca403634ab86af301f55aae0
+SHA1: 91d8c52317958c90ee807f98fbba0978a1a502de
+SHA256: 598baacf134fc4505bee13e8e02086962acefadfa1b6e02e7ef015fa094bd374
+Description: Provide a convenient location to place commonly used files for Awn
+Description-md5: e3d7cf478083f443e35c65f50b6e4991
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-thinkhdaps
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 126
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-core
+Depends: awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0), python-pyinotify
+Breaks: awn-applets-python-core (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-thinkhdaps_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 23364
+MD5sum: deeb5f6d357df674b0d619001138ed26
+SHA1: 3c8630955d24cdda3b99a8cad793bce74a6bc313
+SHA256: 7393aae28301ce5e53c013d0033eed56ae9df250f7c8d59051d0d4e4582e8a9f
+Description: Display the status of HDAPS for Awn
+Description-md5: 66d8cb3463895e487a6792332a34a73c
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-todo
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 156
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-core
+Depends: gconf2 (>= 2.28.1-2), awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0)
+Breaks: awn-applets-python-core (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-todo_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 35836
+MD5sum: 1f9806e089d440de9de3dfa3c37fa06b
+SHA1: ef7a070943a6642cebb6efd040f4ee82f9c0e696
+SHA256: 4c46bc6044854ddd6b607f7ed921a85436314dfdad01dcdf38c94f451b09657d
+Description: Manage a simple To-Do list for Awn
+Description-md5: 7769a65279980ece7a66b79e789e07ca
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-volume-control
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 1949
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-core
+Depends: gconf2 (>= 2.28.1-2), awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0), python-gst0.10
+Breaks: awn-applets-python-core (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-volume-control_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 38010
+MD5sum: f6c6482e0eb3f447ca21d60c407ab911
+SHA1: 3aad97dc2e02b9e2f5cbbe1df8ff5b836347ebdd
+SHA256: 7e5758cfc8b212addb8b5e492823bb62abc040d7bcd72f5f20aea9ab73f805eb
+Description: A fancy volume changing applet for Awn
+Description-md5: cb6b4f4b3385500add09669abcbab827
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-weather
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 244
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-core
+Depends: gconf2 (>= 2.28.1-2), awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0)
+Breaks: awn-applets-python-core (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-weather_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 124852
+MD5sum: 639e7fe2b54545946cf68bc450b7cb21
+SHA1: 52526b6d1e13d32f4419e9f42859c0c7d380c041
+SHA256: 6367a4cc6d14b4f865744cf62d517749e239625f3651c51ba5e91b9dc34f8833
+Description: A applet to display weather information for Awn
+Description-md5: 05a684e8155963a8e1e024ca8d4f0cbe
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-calendar
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 246
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-extras
+Depends: gconf2 (>= 2.28.1-2), awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0), python-gdata, python-vobject
+Breaks: awn-applets-python-core (<< 0.3~bzr912), awn-applets-python-extras (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-calendar_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 148854
+MD5sum: 2687ecf8af749243391bd139249cd147
+SHA1: ea77b72bcb212a297e2da01e96904d235b38ac12
+SHA256: 101aa560fd0a3c91b81942173263ad1be6ea3ea122856d25a3016ffd0ffbd2b4
+Description: Display a clock and calendar on Awn
+Description-md5: 9e9f6993d2858ea48a3f25a843035e16
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-media-icon-applet
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 95
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-extras
+Depends: awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0)
+Breaks: awn-applets-python-core (<< 0.3~bzr912), awn-applets-python-extras (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-media-icon-applet_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 22222
+MD5sum: 9a571c81b2fd8eb8d51e70426b3bfc04
+SHA1: 5e8e687e7a4b86660667d7061a3f02a1d73bf8d2
+SHA256: 0a85beebdf13eab3a68f60fbb9dd7fca32bb2912cef1ed4eaad7668f37254d0a
+Description: Allow you to add media icons for Awn
+Description-md5: 715e208dc29486f879601890ae1b08ad
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-pandora
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 61
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-extras
+Depends: gconf2 (>= 2.28.1-2), awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0)
+Breaks: awn-applets-python-core (<< 0.3~bzr912), awn-applets-python-extras (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-pandora_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 22246
+MD5sum: fa65fc08fdeafa2546520119a27132eb
+SHA1: 78e0039f3cf04bb8c22e262a9e75f5f9402f69fe
+SHA256: ad23cffe3debeb007b061045c7fc2970bf85c8d0aed60ca5d4a7afbfb546e821
+Description: Play Pandora internet radio for Awn
+Description-md5: e83e9bc942f713dc8cbfb3715bfd963c
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-slickswitcher
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 165
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-extras
+Depends: gconf2 (>= 2.28.1-2), awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0), python-wnck | python-gnome2-desktop
+Breaks: awn-applets-python-core (<< 0.3~bzr912), awn-applets-python-extras (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-slickswitcher_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 48196
+MD5sum: 1fb21a9e2b264bf3382e41d746ff2c73
+SHA1: ace389c6be5e4e4fb2cb2067b45acb13a1257a96
+SHA256: cd3c3b266d2c3f928cde32a2c682674c9b95079c8d0e29dd83dbaa540338c63b
+Description: A visual workspace switcher for Awn
+Description-md5: 4968e1bdb0a798a133bda7f6411f3f97
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applet-tomboy-applet
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 55
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Replaces: awn-applets-python-extras
+Depends: awn-applets-common, python-awn (>= 0.3.2.1), python-awn-extras (>= 0.4.0), tomboy
+Breaks: awn-applets-python-core (<< 0.3~bzr912), awn-applets-python-extras (<< 0.4.1~bzr1485-0ubuntu1)
+Filename: pool/main/a/awn-extras/awn-applet-tomboy-applet_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 19630
+MD5sum: a0026a2c6d70e02795d3384d9757eb2c
+SHA1: aacb740abd98b4d4e2f2b64ab21c9ff7a901e72e
+SHA256: 2c3dfeb62a9022da739cbca2c4e2c02fc8be66b2df53ab78ac261fa0754dc81b
+Description: Control Tomboy with D-Bus
+Description-md5: 27468bd34cd684867b484c06f1dd59b1
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: awn-applets-all
+Source: awn-extras
+Priority: optional
+Section: gnome
+Installed-Size: 44
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1~1+git1081e3f-ubuntu2
+Depends: awn-applet-awn-notification-daemon, awn-applet-awn-system-monitor, awn-applet-awnterm, awn-applet-cairo-main-menu, awn-applet-indicator, awn-applet-related, awn-applet-notification-area, awn-applet-shinyswitcher, awn-applet-showdesktop, awn-applet-garbage, awn-applet-digital-clock, awn-applet-places, awn-applet-sysmon, awn-applet-webapplet, awn-applet-animal-farm, awn-applet-battery-applet, awn-applet-cairo-clock, awn-applet-comics, awn-applet-common-folder, awn-applet-cpufreq, awn-applet-dialect, awn-applet-feeds, awn-applet-file-browser-launcher, awn-applet-hardware-sensors, awn-applet-mail, awn-applet-media-control, awn-applet-media-player, awn-applet-quit-applet, awn-applet-stack, awn-applet-thinkhdaps, awn-applet-todo, awn-applet-volume-control, awn-applet-weather, awn-applet-calendar, awn-applet-media-icon-applet, awn-applet-pandora, awn-applet-slickswitcher, awn-applet-tomboy-applet
+Filename: pool/main/a/awn-extras/awn-applets-all_0.4.1~1+git1081e3f-ubuntu2_all.deb
+Size: 18028
+MD5sum: 87acadaeeb05a37dbace7fb001ae38e5
+SHA1: fdf48e6a7ceae2ee843c40c3a8cfe78e868e4e8b
+SHA256: a5d3c30ffb0417847b12d3b5163bd1f1179bc1a70ce8a316bbcdc677c6f6c3a0
+Description: Metapackage to install all applets for Awn
+Description-md5: b6d10e6a78f3bddc975f62089e9c1cc1
+Original-Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+
+Package: mcomix
+Priority: optional
+Section: x11
+Installed-Size: 1508
+Maintainer: Krzysztof Klimonda <kklimonda@syntaxhighlighted.com>
+Architecture: all
+Version: 1.2.1-1~webupd8~xenial1
+Suggests: unrar, p7zip-full, mupdf-tools
+Depends: python (>= 2.7), python (<< 2.8), python-pkg-resources, python-gtk2, python-imaging
+Filename: pool/main/m/mcomix/mcomix_1.2.1-1~webupd8~xenial1_all.deb
+Size: 309924
+MD5sum: 19c703ea5eec16c8b82adf065686ffe1
+SHA1: b8adc73743eea3e830aeb3cfb4276727215cf952
+SHA256: e4e615407b0e9df1c5a3962ddbaa792ab15d5c1363a79ed8b93319e34613ed39
+Description: GTK+ image viewer for comic books
+Description-md5: b9d25d2e7cf32ea10bb69411c7131f09
+
+Package: textadept
+Priority: extra
+Section: misc
+Installed-Size: 75
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 8.7-1~webupd8~0
+Suggests: textadept-default-cli
+Depends: debconf (>= 0.5) | debconf-2.0, libpng12-0, libgtk2.0-0 (>= 2.18), libncurses5, libncursesw5, libglib2.0-0 (>= 2.28)
+Filename: pool/main/t/textadept/textadept_8.7-1~webupd8~0_all.deb
+Size: 7080
+MD5sum: 5152c47f7166536305d59e63276d987c
+SHA1: 9c53a782ecc6a1da680e3151bf8c376cee3e22ca
+SHA256: 29564f9103c8a4fc8fb3ba7f10dffcc5b70f270db653a378e253f1713540bcb9
+Description: Textadept
+Description-md5: 9e2e0f3b564f6e3720da812e08e75bbc
+
+Package: screenkey
+Priority: extra
+Section: python
+Installed-Size: 206
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.9-1~webupd8~xenial1
+Recommends: fonts-font-awesome
+Depends: python (>= 2.7), python (<< 2.8), python-xlib, python-gtk2, x11-xserver-utils, slop, python-appindicator
+Filename: pool/main/s/screenkey/screenkey_0.9-1~webupd8~xenial1_all.deb
+Size: 41386
+MD5sum: 4d5a9fdd17484c9c5065671c7d1b721c
+SHA1: 7d8fa90361c139565d635e0dee589d1fce05ba27
+SHA256: 5c90208f488a00705e2ece1a6a41c2444289e78da35661ee24f768d9391afeca
+Description: screencast tool to display your keystrokes
+Description-md5: 3b5ccfc1ef76e208ce279990172ff50a
+Original-Maintainer: Georges Khaznadar <georgesk@ofset.org>
+
+Package: cardapio-gnomepanel
+Source: cardapio
+Priority: extra
+Section: gnome
+Installed-Size: 64
+Maintainer: tvst <tvst@hotmail.com>
+Architecture: all
+Version: 0.9.202-0recipe887+1~custom~webupd8~xenial0
+Depends: cardapio, gnome-panel, python-gnomeapplet | gir1.2-panelapplet-4.0 | gir1.2-panelapplet-5.0, python-gtk2 | gir1.2-gtk-3.0, gnome-icon-theme
+Filename: pool/main/c/cardapio/cardapio-gnomepanel_0.9.202-0recipe887+1~custom~webupd8~xenial0_all.deb
+Size: 15072
+MD5sum: 38368896c6b75d80c069e2b1907938fe
+SHA1: 53f84b2e801bf67722e2f6c2db998f1482103133
+SHA256: 5e66eda892e897667084b0fe2f959e4afdce75d2095d056cf70f2803fe0d3efa
+Description: Cardapio applet for Gnome Panel
+Description-md5: 6f25282d3ec84de31b444e48fa669161
+
+Package: syspeek
+Priority: extra
+Section: gnome
+Installed-Size: 293
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.3+bzr26-1~webupd8~xenial1
+Recommends: gnome-system-monitor
+Depends: python-gobject | python-gi, python-pkg-resources, libappindicator3-1, libgtk-3-0, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-appindicator3-0.1
+Filename: pool/main/s/syspeek/syspeek_0.3+bzr26-1~webupd8~xenial1_all.deb
+Size: 13606
+MD5sum: b9d4ae021a24109d541e3dde88e4e21f
+SHA1: aae9547698799e5d521b4b8cc0b27eaf0f999105
+SHA256: a7a1766675916d2fef4e4aa3532fad00155448cea4c17393b425b628982c9921
+Description: A system monitor indicator.
+Description-md5: 569f033f7fe9b44c6ea56f3c5c17a142
+
+Package: winusb
+Priority: extra
+Section: x11
+Installed-Size: 402
+Maintainer: Colin GILLE / congelli501 <colingille@hotmail.com>
+Architecture: amd64
+Version: 1.0.11.1+git20160816+1-1~webupd8~xenial0
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), libwxbase3.0-0v5 (>= 3.0.2+dfsg), libwxgtk3.0-0v5 (>= 3.0.2+dfsg), parted, coreutils, bash, grub-pc | grub-efi | grub-efi-amd64 | grub-efi-ia32, grub-pc-bin, gksu, ntfsprogs | ntfs-3g (>= 1:2011), p7zip-full
+Filename: pool/main/w/winusb/winusb_1.0.11.1+git20160816+1-1~webupd8~xenial0_amd64.deb
+Size: 168084
+MD5sum: 2d04ab4f60e194494bb41f6d534a7992
+SHA1: 70d5f09de09481c61aeaff316260ac7ff108c029
+SHA256: 36e04637cbe0f90ceb7194fd941299bdd85223c414629bc043bbbe084b3de14b
+Description: WinUSB can create bootable windows installer on usb.
+Description-md5: 2eeec1880f4c6d52b0df7907d46d20fd
+
+Package: cardapio-gnomeshell
+Source: cardapio
+Priority: extra
+Section: gnome
+Installed-Size: 26
+Maintainer: tvst <tvst@hotmail.com>
+Architecture: all
+Version: 0.9.202-0recipe887+1~custom~webupd8~xenial0
+Depends: cardapio, gnome-shell
+Filename: pool/main/c/cardapio/cardapio-gnomeshell_0.9.202-0recipe887+1~custom~webupd8~xenial0_all.deb
+Size: 10408
+MD5sum: 31c65c473819cad0710d952a35f6bb6d
+SHA1: 58254820d86d9a6d2eb5a46e3216d2aa1677f0b4
+SHA256: caa1621c5fb058e61388518ebcc303c152bdf93ce85d34b83944bced7ae0e1b2
+Description: Cardapio extension for Gnome Shell
+Description-md5: 78807a0d34d78b3f0c84b7a1a3679625
+
+Package: libdesktop-agnostic-data
+Source: libdesktop-agnostic
+Priority: extra
+Section: libs
+Installed-Size: 19
+Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+Architecture: amd64
+Version: 0.3.94~1+git4d9b6fd-ubuntu0
+Filename: pool/main/libd/libdesktop-agnostic/libdesktop-agnostic-data_0.3.94~1+git4d9b6fd-ubuntu0_amd64.deb
+Size: 5642
+MD5sum: 44e1af7dcc323f9bf205f4f76670bb07
+SHA1: ed80b3c3b7db07f9994be019a6ffd94889ffc1da
+SHA256: c664743eef46f38ec4fe24cc7dd9f353c621ff2e99d48da6bf5fca56b6674ec3
+Description: Locales and data for libdesktop-agnostic
+Description-md5: ec761fbcd5e2eae876a0012ad43ecc78
+
+Package: libdesktop-agnostic-fdo-gio
+Source: libdesktop-agnostic
+Priority: extra
+Section: libs
+Installed-Size: 52
+Maintainer: Julien Lavergne <julien.lavergne@gmail.com>
+Architecture: amd64
+Version: 0.3.94~1+git4d9b6fd-ubuntu0
+Provides: libdesktop-agnostic-fdo
+Depends: libc6 (>= 2.4), libdesktop-agnostic0 (= 0.3.94~1+git4d9b6fd-ubuntu0), libglib2.0-0 (>= 2.18.0)
+Filename: pool/main/libd/libdesktop-agnostic/libdesktop-agnostic-fdo-gio_0.3.94~1+git4d9b6fd-ubuntu0_amd64.deb
+Size: 13574
+MD5sum: 1b40989b0ebfe28034a3c29e4c3af0eb
+SHA1: 4cc6c2625c65148389302c1d85ebda6676dd89d5
+SHA256: 96f5f7dd99a27041e35eb79632c4cff4799e4ce16ea4c3bd5432266e8698d6db
+Description: GIO-based desktop entry/menu module for libdesktop-agnostic
+Description-md5: 154e9c9f00e7740996a43e8891663ee1
+
+Package: unity-reboot
+Priority: extra
+Section: misc
+Installed-Size: 55
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.2.1-2~webupd8~0
+Depends: consolekit, bash, yad (>= 0.12.0), libnotify-bin, gksu
+Filename: pool/main/u/unity-reboot/unity-reboot_0.2.1-2~webupd8~0_all.deb
+Size: 4250
+MD5sum: 651282567918ea5cd6b495a373972792
+SHA1: eb1ac60c7e41835ba3e8f6e9a6c55e8207258687
+SHA256: 826bb4ba89cbe64f6aea0e7b412464093a1227f57a2972ae9bd95cf0b0f9b22f
+Description: Unity Reboot
+Description-md5: 056f1061f1bdf52a190b2d0ec64bfcc3
+
+Package: gloobus-sushi
+Source: gloobus-preview
+Priority: optional
+Section: utils
+Installed-Size: 23
+Maintainer: ammonkey <am.monkeyd@gmail.com>
+Architecture: all
+Version: 0.4.5-ubuntu11~ppa335-16.04+2
+Replaces: gir1.2-sushi-1.0, gnome-sushi, gnome-sushi-common, libsushi-1.0-0, libsushi-1.0-0-dbg, libsushi-1.0-dev, nemo-gloobus-sushi
+Depends: python3, python3-dbus, python3-gi, gloobus-preview
+Conflicts: gir1.2-sushi-1.0, gnome-sushi, gnome-sushi-common, libsushi-1.0-0, libsushi-1.0-0-dbg, libsushi-1.0-dev, nemo-gloobus-sushi
+Filename: pool/main/g/gloobus-preview/gloobus-sushi_0.4.5-ubuntu11~ppa335-16.04+2_all.deb
+Size: 6616
+MD5sum: a79441e4e77615d0576eb027194e1d0e
+SHA1: 37b7f697ab74b97db2d3f28068c99ee644fd7a72
+SHA256: 972f6d1179c8281d8bd306912575111c1fa33385fcd52ed24f5a5fdbb9c31801
+Description: GloobusPreview replacement for Gnome Sushi
+Description-md5: 08d47f6a0f06a6d12ed12dcbcd47705b
+
+Package: musique
+Priority: extra
+Section: sound
+Installed-Size: 1791
+Maintainer: Jan Hauke Rahm <jhr@debian.org>
+Architecture: amd64
+Version: 1.3-1~webupd8~xenial
+Depends: libqt4-sql-sqlite, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libphonon4 (>= 4:4.2.0), libqt4-dbus (>= 4:4.5.3), libqt4-network (>= 4:4.5.3), libqt4-sql (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libstdc++6 (>= 4.6), libtag1v5 (>= 1.9.1-2.4ubuntu1), phonon
+Filename: pool/main/m/musique/musique_1.3-1~webupd8~xenial_amd64.deb
+Size: 494892
+MD5sum: d34aec0f9dd1e213c9c7d2ac9a91519d
+SHA1: fa3b8143a75a91128a5cf27c30b9a431f90b147c
+SHA256: ccbde6c62be02c2d4a902ade2a2ca462f717b469854fcf112cea40a8e1ab850b
+Description: Simple but sophisticated graphical music player
+Description-md5: c6c199030c66d47d083463558b2e2e14
+
+Package: syncwall
+Priority: optional
+Section: x11
+Installed-Size: 2456
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: amd64
+Version: 2.0.0-2~webupd8~xenial
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libqt4-network (>= 4:4.5.3), libqt4-sql (>= 4:4.5.3), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.6.2), libqxt-gui0, libstdc++6 (>= 5.2), sqlite3, libqt4-sql-sqlite
+Filename: pool/main/s/syncwall/syncwall_2.0.0-2~webupd8~xenial_amd64.deb
+Size: 1362740
+MD5sum: 1023efbee2f9ce0049275ac0eeb2ce88
+SHA1: 52d2078cb9533a08c6000d46caf8cbc5d02a03f7
+SHA256: e7981e7ace920e78c3d75fa107d2d9d75e41d49fbd01f6bb230be8cd1493abfe
+Description: Wallpaper changer
+Description-md5: 852f35476b945eac2e225ee729cac6be
+
+Package: audacious-plugins-data
+Source: audacious-plugins
+Priority: optional
+Section: sound
+Installed-Size: 2919
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 3.8.0-1~webupd8~xenial0
+Recommends: audacious-plugins
+Replaces: audacious-plugins (<= 3.2-2~)
+Breaks: audacious-plugins (<= 3.2-2~)
+Filename: pool/main/a/audacious-plugins/audacious-plugins-data_3.8.0-1~webupd8~xenial0_all.deb
+Size: 630146
+MD5sum: 91aaeb42843e3c62b6303319dfdeb2ef
+SHA1: 417d865e5692774c0964abcf99bcc528ded81950
+SHA256: a3a8df4a70328d145a55d1beb3909172cabc73fb5b70f5ae465db5c73791594b
+Description: Data files for Audacious plugins
+Description-md5: 1719d6de393b2f9bb46167b11f37780c
+Multi-Arch: foreign
+
+Package: cardapio-matepanel
+Source: cardapio
+Priority: extra
+Section: gnome
+Installed-Size: 46
+Maintainer: tvst <tvst@hotmail.com>
+Architecture: all
+Version: 0.9.202-0recipe887+1~custom~webupd8~xenial0
+Depends: cardapio, mate-panel, mate-applets
+Filename: pool/main/c/cardapio/cardapio-matepanel_0.9.202-0recipe887+1~custom~webupd8~xenial0_all.deb
+Size: 13072
+MD5sum: ffc6e7b13418408c3f391b3233e1e43f
+SHA1: aaf17bcd60a6667a0b792c1e141d5d97a33b56c4
+SHA256: 8dedae6ea4346b4071f4abc8dbeda46fb81eec4416af03e9b3567b1356333e9f
+Description: Cardapio applet for Mate Panel
+Description-md5: 3b0bdf5b04f46130225d3507ac887a66
+
+Package: rosa-media-player
+Priority: optional
+Section: video
+Installed-Size: 6560
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: amd64
+Version: 1.6.9-1~webupd8~xenial
+Recommends: mencoder
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libqjson0 (>= 0.7.1), libqt4-network (>= 4:4.5.3), libqt4-xml (>= 4:4.5.3), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.8.0), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4), mplayer-nogui | mplayer | mplayer2, ffmpeg, xdg-utils
+Filename: pool/main/r/rosa-media-player/rosa-media-player_1.6.9-1~webupd8~xenial_amd64.deb
+Size: 2696626
+MD5sum: 3eddecee86aa97a72d135e00ceaa5500
+SHA1: 4b600ee3d9d60652de58de98f1734ddd04f0d92d
+SHA256: 188c089ecd13e64eda168ea120454781a9a22dae820132bf63db75c08bece8a1
+Description: Front-end for MPlayer
+Description-md5: 2b91cfeef49a64ebcac5d494771bfd6c
+
+Package: grive
+Source: grive2
+Priority: optional
+Section: net
+Installed-Size: 1946
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: amd64
+Version: 0.5.1-1+git20161013~webupd8~xenial0
+Depends: binutils (>= 2.26.1), binutils (<< 2.27), libboost-filesystem1.58.0, libboost-program-options1.58.0, libboost-regex1.58.0, libboost-system1.58.0, libc6 (>= 2.14), libcurl3 (>= 7.16.2), libgcc1 (>= 1:3.0), libgcrypt20 (>= 1.6.1), libstdc++6 (>= 5.2), libyajl2 (>= 2.0.4)
+Filename: pool/main/g/grive2/grive_0.5.1-1+git20161013~webupd8~xenial0_amd64.deb
+Size: 335182
+MD5sum: 0dee55602d6be25d50dc5104ca559d4d
+SHA1: 3d009abee0ba9ac37ef0be5a5212fb9f4ec6e6fd
+SHA256: 1a2b47b5bf9be57fef27bd98a5e1dc4954c9eb53e99b30594ffb01d5e53fa77f
+Description: Grive2: an open source Linux client for Google Drive
+Description-md5: ccdb28acb59d37f2ce469d1f5ea4aa98
+
+Package: cardapio-cinnamon
+Source: cardapio
+Priority: extra
+Section: gnome
+Installed-Size: 23
+Maintainer: tvst <tvst@hotmail.com>
+Architecture: all
+Version: 0.9.202-0recipe887+1~custom~webupd8~xenial0
+Depends: cardapio, cinnamon
+Filename: pool/main/c/cardapio/cardapio-cinnamon_0.9.202-0recipe887+1~custom~webupd8~xenial0_all.deb
+Size: 9718
+MD5sum: 08a23402773c8d904515dc0b7d5714cd
+SHA1: 9aa59cdaf54595f6793f16806c04f5ce9199ecd3
+SHA256: 7c118ee091f586d7e8f58d6901a67eb13efb0b890d7f599d10b7aed8aa9493d6
+Description: Cardapio extension for Cinnamon
+Description-md5: e0378ed23824169bb29f59b6d5f4d947
+
+Package: dockbarx-common
+Source: dockbarx
+Priority: extra
+Section: gnome
+Installed-Size: 1202
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.92-1~webupd8~xenial4
+Recommends: zeitgeist (>= 0.4), dockmanager, dockmanager-daemon, libdesktop-agnostic-cfg-gconf, libdesktop-agnostic-vfs-gio
+Replaces: dockbarx (<< 0.90.2), dockbarx-themes-extra (<< 2.0)
+Depends: python-wnck, python-keybinder, python-numpy, python-xlib, python-gconf, python-pil, zeitgeist, python-zeitgeist
+Conflicts: dockbarx (<< 0.90.2), dockbarx-themes-extra (<< 2.0)
+Filename: pool/main/d/dockbarx/dockbarx-common_0.92-1~webupd8~xenial4_all.deb
+Size: 351264
+MD5sum: f3ee65f8a31048e3259972c46009b822
+SHA1: b6b10a0b81ed5229baf46ca369752c1b98eae892
+SHA256: 6c28bb31624ffbba6816305025a7f3d0927ee34cf3bb150281ce336333fefea6
+Description: DockBarX common files
+Description-md5: 42770aca72f8a6da4a35e65606a3e306
+
+Package: dockbarx-dockx
+Source: dockbarx
+Priority: extra
+Section: gnome
+Installed-Size: 98
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.92-1~webupd8~xenial4
+Recommends: dockbarx-applet-volume-control, dockbarx-applet-namebar, dockbarx-applet-hello-world, dockbarx-applet-clock, dockbarx-applet-cardapio, dockbarx-applet-appindicator, dockbarx-applet-battery-status
+Replaces: dockbarx (<< 0.90.2), gnome-dockbar-applet-launchers, gnome-dockbarx-applet (<= 0.21.5-0)
+Depends: dockbarx-common
+Conflicts: dockbarx (<< 0.90.2), gnome-dockbar-applet-launchers, gnome-dockbarx-applet (<= 0.21.5-0)
+Filename: pool/main/d/dockbarx/dockbarx-dockx_0.92-1~webupd8~xenial4_all.deb
+Size: 37278
+MD5sum: 81dd809795536b3d9a56a5559da03a11
+SHA1: 92630c14d8ea2021992bbb2be8278f799d7bcfbd
+SHA256: 36614a893b493d65f55bcfac5d4961c19fc9b8c93338c209590a8b5f97e60d8b
+Description: The stand-alone DockBarX dock called DockX
+Description-md5: 61df18a90279d85e38d883fd87bbf378
+
+Package: gnomepanel-applet-dockbarx
+Source: dockbarx
+Priority: extra
+Section: gnome
+Installed-Size: 22
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.92-1~webupd8~xenial4
+Replaces: dockbarx (<< 0.90.2), gnome-dockbar-applet-launchers, gnome-dockbarx-applet (<= 0.21.5-0)
+Depends: dockbarx-common, python-gnomeapplet
+Conflicts: dockbarx (<< 0.90.2), gnome-dockbar-applet-launchers, gnome-dockbarx-applet (<= 0.21.5-0)
+Filename: pool/main/d/dockbarx/gnomepanel-applet-dockbarx_0.92-1~webupd8~xenial4_all.deb
+Size: 6596
+MD5sum: 363d4f05f0bd6f8f68275d20fb93b652
+SHA1: e4ce467f431edda2aeb29b725373226f6e53c64b
+SHA256: 4a4bf66f6f19a02208f36214d1b78a6151f4a255838c283e42cbdc6348392efa
+Description: The DockBarX applet for GNOME panel
+Description-md5: 729787149c771d2446dccd57176d1642
+
+Package: dockbarx-applet-appindicator
+Source: dockbarx
+Priority: extra
+Section: gnome
+Installed-Size: 26
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.92-1~webupd8~xenial4
+Depends: indicator-application, dockbarx-dockx
+Filename: pool/main/d/dockbarx/dockbarx-applet-appindicator_0.92-1~webupd8~xenial4_all.deb
+Size: 7582
+MD5sum: 3aa47dc7c94a32e6f9be2c31a8d6f3d2
+SHA1: a5155398b06767444ad35cc3cdd29d649ad2eeae
+SHA256: 8a2dcdf4dc9e9754651b6780cbe6eaa88729dad42f5779ee6e4049930b0cd84f
+Description: DockBarX DockX AppIndicator applet
+Description-md5: a558caa7983b8ed2923a2d32d342fa53
+
+Package: dockbarx-applet-cardapio
+Source: dockbarx
+Priority: extra
+Section: gnome
+Installed-Size: 20
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.92-1~webupd8~xenial4
+Depends: cardapio, dockbarx-dockx
+Filename: pool/main/d/dockbarx/dockbarx-applet-cardapio_0.92-1~webupd8~xenial4_all.deb
+Size: 6272
+MD5sum: a03412d085adf870d1dc07b71b937149
+SHA1: 31189d01bdfd5a211bc71fac847d5e7e1821bc10
+SHA256: f8bf591f063187713506788cf203884255309a9799b5258831f7069966a70d2d
+Description: DockBarX DockX Cardapio applet
+Description-md5: 1bd845a36b11e6403c04059f31fdc6d7
+
+Package: dockbarx-applet-clock
+Source: dockbarx
+Priority: extra
+Section: gnome
+Installed-Size: 23
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.92-1~webupd8~xenial4
+Depends: dockbarx-dockx
+Filename: pool/main/d/dockbarx/dockbarx-applet-clock_0.92-1~webupd8~xenial4_all.deb
+Size: 6964
+MD5sum: f01f7786bd9cd4404b27ba1b16dbb09e
+SHA1: 2b2e507d9904076806fcd7612303340d5b040301
+SHA256: e18ca928d4ccc663802d68fcd7351e0fa5c8f862ae15f0029d6b8f3e22da11de
+Description: DockBarX DockX Clock applet
+Description-md5: e9b0c1dab94016aadef911aea2260078
+
+Package: dockbarx-applet-hello-world
+Source: dockbarx
+Priority: extra
+Section: gnome
+Installed-Size: 15
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.92-1~webupd8~xenial4
+Depends: dockbarx-dockx
+Filename: pool/main/d/dockbarx/dockbarx-applet-hello-world_0.92-1~webupd8~xenial4_all.deb
+Size: 5212
+MD5sum: fdf1a8c4b466afdaa490e6b603b60e95
+SHA1: 29855cd8b54e0c3295eec73e25a6448939088b3a
+SHA256: 4197562e2835ac9a910e345daf51ec4ca7fe21e1493d4b42fcbbbfc0649aa0cf
+Description: DockBarX DockX Hello World applet
+Description-md5: b1e5d7be9e13ec3185883a24d00a682c
+
+Package: dockbarx-applet-namebar
+Source: dockbarx
+Priority: extra
+Section: gnome
+Installed-Size: 153
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.92-1~webupd8~xenial4
+Depends: dockbarx-dockx
+Filename: pool/main/d/dockbarx/dockbarx-applet-namebar_0.92-1~webupd8~xenial4_all.deb
+Size: 60098
+MD5sum: 5f3982aea0510799c3568a5cd983a940
+SHA1: e632f5fa99a55fa27595675fe2de68f2a124a57a
+SHA256: 776ea40dfe51fdd32c02dc53797bff8567ab810cdad98542abf66b8e6f3dd64a
+Description: DockBarX DockX Namebar applet
+Description-md5: cd70cbe9e3012a6d455f37bfd6ab0f7a
+
+Package: dockbarx-applet-all
+Source: dockbarx
+Priority: extra
+Section: gnome
+Installed-Size: 10
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.92-1~webupd8~xenial4
+Depends: dockbarx-dockx, dockbarx-applet-volume-control, dockbarx-applet-namebar, dockbarx-applet-hello-world, dockbarx-applet-clock, dockbarx-applet-cardapio, dockbarx-applet-appindicator, dockbarx-applet-battery-status
+Filename: pool/main/d/dockbarx/dockbarx-applet-all_0.92-1~webupd8~xenial4_all.deb
+Size: 4192
+MD5sum: 28fb6d9ac0f5f05e930f8dbfd5a13d27
+SHA1: e7e299a3aa29a89205e76166b10520fa3cd7a9d6
+SHA256: e459158ecef1f7d894d264f23116959eb7b426a038dc7cc0a8f35f8f93c958be
+Description: All DockBarX DockX applets
+Description-md5: 18b8cb786a1a5d71d7d6aab58217b241
+
+Package: dockbarx-applet-volume-control
+Source: dockbarx
+Priority: extra
+Section: gnome
+Installed-Size: 1909
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.92-1~webupd8~xenial4
+Depends: dockbarx-dockx
+Filename: pool/main/d/dockbarx/dockbarx-applet-volume-control_0.92-1~webupd8~xenial4_all.deb
+Size: 31024
+MD5sum: 1a267ebf322b33bfd21ca748581ec990
+SHA1: f0efa25d3dc7ed785d5a8260458ab9f3f00237be
+SHA256: e176b6a1db84f11a8890aae1f9c864d1cb780ab16bf96696d268f72e63d8058c
+Description: DockBarX DockX Volume Control applet
+Description-md5: 341280bb855f0da0cf4d626dfce19348
+
+Package: textadept-default-cli
+Source: textadept
+Priority: extra
+Section: misc
+Installed-Size: 35
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 8.7-1~webupd8~0
+Depends: textadept
+Filename: pool/main/t/textadept/textadept-default-cli_8.7-1~webupd8~0_all.deb
+Size: 2966
+MD5sum: 0ea6f4411ee1adcef218d603ede218f6
+SHA1: d0297da80157ab55cae834973555d01b69a20151
+SHA256: 5794a66c29f8383a15a003f6ef01b8d36cf7c46d0534eb19b7c0bbb9c8e99c41
+Description: Textadept default cli
+Description-md5: 28d439f85f85fd834d68c6f09d25bcee
+
+Package: xfce4-dockbarx-plugin
+Priority: optional
+Section: xfce
+Installed-Size: 130
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: amd64
+Version: 0.4.1-1~webupd8~xenial2
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.14.0), xfce4-panel (>= 4.11), xfce4-panel (<< 4.13), dockbarx (>= 0.90), python-dbus
+Filename: pool/main/x/xfce4-dockbarx-plugin/xfce4-dockbarx-plugin_0.4.1-1~webupd8~xenial2_amd64.deb
+Size: 50364
+MD5sum: 34618cc9e3435c44044dacfcedfef54e
+SHA1: 4d547e3135afd59fcd96568b8eddf0e2551ca78f
+SHA256: 038f83fb4d193a4b26578c0f55d383890ffe6504f3576390886b5c67b58c2866
+Description: DockBarX plugin for Xfce
+Description-md5: dba8074602c4243f7fd871524a16bfe3
+
+Package: libwxgtk-media2.8-0
+Source: wxwidgets2.8
+Priority: optional
+Section: oldlibs
+Installed-Size: 193
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.41.1), libgstreamer-plugins-base0.10-0 (>= 0.10.0), libgstreamer0.10-0 (>= 0.10.0), libgtk2.0-0 (>= 2.24.0), libstdc++6 (>= 4.1.1), libwxbase2.8-0 (>= 2.8.12.1+dfsg2), libwxgtk2.8-0 (>= 2.8.12.1+dfsg2)
+Filename: pool/main/w/wxwidgets2.8/libwxgtk-media2.8-0_2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0_amd64.deb
+Size: 109060
+MD5sum: f51c24a41f8dbeb47f90824839168bb1
+SHA1: 71f69d118f99b4f0f369b098ac3a110137cfcf92
+SHA256: ad4160e0b64954f8f28bdbed3799b3e6c831785e265c4af4699e6002b6c43dfd
+Description: wxWidgets Cross-platform C++ GUI toolkit (GTK+ media library runtime)
+Description-md5: 4d453ea781b1c02f5f12d3bc28d3d46d
+Multi-Arch: same
+Original-Maintainer: wxWidgets Maintainers <freewx-maint@lists.alioth.debian.org>
+
+Package: libwxgtk-media2.8-dbg
+Source: wxwidgets2.8
+Priority: extra
+Section: debug
+Installed-Size: 206
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.41.1), libgstreamer-plugins-base0.10-0 (>= 0.10.0), libgstreamer0.10-0 (>= 0.10.0), libgtk2.0-0 (>= 2.24.0), libstdc++6 (>= 4.1.1), libwxbase2.8-dbg (>= 2.8.12.1+dfsg2), libwxgtk2.8-dbg (= 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0), wx2.8-headers (= 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0)
+Filename: pool/main/w/wxwidgets2.8/libwxgtk-media2.8-dbg_2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0_amd64.deb
+Size: 112656
+MD5sum: 8f0e403b5d0e8a47c82911ca9137254e
+SHA1: 2f1f3e4f83515d1a5f39d617566d0ca379831d79
+SHA256: 6bc4cbb48b746dd877e69c574d3c5cf4bbc52967d31e6316757d19c0ed36c624
+Description: wxWidgets Cross-platform C++ GUI toolkit (GTK+ media library debug)
+Description-md5: cdd23ceadafcb172f73e6e79727e06cc
+Original-Maintainer: wxWidgets Maintainers <freewx-maint@lists.alioth.debian.org>
+
+Package: libwxgtk-media2.8-dev
+Source: wxwidgets2.8
+Priority: optional
+Section: oldlibs
+Installed-Size: 105
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0
+Suggests: wx2.8-doc, libstdc++-dev, gettext, libgl1-mesa-dev | libgl-dev, xlibmesa-glu-dev | libglu-dev
+Depends: wx-common, wx2.8-headers (= 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0), libwxgtk-media2.8-0 (= 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0), libwxgtk2.8-dev (= 2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0)
+Filename: pool/main/w/wxwidgets2.8/libwxgtk-media2.8-dev_2.8.12.1+dfsg2-2ubuntu2+1~webupd8~xenial0_amd64.deb
+Size: 87390
+MD5sum: 1a4fd4b61205a32a8d51a3b04d6e7b95
+SHA1: 2df30fb901787a5ea3e33ce61fd30e575d7d5344
+SHA256: 3357551c90f11ff252d296be3c6639c59d4b1e2d141f4e94dcad73587fd738db
+Description: wxWidgets Cross-platform C++ GUI toolkit (GTK+ media library development)
+Description-md5: cf53a6b6bd424856703612f9cc25c61b
+Original-Maintainer: wxWidgets Maintainers <freewx-maint@lists.alioth.debian.org>
+
+Package: libvdpau-va-gl1
+Source: libvdpau-va-gl
+Priority: optional
+Section: libs
+Installed-Size: 251
+Maintainer: Vincent Bernat <bernat@debian.org>
+Architecture: amd64
+Version: 0.4.2-1~webupd8~xenial0
+Provides: vdpau-driver
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libstdc++6 (>= 5.2), libva-x11-1 (>= 1.0.3), libva1 (>= 1.2.0), libx11-6, libvdpau1
+Enhances: libvdpau1
+Filename: pool/main/libv/libvdpau-va-gl/libvdpau-va-gl1_0.4.2-1~webupd8~xenial0_amd64.deb
+Size: 69852
+MD5sum: fc3473e6168371d47166e3c9462cc303
+SHA1: c3ba6065ae3a573c7d84d640288f80f3c0bd9cf7
+SHA256: 4b12bd229201f6a7c09f9b111bccd7e63641aed6fd978a01963684a64b970990
+Description: VDPAU driver with OpenGL/VAAPI backend
+Description-md5: 4c5078cf58e37672fd6ff35511fb6e80
+Multi-Arch: same
+
+Package: antimicro
+Priority: optional
+Section: x11
+Installed-Size: 3306
+Maintainer: Travis Nickles <nickles.travis@gmail.com>
+Architecture: amd64
+Version: 2.21-1~xenialubuntu1
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libqt4-network (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libsdl2-2.0-0 (>= 2.0.4), libstdc++6 (>= 5.2), libx11-6, libxi6 (>= 2:1.2.99.4), libxtst6
+Filename: pool/main/a/antimicro/antimicro_2.21-1~xenialubuntu1_amd64.deb
+Size: 800178
+MD5sum: ae91fe1d88dd3bed39916a9578cedfeb
+SHA1: 1a55fc5a207d7a1725734a499fea46dfd3cc2ccf
+SHA256: 7e9e3c394dcf92a8fbe74ef021ec1d96bee5e0809c531b10949f7ade5dff7906
+Description: Graphical program used to map keyboard keys and mouse controls to a gamepad
+Description-md5: fcb78d2f20b6da4b27947f142661a952
+
+Package: ipad-charge
+Priority: optional
+Section: x11
+Installed-Size: 25
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: amd64
+Version: 1.1+git20161017-1~webupd8~xenial1
+Depends: libc6 (>= 2.4), libusb-1.0-0 (>= 2:1.0.16)
+Filename: pool/main/i/ipad-charge/ipad-charge_1.1+git20161017-1~webupd8~xenial1_amd64.deb
+Size: 5186
+MD5sum: 337d6c8c57ecd5406a5e1826df54f85d
+SHA1: 6fd2ae8ed6dbdee509b336a6614e2d48fee01a10
+SHA256: 6b2016d75b93cf6325e55a066e004214b515e3f1916be3e98e82886bf2232fdc
+Description: Enables USB charging for Apple devices, e.g. iPad.
+Description-md5: a0881f31d092bc90a7c5a7ddfbb11c74
+
+Package: prime-indicator
+Priority: extra
+Section: x11
+Installed-Size: 83
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.1-1+git20150211~webupd8~1
+Depends: nvidia-prime, python-appindicator, mesa-utils, python-gtk2
+Filename: pool/main/p/prime-indicator/prime-indicator_0.1-1+git20150211~webupd8~1_all.deb
+Size: 27668
+MD5sum: 7981246805b63bead514cf60ef021515
+SHA1: 8c1cbda9d0f2d28991d321099cd902ca9c2dd940
+SHA256: b4cb95b4ffb1cce328e40f1c84ad34f78f08c5faf79717025cea39cfa7c08b12
+Description: PRIME Indicator
+Description-md5: 88974948e440579fd20734ee81f9dfe9
+
+Package: pidgin-indicator
+Priority: extra
+Section: net
+Installed-Size: 66
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: amd64
+Version: 1.0-1~webupd8~xenial0
+Depends: libappindicator1 (>= 0.3.91), libc6 (>= 2.2.5), libglib2.0-0 (>= 2.18.0), libgtk2.0-0 (>= 2.8.0), libpurple0 (>= 1:2.2.0)
+Filename: pool/main/p/pidgin-indicator/pidgin-indicator_1.0-1~webupd8~xenial0_amd64.deb
+Size: 14074
+MD5sum: 6c0b4a6e3eb2dcbfc294a622a3138bae
+SHA1: cc1344381bf336ba86b07d53d9544ca5f3a2a201
+SHA256: 7384dc28d1df26e8587e80d8acd5b1aaa4fdaf0abfd60db884bbdb42042bc0bf
+Description: Ubuntu Indicator Plugin for Pidgin
+Description-md5: 4c3ddb60d33557eca521e7d15414bb45
+
+Package: kkedit
+Priority: extra
+Section: utils
+Installed-Size: 6306
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: amd64
+Version: 0.4.1-1~webupd8~xenial0
+Depends: libaspell15 (>= 0.60.7~20110707), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.3.16), libgtksourceview-3.0-1 (>= 2.91.4), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.1.1), libvte-2.91-0, libwebkitgtk-3.0-0 (>= 1.3.10), libx11-6, aspell, aspell-en, exuberant-ctags
+Filename: pool/main/k/kkedit/kkedit_0.4.1-1~webupd8~xenial0_amd64.deb
+Size: 5876738
+MD5sum: 3e8d739254f247ac3f8a155823419d14
+SHA1: a2079e585981d9059af70ca37cef35c86beb9c9a
+SHA256: fe133bf3f091163e0efc51b84523c0304de6b6296228300ea3eef3a346f879f4
+Description: KKEdit
+Description-md5: 5ac22afa2fb39d5abae1b97348c7d597
+
+Package: youtube-dlg
+Priority: extra
+Section: gnome
+Installed-Size: 327
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.3.8-1~webupd8~xenial3
+Recommends: libav-tools | ffmpeg
+Depends: python (>= 2.7), python (<< 2.8), python-wxgtk3.0, python-distutils-extra
+Filename: pool/main/y/youtube-dlg/youtube-dlg_0.3.8-1~webupd8~xenial3_all.deb
+Size: 109316
+MD5sum: b643cd532d52f600e545d7a33cc5f103
+SHA1: 079da8410bdca62a46328a8f47507be3bb2aedcc
+SHA256: 380f870fb7b151e881f6c361bd00cd52dea32b4b3a08a6c2e0010fa5fb930771
+Description: youtube-dl gui
+Description-md5: 2d79415e7266bce882943f27e374c810
+
+Package: todo-indicator
+Priority: extra
+Section: utils
+Installed-Size: 116
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.3.0-1+git20140411~webupd8~5
+Depends: python, python-appindicator, python-pyinotify, libappindicator3-1, gir1.2-appindicator3-0.1, python-gi, libgtk-3-0
+Filename: pool/main/t/todo-indicator/todo-indicator_0.3.0-1+git20140411~webupd8~5_all.deb
+Size: 6762
+MD5sum: 600040faee6436e9dac349233045db87
+SHA1: 2d4548891cda2fcfd74029c6ebf23399ed5570b6
+SHA256: a2cd3e94eaf302a5dfa90223d74081c9107876e841bcc849a2738908a35a3b87
+Description: Todo Indicator
+Description-md5: 3bea352a919940573e5bb578b7470710
+
+Package: indicator-netspeed
+Priority: extra
+Section: gnome
+Installed-Size: 33
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: amd64
+Version: 0+git20140722-0~webupd8~xenial
+Depends: dconf-gsettings-backend | gsettings-backend, libappindicator3-1 (>= 0.2.92), libc6 (>= 2.4), libglib2.0-0 (>= 2.26.0), libgtk-3-0 (>= 3.0.0), libgtop-2.0-10 (>= 2.22.3), libpango-1.0-0 (>= 1.14.0), libglib2.0-bin
+Filename: pool/main/i/indicator-netspeed/indicator-netspeed_0+git20140722-0~webupd8~xenial_amd64.deb
+Size: 7186
+MD5sum: 3ef9ad2275c7d0bd529bc473e1b14046
+SHA1: 91eaf780de51de301c99f3a2af28789f3ea06d7d
+SHA256: f5d888dbcb3e21c8b86f4f82c0d8d23b055137f85ee69d181a6df9abb7865fc3
+Description: Network speed indicator for Unity
+Description-md5: fe8101ea3e1e72f4cf5f299a5eb56dee
+
+Package: freshplayerplugin
+Priority: optional
+Section: web
+Installed-Size: 31
+Maintainer: Vincent Danjean <vdanjean@debian.org>
+Architecture: all
+Version: 0.3.6-1~webupd8~xenial6
+Depends: browser-plugin-freshplayer-pepperflash
+Filename: pool/main/f/freshplayerplugin/freshplayerplugin_0.3.6-1~webupd8~xenial6_all.deb
+Size: 8722
+MD5sum: 6522d2800c7973828e1721423c837422
+SHA1: 9fed7a225db755886507daa2a7cdc539e380a098
+SHA256: f95a27835c724d3f07a2a65bc445594ce964832ca82c78e32662328f81d631b5
+Description: Dummy meta package
+Description-md5: dcc812ecb56bf331e7bb747859566406
+
+Package: dockbarx-applet-battery-status
+Source: dockbarx
+Priority: extra
+Section: gnome
+Installed-Size: 105
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.92-1~webupd8~xenial4
+Depends: dockbarx-dockx
+Filename: pool/main/d/dockbarx/dockbarx-applet-battery-status_0.92-1~webupd8~xenial4_all.deb
+Size: 18998
+MD5sum: d8eeb8359438dd1e6bb42dbc075e4585
+SHA1: f636153d4289f8b9f66bfc092dc562fc43368ae3
+SHA256: 80b1e173f1c0cdd9dbd1344a7d643ce5e8eecf65af608afbafd40fe5344ac731
+Description: DockBarX DockX Battery Status applet
+Description-md5: b556caca78c21d2da84e435aa70ba490
+
+Package: caffeine-plus
+Priority: optional
+Section: misc
+Installed-Size: 192
+Maintainer: Reuben Thomas <rrt@sc3d.org>
+Architecture: all
+Version: 2.7.4+git20150326-1~webupd8~xenial1
+Replaces: caffeine
+Depends: python3:any (>= 3.3.2-2~), gir1.2-glib-2.0, python3-xlib, python3-dbus, gir1.2-appindicator3-0.1, libappindicator3-1
+Conflicts: caffeine
+Filename: pool/main/c/caffeine-plus/caffeine-plus_2.7.4+git20150326-1~webupd8~xenial1_all.deb
+Size: 51446
+MD5sum: df4a26c0270ef2c9b68a622ee1dee58b
+SHA1: 01df738b769325d883ed76b50b3bf489242b7190
+SHA256: 942dce180f92a9df8cac9f4d0475884daccdea71d1a479e76b79a5d0643c05cc
+Description: Prevent the desktop becoming idle
+Description-md5: a5cc79551c2f45cd38243e576933ae9b
+
+Package: gtk3-nocsd
+Priority: extra
+Section: x11
+Installed-Size: 79
+Maintainer: Christian Seiler <christian@iwakd.de>
+Architecture: all
+Version: 3-1~webupd8~xenial5
+Depends: libgtk3-nocsd0
+Filename: pool/main/g/gtk3-nocsd/gtk3-nocsd_3-1~webupd8~xenial5_all.deb
+Size: 46564
+MD5sum: 476c53f43671bcd543ae196ee8e851d7
+SHA1: 2050ca2e08368e9f94b1e1647f58e89c3b4d4d4d
+SHA256: 6624961ebb97c23a75a6b23831b6c69e0d92540df3833a4b96ca068a5c31a0ca
+Description: Disable Gtk+ 3 client side decorations (CSD)
+Description-md5: 8b951ed34e19b48a27da7890dd71b3f9
+
+Package: libaudcore3
+Source: audacious
+Priority: optional
+Section: libs
+Installed-Size: 315
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 3.7.2-2-1~webupd8~xenial1
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.35.9), libguess1, libqt5core5a (>= 5.0.2), libstdc++6 (>= 4.9)
+Filename: pool/main/a/audacious/libaudcore3_3.7.2-2-1~webupd8~xenial1_amd64.deb
+Size: 124058
+MD5sum: 2c77bfa87fac2606d7ea779f1e20c245
+SHA1: 4c7c6be49630fbbae2118317343d8235afc25653
+SHA256: de273b144a76c88ea05d963b2d1c41307019ace2165029ebc1b32276a9b6e433
+Description: audacious core engine library
+Description-md5: b2e660e29b59004089d4f0e6e15a5b64
+Multi-Arch: same
+
+Package: libaudqt0
+Source: audacious
+Priority: optional
+Section: libs
+Installed-Size: 255
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 3.7.2-2-1~webupd8~xenial1
+Replaces: libaudcore3 (<= 3.7.2-2)
+Depends: libaudcore3 (>= 3.7.1), libc6 (>= 2.15), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 4.1.1)
+Filename: pool/main/a/audacious/libaudqt0_3.7.2-2-1~webupd8~xenial1_amd64.deb
+Size: 67022
+MD5sum: 99900ddcd84dc82f92da7fcee63e21d3
+SHA1: 1a8559b3bebe051609d57bfc7c622ffc6f653788
+SHA256: 9c76b120e6caad1d8eb839e80b8a8bca5022c8bdc713758333e25c437e3923e9
+Description: audacious media player (libaudqt shared library)
+Description-md5: d97086a2dcab8b6f713f26cdc38598a1
+Multi-Arch: same
+
+Package: libaudgui3
+Source: audacious
+Priority: optional
+Section: libs
+Installed-Size: 196
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 3.7.2-2-1~webupd8~xenial1
+Replaces: libaudcore3 (<= 3.7.2-2)
+Depends: libaudcore3 (>= 3.7.1), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.28.0), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.1.1)
+Filename: pool/main/a/audacious/libaudgui3_3.7.2-2-1~webupd8~xenial1_amd64.deb
+Size: 64010
+MD5sum: 4cf2e280ccb84fc73e2e885cfe1cce36
+SHA1: 13b10c38d2e8a0670988c4ebf332d7de55cf02c7
+SHA256: 673376447ee66b727c07cb78eccca5199f71b69b97f3620c95faa6443f92f224
+Description: audacious media player (libaudgui shared library)
+Description-md5: 2423dab97806e203e24b3ffcfb830b74
+Multi-Arch: same
+
+Package: indicator-xkbmod
+Priority: optional
+Section: gnome
+Installed-Size: 48
+Maintainer: Abdellah Chelli <abdellahchelli@gmail.com>
+Architecture: amd64
+Version: 0.1-1+git20150223~webupd8~xenial2
+Depends: libappindicator1 (>= 0.2.91), libc6 (>= 2.4), libglib2.0-0 (>= 2.14.0), libgtk2.0-0 (>= 2.8.0), libx11-6
+Filename: pool/main/i/indicator-xkbmod/indicator-xkbmod_0.1-1+git20150223~webupd8~xenial2_amd64.deb
+Size: 10882
+MD5sum: 0e0cb8367d2d7dc878897ea4dfa83714
+SHA1: 58aadee0ddfbe2d0948b444c960a73767d25b9cb
+SHA256: e9db1350a1e6ebe57af605b6ef1603ac081f5123dd0180950bc5bb2b1f2cf712
+Description: Simple Ubuntu keyboard modifiers indicator
+Description-md5: 776014c601c4271507b741fab765e597
+
+Package: syncthing-gtk
+Priority: extra
+Section: gnome
+Installed-Size: 1469
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.9.2.3-1~webupd8~xenial0
+Recommends: python-pyinotify
+Replaces: syncthing-gui
+Suggests: python-nautilus | python-nemo | nemo-python | python-caja
+Depends: python (>= 2.7), python (<< 2.8), python-gobject | python-gi, python-dateutil, libappindicator3-1, libgtk-3-0, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-appindicator3-0.1, python-notify, python-gi-cairo, psmisc, gir1.2-rsvg-2.0, gir1.2-notify-0.7
+Breaks: syncthing-gui
+Filename: pool/main/s/syncthing-gtk/syncthing-gtk_0.9.2.3-1~webupd8~xenial0_all.deb
+Size: 433252
+MD5sum: 0f05efd2cbd0d2c704162efc4520e04f
+SHA1: 62cbf8d4182c02cb7b75894fa1d665e8ccbd989e
+SHA256: d2087ed0d639530881a3ab147e8b85e5cbf842ed46159544099daa6eab9f0d25
+Description: GUI for Syncthing
+Description-md5: f9ed066201192cdbe6de76908db97c44
+
+Package: telegram-purple
+Priority: extra
+Section: net
+Installed-Size: 1469
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: amd64
+Version: 1.3.0-1~webupd8~xenial1
+Depends: libc6 (>= 2.14), libgcrypt20 (>= 1.6.1), libglib2.0-0 (>= 2.35.9), libpurple0 (>= 1:2.6.0), libwebp5 (>= 0.4.3), zlib1g (>= 1:1.1.4)
+Filename: pool/main/t/telegram-purple/telegram-purple_1.3.0-1~webupd8~xenial1_amd64.deb
+Size: 343288
+MD5sum: 214d03852c793c47e618086f73bccb5c
+SHA1: 102aabd7c964752c3256efc757c0e5dcefd5d5b5
+SHA256: 7afbdf2457e2e34f5513503fa8225ee11e8b98b5ee0582812f6e7f75fcff076d
+Description: Telegram plugin for Pidgin
+Description-md5: c730caacc3e1e952b46ebd7c99acf143
+
+Package: libaudtag2
+Source: audacious
+Priority: optional
+Section: libs
+Installed-Size: 80
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 3.7.2-2-1~webupd8~xenial1
+Replaces: libaudcore3 (<= 3.7.2-2)
+Depends: libaudcore3 (>= 3.7.1), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.12.0), libstdc++6 (>= 4.1.1)
+Filename: pool/main/a/audacious/libaudtag2_3.7.2-2-1~webupd8~xenial1_amd64.deb
+Size: 30590
+MD5sum: 84622b80cae6a8877f07edfcc60efa24
+SHA1: 1668b2120f7348778139508845367bb9a12bc991
+SHA256: 1ae29afa11a078c2b1ff31918f3b7187066374d6afce5c7fd06f834544ed0ece
+Description: audacious media player (libaudtag shared library)
+Description-md5: 1266f8fa45c00c966eca3c6508df630a
+Multi-Arch: same
+
+Package: nemo-gloobus-sushi
+Priority: optional
+Section: utils
+Installed-Size: 44
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.1~webupd8+2
+Replaces: gir1.2-sushi-1.0, gloobus-sushi, gnome-sushi, gnome-sushi-common, libsushi-1.0-0, libsushi-1.0-0-dbg, libsushi-1.0-dev, nemo-preview
+Depends: python3, python3-dbus, python3-gi, gloobus-preview
+Conflicts: gir1.2-sushi-1.0, gloobus-sushi, gnome-sushi, gnome-sushi-common, libsushi-1.0-0, libsushi-1.0-0-dbg, libsushi-1.0-dev, nemo-preview
+Filename: pool/main/n/nemo-gloobus-sushi/nemo-gloobus-sushi_0.1~webupd8+2_all.deb
+Size: 2862
+MD5sum: d3a95706765a9dd5b8b08fabc3682ecc
+SHA1: b8eed9ba637fdba8703ae2ec9d5798acfa8af063
+SHA256: ce96e2de9aef43e8baf79e9f7a5fd5161c86a53a391f150c713f9aae5efb0059
+Description: GloobusPreview replacement for Nemo Preview
+Description-md5: f986b6bc32e7f55a7a9a6e912708d099
+
+Package: lcurse
+Priority: optional
+Section: games
+Installed-Size: 127
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: all
+Version: 0.2+git20161021-0~webupd8~0
+Depends: python3, python3-bs4, python3-pyqt5, python3-notify2, python3-lxml
+Filename: pool/main/l/lcurse/lcurse_0.2+git20161021-0~webupd8~0_all.deb
+Size: 25336
+MD5sum: 11a2fd47f7cc54814253c99e5787808d
+SHA1: c2b9ae95aec7458499352d9a6ec655b319bb4120
+SHA256: fef3b721c0a6305b3a2682634b28874e75d67fac788f4eb1735efd837ed035e7
+Description: Python Curse client for Linux
+Description-md5: 4b243a5641d320ced4c34672b775d380
+
+Package: pidgin-skypeweb
+Source: purple-skypeweb
+Priority: optional
+Section: misc
+Installed-Size: 61
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: all
+Version: 1.2.2+git20161026-1~webupd8~xenial0
+Replaces: pidgin-skype
+Depends: purple-skypeweb
+Filename: pool/main/p/purple-skypeweb/pidgin-skypeweb_1.2.2+git20161026-1~webupd8~xenial0_all.deb
+Size: 18364
+MD5sum: d69bf17087df86ab6d62c3d6cd53d92d
+SHA1: 1e3276094c4d3640ebf2245bec525cc9466fb63d
+SHA256: d75c40e3f2f8464357fdf02c75549fff491cb6b8a4346cbecad705794f0e7dc3
+Description: Hangouts icons and for Pidgin
+Description-md5: 298bf27aa6252204d3325ed2a2d88ac2
+
+Package: twitch-indicator
+Priority: optional
+Section: gnome
+Installed-Size: 80
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.26-1~webupd8~0
+Depends: dconf-gsettings-backend | gsettings-backend, python-gi, python-appindicator, gir1.2-appindicator3-0.1, gir1.2-notify-0.7, gir1.2-glib-2.0, gir1.2-gdkpixbuf-2.0, python-notify, libglib2.0-bin, python-glade2, libgtk-3-0 (>= 3.10)
+Filename: pool/main/t/twitch-indicator/twitch-indicator_0.26-1~webupd8~0_all.deb
+Size: 11084
+MD5sum: 14a1a3af7aee66826fcb7b71a1d4fa42
+SHA1: 98455f9719e3e78b37823a4e261b216286c1cf66
+SHA256: b5317c322d8cb35e26e1dd064f744141692790cb60786e2f4a85cd5a6b8f44c7
+Description: Twitch.tv indicator
+Description-md5: 173caec42bbc51baa5af77e227ae5ff4
+
+Package: maim
+Priority: optional
+Section: x11
+Installed-Size: 79
+Maintainer: Patrick O'Doherty <p@trickod.com>
+Architecture: amd64
+Version: 3.4.47-1~webupd8~xenial0
+Recommends: slop
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libimlib2 (>= 1.4.5), libstdc++6 (>= 5.2), libx11-6, libxfixes3, libxrandr2 (>= 2:1.2.99.2)
+Filename: pool/main/m/maim/maim_3.4.47-1~webupd8~xenial0_amd64.deb
+Size: 27940
+MD5sum: bb96daad6ef4958556e763f3f8c75a28
+SHA1: 280361b96d07d1a4e8e794209950a41434979ac0
+SHA256: 726b0ad7a68b8a0d0ac981989797cc195b7334a654315a6a9438b2ccac5f2acc
+Description: takes screenshts of your desktop
+Description-md5: 2258bf457fab0bdb6ebec0bcfe005191
+
+Package: youtube-viewer
+Priority: optional
+Section: gnome
+Installed-Size: 1015
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 3.2.4-1~webupd8~xenial0
+Recommends: liblwp-useragent-chicaching-perl
+Suggests: gcap, liblwp-protocol-https-perl, libtext-charwidth-perl, libterm-readkey-perl, libterm-readline-gnu-perl, libterm-ui-perl, libterm-extendedcolor-perl, libunicode-string-perl, libencode-perl, mplayer | mplayer2 | mpv | vlc, wget
+Depends: perl, libdata-dump-perl, libfile-sharedir-perl, libgtk2-perl, libwww-perl, libterm-readline-perl-perl, liburi-perl, youtube-dl (>= 2015.02.23), libjson-xs-perl, libjson-perl, libparse-http-useragent-perl
+Filename: pool/main/y/youtube-viewer/youtube-viewer_3.2.4-1~webupd8~xenial0_all.deb
+Size: 362258
+MD5sum: 9c4a99f3c9e63c90092acc83b54a2a91
+SHA1: 062ba1c9f788cbf686985d85e32673c7e2a4076d
+SHA256: 6cfcfba7e446db4b46e843eb4437ccf313a54570521ee91c0e987ba4f36e24bb
+Description: YouTube Viewer
+Description-md5: 1970060700e15414bd269c664e4b9f54
+
+Package: browser-plugin-freshplayer-pepperflash
+Source: freshplayerplugin
+Priority: optional
+Section: web
+Installed-Size: 1152
+Maintainer: Vincent Danjean <vdanjean@debian.org>
+Architecture: amd64
+Version: 0.3.6-1~webupd8~xenial6
+Recommends: adobe-flashplugin
+Depends: libasound2 (>= 1.0.18), libavcodec-ffmpeg56 (>= 7:2.4) | libavcodec-ffmpeg-extra56 (>= 7:2.4), libavutil-ffmpeg54 (>= 7:2.4), libc6 (>= 2.14), libcairo2 (>= 1.2.4), libevent-2.0-5 (>= 2.0.10-stable), libevent-pthreads-2.0-5 (>= 2.0.10-stable), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.31.18), libicu55 (>= 55.1-1~), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 5.2), libv4l-0 (>= 0.5.0), libva-x11-1 (>= 1.0.3), libva1 (>= 1.2.0), libvdpau1 (>= 0.2), libx11-6, libxcursor1 (>> 1.1.2), libxrandr2 (>= 2:1.2.0), libxrender1, libgtk2.0-0
+Filename: pool/main/f/freshplayerplugin/browser-plugin-freshplayer-pepperflash_0.3.6-1~webupd8~xenial6_amd64.deb
+Size: 360716
+MD5sum: 87a7f851716ed43c16fd625de5e72c1a
+SHA1: daaa4e032f71988da418164bf9ba81b0add31ae4
+SHA256: c79a75eace8cacf9ae0e4ba3309dae7ffb623347625b146d8d39f50838754611
+Description: PPAPI-host NPAPI-plugin adapter for pepperflash
+Description-md5: efb8cdb83d2a1db04174dfb14143ebd9
+
+Package: browser-plugin-freshplayer-libpdf
+Source: freshplayerplugin
+Priority: optional
+Section: web
+Installed-Size: 1134
+Maintainer: Vincent Danjean <vdanjean@debian.org>
+Architecture: amd64
+Version: 0.3.6-1~webupd8~xenial6
+Depends: libasound2 (>= 1.0.18), libavcodec-ffmpeg56 (>= 7:2.4) | libavcodec-ffmpeg-extra56 (>= 7:2.4), libavutil-ffmpeg54 (>= 7:2.4), libc6 (>= 2.17), libcairo2 (>= 1.2.4), libevent-2.0-5 (>= 2.0.10-stable), libevent-pthreads-2.0-5 (>= 2.0.10-stable), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.31.18), libicu55 (>= 55.1-1~), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 5.2), libv4l-0 (>= 0.5.0), libva-x11-1 (>= 1.0.3), libva1 (>= 1.2.0), libvdpau1 (>= 0.2), libx11-6, libxcursor1 (>> 1.1.2), libxrandr2 (>= 2:1.2.0), libxrender1, libgtk2.0-0
+Filename: pool/main/f/freshplayerplugin/browser-plugin-freshplayer-libpdf_0.3.6-1~webupd8~xenial6_amd64.deb
+Size: 333178
+MD5sum: cb843401897d10338b201c0ff01ef25a
+SHA1: 8a460d9950abfb13d2d48115c738fba2f55fc424
+SHA256: a51b994f49a57bb1a1306f77165d74e00b7eabc3d6d2abacb3368afda972025d
+Description: PPAPI-host NPAPI-plugin adapter for libpdf.so from Chrome
+Description-md5: 89e57b37bb65a92b203e4b812489d0e7
+
+Package: browser-plugin-freshplayer-nacl
+Source: freshplayerplugin
+Priority: optional
+Section: web
+Installed-Size: 1111
+Maintainer: Vincent Danjean <vdanjean@debian.org>
+Architecture: amd64
+Version: 0.3.6-1~webupd8~xenial6
+Depends: libasound2 (>= 1.0.18), libavcodec-ffmpeg56 (>= 7:2.4) | libavcodec-ffmpeg-extra56 (>= 7:2.4), libavutil-ffmpeg54 (>= 7:2.4), libc6 (>= 2.14), libcairo2 (>= 1.2.4), libevent-2.0-5 (>= 2.0.10-stable), libevent-pthreads-2.0-5 (>= 2.0.10-stable), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.31.18), libicu55 (>= 55.1-1~), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 5.2), libv4l-0 (>= 0.5.0), libva-x11-1 (>= 1.0.3), libva1 (>= 1.2.0), libvdpau1 (>= 0.2), libx11-6, libxcursor1 (>> 1.1.2), libxrandr2 (>= 2:1.2.0), libxrender1, libgtk2.0-0
+Filename: pool/main/f/freshplayerplugin/browser-plugin-freshplayer-nacl_0.3.6-1~webupd8~xenial6_amd64.deb
+Size: 329776
+MD5sum: 843b493690c9786bf768b8e70129d5fb
+SHA1: a307f8f1fefa8004a3048d302e9ac69937c7d29d
+SHA256: 1252fba7d6c91b503aa3be5507c1c04aedb5a239974400c021b73754e46b0f53
+Description: PPAPI-host NPAPI-plugin adapter for Native Client from Chrome
+Description-md5: 2ff74a7db1bb4fef979f63e63ec15efa
+
+Package: penguin-subtitle-player
+Priority: extra
+Section: utils
+Installed-Size: 325
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: amd64
+Version: 0.3.0-1~webupd8~xenial0
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), libsm6, libxkbcommon-x11-0
+Filename: pool/main/p/penguin-subtitle-player/penguin-subtitle-player_0.3.0-1~webupd8~xenial0_amd64.deb
+Size: 133728
+MD5sum: 62c21013d1af3147d9158f04e0b2ba8f
+SHA1: 8721e8a9848b43f6982d703afaeb00e59c7c0ea2
+SHA256: 2bda55feaecaa16ed64e7e9174cce7921a31134915d4eda9b60e85a648fb2319
+Description: a Qt based subtitle player
+Description-md5: e9776138dc896cbc40f0e580fdd23085
+
+Package: gnome-twitch
+Priority: optional
+Section: video
+Installed-Size: 623
+Maintainer: Tim Dengel <tim.dengel.debian@gmail.com>
+Architecture: amd64
+Version: 0.2.1-1~webupd8~xenial1
+Depends: libc6 (>= 2.7), libclutter-1.0-0 (>= 1.10.0), libclutter-gst-3.0-0 (>= 3.0.4), libclutter-gtk-1.0-0 (>= 0.91.8), libgdk-pixbuf2.0-0 (>= 2.25.2), libglib2.0-0 (>= 2.39.90), libgtk-3-0 (>= 3.16.2), libjson-glib-1.0-0 (>= 0.16.0), libsoup2.4-1 (>= 2.41.90), libwebkit2gtk-4.0-37 (>= 2.5.3), libx11-6, dconf-gsettings-backend | gsettings-backend, gstreamer1.0-plugins-ugly
+Filename: pool/main/g/gnome-twitch/gnome-twitch_0.2.1-1~webupd8~xenial1_amd64.deb
+Size: 119298
+MD5sum: dfa28ab5dd0b6b7205cda3dd456d2dcc
+SHA1: 87ffa876e89e3e4110a7171f59c46daac6c9e105
+SHA256: e7293c0ef92fc4669584242dc3f38a6d6624aea7c4b622fd24c4f5822342bf76
+Description: GNOME Twitch app for watching Twitch.tv streams without a browser or flash
+Description-md5: 3712e665b65252075dcc49b68204fd40
+
+Package: qt5ct
+Priority: extra
+Section: utils
+Installed-Size: 628
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: amd64
+Version: 0.27-1~webupd8~xenial
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.5.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 4.1.1), qtbase-abi-5-5-1
+Pre-Depends: humanity-icon-theme, gnome-icon-theme
+Filename: pool/main/q/qt5ct/qt5ct_0.27-1~webupd8~xenial_amd64.deb
+Size: 155900
+MD5sum: b94cbc8b490317915d57c32fef1dd4b7
+SHA1: 37a604de8e411a35ada20255fd06d6bea5be68ea
+SHA256: 48a94a7f3bdd827dd30991038bbe6624913789b2bafb8edbb2de9b0a2b92414a
+Description: Qt5 Configuration Utility
+Description-md5: 2cfebb4a2ac7224bf58594dccb23541f
+
+Package: slop
+Priority: extra
+Section: utils
+Installed-Size: 78
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: amd64
+Version: 4.2.20-1~webupd8~xenial1
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), libx11-6, libxext6
+Filename: pool/main/s/slop/slop_4.2.20-1~webupd8~xenial1_amd64.deb
+Size: 29186
+MD5sum: 4c6e69d77fd96f82c92ed1b8f08bf2f3
+SHA1: 38fc863955693e46f190517cbb87dfd46a645ae1
+SHA256: fe472e6a6f7ad68bb6b5926ae06fc8f9da73f853af5b9c481eb2a3a3076a82bf
+Description: Queries for a selection from the user and prints the region to stdout
+Description-md5: c3c21dc657d0787ef6e8bff43f27636f
+
+Package: libgtk3-nocsd0
+Source: gtk3-nocsd
+Priority: extra
+Section: x11
+Installed-Size: 45
+Maintainer: Christian Seiler <christian@iwakd.de>
+Architecture: amd64
+Version: 3-1~webupd8~xenial5
+Replaces: gtk3-nocsd (<= 2.0.0-1~)
+Depends: libc6 (>= 2.4)
+Filename: pool/main/g/gtk3-nocsd/libgtk3-nocsd0_3-1~webupd8~xenial5_amd64.deb
+Size: 13756
+MD5sum: 211b2df872bf0dc8ed307fa4fb602acc
+SHA1: 1c3a3f2aa8efbd9cfc1aa6263b7306333c954fb9
+SHA256: ab08a52e522dfdbb58e67cdef17f3c099041d3dd2a5140e55c24dda94a2661c9
+Description: Library to disable Gtk+ 3 client side decorations (CSD)
+Description-md5: 0c8cb3cf8154423b59945dd8bb53453a
+Multi-Arch: same
+
+Package: pidgin-hangouts
+Source: purple-hangouts
+Priority: optional
+Section: misc
+Installed-Size: 21
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: all
+Version: 1.0+hg20161024-1~webupd8~xenial0
+Depends: purple-hangouts
+Filename: pool/main/p/purple-hangouts/pidgin-hangouts_1.0+hg20161024-1~webupd8~xenial0_all.deb
+Size: 6418
+MD5sum: 80e4eb505147332b633a0b7cd3b5d59b
+SHA1: 2e35ede0f6079544f00ca6b214c86281f55ad0ee
+SHA256: 245fd6e5f952d1b098dc5972b594e80a23388bbabd6aedc57b16cd63095b750d
+Description: Hangouts icons and for Pidgin
+Description-md5: 8894af0723e13b23bac5cc2e6a275ea9
+
+Package: purple-hangouts
+Priority: optional
+Section: misc
+Installed-Size: 1005
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: amd64
+Version: 1.0+hg20161024-1~webupd8~xenial0
+Recommends: pidgin-hangouts
+Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.41.1), libjson-glib-1.0-0 (>= 0.13.4), libprotobuf-c1 (>= 1.0.1), libpurple0 (>= 1:2.10.12)
+Filename: pool/main/p/purple-hangouts/purple-hangouts_1.0+hg20161024-1~webupd8~xenial0_amd64.deb
+Size: 168098
+MD5sum: cff2ef8d7924768cb6f4e6e22d887b18
+SHA1: 995b6fc64e1967e92714e873a4bf9ce9797c1c21
+SHA256: 23af3cc332fe156e8114e1e71c4082a221429c8b4ced59499d0331b5dee082fa
+Description: Hangouts Plugin for libpurple / Pidgin
+Description-md5: 0e604a6b38392eac2f10e7fa32c2a277
+
+Package: razercfg
+Priority: optional
+Section: misc
+Installed-Size: 242
+Maintainer: Michael Büsch <m@bues.ch>
+Architecture: amd64
+Version: 0.37-1~webupd8~xenial0
+Recommends: qrazercfg, qrazercfg-applet
+Suggests: python3-pyside
+Depends: python3:any (>= 3.3.2-2~), libc6 (>= 2.15), libusb-1.0-0 (>= 2:1.0.8), init-system-helpers (>= 1.18~)
+Filename: pool/main/r/razercfg/razercfg_0.37-1~webupd8~xenial0_amd64.deb
+Size: 65976
+MD5sum: 49420766931297b81236056bd51fafb2
+SHA1: 166c24c7f9290cf9be503d30e2c06c07721dea85
+SHA256: e198ff9548bc4551fa76c1588d2f481bac35352594028800e89ac04a0fe9603a
+Description: Razer device configuration tool
+Description-md5: 6eaebdec1e5f80d38f4c80ed7be87dfe
+
+Package: gnome-appfolders-manager
+Priority: extra
+Section: gnome
+Installed-Size: 382
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.3.1-1~webupd8~xenial2
+Depends: python (>= 2.7), python (<< 2.8), libgtk-3-0, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gdkpixbuf-2.0, python-gi, python-xdg
+Filename: pool/main/g/gnome-appfolders-manager/gnome-appfolders-manager_0.3.1-1~webupd8~xenial2_all.deb
+Size: 96464
+MD5sum: 792a6c581b2b8dc3b3b21d4c8f345ba4
+SHA1: 26e8db093317271edfc75cf1a59a084a9d480a02
+SHA256: a80c2d45ba42ae2c897f694fbf9b387a3ae57eb337d80da33f0fc5178cb24b93
+Description: GNOME Apps Folder Manager
+Description-md5: 5bfe82ebe00e3fb5ab4965ea7108a6c7
+
+Package: oomox
+Priority: optional
+Section: devel
+Installed-Size: 21081
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.24.1-1~webupd8~0
+Suggests: inkscape, imagemagick
+Depends: python3-gi, libglib2.0-bin, libgdk-pixbuf2.0-dev, ruby-sass, libxml2-utils, x11-xserver-utils, gir1.2-gtk-3.0, gir1.2-glib-2.0, gtk2-engines-murrine
+Filename: pool/main/o/oomox/oomox_0.24.1-1~webupd8~0_all.deb
+Size: 3591630
+MD5sum: 5b9ccfd33f92e273219f94a82658e699
+SHA1: 10a91eaa39409f1d190d37ab741bcbf8d7558490
+SHA256: 7e000be5ddf68b32f12e2316b2a20c6dd4d0e3adaa3999352f4156caf1650038
+Description: Create your own Numix-based themes
+Description-md5: a56a016c949dfe825a4b60ed2304430f
+
+Package: qrazercfg-applet
+Source: razercfg
+Priority: optional
+Section: misc
+Installed-Size: 10
+Maintainer: Michael Büsch <m@bues.ch>
+Architecture: amd64
+Version: 0.37-1~webupd8~xenial0
+Replaces: razercfg (<= 0.33)
+Depends: python3-pyside, razercfg
+Filename: pool/main/r/razercfg/qrazercfg-applet_0.37-1~webupd8~xenial0_amd64.deb
+Size: 2552
+MD5sum: 0d73e3969a4b36e0ed5794e43049c580
+SHA1: 3bf7ef1e1648cefe98b2be69bfd6aa7cbf910458
+SHA256: eaa2464c62b7cf7919a09cf0dce6268de51b48b30ff683e5baae8b1556a3b71e
+Description: Graphical Razer device configuration tool - applet
+Description-md5: 5586b5edf50eabcbf4603d7379b809b2
+
+Package: qrazercfg
+Source: razercfg
+Priority: optional
+Section: misc
+Installed-Size: 54
+Maintainer: Michael Büsch <m@bues.ch>
+Architecture: amd64
+Version: 0.37-1~webupd8~xenial0
+Replaces: razercfg (<= 0.33)
+Depends: python3-pyside, razercfg
+Filename: pool/main/r/razercfg/qrazercfg_0.37-1~webupd8~xenial0_amd64.deb
+Size: 16776
+MD5sum: d043053ff26c6634174fda0f0a4c09ac
+SHA1: f9cb658bd9e65bafe2557ac61687a1d4e64e1ddd
+SHA256: 6188d35f7718009d1cb5b419929c3f4e0ce67214c7d8749d3f5a6526c85500fe
+Description: Graphical Razer device configuration tool
+Description-md5: 7c9740b687466d44276ec78cf1dafba9
+
+Package: purple-skypeweb
+Priority: optional
+Section: misc
+Installed-Size: 116
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: amd64
+Version: 1.2.2+git20161026-1~webupd8~xenial0
+Recommends: pidgin-skypeweb
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.28.0), libjson-glib-1.0-0 (>= 0.12.0), libpurple0 (>= 1:2.10.12), zlib1g (>= 1:1.1.4)
+Filename: pool/main/p/purple-skypeweb/purple-skypeweb_1.2.2+git20161026-1~webupd8~xenial0_amd64.deb
+Size: 37590
+MD5sum: 11c75deb94d369cb8f5ff9aa415e3043
+SHA1: cebc40f93da8547635d0ef05804ce95c7b97ad8d
+SHA256: 0ceb633d0d95519de037acebb012d093bcb0594fcef12cdb154a04a9001c6f1f
+Description: SkypeWeb Plugin for Pidgin
+Description-md5: 15b8b24704e1d2d220d2f699f00601c4
+
+Package: encryptpad
+Priority: optional
+Section: misc
+Installed-Size: 560
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: amd64
+Version: 0.3.2.3-1~webupd8~xenial1
+Recommends: encryptcli
+Depends: libbotan-1.10-1 (>= 1.10.12), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Filename: pool/main/e/encryptpad/encryptpad_0.3.2.3-1~webupd8~xenial1_amd64.deb
+Size: 178848
+MD5sum: 72f425f2ed5ce9ec7791bb5803a0acc0
+SHA1: 941358f31804a41dfd7ac383a9d88de293d3c8ef
+SHA256: ec6d8a109150811992b4744f50afc257f68e2e750548e18a7b6bfcd45b9b9941
+Description: Text editor for password protecting and encrypting files
+Description-md5: 66e53ea882bb196cdcb76af9dcc5d8f6
+
+Package: encryptcli
+Source: encryptpad
+Priority: optional
+Section: misc
+Installed-Size: 403
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: amd64
+Version: 0.3.2.3-1~webupd8~xenial1
+Depends: libbotan-1.10-1 (>= 1.10.12), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Filename: pool/main/e/encryptpad/encryptcli_0.3.2.3-1~webupd8~xenial1_amd64.deb
+Size: 134938
+MD5sum: 13959f35f1a0d9a7ab031f0c0a153232
+SHA1: 555f830081f920b93fd7c4f776bd6c8cd1ebf6a1
+SHA256: 37ae78f550cadf82441b7279963e3a2ca716b377b7b44ba6e27934038c9414b0
+Description: CLI utility for EncryptPad
+Description-md5: f93f68aea7aa33decdb18348e6d2976f
+
+Package: stream2chromecast
+Priority: extra
+Section: net
+Installed-Size: 105
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: all
+Version: 0+git20161024-0~webupd8~0
+Depends: python, ffmpeg | libav-tools
+Filename: pool/main/s/stream2chromecast/stream2chromecast_0+git20161024-0~webupd8~0_all.deb
+Size: 25402
+MD5sum: 8ea54f2d6650ca638089109bed622a07
+SHA1: f66582dbc5b65ff5c9d1457b426f6a1bd465c221
+SHA256: 5d582734dc9567826215221f669a6caecbdb6cec3b1bee123b988779686ae204
+Description: Python Chromecast media streamer for Linux
+Description-md5: ec5e08ce7ba56895b5ef83b17fd7858d
+
+Package: libampache-browser-dev
+Source: ampache-browser
+Priority: optional
+Section: libdevel
+Installed-Size: 38
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: amd64
+Version: 0~git20160805-1~webupd8~xenial3
+Depends: libampache-browser (= 0~git20160805-1~webupd8~xenial3), pkg-config
+Filename: pool/main/a/ampache-browser/libampache-browser-dev_0~git20160805-1~webupd8~xenial3_amd64.deb
+Size: 6580
+MD5sum: 5ddc2aef872d3cece1b4678d812e1513
+SHA1: f262bb95c4b2acf17106738f22034d4e16f531d6
+SHA256: 7a79f1dbbdd4459ae3c232e9c3a67c59ef9e79b476fe175c59750bad8af281f4
+Description: Ampache desktop client library -- development files
+Description-md5: 2fa19c3aedfaa0415dec87475f446ac5
+Multi-Arch: same
+
+Package: libampache-browser
+Source: ampache-browser
+Priority: optional
+Section: sound
+Installed-Size: 540
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: amd64
+Version: 0~git20160805-1~webupd8~xenial3
+Recommends: audacious (>= 3.8.0~beta1)
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5.2)
+Filename: pool/main/a/ampache-browser/libampache-browser_0~git20160805-1~webupd8~xenial3_amd64.deb
+Size: 127376
+MD5sum: cbbe5991b12f67566e7dc2d04d5c24e5
+SHA1: cd269e3abd1f9699aec4f38bec7d49102cbac381
+SHA256: 7cae2ad2bd4f095615109beadaf00a4a229bccd8f810cd073676bac5de2bfef2
+Description: Ampache desktop client library
+Description-md5: b5a8650655e5a758028bd33b11ce4dc5
+Multi-Arch: same
+
+Package: libaudcore4
+Source: audacious
+Priority: optional
+Section: libs
+Installed-Size: 333
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 3.8.0-1~webupd8~xenial0
+Replaces: libaudcore3
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.35.9), libguess1, libqt5core5a (>= 5.0.2), libstdc++6 (>= 4.9)
+Breaks: libaudcore3
+Filename: pool/main/a/audacious/libaudcore4_3.8.0-1~webupd8~xenial0_amd64.deb
+Size: 130404
+MD5sum: 488faccb9c7ed034a7f355753917e332
+SHA1: 39156a1c5a852e76055b4d10ffce4915e0faf528
+SHA256: 609fc8a8200463041a46b69da48be46467b166cab4390d2eee6ae71a2fe51573
+Description: audacious core engine library
+Description-md5: b2e660e29b59004089d4f0e6e15a5b64
+Multi-Arch: same
+
+Package: libaudgui4
+Source: audacious
+Priority: optional
+Section: libs
+Installed-Size: 200
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 3.8.0-1~webupd8~xenial0
+Replaces: libaudcore3 (<= 3.7.2-2), libaudgui3
+Depends: libaudcore4 (>= 3.8.0-1~webupd8~xenial0), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.28.0), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.1.1)
+Breaks: libaudcore3 (<= 3.7.2-2), libaudgui3
+Filename: pool/main/a/audacious/libaudgui4_3.8.0-1~webupd8~xenial0_amd64.deb
+Size: 65788
+MD5sum: 9cd4b9147161a48e0342a8f3468d14e1
+SHA1: 37a0bb98f22584c7817de216f124d8e0d4cb23de
+SHA256: 3212510a7a95c13679d3c4050df27d6c4e047154db03b3a0b2cb9a13a1b52fff
+Description: audacious media player (libaudgui shared library)
+Description-md5: 2423dab97806e203e24b3ffcfb830b74
+Multi-Arch: same
+
+Package: libaudqt1
+Source: audacious
+Priority: optional
+Section: libs
+Installed-Size: 255
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 3.8.0-1~webupd8~xenial0
+Replaces: libaudcore3 (<= 3.7.2-2), libaudqt0
+Depends: libaudcore4 (>= 3.8.0~beta1-1~webupd8~trusty2), libc6 (>= 2.15), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 4.1.1)
+Breaks: libaudcore3 (<= 3.7.2-2), libaudqt0
+Filename: pool/main/a/audacious/libaudqt1_3.8.0-1~webupd8~xenial0_amd64.deb
+Size: 68012
+MD5sum: 4e277d8bfccf6518e9d0d07a45a00178
+SHA1: 9a72f9816ff877f6321d0ad2786d1ab7b07b8c4a
+SHA256: 17ebc2520500c9c9f8655c4abcac7dee7e57ec314035cba919063840ae84d526
+Description: audacious media player (libaudqt shared library)
+Description-md5: d97086a2dcab8b6f713f26cdc38598a1
+Multi-Arch: same
+
+Package: libaudtag3
+Source: audacious
+Priority: optional
+Section: libs
+Installed-Size: 76
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 3.8.0-1~webupd8~xenial0
+Replaces: libaudcore3 (<= 3.7.2-2), libaudtag2
+Depends: libaudcore4 (>= 3.8.0-1~webupd8~xenial0), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.12.0), libstdc++6 (>= 4.1.1)
+Breaks: libaudcore3 (<= 3.7.2-2), libaudtag2
+Filename: pool/main/a/audacious/libaudtag3_3.8.0-1~webupd8~xenial0_amd64.deb
+Size: 29850
+MD5sum: 25a13893464ccbcdaa7bc51704ba8719
+SHA1: e07f59179b927542be4190d6b64ac74660b8dcbf
+SHA256: 726c8c2fbcecdde45836ca7a90bf819a3219ce19cf9553b8811c7f19a883e606
+Description: audacious media player (libaudtag shared library)
+Description-md5: 1266f8fa45c00c966eca3c6508df630a
+Multi-Arch: same
+
+Package: lxpanel-multiload-ng-plugin
+Source: multiload-ng
+Priority: extra
+Section: utils
+Installed-Size: 472
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: amd64
+Version: 1.4.0-1~webupd8~xenial1
+Depends: libc6 (>= 2.7), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgtk2.0-0 (>= 2.20), lxpanel, multiload-ng-common (= 1.4.0-1~webupd8~xenial1)
+Filename: pool/main/m/multiload-ng/lxpanel-multiload-ng-plugin_1.4.0-1~webupd8~xenial1_amd64.deb
+Size: 65982
+MD5sum: 50998d1469947a6d46f5994db73f4575
+SHA1: 1b1f717197e1885dcc234736e926e4a816c7f9c5
+SHA256: c61ac9296a31cbc63858d0c1f82aa37dead05360047a726e7ff7cceb21712ce1
+Description: Multiload-ng applet for the LXDE panel
+Description-md5: 096c8059b2682f7f83d1a97bd09cdd27
+
+Package: mate-multiload-ng-applet
+Source: multiload-ng
+Priority: extra
+Section: utils
+Installed-Size: 434
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: amd64
+Version: 1.4.0-1~webupd8~xenial1
+Depends: dconf-gsettings-backend | gsettings-backend, libmate-panel-applet4-1 | libmate-panel-applet-4-1, multiload-ng-common (= 1.4.0-1~webupd8~xenial1), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.30.0), libgtk2.0-0 (>= 2.24.0), libgtop-2.0-10 | libgtop2-10 | libgtop2-7 (>= 2.22.3)
+Filename: pool/main/m/multiload-ng/mate-multiload-ng-applet_1.4.0-1~webupd8~xenial1_amd64.deb
+Size: 63200
+MD5sum: 278da15e6d1738623b06f4f80d9fa26a
+SHA1: c288f212bb3b788b137c5b2941e9d20a3585b9ba
+SHA256: 0fe2b55895f729a5ef00fe43221d1cafdd93b75553a77b35a2010775606d8122
+Description: Multiload-ng applet for the MATE panel
+Description-md5: 1c3f2b341bf27ff930436ebf0f2b665c
+
+Package: multiload-ng-standalone
+Source: multiload-ng
+Priority: extra
+Section: utils
+Installed-Size: 417
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: amd64
+Version: 1.4.0-1~webupd8~xenial1
+Depends: libc6 (>= 2.7), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.4), libgtk2.0-0 (>= 2.20), multiload-ng-common (= 1.4.0-1~webupd8~xenial1)
+Filename: pool/main/m/multiload-ng/multiload-ng-standalone_1.4.0-1~webupd8~xenial1_amd64.deb
+Size: 62412
+MD5sum: 20f23abc3567171b18adba93d00d162e
+SHA1: e6556724ffbc96f289c5b19ebd97ab6e9e248159
+SHA256: 11eb12f86ffa1c4bf47ddf9b8e0f0bb04d667c45ccb5eca09e6e60921fdd24a0
+Description: Multiload-ng standalone
+Description-md5: 447ef3c985b71415a83bd4f4856b12d3
+
+Package: xfce4-multiload-ng-plugin
+Source: multiload-ng
+Priority: extra
+Section: utils
+Installed-Size: 477
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: amd64
+Version: 1.4.0-1~webupd8~xenial1
+Depends: libc6 (>= 2.7), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgtk2.0-0 (>= 2.20), libxfce4util7 (>= 4.9.0), xfce4-panel (>= 4.11), xfce4-panel (<< 4.13), multiload-ng-common (= 1.4.0-1~webupd8~xenial1)
+Filename: pool/main/m/multiload-ng/xfce4-multiload-ng-plugin_1.4.0-1~webupd8~xenial1_amd64.deb
+Size: 66480
+MD5sum: 9a372dc40fd7dfbba88bec43132edbc4
+SHA1: af1b9719dbab21cbdad5ad02167d461f9b75e649
+SHA256: 28c37069f4907edb091e1654cd5ac84996cfc53b1d93d8879ae2fa4bd4af5194
+Description: Multiload-ng applet for the Xfce panel
+Description-md5: 44c9563ee9dd96da8bb5e9b4314e44d2
+
+Package: multiload-ng-common
+Source: multiload-ng
+Priority: extra
+Section: utils
+Installed-Size: 115
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: all
+Version: 1.4.0-1~webupd8~xenial1
+Filename: pool/main/m/multiload-ng/multiload-ng-common_1.4.0-1~webupd8~xenial1_all.deb
+Size: 22206
+MD5sum: 3c91a6e978046da4154f1a118590faca
+SHA1: d0564fc45b4063508d897ceb3e5b3bf77d1689aa
+SHA256: 1a2bdd1f4059b721bc9ae86289cd913f959f7066d592b219fb1be0e632cdf2c9
+Description: Multiload-ng (common files)
+Description-md5: d0dc162ee3ddb0fcfd37e69a5ec1c231
+
+Package: launcher-list-indicator
+Priority: extra
+Section: utils
+Installed-Size: 39
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: all
+Version: 0.1+git20161013-0~webupd8~0
+Depends: python3, zenity, gir1.2-appindicator3-0.1, gir1.2-glib-2.0, gir1.2-gtk-2.0
+Filename: pool/main/l/launcher-list-indicator/launcher-list-indicator_0.1+git20161013-0~webupd8~0_all.deb
+Size: 8166
+MD5sum: b08ea11e2405e06cff8b506af6042fad
+SHA1: 28a48a08aa652d85b417ebac2880be2301e91fc5
+SHA256: cbee178128b77a575fd8f2363490abb7a01ffc16636b00c9ea55615bf951d11c
+Description: Switch between Unity launcher pinned apps profiles
+Description-md5: ec61ff9c5f77231f534d5bf1b7370f3c
+
+Package: purple-funyahoo-plusplus
+Priority: optional
+Section: misc
+Installed-Size: 59
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: amd64
+Version: 0.1+git20161013-1~webupd8~xenial0
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.31.8), libjson-glib-1.0-0 (>= 0.12.0), libpurple0 (>= 1:2.6.0)
+Filename: pool/main/p/purple-funyahoo-plusplus/purple-funyahoo-plusplus_0.1+git20161013-1~webupd8~xenial0_amd64.deb
+Size: 17404
+MD5sum: bd2f10da2cab2ea13fadda8416038cc3
+SHA1: f4e4fda0d152fe17273873fb414473e8c499a25e
+SHA256: c080c6f88d3b1bf4178a105047ec2922ffe76b4ff40202f61d4acbd0759538f7
+Description: A replacement Yahoo prpl (protocol plugin) for Pidgin/libpurple
+Description-md5: f441d48d55149bc69b735dac3fa9fb63
+
+Package: multiload-ng-indicator
+Source: multiload-ng
+Priority: extra
+Section: utils
+Installed-Size: 421
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: amd64
+Version: 1.4.0-1~webupd8~xenial1
+Depends: libappindicator1 (>= 0.2.91), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.4), libgtk2.0-0 (>= 2.20.0), multiload-ng-common (= 1.4.0-1~webupd8~xenial1)
+Filename: pool/main/m/multiload-ng/multiload-ng-indicator_1.4.0-1~webupd8~xenial1_amd64.deb
+Size: 63794
+MD5sum: ad0d57457727ce37a71f28ba20f1325d
+SHA1: 70a6e7421592bdab0e289ab2262cf2b7f067874d
+SHA256: 71b4126dfbe7b42579ccddc4d551e6e9ada9bfe138c7db808ab0d12b2b786887
+Description: Multiload-ng Indicator
+Description-md5: 4cf2fecccf2aede6a7e5598889027ad1
+
+Package: multiload-ng-systray
+Source: multiload-ng
+Priority: extra
+Section: utils
+Installed-Size: 421
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: amd64
+Version: 1.4.0-1~webupd8~xenial1
+Depends: libc6 (>= 2.7), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.4), libgtk2.0-0 (>= 2.20.0), multiload-ng-common (= 1.4.0-1~webupd8~xenial1)
+Filename: pool/main/m/multiload-ng/multiload-ng-systray_1.4.0-1~webupd8~xenial1_amd64.deb
+Size: 63290
+MD5sum: 444468b0adee9c0d41a0c99074d3f134
+SHA1: 540dc04a408d09b492ba855b7617cfcf577097e1
+SHA256: d41ddd0de9d95bea209b9706977b8627b31f087bc3d44580066f0a0844354fd5
+Description: Multiload-ng Systray applet
+Description-md5: 62caff5fd871417e7e2392ab39bf66a9
+
+Package: prime-indicator-plus
+Priority: extra
+Section: x11
+Installed-Size: 72
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 1.0.2-1~webupd8~1
+Replaces: prime-indicator
+Depends: python3, python3-gi, libappindicator3-1, gir1.2-appindicator3-0.1, gir1.2-gtk-3.0, mesa-utils, nvidia-prime, bbswitch-dkms
+Conflicts: prime-indicator
+Filename: pool/main/p/prime-indicator-plus/prime-indicator-plus_1.0.2-1~webupd8~1_all.deb
+Size: 23562
+MD5sum: 112bb807dc95e7c265f4beb7fadb1073
+SHA1: c5148065d51def66ac416ed5895613839e91b2d5
+SHA256: 4484c4a72de2bcf3c987eccbc744988a02c664887c94686ca4f8a06724bfdc75
+Description: PRIME Indicator Plus
+Description-md5: e1318b8e0bab8c39cc1a77b458cc6483
+
+Package: nvidia-power-indicator
+Priority: extra
+Section: x11
+Installed-Size: 67
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 1.0.0-1~webupd8~1
+Replaces: prime-indicator, prime-indicator-plus
+Depends: python3, python3-gi, libappindicator3-1, gir1.2-appindicator3-0.1, gir1.2-gtk-3.0, mesa-utils, bbswitch-dkms
+Conflicts: prime-indicator, prime-indicator-plus
+Filename: pool/main/n/nvidia-power-indicator/nvidia-power-indicator_1.0.0-1~webupd8~1_all.deb
+Size: 22130
+MD5sum: ba54a63bd8b42d352a10a1f915682a71
+SHA1: 84c1406f146083f24fa286d848d45e82b2b4ebb7
+SHA256: 248b1b653f37bc7e8a80923fb52b2ab209c5b06d06aab652ae738dafbdd5bba7
+Description: NVIDIA Power Indicator
+Description-md5: 3a99a3f09d58c362d430f4f328e7b15b
+
+Package: python-streamlink-doc
+Source: streamlink
+Priority: optional
+Section: doc
+Installed-Size: 472
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: all
+Version: 0.0.2-1~webupd8~xenial0
+Recommends: fonts-inconsolata, fonts-lato
+Depends: libjs-sphinxdoc (>= 1.0), sphinx-rtd-theme-common, libjs-modernizr
+Filename: pool/main/s/streamlink/python-streamlink-doc_0.0.2-1~webupd8~xenial0_all.deb
+Size: 112118
+MD5sum: de8190e24857f172ac84967ad647523b
+SHA1: 2c7477c0975ca3e45778c326348442eec8d3c71e
+SHA256: 67332f4ba7515b7b7d56000674d6cf6cf70a6c8b55c2194117547eafb238c4ec
+Description: library to extract video streams from various services - documentation
+Description-md5: 168a6d182e305b2459232c955f474f18
+
+Package: python-streamlink
+Source: streamlink
+Priority: optional
+Section: python
+Installed-Size: 628
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: all
+Version: 0.0.2-1~webupd8~xenial0
+Recommends: rtmpdump, python-crypto, python-librtmp
+Suggests: streamlink
+Depends: python-concurrent.futures, python-requests, python-singledispatch, python:any (<< 2.8), python:any (>= 2.7.5-5~)
+Filename: pool/main/s/streamlink/python-streamlink_0.0.2-1~webupd8~xenial0_all.deb
+Size: 110806
+MD5sum: 888f577cd190829163a0b31bd8fdbd39
+SHA1: acc8cc2fa4d4d8a2a5dcf09c0bc1952652ee297a
+SHA256: e65a6ab9228ddaa67e7f5669c5631c7cf549a3df85e807037051701565c49ac5
+Description: library to extract video streams from various services - Python 2
+Description-md5: ee8a0f44b6568351663e9cbf06b71bc5
+
+Package: python3-streamlink
+Source: streamlink
+Priority: optional
+Section: python
+Installed-Size: 628
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: all
+Version: 0.0.2-1~webupd8~xenial0
+Recommends: rtmpdump, python3-crypto, python3-librtmp
+Suggests: streamlink
+Depends: python3-requests, python3:any (>= 3.3.2-2~), python3 (>= 3.4) | python3-singledispatch
+Filename: pool/main/s/streamlink/python3-streamlink_0.0.2-1~webupd8~xenial0_all.deb
+Size: 110876
+MD5sum: 20b689e7c08f2be01ee9f45bdf7682bb
+SHA1: 8d5dcff2d2b38df66cbe57d3aeee16c502b8f3af
+SHA256: 43120b3f7063bc6054a4fd66041bd0f12ff5bd64ad7d89d1177f8aceb66c8610
+Description: library to extract video streams from various services - Python 3
+Description-md5: 1f860e1dff57e5893a830f3c33f4ca89
+
+Package: streamlink
+Priority: optional
+Section: video
+Installed-Size: 124
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Architecture: all
+Version: 0.0.2-1~webupd8~xenial0
+Suggests: python-streamlink-doc
+Depends: python:any (>= 2.7.5-5~), python-streamlink
+Filename: pool/main/s/streamlink/streamlink_0.0.2-1~webupd8~xenial0_all.deb
+Size: 36390
+MD5sum: 2481977bda48ac93b70a74b36afa66ae
+SHA1: da1c006636bb29f7d0e571520f635f76bc8ca13a
+SHA256: ce04e0e49884e121688bf2d9b7241a92043bb2491fbedf9eb0d7805d588016d4
+Description: CLI that pipes video streams to video players
+Description-md5: 1d0bc6764fd61c8d73b08772d8cd8a02
+

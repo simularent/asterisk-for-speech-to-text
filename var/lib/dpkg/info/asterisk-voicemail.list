@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/asterisk-voicemail
+/usr/share/doc/asterisk-voicemail/copyright
+/usr/lib
+/usr/lib/asterisk
+/usr/lib/asterisk/modules
+/usr/lib/asterisk/modules/app_voicemail.so
+/usr/share/doc/asterisk-voicemail/NEWS.Debian.gz
+/usr/share/doc/asterisk-voicemail/changelog.Debian.gz

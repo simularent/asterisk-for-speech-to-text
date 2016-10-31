@@ -1,0 +1,6 @@
+c101763cfa3e1a01ff3b54a3aca078b3  usr/share/doc/libterm-ui-perl/changelog.Debian.gz
+226a481a96ae0e08013ffa8d3fc22d57  usr/share/doc/libterm-ui-perl/copyright
+74d128c7863d37d3467fd02a1a5caa95  usr/share/man/man3/Term::UI.3pm.gz
+f408fc3660f705945777913e4ab8496f  usr/share/man/man3/Term::UI::History.3pm.gz
+3f9ec877d4eee502cbc4a6acd30ff80a  usr/share/perl5/Term/UI.pm
+b8f71963fb99489c3cd3576fabf1884c  usr/share/perl5/Term/UI/History.pm

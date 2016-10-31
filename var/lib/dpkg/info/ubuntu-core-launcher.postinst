@@ -1,0 +1,18 @@
+#!/bin/sh
+set -e
+
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apparmor.d/usr.bin.ubuntu-core-launcher 1.0.29~ -- "$@"
+# End automatically added section
+
+
+case $1 in
+    configure)
+        # remove current profile so that the pass-through can still run
+        if [ -e /sys/kernel/security/apparmor/.remove ]; then
+            if egrep -q '^/usr/bin/ubuntu-core-launcher \([[:alpha:]]+\)$' /sys/kernel/security/apparmor/profiles; then
+                echo -n '/usr/bin/ubuntu-core-launcher' > /sys/kernel/security/apparmor/.remove
+            fi
+        fi
+        ;;
+esac

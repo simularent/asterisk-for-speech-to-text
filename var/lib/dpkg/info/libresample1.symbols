@@ -1,0 +1,11 @@
+libresample.so.1 libresample1 #MINVER#
+ lrsFilterUD@Base 0.1.3
+ lrsFilterUp@Base 0.1.3
+ lrsLpFilter@Base 0.1.3
+ lrsSrcUD@Base 0.1.3
+ lrsSrcUp@Base 0.1.3
+ resample_close@Base 0.1.3
+ resample_dup@Base 0.1.3
+ resample_get_filter_width@Base 0.1.3
+ resample_open@Base 0.1.3
+ resample_process@Base 0.1.3

@@ -1,0 +1,18 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "configure" ] ; then
+	update-alternatives --install /usr/bin/jsonpointer jsonpointer /usr/bin/python2-jsonpointer 300
+fi
+
+
+# Automatically added by dhpython:
+if which pycompile >/dev/null 2>&1; then
+	pycompile -p python-json-pointer 
+fi
+
+# End automatically added section
+
+
+exit 0

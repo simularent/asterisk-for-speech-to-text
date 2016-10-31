@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/libsqlite.so.0.8.6
+/usr/share
+/usr/share/doc
+/usr/share/doc/libsqlite0
+/usr/share/doc/libsqlite0/README.Debian
+/usr/share/doc/libsqlite0/copyright
+/usr/share/doc/libsqlite0/changelog.Debian.gz
+/usr/lib/libsqlite.so.0

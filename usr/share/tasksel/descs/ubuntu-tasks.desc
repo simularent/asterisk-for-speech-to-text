@@ -1,0 +1,447 @@
+Task: cloud-image
+Description: Ubuntu Cloud Image (instance)
+ Packages included in Ubuntu Cloud images.  Previously this task was named 'uec'.
+Key: 
+ cloud-init
+Packages: task-fields
+Section: server
+
+Task: dns-server
+Description: DNS server
+ Selects the BIND DNS server and its documentation.
+Key: 
+ bind9
+Packages: task-fields
+Section: server
+
+Task: edubuntu-desktop-gnome
+Description: Edubuntu desktop
+ This task provides the Edubuntu desktop environment.
+Key: 
+ edubuntu-desktop
+Packages: task-fields
+Section: user
+
+Task: edubuntu-dvd-live
+Relevance: 2
+Description: Edubuntu live DVD
+ This task provides the extra packages installed on the Edubuntu live DVD. It is neither useful nor recommended to install this task in other environments.
+Key: 
+ language-pack-aa
+Packages: task-fields
+Section: user
+Test-new-install: skip show
+
+Task: kubuntu-desktop
+Description: Kubuntu desktop
+ The Kubuntu environment using KDE Plasma Desktop
+Key: 
+ kubuntu-desktop
+Packages: task-fields
+Section: user
+
+Task: kubuntu-full
+Description: Kubuntu full
+ This task provides a Kubuntu full desktop environment.
+Key: 
+ kubuntu-full
+Packages: task-fields
+Section: user
+
+Task: kubuntu-live
+Relevance: 2
+Description: Kubuntu live CD
+ This task provides the extra packages installed on the Kubuntu live CD. It is neither useful nor recommended to install this task in other environments.
+Key: 
+ ubiquity-frontend-kde
+Packages: task-fields
+Section: user
+Test-new-install: skip show
+
+Task: lamp-server
+Description: LAMP server
+ Selects a ready-made Linux/Apache/MySQL/PHP server.
+Key: 
+ apache2
+ mysql-server
+Packages: task-fields
+Section: server
+
+Task: lubuntu-core
+Description: Lubuntu minimal installation
+ This task provides minimal packages for Lubuntu (Ubuntu LXDE environment).
+Key: 
+ lubuntu-core
+Packages: task-fields
+Section: user
+
+Task: lubuntu-desktop
+Description: Lubuntu Desktop
+ This task provides the Lubuntu (Ubuntu LXDE environment).
+Key: 
+ lubuntu-desktop
+Packages: task-fields
+Section: user
+
+Task: lubuntu-live
+Relevance: 2
+Description: Lubuntu live CD
+ This task provides the extra packages installed on the Lubuntu live CD. It is neither useful nor recommended to install this task in other environments.
+Key: 
+ ubiquity-frontend-gtk
+Packages: task-fields
+Section: user
+Test-new-install: skip show
+
+Task: mail-server
+Description: Mail server
+ This task selects a variety of package useful for a general purpose mail
+ server system.
+Key: 
+ postfix
+Packages: task-fields
+Section: server
+
+Task: manual
+Relevance: 0
+Description: Manual package selection
+ Manually select packages to install in aptitude.
+Packages: manual
+Section: special
+Test-debconf: false
+
+Task: minimal
+Relevance: 9
+Description: Minimal base system
+ This task installs the core of an Ubuntu-based system.
+Packages: task-fields
+Section: user
+Test-new-install: install skip
+
+Task: mythbuntu-backend-master
+Description: Mythbuntu master backend
+ This task installs a MythTV master backend and a mysql server
+ server system.
+Key: 
+ mythtv-backend-master
+Packages: task-fields
+Section: user
+
+Task: mythbuntu-backend-slave
+Description: Mythbuntu slave backend
+ This task installs a MythTV slave backend. It needs an
+ existing master backend somewhere on your network.
+Key: 
+ mythtv-backend
+Packages: task-fields
+Section: user
+
+Task: mythbuntu-desktop
+Description: Mythbuntu additional roles
+ This task provides Mythbuntu roles for an existing system.
+Key: 
+ mythbuntu-desktop
+Packages: task-fields
+Section: user
+
+Task: mythbuntu-frontend
+Description: Mythbuntu frontend
+ This task installs a MythTV frontend. It needs an
+ existing master backend somewhere on your network.
+Key: 
+ mythtv-frontend
+Packages: task-fields
+Section: user
+
+Task: mythbuntu-live
+Relevance: 2
+Description: Mythbuntu live CD
+ This task provides the extra packages installed on the Mythbuntu live CD. It is neither useful nor recommended to install this task in other environments.
+Key: 
+ ubiquity-frontend-mythbuntu
+Packages: task-fields
+Section: user
+Test-new-install: skip show
+
+Task: openssh-server
+Relevance: 7
+Description: OpenSSH server
+ Selects packages needed for an OpenSSH server.
+Key: 
+ openssh-server
+Packages: task-fields
+Section: server
+
+Task: postgresql-server
+Description: PostgreSQL database
+ This task selects client and server packages for the PostgreSQL database.
+ .
+ PostgreSQL is an SQL relational database, offering increasing SQL92
+ compliance and some SQL3 features.  It is suitable for use with multi-user
+ database access, through its facilities for transactions and fine-grained
+ locking.
+Key: 
+ postgresql
+Packages: task-fields
+Section: server
+
+Task: print-server
+Description: Print server
+ This task sets up your system to be a print server.
+Key: 
+ cups
+ cups-bsd
+ cups-client
+Packages: task-fields
+Section: server
+
+Task: samba-server
+Description: Samba file server
+ This task sets up your system to be a Samba file server, which is 
+ especially suitable in networks with both Windows and Linux systems.
+Key: 
+ samba
+Packages: task-fields
+Section: server
+
+Task: server
+Relevance: 8
+Description: Basic Ubuntu server
+ This task provides the Ubuntu server environment.
+Key: 
+ screen
+Packages: task-fields
+Section: server
+
+Task: standard
+Relevance: 8
+Description: Standard system
+ This task installs a reasonably small character-mode system.
+Key: 
+ ubuntu-standard
+Packages: task-fields
+Section: user
+Test-new-install: install skip
+
+Task: tomcat-server
+Description: Tomcat Java server
+ Selects a ready-made Java Application server.
+Key: 
+ tomcat7
+Packages: task-fields
+Section: server
+
+Task: ubuntu-core
+Description: Ubuntu Core Next
+ This task provides system image based ubuntu core
+Key: 
+ ubuntu-core
+Packages: task-fields
+Section: user
+
+Task: ubuntu-desktop
+Description: Ubuntu desktop
+ This task provides the Ubuntu desktop environment.
+Key: 
+ ubuntu-desktop
+Packages: task-fields
+Section: user
+
+Task: ubuntu-gnome-desktop
+Description: Ubuntu GNOME desktop
+ This task provides the Ubuntu GNOME desktop environment.
+Key: 
+ ubuntu-gnome-desktop
+Packages: task-fields
+Section: user
+
+Task: ubuntu-gnome-live
+Relevance: 2
+Description: Ubuntu GNOME live CD
+ This task provides the extra packages installed on the Ubuntu GNOME live CD. It is neither useful nor recommended to install this task in other environments.
+Key: 
+ ubiquity-frontend-gtk
+Packages: task-fields
+Section: user
+Test-new-install: skip show
+
+Task: ubuntu-live
+Relevance: 2
+Description: Ubuntu live CD
+ This task provides the extra packages installed on the Ubuntu live CD. It is neither useful nor recommended to install this task in other environments.
+Key: 
+ ubiquity-frontend-gtk
+Packages: task-fields
+Section: user
+Test-new-install: skip show
+
+Task: ubuntu-mate-cloudtop
+Description: Ubuntu MATE cloudtop
+ This task provides the Ubuntu MATE desktop environment suitable for remote terminal servers.
+Key: 
+ ubuntu-mate-cloudtop
+Packages: task-fields
+Section: user
+
+Task: ubuntu-mate-core
+Description: Ubuntu MATE minimal installation
+ This task provides minimal packages for Ubuntu MATE desktop environment.
+Key: 
+ ubuntu-mate-core
+Packages: task-fields
+Section: user
+
+Task: ubuntu-mate-desktop
+Description: Ubuntu MATE desktop
+ This task provides the Ubuntu MATE desktop environment.
+Key: 
+ ubuntu-mate-desktop
+Packages: task-fields
+Section: user
+
+Task: ubuntu-mate-live
+Relevance: 2
+Description: Ubuntu MATE Live CD
+ This task provides the extra packages installed on the Ubuntu MATE Live CD. It is neither useful nor recommended to install this task in other environments.
+Key: 
+ ubiquity-frontend-gtk
+Packages: task-fields
+Section: user
+Test-new-install: skip show
+
+Task: ubuntu-usb
+Description: Ubuntu desktop USB
+ This task provides the extra packages installed on the Ubuntu desktop USB image, above and beyond those included on the Ubuntu CD image. It is neither useful nor recommended to install this task in other environments.
+Key: 
+ inkscape
+Packages: task-fields
+Section: user
+
+Task: ubuntu-usb-live
+Relevance: 2
+Description: Ubuntu live USB
+ This task provides the extra packages installed on the Ubuntu live USB, above and beyond those included on the Ubuntu live CD. It is neither useful nor recommended to install this task in other environments.
+Key: 
+ language-pack-aa
+Packages: task-fields
+Section: user
+Test-new-install: skip show
+
+Task: ubuntustudio-audio
+Description: Audio recording and editing suite
+ Audio recording and editing suite
+Key: 
+ ubuntustudio-audio
+Packages: task-fields
+Section: user
+
+Task: ubuntustudio-desktop
+Description: Ubuntu Studio desktop
+ This task provides the Ubuntu Studio desktop environment.
+Key: 
+ ubuntustudio-desktop
+Packages: task-fields
+Section: user
+
+Task: ubuntustudio-desktop-core
+Description: Ubuntu Studio minimal DE installation
+ This task provides minimal packages for the Ubuntu Studio desktop environment.
+Key: 
+ ubuntustudio-desktop-core
+Packages: task-fields
+Section: user
+
+Task: ubuntustudio-dvd-live
+Relevance: 2
+Description: Ubuntu Studio live DVD
+ This task provides the extra packages installed on the Ubuntu Studio live DVD. It is neither useful nor recommended to install this task in other environments.
+Key: 
+ ubiquity-frontend-gtk
+Packages: task-fields
+Section: user
+Test-new-install: skip show
+
+Task: ubuntustudio-font-meta
+Description: Large selection of font packages
+ Large selection of font packages
+Key: 
+ ubuntustudio-font-meta
+Packages: task-fields
+Section: user
+
+Task: ubuntustudio-graphics
+Description: 2D/3D creation and editing suite
+ 2D/3D creation and editing suite
+Key: 
+ ubuntustudio-graphics
+Packages: task-fields
+Section: user
+
+Task: ubuntustudio-live
+Relevance: 2
+Description: Ubuntu Studio live CD
+ This task provides the extra packages installed on the Ubuntu Studio live CD. It is neither useful nor recommended to install this task in other environments.
+Key: 
+ ubiquity-frontend-gtk
+Packages: task-fields
+Section: user
+Test-new-install: skip show
+
+Task: ubuntustudio-photography
+Description: Photograph touchup and editing suite
+ Photograph touchup and editing suite
+Key: 
+ ubuntustudio-photography
+Packages: task-fields
+Section: user
+
+Task: ubuntustudio-publishing
+Description: Publishing applications
+ Publishing applications
+Key: 
+ ubuntustudio-publishing
+Packages: task-fields
+Section: user
+
+Task: ubuntustudio-video
+Description: Video creation and editing suite
+ Video creation and editing suite
+Key: 
+ ubuntustudio-video
+Packages: task-fields
+Section: user
+
+Task: virt-host
+Description: Virtual Machine host
+ Packages necessary to host virtual machines
+Key: 
+ ubuntu-virt-server
+Packages: task-fields
+Section: server
+
+Task: xubuntu-core
+Description: Xubuntu minimal installation
+ This task provides minimal packages for Xubuntu desktop environment.
+Key: 
+ xubuntu-core
+Packages: task-fields
+Section: user
+
+Task: xubuntu-desktop
+Description: Xubuntu desktop
+ This task provides the Xubuntu desktop environment.
+Key: 
+ xubuntu-desktop
+Packages: task-fields
+Section: user
+
+Task: xubuntu-live
+Relevance: 2
+Description: Xubuntu live CD
+ This task provides the extra packages installed on the Xubuntu live CD. It is neither useful nor recommended to install this task in other environments.
+Key: 
+ ubiquity-frontend-gtk
+Packages: task-fields
+Section: user
+Test-new-install: skip show
+

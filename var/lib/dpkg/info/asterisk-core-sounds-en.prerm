@@ -1,0 +1,8 @@
+#! /bin/sh -e
+
+if [ "$1" = "remove" ]; then
+    update-alternatives --remove asterisk-prompt-en    /usr/share/asterisk/sounds/en_US_f_Allison
+    update-alternatives --remove asterisk-prompt-en-us /usr/share/asterisk/sounds/en_US_f_Allison
+fi
+
+

@@ -1,0 +1,23 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "remove" ] ; then
+	update-alternatives --remove jsonpointer /usr/bin/python2-jsonpointer
+fi
+
+
+# Automatically added by dhpython:
+if which pyclean >/dev/null 2>&1; then
+	pyclean -p python-json-pointer 
+else
+	dpkg -L python-json-pointer | grep \.py$ | while read file
+	do
+		rm -f "${file}"[co] >/dev/null
+  	done
+fi
+
+# End automatically added section
+
+
+exit 0

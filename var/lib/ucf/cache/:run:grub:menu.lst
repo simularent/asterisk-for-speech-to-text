@@ -1,0 +1,23 @@
+## ## End Default Options ##
+
+title		Ubuntu 16.04.1 LTS, kernel 4.4.0-36-generic
+root		(hd0)
+kernel		/boot/vmlinuz-4.4.0-36-generic root=LABEL=cloudimg-rootfs ro console=hvc0 
+initrd		/boot/initrd.img-4.4.0-36-generic
+
+title		Ubuntu 16.04.1 LTS, kernel 4.4.0-36-generic (recovery mode)
+root		(hd0)
+kernel		/boot/vmlinuz-4.4.0-36-generic root=LABEL=cloudimg-rootfs ro  single
+initrd		/boot/initrd.img-4.4.0-36-generic
+
+title		Ubuntu 16.04.1 LTS, kernel 3.13.0-92-generic
+root		(hd0)
+kernel		/boot/vmlinuz-3.13.0-92-generic root=LABEL=cloudimg-rootfs ro console=hvc0 
+initrd		/boot/initrd.img-3.13.0-92-generic
+
+title		Ubuntu 16.04.1 LTS, kernel 3.13.0-92-generic (recovery mode)
+root		(hd0)
+kernel		/boot/vmlinuz-3.13.0-92-generic root=LABEL=cloudimg-rootfs ro  single
+initrd		/boot/initrd.img-3.13.0-92-generic
+
+### END DEBIAN AUTOMAGIC KERNELS LIST

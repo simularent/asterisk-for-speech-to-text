@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+
+/usr/bin/gcloud components post-process >/dev/null 2>&1

@@ -1,0 +1,3 @@
+/etc/default/asterisk
+/etc/init.d/asterisk
+/etc/logrotate.d/asterisk

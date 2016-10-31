@@ -1,0 +1,14 @@
+TARGETS = unattended-upgrades lvm2-lvmpolld open-vm-tools lxcfs php7.0-fpm screen-cleanup uuidd cgmanager lvm2-lvmetad lxd landscape-client rsync mdadm nginx resolvconf asterisk thermald irqbalance atd cgproxy ufw plymouth open-iscsi urandom iscsid sendsigs rsyslog umountnfs.sh hwclock.sh networking umountfs cryptdisks cryptdisks-early umountroot mdadm-waitidle halt reboot
+iscsid: open-iscsi
+sendsigs: rsync mdadm open-vm-tools lxcfs nginx asterisk php7.0-fpm plymouth open-iscsi screen-cleanup thermald uuidd irqbalance unattended-upgrades atd iscsid lxd landscape-client
+rsyslog: rsync mdadm nginx asterisk thermald sendsigs irqbalance atd
+umountnfs.sh: rsync open-vm-tools lxcfs nginx asterisk php7.0-fpm plymouth screen-cleanup thermald rsyslog uuidd sendsigs irqbalance unattended-upgrades atd lxd landscape-client
+hwclock.sh: rsyslog uuidd atd
+networking: nginx asterisk php7.0-fpm open-iscsi umountnfs.sh iscsid
+umountfs: lvm2-lvmpolld rsync mdadm open-vm-tools lxcfs nginx resolvconf asterisk hwclock.sh php7.0-fpm plymouth open-iscsi screen-cleanup thermald uuidd urandom irqbalance unattended-upgrades umountnfs.sh lvm2-lvmetad atd networking iscsid lxd landscape-client
+cryptdisks: umountfs
+cryptdisks-early: umountfs cryptdisks
+umountroot: umountfs cryptdisks-early cryptdisks
+mdadm-waitidle: umountroot
+halt: umountroot mdadm-waitidle
+reboot: umountroot mdadm-waitidle

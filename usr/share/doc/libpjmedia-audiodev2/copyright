@@ -1,0 +1,336 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: PJPROJECT
+Source: https://github.com/asterisk/pjproject
+Comment: Currently packaging the Asterisk fork of PJProject, as it supports
+ shared libraries.
+ .
+ The following parts of the upstream source tree were removed in the Debian
+ packaging:
+ * third_party/g7221 - non-distributable (requires a license from Polycom)
+ * third_party/ilbc - non distributable (the version included with pjproject)
+ * third_party/milenage - non distributable
+ * third_party/BaseClasses - non distributable (?)
+ * pjmedia/src/pjmedia-audiodev/s60_g729_bitstream.h - non distributable
+
+Files: *
+Copyright:
+ 2008-2011 Teluu Inc. (http://www.teluu.com)
+ 2003-2008 Benny Prijono <benny@prijono.org>
+License: GPL-2+
+Comment:
+ The bulk of the code. The whole source code is often dual-licensed by
+ Upstream. See their clarifications regarding licensing at
+ https://trac.pjsip.org/repos/wiki/PJSIP-Detail-License
+
+Files: debian/*
+Copyright: 2013 Tzafrir Cohen <tzafrir.cohen@xorcom.com>
+License: GPL-2+
+
+Files: pjlib/src/pj/timer.c pjlib/include/pj/timer.h
+Copyright: 1993-2006 Douglas C. Schmidt <d.schmidt@vanderbilt.edu>
+License: GPL-2+
+Comment:
+ The PJLIB's timer heap is based (or more correctly, copied and modied)
+ from ACE library by Douglas C. Schmidt.
+ .
+ You may use this file according to ACE open source terms or PJLIB open
+ source terms. You can find the fine ACE library at:
+  http://www.cs.wustl.edu/~schmidt/ACE.html
+
+Files:
+ pjlib-util/src/pjlib-util/md5.c pjlib-util/src/pjlib-util/crc32.c
+ pjlib-util/src/pjlib-util/sha1.c
+Copyright: -
+License: public-domain
+ sha1.c:
+ * This is the implementation of SHA-1 encryption algorithm based on
+ * Steve Reid work. Modified to work with PJLIB.
+ .
+ md5.c:
+ * This code implements the MD5 message-digest algorithm.
+ * The algorithm is due to Ron Rivest.  This code was
+ * written by Colin Plumb in 1993, no copyright is claimed.
+ * This code is in the public domain; do with it what you wish.
+ .
+ crc32.c:
+ * This file is partly taken from Crypto++ library (http://www.cryptopp.com)
+ * and http://www.di-mgt.com.au/crypto.html#CRC.
+ *
+ * Since the original version of the code is put in public domain,
+ * this file is put on public domain as well.
+
+Files:
+ pjlib-util/src/pjlib-util/getopt.c
+Copyright:
+ 1987,88,89,90,91,92,93,94,96,97 Free Software Foundation, Inc
+ [modified later by] Mike Borella <mike_borella@mw.3com.com>
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ On Debian systems you should find a copy of LGPL v. 2 on
+ /usr/share/common-licenses/LGPL-2 .
+Comment:
+ pjlib-util/include/pjlib-util/getopt.h has the same license boilerplate,
+ only it has a comment "this file has now become GPL" on top (comment
+ removed by Upstream).
+
+Files: pjlib/src/pj/compat/longjmp_i386.S pjlib/src/pj/compat/setjmp_i386.S
+Copyright: 1995-2001 Free Software Foundation, Inc.
+License: LGPL-2.1+
+
+Files: pjmedia/src/pjmedia/alaw_ulaw.c
+Copyright: Sun Microsystems, Inc.
+License: Old-Sun-License
+ This source code is a product of Sun Microsystems, Inc. and is provided
+ for unrestricted use.  Users may copy or modify this source code without
+ charge.
+ .
+ SUN SOURCE CODE IS PROVIDED AS IS WITH NO WARRANTIES OF ANY KIND INCLUDING
+ THE WARRANTIES OF DESIGN, MERCHANTIBILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE, OR ARISING FROM A COURSE OF DEALING, USAGE OR TRADE PRACTICE.
+ .
+ Sun source code is provided with no support and without any obligation on
+ the part of Sun Microsystems, Inc. to assist in its use, correction,
+ modification or enhancement.
+ .
+ SUN MICROSYSTEMS, INC. SHALL HAVE NO LIABILITY WITH RESPECT TO THE
+ INFRINGEMENT OF COPYRIGHTS, TRADE SECRETS OR ANY PATENTS BY THIS SOFTWARE
+ OR ANY PART THEREOF.
+ .
+ In no event will Sun Microsystems, Inc. be liable for any lost revenue
+ or profits or other special, indirect and consequential damages, even if
+ Sun has been advised of the possibility of such damages.
+
+Files: third_party/mp3/BladeMP3EncDLL.h
+Copyright: 1999-2002 A.L. Faber
+License: LGPL-2.1+
+
+Files: third_party/resample/*
+Copyright: 1994-2006 by Julius O. Smith III <jos@ccrma.stanford.edu>
+License: LGPL-2.1
+ The resample program is free software distributed in accordance
+ with the Lesser GNU Public License (LGPL).  There is NO warranty; not
+ even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ .
+ On Debian systems you should find a copy of LGPL v. 2.1 on
+ /usr/share/common-licenses/LGPL-2.1 .
+Comment:
+ * This software is not the copy of the library used in the Debian package.
+ * Homepage of the software: https://ccrma.stanford.edu/~jos/resample/
+
+Files: third_party/srtp/*
+Copyright: 2001-2006, Cisco Systems, Inc.
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+   Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+ .
+   Redistributions in binary form must reproduce the above
+   copyright notice, this list of conditions and the following
+   disclaimer in the documentation and/or other materials provided
+   with the distribution.
+ .
+   Neither the name of the Cisco Systems, Inc. nor the names of its
+   contributors may be used to endorse or promote products derived
+   from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+ INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+ OF THE POSSIBILITY OF SUCH DAMAGE.
+Comment:
+ This software is not the copy of the library used in the Debian package.
+
+Files: third_party/gsm/*
+Copyright:
+ 1992, 1993, 1994 by Jutta Degener and Carsten Bormann, Technische
+ Universitaet Berlin
+License:
+ Any use of this software is permitted provided that this notice is not
+ removed and that neither the authors nor the Technische Universitaet Berlin
+ are deemed to have made any representations as to the suitability of this
+ software for any purpose nor are held responsible for any defects of
+ this software.  THERE IS ABSOLUTELY NO WARRANTY FOR THIS SOFTWARE.
+Comment:
+ This software is not the copy of the library used in the Debian package.
+
+Files: third_party/speex/*
+Copyright: 2002-2008 Jean-Marc Valin
+License: BSD-3-clause-Xiph
+Comment:
+ This software is not the copy of the library used in the Debian package.
+
+Files: third_party/speex/libspeex/*_bfin*
+Copyright: 2005 Analog Devices
+License: BSD-3-clause-Xiph
+
+Files: third_party/speex/symbian/config.h
+Copyright: 2003 Commonwealth Scientific and Industrial Research
+License: BSD-3-clause-CSIRO
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ - Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ .
+ - Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ - Neither the name of CSIRO Australia nor the names of its
+ contributors may be used to endorse or promote products derived from
+ this software without specific prior written permission.
+
+Files: third_party/speex/libspeex/lsp_bfin.h
+ third_party/speex/libspeex/quant_lsp_bfin.h
+Copyright: 2006 David Rowe
+License: BSD-3-clause-Xiph
+
+Files: third_party/speex/libspeex/kiss_fft.c
+ third_party/speex/libspeex/kiss_fftr.c
+ third_party/speex/libspeex/_kiss_fft_guts.h
+Copyright: 2003-2004, Mark Borgerding
+License: BSD-3-clause-Xiph
+
+Files: third_party/speex/libspeex/preprocess.c
+Copyright: 2004-2006 Epic Games
+License: BSD-3-clause-Xiph
+
+Files: third_party/speex/libspeex/resample.c
+Copyright: 2008 Thorvald Natvig
+License: BSD-3-clause-Xiph
+
+Files: third_party/portaudio/*
+Copyright: 1999-2008 Ross Bencina and Phil Burk
+License: Expat
+Comment:
+ This software is not the copy of the library used in the Debian package.
+
+Files: third_party/portaudio/src/hostapi/asihpi/pa_linux_asihpi.c
+Copyright:
+ 2005,2006 Ludwig Schwardt
+ 2003 Fred Gleason
+License: Expat
+
+Files: third_party/portaudio/src/hostapi/jack/pa_jack.c
+Copyright:
+ 2004 Arve Knudsen <aknuds-1@broadpark.no>
+ 2004 Stefan Westerfeld <stefan@space.twc.de>
+ 2002 Joshua Haberman <joshua@haberman.com>
+ 1999-2002 Ross Bencina, Phil Burk
+License: Expat
+
+Files:
+ third_party/portaudio/src/hostapi/dsound/pa_win_ds.c
+ third_party/portaudio/src/hostapi/dsound/pa_win_ds_dynlink.[ch]
+Copyright: 1999-2007 Ross Bencina, Phil Burk, Robert Marsanyi
+License: Expat
+
+Files: third_party/portaudio/src/os/win/pa_win_wdmks_utils.[ch]
+Copyright: 1999 - 2007 Andrew Baldwin, Ross Bencina
+License: Expat
+
+Files: third_party/portaudio/include/pa_mac_core.h
+Copyright: 2005-2006 Bjorn Roche
+License: Expat
+
+Files: third_party/srtp/pjlib/srtp_err.c
+Copyright: 2003-2007 Benny Prijono <benny@prijono.org>
+License: GPL-2+
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems you should find a copy of GPL v. 2 on
+ /usr/share/common-licenses/GPL-2 .
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ On Debian systems you should find a copy of LGPL v. 2 on
+ /usr/share/common-licenses/LGPL-2.1 .
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files
+ (the "Software"), to deal in the Software without restriction,
+ including without limitation the rights to use, copy, modify, merge,
+ publish, distribute, sublicense, and/or sell copies of the Software,
+ and to permit persons to whom the Software is furnished to do so,
+ subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR
+ ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+ CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: BSD-3-clause-Xiph
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ - Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ .
+ - Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ - Neither the name of the Xiph.org Foundation nor the names of its
+ contributors may be used to endorse or promote products derived from
+ this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION OR
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+

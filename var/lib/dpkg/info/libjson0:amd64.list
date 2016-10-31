@@ -1,0 +1,8 @@
+/.
+/lib
+/lib/x86_64-linux-gnu
+/usr
+/usr/share
+/usr/share/doc
+/lib/x86_64-linux-gnu/libjson.so.0
+/usr/share/doc/libjson0

@@ -1,0 +1,18 @@
+w3m for Debian
+--------------
+
+This package is developed in the Git repository:
+
+  http://anonscm.debian.org/gitweb/?p=collab-maint/w3m.git
+
+The patch files are managed in the debian branch.  For more
+information, see the Debian Package Tracking System web page:
+
+  http://packages.qa.debian.org/w3m
+
+To contact upstream:
+
+  http://w3m.sourceforge.net/index.en.html
+  https://sourceforge.net/projects/w3m/
+
+ -- Tatsuya Kinoshita <tats@debian.org>, Sun, 13 Oct 2013 14:14:08 +0900

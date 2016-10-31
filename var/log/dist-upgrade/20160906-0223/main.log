@@ -1,0 +1,184 @@
+2016-09-06 02:14:51,063 INFO Using config files '['./DistUpgrade.cfg.trusty']'
+2016-09-06 02:14:51,063 INFO uname information: 'Linux asterisk 3.13.0-92-generic #139-Ubuntu SMP Tue Jun 28 20:42:26 UTC 2016 x86_64'
+2016-09-06 02:14:51,228 INFO apt version: '1.0.1ubuntu2.14'
+2016-09-06 02:14:51,228 INFO python version: '3.4.3 (default, Oct 14 2015, 20:28:29) 
+[GCC 4.8.4]'
+2016-09-06 02:14:51,229 INFO release-upgrader version '16.04.16' started
+2016-09-06 02:14:51,231 INFO locale: 'en_US' 'UTF-8'
+2016-09-06 02:14:51,289 DEBUG Using 'DistUpgradeViewText' view
+2016-09-06 02:14:51,330 DEBUG aufsOptionsAndEnvironmentSetup()
+2016-09-06 02:14:51,331 DEBUG using '/tmp/upgrade-rw-n087_y9g' as aufs_rw_dir
+2016-09-06 02:14:51,331 DEBUG using '/tmp/upgrade-chroot-ckseepn6' as aufs chroot dir
+2016-09-06 02:14:51,332 DEBUG enable dpkg --force-overwrite
+2016-09-06 02:14:51,397 DEBUG creating statefile: '/var/log/dist-upgrade/apt-clone_system_state.tar.gz'
+2016-09-06 02:14:52,322 DEBUG lsb-release: 'trusty'
+2016-09-06 02:15:11,235 DEBUG _pythonSymlinkCheck run
+2016-09-06 02:15:11,238 DEBUG openCache()
+2016-09-06 02:15:11,238 DEBUG No such plugin directory: ./plugins
+2016-09-06 02:15:11,238 DEBUG plugins for condition 'PreCacheOpen' are '[]'
+2016-09-06 02:15:11,238 DEBUG plugins for condition 'xenialPreCacheOpen' are '[]'
+2016-09-06 02:15:11,238 DEBUG plugins for condition 'from_trustyPreCacheOpen' are '[]'
+2016-09-06 02:15:11,238 DEBUG quirks: running PreCacheOpen
+2016-09-06 02:15:11,238 DEBUG running Quirks.PreCacheOpen
+2016-09-06 02:15:11,577 DEBUG /openCache(), new cache size 47473
+2016-09-06 02:15:11,578 DEBUG need_server_mode(): can not find a desktop meta package or key deps, running in server mode
+2016-09-06 02:15:11,578 DEBUG checkViewDepends()
+2016-09-06 02:15:11,578 DEBUG depends: 'apt (>= 1.0.1ubuntu2.13)'
+2016-09-06 02:15:11,579 DEBUG checking: '[('apt', '1.0.1ubuntu2.13', '>=')]' 
+2016-09-06 02:15:11,579 DEBUG depends: 'dpkg (>= 1.17.5ubuntu5.6)'
+2016-09-06 02:15:11,579 DEBUG checking: '[('dpkg', '1.17.5ubuntu5.6', '>=')]' 
+2016-09-06 02:15:11,579 DEBUG running doUpdate() (showErrors=False)
+2016-09-06 02:15:13,834 DEBUG openCache()
+2016-09-06 02:15:14,181 DEBUG /openCache(), new cache size 47473
+2016-09-06 02:15:14,182 DEBUG doPostInitialUpdate
+2016-09-06 02:15:14,182 DEBUG plugins for condition 'PostInitialUpdate' are '[]'
+2016-09-06 02:15:14,182 DEBUG plugins for condition 'xenialPostInitialUpdate' are '[]'
+2016-09-06 02:15:14,182 DEBUG plugins for condition 'from_trustyPostInitialUpdate' are '[]'
+2016-09-06 02:15:15,246 DEBUG MetaPkgs: 
+2016-09-06 02:15:17,171 DEBUG Foreign: 
+2016-09-06 02:15:17,171 DEBUG Obsolete: 
+2016-09-06 02:15:17,171 DEBUG updateSourcesList()
+2016-09-06 02:15:17,242 DEBUG rewriteSourcesList() with mirror_check
+2016-09-06 02:15:17,242 DEBUG ['ubuntu-minimal', 'ubuntu-standard']
+2016-09-06 02:15:17,243 DEBUG Checking pkg: ubuntu-minimal
+2016-09-06 02:15:17,243 DEBUG Checking pkg: ubuntu-standard
+2016-09-06 02:15:17,244 DEBUG examining: 'deb http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty main restricted'
+2016-09-06 02:15:17,244 DEBUG found apt-cacher/apt-torrent style uri http://us-west-2.ec2.archive.ubuntu.com/ubuntu
+2016-09-06 02:15:17,244 DEBUG entry 'deb http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ xenial main restricted' updated to new dist
+2016-09-06 02:15:17,244 DEBUG examining: 'deb-src http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty main restricted'
+2016-09-06 02:15:17,244 DEBUG found apt-cacher/apt-torrent style uri http://us-west-2.ec2.archive.ubuntu.com/ubuntu
+2016-09-06 02:15:17,245 DEBUG entry 'deb-src http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ xenial main restricted' updated to new dist
+2016-09-06 02:15:17,245 DEBUG examining: 'deb http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates main restricted'
+2016-09-06 02:15:17,245 DEBUG found apt-cacher/apt-torrent style uri http://us-west-2.ec2.archive.ubuntu.com/ubuntu
+2016-09-06 02:15:17,245 DEBUG entry 'deb http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ xenial-updates main restricted' updated to new dist
+2016-09-06 02:15:17,245 DEBUG examining: 'deb-src http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates main restricted'
+2016-09-06 02:15:17,245 DEBUG found apt-cacher/apt-torrent style uri http://us-west-2.ec2.archive.ubuntu.com/ubuntu
+2016-09-06 02:15:17,245 DEBUG entry 'deb-src http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ xenial-updates main restricted' updated to new dist
+2016-09-06 02:15:17,245 DEBUG examining: 'deb http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty universe'
+2016-09-06 02:15:17,245 DEBUG found apt-cacher/apt-torrent style uri http://us-west-2.ec2.archive.ubuntu.com/ubuntu
+2016-09-06 02:15:17,245 DEBUG entry 'deb http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ xenial universe' updated to new dist
+2016-09-06 02:15:17,245 DEBUG examining: 'deb-src http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty universe'
+2016-09-06 02:15:17,246 DEBUG found apt-cacher/apt-torrent style uri http://us-west-2.ec2.archive.ubuntu.com/ubuntu
+2016-09-06 02:15:17,246 DEBUG entry 'deb-src http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ xenial universe' updated to new dist
+2016-09-06 02:15:17,246 DEBUG examining: 'deb http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates universe'
+2016-09-06 02:15:17,246 DEBUG found apt-cacher/apt-torrent style uri http://us-west-2.ec2.archive.ubuntu.com/ubuntu
+2016-09-06 02:15:17,246 DEBUG entry 'deb http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ xenial-updates universe' updated to new dist
+2016-09-06 02:15:17,246 DEBUG examining: 'deb-src http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates universe'
+2016-09-06 02:15:17,246 DEBUG found apt-cacher/apt-torrent style uri http://us-west-2.ec2.archive.ubuntu.com/ubuntu
+2016-09-06 02:15:17,246 DEBUG entry 'deb-src http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ xenial-updates universe' updated to new dist
+2016-09-06 02:15:17,246 DEBUG examining: 'deb http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty multiverse'
+2016-09-06 02:15:17,246 DEBUG found apt-cacher/apt-torrent style uri http://us-west-2.ec2.archive.ubuntu.com/ubuntu
+2016-09-06 02:15:17,246 DEBUG entry 'deb http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ xenial multiverse' updated to new dist
+2016-09-06 02:15:17,246 DEBUG examining: 'deb-src http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty multiverse'
+2016-09-06 02:15:17,247 DEBUG found apt-cacher/apt-torrent style uri http://us-west-2.ec2.archive.ubuntu.com/ubuntu
+2016-09-06 02:15:17,247 DEBUG entry 'deb-src http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ xenial multiverse' updated to new dist
+2016-09-06 02:15:17,247 DEBUG examining: 'deb http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates multiverse'
+2016-09-06 02:15:17,247 DEBUG found apt-cacher/apt-torrent style uri http://us-west-2.ec2.archive.ubuntu.com/ubuntu
+2016-09-06 02:15:17,247 DEBUG entry 'deb http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ xenial-updates multiverse' updated to new dist
+2016-09-06 02:15:17,247 DEBUG examining: 'deb-src http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates multiverse'
+2016-09-06 02:15:17,247 DEBUG found apt-cacher/apt-torrent style uri http://us-west-2.ec2.archive.ubuntu.com/ubuntu
+2016-09-06 02:15:17,247 DEBUG entry 'deb-src http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ xenial-updates multiverse' updated to new dist
+2016-09-06 02:15:17,247 DEBUG examining: 'deb http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse'
+2016-09-06 02:15:17,247 DEBUG found apt-cacher/apt-torrent style uri http://us-west-2.ec2.archive.ubuntu.com/ubuntu
+2016-09-06 02:15:17,247 DEBUG entry 'deb http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ xenial-backports main restricted universe multiverse' updated to new dist
+2016-09-06 02:15:17,247 DEBUG examining: 'deb-src http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse'
+2016-09-06 02:15:17,247 DEBUG found apt-cacher/apt-torrent style uri http://us-west-2.ec2.archive.ubuntu.com/ubuntu
+2016-09-06 02:15:17,248 DEBUG entry 'deb-src http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ xenial-backports main restricted universe multiverse' updated to new dist
+2016-09-06 02:15:17,248 DEBUG examining: 'deb http://security.ubuntu.com/ubuntu trusty-security main'
+2016-09-06 02:15:17,248 DEBUG entry 'deb http://security.ubuntu.com/ubuntu xenial-security main' updated to new dist
+2016-09-06 02:15:17,248 DEBUG examining: 'deb-src http://security.ubuntu.com/ubuntu trusty-security main'
+2016-09-06 02:15:17,248 DEBUG entry 'deb-src http://security.ubuntu.com/ubuntu xenial-security main' updated to new dist
+2016-09-06 02:15:17,248 DEBUG examining: 'deb http://security.ubuntu.com/ubuntu trusty-security universe'
+2016-09-06 02:15:17,248 DEBUG entry 'deb http://security.ubuntu.com/ubuntu xenial-security universe' updated to new dist
+2016-09-06 02:15:17,248 DEBUG examining: 'deb-src http://security.ubuntu.com/ubuntu trusty-security universe'
+2016-09-06 02:15:17,248 DEBUG entry 'deb-src http://security.ubuntu.com/ubuntu xenial-security universe' updated to new dist
+2016-09-06 02:15:17,248 INFO fixing components inconsistency from 'deb http://security.ubuntu.com/ubuntu xenial-security main'
+2016-09-06 02:15:17,249 INFO to new entry 'deb http://security.ubuntu.com/ubuntu xenial-security main restricted multiverse'
+2016-09-06 02:15:17,249 DEBUG running doUpdate() (showErrors=True)
+2016-09-06 02:15:22,727 DEBUG openCache()
+2016-09-06 02:15:22,728 DEBUG failed to SystemUnLock() (E:Not locked) 
+2016-09-06 02:15:26,045 DEBUG /openCache(), new cache size 54064
+2016-09-06 02:15:26,046 DEBUG need_server_mode(): can not find a desktop meta package or key deps, running in server mode
+2016-09-06 02:15:27,637 DEBUG Running KeepInstalledSection rules
+2016-09-06 02:15:28,286 DEBUG Kernel uname: '3.13.0-92-generic' 
+2016-09-06 02:15:28,290 DEBUG nvidiaUpdate()
+2016-09-06 02:15:29,111 INFO no old nvidia driver installed, installing no new
+2016-09-06 02:15:29,113 DEBUG plugins for condition 'PostDistUpgradeCache' are '[]'
+2016-09-06 02:15:29,113 DEBUG plugins for condition 'xenialPostDistUpgradeCache' are '[]'
+2016-09-06 02:15:29,113 DEBUG plugins for condition 'from_trustyPostDistUpgradeCache' are '[]'
+2016-09-06 02:15:29,113 DEBUG quirks: running xenialPostDistUpgradeCache
+2016-09-06 02:15:29,398 DEBUG Comparing 3.13.0-92 with 
+2016-09-06 02:15:29,399 DEBUG Comparing 4.4.0-36 with 3.13.0-92
+2016-09-06 02:15:29,588 INFO installing linux metapackage: linux-generic
+2016-09-06 02:15:29,588 DEBUG Installing 'linux-generic' (linux metapackage may have been accidentally uninstalled)
+2016-09-06 02:15:29,727 DEBUG running installTasks
+2016-09-06 02:15:31,550 DEBUG About to apply the following changes
+2016-09-06 02:15:32,073 DEBUG Keep at same version: apport-symptoms asterisk-core-sounds-en asterisk-core-sounds-en-gsm asterisk-moh-opsound-gsm eject laptop-detect libapt-inst1.5 libapt-pkg4.12 libbind9-90 libboost-iostreams1.54.0 libclass-accessor-perl libcwidget3 libdns100 libept1.4.12 libfreeradius-client2 libgcrypt11 libgnutls26 libgpm2 libgsm1 libicu52 libio-string-perl libisc95 libisccc90 libisccfg90 libjpeg8 liblockfile-bin liblockfile1 liblwres90 liblzma5 libparted0debian1 libpj2 libpjlib-util2 libpjnath2 libplymouth2 libprocps3 libresample1 librtmp0 libsigc++-2.0-0c2a libsystemd-daemon0 libsystemd-login0 libwrap0 libxau6 libxtables10 linux-headers-3.13.0-92 linux-headers-3.13.0-92-generic linux-image-3.13.0-92-generic lockfile-progs makedev mawk netcat-openbsd python-cheetah run-one sensible-utils sgml-base tcpd ubuntu-keyring xml-core xz-utils
+2016-09-06 02:15:32,073 DEBUG Upgradable, but held- back: libparse-debianchangelog-perl
+2016-09-06 02:15:32,073 DEBUG Remove: aptitude libasprintf0c2 libical1 libperl5.18 libpython3.4-minimal libpython3.4-stdlib libxapian22 perl-modules python3.4 python3.4-minimal systemd-services
+2016-09-06 02:15:32,073 DEBUG Install: acl bcache-tools btrfs-tools cgmanager cloud-initramfs-copymods cloud-initramfs-dyn-netconf console-setup-linux crda dirmngr distro-info-data dmeventd dns-root-data dnsmasq-base gcc-5-base gcc-6-base git git-man gnupg-agent gnupg2 ifenslave init initramfs-tools-core iw libapt-inst2.0 libapt-pkg5.0 libasprintf0v5 libatm1 libbind9-140 libboost-iostreams1.58.0 libdevmapper-event1.02.1 libdns-export162 libdns162 libeatmydata1 liberror-perl libfdisk1 libgcrypt20 libgmp10 libgnutls30 libhogweed4 libical1a libicu55 libisc-export160 libisc160 libisccc140 libisccfg140 libjansson4 libksba8 liblog-message-perl liblvm2app2.2 liblvm2cmd2.02 liblwres141 liblxc1 liblz4-1 liblzo2-2 libmnl0 libmodule-runtime-perl libmpfr4 libmspack0 libnetfilter-conntrack3 libnettle6 libnl-3-200 libnl-genl-3-200 libnpth0 libparams-classify-perl libparted2 libperl5.22 libpjmedia-audiodev2 libpjmedia2 libpjsip-simple2 libpjsip-ua2 libpjsip2 libplymouth4 libportaudio2 libprocps4 libpython3.5 libpython3.5-minimal libpython3.5-stdlib libreadline5 librtmp1 libseccomp2 libsmartcols1 libsystemd0 libutempter0 libxapian-1.3-5 libxapian22v5 libxslt1.1 libxtables11 linux-base linux-firmware linux-generic linux-headers-4.4.0-36 linux-headers-4.4.0-36-generic linux-image-4.4.0-36-generic linux-image-extra-4.4.0-36-generic linux-image-generic lvm2 lxc-common lxcfs lxd lxd-client mdadm open-iscsi pastebinit perl-modules-5.22 pinentry-curses python-attr python-cffi-backend python-cryptography python-enum34 python-idna python-ipaddress python-ndg-httpsclient python-pyasn1 python-pyasn1-modules python-service-identity python3-blinker python3-cffi-backend python3-chardet python3-configobj python3-cryptography python3-debian python3-idna python3-jinja2 python3-json-pointer python3-jsonpatch python3-jwt python3-markupsafe python3-oauthlib python3-pkg-resources python3-prettytable python3-pyasn1 python3-requests python3-serial python3-six python3-systemd python3-urllib3 python3-xapian1.3 python3-yaml python3.5 python3.5-minimal rename snap-confine snapd sosreport squashfs-tools systemd systemd-sysv thermald ubuntu-cloudimage-keyring ubuntu-core-launcher ubuntu-server uidmap update-motd vlan wireless-regdb xdg-user-dirs xfsprogs
+2016-09-06 02:15:32,073 DEBUG Upgrade: accountsservice acpid adduser apparmor apport apt apt-transport-https apt-utils apt-xapian-index aptitude-common asterisk asterisk-config asterisk-modules asterisk-voicemail at base-files base-passwd bash bash-completion bc bind9-host bsdmainutils bsdutils busybox-initramfs busybox-static byobu bzip2 ca-certificates cloud-guest-utils cloud-init command-not-found command-not-found-data console-setup coreutils cpio cron cryptsetup cryptsetup-bin curl dash dbus debconf debconf-i18n debianutils dh-python diffutils dmidecode dmsetup dnsutils dosfstools dpkg e2fslibs e2fsprogs eatmydata ed ethtool file findutils fonts-ubuntu-font-family-console freetds-common friendly-recovery ftp fuse gawk gcc-4.8-base gcc-4.9-base gdisk geoip-database gettext-base gir1.2-glib-2.0 gnupg gpgv grep groff-base grub-common grub-gfxpayload-lists grub-legacy-ec2 grub-pc grub-pc-bin grub2-common gzip hdparm hostname ifupdown info init-system-helpers initramfs-tools initramfs-tools-bin initscripts insserv install-info iproute2 iptables iputils-ping iputils-tracepath irqbalance isc-dhcp-client isc-dhcp-common iso-codes kbd keyboard-configuration klibc-utils kmod krb5-locales landscape-client landscape-common language-selector-common less libaccountsservice0 libacl1 libapparmor-perl libapparmor1 libarchive-extract-perl libasn1-8-heimdal libasound2 libasound2-data libassuan0 libattr1 libaudit-common libaudit1 libblkid1 libbsd0 libbz2-1.0 libc-bin libc6 libcap-ng0 libcap2 libcap2-bin libcgmanager0 libck-connector0 libcomerr2 libcryptsetup4 libcurl3 libcurl3-gnutls libdb5.3 libdbus-1-3 libdbus-glib-1-2 libdebconfclient0 libdevmapper1.02.1 libdrm2 libdumbnet1 libedit2 libelf1 libestr0 libevent-2.0-5 libexpat1 libffi6 libflac8 libfreetype6 libfribidi0 libfuse2 libgc1c2 libgcc1 libgck-1-0 libgcr-3-common libgcr-base-3-1 libgdbm3 libgeoip1 libgirepository-1.0-1 libglib2.0-0 libglib2.0-data libgmime-2.6-0 libgnutls-openssl27 libgomp1 libgpg-error0 libgpgme11 libgssapi-krb5-2 libgssapi3-heimdal libhcrypto4-heimdal libheimbase1-heimdal libheimntlm0-heimdal libhx509-5-heimdal libidn11 libiksemel3 libjack-jackd2-0 libjbig0 libjpeg-turbo8 libjson-c2 libjson0 libk5crypto3 libkeyutils1 libklibc libkmod2 libkrb5-26-heimdal libkrb5-3 libkrb5support0 libldap-2.4-2 liblocale-gettext-perl liblog-message-simple-perl libltdl7 liblua5.1-0 libmagic1 libmodule-pluggable-perl libmount1 libmpdec2 libncurses5 libncursesw5 libneon27-gnutls libnewt0.52 libnfnetlink0 libnih-dbus1 libnih1 libnuma1 libodbc1 libogg0 libopencore-amrnb0 libopencore-amrwb0 libp11-kit0 libpam-cap libpam-modules libpam-modules-bin libpam-runtime libpam-systemd libpam0g libpcap0.8 libpci3 libpcre3 libpipeline1 libpng12-0 libpod-latex-perl libpolkit-agent-1-0 libpolkit-backend-1-0 libpolkit-gobject-1-0 libpopt0 libpq5 libpython-stdlib libpython2.7 libpython2.7-minimal libpython2.7-stdlib libpython3-stdlib libreadline6 libroken18-heimdal libsamplerate0 libsasl2-2 libsasl2-modules libsasl2-modules-db libselinux1 libsemanage-common libsemanage1 libsensors4 libsepol1 libsigsegv2 libslang2 libsndfile1 libsnmp-base libsnmp30 libsox-fmt-alsa libsox-fmt-base libsox2 libspandsp2 libspeex1 libspeexdsp1 libsqlite0 libsqlite3-0 libsrtp0 libss2 libssl1.0.0 libstdc++6 libsub-name-perl libsybdb5 libtasn1-6 libterm-ui-perl libtext-charwidth-perl libtext-iconv-perl libtext-soundex-perl libtext-wrapi18n-perl libtiff5 libtimedate-perl libtinfo5 libudev1 libusb-0.1-4 libusb-1.0-0 libustr-1.0-1 libuuid1 libvorbis0a libvorbisenc2 libvorbisfile3 libwavpack1 libwind0-heimdal libx11-6 libx11-data libxcb1 libxdmcp6 libxext6 libxml2 libxmuu1 libyaml-0-2 linux-headers-generic linux-headers-virtual linux-image-virtual linux-virtual locales login logrotate lsb-base lsb-release lshw lsof ltrace man-db manpages mime-support mlocate module-init-tools mount mountall mtr-tiny multiarch-support nano ncurses-base ncurses-bin ncurses-term net-tools netbase ntfs-3g ntpdate open-vm-tools openssh-client openssh-server openssh-sftp-server openssl os-prober overlayroot parted passwd patch pciutils perl perl-base plymouth plymouth-theme-ubuntu-text policykit-1 pollinate popularity-contest powermgmt-base ppp pppconfig pppoeconf procps psmisc python python-apt python-apt-common python-chardet python-configobj python-debian python-gdbm python-json-pointer python-jsonpatch python-minimal python-oauth python-openssl python-pam python-pkg-resources python-prettytable python-pycurl python-requests python-serial python-six python-twisted-bin python-twisted-core python-twisted-names python-twisted-web python-urllib3 python-xapian python-yaml python-zope.interface python2.7 python2.7-minimal python3 python3-apport python3-apt python3-commandnotfound python3-dbus python3-distupgrade python3-gdbm python3-gi python3-minimal python3-newt python3-problem-report python3-pycurl python3-software-properties python3-update-manager readline-common resolvconf rsync rsyslog screen sed shared-mime-info software-properties-common sox ssh-import-id strace sudo systemd-shim sysv-rc sysvinit-utils tar tasksel tasksel-data tcpdump telnet time tmux tzdata ubuntu-minimal ubuntu-release-upgrader-core ubuntu-standard ucf udev ufw unattended-upgrades update-manager-core update-notifier-common upstart ureadahead usbutils util-linux uuid-runtime vim vim-common vim-runtime vim-tiny w3m wget whiptail xauth xkb-data zerofree zlib1g
+2016-09-06 02:15:32,076 DEBUG apt btrfs snapshots supported: False
+2016-09-06 02:15:32,076 DEBUG cache aufs_rw_dir: /tmp/
+2016-09-06 02:15:32,076 DEBUG Free space on /: 10834055168
+2016-09-06 02:15:32,077 DEBUG Dir /usr mounted on /
+2016-09-06 02:15:32,077 DEBUG Dir /var mounted on /
+2016-09-06 02:15:32,077 DEBUG Dir /boot mounted on /
+2016-09-06 02:15:32,077 DEBUG Dir /var/cache/apt/archives mounted on /
+2016-09-06 02:15:32,077 DEBUG Dir /tmp mounted on /
+2016-09-06 02:15:32,077 DEBUG Dir /home mounted on /
+2016-09-06 02:15:32,077 DEBUG Dir /tmp mounted on /
+2016-09-06 02:15:32,077 DEBUG fs_free contains: '{'/home': <DistUpgrade.DistUpgradeCache.MyCache.checkFreeSpace.<locals>.FreeSpace object at 0x7f3d3438b438>, '/usr': <DistUpgrade.DistUpgradeCache.MyCache.checkFreeSpace.<locals>.FreeSpace object at 0x7f3d3438b438>, '/var/cache/apt/archives': <DistUpgrade.DistUpgradeCache.MyCache.checkFreeSpace.<locals>.FreeSpace object at 0x7f3d3438b438>, '/': <DistUpgrade.DistUpgradeCache.MyCache.checkFreeSpace.<locals>.FreeSpace object at 0x7f3d3438b438>, '/tmp': <DistUpgrade.DistUpgradeCache.MyCache.checkFreeSpace.<locals>.FreeSpace object at 0x7f3d3438b438>, '/boot': <DistUpgrade.DistUpgradeCache.MyCache.checkFreeSpace.<locals>.FreeSpace object at 0x7f3d3438b438>, '/var': <DistUpgrade.DistUpgradeCache.MyCache.checkFreeSpace.<locals>.FreeSpace object at 0x7f3d3438b438>}'
+2016-09-06 02:15:32,454 DEBUG linux-image-4.4.0-36-generic (new-install) added with 19363719 to boot space
+2016-09-06 02:15:32,779 DEBUG dir '/var/cache/apt/archives' needs '245838548' of '<DistUpgrade.DistUpgradeCache.MyCache.checkFreeSpace.<locals>.FreeSpace object at 0x7f3d3438b438>' (10834055168.000000)
+2016-09-06 02:15:32,779 DEBUG dir '/usr' needs '651645952' of '<DistUpgrade.DistUpgradeCache.MyCache.checkFreeSpace.<locals>.FreeSpace object at 0x7f3d3438b438>' (10588216620.000000)
+2016-09-06 02:15:32,779 DEBUG dir '/usr' needs '52428800' of '<DistUpgrade.DistUpgradeCache.MyCache.checkFreeSpace.<locals>.FreeSpace object at 0x7f3d3438b438>' (9936570668.000000)
+2016-09-06 02:15:32,779 DEBUG dir '/boot' needs '38727438' of '<DistUpgrade.DistUpgradeCache.MyCache.checkFreeSpace.<locals>.FreeSpace object at 0x7f3d3438b438>' (9884141868.000000)
+2016-09-06 02:15:32,779 DEBUG dir '/tmp' needs '5242880' of '<DistUpgrade.DistUpgradeCache.MyCache.checkFreeSpace.<locals>.FreeSpace object at 0x7f3d3438b438>' (9845414430.000000)
+2016-09-06 02:15:32,779 DEBUG dir '/' needs '10485760' of '<DistUpgrade.DistUpgradeCache.MyCache.checkFreeSpace.<locals>.FreeSpace object at 0x7f3d3438b438>' (9840171550.000000)
+2016-09-06 02:15:32,779 DEBUG dir '/tmp' needs '0.0' of '<DistUpgrade.DistUpgradeCache.MyCache.checkFreeSpace.<locals>.FreeSpace object at 0x7f3d3438b438>' (9829685790.000000)
+2016-09-06 02:15:32,779 DEBUG dir '/usr' needs '0.0' of '<DistUpgrade.DistUpgradeCache.MyCache.checkFreeSpace.<locals>.FreeSpace object at 0x7f3d3438b438>' (9829685790.000000)
+2016-09-06 02:15:32,798 DEBUG demoted: 'apt-xapian-index gcc-4.8-base gcc-4.9-base libarchive-extract-perl libck-connector0 liblog-message-simple-perl libmodule-pluggable-perl libpod-latex-perl libterm-ui-perl libtext-soundex-perl module-init-tools python-cheetah python-debian w3m'
+2016-09-06 02:15:32,798 DEBUG found components: {'xenial': {'restricted', 'universe', 'multiverse', 'main'}, 'xenial-updates': {'restricted', 'universe', 'multiverse', 'main'}}
+2016-09-06 02:15:37,388 DEBUG disabling apt cron job (0o755)
+2016-09-06 02:18:02,173 DEBUG plugins for condition 'StartUpgrade' are '[]'
+2016-09-06 02:18:02,173 DEBUG plugins for condition 'xenialStartUpgrade' are '[]'
+2016-09-06 02:18:02,173 DEBUG plugins for condition 'from_trustyStartUpgrade' are '[]'
+2016-09-06 02:18:02,173 DEBUG quirks: running StartUpgrade
+2016-09-06 02:18:02,173 DEBUG skipping 'README' (no '.')
+2016-09-06 02:18:02,174 DEBUG killing update-notifier
+2016-09-06 02:18:02,179 DEBUG killing kblueplugd kbluetooth4
+2016-09-06 02:18:02,181 DEBUG killing gnome-screensaver
+2016-09-06 02:18:02,185 DEBUG apt btrfs snapshots supported: False
+2016-09-06 02:18:02,185 INFO cache.commit()
+2016-09-06 02:18:02,185 DEBUG failed to SystemUnLock() (E:Not locked) 
+2016-09-06 02:23:07,743 DEBUG cache.commit() returned None
+2016-09-06 02:23:07,745 DEBUG openCache()
+2016-09-06 02:23:07,745 DEBUG failed to SystemUnLock() (E:Not locked) 
+2016-09-06 02:23:08,490 DEBUG /openCache(), new cache size 54061
+2016-09-06 02:23:08,490 DEBUG plugins for condition 'PostUpgrade' are '[]'
+2016-09-06 02:23:08,490 DEBUG plugins for condition 'xenialPostUpgrade' are '[]'
+2016-09-06 02:23:08,490 DEBUG plugins for condition 'from_trustyPostUpgrade' are '[]'
+2016-09-06 02:23:10,744 DEBUG Obsolete: libapt-inst1.5 libapt-pkg4.12 libbind9-90 libboost-iostreams1.54.0 libcwidget3 libdns100 libept1.4.12 libgcrypt11 libgnutls26 libicu52 libisc95 libisccc90 libisccfg90 liblwres90 libparted0debian1 libplymouth2 libprocps3 librtmp0 libsigc++-2.0-0c2a libsystemd-daemon0 libsystemd-login0 libxtables10 linux-headers-3.13.0-92 linux-headers-3.13.0-92-generic linux-image-3.13.0-92-generic
+2016-09-06 02:23:10,744 DEBUG Foreign: 
+2016-09-06 02:23:10,744 DEBUG identifyObsoleteKernels()
+2016-09-06 02:23:16,361 DEBUG skipping running kernel linux-headers-3.13.0-92-generic
+2016-09-06 02:23:16,365 DEBUG skipping running kernel linux-image-3.13.0-92-generic
+2016-09-06 02:23:19,686 DEBUG identifyObsoleteKernels found 'set()'
+2016-09-06 02:23:19,686 DEBUG forced_obsoletes: []
+2016-09-06 02:23:20,465 DEBUG Unused dependencies: libboost-iostreams1.58.0
+2016-09-06 02:23:20,465 DEBUG remove_candidates: '{'libisc95', 'libbind9-90', 'libdns100', 'libapt-inst1.5', 'libplymouth2', 'libapt-pkg4.12', 'libgnutls26', 'libept1.4.12', 'libisccfg90', 'libisccc90', 'libprocps3', 'libcwidget3', 'linux-image-3.13.0-92-generic', 'libboost-iostreams1.58.0', 'libicu52', 'libsigc++-2.0-0c2a', 'libsystemd-daemon0', 'linux-headers-3.13.0-92', 'liblwres90', 'linux-headers-3.13.0-92-generic', 'libsystemd-login0', 'libgcrypt11', 'libparted0debian1', 'libboost-iostreams1.54.0', 'libxtables10', 'librtmp0'}'
+2016-09-06 02:23:20,465 DEBUG Start checking for obsolete pkgs
+2016-09-06 02:23:22,002 DEBUG skipping running kernel pkg 'linux-image-3.13.0-92-generic'
+2016-09-06 02:23:22,002 DEBUG 'linux-image-3.13.0-92-generic' scheduled for remove but not safe to remove, skipping
+2016-09-06 02:23:22,717 DEBUG skipping running kernel pkg 'linux-headers-3.13.0-92-generic'
+2016-09-06 02:23:22,718 DEBUG 'linux-headers-3.13.0-92-generic' scheduled for remove but not safe to remove, skipping
+2016-09-06 02:23:23,322 DEBUG Finish checking for obsolete pkgs
+2016-09-06 02:23:23,344 DEBUG The following packages are marked for removal: libept1.4.12 liblwres90 libsystemd-login0 libdns100 libisccfg90 libbind9-90 libcwidget3 libicu52 libsystemd-daemon0 linux-headers-3.13.0-92-generic libsigc++-2.0-0c2a libprocps3 libapt-inst1.5 librtmp0 libxtables10 libparted0debian1 libboost-iostreams1.54.0 libapt-pkg4.12 linux-headers-3.13.0-92 libplymouth2 libgnutls26 libboost-iostreams1.58.0 libisccc90 libgcrypt11 libisc95
+2016-09-06 02:23:26,263 INFO cache.commit()
+2016-09-06 02:23:32,790 DEBUG plugins for condition 'PostCleanup' are '[]'
+2016-09-06 02:23:32,791 DEBUG plugins for condition 'xenialPostCleanup' are '[]'
+2016-09-06 02:23:32,791 DEBUG plugins for condition 'from_trustyPostCleanup' are '[]'
+2016-09-06 02:23:32,791 DEBUG quirks: running PostCleanup
+2016-09-06 02:23:32,791 DEBUG running Quirks.PostCleanup
+2016-09-06 02:23:32,791 DEBUG Running PostInstallScript: './xorg_fix_proprietary.py'

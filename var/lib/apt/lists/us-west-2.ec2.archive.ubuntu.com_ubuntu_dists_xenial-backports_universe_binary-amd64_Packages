@@ -1,0 +1,84 @@
+Package: ansible
+Priority: optional
+Section: universe/admin
+Installed-Size: 8940
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Harlan Lieberman-Berg <hlieberman@debian.org>
+Architecture: all
+Version: 2.1.1.0-1~ubuntu16.04.1
+Depends: python-crypto (>= 2.6), python-jinja2, python-paramiko, python-pkg-resources, python-yaml, python:any (<< 2.8), python:any (>= 2.7.5-5~), python-httplib2, python-netaddr
+Recommends: python-selinux
+Suggests: sshpass
+Filename: pool/universe/a/ansible/ansible_2.1.1.0-1~ubuntu16.04.1_all.deb
+Size: 1248662
+MD5sum: c76f3adcb9c6e945dd389de216210d42
+SHA1: f699515b6c5d683a9a8e43be0804638dc4a50af1
+SHA256: 099d3a37bd53b16685726e43447bd9cf26977a9d3dd25816b64636520f05c778
+Description: Configuration management, deployment, and task execution system
+Homepage: http://ansible.com
+Description-md5: db2b21b0d2286fccc4401d5982361488
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: bsdcpio
+Priority: optional
+Section: universe/utils
+Installed-Size: 27
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Libarchive Maintainers <ah-libarchive@debian.org>
+Architecture: all
+Source: libarchive
+Version: 3.2.1-2~ubuntu16.04.1
+Depends: libarchive-tools (>= 3.2.1-2~ubuntu16.04.1)
+Filename: pool/universe/liba/libarchive/bsdcpio_3.2.1-2~ubuntu16.04.1_all.deb
+Size: 4174
+MD5sum: ecbaa11674093630618a924eaca8270f
+SHA1: a08ecc18bb2b380905cb891a447d9fca781be72f
+SHA256: c9620d3b62845bec1f1aef9525356d06c0cd7ac80dca54b66d9fa1af74bb7080
+Description: transitional dummy package for moving bsdcpio to libarchive-tools
+Homepage: http://www.libarchive.org/
+Description-md5: 0d0614fc5b8366385e38162f0cfff695
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: bsdtar
+Priority: optional
+Section: universe/utils
+Installed-Size: 27
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Libarchive Maintainers <ah-libarchive@debian.org>
+Architecture: all
+Source: libarchive
+Version: 3.2.1-2~ubuntu16.04.1
+Depends: libarchive-tools (>= 3.2.1-2~ubuntu16.04.1)
+Filename: pool/universe/liba/libarchive/bsdtar_3.2.1-2~ubuntu16.04.1_all.deb
+Size: 4162
+MD5sum: 21701ad94d8fb6932b644811eef413fa
+SHA1: 9d8ebe5c910a027ac9f4aade72c0f52dac1b36c4
+SHA256: f4f036088490d8650f66645168705d677c4f8d49cf24411fb520c603b1309c69
+Description: transitional dummy package for moving bsdtar to libarchive-tools
+Homepage: http://www.libarchive.org/
+Description-md5: 74b38cb72c3d7fd4cf1c23df80a00577
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libmustache-d-dev
+Priority: optional
+Section: universe/libdevel
+Installed-Size: 324
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klumpp <mak@debian.org>
+Architecture: amd64
+Source: mustache-d
+Version: 0.1.1-1~ubuntu16.04.1
+Filename: pool/universe/m/mustache-d/libmustache-d-dev_0.1.1-1~ubuntu16.04.1_amd64.deb
+Size: 40268
+MD5sum: 2ec288f2bfc5809f75221078075ef4c9
+SHA1: 9bec546cab81aad5441d496ee839c14225330c5e
+SHA256: 2bb296b318b786f6fa3cf9eb1d9ab7744aed397eaad5a2a0e6d470064b45f529
+Description: Mustache rendering engine for D
+Homepage: https://github.com/repeatedly/mustache-d
+Description-md5: dd778293605d48aeb3ccb2c396a14f94
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+

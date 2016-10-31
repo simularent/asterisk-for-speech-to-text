@@ -1,0 +1,6 @@
+7bbe06f8596885a3dcbb5cb38a3cb4e1  usr/bin/pod2latex
+65a979b5383f9c3590974951ecf8917c  usr/share/doc/libpod-latex-perl/changelog.Debian.gz
+ecd60b80dd182c11b54d89ab5a1555f1  usr/share/doc/libpod-latex-perl/copyright
+3ce096a29a1e8c353774b34b2b6e3b98  usr/share/man/man1/pod2latex.1p.gz
+99fc4c8164400d915b26647e6dbe5f40  usr/share/man/man3/Pod::LaTeX.3pm.gz
+02fcd739c8734f29285d265f9a422f9c  usr/share/perl5/Pod/LaTeX.pm

@@ -1,0 +1,6 @@
+734b8502ee99ccd7661ced36f5bc9ed9  usr/sbin/grub-set-default
+83ae71f93528c728208282e52be79d9d  usr/sbin/grub-set-default-legacy-ec2
+3ecf9d57106b1375f70d3466eac6a0b1  usr/sbin/update-grub-legacy-ec2
+dc4e198b7699520fc46b299c3a0d6193  usr/share/doc/grub-legacy-ec2/changelog.Debian.gz
+9cc60675266e3672d866f1d76ae683c7  usr/share/doc/grub-legacy-ec2/copyright
+5a4d039f753c29eff09e172d429cabf8  usr/share/lintian/overrides/grub-legacy-ec2

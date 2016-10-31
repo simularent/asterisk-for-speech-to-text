@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/man
+/usr/share/doc
+/usr/share/doc/libdumbnet1
+/usr/share/doc/libdumbnet1/copyright
+/usr/share/doc/libdumbnet1/README
+/usr/share/doc/libdumbnet1/README.Debian
+/usr/share/doc/libdumbnet1/TODO
+/usr/share/doc/libdumbnet1/changelog.Debian.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libdumbnet.la
+/usr/lib/x86_64-linux-gnu/libdumbnet.so.1.0.1
+/usr/lib/x86_64-linux-gnu/libdumbnet.so.1

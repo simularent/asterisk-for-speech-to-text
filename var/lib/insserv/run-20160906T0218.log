@@ -1,0 +1,164 @@
+info: Converting rc0.d/S* and rc6.d/S* to K*.
+info: running insserv
+insserv: warning: script 'friendly-recovery' missing LSB tags and overrides
+insserv: Default-Start undefined, assuming empty start runlevel(s) for script `friendly-recovery'
+insserv: Default-Stop  undefined, assuming empty stop  runlevel(s) for script `friendly-recovery'
+insserv: remove service /etc/init.d/../rc0.d/K59cryptdisks-early
+insserv: enable service ../init.d/cryptdisks-early -> /etc/init.d/../rc0.d/K08cryptdisks-early
+insserv: remove service /etc/init.d/../rc0.d/K38open-vm-tools
+insserv: enable service ../init.d/open-vm-tools -> /etc/init.d/../rc0.d/K01open-vm-tools
+insserv: remove service /etc/init.d/../rc0.d/K40umountfs
+insserv: enable service ../init.d/umountfs -> /etc/init.d/../rc0.d/K06umountfs
+insserv: remove service /etc/init.d/../rc0.d/K31umountnfs.sh
+insserv: enable service ../init.d/umountnfs.sh -> /etc/init.d/../rc0.d/K04umountnfs.sh
+insserv: remove service /etc/init.d/../rc0.d/K20sendsigs
+insserv: enable service ../init.d/sendsigs -> /etc/init.d/../rc0.d/K02sendsigs
+insserv: remove service /etc/init.d/../rc0.d/K60umountroot
+insserv: enable service ../init.d/umountroot -> /etc/init.d/../rc0.d/K09umountroot
+insserv: remove service /etc/init.d/../rc0.d/K90halt
+insserv: enable service ../init.d/halt -> /etc/init.d/../rc0.d/K10halt
+insserv: remove service /etc/init.d/../rc0.d/K30urandom
+insserv: enable service ../init.d/urandom -> /etc/init.d/../rc0.d/K01urandom
+insserv: remove service /etc/init.d/../rc0.d/K20screen-cleanup
+insserv: enable service ../init.d/screen-cleanup -> /etc/init.d/../rc0.d/K01screen-cleanup
+insserv: remove service /etc/init.d/../rc0.d/K10unattended-upgrades
+insserv: enable service ../init.d/unattended-upgrades -> /etc/init.d/../rc0.d/K01unattended-upgrades
+insserv: remove service /etc/init.d/../rc0.d/K20asterisk
+insserv: enable service ../init.d/asterisk -> /etc/init.d/../rc0.d/K01asterisk
+insserv: remove service /etc/init.d/../rc0.d/K20rsync
+insserv: enable service ../init.d/rsync -> /etc/init.d/../rc0.d/K01rsync
+insserv: remove service /etc/init.d/../rc0.d/K15landscape-client
+insserv: enable service ../init.d/landscape-client -> /etc/init.d/../rc0.d/K01landscape-client
+insserv: remove service /etc/init.d/../rc1.d/K38open-vm-tools
+insserv: enable service ../init.d/open-vm-tools -> /etc/init.d/../rc1.d/K01open-vm-tools
+insserv: remove service /etc/init.d/../rc1.d/K20screen-cleanup
+insserv: enable service ../init.d/screen-cleanup -> /etc/init.d/../rc1.d/K01screen-cleanup
+insserv: remove service /etc/init.d/../rc1.d/K20asterisk
+insserv: enable service ../init.d/asterisk -> /etc/init.d/../rc1.d/K01asterisk
+insserv: remove service /etc/init.d/../rc1.d/K20rsync
+insserv: enable service ../init.d/rsync -> /etc/init.d/../rc1.d/K01rsync
+insserv: remove service /etc/init.d/../rc1.d/K15landscape-client
+insserv: enable service ../init.d/landscape-client -> /etc/init.d/../rc1.d/K01landscape-client
+insserv: remove service /etc/init.d/../rc1.d/S90single
+insserv: enable service ../init.d/single -> /etc/init.d/../rc1.d/S02single
+insserv: remove service /etc/init.d/../rc1.d/S30killprocs
+insserv: enable service ../init.d/killprocs -> /etc/init.d/../rc1.d/S01killprocs
+insserv: remove service /etc/init.d/../rc1.d/S70pppd-dns
+insserv: enable service ../init.d/pppd-dns -> /etc/init.d/../rc1.d/S01pppd-dns
+insserv: remove service /etc/init.d/../rc1.d/S70dns-clean
+insserv: enable service ../init.d/dns-clean -> /etc/init.d/../rc1.d/S01dns-clean
+insserv: remove service /etc/init.d/../rc2.d/S38open-vm-tools
+insserv: enable service ../init.d/open-vm-tools -> /etc/init.d/../rc2.d/S01open-vm-tools
+insserv: remove service /etc/init.d/../rc2.d/S20screen-cleanup
+insserv: enable service ../init.d/screen-cleanup -> /etc/init.d/../rc2.d/S01screen-cleanup
+insserv: remove service /etc/init.d/../rc2.d/S20asterisk
+insserv: enable service ../init.d/asterisk -> /etc/init.d/../rc2.d/S02asterisk
+insserv: remove service /etc/init.d/../rc2.d/S20rsync
+insserv: enable service ../init.d/rsync -> /etc/init.d/../rc2.d/S02rsync
+insserv: remove service /etc/init.d/../rc2.d/S45landscape-client
+insserv: enable service ../init.d/landscape-client -> /etc/init.d/../rc2.d/S01landscape-client
+insserv: remove service /etc/init.d/../rc2.d/S70pppd-dns
+insserv: enable service ../init.d/pppd-dns -> /etc/init.d/../rc2.d/S01pppd-dns
+insserv: remove service /etc/init.d/../rc2.d/S70dns-clean
+insserv: enable service ../init.d/dns-clean -> /etc/init.d/../rc2.d/S01dns-clean
+insserv: remove service /etc/init.d/../rc2.d/S99ondemand
+insserv: enable service ../init.d/ondemand -> /etc/init.d/../rc2.d/S03ondemand
+insserv: remove service /etc/init.d/../rc2.d/S99rc.local
+insserv: enable service ../init.d/rc.local -> /etc/init.d/../rc2.d/S03rc.local
+insserv: remove service /etc/init.d/../rc2.d/S99grub-common
+insserv: enable service ../init.d/grub-common -> /etc/init.d/../rc2.d/S03grub-common
+insserv: remove service /etc/init.d/../rc3.d/S38open-vm-tools
+insserv: enable service ../init.d/open-vm-tools -> /etc/init.d/../rc3.d/S01open-vm-tools
+insserv: remove service /etc/init.d/../rc3.d/S20screen-cleanup
+insserv: enable service ../init.d/screen-cleanup -> /etc/init.d/../rc3.d/S01screen-cleanup
+insserv: remove service /etc/init.d/../rc3.d/S20asterisk
+insserv: enable service ../init.d/asterisk -> /etc/init.d/../rc3.d/S02asterisk
+insserv: remove service /etc/init.d/../rc3.d/S20rsync
+insserv: enable service ../init.d/rsync -> /etc/init.d/../rc3.d/S02rsync
+insserv: remove service /etc/init.d/../rc3.d/S45landscape-client
+insserv: enable service ../init.d/landscape-client -> /etc/init.d/../rc3.d/S01landscape-client
+insserv: remove service /etc/init.d/../rc3.d/S70pppd-dns
+insserv: enable service ../init.d/pppd-dns -> /etc/init.d/../rc3.d/S01pppd-dns
+insserv: remove service /etc/init.d/../rc3.d/S70dns-clean
+insserv: enable service ../init.d/dns-clean -> /etc/init.d/../rc3.d/S01dns-clean
+insserv: remove service /etc/init.d/../rc3.d/S99ondemand
+insserv: enable service ../init.d/ondemand -> /etc/init.d/../rc3.d/S03ondemand
+insserv: remove service /etc/init.d/../rc3.d/S99rc.local
+insserv: enable service ../init.d/rc.local -> /etc/init.d/../rc3.d/S03rc.local
+insserv: remove service /etc/init.d/../rc3.d/S99grub-common
+insserv: enable service ../init.d/grub-common -> /etc/init.d/../rc3.d/S03grub-common
+insserv: remove service /etc/init.d/../rc4.d/S38open-vm-tools
+insserv: enable service ../init.d/open-vm-tools -> /etc/init.d/../rc4.d/S01open-vm-tools
+insserv: remove service /etc/init.d/../rc4.d/S20screen-cleanup
+insserv: enable service ../init.d/screen-cleanup -> /etc/init.d/../rc4.d/S01screen-cleanup
+insserv: remove service /etc/init.d/../rc4.d/S20asterisk
+insserv: enable service ../init.d/asterisk -> /etc/init.d/../rc4.d/S02asterisk
+insserv: remove service /etc/init.d/../rc4.d/S20rsync
+insserv: enable service ../init.d/rsync -> /etc/init.d/../rc4.d/S02rsync
+insserv: remove service /etc/init.d/../rc4.d/S45landscape-client
+insserv: enable service ../init.d/landscape-client -> /etc/init.d/../rc4.d/S01landscape-client
+insserv: remove service /etc/init.d/../rc4.d/S70pppd-dns
+insserv: enable service ../init.d/pppd-dns -> /etc/init.d/../rc4.d/S01pppd-dns
+insserv: remove service /etc/init.d/../rc4.d/S70dns-clean
+insserv: enable service ../init.d/dns-clean -> /etc/init.d/../rc4.d/S01dns-clean
+insserv: remove service /etc/init.d/../rc4.d/S99ondemand
+insserv: enable service ../init.d/ondemand -> /etc/init.d/../rc4.d/S03ondemand
+insserv: remove service /etc/init.d/../rc4.d/S99rc.local
+insserv: enable service ../init.d/rc.local -> /etc/init.d/../rc4.d/S03rc.local
+insserv: remove service /etc/init.d/../rc4.d/S99grub-common
+insserv: enable service ../init.d/grub-common -> /etc/init.d/../rc4.d/S03grub-common
+insserv: remove service /etc/init.d/../rc5.d/S38open-vm-tools
+insserv: enable service ../init.d/open-vm-tools -> /etc/init.d/../rc5.d/S01open-vm-tools
+insserv: remove service /etc/init.d/../rc5.d/S20screen-cleanup
+insserv: enable service ../init.d/screen-cleanup -> /etc/init.d/../rc5.d/S01screen-cleanup
+insserv: remove service /etc/init.d/../rc5.d/S20asterisk
+insserv: enable service ../init.d/asterisk -> /etc/init.d/../rc5.d/S02asterisk
+insserv: remove service /etc/init.d/../rc5.d/S20rsync
+insserv: enable service ../init.d/rsync -> /etc/init.d/../rc5.d/S02rsync
+insserv: remove service /etc/init.d/../rc5.d/S45landscape-client
+insserv: enable service ../init.d/landscape-client -> /etc/init.d/../rc5.d/S01landscape-client
+insserv: remove service /etc/init.d/../rc5.d/S70pppd-dns
+insserv: enable service ../init.d/pppd-dns -> /etc/init.d/../rc5.d/S01pppd-dns
+insserv: remove service /etc/init.d/../rc5.d/S70dns-clean
+insserv: enable service ../init.d/dns-clean -> /etc/init.d/../rc5.d/S01dns-clean
+insserv: remove service /etc/init.d/../rc5.d/S99ondemand
+insserv: enable service ../init.d/ondemand -> /etc/init.d/../rc5.d/S03ondemand
+insserv: remove service /etc/init.d/../rc5.d/S99rc.local
+insserv: enable service ../init.d/rc.local -> /etc/init.d/../rc5.d/S03rc.local
+insserv: remove service /etc/init.d/../rc5.d/S99grub-common
+insserv: enable service ../init.d/grub-common -> /etc/init.d/../rc5.d/S03grub-common
+insserv: remove service /etc/init.d/../rc6.d/K59cryptdisks-early
+insserv: enable service ../init.d/cryptdisks-early -> /etc/init.d/../rc6.d/K08cryptdisks-early
+insserv: remove service /etc/init.d/../rc6.d/K38open-vm-tools
+insserv: enable service ../init.d/open-vm-tools -> /etc/init.d/../rc6.d/K01open-vm-tools
+insserv: remove service /etc/init.d/../rc6.d/K40umountfs
+insserv: enable service ../init.d/umountfs -> /etc/init.d/../rc6.d/K06umountfs
+insserv: remove service /etc/init.d/../rc6.d/K31umountnfs.sh
+insserv: enable service ../init.d/umountnfs.sh -> /etc/init.d/../rc6.d/K04umountnfs.sh
+insserv: remove service /etc/init.d/../rc6.d/K20sendsigs
+insserv: enable service ../init.d/sendsigs -> /etc/init.d/../rc6.d/K02sendsigs
+insserv: remove service /etc/init.d/../rc6.d/K60umountroot
+insserv: enable service ../init.d/umountroot -> /etc/init.d/../rc6.d/K09umountroot
+insserv: remove service /etc/init.d/../rc6.d/K90reboot
+insserv: enable service ../init.d/reboot -> /etc/init.d/../rc6.d/K10reboot
+insserv: remove service /etc/init.d/../rc6.d/K30urandom
+insserv: enable service ../init.d/urandom -> /etc/init.d/../rc6.d/K01urandom
+insserv: remove service /etc/init.d/../rc6.d/K20screen-cleanup
+insserv: enable service ../init.d/screen-cleanup -> /etc/init.d/../rc6.d/K01screen-cleanup
+insserv: remove service /etc/init.d/../rc6.d/K10unattended-upgrades
+insserv: enable service ../init.d/unattended-upgrades -> /etc/init.d/../rc6.d/K01unattended-upgrades
+insserv: remove service /etc/init.d/../rc6.d/K20asterisk
+insserv: enable service ../init.d/asterisk -> /etc/init.d/../rc6.d/K01asterisk
+insserv: remove service /etc/init.d/../rc6.d/K20rsync
+insserv: enable service ../init.d/rsync -> /etc/init.d/../rc6.d/K01rsync
+insserv: remove service /etc/init.d/../rc6.d/K15landscape-client
+insserv: enable service ../init.d/landscape-client -> /etc/init.d/../rc6.d/K01landscape-client
+insserv: remove service /etc/init.d/../rcS.d/S26cryptdisks-early
+insserv: enable service ../init.d/cryptdisks-early -> /etc/init.d/../rcS.d/S03cryptdisks-early
+insserv: remove service /etc/init.d/../rcS.d/S55urandom
+insserv: enable service ../init.d/urandom -> /etc/init.d/../rcS.d/S04urandom
+insserv: remove service /etc/init.d/../rcS.d/S37apparmor
+insserv: enable service ../init.d/apparmor -> /etc/init.d/../rcS.d/S04apparmor
+insserv: creating .depend.boot
+insserv: creating .depend.start
+insserv: creating .depend.stop

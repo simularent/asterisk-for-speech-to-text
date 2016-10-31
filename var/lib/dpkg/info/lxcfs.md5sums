@@ -1,0 +1,10 @@
+9e15aa3f9cece6dd6660abbdb19312aa  lib/systemd/system/lxcfs.service
+3f63b5af375cacb8ff5091c4a02b3c6f  usr/bin/lxcfs
+20a475fd476cb86c871e0eba8307dc2a  usr/lib/lxcfs/liblxcfs.so
+fa7b4cff6fda4146dbeeb683d471f61e  usr/share/doc/lxcfs/README.Debian
+de43aaa97604c8f7530c2774e1cfa319  usr/share/doc/lxcfs/changelog.Debian.gz
+b59bf2317ac9e1c4c6af88398ce21420  usr/share/doc/lxcfs/copyright
+f2a9b7b25e456d792b469c5c48ea3b99  usr/share/lxc/config/common.conf.d/00-lxcfs.conf
+4b4ad1b339ba0d3a8934a1091479afeb  usr/share/lxcfs/lxc.mount.hook
+94af5da5a6effb89a5154ee5125cac9f  usr/share/lxcfs/lxc.reboot.hook
+d82937b312769f07e75fd54b4802b969  usr/share/man/man1/lxcfs.1.gz

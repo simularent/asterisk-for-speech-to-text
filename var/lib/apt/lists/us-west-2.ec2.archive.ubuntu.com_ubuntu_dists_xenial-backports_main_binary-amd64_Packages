@@ -1,0 +1,206 @@
+Package: autopkgtest
+Priority: optional
+Section: devel
+Installed-Size: 532
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Autopkgtest team <autopkgtest-devel@lists.alioth.debian.org>
+Architecture: all
+Version: 4.0.5~ubuntu16.04.1
+Depends: python3, python3-debian, apt-utils, libdpkg-perl, procps
+Recommends: autodep8
+Suggests: schroot, lxc, lxd-client, qemu-system, qemu-utils
+Filename: pool/main/a/autopkgtest/autopkgtest_4.0.5~ubuntu16.04.1_all.deb
+Size: 131554
+MD5sum: c3a65929846de2e80a91a55db37834ce
+SHA1: 009139c30cdfc62a91dd5536d20af586fe75a1fa
+SHA256: eb9f90762cefd2e7b31b7dbe29f7f9d86d27b18f53d72f6029b13bcc3c04e739
+Description: automatic as-installed testing for Debian packages
+Description-md5: 31d9217a487d44cfd80f0588068648cd
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: golang-github-lxc-lxd-dev
+Priority: optional
+Section: admin
+Installed-Size: 1265
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Source: lxd
+Version: 2.5-0ubuntu1~ubuntu16.04.2
+Depends: golang-go, lxc-dev, pkg-config
+Filename: pool/main/l/lxd/golang-github-lxc-lxd-dev_2.5-0ubuntu1~ubuntu16.04.2_all.deb
+Size: 214574
+MD5sum: 662be17b4a54e4fafe66a209f6c641f5
+SHA1: 80be3595bf63bc5818525facaed594a4fd48d57c
+SHA256: 729d59bf173ca02ad9043f16ef6d15d55965276c8ab070c65ee3b4682a5c68d8
+Description: Container hypervisor based on LXC - go source
+Homepage: https://linuxcontainers.org/
+Description-md5: bf546539c311f366eeb0ad488709554f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: libarchive-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 1580
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Libarchive Maintainers <ah-libarchive@debian.org>
+Architecture: amd64
+Source: libarchive
+Version: 3.2.1-2~ubuntu16.04.1
+Depends: libarchive13 (= 3.2.1-2~ubuntu16.04.1)
+Filename: pool/main/liba/libarchive/libarchive-dev_3.2.1-2~ubuntu16.04.1_amd64.deb
+Size: 465384
+MD5sum: bfc25ce9ea5971834c0d608f11322281
+SHA1: a92d3dd052771b6d14309c0fdb11b2e32aeaa567
+SHA256: 174f76ee38e84dbf71ad26526c9d50a2c1d8b823a1a51494eff0d8c5446b9cad
+Description: Multi-format archive and compression library (development files)
+Multi-Arch: same
+Homepage: http://www.libarchive.org/
+Description-md5: 4fedaf2f347af4287edce946b56ba586
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: libarchive-tools
+Priority: optional
+Section: utils
+Installed-Size: 176
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Libarchive Maintainers <ah-libarchive@debian.org>
+Architecture: amd64
+Source: libarchive
+Version: 3.2.1-2~ubuntu16.04.1
+Replaces: bsdcpio (<< 3.2.1-2~), bsdtar (<< 3.2.1-2~)
+Depends: libarchive13 (= 3.2.1-2~ubuntu16.04.1), libc6 (>= 2.14)
+Breaks: bsdcpio (<< 3.2.1-2~), bsdtar (<< 3.2.1-2~)
+Filename: pool/main/liba/libarchive/libarchive-tools_3.2.1-2~ubuntu16.04.1_amd64.deb
+Size: 68188
+MD5sum: 4b09a7c24651fe1f3a9d263c0969e507
+SHA1: a537426eb382ce2036749add1746ad4b7b9ad118
+SHA256: 216c0de76ae4b182e66c4613e954fe39aafbf4380fcc3ce79824781f5618c593
+Description: FreeBSD implementations of 'tar' and 'cpio' and other archive tools
+Homepage: http://www.libarchive.org/
+Description-md5: 04bbebb441868f4c976e664833572c46
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libarchive13
+Priority: optional
+Section: libs
+Installed-Size: 732
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Libarchive Maintainers <ah-libarchive@debian.org>
+Architecture: amd64
+Source: libarchive
+Version: 3.2.1-2~ubuntu16.04.1
+Depends: libacl1 (>= 2.2.51-8), libbz2-1.0, libc6 (>= 2.16), liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.1.1alpha+20120614), liblzo2-2, libnettle6, libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
+Suggests: lrzip
+Filename: pool/main/liba/libarchive/libarchive13_3.2.1-2~ubuntu16.04.1_amd64.deb
+Size: 282860
+MD5sum: 2d98a284b18da7a1a407b9ef316437de
+SHA1: f2be7b4b3d0341067e43eb9343f9c2dc6bff53ce
+SHA256: 2c8cc6ea375376947b550a4d738068217e1abf41a26582a3b6f00c10bce92443
+Description: Multi-format archive and compression library (shared library)
+Multi-Arch: same
+Homepage: http://www.libarchive.org/
+Description-md5: 3efebf57a3d06179c6d5746db080711f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, samba-server, kubuntu-desktop, edubuntu-desktop, edubuntu-usb, xubuntu-core, xubuntu-desktop, mythbuntu-desktop, lubuntu-core, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntu-sdk-libs-tools, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+
+Package: lxc2
+Priority: extra
+Section: metapackages
+Installed-Size: 41
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Source: lxd
+Version: 2.5-0ubuntu1~ubuntu16.04.2
+Depends: lxd, lxd-client
+Filename: pool/main/l/lxd/lxc2_2.5-0ubuntu1~ubuntu16.04.2_all.deb
+Size: 4040
+MD5sum: b2417decab8b1625db263a2b38d44bda
+SHA1: 271cb53b65455e0cef6a13095d4fa723812ac43b
+SHA256: e72af3577bfc5808d3fdb1acce989bd8c6d238164e092d836d0db63268021780
+Description: Container hypervisor based on LXC - metapackage
+Homepage: https://linuxcontainers.org/
+Description-md5: 16aa6b32a6decc4b676db644304f6925
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: lxd
+Priority: optional
+Section: admin
+Installed-Size: 12727
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 2.5-0ubuntu1~ubuntu16.04.2
+Depends: acl, adduser, dnsmasq-base, ebtables, iptables, liblxc1 (>= 2.0.0~), lsb-base (>= 4.1+Debian11ubuntu7), lxd-client (= 2.5-0ubuntu1~ubuntu16.04.2), lxcfs, rsync, squashfs-tools, uidmap, xz-utils, init-system-helpers (>= 1.18~), libc6 (>= 2.14)
+Suggests: criu, lxd-tools
+Filename: pool/main/l/lxd/lxd_2.5-0ubuntu1~ubuntu16.04.2_amd64.deb
+Size: 3037486
+MD5sum: 4b7bab777209d7a1bf6089f404b384fa
+SHA1: 1ffbb46192616d17377190450d6ad9dadc779725
+SHA256: d0132e9bbb3b2ca0cea1c1068fa4d3b3311428df7e773af322f71580f9369403
+Description: Container hypervisor based on LXC - daemon
+Built-Using: golang-1.6 (= 1.6.2-0ubuntu5~16.04), golang-defaults (= 2:1.6-1ubuntu4)
+Homepage: https://linuxcontainers.org/
+Description-md5: aae21ff20f4cc6a1e21b22e39cdd87bf
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: cloud-image, server
+
+Package: lxd-client
+Priority: optional
+Section: admin
+Installed-Size: 8262
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: lxd
+Version: 2.5-0ubuntu1~ubuntu16.04.2
+Replaces: lxc1 (<= 2.0.0~rc13-0ubuntu2~)
+Depends: libc6 (>= 2.9)
+Suggests: lxd
+Breaks: lxc1 (<= 2.0.0~rc13-0ubuntu2~)
+Filename: pool/main/l/lxd/lxd-client_2.5-0ubuntu1~ubuntu16.04.2_amd64.deb
+Size: 1889372
+MD5sum: bb7ce9c317bb043ff0f8e3f4557dad6c
+SHA1: 02a3fa3f3e274234b20c5b0f09734f1abf3561b6
+SHA256: 136f71aa88c226242b0022cd039178078d7f74c917bcd2aee9d92d14a55528f8
+Description: Container hypervisor based on LXC - client
+Built-Using: golang-1.6 (= 1.6.2-0ubuntu5~16.04), golang-defaults (= 2:1.6-1ubuntu4)
+Homepage: https://linuxcontainers.org/
+Description-md5: c5f7d80cfd076c2db1400c3ee9b9332f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: cloud-image, server
+
+Package: lxd-tools
+Priority: optional
+Section: admin
+Installed-Size: 5858
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: lxd
+Version: 2.5-0ubuntu1~ubuntu16.04.2
+Depends: libc6 (>= 2.9)
+Filename: pool/main/l/lxd/lxd-tools_2.5-0ubuntu1~ubuntu16.04.2_amd64.deb
+Size: 1361198
+MD5sum: 3e190d57c854c61a35d3fd34914910c0
+SHA1: 752ba667e9d415812ef01862ac7bc743f6806bd8
+SHA256: 5f36d523d23ae9599373db15c7ddd70b460c765f74ea9b4f454f9408f1a4ea3d
+Description: Container hypervisor based on LXC - extra tools
+Built-Using: golang-1.6 (= 1.6.2-0ubuntu5~16.04), golang-defaults (= 2:1.6-1ubuntu4)
+Homepage: https://linuxcontainers.org/
+Description-md5: 1a9559067df933dcdc0a247f80f45ba8
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+

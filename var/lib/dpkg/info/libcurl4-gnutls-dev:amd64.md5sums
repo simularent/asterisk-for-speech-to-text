@@ -1,0 +1,16 @@
+341ee0a60756d35188822b192b0cce70  usr/bin/curl-config
+cdc60047b8cc7b6b36adeeffa64e03a3  usr/include/curl/curl.h
+372a2ee5d74733b17722df067f388c34  usr/include/curl/curlbuild.h
+b941ebb903de1b53d0d2ec084cdb0bf0  usr/include/curl/curlrules.h
+490435719d1d70e4fdfacc4d10a6596e  usr/include/curl/curlver.h
+0bacb9036436a91bf66c007a56a2f9b9  usr/include/curl/easy.h
+5b3d90f1a667351015ea7123945ceabc  usr/include/curl/mprintf.h
+6c55937b460ea846c417db9ac20e56a4  usr/include/curl/multi.h
+18c029ed6fdad0ce85ac094ca2841515  usr/include/curl/stdcheaders.h
+7ab986f220363371c96cff33544a1385  usr/include/curl/typecheck-gcc.h
+9de4bac48f03cd963a08ba94fa7e3ae1  usr/lib/x86_64-linux-gnu/libcurl-gnutls.a
+0a1b68ed46384b18044f355e56890288  usr/lib/x86_64-linux-gnu/libcurl-gnutls.la
+b9aeb5bc5a48892ad030c2ab015daeaf  usr/lib/x86_64-linux-gnu/pkgconfig/libcurl.pc
+39863e129e88b53ba61340e53ad595b1  usr/share/aclocal/libcurl.m4
+3f4cb3f3658c54248e1c991eef8bd23c  usr/share/doc/libcurl4-gnutls-dev/copyright
+5fc7a114a2566975ab9491dfc4c1af61  usr/share/man/man1/curl-config.1.gz

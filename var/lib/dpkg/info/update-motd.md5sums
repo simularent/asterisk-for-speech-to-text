@@ -1,0 +1,6 @@
+5aedb7e0c4d3627f3a2b4c43bef3ab78  usr/sbin/update-motd
+ece1cf3c980934ad939ed4bdda978ea3  usr/share/doc/update-motd/README
+37e2c0055ad1f28348608c1c5b265080  usr/share/doc/update-motd/THANKS
+1b8cfc54eda0054de98b17a43475e8ee  usr/share/doc/update-motd/changelog.Debian.gz
+90082868d192fb1ad017b80ff48c03cc  usr/share/doc/update-motd/copyright
+45edb923e953143d65a6d93d27a8d108  usr/share/man/man8/update-motd.8.gz

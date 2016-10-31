@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/python-twisted-names
+/usr/share/doc/python-twisted-names/howto
+/usr/share/doc/python-twisted-names/howto/names.html
+/usr/share/doc/python-twisted-names/howto/index.html
+/usr/share/doc/python-twisted-names/howto/client-tour.html
+/usr/share/doc/python-twisted-names/howto/custom-server.html
+/usr/share/doc/python-twisted-names/NEWS.gz
+/usr/share/doc/python-twisted-names/examples
+/usr/share/doc/python-twisted-names/examples/index.html
+/usr/share/doc/python-twisted-names/copyright
+/usr/share/doc/python-twisted-names/README
+/usr/share/doc/python-twisted-names/changelog.Debian.gz

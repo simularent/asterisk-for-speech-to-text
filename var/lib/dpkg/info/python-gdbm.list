@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/python-gdbm
+/usr/share/doc
+/usr/share/doc/python-gdbm
+/usr/share/doc/python-gdbm/README.Debian
+/usr/share/doc/python-gdbm/copyright
+/usr/share/doc/python-gdbm/changelog.Debian.gz
+/usr/lib
+/usr/lib/python2.7
+/usr/lib/python2.7/lib-dynload
+/usr/lib/python2.7/lib-dynload/gdbm.so

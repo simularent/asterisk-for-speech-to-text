@@ -1,0 +1,5 @@
+5a2a897a380f1c79b9be23e7a05764f5  usr/lib/x86_64-linux-gnu/liblxc.so.1.2.0
+231430e3fbb65cc088c9f300b62b6fb5  usr/lib/x86_64-linux-gnu/lxc/README
+86d820ed4c842393f642522525b4d305  usr/share/doc/liblxc1/changelog.Debian.gz
+f0a403189ad4035f9155e9024118794d  usr/share/doc/liblxc1/copyright
+ffbde57031ff5c278fbc98a079867be5  usr/share/lintian/overrides/liblxc1

@@ -1,0 +1,156 @@
+Cloud-init v. 0.7.5 running 'init-local' at Mon, 05 Sep 2016 23:57:04 +0000. Up 5.94 seconds.
+Cloud-init v. 0.7.5 running 'init' at Mon, 05 Sep 2016 23:57:06 +0000. Up 8.16 seconds.
+ci-info: +++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++
+ci-info: +--------+------+---------------+---------------+-------------------+
+ci-info: | Device |  Up  |    Address    |      Mask     |     Hw-Address    |
+ci-info: +--------+------+---------------+---------------+-------------------+
+ci-info: |   lo   | True |   127.0.0.1   |   255.0.0.0   |         .         |
+ci-info: |  eth0  | True | 172.31.36.132 | 255.255.240.0 | 06:56:1b:9d:f4:4d |
+ci-info: +--------+------+---------------+---------------+-------------------+
+ci-info: +++++++++++++++++++++++++++++++Route info++++++++++++++++++++++++++++++++
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+ci-info: | Route | Destination |   Gateway   |    Genmask    | Interface | Flags |
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 172.31.32.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   | 172.31.32.0 |   0.0.0.0   | 255.255.240.0 |    eth0   |   U   |
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub.
+The key fingerprint is:
+c0:04:78:d2:e7:4e:26:59:39:64:91:3f:55:87:75:a4 root@ip-172-31-36-132
+The key's randomart image is:
++--[ RSA 2048]----+
+|   o.o=+   ..oo.o|
+|  o o+*   . .. o |
+|   o =oo .    E  |
+|    o +.o        |
+|     =  S.       |
+|      .          |
+|                 |
+|                 |
+|                 |
++-----------------+
+Generating public/private dsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_dsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_dsa_key.pub.
+The key fingerprint is:
+5d:4b:e2:1f:ce:4b:09:93:c0:56:61:bb:51:d0:e3:f5 root@ip-172-31-36-132
+The key's randomart image is:
++--[ DSA 1024]----+
+|          =+.    |
+|       . o oo .  |
+|        + +.oo . |
+|       . + B..  E|
+|        S B o    |
+|           * o   |
+|            *    |
+|           . .   |
+|            .    |
++-----------------+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub.
+The key fingerprint is:
+7a:b2:27:4d:79:f5:67:e7:15:57:04:3f:3e:e5:c6:e4 root@ip-172-31-36-132
+The key's randomart image is:
++--[ECDSA  256]---+
+|              .o.|
+|               ..|
+|               .=|
+|            . .*+|
+|        S. . . oE|
+|       .o .   ..*|
+|      oo..     +o|
+|      .+o       .|
+|      .o         |
++-----------------+
+Generating public/private ed25519 key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ed25519_key.
+Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub.
+The key fingerprint is:
+87:d5:c4:44:97:e7:32:c4:cc:97:e8:d5:f0:21:72:30 root@ip-172-31-36-132
+The key's randomart image is:
++--[ED25519  256--+
+|           E=*++o|
+|           o=oB+=|
+|          . o..+.|
+|         o   .o .|
+|        S .    o |
+|         .       |
+|                 |
+|                 |
+|                 |
++-----------------+
+Cloud-init v. 0.7.5 running 'modules:config' at Mon, 05 Sep 2016 23:57:10 +0000. Up 12.03 seconds.
+Generating locales...
+  en_US.UTF-8... up-to-date
+Generation complete.
+Cloud-init v. 0.7.5 running 'modules:final' at Mon, 05 Sep 2016 23:57:12 +0000. Up 14.20 seconds.
+Cloud-init v. 0.7.5 finished at Mon, 05 Sep 2016 23:57:12 +0000. Datasource DataSourceEc2.  Up 14.37 seconds
+Cloud-init v. 0.7.7 running 'single' at Tue, 06 Sep 2016 02:22:45 +0000. Up 8747.46 seconds.
+Cloud-init v. 0.7.7 running 'init-local' at Tue, 06 Sep 2016 02:24:28 +0000. Up 6.37 seconds.
+Cloud-init v. 0.7.7 running 'init' at Tue, 06 Sep 2016 02:24:58 +0000. Up 36.83 seconds.
+ci-info: ++++++++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+-----------------------------+---------------+-------+-------------------+
+ci-info: | Device |  Up  |           Address           |      Mask     | Scope |     Hw-Address    |
+ci-info: +--------+------+-----------------------------+---------------+-------+-------------------+
+ci-info: |   lo   | True |          127.0.0.1          |   255.0.0.0   |   .   |         .         |
+ci-info: |   lo   | True |           ::1/128           |       .       |  host |         .         |
+ci-info: |  eth0  | True |        172.31.36.132        | 255.255.240.0 |   .   | 06:56:1b:9d:f4:4d |
+ci-info: |  eth0  | True | fe80::456:1bff:fe9d:f44d/64 |       .       |  link | 06:56:1b:9d:f4:4d |
+ci-info: +--------+------+-----------------------------+---------------+-------+-------------------+
+ci-info: +++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+ci-info: | Route | Destination |   Gateway   |    Genmask    | Interface | Flags |
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 172.31.32.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   | 172.31.32.0 |   0.0.0.0   | 255.255.240.0 |    eth0   |   U   |
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+Cloud-init v. 0.7.7 running 'modules:config' at Tue, 06 Sep 2016 02:25:00 +0000. Up 38.46 seconds.
+Cloud-init v. 0.7.7 running 'modules:final' at Tue, 06 Sep 2016 02:25:01 +0000. Up 39.23 seconds.
+Cloud-init v. 0.7.7 finished at Tue, 06 Sep 2016 02:25:01 +0000. Datasource DataSourceEc2.  Up 39.39 seconds
+Cloud-init v. 0.7.7 running 'init-local' at Thu, 15 Sep 2016 20:23:05 +0000. Up 6.00 seconds.
+Cloud-init v. 0.7.7 running 'init' at Thu, 15 Sep 2016 20:23:37 +0000. Up 37.03 seconds.
+ci-info: ++++++++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+-----------------------------+---------------+-------+-------------------+
+ci-info: | Device |  Up  |           Address           |      Mask     | Scope |     Hw-Address    |
+ci-info: +--------+------+-----------------------------+---------------+-------+-------------------+
+ci-info: |   lo   | True |          127.0.0.1          |   255.0.0.0   |   .   |         .         |
+ci-info: |   lo   | True |           ::1/128           |       .       |  host |         .         |
+ci-info: |  eth0  | True |        172.31.36.132        | 255.255.240.0 |   .   | 06:56:1b:9d:f4:4d |
+ci-info: |  eth0  | True | fe80::456:1bff:fe9d:f44d/64 |       .       |  link | 06:56:1b:9d:f4:4d |
+ci-info: +--------+------+-----------------------------+---------------+-------+-------------------+
+ci-info: +++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+ci-info: | Route | Destination |   Gateway   |    Genmask    | Interface | Flags |
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 172.31.32.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   | 172.31.32.0 |   0.0.0.0   | 255.255.240.0 |    eth0   |   U   |
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+Cloud-init v. 0.7.7 running 'modules:config' at Thu, 15 Sep 2016 20:23:39 +0000. Up 38.77 seconds.
+Cloud-init v. 0.7.7 running 'modules:final' at Thu, 15 Sep 2016 20:23:40 +0000. Up 39.45 seconds.
+Cloud-init v. 0.7.7 finished at Thu, 15 Sep 2016 20:23:40 +0000. Datasource DataSourceEc2.  Up 39.56 seconds
+Cloud-init v. 0.7.8 running 'single' at Fri, 23 Sep 2016 20:49:09 +0000. Up 692768.51 seconds.
+Cloud-init v. 0.7.8 running 'init-local' at Tue, 11 Oct 2016 18:05:51 +0000. Up 5.46 seconds.
+Cloud-init v. 0.7.8 running 'init' at Tue, 11 Oct 2016 18:06:21 +0000. Up 35.31 seconds.
+ci-info: ++++++++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+-----------------------------+---------------+-------+-------------------+
+ci-info: | Device |  Up  |           Address           |      Mask     | Scope |     Hw-Address    |
+ci-info: +--------+------+-----------------------------+---------------+-------+-------------------+
+ci-info: |   lo   | True |          127.0.0.1          |   255.0.0.0   |   .   |         .         |
+ci-info: |   lo   | True |           ::1/128           |       .       |  host |         .         |
+ci-info: |  eth0  | True |        172.31.36.132        | 255.255.240.0 |   .   | 06:56:1b:9d:f4:4d |
+ci-info: |  eth0  | True | fe80::456:1bff:fe9d:f44d/64 |       .       |  link | 06:56:1b:9d:f4:4d |
+ci-info: +--------+------+-----------------------------+---------------+-------+-------------------+
+ci-info: +++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+ci-info: | Route | Destination |   Gateway   |    Genmask    | Interface | Flags |
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 172.31.32.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   | 172.31.32.0 |   0.0.0.0   | 255.255.240.0 |    eth0   |   U   |
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+Cloud-init v. 0.7.8 running 'modules:config' at Tue, 11 Oct 2016 18:06:22 +0000. Up 36.92 seconds.
+Cloud-init v. 0.7.8 running 'modules:final' at Tue, 11 Oct 2016 18:06:23 +0000. Up 37.54 seconds.
+Cloud-init v. 0.7.8 finished at Tue, 11 Oct 2016 18:06:23 +0000. Datasource DataSourceEc2.  Up 37.68 seconds
+Cloud-init v. 0.7.8 running 'single' at Mon, 17 Oct 2016 16:04:10 +0000. Up 511104.35 seconds.

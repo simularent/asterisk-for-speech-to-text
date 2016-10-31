@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: sosreport
+Version: 3.2.0a1
+Summary: Set of tools to gather troubleshooting data
+      from a system Sos is a set of tools that gathers information about system 
+      hardware and configuration. The information can then be used for
+      diagnostic purposes and debugging. Sos is commonly used to help
+      support technicians and developers.
+Home-page: https://github.com/sosreport/sos
+Author: Bryn M. Reeves
+Author-email: bmr@redhat.com
+License: GPLv2+
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: six

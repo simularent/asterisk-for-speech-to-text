@@ -1,0 +1,18 @@
+;
+; Message Information file
+;
+[message]
+origmailbox=1234
+context=public
+macrocontext=
+exten=1235
+rdnis=unknown
+priority=1
+callerchan=SIP/50.112.48.21-00000009
+callerid="1235" <1235>
+origdate=Wed Sep  7 11:40:35 PM UTC 2016
+origtime=1473291634
+category=
+msg_id=1473291634-00000006
+flag=
+duration=0
