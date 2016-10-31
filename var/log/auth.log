@@ -1055,3 +1055,5 @@ Oct 30 23:45:54 localhost sshd[8716]: Invalid user support from 27.72.40.15
 Oct 30 23:45:54 localhost sshd[8716]: input_userauth_request: invalid user support [preauth]
 Oct 30 23:45:54 localhost sshd[8716]: error: Received disconnect from 27.72.40.15 port 3307:3: com.jcraft.jsch.JSchException: Auth fail [preauth]
 Oct 30 23:45:54 localhost sshd[8716]: Disconnected from 27.72.40.15 port 3307 [preauth]
+Oct 30 23:46:39 localhost sshd[8796]: Received disconnect from 221.194.47.229 port 51378:11:  [preauth]
+Oct 30 23:46:39 localhost sshd[8796]: Disconnected from 221.194.47.229 port 51378 [preauth]
