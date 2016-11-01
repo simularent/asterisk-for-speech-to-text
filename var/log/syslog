@@ -1,376 +1,133 @@
-Oct 30 06:25:07 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 06:25:07 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 06:25:07 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1692 seconds.
-Oct 30 06:39:01 localhost CRON[19994]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 06:40:01 localhost CRON[20038]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 06:44:59 localhost systemd[1]: snapd.refresh.timer: Adding 4h 35min 5.440908s random time.
-Oct 30 06:47:01 localhost CRON[20043]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly ))
-Oct 30 06:53:19 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 06:53:19 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 06:53:19 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1360 seconds.
-Oct 30 07:00:01 localhost CRON[20095]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 07:09:01 localhost CRON[20133]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 07:15:59 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 07:15:59 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 07:15:59 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1678 seconds.
-Oct 30 07:17:01 localhost CRON[20187]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Oct 30 07:20:01 localhost CRON[20190]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 07:39:01 localhost CRON[20205]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 07:40:01 localhost CRON[20247]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 07:43:57 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 07:43:57 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 07:43:57 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1622 seconds.
-Oct 30 08:00:01 localhost CRON[20264]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 08:09:01 localhost CRON[20269]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 08:10:59 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 08:10:59 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 08:10:59 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1725 seconds.
-Oct 30 08:17:01 localhost CRON[20323]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Oct 30 08:20:01 localhost CRON[20326]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 08:39:01 localhost CRON[20335]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 08:39:44 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 08:39:44 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 08:39:44 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1758 seconds.
-Oct 30 08:40:01 localhost CRON[20391]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 09:00:01 localhost CRON[20396]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 09:09:01 localhost CRON[20401]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 09:09:02 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 09:09:02 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 09:09:02 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1356 seconds.
-Oct 30 09:17:01 localhost CRON[20457]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Oct 30 09:20:01 localhost CRON[20460]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 09:31:38 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 09:31:38 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 09:31:38 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1593 seconds.
-Oct 30 09:39:01 localhost CRON[20477]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 09:40:01 localhost CRON[20519]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 09:58:12 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 09:58:12 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 09:58:12 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1756 seconds.
-Oct 30 10:00:01 localhost CRON[20552]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 10:09:01 localhost CRON[20557]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 10:17:01 localhost CRON[20601]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Oct 30 10:20:01 localhost CRON[20604]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 10:27:28 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 10:27:28 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 10:27:28 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1482 seconds.
-Oct 30 10:39:01 localhost CRON[20623]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 10:40:01 localhost CRON[20665]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 10:52:10 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 10:52:10 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 10:52:10 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1448 seconds.
-Oct 30 11:00:01 localhost CRON[20766]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 11:09:01 localhost CRON[20777]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 11:16:18 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 11:16:18 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 11:16:18 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1460 seconds.
-Oct 30 11:17:01 localhost CRON[20843]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Oct 30 11:20:01 localhost CRON[20849]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 11:39:01 localhost CRON[20869]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 11:40:01 localhost CRON[20911]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 11:40:38 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 11:40:38 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 11:40:38 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1763 seconds.
-Oct 30 12:00:01 localhost CRON[20928]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 12:09:01 localhost CRON[20935]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 12:10:01 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 12:10:01 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 12:10:01 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1558 seconds.
-Oct 30 12:17:01 localhost CRON[20992]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Oct 30 12:20:01 localhost CRON[20995]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 12:36:00 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 12:36:00 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 12:36:00 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1553 seconds.
-Oct 30 12:39:01 localhost CRON[21012]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 12:40:01 localhost CRON[21054]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 13:00:01 localhost CRON[21064]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 13:01:53 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 13:01:53 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 13:01:53 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1774 seconds.
-Oct 30 13:09:01 localhost CRON[21086]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 13:17:01 localhost CRON[21128]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Oct 30 13:20:01 localhost CRON[21133]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 13:31:28 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 13:31:28 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 13:31:28 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1754 seconds.
-Oct 30 13:39:01 localhost CRON[21161]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 13:40:01 localhost CRON[21203]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 14:00:01 localhost CRON[21218]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 14:00:42 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 14:00:42 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 14:00:42 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1473 seconds.
-Oct 30 14:09:01 localhost CRON[21237]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 14:17:01 localhost CRON[21279]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Oct 30 14:20:01 localhost CRON[21282]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 14:22:52 localhost systemd[1]: Starting Cleanup of Temporary Directories...
-Oct 30 14:22:52 localhost systemd-tmpfiles[21286]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
-Oct 30 14:22:52 localhost systemd[1]: Started Cleanup of Temporary Directories.
-Oct 30 14:25:02 localhost systemd[1]: Starting Daily apt activities...
-Oct 30 14:25:06 localhost systemd[1]: Started Daily apt activities.
-Oct 30 14:25:06 localhost systemd[1]: apt-daily.timer: Adding 8h 4min 7.232699s random time.
-Oct 30 14:25:06 localhost systemd[1]: apt-daily.timer: Adding 11h 27min 22.168624s random time.
-Oct 30 14:25:15 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 14:25:15 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 14:25:15 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1785 seconds.
-Oct 30 14:39:01 localhost CRON[21627]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 14:40:02 localhost CRON[21669]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 14:45:01 localhost CRON[21674]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
-Oct 30 14:55:00 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 14:55:00 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 14:55:00 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1779 seconds.
-Oct 30 15:00:01 localhost CRON[21692]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 15:09:01 localhost CRON[21702]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 15:17:01 localhost CRON[21747]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Oct 30 15:20:01 localhost CRON[21750]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 15:24:39 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 15:24:39 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 15:24:39 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1376 seconds.
-Oct 30 15:35:12 localhost systemd[1]: snapd.refresh.timer: Adding 4h 10min 6.088951s random time.
-Oct 30 15:39:01 localhost CRON[21777]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 15:40:01 localhost CRON[21821]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 15:47:35 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 15:47:35 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 15:47:35 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1634 seconds.
-Oct 30 16:00:01 localhost CRON[21843]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 16:09:01 localhost CRON[21885]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 16:14:49 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 16:14:49 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 16:14:49 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1590 seconds.
-Oct 30 16:17:01 localhost CRON[21939]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Oct 30 16:20:01 localhost CRON[21946]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 16:39:01 localhost CRON[21964]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 16:40:01 localhost CRON[22006]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 16:41:19 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 16:41:19 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 16:41:19 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1434 seconds.
-Oct 30 17:00:01 localhost CRON[22035]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 17:05:13 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 17:05:13 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 17:05:13 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1352 seconds.
-Oct 30 17:09:01 localhost CRON[22052]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 17:17:01 localhost CRON[22100]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Oct 30 17:20:01 localhost CRON[22105]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 17:27:45 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 17:27:45 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 17:27:45 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1675 seconds.
-Oct 30 17:39:01 localhost CRON[22137]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 17:40:01 localhost CRON[22181]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 17:55:40 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 17:55:40 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 17:55:40 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1447 seconds.
-Oct 30 18:00:01 localhost CRON[22206]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 18:09:01 localhost CRON[22213]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 18:17:01 localhost CRON[22259]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Oct 30 18:19:47 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 18:19:47 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 18:19:47 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1447 seconds.
-Oct 30 18:20:01 localhost CRON[22274]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 18:39:02 localhost CRON[22287]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 18:40:01 localhost CRON[22329]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 18:43:54 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 18:43:54 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 18:43:54 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1631 seconds.
-Oct 30 19:00:01 localhost CRON[22354]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 19:09:01 localhost CRON[22367]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 19:11:05 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 19:11:05 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 19:11:05 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1630 seconds.
-Oct 30 19:17:01 localhost CRON[22428]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Oct 30 19:20:01 localhost CRON[22431]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 19:38:15 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 19:38:15 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 19:38:15 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1559 seconds.
-Oct 30 19:39:01 localhost CRON[22453]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 19:40:01 localhost CRON[22497]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 20:00:01 localhost CRON[22521]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 20:04:14 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 20:04:14 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 20:04:14 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1759 seconds.
-Oct 30 20:09:01 localhost CRON[22544]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 20:17:01 localhost CRON[22589]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Oct 30 20:20:01 localhost CRON[22594]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 20:33:33 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 20:33:33 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 20:33:33 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1774 seconds.
-Oct 30 20:39:01 localhost CRON[22622]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 20:40:01 localhost CRON[22665]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 21:00:01 localhost CRON[22694]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 21:03:07 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 21:03:07 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 21:03:07 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1463 seconds.
-Oct 30 21:09:01 localhost CRON[22711]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 21:10:14 localhost systemd[1]: snapd.refresh.timer: Adding 4h 33min 11.498271s random time.
-Oct 30 21:17:01 localhost CRON[22760]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Oct 30 21:20:01 localhost CRON[22766]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 21:27:30 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 21:27:30 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 21:27:30 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1565 seconds.
-Oct 30 21:39:01 localhost CRON[22797]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 21:40:01 localhost CRON[22839]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 21:53:35 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 21:53:35 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 21:53:35 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1520 seconds.
-Oct 30 22:00:01 localhost CRON[22880]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 22:09:01 localhost CRON[22886]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 22:17:01 localhost CRON[22936]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Oct 30 22:18:55 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 22:18:55 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 22:18:55 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1750 seconds.
-Oct 30 22:20:01 localhost CRON[22951]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 22:39:01 localhost CRON[22970]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 22:40:01 localhost CRON[23013]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 22:48:05 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 22:48:05 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 22:48:05 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1796 seconds.
-Oct 30 22:55:32 localhost systemd[1]: Created slice User Slice of ubuntu.
-Oct 30 22:55:32 localhost systemd[1]: Starting User Manager for UID 1000...
-Oct 30 22:55:32 localhost systemd[1]: Started Session 2838 of user ubuntu.
-Oct 30 22:55:32 localhost systemd[23040]: Reached target Paths.
-Oct 30 22:55:32 localhost systemd[23040]: Reached target Timers.
-Oct 30 22:55:32 localhost systemd[23040]: Reached target Sockets.
-Oct 30 22:55:32 localhost systemd[23040]: Reached target Basic System.
-Oct 30 22:55:32 localhost systemd[23040]: Reached target Default.
-Oct 30 22:55:32 localhost systemd[23040]: Startup finished in 25ms.
-Oct 30 22:55:32 localhost systemd[1]: Started User Manager for UID 1000.
-Oct 30 22:56:05 localhost systemd[1]: Reloading.
-Oct 30 22:56:05 localhost systemd[1]: Started ACPI event daemon.
-Oct 30 22:56:06 localhost systemd[1]: Reloading.
-Oct 30 22:56:06 localhost systemd[1]: Starting Daily apt activities...
-Oct 30 22:56:06 localhost systemd[1]: Started ACPI event daemon.
-Oct 30 22:56:06 localhost systemd[1]: Started Daily apt activities.
-Oct 30 22:56:06 localhost systemd[1]: apt-daily.timer: Adding 1h 19min 57.784404s random time.
-Oct 30 22:56:06 localhost systemd[1]: apt-daily.timer: Adding 10h 35min 25.938029s random time.
-Oct 30 22:56:06 localhost systemd[1]: Stopped LXD - main daemon.
-Oct 30 22:56:06 localhost systemd[1]: Reloading.
-Oct 30 22:56:07 localhost systemd[1]: Reloading.
-Oct 30 22:56:07 localhost systemd[1]: Started ACPI event daemon.
-Oct 30 22:56:07 localhost systemd[1]: Stopped LXD - main daemon.
-Oct 30 22:56:07 localhost systemd[1]: Reloading.
-Oct 30 22:56:07 localhost systemd[1]: Started ACPI event daemon.
-Oct 30 22:56:17 localhost systemd[1]: Reloading.
-Oct 30 22:56:17 localhost systemd[1]: Started ACPI event daemon.
-Oct 30 22:56:17 localhost /usr/lib/snapd/snapd[711]: main.go:67: Exiting on terminated signal.
-Oct 30 22:56:17 localhost snapd[711]: 2016/10/30 22:56:17.555278 main.go:67: Exiting on terminated signal.
-Oct 30 22:56:17 localhost systemd[1]: Stopping Snappy daemon...
-Oct 30 22:56:17 localhost systemd[1]: Stopped Snappy daemon.
-Oct 30 22:56:17 localhost systemd[1]: Closed Socket activation for snappy daemon.
-Oct 30 22:56:17 localhost systemd[1]: Stopped Timer to automatically refresh installed snaps.
-Oct 30 22:56:17 localhost systemd[1]: Stopped Notify bootloader that boot was successful.
-Oct 30 22:56:18 localhost systemd[1]: Reloading.
-Oct 30 22:56:19 localhost systemd[1]: message repeated 5 times: [ Reloading.]
-Oct 30 22:56:19 localhost systemd[1]: Started ACPI event daemon.
-Oct 30 22:56:21 localhost systemd[1]: Reloading.
-Oct 30 22:56:22 localhost systemd[1]: Started ACPI event daemon.
-Oct 30 22:56:25 localhost systemd[1]: Reloading.
-Oct 30 22:56:25 localhost systemd[1]: Started ACPI event daemon.
-Oct 30 22:56:25 localhost kernel: [1673439.790041] audit: type=1400 audit(1477882585.811:16): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="lxc-container-default" pid=835 comm="apparmor_parser"
-Oct 30 22:56:25 localhost kernel: [1673439.790367] audit: type=1400 audit(1477882585.811:17): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="lxc-container-default-cgns" pid=835 comm="apparmor_parser"
-Oct 30 22:56:25 localhost kernel: [1673439.790735] audit: type=1400 audit(1477882585.811:18): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="lxc-container-default-with-mounting" pid=835 comm="apparmor_parser"
-Oct 30 22:56:25 localhost kernel: [1673439.791033] audit: type=1400 audit(1477882585.811:19): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="lxc-container-default-with-nesting" pid=835 comm="apparmor_parser"
-Oct 30 22:56:25 localhost kernel: [1673439.962483] audit: type=1400 audit(1477882585.983:20): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/sbin/dhclient" pid=837 comm="apparmor_parser"
-Oct 30 22:56:25 localhost kernel: [1673439.962842] audit: type=1400 audit(1477882585.983:21): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=837 comm="apparmor_parser"
-Oct 30 22:56:25 localhost kernel: [1673439.963107] audit: type=1400 audit(1477882585.983:22): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=837 comm="apparmor_parser"
-Oct 30 22:56:25 localhost kernel: [1673439.963351] audit: type=1400 audit(1477882585.983:23): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=837 comm="apparmor_parser"
-Oct 30 22:56:26 localhost kernel: [1673439.973096] audit: type=1400 audit(1477882585.995:24): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/bin/lxc-start" pid=839 comm="apparmor_parser"
-Oct 30 22:56:26 localhost kernel: [1673440.041569] audit: type=1400 audit(1477882586.063:25): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/lxd/lxd-bridge-proxy" pid=841 comm="apparmor_parser"
-Oct 30 22:56:26 localhost systemd[1]: Reloading.
-Oct 30 22:56:26 localhost systemd[1]: Started ACPI event daemon.
-Oct 30 22:56:26 localhost systemd[1]: Reloading.
-Oct 30 22:56:26 localhost systemd[1]: Started FUSE filesystem for LXC.
-Oct 30 22:56:26 localhost systemd[1]: Started ACPI event daemon.
-Oct 30 22:56:43 localhost systemd[1]: Reloading.
-Oct 30 22:56:43 localhost systemd[1]: Started ACPI event daemon.
-Oct 30 22:56:45 localhost systemd[1]: Reloading.
-Oct 30 22:56:45 localhost systemd[1]: Started ACPI event daemon.
-Oct 30 22:56:45 localhost systemd[1]: Starting Notify bootloader that boot was successful...
-Oct 30 22:56:45 localhost snap[1100]: Ignoring 'booted' on classic
-Oct 30 22:56:45 localhost systemd[1]: Started Notify bootloader that boot was successful.
-Oct 30 22:56:45 localhost systemd[1]: Reloading.
-Oct 30 22:56:45 localhost systemd[1]: Started ACPI event daemon.
-Oct 30 22:56:45 localhost systemd[1]: snapd.refresh.timer: Adding 1h 3min 28.501106s random time.
-Oct 30 22:56:45 localhost systemd[1]: snapd.refresh.timer: Adding 5h 24min 45.890190s random time.
-Oct 30 22:56:45 localhost systemd[1]: Started Timer to automatically refresh installed snaps.
-Oct 30 22:56:45 localhost systemd[1]: Socket activation for snappy daemon is not active.
-Oct 30 22:56:45 localhost systemd[1]: Dependency failed for Automatically refresh installed snaps.
-Oct 30 22:56:45 localhost systemd[1]: snapd.refresh.service: Job snapd.refresh.service/start failed with result 'dependency'.
-Oct 30 22:56:45 localhost systemd[1]: snapd.refresh.timer: Adding 2h 22min 4.173112s random time.
-Oct 30 22:56:45 localhost systemd[1]: Reloading.
-Oct 30 22:56:45 localhost systemd[1]: Started ACPI event daemon.
-Oct 30 22:56:45 localhost systemd[1]: Starting Socket activation for snappy daemon.
-Oct 30 22:56:45 localhost systemd[1]: Listening on Socket activation for snappy daemon.
-Oct 30 22:56:45 localhost systemd[1]: Reloading.
-Oct 30 22:56:45 localhost systemd[1]: Started ACPI event daemon.
-Oct 30 22:56:45 localhost systemd[1]: Started Snappy daemon.
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:219: DEBUG: adding /
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:219: DEBUG: adding /v2/system-info
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:219: DEBUG: adding /v2/login
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:219: DEBUG: adding /v2/logout
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:219: DEBUG: adding /v2/icons/{name}/icon
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:219: DEBUG: adding /v2/find
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:219: DEBUG: adding /v2/snaps
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:219: DEBUG: adding /v2/snaps/{name}
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:219: DEBUG: adding /v2/snaps/{name}/conf
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:219: DEBUG: adding /v2/interfaces
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:219: DEBUG: adding /v2/assertions
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:219: DEBUG: adding /v2/assertions/{assertType}
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:219: DEBUG: adding /v2/events
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:219: DEBUG: adding /v2/changes/{id}
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:219: DEBUG: adding /v2/changes
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:219: DEBUG: adding /v2/create-user
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:219: DEBUG: adding /v2/buy
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:219: DEBUG: adding /v2/buy/ready
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:219: DEBUG: adding /v2/buy/methods
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:219: DEBUG: adding /v2/snapctl
-Oct 30 22:56:45 localhost /usr/lib/snapd/snapd[1179]: daemon.go:209: DEBUG: init done in 8.124026ms
-Oct 30 22:56:46 localhost kernel: [1673460.310694] audit_printk_skb: 9 callbacks suppressed
-Oct 30 22:56:46 localhost kernel: [1673460.310697] audit: type=1400 audit(1477882606.331:29): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="lxc-container-default" pid=1199 comm="apparmor_parser"
-Oct 30 22:56:46 localhost kernel: [1673460.311096] audit: type=1400 audit(1477882606.331:30): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="lxc-container-default-cgns" pid=1199 comm="apparmor_parser"
-Oct 30 22:56:46 localhost kernel: [1673460.311428] audit: type=1400 audit(1477882606.331:31): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="lxc-container-default-with-mounting" pid=1199 comm="apparmor_parser"
-Oct 30 22:56:46 localhost kernel: [1673460.311741] audit: type=1400 audit(1477882606.331:32): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="lxc-container-default-with-nesting" pid=1199 comm="apparmor_parser"
-Oct 30 22:56:46 localhost kernel: [1673460.345295] audit: type=1400 audit(1477882606.367:33): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/bin/lxc-start" pid=1202 comm="apparmor_parser"
-Oct 30 22:56:46 localhost kernel: [1673460.472158] audit: type=1400 audit(1477882606.495:34): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/lxd/lxd-bridge-proxy" pid=1208 comm="apparmor_parser"
-Oct 30 22:56:46 localhost systemd[1]: Reloading.
-Oct 30 22:56:47 localhost systemd[1]: Reloading.
-Oct 30 22:56:47 localhost systemd[1]: Started ACPI event daemon.
-Oct 30 22:56:47 localhost systemd[1]: Started LXD - container startup/shutdown.
-Oct 30 22:56:47 localhost systemd[1]: Reloading.
-Oct 30 22:56:47 localhost systemd[1]: Started ACPI event daemon.
-Oct 30 22:56:47 localhost systemd[1]: Listening on LXD - unix socket.
-Oct 30 22:56:47 localhost systemd[1]: Stopping LXD - container startup/shutdown...
-Oct 30 22:56:47 localhost systemd[1]: Stopped LXD - container startup/shutdown.
-Oct 30 22:56:47 localhost systemd[1]: Starting LXD - container startup/shutdown...
-Oct 30 22:56:47 localhost systemd[1]: Started LXD - container startup/shutdown.
-Oct 30 22:57:00 localhost systemd[1]: Reloading.
-Oct 30 22:57:00 localhost systemd[1]: Started ACPI event daemon.
-Oct 30 23:00:01 localhost CRON[7738]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 23:09:01 localhost CRON[7750]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 23:10:41 localhost systemd[1]: Started Session 2841 of user ubuntu.
-Oct 30 23:17:01 localhost CRON[7846]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Oct 30 23:18:01 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 23:18:01 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 23:18:01 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1415 seconds.
-Oct 30 23:20:01 localhost CRON[7891]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 23:30:43 localhost kernel: [1675497.747867] cgroup: new mount options do not match the existing superblock, will be ignored
-Oct 30 23:30:43 localhost lxcfs[705]: hierarchies:
-Oct 30 23:30:43 localhost lxcfs[705]:   0: fd:   7: devices
-Oct 30 23:30:43 localhost lxcfs[705]:   1: fd:   8: pids
-Oct 30 23:30:43 localhost lxcfs[705]:   2: fd:   9: cpu,cpuacct
-Oct 30 23:30:43 localhost lxcfs[705]:   3: fd:  10: freezer
-Oct 30 23:30:43 localhost lxcfs[705]:   4: fd:  11: cpuset
-Oct 30 23:30:43 localhost lxcfs[705]:   5: fd:  12: blkio
-Oct 30 23:30:43 localhost lxcfs[705]:   6: fd:  13: net_cls,net_prio
-Oct 30 23:30:43 localhost lxcfs[705]:   7: fd:  14: memory
-Oct 30 23:30:43 localhost lxcfs[705]:   8: fd:  15: perf_event
-Oct 30 23:30:43 localhost lxcfs[705]:   9: fd:  16: hugetlb
-Oct 30 23:30:43 localhost lxcfs[705]:  10: fd:  17: name=systemd
-Oct 30 23:30:43 localhost lxcfs[705]: lxcfs: reloaded
-Oct 30 23:39:01 localhost CRON[8287]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
-Oct 30 23:40:01 localhost CRON[8329]: (root) CMD (rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1)
-Oct 30 23:41:36 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
-Oct 30 23:41:36 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
-Oct 30 23:41:36 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1495 seconds.
-Oct 30 23:42:51 localhost crontab[8346]: (root) LIST (root)
-Oct 30 23:43:14 localhost crontab[8350]: (root) BEGIN EDIT (root)
-Oct 30 23:43:20 localhost crontab[8350]: (root) REPLACE (root)
-Oct 30 23:43:20 localhost crontab[8350]: (root) END EDIT (root)
-Oct 30 23:44:01 localhost cron[703]: (root) RELOAD (crontabs/root)
+Nov  1 06:36:58 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 06:36:58 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 06:36:58 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1566 seconds.
+Nov  1 06:39:01 localhost CRON[14644]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 06:52:01 localhost CRON[14689]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly ))
+Nov  1 07:03:04 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 07:03:04 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 07:03:04 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1432 seconds.
+Nov  1 07:09:01 localhost CRON[14712]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 07:17:01 localhost CRON[14757]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov  1 07:26:56 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 07:26:56 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 07:26:56 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1770 seconds.
+Nov  1 07:39:01 localhost CRON[14791]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 07:56:27 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 07:56:27 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 07:56:27 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1609 seconds.
+Nov  1 08:09:01 localhost CRON[16230]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 08:17:01 localhost CRON[16648]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov  1 08:23:16 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 08:23:16 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 08:23:16 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1375 seconds.
+Nov  1 08:39:01 localhost CRON[16921]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 08:46:11 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 08:46:11 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 08:46:11 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1684 seconds.
+Nov  1 09:09:01 localhost CRON[17055]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 09:14:15 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 09:14:15 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 09:14:15 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1547 seconds.
+Nov  1 09:17:01 localhost CRON[17116]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov  1 09:39:01 localhost CRON[17123]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 09:40:02 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 09:40:02 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 09:40:02 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1559 seconds.
+Nov  1 10:06:01 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 10:06:01 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 10:06:01 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1800 seconds.
+Nov  1 10:09:01 localhost CRON[17204]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 10:17:01 localhost CRON[17246]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov  1 10:36:01 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 10:36:01 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 10:36:01 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1773 seconds.
+Nov  1 10:39:01 localhost CRON[17273]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 11:05:34 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 11:05:34 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 11:05:34 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1393 seconds.
+Nov  1 11:09:01 localhost CRON[17338]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 11:17:01 localhost CRON[17380]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov  1 11:28:47 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 11:28:47 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 11:28:47 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1786 seconds.
+Nov  1 11:39:01 localhost CRON[17405]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 11:58:33 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 11:58:33 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 11:58:33 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1707 seconds.
+Nov  1 12:09:01 localhost CRON[17464]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 12:17:01 localhost CRON[17513]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov  1 12:27:00 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 12:27:00 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 12:27:00 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1403 seconds.
+Nov  1 12:39:01 localhost CRON[17674]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 12:50:23 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 12:50:23 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 12:50:23 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1625 seconds.
+Nov  1 13:09:01 localhost CRON[18004]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 13:17:01 localhost CRON[18081]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov  1 13:17:28 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 13:17:28 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 13:17:28 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1355 seconds.
+Nov  1 13:27:30 localhost systemd[1]: Starting Daily apt activities...
+Nov  1 13:27:30 localhost systemd[1]: Started Daily apt activities.
+Nov  1 13:27:30 localhost systemd[1]: apt-daily.timer: Adding 9h 16min 12.244594s random time.
+Nov  1 13:27:30 localhost systemd[1]: apt-daily.timer: Adding 6h 47min 27.777286s random time.
+Nov  1 13:39:02 localhost CRON[18243]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 13:40:03 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 13:40:03 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 13:40:03 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1733 seconds.
+Nov  1 14:08:56 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 14:08:56 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 14:08:56 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1462 seconds.
+Nov  1 14:09:01 localhost CRON[18434]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 14:17:01 localhost CRON[18508]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov  1 14:23:10 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  1 14:23:10 localhost systemd-tmpfiles[18533]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Nov  1 14:23:10 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Nov  1 14:33:18 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 14:33:18 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 14:33:18 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1585 seconds.
+Nov  1 14:39:01 localhost CRON[18614]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 14:45:01 localhost CRON[18680]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
+Nov  1 14:57:01 localhost systemd[1]: snapd.refresh.timer: Adding 29min 19.262990s random time.
+Nov  1 14:59:43 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 14:59:43 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 14:59:43 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1502 seconds.
+Nov  1 15:09:01 localhost CRON[18794]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 15:17:01 localhost CRON[18866]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov  1 15:24:46 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 15:24:46 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 15:24:46 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1608 seconds.
+Nov  1 15:39:01 localhost CRON[19001]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 15:51:34 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 15:51:34 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 15:51:34 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1416 seconds.
+Nov  1 16:09:01 localhost CRON[19190]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 16:15:10 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 16:15:10 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 16:15:10 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1424 seconds.
+Nov  1 16:17:01 localhost CRON[19276]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov  1 16:38:54 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 16:38:54 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 16:38:54 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1626 seconds.
+Nov  1 16:39:01 localhost CRON[19375]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 17:06:00 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 17:06:00 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 17:06:00 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1664 seconds.
+Nov  1 17:09:01 localhost CRON[19550]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 17:17:01 localhost CRON[19594]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov  1 17:29:22 localhost systemd[1]: snapd.refresh.timer: Adding 4h 24min 46.690625s random time.
+Nov  1 17:33:44 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 17:33:44 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 17:33:44 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1775 seconds.
+Nov  1 17:39:01 localhost CRON[19611]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 17:50:47 localhost systemd[1]: Created slice User Slice of ubuntu.
+Nov  1 17:50:47 localhost systemd[1]: Starting User Manager for UID 1000...
+Nov  1 17:50:47 localhost systemd[1]: Started Session 2977 of user ubuntu.
+Nov  1 17:50:47 localhost systemd[19654]: Reached target Sockets.
+Nov  1 17:50:47 localhost systemd[19654]: Reached target Timers.
+Nov  1 17:50:47 localhost systemd[19654]: Reached target Paths.
+Nov  1 17:50:47 localhost systemd[19654]: Reached target Basic System.
+Nov  1 17:50:47 localhost systemd[19654]: Reached target Default.
+Nov  1 17:50:47 localhost systemd[19654]: Startup finished in 19ms.
+Nov  1 17:50:47 localhost systemd[1]: Started User Manager for UID 1000.

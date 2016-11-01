@@ -1675,3 +1675,51 @@ ls
 ps -ef
 asterisk -cvvvvvvvvvvvvvvvvvvvvvvvv
 asterisk -rvvvvvvvvvvvvvvvvvvvvvvvv
+ssh-add ~/.ssh/id_rss
+ssh-add ~/.ssh/id_rsa
+ssh-add -l 
+cd
+cd /
+git init
+vi .gitignore
+git init
+git remote add data git@bitbucket.org:mainphrame/asterisk.git
+git add --all
+cd /var/lib/lxcfs/
+ls
+git add --all
+df -k
+git remote add asterisk git@bitbucket.org:mainphrame/asterisk.git
+git commit -am 
+git commit -am "asterisk"
+git config --global user.email "jeremysiedzik@gmail.com"
+git config --global user.name "asterisk push"
+git commit -am "asterisk"
+git push -u asterisk master
+mount
+crontab -l
+mount
+mount -a
+mount
+crontab -e
+cd /
+git push -u asterisk master
+git add --all
+git push -u asterisk master
+git status
+git add --all
+git commit -am "crontab"
+git push -u asterisk master
+git commit -am "crontab"
+git push -u asterisk master
+git add --all
+git commit -am "crontab"
+git push -u asterisk master
+cd /
+ls
+git init
+ssh-keygen
+cat /root/.ssh/id_rsa.pub 
+ssh-agent /bin/bash
+apt-get update
+apt-get upgrade

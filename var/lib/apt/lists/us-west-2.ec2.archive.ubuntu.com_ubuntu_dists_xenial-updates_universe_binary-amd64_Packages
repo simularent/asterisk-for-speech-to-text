@@ -42853,20 +42853,21 @@ Section: universe/net
 Installed-Size: 97
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 0.12~16.04
+Version: 0.13~16.04
 Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.31.8), libuuid1 (>= 2.16), libyaml-0-2, systemd, python3, python3-yaml
 Suggests: network-manager | wpasupplicant
 Breaks: network-manager (<< 1.2.2-0ubuntu0.16.04.2~)
-Filename: pool/universe/n/nplan/nplan_0.12~16.04_amd64.deb
-Size: 30624
-MD5sum: a0565b7469909310d89b98413acf44e1
-SHA1: 775fe1c8528385e4750fecdb5d8be2ae40601864
-SHA256: 9b5dded3136d2635cc62f0a153b04a93285ec42caeafd646d4b61bc41e485527
+Filename: pool/universe/n/nplan/nplan_0.13~16.04_amd64.deb
+Size: 31328
+MD5sum: df2deb064d596a6e2d97978d6d72188e
+SHA1: 37d61f48e338defe12c1405a6033b709d64abcbf
+SHA256: 5b5573858c2e1a26a2b5f2dcec6f43399c4f3ca0cc654aa56cf743116edf8a8a
 Description: YAML network configuration abstraction for various backends
 Multi-Arch: foreign
 Description-md5: 171990596b9adbbde53590d783767a6d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 20
 
 Package: nscd
 Priority: optional
@@ -47053,65 +47054,68 @@ Origin: Ubuntu
 Package: snapcraft
 Priority: extra
 Section: universe/utils
-Installed-Size: 503
+Installed-Size: 523
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Snapcraft Team <snapcraft@lists.snapcraft.io>
 Architecture: all
-Version: 2.19
+Version: 2.20
 Depends: python3-apt, python3-docopt, python3-jsonschema, python3-lxml, python3-magic, python3-petname, python3-pkg-resources, python3-progressbar, python3-pymacaroons, python3-requests, python3-requests-toolbelt, python3-simplejson, python3-tabulate, python3-xdg, python3-yaml, squashfs-tools, sudo, python3:any (>= 3.3.2-2~)
 Suggests: lxd, snapd (>= 2.15~)
-Filename: pool/universe/s/snapcraft/snapcraft_2.19_all.deb
-Size: 85314
-MD5sum: ce2940c7c0e6c936489b6a2e9de7bb0d
-SHA1: fcd70c6eda98b7bc5a80b291e8de10ec74fde2af
-SHA256: 7dc1e8b517e9ffe4ddd1b761c455346d853e94a2421f94f2a06e951f23e583f4
+Filename: pool/universe/s/snapcraft/snapcraft_2.20_all.deb
+Size: 88492
+MD5sum: 03a7d49e099286bc820a3e980689a591
+SHA1: 3a1beb8161fac972c5a5ae7a329b4c7311a7cb8e
+SHA256: f12fe2c38cafad1fb23012c9753ec6df6ba6eca93724477e0a08408b7a28cef0
 Description: easily craft snaps
 Homepage: https://github.com/snapcore/snapcraft
 Description-md5: f2b9ada80f848158a030d4fdb4463569
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 40
 
 Package: snapcraft-examples
 Priority: extra
 Section: universe/utils
-Installed-Size: 216
+Installed-Size: 217
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Snapcraft Team <snapcraft@lists.snapcraft.io>
 Architecture: all
 Source: snapcraft
-Version: 2.19
-Depends: snapcraft (= 2.19)
-Filename: pool/universe/s/snapcraft/snapcraft-examples_2.19_all.deb
-Size: 56394
-MD5sum: 0c98f69f44cb2fab2fab2029ccaaf2ee
-SHA1: abd40ace5dcbfb4484eb35c39e07eddce4f924cb
-SHA256: 2cbf44a9799c14fe7d2c19b901b4fca7a4ed789cd3e5c25a75cb64fb7f75fe9c
+Version: 2.20
+Depends: snapcraft (= 2.20)
+Filename: pool/universe/s/snapcraft/snapcraft-examples_2.20_all.deb
+Size: 56532
+MD5sum: d097b13c287bba9228871c8f91f01942
+SHA1: c10b31b8f113d3ac4a6c275a7a0a72730f91dccb
+SHA256: 6605654c401100121e50f7f8b71653890dc41c0fcc3c5dccbea97e55c063594d
 Description: examples and demos for snapcraft
 Homepage: https://github.com/snapcore/snapcraft
 Description-md5: f08d4b5a77b9d3d8337a205fe1e9301b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 40
 
 Package: snapcraft-parser
 Priority: extra
 Section: universe/utils
-Installed-Size: 30
+Installed-Size: 31
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Snapcraft Team <snapcraft@lists.snapcraft.io>
 Architecture: all
 Source: snapcraft
-Version: 2.19
-Depends: snapcraft (= 2.19), python3:any
-Filename: pool/universe/s/snapcraft/snapcraft-parser_2.19_all.deb
-Size: 2840
-MD5sum: b5d94a59bb792c1a8034ef70ac697705
-SHA1: 8f5d69077acd1bf6309d160a5de8fffb38788721
-SHA256: 5ce36025ce880c53925bafc7d95b4719a6b4e6e2d3c703443256024bb82c7573
+Version: 2.20
+Depends: snapcraft (= 2.20), python3:any
+Filename: pool/universe/s/snapcraft/snapcraft-parser_2.20_all.deb
+Size: 2844
+MD5sum: e7382045ba5a91162ce58a3beb985f73
+SHA1: 33ba5e9302a98bfd321e7b5716595b47ee8c2ce9
+SHA256: 50439f2157867d32dec13aee6753465202fbae9175dc67eb6ceed3627f30af1b
 Description: cloud parser for shared snapcraft parts.
 Homepage: https://github.com/snapcore/snapcraft
 Description-md5: ac163e3bf5626a17120e80de44b62434
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 40
 
 Package: snapd-xdg-open
 Priority: optional

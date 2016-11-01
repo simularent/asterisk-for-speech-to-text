@@ -7730,7 +7730,7 @@ Checksums-Sha256:
 
 Package: nplan
 Binary: nplan
-Version: 0.12~16.04
+Version: 0.13~16.04
 Priority: standard
 Section: universe/net
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -7740,8 +7740,8 @@ Standards-Version: 3.9.8
 Format: 1.0
 Directory: pool/universe/n/nplan
 Files:
- aa2fc721a1d1150dde3d289bb66fb90d 1746 nplan_0.12~16.04.dsc
- 409f3eac5e4bbf0c67cf84eb4acfb2d9 54034 nplan_0.12~16.04.tar.gz
+ 5da9612f559533302b906a68096aa97f 1746 nplan_0.13~16.04.dsc
+ e2df82a15e21c0324d2d7f03ca7ea20d 56155 nplan_0.13~16.04.tar.gz
 Vcs-Browser: https://git.launchpad.net/~netplan-developers/netplan
 Vcs-Git: https://git.launchpad.net/~netplan-developers/netplan
 Testsuite: autopkgtest
@@ -7749,11 +7749,11 @@ Testsuite-Triggers: dnsmasq-base, hostapd, network-manager, systemd
 Package-List:
  nplan deb net standard arch=any
 Checksums-Sha1:
- 3492ed27069d4142c722273377bc27e227da7056 1746 nplan_0.12~16.04.dsc
- 48d53296786ad67a99341ab528893e15fb8ac04b 54034 nplan_0.12~16.04.tar.gz
+ 7d075ef84599c41d12ce743e4c39d51d140231b3 1746 nplan_0.13~16.04.dsc
+ 95e58fe7db9b7226fff3daf88ea5c4bc5f7c1bbc 56155 nplan_0.13~16.04.tar.gz
 Checksums-Sha256:
- 34212b621de4052acf96c8bda1422e62340555e0a0594351e2d55df44a2b2f25 1746 nplan_0.12~16.04.dsc
- 95a08286e4ffce859f4b28f10636a63f986e55932298e6cbc27f853c9c5ba22e 54034 nplan_0.12~16.04.tar.gz
+ f66733d46721d5ed9cf3ff1597ffc66ee25ce9a517100f67ad7a81fbe2c764e9 1746 nplan_0.13~16.04.dsc
+ 73f73433887b10cb30e8aacec4b675f6024cae6cf53904b7cf6f6384a6b077e9 56155 nplan_0.13~16.04.tar.gz
 
 Package: nuitka
 Binary: nuitka
@@ -8837,7 +8837,7 @@ Checksums-Sha256:
 
 Package: snapcraft
 Binary: snapcraft, snapcraft-parser, snapcraft-examples
-Version: 2.19
+Version: 2.20
 Priority: extra
 Section: universe/utils
 Maintainer: Snapcraft Team <snapcraft@lists.snapcraft.io>
@@ -8847,8 +8847,8 @@ Standards-Version: 3.9.8
 Format: 3.0 (native)
 Directory: pool/universe/s/snapcraft
 Files:
- 555cf6cd02fec3cbd26e97f0ed0b5278 2135 snapcraft_2.19.dsc
- 4e1000852e98713e49830f1a96c6c1f0 401896 snapcraft_2.19.tar.xz
+ 01aff84b0a2be61c322d64f41ea0c0ff 2135 snapcraft_2.20.dsc
+ 12582b907a5751d086bd41711f866c38 511300 snapcraft_2.20.tar.xz
 Homepage: https://github.com/snapcore/snapcraft
 Vcs-Browser: https://github.com/snapcore/snapcraft
 Vcs-Git: https://github.com/snapcore/snapcraft.git
@@ -8858,11 +8858,11 @@ Package-List:
  snapcraft-examples deb utils extra arch=all
  snapcraft-parser deb utils extra arch=all
 Checksums-Sha1:
- 8b739995e77e1bfabc83b39ed9084ff7a1982e38 2135 snapcraft_2.19.dsc
- ba9b8f6d8676db1b57762c47f0fd68c9613e3267 401896 snapcraft_2.19.tar.xz
+ 63c54e43d4186052b932a316702130229e06fdfd 2135 snapcraft_2.20.dsc
+ 7f32ede18a33ccee9c121844ea946e445fb627d5 511300 snapcraft_2.20.tar.xz
 Checksums-Sha256:
- cc184fefdd686910c8d15f13f0bf92c56acc565bd32bc62bda7e5b1de6173fe6 2135 snapcraft_2.19.dsc
- 10ffdcaffe0b26ed62b45fbe8b17989c4689356838460cec468d100f884d1f17 401896 snapcraft_2.19.tar.xz
+ a9c3c3851f21a545e442f1df4d5f4ed5ef8c8037132806dceccbbb7cee72b7f1 2135 snapcraft_2.20.dsc
+ 9ae88ee851591051b20a2b8cd6dce1670439e34f625c00aec0e228822bbeddef 511300 snapcraft_2.20.tar.xz
 
 Package: snapd-xdg-open
 Binary: snapd-xdg-open

@@ -639,6 +639,10 @@ Description-en: easy to use distributed version control system (documentation)
  .
  This package provides the documentation.
 
+Package: casper
+Description-md5: 9be0120948307c7e897a16c45a69ba0f
+Description-en: Run a "live" preinstalled system from read-only media
+
 Package: ceilometer-agent-central
 Description-md5: 65411a0f4dccd2451a23425cde8bfbde
 Description-en: ceilometer central agent
@@ -23722,6 +23726,13 @@ Description-en: Ubuntu live CD installer
  .
  Installing this package on a normal system is unlikely to be useful.
 
+Package: ubiquity-casper
+Description-md5: c8d716f3fb782cd7e002d2b9dba298b2
+Description-en: Configuration hooks for live installer
+ This package provides hook scripts for the Ubiquity live installer that
+ repeat some pieces of configuration done by the live system boot process in
+ the system installed by Ubiquity.
+
 Package: ubiquity-frontend-debconf
 Description-md5: fa1dbae8b89fc2e16547475097735858
 Description-en: debconf frontend for the Ubiquity live installer
@@ -23863,6 +23874,17 @@ Description-md5: e875ddb09f46f1f7672af537f0c875ca
 Description-en: /dev/ and hotplug management daemon
  udev is a daemon which dynamically creates and removes device nodes from
  /dev/, handles hotplug events and loads drivers at boot time.
+
+Package: unattended-upgrades
+Description-md5: 13ffb6fcb282e3e2203472fa9b1a59f7
+Description-en: automatic installation of security upgrades
+ This package can download and install security upgrades automatically
+ and unattended, taking care to only install packages from the
+ configured APT source, and checking for dpkg prompts about
+ configuration file changes.
+ .
+ This script is the backend for the APT::Periodic::Unattended-Upgrade
+ option.
 
 Package: unity
 Description-md5: dec4e0049e561b260175a841cf8a6410

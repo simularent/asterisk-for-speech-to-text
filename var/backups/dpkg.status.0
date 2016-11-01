@@ -501,14 +501,14 @@ Package: liblxc1
 Status: install ok installed
 Priority: optional
 Section: admin
-Installed-Size: 632
+Installed-Size: 637
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: lxc
-Version: 2.0.4-0ubuntu1~ubuntu16.04.2
+Version: 2.0.5-0ubuntu1~ubuntu16.04.2
 Replaces: liblxc0, lxc (<< 0.9.0~alpha3-0ubuntu1~)
 Provides: liblxc0
-Depends: cgroup-lite | systemd, lxc-common (= 2.0.4-0ubuntu1~ubuntu16.04.2), rsync, libapparmor1 (>= 2.6~devel), libc6 (>= 2.17), libcap2 (>= 1:2.10), libseccomp2 (>= 1.0.1), libselinux1 (>= 1.32)
+Depends: cgroup-lite | systemd, lxc-common (= 2.0.5-0ubuntu1~ubuntu16.04.2), rsync, libapparmor1 (>= 2.6~devel), libc6 (>= 2.17), libcap2 (>= 1:2.10), libseccomp2 (>= 1.0.1), libselinux1 (>= 1.32)
 Recommends: lxcfs, uidmap
 Breaks: lxc (<< 0.9.0~alpha3-0ubuntu1~)
 Conflicts: liblxc0
@@ -2118,15 +2118,15 @@ Package: vlan
 Status: install ok installed
 Priority: extra
 Section: misc
-Installed-Size: 160
+Installed-Size: 114
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 1.9-3.2ubuntu1
+Version: 1.9-3.2ubuntu1.16.04.1
 Depends: libc6 (>= 2.4), iproute2
 Conffiles:
  /etc/network/if-post-down.d/vlan 77c82c91231fdf9f219fa6cfd00dcecd
+ /etc/network/if-pre-up.d/vlan 27b0e841106811bcf117665d65fac67f
  /etc/network/if-up.d/ip 02c0f01378c645ea17ad5057612b9e7c
- /etc/network/if-pre-up.d/vlan 6f97c6e18ed2617eb07b9490aab95174
 Description: user mode programs to enable VLANs on your ethernet devices
  This package contains the user mode programs you need to add and remove
  VLAN devices from your ethernet devices.
@@ -3569,10 +3569,10 @@ Package: lxd
 Status: install ok installed
 Priority: optional
 Section: admin
-Installed-Size: 18120
+Installed-Size: 16543
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 2.0.4-0ubuntu1~ubuntu16.04.1
+Version: 2.0.5-0ubuntu1~ubuntu16.04.1
 Depends: acl, adduser, dnsmasq-base, iptables, liblxc1 (>= 2.0.0~), lxcfs, netcat-openbsd, rsync, squashfs-tools, uidmap, xz-utils, debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), libc6 (>= 2.14), libsqlite3-0 (>= 3.7.15)
 Pre-Depends: debconf
 Recommends: lxd-client
@@ -3586,7 +3586,7 @@ Description: Container hypervisor based on LXC - daemon
  using an image based workflow and with support for live migration.
  .
  This package contains the LXD daemon.
-Built-Using: golang-1.6 (= 1.6.2-0ubuntu5~16.04), golang-context (= 0.0~git20140604.1.14f550f-1), golang-defaults (= 2:1.6-1ubuntu4), golang-github-coreos-go-systemd (= 3-2), golang-github-gorilla-mux (= 0.0~git20150814.0.f7b6aaa-1), golang-github-gosexy-gettext (= 0~git20130221-0ubuntu6), golang-github-mattn-go-colorable (= 0.0~git20160226.9cbef7c3-1), golang-github-mattn-go-sqlite3 (= 1.1.0~dfsg1-1), golang-github-olekukonko-tablewriter (= 0.0~git20151029.0.a5eefc2-1), golang-github-pborman-uuid (= 0.0+git20150824.0.cccd189-1ubuntu1), golang-go.crypto (= 1:0.0~git20151201.0.7b85b09-2), golang-gocapability-dev (= 0.0~git20150506.1.66ef2aa-1ubuntu1), golang-gopkg-flosch-pongo2.v3 (= 3.0+git20141028.0.5e81b81-0ubuntu1), golang-gopkg-inconshreveable-log15.v2 (= 2.11+git20150921.0.b105bd3-0ubuntu1), golang-gopkg-lxc-go-lxc.v2 (= 0.0~git20160405.0.85d46fc-0ubuntu2), golang-gopkg-tomb.v2 (= 0.0~git20140626.14b3d72-1), golang-goprotobuf (= 0.0~git20150526-2), golang-petname (= 1.10-0ubuntu1), golang-websocket (= 0.0~git20150811.0.b6ab76f-1), golang-yaml.v2 (= 0.0+git20160301.0.a83829b-1)
+Built-Using: golang-1.6 (= 1.6.2-0ubuntu5~16.04), golang-context (= 0.0~git20140604.1.14f550f-1), golang-defaults (= 2:1.6-1ubuntu4), golang-github-gorilla-mux (= 0.0~git20150814.0.f7b6aaa-1), golang-github-gosexy-gettext (= 0~git20130221-0ubuntu6), golang-github-mattn-go-colorable (= 0.0~git20160226.9cbef7c3-1), golang-github-mattn-go-sqlite3 (= 1.1.0~dfsg1-1), golang-github-olekukonko-tablewriter (= 0.0~git20151029.0.a5eefc2-1), golang-github-pborman-uuid (= 0.0+git20150824.0.cccd189-1ubuntu1), golang-go.crypto (= 1:0.0~git20151201.0.7b85b09-2), golang-gocapability-dev (= 0.0~git20150506.1.66ef2aa-1ubuntu1), golang-gopkg-flosch-pongo2.v3 (= 3.0+git20141028.0.5e81b81-0ubuntu1), golang-gopkg-inconshreveable-log15.v2 (= 2.11+git20150921.0.b105bd3-0ubuntu1), golang-gopkg-lxc-go-lxc.v2 (= 0.0~git20160803.0.f8a6938-0ubuntu1~ubuntu16.04.1), golang-gopkg-tomb.v2 (= 0.0~git20140626.14b3d72-1), golang-goprotobuf (= 0.0~git20150526-2), golang-petname (= 2.4-0ubuntu1~16.04), golang-websocket (= 0.0~git20150811.0.b6ab76f-1), golang-yaml.v2 (= 0.0+git20160301.0.a83829b-1)
 Homepage: https://linuxcontainers.org/
 
 Package: python-openssl
@@ -3941,14 +3941,14 @@ Package: initramfs-tools-core
 Status: install ok installed
 Priority: optional
 Section: utils
-Installed-Size: 247
+Installed-Size: 246
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: initramfs-tools
-Version: 0.122ubuntu8.3
+Version: 0.122ubuntu8.5
 Replaces: initramfs-tools (<< 0.121~)
-Depends: initramfs-tools-bin (= 0.122ubuntu8.3), busybox-initramfs (>= 1:1.13.3-1ubuntu5), klibc-utils (>= 2.0.4-7~), cpio, kmod | module-init-tools, udev
+Depends: initramfs-tools-bin (= 0.122ubuntu8.5), busybox-initramfs (>= 1:1.13.3-1ubuntu5), klibc-utils (>= 2.0.4-7~), cpio, kmod | module-init-tools, udev
 Suggests: bash-completion
 Breaks: initramfs-tools (<< 0.121~)
 Conffiles:
@@ -4611,12 +4611,12 @@ Package: multiarch-support
 Status: install ok installed
 Priority: required
 Section: libs
-Installed-Size: 222
+Installed-Size: 223
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: glibc
-Version: 2.23-0ubuntu3
+Version: 2.23-0ubuntu4
 Depends: libc6 (>= 2.3.6-2)
 Description: Transitional package to ensure multiarch compatibility
  This is a transitional package used to ensure multiarch support is present
@@ -4633,7 +4633,7 @@ Installed-Size: 2782
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
-Version: 2016g-0ubuntu0.16.04
+Version: 2016h-0ubuntu0.16.04
 Replaces: libc0.1, libc0.3, libc6, libc6.1
 Provides: tzdata-stretch
 Depends: debconf (>= 0.5) | debconf-2.0
@@ -5104,13 +5104,13 @@ Package: nginx-common
 Status: install ok installed
 Priority: optional
 Section: httpd
-Installed-Size: 163
+Installed-Size: 165
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: nginx
-Version: 1.10.0-0ubuntu0.16.04.2
+Version: 1.10.0-0ubuntu0.16.04.4
 Replaces: nginx (<< 0.8.54-4), nginx-extras (<< 0.8.54-4), nginx-full (<< 0.8.54-4), nginx-light (<< 0.8.54-4)
-Depends: lsb-base (>= 4.1+Debian11ubuntu7), init-system-helpers (>= 1.18~)
+Depends: lsb-base (>= 4.1+Debian11ubuntu7), debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~)
 Suggests: fcgiwrap, nginx-doc, ssl-cert
 Breaks: nginx (<< 0.8.54-4), nginx-extras (<< 0.8.54-4), nginx-full (<< 0.8.54-4), nginx-light (<< 0.8.54-4)
 Conffiles:
@@ -5613,7 +5613,7 @@ Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: linux
-Version: 4.4.0-43.63
+Version: 4.4.0-45.66
 Replaces: linux-kernel-headers
 Provides: linux-kernel-headers
 Conflicts: linux-kernel-headers
@@ -5940,12 +5940,12 @@ Package: libc6
 Status: install ok installed
 Priority: required
 Section: libs
-Installed-Size: 10947
+Installed-Size: 10948
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: glibc
-Version: 2.23-0ubuntu3
+Version: 2.23-0ubuntu4
 Replaces: libc6-amd64
 Depends: libgcc1
 Suggests: glibc-doc, debconf | debconf-2.0, locales
@@ -6374,10 +6374,10 @@ Package: apparmor
 Status: install ok installed
 Priority: extra
 Section: admin
-Installed-Size: 1639
+Installed-Size: 1643
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 2.10.95-0ubuntu2.2
+Version: 2.10.95-0ubuntu2.5
 Replaces: apparmor-parser, apparmor-utils (<< 2.8.0-0ubuntu28), libapache2-mod-apparmor (<< 2.5.1-0ubuntu3)
 Depends: libc6 (>= 2.17), debconf (>= 0.5) | debconf-2.0, lsb-base (>= 4.1+Debian11ubuntu7), python3:any, libapparmor-perl, debconf, initramfs-tools | linux-initramfs-tool
 Suggests: apparmor-profiles, apparmor-profiles-extra, apparmor-docs, apparmor-utils
@@ -6410,7 +6410,7 @@ Conffiles:
  /etc/apparmor.d/abstractions/freedesktop.org 921ce3f15e70f1c7783fd01dbaa1eaef
  /etc/apparmor.d/abstractions/gnome 730b4d2c31ef9d301707413616a357d8
  /etc/apparmor.d/abstractions/gnupg b474d47c024a62a221c174bb0fe0df86
- /etc/apparmor.d/abstractions/ibus 50790ff767727165ca62f9bda19fd5c8
+ /etc/apparmor.d/abstractions/ibus 3e70b36c4931993a0a37d50fa6ddc1ec
  /etc/apparmor.d/abstractions/kde c51da7a01bb8eaa94410a6394c2d05c3
  /etc/apparmor.d/abstractions/kerberosclient 165918f6f7a43c7f8026ff330500a1ba
  /etc/apparmor.d/abstractions/launchpad-integration 08239d10ba383041e97bc7f3962eb788
@@ -6486,8 +6486,8 @@ Conffiles:
  /etc/apparmor.d/tunables/xdg-user-dirs 602eaa969d2dfa00a0ec16eed9b60b7f
  /etc/apparmor/parser.conf 8fed7a9ec65d4f695e2aa14faf261c8b
  /etc/apparmor/subdomain.conf df4dade439e2786fd1d227c99164563d
- /etc/init.d/apparmor 2dfd9e58555e9904c7b7fe2b4a35f900
- /etc/init/apparmor.conf 32b74d5ff955e1cc1f433c5544223e99
+ /etc/init.d/apparmor 959e9a544a87f9fddafad7b5634b11d0
+ /etc/init/apparmor.conf 6b4e01a48600bf05d5d2a50c4e90b931
 Description: user-space parser utility for AppArmor
  This provides the system initialization scripts needed to use the
  AppArmor Mandatory Access Control system, including the AppArmor Parser
@@ -6504,7 +6504,7 @@ Section: devel
 Installed-Size: 15
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
-Version: 0.28ubuntu0.1
+Version: 0.28ubuntu0.2
 Replaces: distro-info (<< 0.3~)
 Breaks: distro-info (<< 0.3~)
 Description: information about the distributions' releases (data files)
@@ -6742,9 +6742,9 @@ Installed-Size: 123
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
-Version: 0.122ubuntu8.3
+Version: 0.122ubuntu8.5
 Provides: linux-initramfs-tool
-Depends: initramfs-tools-core (= 0.122ubuntu8.3), linux-base, isc-dhcp-client (>= 4.3.3-5ubuntu12.3)
+Depends: initramfs-tools-core (= 0.122ubuntu8.5), linux-base
 Suggests: bash-completion
 Breaks: console-setup (<< 1.72), cryptsetup (<< 2:1.6.6-4~), elilo (<< 3.12-3.1~), initscripts (<< 2.88dsf-59.3~), isc-dhcp-client (= 4.3.3-5ubuntu13), lilo (<< 22.8-8.2~), lvm2 (<< 2.02.111-2.1~), mountall (<< 2.0~), s390-tools (<< 1.8.3-2~), systemd-sysv (<< 186)
 Conflicts: linux-initramfs-tool, usplash (<< 0.5.50)
@@ -7238,9 +7238,9 @@ Installed-Size: 340
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: ubuntu-release-upgrader
-Version: 1:16.04.16
+Version: 1:16.04.17
 Replaces: update-manager (<< 1:0.165), update-manager-core (<< 1:0.165)
-Depends: python3:any (>= 3.2~), python3-distupgrade (= 1:16.04.16)
+Depends: python3:any (>= 3.2~), python3-distupgrade (= 1:16.04.17)
 Recommends: libpam-modules (>= 1.0.1-9ubuntu3)
 Breaks: software-properties (<< 0.9.27), update-manager (<< 1:0.165), update-manager-core (<< 1:0.165)
 Conffiles:
@@ -8403,8 +8403,8 @@ Section: httpd
 Installed-Size: 37
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
-Version: 1.10.0-0ubuntu0.16.04.2
-Depends: nginx-core (>= 1.10.0-0ubuntu0.16.04.2) | nginx-full (>= 1.10.0-0ubuntu0.16.04.2) | nginx-light (>= 1.10.0-0ubuntu0.16.04.2) | nginx-extras (>= 1.10.0-0ubuntu0.16.04.2), nginx-core (<< 1.10.0-0ubuntu0.16.04.2.1~) | nginx-full (<< 1.10.0-0ubuntu0.16.04.2.1~) | nginx-light (<< 1.10.0-0ubuntu0.16.04.2.1~) | nginx-extras (<< 1.10.0-0ubuntu0.16.04.2.1~)
+Version: 1.10.0-0ubuntu0.16.04.4
+Depends: nginx-core (>= 1.10.0-0ubuntu0.16.04.4) | nginx-full (>= 1.10.0-0ubuntu0.16.04.4) | nginx-light (>= 1.10.0-0ubuntu0.16.04.4) | nginx-extras (>= 1.10.0-0ubuntu0.16.04.4), nginx-core (<< 1.10.0-0ubuntu0.16.04.4.1~) | nginx-full (<< 1.10.0-0ubuntu0.16.04.4.1~) | nginx-light (<< 1.10.0-0ubuntu0.16.04.4.1~) | nginx-extras (<< 1.10.0-0ubuntu0.16.04.4.1~)
 Description: small, powerful, scalable web/proxy server
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -9580,7 +9580,7 @@ Installed-Size: 8021
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: lxd
-Version: 2.0.4-0ubuntu1~ubuntu16.04.1
+Version: 2.0.5-0ubuntu1~ubuntu16.04.1
 Replaces: lxc1 (<= 2.0.0~rc13-0ubuntu2~)
 Depends: libc6 (>= 2.9)
 Suggests: lxd
@@ -9590,19 +9590,19 @@ Description: Container hypervisor based on LXC - client
  using an image based workflow and with support for live migration.
  .
  This package contains the command line client.
-Built-Using: golang-1.6 (= 1.6.2-0ubuntu5~16.04), golang-context (= 0.0~git20140604.1.14f550f-1), golang-defaults (= 2:1.6-1ubuntu4), golang-github-coreos-go-systemd (= 3-2), golang-github-gorilla-mux (= 0.0~git20150814.0.f7b6aaa-1), golang-github-gosexy-gettext (= 0~git20130221-0ubuntu6), golang-github-mattn-go-colorable (= 0.0~git20160226.9cbef7c3-1), golang-github-mattn-go-sqlite3 (= 1.1.0~dfsg1-1), golang-github-olekukonko-tablewriter (= 0.0~git20151029.0.a5eefc2-1), golang-github-pborman-uuid (= 0.0+git20150824.0.cccd189-1ubuntu1), golang-go.crypto (= 1:0.0~git20151201.0.7b85b09-2), golang-gocapability-dev (= 0.0~git20150506.1.66ef2aa-1ubuntu1), golang-gopkg-flosch-pongo2.v3 (= 3.0+git20141028.0.5e81b81-0ubuntu1), golang-gopkg-inconshreveable-log15.v2 (= 2.11+git20150921.0.b105bd3-0ubuntu1), golang-gopkg-lxc-go-lxc.v2 (= 0.0~git20160405.0.85d46fc-0ubuntu2), golang-gopkg-tomb.v2 (= 0.0~git20140626.14b3d72-1), golang-goprotobuf (= 0.0~git20150526-2), golang-petname (= 1.10-0ubuntu1), golang-websocket (= 0.0~git20150811.0.b6ab76f-1), golang-yaml.v2 (= 0.0+git20160301.0.a83829b-1)
+Built-Using: golang-1.6 (= 1.6.2-0ubuntu5~16.04), golang-context (= 0.0~git20140604.1.14f550f-1), golang-defaults (= 2:1.6-1ubuntu4), golang-github-gorilla-mux (= 0.0~git20150814.0.f7b6aaa-1), golang-github-gosexy-gettext (= 0~git20130221-0ubuntu6), golang-github-mattn-go-colorable (= 0.0~git20160226.9cbef7c3-1), golang-github-mattn-go-sqlite3 (= 1.1.0~dfsg1-1), golang-github-olekukonko-tablewriter (= 0.0~git20151029.0.a5eefc2-1), golang-github-pborman-uuid (= 0.0+git20150824.0.cccd189-1ubuntu1), golang-go.crypto (= 1:0.0~git20151201.0.7b85b09-2), golang-gocapability-dev (= 0.0~git20150506.1.66ef2aa-1ubuntu1), golang-gopkg-flosch-pongo2.v3 (= 3.0+git20141028.0.5e81b81-0ubuntu1), golang-gopkg-inconshreveable-log15.v2 (= 2.11+git20150921.0.b105bd3-0ubuntu1), golang-gopkg-lxc-go-lxc.v2 (= 0.0~git20160803.0.f8a6938-0ubuntu1~ubuntu16.04.1), golang-gopkg-tomb.v2 (= 0.0~git20140626.14b3d72-1), golang-goprotobuf (= 0.0~git20150526-2), golang-petname (= 2.4-0ubuntu1~16.04), golang-websocket (= 0.0~git20150811.0.b6ab76f-1), golang-yaml.v2 (= 0.0+git20160301.0.a83829b-1)
 Homepage: https://linuxcontainers.org/
 
 Package: snapd
 Status: install ok installed
 Priority: optional
 Section: devel
-Installed-Size: 31632
+Installed-Size: 32196
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 2.15.2ubuntu1
+Version: 2.16ubuntu3
 Replaces: ubuntu-snappy (<< 1.9), ubuntu-snappy-cli (<< 1.9)
-Depends: init-system-helpers (>= 1.18~), libc6 (>= 2.4), adduser, squashfs-tools, gnupg1 | gnupg, ubuntu-core-launcher (>= 1.0.23)
+Depends: init-system-helpers (>= 1.18~), libc6 (>= 2.4), adduser, squashfs-tools, gnupg1 | gnupg, ubuntu-core-launcher (>= 1.0.43), snap-confine (>= 1.0.43)
 Breaks: ubuntu-snappy (<< 1.9), ubuntu-snappy-cli (<< 1.9)
 Conflicts: snap (<< 2013-11-29-1ubuntu1), snappy
 Conffiles:
@@ -9610,7 +9610,7 @@ Conffiles:
  /etc/profile.d/apps-bin-path.sh 56b08690624e46bccb8cc0be056e50ab
 Description: Tool to interact with Ubuntu Core Snappy.
  Manage an Ubuntu system with snappy.
-Built-Using: golang-1.6 (= 1.6.2-0ubuntu5~16.04), golang-check.v1 (= 0.0+git20150729.11d3bc7-2), golang-defaults (= 2:1.6-1ubuntu4), golang-github-coreos-go-systemd (= 3-2), golang-github-gorilla-mux (= 0.0~git20150814.0.f7b6aaa-1), golang-github-gosexy-gettext (= 0~git20130221-0ubuntu6), golang-github-mvo5-goconfigparser (= 0.2.1-0ubuntu1), golang-github-mvo5-uboot-go (= 0~3.git69978a3-0ubuntu5), golang-github-peterh-liner (= 0.0~git20151118.0.4d47685-1), golang-go-flags (= 0.0~git20160302-0ubuntu1), golang-go.crypto (= 1:0.0~git20151201.0.7b85b09-2), golang-gopkg-macaroon.v1 (= 0.0~git20150121.0.ab3940c-0ubuntu1~16.04), golang-gopkg-tomb.v2 (= 0.0~git20140626.14b3d72-1), golang-pb (= 0.0~git20131219-1), golang-pty (= 0.0~git20150511.1.5cf931e-1ubuntu1), golang-websocket (= 0.0~git20150811.0.b6ab76f-1), golang-yaml.v2 (= 0.0+git20160301.0.a83829b-1)
+Built-Using: golang-1.6 (= 1.6.2-0ubuntu5~16.04), golang-defaults (= 2:1.6-1ubuntu4), golang-github-gosexy-gettext (= 0~git20130221-0ubuntu6)
 Homepage: https://github.com/snapcore/snapd
 
 Package: linux-image-virtual
@@ -9840,9 +9840,9 @@ Installed-Size: 165
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: lxc
-Version: 2.0.4-0ubuntu1~ubuntu16.04.2
+Version: 2.0.5-0ubuntu1~ubuntu16.04.2
 Replaces: lxc (<< 2.0.0~rc2-0ubuntu1~)
-Depends: liblxc1 (= 2.0.4-0ubuntu1~ubuntu16.04.2), apparmor (>= 2.8.96~2652-0ubuntu1), libc6 (>= 2.14)
+Depends: liblxc1 (= 2.0.5-0ubuntu1~ubuntu16.04.2), apparmor (>= 2.8.96~2652-0ubuntu1), libc6 (>= 2.14)
 Breaks: lxc (<< 2.0.0~rc2-0ubuntu1~)
 Conffiles:
  /etc/apparmor.d/abstractions/lxc/container-base e111834cbdac665e67d54bffa4689356
@@ -10497,12 +10497,12 @@ Essential: yes
 Status: install ok installed
 Priority: required
 Section: libs
-Installed-Size: 3477
+Installed-Size: 3478
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: glibc
-Version: 2.23-0ubuntu3
+Version: 2.23-0ubuntu4
 Depends: libc6 (>> 2.23), libc6 (<< 2.24)
 Suggests: manpages
 Conffiles:
@@ -10898,12 +10898,12 @@ Package: libapparmor1
 Status: install ok installed
 Priority: extra
 Section: libs
-Installed-Size: 125
+Installed-Size: 126
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: apparmor
-Version: 2.10.95-0ubuntu2.2
+Version: 2.10.95-0ubuntu2.5
 Depends: libc6 (>= 2.17)
 Description: changehat AppArmor library
  This package provides the shared library used for making use of the
@@ -12772,10 +12772,10 @@ Package: lxcfs
 Status: install ok installed
 Priority: optional
 Section: admin
-Installed-Size: 128
+Installed-Size: 131
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 2.0.3-0ubuntu1~ubuntu16.04.1
+Version: 2.0.4-0ubuntu1~ubuntu16.04.1
 Depends: libc6 (>= 2.17), libfuse2 (>= 2.6), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7)
 Conffiles:
  /etc/init.d/lxcfs 6819a6f9cc482d3d974be6bf39096e88
@@ -12993,10 +12993,10 @@ Installed-Size: 1245
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: nginx
-Version: 1.10.0-0ubuntu0.16.04.2
+Version: 1.10.0-0ubuntu0.16.04.4
 Provides: httpd, httpd-cgi, nginx
-Depends: nginx-common (= 1.10.0-0ubuntu0.16.04.2), libc6 (>= 2.14), libgd3 (>= 2.1.0~alpha~), libgeoip1, libpcre3, libssl1.0.0 (>= 1.0.2~beta3), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
-Suggests: nginx-doc (= 1.10.0-0ubuntu0.16.04.2)
+Depends: nginx-common (= 1.10.0-0ubuntu0.16.04.4), libc6 (>= 2.14), libgd3 (>= 2.1.0~alpha~), libgeoip1, libpcre3, libssl1.0.0 (>= 1.0.2~beta3), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Suggests: nginx-doc (= 1.10.0-0ubuntu0.16.04.4)
 Breaks: nginx (<< 1.4.5-1)
 Conflicts: nginx-extras, nginx-full, nginx-light
 Description: nginx web/proxy server (core version)
@@ -13967,12 +13967,12 @@ Package: libc-dev-bin
 Status: install ok installed
 Priority: optional
 Section: libdevel
-Installed-Size: 387
+Installed-Size: 388
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: glibc
-Version: 2.23-0ubuntu3
+Version: 2.23-0ubuntu4
 Depends: libc6 (>> 2.23), libc6 (<< 2.24)
 Recommends: manpages, manpages-dev
 Description: GNU C Library: Development binaries
@@ -14089,7 +14089,7 @@ Installed-Size: 109
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: initramfs-tools
-Version: 0.122ubuntu8.3
+Version: 0.122ubuntu8.5
 Depends: libc6 (>= 2.4), libudev1 (>= 183)
 Description: binaries used by initramfs-tools
  This package contains binaries used inside the initramfs images generated
@@ -15215,10 +15215,10 @@ Package: google-cloud-sdk
 Status: install ok installed
 Priority: optional
 Section: misc
-Installed-Size: 48489
+Installed-Size: 50115
 Maintainer: Stephen Weinberg <stephenmw@google.com>
 Architecture: all
-Version: 130.0.0-0
+Version: 132.0.0-0
 Depends: python2.7
 Conflicts: gsutil
 Description: Utilities for the Google Cloud Platform
@@ -15593,14 +15593,14 @@ Package: libc6-dev
 Status: install ok installed
 Priority: optional
 Section: libdevel
-Installed-Size: 13227
+Installed-Size: 13225
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: glibc
-Version: 2.23-0ubuntu3
+Version: 2.23-0ubuntu4
 Provides: libc-dev
-Depends: libc6 (= 2.23-0ubuntu3), libc-dev-bin (= 2.23-0ubuntu3), linux-libc-dev
+Depends: libc6 (= 2.23-0ubuntu4), libc-dev-bin (= 2.23-0ubuntu4), linux-libc-dev
 Suggests: glibc-doc, manpages-dev
 Breaks: binutils (<< 2.20.1-1), binutils-gold (<< 2.20.1-11), cmake (<< 2.8.5+dfsg.1-5), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2), gcc-4.6 (<< 4.6.0-12), libhwloc-dev (<< 1.2-3), libjna-java (<< 3.2.7-4), liblouis-dev (<< 2.3.0-2), liblouisxml-dev (<< 2.4.0-2), make (<< 3.81-8.1), pkg-config (<< 0.26-1)
 Conflicts: libc0.1-dev, libc0.3-dev, libc6.1-dev
@@ -16160,7 +16160,7 @@ Installed-Size: 13684
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: glibc
-Version: 2.23-0ubuntu3
+Version: 2.23-0ubuntu4
 Replaces: libc-bin (<< 2.23), manpages-fr-extra (<< 20141022)
 Depends: libc-bin (>> 2.23), debconf (>= 0.5) | debconf-2.0
 Breaks: libc-bin (<< 2.23)
@@ -16255,11 +16255,11 @@ Package: libapparmor-perl
 Status: install ok installed
 Priority: extra
 Section: perl
-Installed-Size: 210
+Installed-Size: 211
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: apparmor
-Version: 2.10.95-0ubuntu2.2
+Version: 2.10.95-0ubuntu2.5
 Depends: perl-base (>= 5.22.1-9), perlapi-5.22.1, libapparmor1 (>= 2.10.95), libc6 (>= 2.14)
 Description: AppArmor library Perl bindings
  This provides the Perl module that contains the language bindings
@@ -16895,11 +16895,11 @@ Package: python3-distupgrade
 Status: install ok installed
 Priority: optional
 Section: python
-Installed-Size: 623
+Installed-Size: 624
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: ubuntu-release-upgrader
-Version: 1:16.04.16
+Version: 1:16.04.17
 Replaces: python3-update-manager (<< 1:0.165)
 Depends: python3:any (>= 3.3.2-2~), python3-update-manager (>= 1:0.196.2~), python3-apt (>= 0.8.5~), lsb-release
 Breaks: python3-update-manager (<< 1:0.165)
