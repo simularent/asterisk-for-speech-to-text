@@ -338,3 +338,20 @@ lease {
   rebind 2 2016/11/01 22:26:14;
   expire 2 2016/11/01 22:33:44;
 }
+lease {
+  interface "eth0";
+  fixed-address 172.31.36.132;
+  option subnet-mask 255.255.240.0;
+  option routers 172.31.32.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 172.31.0.2;
+  option dhcp-server-identifier 172.31.32.1;
+  option interface-mtu 9001;
+  option broadcast-address 172.31.47.255;
+  option host-name "ip-172-31-36-132";
+  option domain-name "us-west-2.compute.internal";
+  renew 2 2016/11/01 22:28:38;
+  rebind 2 2016/11/01 22:55:49;
+  expire 2 2016/11/01 23:03:19;
+}

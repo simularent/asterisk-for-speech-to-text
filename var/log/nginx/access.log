@@ -35,3 +35,8 @@
 69.136.132.140 - - [01/Nov/2016:17:50:26 -0400] "GET / HTTP/1.1" 200 291 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
 69.136.132.140 - - [01/Nov/2016:17:50:26 -0400] "GET / HTTP/1.1" 200 291 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
 69.136.132.140 - - [01/Nov/2016:17:50:27 -0400] "GET /favicon.ico HTTP/1.1" 404 209 "http://pots.robotagrex.com/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
+189.234.153.226 - - [01/Nov/2016:18:03:25 -0400] "GET / HTTP/1.0" 200 758 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+50.181.138.230 - - [01/Nov/2016:18:04:55 -0400] "GET / HTTP/1.0" 200 758 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+190.144.176.2 - - [01/Nov/2016:18:11:06 -0400] "GET / HTTP/1.0" 200 758 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+181.170.123.144 - - [01/Nov/2016:18:11:27 -0400] "GET / HTTP/1.0" 200 758 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+31.168.155.46 - - [01/Nov/2016:18:15:06 -0400] "GET / HTTP/1.0" 200 758 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"

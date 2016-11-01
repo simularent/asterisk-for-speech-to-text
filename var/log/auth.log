@@ -6328,3 +6328,10 @@ Nov  1 17:57:15 localhost sshd[20059]: Invalid user pi from 185.110.132.202
 Nov  1 17:57:15 localhost sshd[20059]: input_userauth_request: invalid user pi [preauth]
 Nov  1 17:57:15 localhost sshd[20059]: Received disconnect from 185.110.132.202 port 49274:11: Bye Bye [preauth]
 Nov  1 17:57:15 localhost sshd[20059]: Disconnected from 185.110.132.202 port 49274 [preauth]
+Nov  1 18:06:22 localhost sshd[20251]: Received disconnect from 119.249.54.68 port 55524:11:  [preauth]
+Nov  1 18:06:22 localhost sshd[20251]: Disconnected from 119.249.54.68 port 55524 [preauth]
+Nov  1 18:09:01 localhost CRON[20253]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 18:09:01 localhost CRON[20253]: pam_unix(cron:session): session closed for user root
+Nov  1 18:17:01 localhost CRON[20295]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 18:17:01 localhost CRON[20295]: pam_unix(cron:session): session closed for user root
+Nov  1 18:23:50 localhost sshd[20298]: Connection closed by 104.160.208.52 port 13427 [preauth]
