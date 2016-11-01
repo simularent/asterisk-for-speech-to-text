@@ -1723,3 +1723,10 @@ cat /root/.ssh/id_rsa.pub
 ssh-agent /bin/bash
 apt-get update
 apt-get upgrade
+cd /
+ls
+ls -la
+git add --all
+git commit -am "daily backup:
+git commit -am "daily backup"
+git push -u asterisk master

@@ -73,7 +73,7 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+"1	LINE	0
 	*/20 * * * * rsync --info=progress2 -aAXvR /etc/* /devops/* /options/* /var/spool/asterisk/monitor /aws-cloud/pots/ > /dev/null 2>&1
 "2	LINE	0
 	
@@ -91,22 +91,24 @@
 	include => demo
 "9	LINE	0
 	;
-"-	CHAR	0
-		
+""-	CHAR	0
+	a
 
 # File marks:
-'0  22  0  /tmp/crontab.BKegcS/crontab
-'1  6  3  /.gitignore
-'2  69  7  /etc/asterisk/sip.conf
-'3  23  0  /tmp/crontab.DC5Kju/crontab
-'4  1  61  /etc/apt/sources.list.d/google-cloud-sdk.list
-'5  613  43  /etc/asterisk/extensions.conf
-'6  5  0  /etc/asterisk/onsite-wait.sh
-'7  2  0  /etc/asterisk/onsite.sh
-'8  1  0  /etc/asterisk/transcribe-env.sh
-'9  4  0  /var/spool/asterisk/monitor/onsite-transcribe.php
+'0  3  19  ~/backup.sh
+'1  22  0  /tmp/crontab.BKegcS/crontab
+'2  6  3  /.gitignore
+'3  69  7  /etc/asterisk/sip.conf
+'4  23  0  /tmp/crontab.DC5Kju/crontab
+'5  1  61  /etc/apt/sources.list.d/google-cloud-sdk.list
+'6  613  43  /etc/asterisk/extensions.conf
+'7  5  0  /etc/asterisk/onsite-wait.sh
+'8  2  0  /etc/asterisk/onsite.sh
+'9  1  0  /etc/asterisk/transcribe-env.sh
 
 # Jumplist (newest first):
+-'  3  19  ~/backup.sh
+-'  1  0  ~/backup.sh
 -'  22  0  /tmp/crontab.BKegcS/crontab
 -'  1  0  /tmp/crontab.BKegcS/crontab
 -'  6  3  /.gitignore
@@ -204,10 +206,14 @@
 -'  2  0  ~/transcribe-env.sh
 -'  5  0  ~/transcribe-env.sh
 -'  588  46  /etc/asterisk/extensions.conf
--'  634  0  /etc/asterisk/extensions.conf
--'  20  32  /etc/nginx/sites-enabled/default
 
 # History of marks within files (newest to oldest):
+
+> ~/backup.sh
+	"	3	19
+	^	3	20
+	.	3	19
+	+	3	19
 
 > /tmp/crontab.BKegcS/crontab
 	"	22	0

@@ -6308,3 +6308,23 @@ Nov  1 17:50:53 localhost su[19751]: Successful su for root by root
 Nov  1 17:50:53 localhost su[19751]: + /dev/pts/0 root:root
 Nov  1 17:50:53 localhost su[19751]: pam_unix(su:session): session opened for user root by ubuntu(uid=0)
 Nov  1 17:50:53 localhost su[19751]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov  1 17:52:33 localhost sshd[19728]: Received disconnect from 69.136.132.140 port 8774:11: FlowSshClientSession: disconnected on user's request
+Nov  1 17:52:33 localhost sshd[19728]: Disconnected from 69.136.132.140 port 8774
+Nov  1 17:52:33 localhost sshd[19652]: pam_unix(sshd:session): session closed for user ubuntu
+Nov  1 17:52:33 localhost su[19751]: pam_unix(su:session): session closed for user root
+Nov  1 17:52:33 localhost sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:52:33 localhost systemd-logind[648]: Removed session 2977.
+Nov  1 17:56:52 localhost sshd[19979]: Accepted publickey for ubuntu from 69.136.132.140 port 8706 ssh2: RSA SHA256:nmv2AgfvBtp5TtcCU0m2JAgsrFvlmt9275Ug/ZyiVPU
+Nov  1 17:56:52 localhost sshd[19979]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Nov  1 17:56:52 localhost systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Nov  1 17:56:52 localhost systemd-logind[648]: New session 2978 of user ubuntu.
+Nov  1 17:56:57 localhost sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su
+Nov  1 17:56:57 localhost sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Nov  1 17:56:57 localhost su[20047]: Successful su for root by root
+Nov  1 17:56:57 localhost su[20047]: + /dev/pts/0 root:root
+Nov  1 17:56:57 localhost su[20047]: pam_unix(su:session): session opened for user root by ubuntu(uid=0)
+Nov  1 17:56:57 localhost su[20047]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov  1 17:57:15 localhost sshd[20059]: Invalid user pi from 185.110.132.202
+Nov  1 17:57:15 localhost sshd[20059]: input_userauth_request: invalid user pi [preauth]
+Nov  1 17:57:15 localhost sshd[20059]: Received disconnect from 185.110.132.202 port 49274:11: Bye Bye [preauth]
+Nov  1 17:57:15 localhost sshd[20059]: Disconnected from 185.110.132.202 port 49274 [preauth]

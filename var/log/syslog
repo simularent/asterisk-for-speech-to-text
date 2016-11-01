@@ -131,3 +131,24 @@ Nov  1 17:50:47 localhost systemd[19654]: Reached target Basic System.
 Nov  1 17:50:47 localhost systemd[19654]: Reached target Default.
 Nov  1 17:50:47 localhost systemd[19654]: Startup finished in 19ms.
 Nov  1 17:50:47 localhost systemd[1]: Started User Manager for UID 1000.
+Nov  1 17:52:33 localhost systemd[1]: Stopping User Manager for UID 1000...
+Nov  1 17:52:33 localhost systemd[19654]: Reached target Shutdown.
+Nov  1 17:52:33 localhost systemd[19654]: Stopped target Default.
+Nov  1 17:52:33 localhost systemd[19654]: Stopped target Basic System.
+Nov  1 17:52:33 localhost systemd[19654]: Stopped target Sockets.
+Nov  1 17:52:33 localhost systemd[19654]: Stopped target Paths.
+Nov  1 17:52:33 localhost systemd[19654]: Starting Exit the Session...
+Nov  1 17:52:33 localhost systemd[19654]: Stopped target Timers.
+Nov  1 17:52:33 localhost systemd[19654]: Received SIGRTMIN+24 from PID 19971 (kill).
+Nov  1 17:52:33 localhost systemd[1]: Stopped User Manager for UID 1000.
+Nov  1 17:52:33 localhost systemd[1]: Removed slice User Slice of ubuntu.
+Nov  1 17:56:52 localhost systemd[1]: Created slice User Slice of ubuntu.
+Nov  1 17:56:52 localhost systemd[1]: Starting User Manager for UID 1000...
+Nov  1 17:56:52 localhost systemd[1]: Started Session 2978 of user ubuntu.
+Nov  1 17:56:52 localhost systemd[19981]: Reached target Paths.
+Nov  1 17:56:52 localhost systemd[19981]: Reached target Timers.
+Nov  1 17:56:52 localhost systemd[19981]: Reached target Sockets.
+Nov  1 17:56:52 localhost systemd[19981]: Reached target Basic System.
+Nov  1 17:56:52 localhost systemd[19981]: Reached target Default.
+Nov  1 17:56:52 localhost systemd[19981]: Startup finished in 25ms.
+Nov  1 17:56:52 localhost systemd[1]: Started User Manager for UID 1000.
