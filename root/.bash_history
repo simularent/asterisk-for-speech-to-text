@@ -1733,3 +1733,6 @@ git push -u asterisk master
 vi /root/backup.sh
 chmod 755 /root/backup.sh 
 /root/backup.sh 
+cd /root/
+ls
+./backup.sh 

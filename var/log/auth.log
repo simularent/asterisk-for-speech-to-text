@@ -6504,3 +6504,95 @@ Nov  1 21:19:39 localhost su[21041]: Successful su for root by root
 Nov  1 21:19:39 localhost su[21041]: + /dev/pts/0 root:root
 Nov  1 21:19:39 localhost su[21041]: pam_unix(su:session): session opened for user root by ubuntu(uid=0)
 Nov  1 21:19:39 localhost su[21041]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov  1 21:20:32 localhost sshd[21231]: Received disconnect from 119.249.54.68 port 41093:11:  [preauth]
+Nov  1 21:20:32 localhost sshd[21231]: Disconnected from 119.249.54.68 port 41093 [preauth]
+Nov  1 21:30:22 localhost sshd[20537]: pam_unix(sshd:session): session closed for user ubuntu
+Nov  1 21:30:22 localhost systemd-logind[648]: Removed session 2982.
+Nov  1 21:30:46 localhost su[21041]: pam_unix(su:session): session closed for user root
+Nov  1 21:30:46 localhost sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 21:30:50 localhost sshd[20931]: Received disconnect from 69.136.133.15 port 6146:11: FlowSshClientSession: disconnected on user's request
+Nov  1 21:30:50 localhost sshd[20931]: Disconnected from 69.136.133.15 port 6146
+Nov  1 21:30:50 localhost sshd[20864]: pam_unix(sshd:session): session closed for user ubuntu
+Nov  1 21:30:50 localhost systemd-logind[648]: Removed session 2989.
+Nov  1 21:30:50 localhost systemd: pam_unix(systemd-user:session): session closed for user ubuntu
+Nov  1 21:39:01 localhost CRON[21256]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 21:39:01 localhost CRON[21256]: pam_unix(cron:session): session closed for user root
+Nov  1 21:45:07 localhost sshd[21298]: Did not receive identification string from 116.99.169.117
+Nov  1 21:45:15 localhost sshd[21299]: Invalid user support from 116.99.169.117
+Nov  1 21:45:15 localhost sshd[21299]: input_userauth_request: invalid user support [preauth]
+Nov  1 21:45:15 localhost sshd[21299]: error: Received disconnect from 116.99.169.117 port 56607:3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Nov  1 21:45:15 localhost sshd[21299]: Disconnected from 116.99.169.117 port 56607 [preauth]
+Nov  1 21:45:45 localhost sshd[21301]: Did not receive identification string from 42.116.79.120
+Nov  1 21:45:46 localhost sshd[21302]: Invalid user support from 42.116.79.120
+Nov  1 21:45:46 localhost sshd[21302]: input_userauth_request: invalid user support [preauth]
+Nov  1 21:45:46 localhost sshd[21302]: error: Received disconnect from 42.116.79.120 port 49182:3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Nov  1 21:45:46 localhost sshd[21302]: Disconnected from 42.116.79.120 port 49182 [preauth]
+Nov  1 21:45:57 localhost sshd[21304]: Did not receive identification string from 1.55.188.1
+Nov  1 21:45:59 localhost sshd[21305]: Invalid user support from 1.55.188.1
+Nov  1 21:45:59 localhost sshd[21305]: input_userauth_request: invalid user support [preauth]
+Nov  1 21:45:59 localhost sshd[21305]: error: Received disconnect from 1.55.188.1 port 64882:3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Nov  1 21:45:59 localhost sshd[21305]: Disconnected from 1.55.188.1 port 64882 [preauth]
+Nov  1 21:53:35 localhost sshd[21319]: Did not receive identification string from 113.22.47.92
+Nov  1 21:53:37 localhost sshd[21320]: Invalid user support from 113.22.47.92
+Nov  1 21:53:37 localhost sshd[21320]: input_userauth_request: invalid user support [preauth]
+Nov  1 21:53:37 localhost sshd[21320]: error: Received disconnect from 113.22.47.92 port 64998:3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Nov  1 21:53:37 localhost sshd[21320]: Disconnected from 113.22.47.92 port 64998 [preauth]
+Nov  1 21:54:10 localhost sshd[21322]: Did not receive identification string from 14.182.112.66
+Nov  1 21:54:34 localhost sshd[21323]: Invalid user support from 14.182.112.66
+Nov  1 21:54:34 localhost sshd[21323]: input_userauth_request: invalid user support [preauth]
+Nov  1 21:54:35 localhost sshd[21323]: error: Received disconnect from 14.182.112.66 port 55687:3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Nov  1 21:54:35 localhost sshd[21323]: Disconnected from 14.182.112.66 port 55687 [preauth]
+Nov  1 21:54:35 localhost sshd[21325]: Did not receive identification string from 116.98.66.78
+Nov  1 21:54:40 localhost sshd[21326]: Invalid user admin from 116.98.66.78
+Nov  1 21:54:40 localhost sshd[21326]: input_userauth_request: invalid user admin [preauth]
+Nov  1 21:54:40 localhost sshd[21326]: error: Received disconnect from 116.98.66.78 port 53788:3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Nov  1 21:54:40 localhost sshd[21326]: Disconnected from 116.98.66.78 port 53788 [preauth]
+Nov  1 21:54:44 localhost sshd[21328]: Invalid user support from 116.98.66.78
+Nov  1 21:54:44 localhost sshd[21328]: input_userauth_request: invalid user support [preauth]
+Nov  1 21:54:44 localhost sshd[21328]: error: Received disconnect from 116.98.66.78 port 54186:3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Nov  1 21:54:44 localhost sshd[21328]: Disconnected from 116.98.66.78 port 54186 [preauth]
+Nov  1 21:54:48 localhost sshd[21330]: Invalid user guest from 116.98.66.78
+Nov  1 21:54:48 localhost sshd[21330]: input_userauth_request: invalid user guest [preauth]
+Nov  1 21:54:49 localhost sshd[21330]: error: Received disconnect from 116.98.66.78 port 54489:3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Nov  1 21:54:49 localhost sshd[21330]: Disconnected from 116.98.66.78 port 54489 [preauth]
+Nov  1 21:54:52 localhost sshd[21332]: Invalid user test from 116.98.66.78
+Nov  1 21:54:52 localhost sshd[21332]: input_userauth_request: invalid user test [preauth]
+Nov  1 21:54:52 localhost sshd[21332]: error: Received disconnect from 116.98.66.78 port 54803:3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Nov  1 21:54:52 localhost sshd[21332]: Disconnected from 116.98.66.78 port 54803 [preauth]
+Nov  1 21:54:56 localhost sshd[21334]: Invalid user admin from 116.98.66.78
+Nov  1 21:54:56 localhost sshd[21334]: input_userauth_request: invalid user admin [preauth]
+Nov  1 21:54:56 localhost sshd[21334]: error: Received disconnect from 116.98.66.78 port 55090:3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Nov  1 21:54:56 localhost sshd[21334]: Disconnected from 116.98.66.78 port 55090 [preauth]
+Nov  1 22:02:58 localhost sshd[21336]: Did not receive identification string from 113.175.226.195
+Nov  1 22:02:59 localhost sshd[21337]: Invalid user support from 113.175.226.195
+Nov  1 22:02:59 localhost sshd[21337]: input_userauth_request: invalid user support [preauth]
+Nov  1 22:03:00 localhost sshd[21337]: error: Received disconnect from 113.175.226.195 port 58476:3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Nov  1 22:03:00 localhost sshd[21337]: Disconnected from 113.175.226.195 port 58476 [preauth]
+Nov  1 22:04:26 localhost sshd[21339]: Did not receive identification string from 113.22.47.92
+Nov  1 22:04:27 localhost sshd[21340]: Invalid user support from 113.22.47.92
+Nov  1 22:04:27 localhost sshd[21340]: input_userauth_request: invalid user support [preauth]
+Nov  1 22:04:27 localhost sshd[21340]: error: Received disconnect from 113.22.47.92 port 53287:3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Nov  1 22:04:27 localhost sshd[21340]: Disconnected from 113.22.47.92 port 53287 [preauth]
+Nov  1 22:08:53 localhost sshd[21342]: Did not receive identification string from 163.172.200.56
+Nov  1 22:09:01 localhost CRON[21345]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 22:09:01 localhost CRON[21345]: pam_unix(cron:session): session closed for user root
+Nov  1 22:09:15 localhost sshd[21343]: Invalid user admin from 163.172.200.56
+Nov  1 22:09:15 localhost sshd[21343]: input_userauth_request: invalid user admin [preauth]
+Nov  1 22:09:16 localhost sshd[21343]: error: Received disconnect from 163.172.200.56 port 63207:3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Nov  1 22:09:16 localhost sshd[21343]: Disconnected from 163.172.200.56 port 63207 [preauth]
+Nov  1 22:09:27 localhost sshd[21387]: Invalid user support from 163.172.200.56
+Nov  1 22:09:27 localhost sshd[21387]: input_userauth_request: invalid user support [preauth]
+Nov  1 22:09:27 localhost sshd[21387]: error: Received disconnect from 163.172.200.56 port 59776:3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Nov  1 22:09:27 localhost sshd[21387]: Disconnected from 163.172.200.56 port 59776 [preauth]
+Nov  1 22:17:01 localhost CRON[21401]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 22:17:01 localhost CRON[21401]: pam_unix(cron:session): session closed for user root
+Nov  1 22:18:18 localhost sshd[21404]: Accepted publickey for ubuntu from 69.136.133.126 port 51729 ssh2: RSA SHA256:nmv2AgfvBtp5TtcCU0m2JAgsrFvlmt9275Ug/ZyiVPU
+Nov  1 22:18:18 localhost sshd[21404]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Nov  1 22:18:18 localhost systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Nov  1 22:18:18 localhost systemd-logind[648]: New session 2995 of user ubuntu.
+Nov  1 22:18:21 localhost sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su
+Nov  1 22:18:21 localhost sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Nov  1 22:18:21 localhost su[21494]: Successful su for root by root
+Nov  1 22:18:21 localhost su[21494]: + /dev/pts/0 root:root
+Nov  1 22:18:21 localhost su[21494]: pam_unix(su:session): session opened for user root by ubuntu(uid=0)
+Nov  1 22:18:21 localhost su[21494]: pam_systemd(su:session): Cannot create session: Already running in a session

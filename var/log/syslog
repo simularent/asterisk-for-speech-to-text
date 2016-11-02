@@ -189,3 +189,37 @@ Nov  1 20:54:54 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32
 Nov  1 20:54:54 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1710 seconds.
 Nov  1 21:09:01 localhost CRON[20956]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
 Nov  1 21:17:01 localhost CRON[21022]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov  1 21:23:24 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 21:23:24 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 21:23:24 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1529 seconds.
+Nov  1 21:30:50 localhost systemd[1]: Stopping User Manager for UID 1000...
+Nov  1 21:30:50 localhost systemd[19981]: Reached target Shutdown.
+Nov  1 21:30:50 localhost systemd[19981]: Starting Exit the Session...
+Nov  1 21:30:50 localhost systemd[19981]: Stopped target Default.
+Nov  1 21:30:50 localhost systemd[19981]: Stopped target Basic System.
+Nov  1 21:30:50 localhost systemd[19981]: Stopped target Paths.
+Nov  1 21:30:50 localhost systemd[19981]: Stopped target Timers.
+Nov  1 21:30:50 localhost systemd[19981]: Stopped target Sockets.
+Nov  1 21:30:50 localhost systemd[19981]: Received SIGRTMIN+24 from PID 21248 (kill).
+Nov  1 21:30:50 localhost systemd[1]: Stopped User Manager for UID 1000.
+Nov  1 21:30:50 localhost systemd[1]: Removed slice User Slice of ubuntu.
+Nov  1 21:39:01 localhost CRON[21257]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 21:48:53 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 21:48:53 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 21:48:53 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1445 seconds.
+Nov  1 22:09:01 localhost CRON[21346]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 22:12:58 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 22:12:58 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 22:12:58 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1727 seconds.
+Nov  1 22:17:01 localhost CRON[21402]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov  1 22:18:18 localhost systemd[1]: Created slice User Slice of ubuntu.
+Nov  1 22:18:18 localhost systemd[1]: Starting User Manager for UID 1000...
+Nov  1 22:18:18 localhost systemd[1]: Started Session 2995 of user ubuntu.
+Nov  1 22:18:18 localhost systemd[21406]: Reached target Timers.
+Nov  1 22:18:18 localhost systemd[21406]: Reached target Paths.
+Nov  1 22:18:18 localhost systemd[21406]: Reached target Sockets.
+Nov  1 22:18:18 localhost systemd[21406]: Reached target Basic System.
+Nov  1 22:18:18 localhost systemd[21406]: Reached target Default.
+Nov  1 22:18:18 localhost systemd[21406]: Startup finished in 21ms.
+Nov  1 22:18:18 localhost systemd[1]: Started User Manager for UID 1000.
+Nov  1 22:18:39 localhost crontab[21507]: (root) LIST (root)
