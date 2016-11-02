@@ -92,27 +92,28 @@
 "9	LINE	0
 	;
 ""-	CHAR	0
-	a
+	/
 
 # File marks:
-'0  3  19  ~/backup.sh
-'1  22  0  /tmp/crontab.BKegcS/crontab
-'2  6  3  /.gitignore
-'3  69  7  /etc/asterisk/sip.conf
-'4  23  0  /tmp/crontab.DC5Kju/crontab
-'5  1  61  /etc/apt/sources.list.d/google-cloud-sdk.list
-'6  613  43  /etc/asterisk/extensions.conf
-'7  5  0  /etc/asterisk/onsite-wait.sh
-'8  2  0  /etc/asterisk/onsite.sh
-'9  1  0  /etc/asterisk/transcribe-env.sh
+'0  7  9  /.gitignore
+'1  6  0  /.gitignore
+'2  3  19  ~/backup.sh
+'3  22  0  /tmp/crontab.BKegcS/crontab
+'4  69  7  /etc/asterisk/sip.conf
+'5  23  0  /tmp/crontab.DC5Kju/crontab
+'6  1  61  /etc/apt/sources.list.d/google-cloud-sdk.list
+'7  613  43  /etc/asterisk/extensions.conf
+'8  5  0  /etc/asterisk/onsite-wait.sh
+'9  2  0  /etc/asterisk/onsite.sh
 
 # Jumplist (newest first):
+-'  7  9  /.gitignore
+-'  1  0  /.gitignore
+-'  6  0  /.gitignore
 -'  3  19  ~/backup.sh
 -'  1  0  ~/backup.sh
 -'  22  0  /tmp/crontab.BKegcS/crontab
 -'  1  0  /tmp/crontab.BKegcS/crontab
--'  6  3  /.gitignore
--'  1  0  /.gitignore
 -'  69  7  /etc/asterisk/sip.conf
 -'  1  0  /etc/asterisk/sip.conf
 -'  23  0  /tmp/crontab.DC5Kju/crontab
@@ -204,10 +205,15 @@
 -'  1  0  ~/python-docs-samples/speech/api-client/transcribe-env.sh
 -'  8  15  ~/transcribe-env.sh
 -'  2  0  ~/transcribe-env.sh
--'  5  0  ~/transcribe-env.sh
--'  588  46  /etc/asterisk/extensions.conf
 
 # History of marks within files (newest to oldest):
+
+> /.gitignore
+	"	7	9
+	^	7	10
+	.	7	9
+	+	6	0
+	+	7	9
 
 > ~/backup.sh
 	"	3	19
@@ -219,12 +225,6 @@
 	"	22	0
 	.	23	0
 	+	23	0
-
-> /.gitignore
-	"	6	3
-	^	6	4
-	.	6	0
-	+	6	0
 
 > /etc/asterisk/sip.conf
 	"	69	7
