@@ -6601,3 +6601,10 @@ Nov  1 22:24:17 localhost sshd[21698]: Invalid user support from 113.22.62.255
 Nov  1 22:24:17 localhost sshd[21698]: input_userauth_request: invalid user support [preauth]
 Nov  1 22:24:17 localhost sshd[21698]: error: Received disconnect from 113.22.62.255 port 50927:3: com.jcraft.jsch.JSchException: Auth fail [preauth]
 Nov  1 22:24:17 localhost sshd[21698]: Disconnected from 113.22.62.255 port 50927 [preauth]
+Nov  1 22:31:22 localhost sshd[21879]: Did not receive identification string from 27.72.40.15
+Nov  1 22:31:24 localhost sshd[21880]: Invalid user support from 27.72.40.15
+Nov  1 22:31:24 localhost sshd[21880]: input_userauth_request: invalid user support [preauth]
+Nov  1 22:31:24 localhost sshd[21880]: error: Received disconnect from 27.72.40.15 port 14162:3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Nov  1 22:31:24 localhost sshd[21880]: Disconnected from 27.72.40.15 port 14162 [preauth]
+Nov  1 22:39:02 localhost CRON[21888]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 22:39:02 localhost CRON[21888]: pam_unix(cron:session): session closed for user root

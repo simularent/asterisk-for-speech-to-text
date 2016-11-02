@@ -223,3 +223,4 @@ Nov  1 22:18:18 localhost systemd[21406]: Reached target Default.
 Nov  1 22:18:18 localhost systemd[21406]: Startup finished in 21ms.
 Nov  1 22:18:18 localhost systemd[1]: Started User Manager for UID 1000.
 Nov  1 22:18:39 localhost crontab[21507]: (root) LIST (root)
+Nov  1 22:39:02 localhost CRON[21889]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
