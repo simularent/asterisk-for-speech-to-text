@@ -157,3 +157,35 @@ Nov  1 18:03:19 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32
 Nov  1 18:03:19 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1519 seconds.
 Nov  1 18:09:01 localhost CRON[20254]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
 Nov  1 18:17:01 localhost CRON[20296]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov  1 18:28:38 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 18:28:38 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 18:28:38 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1359 seconds.
+Nov  1 18:39:01 localhost CRON[20496]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 18:50:14 localhost systemd[1]: Started Session 2982 of user ubuntu.
+Nov  1 18:51:17 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 18:51:17 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 18:51:17 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1594 seconds.
+Nov  1 19:09:01 localhost CRON[20596]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 19:17:01 localhost CRON[20643]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov  1 19:17:51 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 19:17:51 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 19:17:51 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1475 seconds.
+Nov  1 19:39:01 localhost CRON[20672]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 19:42:26 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 19:42:26 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 19:42:26 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1374 seconds.
+Nov  1 20:05:21 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 20:05:21 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 20:05:21 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1505 seconds.
+Nov  1 20:09:01 localhost CRON[20753]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 20:17:01 localhost CRON[20795]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov  1 20:30:27 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 20:30:27 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 20:30:27 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1467 seconds.
+Nov  1 20:39:01 localhost CRON[20817]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 20:48:02 localhost systemd[1]: Started Session 2989 of user ubuntu.
+Nov  1 20:54:54 localhost dhclient[945]: DHCPREQUEST of 172.31.36.132 on eth0 to 172.31.32.1 port 67 (xid=0x2ca58012)
+Nov  1 20:54:54 localhost dhclient[945]: DHCPACK of 172.31.36.132 from 172.31.32.1
+Nov  1 20:54:54 localhost dhclient[945]: bound to 172.31.36.132 -- renewal in 1710 seconds.
+Nov  1 21:09:01 localhost CRON[20956]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Nov  1 21:17:01 localhost CRON[21022]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
