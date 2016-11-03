@@ -1736,3 +1736,18 @@ chmod 755 /root/backup.sh
 cd /root/
 ls
 ./backup.sh 
+cd /
+ls
+mount
+crontab -l
+ls
+rm -rf aws-cloud/
+ls
+/root/backup.sh 
+top
+git gc
+/root/backup.sh 
+cd /
+vi .gitignore 
+/root/backup.sh 
+mount

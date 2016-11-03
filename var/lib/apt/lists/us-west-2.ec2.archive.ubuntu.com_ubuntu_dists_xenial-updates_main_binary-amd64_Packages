@@ -782,7 +782,7 @@ Multi-Arch: foreign
 Description-md5: 6d16337f57b84c4747f56438355b2395
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 20
+Phased-Update-Percentage: 50
 Supported: 5y
 Task: minimal
 
@@ -914,16 +914,16 @@ Installed-Size: 1626
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: apparmor-profiles (<< 2.1+1075-0ubuntu4), bind, bind9utils (<< 1:9.9.3.dfsg.P2-3), dnsutils (<< 1:9.1.0-3)
-Depends: libbind9-140 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libc6 (>= 2.14), libcap2 (>= 1:2.10), libdns162 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libgeoip1, libirs141, libisc160 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libisccc140 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libisccfg140 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), liblwres141 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), netbase, adduser, lsb-base (>= 3.2-14), bind9utils (= 1:9.10.3.dfsg.P4-8ubuntu1.1), net-tools
+Depends: libbind9-140 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libc6 (>= 2.14), libcap2 (>= 1:2.10), libdns162 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libgeoip1, libirs141, libisc160 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libisccc140 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libisccfg140 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), liblwres141 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), netbase, adduser, lsb-base (>= 3.2-14), bind9utils (= 1:9.10.3.dfsg.P4-8ubuntu1.2), net-tools
 Suggests: dnsutils, bind9-doc, resolvconf, ufw
 Conflicts: apparmor-profiles (<< 2.1+1075-0ubuntu4), bind
-Filename: pool/main/b/bind9/bind9_9.10.3.dfsg.P4-8ubuntu1.1_amd64.deb
-Size: 371452
-MD5sum: 2bbd3953d53df3874741a9bac5768243
-SHA1: 33ff3c5608d117fc6c21dca9b01166e8de590f13
-SHA256: dda262b0077421ce5a2f0864b8659c36c55f6294b271053bc12fe88a1ab5072a
+Filename: pool/main/b/bind9/bind9_9.10.3.dfsg.P4-8ubuntu1.2_amd64.deb
+Size: 371026
+MD5sum: b02e52ec6c85361ae3392829102aed88
+SHA1: b17d1ca82dd08c7e8c33c516a27e3fc9d4b28dec
+SHA256: 42de4e3eea13ca5566027f1fc47852f4e50e7c8b8cf2dc1f3d398c8900effab7
 Description: Internet Domain Name Server
 Description-md5: afd61d02df1ec6f856b928dfbf6fd201
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -939,12 +939,12 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: all
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
-Filename: pool/main/b/bind9/bind9-doc_9.10.3.dfsg.P4-8ubuntu1.1_all.deb
-Size: 197570
-MD5sum: 68a6587047ed2782c176cd4b118755bb
-SHA1: 10c5eccb22ea1fceaf6d0e1121255af163ffd465
-SHA256: 8b266cdd834f96ef1d06809124752801b1d096c2259c632a5a59b4270ba599a5
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
+Filename: pool/main/b/bind9/bind9-doc_9.10.3.dfsg.P4-8ubuntu1.2_all.deb
+Size: 197628
+MD5sum: 142e7323992587ac3b4a59b70411050a
+SHA1: 296988c207951eb55ca0002871b5f4f2fe4d5568
+SHA256: 74d94aa9dddcbe4388ad69cdfe19f9044b732ed2f4775b092497abc4d5926303
 Description: Documentation for BIND
 Description-md5: 329b8ef5cf9ad3d51ce47e6d8d13d75e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -960,16 +960,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: dnsutils (<< 1:9.0.0), host (<< 1:9.7.0)
 Provides: host
-Depends: libbind9-140 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libc6 (>= 2.4), libdns162 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libisc160 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libisccfg140 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), liblwres141 (= 1:9.10.3.dfsg.P4-8ubuntu1.1)
+Depends: libbind9-140 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libc6 (>= 2.4), libdns162 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libisc160 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libisccfg140 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), liblwres141 (= 1:9.10.3.dfsg.P4-8ubuntu1.2)
 Conflicts: dnsutils (<< 1:9.0.0), host (<< 1:9.7.0)
-Filename: pool/main/b/bind9/bind9-host_9.10.3.dfsg.P4-8ubuntu1.1_amd64.deb
-Size: 38402
-MD5sum: 1ad95d9648edfc086a10c2e0a15b7914
-SHA1: 3383d42f4eb5849b1e73ab4ae07b05fca7ede8c7
-SHA256: 116394f142688d7c094870ecaadc5f5838b6bd3d8db965f1a7330cf48ef482a2
+Filename: pool/main/b/bind9/bind9-host_9.10.3.dfsg.P4-8ubuntu1.2_amd64.deb
+Size: 38276
+MD5sum: 3fbb44021a106e42b0c31dd477c2be75
+SHA1: 5333bd2976e3d0b44c38eb4ad426a4d19389ece2
+SHA256: c0c11dcf8a431bf5a439600e6e1d7929ee49ea515597aa53c90c801f84bd70de
 Description: Version of 'host' bundled with BIND 9.X
 Description-md5: acdae162c721f5d2986f557bdefa1e70
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -985,14 +985,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: bind9 (<= 1:9.9.5.dfsg-1)
 Depends: libbind9-140, libc6 (>= 2.4), libdns162, libisc160, libisccc140, libisccfg140, python, python-argparse
-Filename: pool/main/b/bind9/bind9utils_9.10.3.dfsg.P4-8ubuntu1.1_amd64.deb
-Size: 201092
-MD5sum: d74038b09b04aab9a40073e86d12a050
-SHA1: 5d19d721dbf512115a86ceeb9896210ec6c46dc5
-SHA256: ee52c70ca86762f59b5ba94b872ba6ce952e214d50e4344d858e530e020b7f9a
+Filename: pool/main/b/bind9/bind9utils_9.10.3.dfsg.P4-8ubuntu1.2_amd64.deb
+Size: 201274
+MD5sum: 1def8941795c9d4fa14e9d7a08cd9c9a
+SHA1: 1747b0b76a2eb4083d976e56ec26d58e3b513d64
+SHA256: 33474fafb896dcac84dd9e6f23a0964084034965961fce0530dfa4692a6694e7
 Description: Utilities for BIND
 Description-md5: 5f6f5621a6edd04ef33a0fe5d2d5bff8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -1332,7 +1332,7 @@ Tag: admin::boot, admin::filesystem, implemented-in::shell, protocol::smb, role:
 Description-md5: 9be0120948307c7e897a16c45a69ba0f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 20
+Phased-Update-Percentage: 40
 Supported: 5y
 Task: xubuntu-live
 
@@ -2549,6 +2549,101 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: dbus
+Priority: standard
+Section: devel
+Installed-Size: 536
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1.10.6-1ubuntu3.1
+Depends: libapparmor1 (>= 2.8.95), libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libcap-ng0, libdbus-1-3 (= 1.10.6-1ubuntu3.1), libexpat1 (>= 2.0.1), libselinux1 (>= 2.0.65), libsystemd0, lsb-base (>= 4.1+Debian11ubuntu7), adduser
+Suggests: dbus-user-session | dbus-x11
+Filename: pool/main/d/dbus/dbus_1.10.6-1ubuntu3.1_amd64.deb
+Size: 141352
+MD5sum: 2bc40ff5d33a6d65993b125fe3af653c
+SHA1: 90643754869f70e7a029f25a98b4a32d88627a9d
+SHA256: a41e648982ba004492be463637cf98ddcabf2450d4f38bff44bdbd348cc6a7d3
+Description: simple interprocess messaging system (daemon and utilities)
+Multi-Arch: foreign
+Homepage: http://dbus.freedesktop.org/
+Description-md5: 8317e43242716ec7f7692a3ac5895e1c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: standard, mythbuntu-frontend, mythbuntu-backend-slave, mythbuntu-backend-master, ubuntu-sdk-libs, ubuntu-touch
+
+Package: dbus-1-dbg
+Priority: extra
+Section: debug
+Installed-Size: 8734
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Source: dbus
+Version: 1.10.6-1ubuntu3.1
+Depends: libdbus-1-3 (= 1.10.6-1ubuntu3.1), dbus (= 1.10.6-1ubuntu3.1), dbus-x11 (= 1.10.6-1ubuntu3.1), libapparmor1 (>= 2.8.95), libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libcap-ng0, libexpat1 (>= 2.0.1), libglib2.0-0 (>= 2.37.6), libselinux1 (>= 2.0.65), libsystemd0, libx11-6
+Suggests: gnome-desktop-testing
+Filename: pool/main/d/dbus/dbus-1-dbg_1.10.6-1ubuntu3.1_amd64.deb
+Size: 4141186
+MD5sum: 487696a89457de1afd35253dd58f34ca
+SHA1: 64d4049adb85c393e1be018cf86d490498354eec
+SHA256: 5a8c0a2ed4742a9f1611d35fae3f938a384e683a597d38d67fc9a1c1e141cde1
+Description: simple interprocess messaging system (debug symbols)
+Multi-Arch: same
+Homepage: http://dbus.freedesktop.org/
+Build-Ids: 0bce383821b62e8c76764c9c01a568388c081208 18f121b40795a733423faa8b446f8615f95508e2 4159213a7223a75ed9527c0c04ba9a0b9406f98d 747dc7ef4e7727a2a8508f1c907a68d0c8b2a3d6 8fe0cdb81981a8c8fb60bc783dabe78acdcd061f bf84cdbee2322906ddb85340eb5a42318702391c c3af06257563bfef4b38aeb0be80cbe062663e7a dfb1e6c5a24bd1ffae031617024bbcd9771ecda3
+Description-md5: 8e652fad9ff7afdabd20cb27b87476a9
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: dbus-1-doc
+Priority: optional
+Section: doc
+Installed-Size: 21558
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Architecture: all
+Source: dbus
+Version: 1.10.6-1ubuntu3.1
+Suggests: libdbus-1-dev
+Filename: pool/main/d/dbus/dbus-1-doc_1.10.6-1ubuntu3.1_all.deb
+Size: 1393498
+MD5sum: 35156e68390691c687d167e4b92d3860
+SHA1: 534c5d798414fd7baf6a62aebdc8fb53654079c9
+SHA256: fe09778a0898b9c58eaee152196ae38dafb44a8bfd2e1d6df3b6e8649ff33d9f
+Description: simple interprocess messaging system (documentation)
+Homepage: http://dbus.freedesktop.org/
+Description-md5: 4ff746780e6dca0a27147236301ca4fd
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: dbus-x11
+Priority: optional
+Section: x11
+Installed-Size: 138
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Source: dbus
+Version: 1.10.6-1ubuntu3.1
+Depends: libc6 (>= 2.15), libdbus-1-3 (= 1.10.6-1ubuntu3.1), libx11-6, dbus
+Filename: pool/main/d/dbus/dbus-x11_1.10.6-1ubuntu3.1_amd64.deb
+Size: 21536
+MD5sum: e22634b5dbae0a371fd0dc17e02f1181
+SHA1: 6dca7be316240790d61a4983a841e55023f03320
+SHA256: 1d4454177d1c5b50ab6f97c573923e9f68d3051b805db71387c75e1e75cb0b6b
+Description: simple interprocess messaging system (X11 deps)
+Multi-Arch: foreign
+Homepage: http://dbus.freedesktop.org/
+Description-md5: 101d13ea029d06116b86761850faa2f3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-full, edubuntu-desktop, edubuntu-usb, xubuntu-core, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntu-touch-core, ubuntu-touch, ubuntu-sdk, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+
 Package: debian-installer
 Priority: optional
 Section: devel
@@ -2782,16 +2877,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: bind, bind9 (<< 1:9.1.0-3)
-Depends: libbind9-140 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libc6 (>= 2.4), libdns162 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libisc160 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libisccfg140 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libkrb5-3 (>= 1.6.dfsg.2), liblwres141 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), bind9-host | host
+Depends: libbind9-140 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libc6 (>= 2.4), libdns162 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libisc160 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libisccfg140 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libkrb5-3 (>= 1.6.dfsg.2), liblwres141 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), bind9-host | host
 Suggests: rblcheck
 Conflicts: netstd (<< 2.00)
-Filename: pool/main/b/bind9/dnsutils_9.10.3.dfsg.P4-8ubuntu1.1_amd64.deb
-Size: 89078
-MD5sum: c65dcb320d7d5f832bfeee9fcb0ebfec
-SHA1: bb34a629aa590344b0e08ecf6eea320b72ea2463
-SHA256: a1e77e9bd223f77c6640672c41ec5a881365bd039676700284be03afb1936ee5
+Filename: pool/main/b/bind9/dnsutils_9.10.3.dfsg.P4-8ubuntu1.2_amd64.deb
+Size: 88998
+MD5sum: a256e458356bb9ff45cd324086d8ce88
+SHA1: b68cb63d21a748ec24c407f8d9dc6762aa924080
+SHA256: 5952afd742cb0ca18027f546f623bb1b04097cb709b813436de1b8f48e3eaf89
 Description: Clients provided with BIND
 Description-md5: 11090f3795381e992a73710a1cc4118b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -11259,7 +11354,7 @@ Description: scripts and tools for automating kdump (Linux crash dumps)
 Description-md5: e4c630411cca5f22a32a48bd81b16449
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 20
+Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: keyboard-configuration
@@ -20546,20 +20641,20 @@ Supported: 5y
 Package: libbind-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 12228
+Installed-Size: 12229
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: bind-dev, bind9 (<< 1:9.10.3.dfsg.P2-4)
-Depends: libdns162 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libisccfg140 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libisc160 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), liblwres141 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libbind9-140 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libirs141 (= 1:9.10.3.dfsg.P4-8ubuntu1.1)
+Depends: libdns162 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libisccfg140 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libisc160 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), liblwres141 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libbind9-140 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libirs141 (= 1:9.10.3.dfsg.P4-8ubuntu1.2)
 Conflicts: bind-dev
-Filename: pool/main/b/bind9/libbind-dev_9.10.3.dfsg.P4-8ubuntu1.1_amd64.deb
-Size: 1549712
-MD5sum: 7204ea9d9a93c0080e59c55c9d3a8670
-SHA1: b09c5d98bb4dd1b18a95d5180e0d9625a8cd8c0a
-SHA256: 50fa224e806492ee10e03e0424bed821331f76864e124eabad0299d41a34f93e
+Filename: pool/main/b/bind9/libbind-dev_9.10.3.dfsg.P4-8ubuntu1.2_amd64.deb
+Size: 1392408
+MD5sum: a1daef78d0cdc8dc7a5b0101699e357d
+SHA1: 56e79a45afd54f20afbeff9492e19f49c27b7b30
+SHA256: 00baf131b66c87c278ec09c47f8f75565457d37a3cadf1f34d15214ba6671288
 Description: Static Libraries and Headers used by BIND
 Multi-Arch: same
 Description-md5: 2224f8c1f8613ab53bfc2393a6add6a6
@@ -20570,19 +20665,19 @@ Supported: 5y
 Package: libbind-export-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 6793
+Installed-Size: 6794
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
-Depends: libdns-export162 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libisccc-export140 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libisccfg-export140 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libisc-export160 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libirs-export141 (= 1:9.10.3.dfsg.P4-8ubuntu1.1)
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
+Depends: libdns-export162 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libisccc-export140 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libisccfg-export140 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libisc-export160 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libirs-export141 (= 1:9.10.3.dfsg.P4-8ubuntu1.2)
 Conflicts: libbind-dev
-Filename: pool/main/b/bind9/libbind-export-dev_9.10.3.dfsg.P4-8ubuntu1.1_amd64.deb
-Size: 1235152
-MD5sum: 1c7ffb38f0abb9790293f744be38efa8
-SHA1: 1a583e5617d3706f6ad9104f5b3fb21e8494b58e
-SHA256: 5c12317f120a7a9eb82e7d62fce1a2fe86da640ff1359fcfdec1ac3a333e43ec
+Filename: pool/main/b/bind9/libbind-export-dev_9.10.3.dfsg.P4-8ubuntu1.2_amd64.deb
+Size: 1231704
+MD5sum: 7a2bb5dfe9218352bb3a6a4b0087a5a0
+SHA1: f00719e06c12bca4823613a21fee1e78e663888c
+SHA256: d3ce62d2980519e5438eb424996c16b13619852a61d959647a5a13fe64c11792
 Description: Development files for the exported BIND libraries
 Description-md5: a05e1255c8f5132e4039267975293e0e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -20597,15 +20692,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: libbind0
 Depends: libc6 (>= 2.4), libdns162, libisc160, libisccfg140
 Conflicts: libbind0, libbind9-41
-Filename: pool/main/b/bind9/libbind9-140_9.10.3.dfsg.P4-8ubuntu1.1_amd64.deb
-Size: 23626
-MD5sum: 3f2982f9b3f3f54569b49a12592073a7
-SHA1: fdb861f9b38ab65beab5bff5560d0321a9489664
-SHA256: 6c47fc441fdd4be5ca094e21473cbb138803aed256b15104bd65674e582e1539
+Filename: pool/main/b/bind9/libbind9-140_9.10.3.dfsg.P4-8ubuntu1.2_amd64.deb
+Size: 23620
+MD5sum: b5e7322b4931d80abea74f4dc3fc5d8a
+SHA1: 511c5d0f35419b67331185d3920adde1a54326cb
+SHA256: 2a4e628fab764d35e61730f56c7ac0098cbcd65454d9ceb6d1c80df663ebc9c3
 Description: BIND9 Shared Library used by BIND
 Multi-Arch: same
 Description-md5: 29eb09ddc694703c77f94b42a079fe3f
@@ -21968,6 +22063,56 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: libdbus-1-3
+Priority: standard
+Section: libs
+Installed-Size: 436
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Source: dbus
+Version: 1.10.6-1ubuntu3.1
+Depends: libc6 (>= 2.17), libsystemd0
+Recommends: dbus
+Breaks: dbus (<< 1.9.16-1~)
+Filename: pool/main/d/dbus/libdbus-1-3_1.10.6-1ubuntu3.1_amd64.deb
+Size: 160756
+MD5sum: 1deb247321c3a2007e178e7806d27318
+SHA1: 0817e1649ff6d788e86fedb7c4cb26868a69c70c
+SHA256: d62d13a17983682b2cb5955b8d558b0395f95b3ba06c0df18cea6bcb0f55d077
+Description: simple interprocess messaging system (library)
+Multi-Arch: same
+Homepage: http://dbus.freedesktop.org/
+Description-md5: 394b84dd0007d22bc4bb591ca6b5fa31
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: standard, mythbuntu-frontend, mythbuntu-backend-slave, mythbuntu-backend-master, ubuntu-sdk-libs, ubuntu-touch
+
+Package: libdbus-1-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 923
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Source: dbus
+Version: 1.10.6-1ubuntu3.1
+Depends: libdbus-1-3 (= 1.10.6-1ubuntu3.1), pkg-config
+Filename: pool/main/d/dbus/libdbus-1-dev_1.10.6-1ubuntu3.1_amd64.deb
+Size: 161284
+MD5sum: f6bbdfa3b4347f720e89d32d4abe3107
+SHA1: 26757ccf73a0f1e39bfd895b1f3d912cee9bd83a
+SHA256: 8804796d64857b8567541675baad55611df9418f0e3f8bc478503f4041a9d342
+Description: simple interprocess messaging system (development headers)
+Multi-Arch: same
+Homepage: http://dbus.freedesktop.org/
+Description-md5: 59e71e7e764b950dc1184788af416a7e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntustudio-audio
+
 Package: libdbusmenu-glib-dev
 Priority: optional
 Section: libdevel
@@ -22365,13 +22510,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Depends: libc6 (>= 2.14), libisc-export160
-Filename: pool/main/b/bind9/libdns-export162_9.10.3.dfsg.P4-8ubuntu1.1_amd64.deb
-Size: 664976
-MD5sum: 626456312a8c704499dcdfbe82d46d1a
-SHA1: bab91af53d321ba77d5029a2d1e65dfb6fe16e3f
-SHA256: 5a6cbfb12422858515f447e5abfd0c161a1b11782bdb767d274969d9c24a718a
+Filename: pool/main/b/bind9/libdns-export162_9.10.3.dfsg.P4-8ubuntu1.2_amd64.deb
+Size: 665284
+MD5sum: f6bb3437f70cafc02a88bd06f0fcec59
+SHA1: 322518a62a5efc4077d0271cd916161811901b78
+SHA256: 7f671148917672575da74a5f6823ad391999d154b062ac527e6af3f5c46e460e
 Description: Exported DNS Shared Library
 Description-md5: 52d527bf4a46771b661269a614c3c1eb
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -22387,15 +22532,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: libbind0
 Depends: libc6 (>= 2.14), libgeoip1, libgssapi-krb5-2 (>= 1.10+dfsg~), libisc160, libkrb5-3 (>= 1.6.dfsg.2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4)
 Conflicts: libbind0, libbind9-41
-Filename: pool/main/b/bind9/libdns162_9.10.3.dfsg.P4-8ubuntu1.1_amd64.deb
-Size: 877140
-MD5sum: 8776eb2bf3211b769b67047358e94c4d
-SHA1: 4bb82f33a852acc351686b578fdb9ff7d21b15a3
-SHA256: 33d3fe145e38eb826b0ec3eb8877f06a88da703f4d930977e18b0f22d493d29a
+Filename: pool/main/b/bind9/libdns162_9.10.3.dfsg.P4-8ubuntu1.2_amd64.deb
+Size: 875880
+MD5sum: 3ae23806c382a3109105bbe3fdce1d28
+SHA1: 29711c5f27a1ac40bb05ded6203bcb6dec27b33c
+SHA256: 8d5891fa1987e068a3b5756014b7289ed3908ef623a55fd2449019d4eb272709
 Description: DNS Shared Library used by BIND
 Multi-Arch: same
 Description-md5: fadbc60724c646c80c4b57d45d5e5161
@@ -24481,18 +24626,18 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: GD team <pkg-gd-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: libgd2
-Version: 2.1.1-4ubuntu0.16.04.3
-Depends: libgd3 (= 2.1.1-4ubuntu0.16.04.3) | libgd-tools (= 2.1.1-4ubuntu0.16.04.3)
+Version: 2.1.1-4ubuntu0.16.04.5
+Depends: libgd3 (= 2.1.1-4ubuntu0.16.04.5) | libgd-tools (= 2.1.1-4ubuntu0.16.04.5)
 Recommends: gdb
-Filename: pool/main/libg/libgd2/libgd-dbg_2.1.1-4ubuntu0.16.04.3_amd64.deb
-Size: 313510
-MD5sum: cb6b43337ad59031d44a246bb31707be
-SHA1: b70c1c7f73f2019d68e5977b7c5e3ac414486c91
-SHA256: dfca972fd8c6acbfb705725417033e798b5c3e22556b695590b37ad66bfbf351
+Filename: pool/main/libg/libgd2/libgd-dbg_2.1.1-4ubuntu0.16.04.5_amd64.deb
+Size: 313634
+MD5sum: a33f0cad87dc8ff36ae48960f376e236
+SHA1: 3901bf850139c4b0fe397d90f61d0a2063380132
+SHA256: a9b23b404c2508fecad1687dac0ebb0cf343189d72392b30ac68b9c103649472
 Description: Debug symbols for GD Graphics Library
 Multi-Arch: same
 Homepage: http://www.libgd.org/
-Build-Ids: 0bd7886dac9311a6fa764b1b1ee9c7b394148e71 1e02207a113eee041c6d9cd2729d03e97706e045 1fee0ce5b7c95cab4147c93302ebcaefa809e126 5f126b13d50db4f0b33893002e5aeb9d453801a2 8b71f4bccb6eda2301a07b95ce8b14b1235794eb 8f04e013933f09c4940d440a5a407e36c0f009bb 9cc7f0dbc6a9aa8c6faae68e49765a1870ea5bdd b791be428ccfd3c8bf85cc1d35cde1b3f70951ac cd830b3cf0f8e6dfd887ec108b1c143444af5cf4 d010d750953e4b358d4bf3da982d136de54566f8 dbe877e062b4dae28a5e352bf9235f470bdfb24e
+Build-Ids: 091aa50710efd8979ab58de4da36dfa0698f6375 1afaf3ef1cc1c28b7115cfb8e3e4d473ba9dc9da 54f08d238c3cdd7696ef5d1b092d69acf2750f0a 71b0c2555ad82f6ddf6559b5076bdc91efd3e819 72cab4d2a5dbfc950a935e5aa72397df415c8a3e 7bbb0ca421a3c7cfd7b0363c541329afdbb97562 c2c631349d1bdde93a778ab4ade6614f3d1bb742 d5aa24af31145dae8938956ba88c35482c84829d db0752205622136508225132e228ca2448f81c36 e5ea62017ea1d3b932960464410c80e380a61035 f0334c68f5aefcdc401b8bf8b592a588892b4a49
 Description-md5: 916f9f3f32784956dbf8677e17dee321
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
@@ -24506,16 +24651,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: GD team <pkg-gd-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: libgd2
-Version: 2.1.1-4ubuntu0.16.04.3
+Version: 2.1.1-4ubuntu0.16.04.5
 Replaces: libgd2-dev (<< 2.1.0~alpha1-2~), libgd2-noxpm-dev (<< 2.1.0~), libgd2-xpm-dev (<< 2.1.0~)
 Provides: libgd2-dev, libgd2-noxpm-dev, libgd2-xpm-dev
-Depends: libgd3 (= 2.1.1-4ubuntu0.16.04.3), libpng-dev, libz-dev, libjpeg-dev, libfreetype6-dev, libxpm-dev, libx11-dev, libxt-dev, libfontconfig-dev, libvpx-dev, libtiff-dev
+Depends: libgd3 (= 2.1.1-4ubuntu0.16.04.5), libpng-dev, libz-dev, libjpeg-dev, libfreetype6-dev, libxpm-dev, libx11-dev, libxt-dev, libfontconfig-dev, libvpx-dev, libtiff-dev
 Breaks: libgd2-dev (<< 2.1.0~alpha1-2~), libgd2-noxpm-dev (<< 2.1.0~), libgd2-xpm-dev (<< 2.1.0~)
-Filename: pool/main/libg/libgd2/libgd-dev_2.1.1-4ubuntu0.16.04.3_amd64.deb
-Size: 255702
-MD5sum: 9f0035bc84eeba010f35279972a0c94f
-SHA1: 3c93b6991fe1ff5c3beb62e2f27fa56b9caba902
-SHA256: 52404e9f2878d61ac8b695aecc8f21aa5ab7f0a7748ae8758d63edc54d20639b
+Filename: pool/main/libg/libgd2/libgd-dev_2.1.1-4ubuntu0.16.04.5_amd64.deb
+Size: 255880
+MD5sum: 1f3c372ac9cb25bd23d7a046d1644800
+SHA1: f77e1b999fbb62a4d6483449f4888af633d41a4e
+SHA256: d83ea87709701eee0680271d54935e42b1c2ff346d0b1244262f07fb25386566
 Description: GD Graphics Library (development version)
 Multi-Arch: same
 Homepage: http://www.libgd.org/
@@ -24532,14 +24677,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: GD team <pkg-gd-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: libgd2
-Version: 2.1.1-4ubuntu0.16.04.3
+Version: 2.1.1-4ubuntu0.16.04.5
 Depends: libc6 (>= 2.14), libfontconfig1 (>= 2.11.94), libfreetype6 (>= 2.2.1), libjpeg8 (>= 8c), libpng12-0 (>= 1.2.13-4), libtiff5 (>= 4.0.3), libvpx3 (>= 1.5.0), libxpm4, zlib1g (>= 1:1.1.4)
 Suggests: libgd-tools
-Filename: pool/main/libg/libgd2/libgd3_2.1.1-4ubuntu0.16.04.3_amd64.deb
-Size: 125022
-MD5sum: 3e79725d1c578c830bee9890380e9572
-SHA1: b6e761e05d0c084fc9719102fd805d7a4ace929b
-SHA256: e0ac8ff77e992da658895715b8889664f87ddb104cae1ef9a077d03b477b6144
+Filename: pool/main/libg/libgd2/libgd3_2.1.1-4ubuntu0.16.04.5_amd64.deb
+Size: 125048
+MD5sum: 19713a32d187a8f3ee23efecafb5149b
+SHA1: efbfe4617ac34780716686d9db33f7bece7ac06d
+SHA256: d2fa7906e353597e40a841a1bae9c3de3a0a1744efb9a0ca9323e24f5c6dafe0
 Description: GD Graphics Library
 Multi-Arch: same
 Homepage: http://www.libgd.org/
@@ -27266,13 +27411,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Depends: libc6 (>= 2.14), libdns-export162, libisc-export160, libisccfg-export140
-Filename: pool/main/b/bind9/libirs-export141_9.10.3.dfsg.P4-8ubuntu1.1_amd64.deb
-Size: 17460
-MD5sum: 303070368d1121cc822163581245aa2c
-SHA1: 59986976a26a28cda505230fbe27dbc47098045d
-SHA256: 4d4699a30e5ba59ea477195f1ac567510d3db64aa34f031d1899b4b83dcadaf9
+Filename: pool/main/b/bind9/libirs-export141_9.10.3.dfsg.P4-8ubuntu1.2_amd64.deb
+Size: 17502
+MD5sum: c20df3baea8654b557ce238553120bae
+SHA1: 20b2726233e61b8149174d5a04d4345118852fc6
+SHA256: 0f419c49f8e4f6104a6afa7380fef756b80209c16992e2425247a9e7d3097004
 Description: Exported IRS Shared Library
 Description-md5: 7e57fb542b884102b27905ba45de52ac
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -27287,15 +27432,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: libbind0
 Depends: libc6 (>= 2.14), libdns162, libisc160, libisccfg140
 Conflicts: libbind0, libbind9-41
-Filename: pool/main/b/bind9/libirs141_9.10.3.dfsg.P4-8ubuntu1.1_amd64.deb
+Filename: pool/main/b/bind9/libirs141_9.10.3.dfsg.P4-8ubuntu1.2_amd64.deb
 Size: 18004
-MD5sum: b2035c528feab71d9378c580610740ab
-SHA1: 5d8df1e774a47d1b241e92f7513de1d74db419dd
-SHA256: f667aef6b6db32973633624c4290dfb2bbb09d840e585f62c55934401aef4f35
+MD5sum: 835776bcc7680ae987e54d9235a1d713
+SHA1: 89294af8bf2d20821f1dffb417f8a358c19b7f38
+SHA256: 25fa4190760fa8cefec9df6a44220464e1721f0049520a95ec26a4defee04ea5
 Description: DNS Shared Library used by BIND
 Multi-Arch: same
 Description-md5: ae6663842399469aa3234854fdad284b
@@ -27312,13 +27457,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Depends: libc6 (>= 2.15)
-Filename: pool/main/b/bind9/libisc-export160_9.10.3.dfsg.P4-8ubuntu1.1_amd64.deb
-Size: 152104
-MD5sum: abf810146cd0bbb6b7b59b2bae6ffe29
-SHA1: 0cc758127b41eaed1c9a88e1a5940489901c8f5d
-SHA256: 03c3e0829aeb01a5603f461748e22e6373e7ec4384931403d1f62757f3283dd5
+Filename: pool/main/b/bind9/libisc-export160_9.10.3.dfsg.P4-8ubuntu1.2_amd64.deb
+Size: 151972
+MD5sum: d512e8d4eb2a1365a424ffe429788f1b
+SHA1: 910af71e6df1ca99ad3ce550bed0d2950bc26df7
+SHA256: 6654e6963d68fe7d6bcb95e2fd49354865fd1c38e64b978b2ee59ca6d0c2431a
 Description: Exported ISC Shared Library
 Description-md5: cd6e16cd398bc2214c99d8500959c204
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -27334,15 +27479,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: libbind0
 Depends: libc6 (>= 2.15), libxml2 (>= 2.7.4)
 Conflicts: libbind0, libbind9-41
-Filename: pool/main/b/bind9/libisc160_9.10.3.dfsg.P4-8ubuntu1.1_amd64.deb
-Size: 214000
-MD5sum: 5588f564f7ac9c65d36529345ada2acd
-SHA1: e5040181674eb914089e952164999c923c3b0b65
-SHA256: 165b0247a1d1abe7f7b82f3ffb0de67e476f3749acf56dc3566cbd8850bf135d
+Filename: pool/main/b/bind9/libisc160_9.10.3.dfsg.P4-8ubuntu1.2_amd64.deb
+Size: 213910
+MD5sum: b532f13a6a5070106ed366c2e3be0918
+SHA1: eb9ba86d53062bceb232f2b4c8506c826231c1de
+SHA256: cf91900c57c7fc52b313988b6048df291f09deaf80b8c579d4205c4e14981b97
 Description: ISC Shared Library used by BIND
 Multi-Arch: same
 Description-md5: 538f08c974b457d9907e201f70a51533
@@ -27359,15 +27504,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: libbind0
 Depends: libc6 (>= 2.4), libisc-export160
 Conflicts: libbind0, libbind9-41
-Filename: pool/main/b/bind9/libisccc-export140_9.10.3.dfsg.P4-8ubuntu1.1_amd64.deb
-Size: 16084
-MD5sum: 2006038d439a8b846c3a56aa8483e7b8
-SHA1: 9141231e580052252b7de2ab0f05881e91c3ad05
-SHA256: fbdb1e9e8cbfb574b185ff45e781dee99c60d0b4f2b881ebf3d055c19230ac2f
+Filename: pool/main/b/bind9/libisccc-export140_9.10.3.dfsg.P4-8ubuntu1.2_amd64.deb
+Size: 16090
+MD5sum: 135d5281e0e009554c0037b787a8cc61
+SHA1: 7cea5ffba253cb8ccbf7ef725d250ab8829efd48
+SHA256: 08a40b55bce63e27973555ca0b548d622b0e90ae8cd4622f38a9d4c5a56df712
 Description: Command Channel Library used by BIND
 Multi-Arch: same
 Description-md5: c7785673bc5b2dfed3c5bcee1452c16c
@@ -27383,15 +27528,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: libbind0
 Depends: libc6 (>= 2.4), libisc160
 Conflicts: libbind0, libbind9-41
-Filename: pool/main/b/bind9/libisccc140_9.10.3.dfsg.P4-8ubuntu1.1_amd64.deb
-Size: 16292
-MD5sum: d1ac4251281166b99224839bb85ed54d
-SHA1: 932b54be9eb4e51e1a9c760e13f132a0f788e773
-SHA256: 4ee4a3b3cb83fd13e27aed4df13f82768fd0becb2aee9dfbe0d7ae6058528eab
+Filename: pool/main/b/bind9/libisccc140_9.10.3.dfsg.P4-8ubuntu1.2_amd64.deb
+Size: 16282
+MD5sum: bca5e4752653cbf6e1f9b4f4d8242bf2
+SHA1: 75923bc5a124e0a952ea835556a79ff8811a805c
+SHA256: 96d6b3a76756ff96bb9555cc4f8dfded363c60b13bb918dcdb121f7b4bb5e214
 Description: Command Channel Library used by BIND
 Multi-Arch: same
 Description-md5: c7785673bc5b2dfed3c5bcee1452c16c
@@ -27408,13 +27553,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Depends: libc6 (>= 2.4), libdns-export162, libisc-export160
-Filename: pool/main/b/bind9/libisccfg-export140_9.10.3.dfsg.P4-8ubuntu1.1_amd64.deb
-Size: 38614
-MD5sum: c756266145fe8846bc342abab9a90ea7
-SHA1: ebe36d41d101765968db097f6ce8a5ffc97585f4
-SHA256: fd5f21a6abe7d12e84a86bc4c665a02b293b1129c290f6399a824876428bf7f1
+Filename: pool/main/b/bind9/libisccfg-export140_9.10.3.dfsg.P4-8ubuntu1.2_amd64.deb
+Size: 38554
+MD5sum: e1e22cbaa279d78ef67e672c2fb8498e
+SHA1: 8e44e2c373fa6af6ca254ec82b9cad1abffe607d
+SHA256: bedc7967dae1f6e0a0ee8691ee1e07424944105e651ccd8455a32891e1c0cafe
 Description: Exported ISC CFG Shared Library
 Description-md5: b188c8f9eedec4b6c04d1dd6d0169cf4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -27429,15 +27574,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: libbind0
 Depends: libc6 (>= 2.4), libdns162, libisc160, libisccc140
 Conflicts: libbind0, libbind9-41
-Filename: pool/main/b/bind9/libisccfg140_9.10.3.dfsg.P4-8ubuntu1.1_amd64.deb
-Size: 40508
-MD5sum: 76f2af5710e2745b725f11ce57ad7c67
-SHA1: f8fa6335fe1dd6f0373b8556c87accdd1cf3ab73
-SHA256: fb1fcaf53abb9b0fabad5a9b07ddc9aa1b3bc08b443fd89c3c72cce7423a0ceb
+Filename: pool/main/b/bind9/libisccfg140_9.10.3.dfsg.P4-8ubuntu1.2_amd64.deb
+Size: 40582
+MD5sum: 9ba0de9fc4088f50bc91626d12fdd468
+SHA1: 5a35446d87f41aa07a486554a4725018a9dd72e9
+SHA256: 45cc1b7c1bdf8989f6fee33ddb356e4a0611c63bc1636a2b9c608dfaae0cd7d7
 Description: Config File Handling Library used by BIND
 Multi-Arch: same
 Description-md5: d214b6bf2b32d3830998548c9fa53da4
@@ -28140,15 +28285,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: libbind0
 Depends: libc6 (>= 2.15)
 Conflicts: libbind0
-Filename: pool/main/b/bind9/liblwres141_9.10.3.dfsg.P4-8ubuntu1.1_amd64.deb
-Size: 33118
-MD5sum: 4b9384ecc150677724f6d531c3065b67
-SHA1: 1dfeedf210424d9d83729ecd2d750d957d03be81
-SHA256: d794df7d2d5cc935aeb213e6958ec3ef987274cafea56a0cbb7f82cf15e096c1
+Filename: pool/main/b/bind9/liblwres141_9.10.3.dfsg.P4-8ubuntu1.2_amd64.deb
+Size: 33102
+MD5sum: aefd681eb6602238b7f01e2c136569a2
+SHA1: 01bd04076a89740381e9e945dd35f8cf8aeb2b43
+SHA256: 941acb03d6bf970a11c1527158a0cd284767c0e5abccafa0c8087c342f4be405
 Description: Lightweight Resolver Library used by BIND
 Multi-Arch: same
 Description-md5: 6c5041f39bdcc8de6092f4354d6f893b
@@ -29850,17 +29995,17 @@ Supported: 5y
 Package: liboxideqt-qmlplugin
 Priority: extra
 Section: libs
-Installed-Size: 1562
+Installed-Size: 1563
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: oxide-qt
-Version: 1.17.9-0ubuntu0.16.04.1
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), liboxideqtcore0 (= 1.17.9-0ubuntu0.16.04.1), liboxideqtquick0 (= 1.17.9-0ubuntu0.16.04.1), libqt5core5a (>= 5.5.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libstdc++6 (>= 4.1.1)
-Filename: pool/main/o/oxide-qt/liboxideqt-qmlplugin_1.17.9-0ubuntu0.16.04.1_amd64.deb
-Size: 166848
-MD5sum: e8456ed7299a2d546c45383c737f9bc0
-SHA1: 3420cb5b46242253f39e09106679aadd2746e50f
-SHA256: b69a3ddc070b235303e7d57ab925baf998ad28946164de4a154b3ff13fa717e1
+Version: 1.18.3-0ubuntu0.16.04.1
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), liboxideqtcore0 (= 1.18.3-0ubuntu0.16.04.1), liboxideqtquick0 (= 1.18.3-0ubuntu0.16.04.1), libqt5core5a (>= 5.5.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Filename: pool/main/o/oxide-qt/liboxideqt-qmlplugin_1.18.3-0ubuntu0.16.04.1_amd64.deb
+Size: 166564
+MD5sum: 35ad17ca67ded75050965f68a9882a43
+SHA1: 316bcba5635351995e39f2b55206f85ef9587037
+SHA256: 94c9ccc45abec5670a8e56c52e6e5a701c9c3305056063bd84c864ee594b6703
 Description: Web browser engine for Qt (QML plugin)
 Multi-Arch: same
 Homepage: https://launchpad.net/oxide
@@ -29873,17 +30018,17 @@ Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, ubuntu-sdk-lib
 Package: liboxideqtcore-dev
 Priority: extra
 Section: libdevel
-Installed-Size: 1227
+Installed-Size: 1228
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: oxide-qt
-Version: 1.17.9-0ubuntu0.16.04.1
-Depends: liboxideqtcore0 (= 1.17.9-0ubuntu0.16.04.1)
-Filename: pool/main/o/oxide-qt/liboxideqtcore-dev_1.17.9-0ubuntu0.16.04.1_amd64.deb
-Size: 118922
-MD5sum: 89a82df0371c91eea0dd1d874bbe13ac
-SHA1: f1a089f63e3ebed8c82c712119b8bfb3bf510371
-SHA256: 3a30872ad1dc44333bd1a3c24ed7f8dead0c5b1d6211d657fdd3e723850941bf
+Version: 1.18.3-0ubuntu0.16.04.1
+Depends: liboxideqtcore0 (= 1.18.3-0ubuntu0.16.04.1)
+Filename: pool/main/o/oxide-qt/liboxideqtcore-dev_1.18.3-0ubuntu0.16.04.1_amd64.deb
+Size: 118888
+MD5sum: 9399f19b8f291099e4220bc1f4e0fde9
+SHA1: 597d3d5b7932ed36a86e6dc6c5c386439fe1aadb
+SHA256: b43446fec0d6d8dabd2a39ebfb7ec98ef13f723ee8bd818f2350c369fd4003aa
 Description: Web browser engine for Qt (development files for core library)
 Homepage: https://launchpad.net/oxide
 Description-md5: 19ae9b8abdf00b8f608f1a2010aafc37
@@ -29894,17 +30039,17 @@ Supported: 5y
 Package: liboxideqtcore0
 Priority: extra
 Section: libs
-Installed-Size: 112284
+Installed-Size: 116376
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: oxide-qt
-Version: 1.17.9-0ubuntu0.16.04.1
-Depends: libandroid-properties1, libasound2 (>= 1.0.16), libc6 (>= 2.15), libdbus-1-3 (>= 1.9.14), libexpat1 (>= 2.0.1), libfontconfig1 (>= 2.11.94), libfreetype6 (>= 2.4.2), libgcc1 (>= 1:4.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libnotify4 (>= 0.7.0), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libnss3 (>= 2:3.13.4-2~) | libnss3-1d (>= 3.12.4), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libqt5core5a (>= 5.5.0), libqt5feedback5, libqt5gui5 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.2.1), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.4.99.1), libxcursor1 (>> 1.1.2), libxext6, libxi6 (>= 2:1.2.99.4), libxrender1, oxideqt-codecs (= 1.17.9-0ubuntu0.16.04.1) | oxideqt-codecs-extra (= 1.17.9-0ubuntu0.16.04.1)
-Filename: pool/main/o/oxide-qt/liboxideqtcore0_1.17.9-0ubuntu0.16.04.1_amd64.deb
-Size: 30857062
-MD5sum: 594a89bd0bac44c137037a79a9e76a13
-SHA1: 468880fe67d23397b3fcdaa2fe5d5216a87d17ab
-SHA256: c85ba9eee4ee1ba3393156e66d745fa6b28df39df12ff278e969bf983ada2397
+Version: 1.18.3-0ubuntu0.16.04.1
+Depends: libandroid-properties1, libasound2 (>= 1.0.16), libc6 (>= 2.15), libdbus-1-3 (>= 1.9.14), libexpat1 (>= 2.0.1), libfontconfig1 (>= 2.11.94), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libhybris, libnotify4 (>= 0.7.0), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libnss3 (>= 2:3.13.4-2~) | libnss3-1d (>= 3.12.4), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libqt5core5a (>= 5.5.0), libqt5feedback5, libqt5gui5 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.2.1), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.4.99.1), libxcursor1 (>> 1.1.2), libxext6, libxi6 (>= 2:1.2.99.4), libxrender1, qtbase-abi-5-5-1, oxideqt-codecs (= 1.18.3-0ubuntu0.16.04.1) | oxideqt-codecs-extra (= 1.18.3-0ubuntu0.16.04.1)
+Filename: pool/main/o/oxide-qt/liboxideqtcore0_1.18.3-0ubuntu0.16.04.1_amd64.deb
+Size: 31727928
+MD5sum: 3f31e5eec2bb4ee8b51db296ed6218f8
+SHA1: 2dfd0db49d76d50d362e099b7ec91324373342e4
+SHA256: b390e6c43c837554bc2f6a679eb4a0d617a40ea9a9f914d9b867e4e94ab724b8
 Description: Web browser engine for Qt (core library and components)
 Multi-Arch: same
 Homepage: https://launchpad.net/oxide
@@ -29917,17 +30062,17 @@ Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, ubuntu-sdk-lib
 Package: liboxideqtquick-dev
 Priority: extra
 Section: libdevel
-Installed-Size: 1229
+Installed-Size: 1230
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: oxide-qt
-Version: 1.17.9-0ubuntu0.16.04.1
-Depends: liboxideqtquick0 (= 1.17.9-0ubuntu0.16.04.1)
-Filename: pool/main/o/oxide-qt/liboxideqtquick-dev_1.17.9-0ubuntu0.16.04.1_amd64.deb
-Size: 119816
-MD5sum: 8352f5c5355a2959ab34e02cb93a7ed4
-SHA1: 2523ad3803e1aeb7ded8e0d6f98073203b72ee6d
-SHA256: ec0daa061336040a807d304e7ed0f7ec9d840ed7318735f01276b6f71471fff3
+Version: 1.18.3-0ubuntu0.16.04.1
+Depends: liboxideqtquick0 (= 1.18.3-0ubuntu0.16.04.1)
+Filename: pool/main/o/oxide-qt/liboxideqtquick-dev_1.18.3-0ubuntu0.16.04.1_amd64.deb
+Size: 119858
+MD5sum: 5b29fa2d5f0468303226ba6400f8bca4
+SHA1: 3deff18f6fc18cf759da4f9808966df32d1fd4cf
+SHA256: 3eb72da034a5e50163efb72c535ef66b6cfdc769876c30ef90c4810e7fff4c7e
 Description: Web browser engine for Qt (development files for QtQuick library)
 Homepage: https://launchpad.net/oxide
 Description-md5: 8db3d406008ab3d0c0cc5a8af11e9e0c
@@ -29938,17 +30083,17 @@ Supported: 5y
 Package: liboxideqtquick0
 Priority: extra
 Section: libs
-Installed-Size: 1963
+Installed-Size: 1960
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: oxide-qt
-Version: 1.17.9-0ubuntu0.16.04.1
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), liboxideqtcore0 (= 1.17.9-0ubuntu0.16.04.1), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.2.0) | libqt5quick5-gles (>= 5.2.0), libstdc++6 (>= 4.1.1), oxideqt-codecs (= 1.17.9-0ubuntu0.16.04.1) | oxideqt-codecs-extra (= 1.17.9-0ubuntu0.16.04.1)
-Filename: pool/main/o/oxide-qt/liboxideqtquick0_1.17.9-0ubuntu0.16.04.1_amd64.deb
-Size: 266730
-MD5sum: 11e42f3bb609de97e19148309e63c633
-SHA1: 48914668c7c5a9c0faf6bcca6854a5861f24869c
-SHA256: be56c1e4162ae6d2c530bd14f550722bb1a8fe24e1f4314e9ac9f5091941126f
+Version: 1.18.3-0ubuntu0.16.04.1
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), liboxideqtcore0 (= 1.18.3-0ubuntu0.16.04.1), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.2.0) | libqt5quick5-gles (>= 5.2.0), libstdc++6 (>= 4.1.1), oxideqt-codecs (= 1.18.3-0ubuntu0.16.04.1) | oxideqt-codecs-extra (= 1.18.3-0ubuntu0.16.04.1)
+Filename: pool/main/o/oxide-qt/liboxideqtquick0_1.18.3-0ubuntu0.16.04.1_amd64.deb
+Size: 265044
+MD5sum: 2dd30ad4d7e019dca093981897e746d8
+SHA1: 44e1c9e7e7c8f091ecfb0c889bb87c11501b0d9e
+SHA256: 34a5ce02171fff071ddde1a7763d70f94729a3f9e2dc63ed57c2eb33a97f41a8
 Description: Web browser engine for Qt (QtQuick library)
 Multi-Arch: same
 Homepage: https://launchpad.net/oxide
@@ -46128,6 +46273,30 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: mailman
+Priority: optional
+Section: mail
+Installed-Size: 37817
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Mailman for Debian <pkg-mailman-hackers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:2.1.20-1ubuntu0.1
+Depends: libc6 (>= 2.14), python:any (>= 2.6.6-7~), debconf (>= 0.5) | debconf-2.0, logrotate (>= 3.8.0), ucf, lsb-base, apache2 | httpd, cron | cron-daemon, python-dnspython
+Pre-Depends: debconf | debconf-2.0
+Recommends: default-mta | mail-transport-agent
+Suggests: spamassassin, lynx, listadmin
+Filename: pool/main/m/mailman/mailman_2.1.20-1ubuntu0.1_amd64.deb
+Size: 4285406
+MD5sum: f3d891c81d0a607faaa2582efe97a2d7
+SHA1: c6a5d7e7daf6f6a9e866663de12c5316aadce8b7
+SHA256: 8ae376a15cdd593f45c38dd53103c7ee5b45070f4789e4203af670b4a037627f
+Description: Powerful, web-based mailing list manager
+Homepage: http://www.list.org/
+Description-md5: 8d16d632c49d70e6617b41c558e71966
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
 Package: makedumpfile
 Priority: optional
 Section: devel
@@ -46147,7 +46316,7 @@ Description: VMcore extraction tool
 Description-md5: 63f8d9a2e0d40374bffffdb63689a386
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 20
+Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: mdadm
@@ -48982,20 +49151,20 @@ Task: cloud-image, server
 Package: oxideqt-codecs
 Priority: extra
 Section: libs
-Installed-Size: 2377
+Installed-Size: 2378
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: oxide-qt
-Version: 1.17.9-0ubuntu0.16.04.1
+Version: 1.18.3-0ubuntu0.16.04.1
 Replaces: liboxideqtcore0 (<< 1.0.0~bzr488), oxideqt-codecs-extra
 Depends: libc6 (>= 2.14)
 Conflicts: oxideqt-codecs-extra
 Breaks: liboxideqtcore0 (<< 1.0.0~bzr488)
-Filename: pool/main/o/oxide-qt/oxideqt-codecs_1.17.9-0ubuntu0.16.04.1_amd64.deb
-Size: 544596
-MD5sum: 0a1f4d6754de44f8d2c1fab1c90db46e
-SHA1: 332678e982090f1c8cabb35f568cdc2a8616ac70
-SHA256: 70237013cb39da87c919a9b6303759ade41dcf42818413a95fbcc9607cef85c5
+Filename: pool/main/o/oxide-qt/oxideqt-codecs_1.18.3-0ubuntu0.16.04.1_amd64.deb
+Size: 544176
+MD5sum: 5af469abea912de2eb81f2eb6cf774b1
+SHA1: 4cb4e38ef6f84fda77f3363742b3205f9d91e003
+SHA256: 28de7dcdd6c08fbf2c32742dc07a2eafe603f245c7cfe33bf89f4367d87c4c81
 Description: Web browser engine for Qt (codecs)
 Multi-Arch: same
 Homepage: https://launchpad.net/oxide
@@ -50371,15 +50540,15 @@ Installed-Size: 9075
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Architecture: all
-Version: 1.8.7-1ubuntu5.2
-Depends: python:any (<< 2.8), python:any (>= 2.7.5-5~), python-django-common (= 1.8.7-1ubuntu5.2)
+Version: 1.8.7-1ubuntu5.4
+Depends: python:any (<< 2.8), python:any (>= 2.7.5-5~), python-django-common (= 1.8.7-1ubuntu5.4)
 Recommends: libjs-jquery, python-sqlparse, python-tz
 Suggests: python-psycopg2, python-pymysql, python-flup, python-sqlite, python-memcache, python-pil, python-bcrypt, python-yaml, geoip-database-extra | geoip-database-contrib, gettext, python-django-doc, ipython, bpython, libgdal1
-Filename: pool/main/p/python-django/python-django_1.8.7-1ubuntu5.2_all.deb
-Size: 864474
-MD5sum: bbdc15e28d6fd1772f058e401e28b88b
-SHA1: 0c8ffd27f874fd7646ade69964c4a5b36e6c00df
-SHA256: 9549c6c44e44c965ab8e0987a9b33655d3af70d9af7ea2bf853a211723def29a
+Filename: pool/main/p/python-django/python-django_1.8.7-1ubuntu5.4_all.deb
+Size: 862058
+MD5sum: 0fa9b948b940440f9cfebc1cbed06c7c
+SHA1: aa09aad2d8e242c9f851ea5c9f53d59a4e92230e
+SHA256: b0bc43eeccaa2d40d86bfec2c889d8e2548b333389008b72ec69392d584b930e
 Description: High-level Python web development framework (Python 2 version)
 Homepage: http://www.djangoproject.com/
 Description-md5: 10705efdad27513da48f99fb63bc2c68
@@ -50395,15 +50564,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Architecture: all
 Source: python-django
-Version: 1.8.7-1ubuntu5.2
+Version: 1.8.7-1ubuntu5.4
 Replaces: python-django (<< 1.7~)
 Recommends: libjs-jquery
 Breaks: python-django (<< 1.7~)
-Filename: pool/main/p/python-django/python-django-common_1.8.7-1ubuntu5.2_all.deb
-Size: 1184270
-MD5sum: 9ac45a1ef039c560cbd26c75a7288731
-SHA1: e46084e0112fb4d653b1adc6b3598b265d6a6157
-SHA256: 9abcb0e5bed235db6a31ea44e3a1378892de44cd897d58d9fcfecf20ecafb556
+Filename: pool/main/p/python-django/python-django-common_1.8.7-1ubuntu5.4_all.deb
+Size: 1174904
+MD5sum: 0616c8bc0ad7dbea7a036aa440b9ab22
+SHA1: 58b938da2642061d67b344f2dde940741f4ab185
+SHA256: 290eb071f17fb89f9e5384c1e1acbf1dae4c90444484b1f78a2e1d99bb03f2d1
 Description: High-level Python web development framework (common)
 Homepage: http://www.djangoproject.com/
 Description-md5: b5beb39d7ab356a134aebf0281061724
@@ -50414,18 +50583,18 @@ Supported: 5y
 Package: python-django-doc
 Priority: optional
 Section: doc
-Installed-Size: 22289
+Installed-Size: 22290
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Architecture: all
 Source: python-django
-Version: 1.8.7-1ubuntu5.2
+Version: 1.8.7-1ubuntu5.4
 Depends: libjs-sphinxdoc (>= 1.0)
-Filename: pool/main/p/python-django/python-django-doc_1.8.7-1ubuntu5.2_all.deb
-Size: 2721002
-MD5sum: c09330e87849bc2ac344800428973699
-SHA1: 78aba62d8c8b3e06624d47027e2e0a72a1c92f87
-SHA256: dc35d38140d8f9de5885369aa404fdc12861515cca48968ae56a35dcfa01926f
+Filename: pool/main/p/python-django/python-django-doc_1.8.7-1ubuntu5.4_all.deb
+Size: 2714600
+MD5sum: 45021b9aa5400064776e64863e923273
+SHA1: 55f4c947286082892ae792b099a2224b8af35adf
+SHA256: 6159b5cfc14aca7a6815cd5898e8801cfd37c2140ba2ae50d73453323910b50a
 Description: High-level Python web development framework (documentation)
 Homepage: http://www.djangoproject.com/
 Description-md5: 257e8ca2132ad054b44d0dd521e727f5
@@ -51482,15 +51651,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Architecture: all
 Source: python-django
-Version: 1.8.7-1ubuntu5.2
-Depends: python3:any (>= 3.3.2-2~), python-django-common (= 1.8.7-1ubuntu5.2)
+Version: 1.8.7-1ubuntu5.4
+Depends: python3:any (>= 3.3.2-2~), python-django-common (= 1.8.7-1ubuntu5.4)
 Recommends: libjs-jquery, python3-sqlparse, python3-tz
 Suggests: python3-psycopg2, python3-pymysql, python3-flup, python3-sqlite, python3-memcache, python3-pil, python3-bcrypt, python3-yaml, geoip-database-contrib, gettext, python-django-doc, ipython3, bpython3, libgdal1
-Filename: pool/main/p/python-django/python3-django_1.8.7-1ubuntu5.2_all.deb
-Size: 847486
-MD5sum: 623a1cc86892d2feb0183d22af65044f
-SHA1: 64974ef79ae1708953bec2e19918bae1ff1da031
-SHA256: 72b0c11ccf663b322ad0443cdc62567db633c5abf78f02b9781143b53d12c671
+Filename: pool/main/p/python-django/python3-django_1.8.7-1ubuntu5.4_all.deb
+Size: 844982
+MD5sum: 46fd3b0079f1a84f65099c0b2f970321
+SHA1: 15af11236daa1e125f67897f2e45d35dae030b96
+SHA256: 048edd876d550e87d7f611af0b9afcb3f7989904c32f1483850383e5c5ff9713
 Description: High-level Python web development framework (Python 3 version)
 Homepage: http://www.djangoproject.com/
 Description-md5: 2ad308bd6dcdb121dea2ce312ef2083f
@@ -55937,7 +56106,7 @@ Tag: admin::boot, admin::filesystem, implemented-in::shell, protocol::smb, role:
 Description-md5: c8d716f3fb782cd7e002d2b9dba298b2
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 20
+Phased-Update-Percentage: 40
 Supported: 5y
 Task: ubuntu-live, ubuntu-usb-live, kubuntu-live, edubuntu-live, edubuntu-usb-live, xubuntu-live, mythbuntu-live, lubuntu-live, ubuntustudio-live, ubuntustudio-dvd-live, ubuntu-gnome-live, ubuntukylin-live, ubuntu-mate-live
 

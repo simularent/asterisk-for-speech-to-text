@@ -3929,6 +3929,54 @@ Description-md5: ffcf6b90911c2a5fef8a3fff3b48d66e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: dbus-tests
+Priority: extra
+Section: universe/misc
+Installed-Size: 1510
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Source: dbus
+Version: 1.10.6-1ubuntu3.1
+Replaces: dbus-1-dbg (<< 1.9.10-2~)
+Depends: dbus, libc6 (>= 2.14), libdbus-1-3 (= 1.10.6-1ubuntu3.1), libglib2.0-0 (>= 2.37.6), libsystemd0
+Recommends: gnome-desktop-testing
+Breaks: dbus-1-dbg (<< 1.9.10-2~)
+Filename: pool/universe/d/dbus/dbus-tests_1.10.6-1ubuntu3.1_amd64.deb
+Size: 263304
+MD5sum: 7da46ba3dc8c5236534a6aafaf5f7579
+SHA1: 1f255c3e9b54cd51aace4b24fc8532cc202a8d79
+SHA256: b7ca87bf35b72f1aeb9518a963e7bbbf51da70fbdd2dbc36212e3a8be79615b7
+Description: simple interprocess messaging system (test infrastructure)
+Homepage: http://dbus.freedesktop.org/
+Description-md5: 9ee6acccb46fa9151264da68e2fc9831
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: dbus-user-session
+Priority: optional
+Section: universe/admin
+Installed-Size: 112
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Architecture: all
+Source: dbus
+Version: 1.10.6-1ubuntu3.1
+Depends: dbus (>= 1.10.6-1ubuntu3.1), libpam-systemd, systemd
+Recommends: systemd-sysv
+Breaks: dbus-x11 (<< 1.9.10-2~), policykit-1 (<< 0.105-12~), udisks2 (<< 2.1.5-2~)
+Filename: pool/universe/d/dbus/dbus-user-session_1.10.6-1ubuntu3.1_all.deb
+Size: 9286
+MD5sum: 96ed255cf7704972e09f29c552b97759
+SHA1: cf12c6e1ad7c27aceb8b76c46fb4ca55f72ab441
+SHA256: 3ffcbfe03d0ba76d8d266505bc695973eae1e081f0ee0cf609e2ae61fda274df
+Description: simple interprocess messaging system (systemd --user integration)
+Multi-Arch: foreign
+Homepage: http://dbus.freedesktop.org/
+Description-md5: be4453093922af92deac14b4e8458a83
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: dh-apparmor
 Priority: extra
 Section: universe/devel
@@ -15046,13 +15094,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: all
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Depends: bind9-host
-Filename: pool/universe/b/bind9/host_9.10.3.dfsg.P4-8ubuntu1.1_all.deb
-Size: 4206
-MD5sum: 74221a2dde239df10ae1fced8438ae49
-SHA1: 75396d807917ea1f305c5c57163643eacbc7beb7
-SHA256: 9f6f131ccbcf93ceec3dff1e95b6629725c613f50679dba5c32f784f7847596d
+Filename: pool/universe/b/bind9/host_9.10.3.dfsg.P4-8ubuntu1.2_all.deb
+Size: 4174
+MD5sum: 353fea8bfa51656134e585f3be24522d
+SHA1: dab52ff2cc00f74b26e1939f9dff407a735a9b83
+SHA256: 0548885e3a6ae46f312b09a0ab1a2a7080c385094e63d89392e99599d20e46be
 Description: Transitional package
 Description-md5: 3c0b6923194ef2929ab26358ef75c037
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -26100,14 +26148,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: GD team <pkg-gd-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: libgd2
-Version: 2.1.1-4ubuntu0.16.04.3
+Version: 2.1.1-4ubuntu0.16.04.5
 Depends: libc6 (>= 2.7), libgd3 (>= 2.1.0~alpha~), perl
 Suggests: libgd-dev
-Filename: pool/universe/libg/libgd2/libgd-tools_2.1.1-4ubuntu0.16.04.3_amd64.deb
-Size: 17554
-MD5sum: 4fceede14f91ef63ccc9aa9ad56b9fb6
-SHA1: 6e6a090f49adf3e77e38044f0704eeb22609c747
-SHA256: 2c9f3330402b6b3c18a158cc2b3a8bb98e2ba7f40e871f194ed7ec5d08395fcc
+Filename: pool/universe/libg/libgd2/libgd-tools_2.1.1-4ubuntu0.16.04.5_amd64.deb
+Size: 17506
+MD5sum: cb56620bbcac03a816914929a4fada9c
+SHA1: 70ed3a0db468552a936d35883cb85f0bc1608cb2
+SHA256: f6e644d560fa839d9c4855c0dc51e1d563d2c26fcf752708529329a969745c76
 Description: GD command line tools and example code
 Homepage: http://www.libgd.org/
 Description-md5: a44edd93634f43d7184a7456c237f804
@@ -41147,15 +41195,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
-Depends: libbind9-140 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libc6 (>= 2.14), libcap2 (>= 1:2.10), libdns162 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libgeoip1, libisc160 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libisccc140 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libisccfg140 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), liblwres141 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), init-system-helpers (>= 1.18~), adduser
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
+Depends: libbind9-140 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libc6 (>= 2.14), libcap2 (>= 1:2.10), libdns162 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libgeoip1, libisc160 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libisccc140 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libisccfg140 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), liblwres141 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), init-system-helpers (>= 1.18~), adduser
 Recommends: libnss-lwres
 Suggests: bind9utils
-Filename: pool/universe/b/bind9/lwresd_9.10.3.dfsg.P4-8ubuntu1.1_amd64.deb
-Size: 225800
-MD5sum: f9975d0bd046e8a75e8b806781554201
-SHA1: 533bf4f1b36acf4a5256beaeac81ba132b46d19e
-SHA256: 7b853fb61a5eccf8e29f7f2ad5a6a3874b913397f08abc1ea11c4cd9aa540edc
+Filename: pool/universe/b/bind9/lwresd_9.10.3.dfsg.P4-8ubuntu1.2_amd64.deb
+Size: 225822
+MD5sum: 4cd33f6de74b7eaaa0a135d143d7389d
+SHA1: 1240bcba9ca2ed688030d65b7676332e3b2c3970
+SHA256: a79385538c37d8401138ea82c6d724dc1453ef8dbfba1a7d75305ae0f8617738
 Description: Lightweight Resolver Daemon
 Description-md5: 71f952026129db86d1ca118762b06ef2
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -42867,7 +42915,7 @@ Multi-Arch: foreign
 Description-md5: 171990596b9adbbde53590d783767a6d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 20
+Phased-Update-Percentage: 50
 
 Package: nscd
 Priority: optional
@@ -43318,20 +43366,20 @@ Origin: Ubuntu
 Package: oxideqt-codecs-extra
 Priority: extra
 Section: universe/libs
-Installed-Size: 3453
+Installed-Size: 3454
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: oxide-qt
-Version: 1.17.9-0ubuntu0.16.04.1
+Version: 1.18.3-0ubuntu0.16.04.1
 Replaces: liboxideqtcore0 (<< 1.0.0~bzr488), oxideqt-codecs
 Depends: libc6 (>= 2.14)
 Conflicts: oxideqt-codecs
 Breaks: liboxideqtcore0 (<< 1.0.0~bzr488)
-Filename: pool/universe/o/oxide-qt/oxideqt-codecs-extra_1.17.9-0ubuntu0.16.04.1_amd64.deb
-Size: 899786
-MD5sum: 9660c9d49474d4e0f83d6ac5b04473ed
-SHA1: f15e90bbf6d96d860899ef3b68a99f06be45be7d
-SHA256: d156d0e2e89a53b116d7bd066a6be86e70039b1de045029fabf9976179c6381e
+Filename: pool/universe/o/oxide-qt/oxideqt-codecs-extra_1.18.3-0ubuntu0.16.04.1_amd64.deb
+Size: 901804
+MD5sum: 7d0f0ad77bcee1db8ea5d78677054101
+SHA1: 7fa69f11558bad2884257baf7b91163af963f6ac
+SHA256: bf0056a7eb6b1a3315c829ded9d2aca1dab625e1c8fc7e65949a7e78ae4ef0fe
 Description: Web browser engine for Qt (codecs)
 Multi-Arch: same
 Homepage: https://launchpad.net/oxide
@@ -47071,7 +47119,7 @@ Homepage: https://github.com/snapcore/snapcraft
 Description-md5: f2b9ada80f848158a030d4fdb4463569
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 40
+Phased-Update-Percentage: 70
 
 Package: snapcraft-examples
 Priority: extra
@@ -47093,7 +47141,7 @@ Homepage: https://github.com/snapcore/snapcraft
 Description-md5: f08d4b5a77b9d3d8337a205fe1e9301b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 40
+Phased-Update-Percentage: 70
 
 Package: snapcraft-parser
 Priority: extra
@@ -47115,7 +47163,7 @@ Homepage: https://github.com/snapcore/snapcraft
 Description-md5: ac163e3bf5626a17120e80de44b62434
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 40
+Phased-Update-Percentage: 70
 
 Package: snapd-xdg-open
 Priority: optional

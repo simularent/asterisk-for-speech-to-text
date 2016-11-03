@@ -17,17 +17,17 @@ Description-md5: 65340123144b0fbe1500f64d763ee55a
 Package: youtube-dl
 Priority: extra
 Section: web
-Installed-Size: 4307
+Installed-Size: 4310
 Maintainer: Rogério Brito <rbrito@ime.usp.br>
 Architecture: all
-Version: 1:2016.10.26-1~webupd8~xenial0
+Version: 1:2016.10.31-1~webupd8~xenial0
 Recommends: aria2 | wget | curl, ca-certificates, ffmpeg | libav-tools, mpv | mplayer | mplayer2, rtmpdump
 Depends: python-pkg-resources, python:any (<< 2.8), python:any (>= 2.7.5-5~)
-Filename: pool/main/y/youtube-dl/youtube-dl_2016.10.26-1~webupd8~xenial0_all.deb
-Size: 809764
-MD5sum: f7baea0f25760875eead872dbac9065f
-SHA1: b17fb09865bfb526101aeffc2e766a58af5dd49f
-SHA256: 3eb73f60d4f27ccd417355d7168daa91a66f4f65d38cb848f6e0e88f2e0a6554
+Filename: pool/main/y/youtube-dl/youtube-dl_2016.10.31-1~webupd8~xenial0_all.deb
+Size: 810544
+MD5sum: 8a51ababf89c6ff4f372f7d162cbfa04
+SHA1: ffe5de57d4fa08a658b977cb264fa1ea5a862845
+SHA256: 5341942ccae1096aa6fe6ccdfbcb89bcaa149149b23c84beb12c7c099ca4358c
 Description: downloader of videos from YouTube and other sites
 Description-md5: 26e4ffa66f541a7d0f35c8f7a62a2d56
 
@@ -502,18 +502,18 @@ Multi-Arch: same
 Package: ncmpcpp
 Priority: optional
 Section: sound
-Installed-Size: 2826
+Installed-Size: 2839
 Maintainer: Christoph Egger <christoph@debian.org>
 Architecture: amd64
-Version: 0.7.5-1~webupd8~xenial
+Version: 0.7.7-1~webupd8~xenial
 Suggests: mpd, desktop-file-utils
 Provides: mpd-client, ncmpcpp-completion
 Depends: libboost-filesystem1.58.0, libboost-locale1.58.0, libboost-program-options1.58.0, libboost-regex1.58.0, libboost-system1.58.0, libboost-thread1.58.0, libc6 (>= 2.15), libcurl3-gnutls (>= 7.16.2), libfftw3-double3, libgcc1 (>= 1:3.0), libicu55 (>= 55.1-1~), libmpdclient2 (>= 2.9), libncursesw5 (>= 6), libreadline6 (>= 6.0), libstdc++6 (>= 5.2), libtag1v5 (>= 1.9.1-2.4ubuntu1), libtinfo5 (>= 6)
-Filename: pool/main/n/ncmpcpp/ncmpcpp_0.7.5-1~webupd8~xenial_amd64.deb
-Size: 699776
-MD5sum: 74a681c5e682a1977548de5655ac6573
-SHA1: 44fc78d25b979419f50e8dc3b05c4ebb6e9383e9
-SHA256: 97b804e49dcf4adb03c4d5ccd2b487bc9b5071a9eb4c64d3da7f438207e51fd0
+Filename: pool/main/n/ncmpcpp/ncmpcpp_0.7.7-1~webupd8~xenial_amd64.deb
+Size: 704812
+MD5sum: 70aba73858cf246bcc058eb4a990726a
+SHA1: afc83b48bdce83669dc868b4a6e44bf1379007f0
+SHA256: 3f131b604f0acd3f9b078ed68e69ecbe236f197a8bac724ac1f8d0391228640a
 Description: ncurses-based client for the Music Player Daemon (MPD)
 Description-md5: c6739cd11252a85b2f8244d62a155bd3
 
@@ -3141,18 +3141,18 @@ Description-md5: 0e604a6b38392eac2f10e7fa32c2a277
 Package: razercfg
 Priority: optional
 Section: misc
-Installed-Size: 242
+Installed-Size: 246
 Maintainer: Michael Büsch <m@bues.ch>
 Architecture: amd64
-Version: 0.37-1~webupd8~xenial0
+Version: 0.38-1~webupd8~xenial0
 Recommends: qrazercfg, qrazercfg-applet
 Suggests: python3-pyside
 Depends: python3:any (>= 3.3.2-2~), libc6 (>= 2.15), libusb-1.0-0 (>= 2:1.0.8), init-system-helpers (>= 1.18~)
-Filename: pool/main/r/razercfg/razercfg_0.37-1~webupd8~xenial0_amd64.deb
-Size: 65976
-MD5sum: 49420766931297b81236056bd51fafb2
-SHA1: 166c24c7f9290cf9be503d30e2c06c07721dea85
-SHA256: e198ff9548bc4551fa76c1588d2f481bac35352594028800e89ac04a0fe9603a
+Filename: pool/main/r/razercfg/razercfg_0.38-1~webupd8~xenial0_amd64.deb
+Size: 66148
+MD5sum: 049b69924a97df8700d36955260efbca
+SHA1: 0333399e7a876a498e51e5d2ab3e98a4d3607fc7
+SHA256: 7e13ddd416a78b9cdf25ea27b4e90fa9c9dab3618b7c304ba3707f8993b1aec5
 Description: Razer device configuration tool
 Description-md5: 6eaebdec1e5f80d38f4c80ed7be87dfe
 
@@ -3175,17 +3175,17 @@ Description-md5: 5bfe82ebe00e3fb5ab4965ea7108a6c7
 Package: oomox
 Priority: optional
 Section: devel
-Installed-Size: 21081
+Installed-Size: 21100
 Maintainer: Alin Andrei <webupd8@gmail.com>
 Architecture: all
-Version: 0.24.1-1~webupd8~0
+Version: 0.25.0-1~webupd8~0
 Suggests: inkscape, imagemagick
 Depends: python3-gi, libglib2.0-bin, libgdk-pixbuf2.0-dev, ruby-sass, libxml2-utils, x11-xserver-utils, gir1.2-gtk-3.0, gir1.2-glib-2.0, gtk2-engines-murrine
-Filename: pool/main/o/oomox/oomox_0.24.1-1~webupd8~0_all.deb
-Size: 3591630
-MD5sum: 5b9ccfd33f92e273219f94a82658e699
-SHA1: 10a91eaa39409f1d190d37ab741bcbf8d7558490
-SHA256: 7e000be5ddf68b32f12e2316b2a20c6dd4d0e3adaa3999352f4156caf1650038
+Filename: pool/main/o/oomox/oomox_0.25.0-1~webupd8~0_all.deb
+Size: 3601358
+MD5sum: ac950d550ce1802a60393325f3ea324b
+SHA1: 6d16a964ff85c9bb932010aa51c165801bc22929
+SHA256: cb65144ab6ce4396bc360e8ef95cf916ea45c052d22f113423f8d55fe8010dab
 Description: Create your own Numix-based themes
 Description-md5: a56a016c949dfe825a4b60ed2304430f
 
@@ -3196,14 +3196,14 @@ Section: misc
 Installed-Size: 10
 Maintainer: Michael Büsch <m@bues.ch>
 Architecture: amd64
-Version: 0.37-1~webupd8~xenial0
+Version: 0.38-1~webupd8~xenial0
 Replaces: razercfg (<= 0.33)
-Depends: python3-pyside, razercfg
-Filename: pool/main/r/razercfg/qrazercfg-applet_0.37-1~webupd8~xenial0_amd64.deb
-Size: 2552
-MD5sum: 0d73e3969a4b36e0ed5794e43049c580
-SHA1: 3bf7ef1e1648cefe98b2be69bfd6aa7cbf910458
-SHA256: eaa2464c62b7cf7919a09cf0dce6268de51b48b30ff683e5baae8b1556a3b71e
+Depends: python3:any, python3-pyside, razercfg, qrazercfg
+Filename: pool/main/r/razercfg/qrazercfg-applet_0.38-1~webupd8~xenial0_amd64.deb
+Size: 2754
+MD5sum: 751b71853f71d5001b398675e6bac6e7
+SHA1: e26133e2fe4947dcc6fd778bfd5bd6f650aef2d1
+SHA256: f96673b2d753b05f4c1a2fff376a809b142e5427255f3c8b93b33524a8db0235
 Description: Graphical Razer device configuration tool - applet
 Description-md5: 5586b5edf50eabcbf4603d7379b809b2
 
@@ -3214,14 +3214,14 @@ Section: misc
 Installed-Size: 54
 Maintainer: Michael Büsch <m@bues.ch>
 Architecture: amd64
-Version: 0.37-1~webupd8~xenial0
+Version: 0.38-1~webupd8~xenial0
 Replaces: razercfg (<= 0.33)
-Depends: python3-pyside, razercfg
-Filename: pool/main/r/razercfg/qrazercfg_0.37-1~webupd8~xenial0_amd64.deb
-Size: 16776
-MD5sum: d043053ff26c6634174fda0f0a4c09ac
-SHA1: f9cb658bd9e65bafe2557ac61687a1d4e64e1ddd
-SHA256: 6188d35f7718009d1cb5b419929c3f4e0ce67214c7d8749d3f5a6526c85500fe
+Depends: python3:any, python3-pyside, razercfg
+Filename: pool/main/r/razercfg/qrazercfg_0.38-1~webupd8~xenial0_amd64.deb
+Size: 16988
+MD5sum: d0db3db6c39fba52749312086d30a93d
+SHA1: 551291db9ba05bc472541722c728beb059f20add
+SHA256: 6bb019b6c4e12ed83a65b57081a78679727e198ffc9c67ab5ea9aba834087b74
 Description: Graphical Razer device configuration tool
 Description-md5: 7c9740b687466d44276ec78cf1dafba9
 
@@ -3496,16 +3496,16 @@ Description-md5: d0dc162ee3ddb0fcfd37e69a5ec1c231
 Package: launcher-list-indicator
 Priority: extra
 Section: utils
-Installed-Size: 39
+Installed-Size: 41
 Maintainer: Alin Andrei <andrew@webupd8.org>
 Architecture: all
-Version: 0.1+git20161013-0~webupd8~0
+Version: 0.1+git20161029-0~webupd8~0
 Depends: python3, zenity, gir1.2-appindicator3-0.1, gir1.2-glib-2.0, gir1.2-gtk-2.0
-Filename: pool/main/l/launcher-list-indicator/launcher-list-indicator_0.1+git20161013-0~webupd8~0_all.deb
-Size: 8166
-MD5sum: b08ea11e2405e06cff8b506af6042fad
-SHA1: 28a48a08aa652d85b417ebac2880be2301e91fc5
-SHA256: cbee178128b77a575fd8f2363490abb7a01ffc16636b00c9ea55615bf951d11c
+Filename: pool/main/l/launcher-list-indicator/launcher-list-indicator_0.1+git20161029-0~webupd8~0_all.deb
+Size: 8354
+MD5sum: 2888bb0d7879087249230369590b48a8
+SHA1: 561805e70e0a07c70434006e36697f9a640ea456
+SHA256: b934992da614a3ee4dcf0284f6fec7d7e984c45956a5e9f03e082afe709ba4ea
 Description: Switch between Unity launcher pinned apps profiles
 Description-md5: ec61ff9c5f77231f534d5bf1b7370f3c
 

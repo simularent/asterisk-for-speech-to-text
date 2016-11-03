@@ -2,7 +2,7 @@
 Hash: SHA256
 
 Codename: cloud-sdk-xenial
-Date: Wed, 26 Oct 2016 16:07:07 UTC
+Date: Tue, 01 Nov 2016 21:35:36 UTC
 Description: cloud-sdk-xenial
 Label: cloud-sdk-xenial
 Origin: cloud-sdk-xenial
@@ -12,10 +12,10 @@ Architectures: amd64 i386
 MD5Sum:
  a836865abf141b6469484641abcb6112 3833 main/binary-amd64/Packages
  ea07d93080cc507bae29e00c82863fca 1030 main/binary-amd64/Packages.gz
- 3a89ddee2d6a954b33516a1f8268ae4c 202 main/binary-amd64/Release
+ 29ceac1979909f0f6598f50b059e12f2 202 main/binary-amd64/Release
  333886abdd84e55e42adb4fd072b6a7f 3831 main/binary-i386/Packages
  72713a17814366a6cc0fb5daed999d7a 1033 main/binary-i386/Packages.gz
- c9b9b75798441d1b0c53c563758e70f7 201 main/binary-i386/Release
+ 765ef90b2686f20dac95562f4d69e055 201 main/binary-i386/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
  c12a04246055b5e7e54c4246425010ce 23 main/debian-installer/binary-amd64/Packages.gz
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-i386/Packages
@@ -25,10 +25,10 @@ MD5Sum:
 SHA1:
  29b5ab096a8df4de258199ca267626f61f743e47 3833 main/binary-amd64/Packages
  8f2d316e8cf14452ce710a35d4abb5f8963d4cbe 1030 main/binary-amd64/Packages.gz
- ac1881b9d3e20ec3f334c2842052e29d02b6ebee 202 main/binary-amd64/Release
+ bbfc5f5bcec12b439f638b0c88ddb467a4a2d893 202 main/binary-amd64/Release
  52b46674ac350b25152523b66b9a6fd916fee9a9 3831 main/binary-i386/Packages
  b545477392b2eb055b73686a28c132c81c16080b 1033 main/binary-i386/Packages.gz
- 2b093bd636be09f4cfce983e331dc27c9f376693 201 main/binary-i386/Release
+ c9becb131d50640c109998c5f73d04d047fafce1 201 main/binary-i386/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
  966b5242581489ae227a6709656a9213596c3041 23 main/debian-installer/binary-amd64/Packages.gz
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-i386/Packages
@@ -38,10 +38,10 @@ SHA1:
 SHA256:
  b926d61a5c5330689f50144504ab29d98fae2919a944125f3f551843145e4cfb 3833 main/binary-amd64/Packages
  c924710413f4e5531868f61dfd3661540c6d352f3c0398533f52fad2e4f93687 1030 main/binary-amd64/Packages.gz
- b8aee2bbd8ca917bbff346c5589861281fbfea2705da6f2c3582b89b16a0cc29 202 main/binary-amd64/Release
+ a1653a64efe168fff5e7bb936d3430357a6b9ef7a5bb6a5ac73bf4e9f4219f53 202 main/binary-amd64/Release
  5a62399072aad859f1a9c1f4c733fb9a8663b183b84227ffa78b10674661f19c 3831 main/binary-i386/Packages
  f3ef0124067804e8d3cb26fc1d34287d4f0d6ca6b94b90211e9427c5a6d455f9 1033 main/binary-i386/Packages.gz
- 00088986a65e1c194a05c62bfa51261aada7513ecf2df72c264468c33e87e1bb 201 main/binary-i386/Release
+ b3435cee92d517930145147ab69f45748744d681732350e564f6a1186c519881 201 main/binary-i386/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
  73a3f54120f15151df4634877dc53444e3f2cfc4b4a7260a7664f14798ff3702 23 main/debian-installer/binary-amd64/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-i386/Packages
@@ -50,11 +50,11 @@ SHA256:
  73a3f54120f15151df4634877dc53444e3f2cfc4b4a7260a7664f14798ff3702 23 main/source/Sources.gz
 -----BEGIN PGP SIGNATURE-----
 
-wsBcBAEBCAAQBQJYGGMMCRA3RsIIpzF7DwAAcuwIACKPlvToELfBJCHSZMI1NRC6
-468D5nWKX03XkgEIFtVDs8UT5hsR7ICnFYjJWByIuZTFwGqDns0X/P10mbVfv5Zx
-lD4ykzucvZG7nLiLx8M08/7HF/O/jUnIEnbOjI+brMjLBvNLJdq3CRAmDJfCkH/p
-GMnJgmV8lxKAZSiTapaLQ/OgtPgl2VfzRXSkNYhISehNAVwmH72D4bxsERMgOggl
-UG3bxGuhdE+LUFFxvqdcRKEfWqk5W9A/c/rGXYStymuyXxR1QOBruuNKu/V7/JWv
-0RNIUTpGkxQnZ1ajCWHP5ucAzoDY0+JgbvNaXWWPRK9hHjzTQMAaf+uD33/M9MA=
-=r1Vs
+wsBcBAEBCAAQBQJYGQzeCRA3RsIIpzF7DwAAAAMIAJT3GRdPJqs62SrTePNE2E0F
+T6KQCurBUCqqi8MPj6WpR67g54KLsvCYBYWTyF/MM1kT8ZbYo2cbQP407kdzizjI
+zA5z1zYLGoJO7A/v6TnUUktM087Dzn+375cRfFtZ7zPbw3uwgIHay/Vw20ZJFsF/
++kGQgmHD5fzY1i2yZ61R9yvuz0rrfJB1K6GllAoWw6gKK3Ev/tsfqHpGjakKelzP
+COOc07Vey+/qWA1enREk4W5LHx4JS/qionJbJLpNRmjJ4zeGZZAwgKRm/mDrKEsj
+v6Kh8SQT/G+v05xfFgCd9qpfjvgLA+mE67InzBDy1qa7zGINyfL2AU4+k1cTmco=
+=D4bo
 -----END PGP SIGNATURE-----

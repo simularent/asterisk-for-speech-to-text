@@ -41,7 +41,7 @@ Checksums-Sha256:
 
 Package: bind9
 Binary: bind9, bind9utils, bind9-doc, host, bind9-host, libbind-dev, libbind9-140, libdns162, libirs141, libisc160, liblwres141, libisccc140, libisccfg140, dnsutils, lwresd, libbind-export-dev, libdns-export162, libdns-export162-udeb, libisc-export160, libisc-export160-udeb, libisccfg-export140, libisccc-export140, libisccc-export140-udeb, libisccfg-export140-udeb, libirs-export141, libirs-export141-udeb
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Priority: important
 Section: net
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -53,9 +53,9 @@ Standards-Version: 3.9.7
 Format: 3.0 (quilt)
 Directory: pool/main/b/bind9
 Files:
- f094f9536b81dfec8fef7255e7c183ac 3852 bind9_9.10.3.dfsg.P4-8ubuntu1.1.dsc
+ c0cc3e09365704aa46153e7c03d789c5 3852 bind9_9.10.3.dfsg.P4-8ubuntu1.2.dsc
  909aa9f0c48b7c2d0d604ea78d9fc607 8641072 bind9_9.10.3.dfsg.P4.orig.tar.gz
- c766ec78f90bf21e5d529bf3e4a59ce9 69192 bind9_9.10.3.dfsg.P4-8ubuntu1.1.debian.tar.xz
+ ea11a319f13e485e58b73bf78fcf0edd 70668 bind9_9.10.3.dfsg.P4-8ubuntu1.2.debian.tar.xz
 Uploaders: Michael Gilbert <mgilbert@debian.org>, Robie Basak <robie.basak@canonical.com>
 Vcs-Browser: http://anonscm.debian.org/cgit/users/lamont/bind9.git/
 Vcs-Git: git://anonscm.debian.org/git/users/lamont/bind9.git/
@@ -87,13 +87,13 @@ Package-List:
  liblwres141 deb libs standard arch=any
  lwresd deb net optional arch=any
 Checksums-Sha1:
- f675598d4324a8d2fd18c93d2900280cc16bb33f 3852 bind9_9.10.3.dfsg.P4-8ubuntu1.1.dsc
+ 7a9ab2e2ad0eae56fe0db325dac04f340a3e807f 3852 bind9_9.10.3.dfsg.P4-8ubuntu1.2.dsc
  36d20fd54a67b1fbcb65277887bf150070207210 8641072 bind9_9.10.3.dfsg.P4.orig.tar.gz
- 0f413c9ea5e9c4e50617bfdb3713f140405ff345 69192 bind9_9.10.3.dfsg.P4-8ubuntu1.1.debian.tar.xz
+ df6d22b5942090900d480ea296a9012b57c67a35 70668 bind9_9.10.3.dfsg.P4-8ubuntu1.2.debian.tar.xz
 Checksums-Sha256:
- d3ad1566915b7eab8e285c0aca39f754471a27865ccca33f268e2108d0a4a2a6 3852 bind9_9.10.3.dfsg.P4-8ubuntu1.1.dsc
+ eb506d6350ceb7b1d2efc943fa321f694a3d6f8e0d06f4254ec02e029ac3bc4f 3852 bind9_9.10.3.dfsg.P4-8ubuntu1.2.dsc
  895077c868d06eea39c1526624f2278a3b51a3358b5aa50f48a0f1c16a7ab6e6 8641072 bind9_9.10.3.dfsg.P4.orig.tar.gz
- c098aa5f9dc1198ccf85f64118b7a03e26e7742ff282c6d8e61f407bb701d31f 69192 bind9_9.10.3.dfsg.P4-8ubuntu1.1.debian.tar.xz
+ ec719a56f4448a36c9e19512786a30a62931bfa860473eb5b59543453feb80f9 70668 bind9_9.10.3.dfsg.P4-8ubuntu1.2.debian.tar.xz
 
 Package: binutils
 Binary: binutils, binutils-dev, binutils-multiarch, binutils-multiarch-dev, binutils-hppa64-linux-gnu, binutils-doc, binutils-source, binutils-s390x-linux-gnu, binutils-powerpc64le-linux-gnu, binutils-powerpc-linux-gnu, binutils-aarch64-linux-gnu, binutils-arm-linux-gnueabihf, binutils-arm-linux-gnueabi, binutils-mips-linux-gnu, binutils-mipsel-linux-gnu, binutils-alpha-linux-gnu, binutils-hppa-linux-gnu, binutils-m68k-linux-gnu, binutils-mips64-linux-gnuabi64, binutils-mips64el-linux-gnuabi64, binutils-powerpc-linux-gnuspe, binutils-powerpc64-linux-gnu, binutils-sh4-linux-gnu, binutils-sparc64-linux-gnu
@@ -228,6 +228,47 @@ Checksums-Sha256:
  59e3fc297c08e1d141be9defcf2711d261f922accf404911e2f37984d8d6f31f 2715 curl_7.47.0-1ubuntu2.1.dsc
  df01bd42af361978d9de7de8529718bcafe01897a544a7650139a1954c55bdfe 4563163 curl_7.47.0.orig.tar.gz
  092551707bdf5597c7cf95ca7b6f305dbc36bf7409e0fd659fe0f7ccc265889b 30236 curl_7.47.0-1ubuntu2.1.debian.tar.xz
+
+Package: dbus
+Binary: dbus, dbus-udeb, dbus-x11, libdbus-1-3, libdbus-1-3-udeb, dbus-1-doc, libdbus-1-dev, dbus-1-dbg, dbus-tests, dbus-user-session
+Version: 1.10.6-1ubuntu3.1
+Priority: standard
+Section: devel
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Build-Depends: automake (>= 1:1.10), autotools-dev, debhelper (>= 9), dh-autoreconf, dh-exec (>= 0.13), doxygen, dpkg-dev (>= 1.16.1), libapparmor-dev (>= 2.8.95) [linux-any], libaudit-dev [linux-any], libcap-ng-dev [linux-any], libexpat-dev, libglib2.0-dev, libselinux1-dev [linux-any], libsystemd-dev (>= 209) [linux-any], libx11-dev, python (>= 2.6), python-dbus, python-gobject, valgrind [amd64 armhf i386 mips mipsel powerpc ppc64 s390x], xmlto, xsltproc
+Architecture: any all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Directory: pool/main/d/dbus
+Files:
+ 946fe19a287565d356a2b0ae26d7e6dd 3076 dbus_1.10.6-1ubuntu3.1.dsc
+ 26d0cf3a1c9782cb0e342101f0450440 1952608 dbus_1.10.6.orig.tar.gz
+ 563c47a1bae962981caf188b0edf7297 56272 dbus_1.10.6-1ubuntu3.1.debian.tar.xz
+Uploaders: Sjoerd Simons <sjoerd@debian.org>, Sebastian Dröge <slomo@debian.org>, Michael Biebl <biebl@debian.org>, Loic Minier <lool@dooz.org>, Simon McVittie <smcv@debian.org>
+Homepage: http://dbus.freedesktop.org/
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-utopia/dbus.git
+Vcs-Git: git://anonscm.debian.org/pkg-utopia/dbus.git
+Testsuite: autopkgtest
+Package-List:
+ dbus deb admin standard arch=any
+ dbus-1-dbg deb debug extra arch=any
+ dbus-1-doc deb doc optional arch=all
+ dbus-tests deb misc extra arch=any
+ dbus-udeb udeb debian-installer extra arch=any
+ dbus-user-session deb admin optional arch=all
+ dbus-x11 deb x11 optional arch=any
+ libdbus-1-3 deb libs optional arch=any
+ libdbus-1-3-udeb udeb debian-installer extra arch=any
+ libdbus-1-dev deb libdevel optional arch=any
+Checksums-Sha1:
+ f494baea5d1e599a070d918c120a9f1089a3fa00 3076 dbus_1.10.6-1ubuntu3.1.dsc
+ 4247d7f86a0164d7dd3eb18a74670eb863ac342c 1952608 dbus_1.10.6.orig.tar.gz
+ 745ad8e7f343be80b37ba990dd6500a02328474e 56272 dbus_1.10.6-1ubuntu3.1.debian.tar.xz
+Checksums-Sha256:
+ 4e2602a0a8b5775570b363e0184d7c8bc4474c9f2fc23862f956fcc385d2cbd2 3076 dbus_1.10.6-1ubuntu3.1.dsc
+ b5fefa08a77edd76cd64d872db949eebc02cf6f3f8be82e4bbc641742af5d35f 1952608 dbus_1.10.6.orig.tar.gz
+ 5d8fdb9155a0d86fbe3b5d453e056763448f1b48a48944360d77c66202bb2af9 56272 dbus_1.10.6-1ubuntu3.1.debian.tar.xz
 
 Package: distro-info-data
 Binary: distro-info-data
@@ -1185,7 +1226,7 @@ Checksums-Sha256:
 
 Package: libgd2
 Binary: libgd-tools, libgd-dev, libgd3, libgd-dbg
-Version: 2.1.1-4ubuntu0.16.04.3
+Version: 2.1.1-4ubuntu0.16.04.5
 Priority: optional
 Section: oldlibs
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -1196,9 +1237,9 @@ Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Directory: pool/main/libg/libgd2
 Files:
- 039eb055728fbb6b40ca445cc3dff4f7 2334 libgd2_2.1.1-4ubuntu0.16.04.3.dsc
+ 6175b4303e61a37994f8b576c279eaef 2334 libgd2_2.1.1-4ubuntu0.16.04.5.dsc
  e91a1a99903e460e7ba00a794e72cc1e 2033791 libgd2_2.1.1.orig.tar.gz
- 1e0b2099275160e4c88c2475d2cdc731 31568 libgd2_2.1.1-4ubuntu0.16.04.3.debian.tar.xz
+ 8ab7e9a4f5dbe4e95329a16f5ffc4a27 33356 libgd2_2.1.1-4ubuntu0.16.04.5.debian.tar.xz
 Uploaders: Ondřej Surý <ondrej@debian.org>
 Homepage: http://www.libgd.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb?p=collab-maint/libgd2.git;a=summary
@@ -1209,13 +1250,13 @@ Package-List:
  libgd-tools deb graphics optional arch=any
  libgd3 deb libs optional arch=any
 Checksums-Sha1:
- 559082c77b5c1ca0aba02f09044194f49696971d 2334 libgd2_2.1.1-4ubuntu0.16.04.3.dsc
+ ad3e4590bb9ba37f9ede98a357181e6dded6497d 2334 libgd2_2.1.1-4ubuntu0.16.04.5.dsc
  b089ee7fc0b47b8aa4c2c70087506806637f03be 2033791 libgd2_2.1.1.orig.tar.gz
- c47e2f3105b75eae0e754143b0ab05a927aceda1 31568 libgd2_2.1.1-4ubuntu0.16.04.3.debian.tar.xz
+ dbd51a236dcee3a368f9a7814e8264b607721d3e 33356 libgd2_2.1.1-4ubuntu0.16.04.5.debian.tar.xz
 Checksums-Sha256:
- e9add0bbf13b1cec7d9fe870f5cf05a17fb9a4dd8b6a7ef14e1c7f4484bbfa91 2334 libgd2_2.1.1-4ubuntu0.16.04.3.dsc
+ fbf6725f809c80f09665304bf37bdd17ea9b72b753e15e873ff69399f797df45 2334 libgd2_2.1.1-4ubuntu0.16.04.5.dsc
  a68c69d2fe3eaab9db63b1c4d391dd549c26d3b47bfba484d5ed2d433c55d4d8 2033791 libgd2_2.1.1.orig.tar.gz
- 920545b96bbab9f59a91c8d31db253363071dc251a1c5af4b7f1931d6ab99e82 31568 libgd2_2.1.1-4ubuntu0.16.04.3.debian.tar.xz
+ 1b780857ae51edd9773fbed011bd9873860b499164079b26010d7378bd4f1f28 33356 libgd2_2.1.1-4ubuntu0.16.04.5.debian.tar.xz
 
 Package: libidn
 Binary: idn, libidn11-dev, libidn11, libidn11-java
@@ -2164,6 +2205,38 @@ Checksums-Sha256:
  6c6a694225f94c168ffbe1518b394112b303a70995cfd19855f85902d4c6a710 9050019 lxd_2.0.2.orig.tar.gz
  cf539de8a1303a4105ce46c3aa080ae7d962189cabdba1fd77a71b900c8b9152 85060 lxd_2.0.2-0ubuntu1~16.04.1.debian.tar.xz
 
+Package: mailman
+Binary: mailman
+Version: 1:2.1.20-1ubuntu0.1
+Priority: optional
+Section: mail
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Mailman for Debian <pkg-mailman-hackers@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), autoconf, python-dev (>= 2.6.6-3~), gettext, python-dnspython
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Directory: pool/main/m/mailman
+Files:
+ fd2d9c345b06c6b7df93acb83b94e6e6 2158 mailman_2.1.20-1ubuntu0.1.dsc
+ 96819640406f90a12bc28edd3dc09d4a 9204867 mailman_2.1.20.orig.tar.gz
+ b14949da2c7e24084961be49e67dbc2f 104924 mailman_2.1.20-1ubuntu0.1.debian.tar.xz
+Uploaders: Lionel Elie Mamane <lmamane@debian.org>, Thijs Kinkhorst <thijs@debian.org>, Hector Garcia <hector@debian.org>
+Homepage: http://www.list.org/
+Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-mailman/trunk/
+Vcs-Svn: svn://anonscm.debian.org/pkg-mailman/trunk
+Testsuite: autopkgtest
+Package-List:
+ mailman deb mail optional arch=any
+Checksums-Sha1:
+ 7388c060332fce30e73e64f2a1667b693b4c968c 2158 mailman_2.1.20-1ubuntu0.1.dsc
+ 457fef0bc4f100af2512cc25a10b1d51dc287a01 9204867 mailman_2.1.20.orig.tar.gz
+ 4ee0134ae985ee2ddf230c99f408a0afb4d19868 104924 mailman_2.1.20-1ubuntu0.1.debian.tar.xz
+Checksums-Sha256:
+ a62a71b5cb4fd882d5d4c4849b590d90fb4d98d4a2b828f7ff762f39d5308ef8 2158 mailman_2.1.20-1ubuntu0.1.dsc
+ 522c2b5c5ab91398fdf949a8961162c314f6323cd1bfeb907e0fb2d88277711f 9204867 mailman_2.1.20.orig.tar.gz
+ 56ee05939974127c85202fbf7455ffb2c2a8ed769eaf8c34a9d31a3ef29cd466 104924 mailman_2.1.20-1ubuntu0.1.debian.tar.xz
+
 Package: mysql-5.7
 Binary: libmysqlclient20, libmysqld-dev, libmysqlclient-dev, mysql-common, mysql-client-core-5.7, mysql-client-5.7, mysql-server-core-5.7, mysql-server-5.7, mysql-server, mysql-client, mysql-testsuite, mysql-testsuite-5.7, mysql-source-5.7
 Version: 5.7.16-0ubuntu0.16.04.1
@@ -2472,7 +2545,7 @@ Debian-Vcs-Svn: svn://anonscm.debian.org/pkg-openssl/openssl/
 
 Package: oxide-qt
 Binary: liboxideqtcore0, liboxideqtcore-dev, liboxideqtquick0, liboxideqtquick-dev, liboxideqt-qmlplugin, oxideqt-codecs, oxideqt-codecs-extra
-Version: 1.17.9-0ubuntu0.16.04.1
+Version: 1.18.3-0ubuntu0.16.04.1
 Priority: extra
 Section: libs
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -2482,9 +2555,9 @@ Standards-Version: 3.9.5
 Format: 3.0 (quilt)
 Directory: pool/main/o/oxide-qt
 Files:
- 41d867d3f055faf40375eb656b6b67a5 2748 oxide-qt_1.17.9-0ubuntu0.16.04.1.dsc
- ae14d3dfd71bb2abdf297ba963042625 508362092 oxide-qt_1.17.9.orig.tar.xz
- 9ce306a4299f9523903353a30e46740b 130344 oxide-qt_1.17.9-0ubuntu0.16.04.1.debian.tar.xz
+ 801b548349494a4b594b4a69a41478fb 2748 oxide-qt_1.18.3-0ubuntu0.16.04.1.dsc
+ 9fe16485d35bf949c9d1da2e516644bf 523548856 oxide-qt_1.18.3.orig.tar.xz
+ 7d8146a7da8d1d247203c879032b40ea 131144 oxide-qt_1.18.3-0ubuntu0.16.04.1.debian.tar.xz
 Homepage: https://launchpad.net/oxide
 Package-List:
  liboxideqt-qmlplugin deb libs extra arch=amd64,i386,armhf,arm64
@@ -2495,13 +2568,13 @@ Package-List:
  oxideqt-codecs deb libs extra arch=amd64,i386,armhf,arm64
  oxideqt-codecs-extra deb libs extra arch=amd64,i386,armhf,arm64
 Checksums-Sha1:
- 4e41e8d4613b8662ee49b8b491497f179f1d66c0 2748 oxide-qt_1.17.9-0ubuntu0.16.04.1.dsc
- c350e0cfd34fd625ecc478ac9a47f8e934ad61d3 508362092 oxide-qt_1.17.9.orig.tar.xz
- cbc1c90310db0910ca8d59284d975a4a4dd77ede 130344 oxide-qt_1.17.9-0ubuntu0.16.04.1.debian.tar.xz
+ a79c52262c4e1bee66b3cec01bf5c0bbaeefced6 2748 oxide-qt_1.18.3-0ubuntu0.16.04.1.dsc
+ 8d1d25bab9903fb0da591ab88fe0a6684176841b 523548856 oxide-qt_1.18.3.orig.tar.xz
+ 3e4bc1aee467b130f1fb9ef7264da3dc1e198d3f 131144 oxide-qt_1.18.3-0ubuntu0.16.04.1.debian.tar.xz
 Checksums-Sha256:
- c28c3eab1795883fdf07b5896e0b61c5440aa6b976983fda8f063ea871f1f97d 2748 oxide-qt_1.17.9-0ubuntu0.16.04.1.dsc
- a41cc04ce44b32340d26fe72d7ae8b3db144cda18f925a428af7d93bd2e4a2a5 508362092 oxide-qt_1.17.9.orig.tar.xz
- 6adc82a19df1a7a6503b0a867dedbdd6d5eccd451c9dfae64b5754202edbb886 130344 oxide-qt_1.17.9-0ubuntu0.16.04.1.debian.tar.xz
+ 4555096561a7d03bf9b15a2623e7756768f508c84bd2eb680e9fa205f08b5373 2748 oxide-qt_1.18.3-0ubuntu0.16.04.1.dsc
+ f8ebf36106948e8ae08b0eca4456573e011954a058da76f36f824a23f98674d9 523548856 oxide-qt_1.18.3.orig.tar.xz
+ 289a32d2ff3e23e90f075ef553e9350032bb72d737656968f0a6c35248f70520 131144 oxide-qt_1.18.3-0ubuntu0.16.04.1.debian.tar.xz
 
 Package: php7.0
 Binary: libapache2-mod-php7.0, libphp7.0-embed, php7.0, php7.0-cgi, php7.0-cli, php7.0-dev, php7.0-fpm, php7.0-phpdbg, php7.0-xsl, php7.0-odbc, php7.0-readline, php7.0-recode, php7.0-common, php7.0-sqlite3, php7.0-xml, php7.0-sybase, php7.0-zip, php7.0-gd, php7.0-mcrypt, php7.0-ldap, php7.0-interbase, php7.0-intl, php7.0-snmp, php7.0-json, php7.0-pgsql, php7.0-mbstring, php7.0-enchant, php7.0-opcache, php7.0-imap, php7.0-bz2, php7.0-gmp, php7.0-mysql, php7.0-tidy, php7.0-soap, php7.0-dba, php7.0-xmlrpc, php7.0-pspell, php7.0-bcmath, php7.0-curl
@@ -2623,7 +2696,7 @@ Checksums-Sha256:
 
 Package: python-django
 Binary: python-django, python3-django, python-django-common, python-django-doc
-Version: 1.8.7-1ubuntu5.2
+Version: 1.8.7-1ubuntu5.4
 Priority: optional
 Section: python
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -2635,9 +2708,9 @@ Standards-Version: 3.9.6
 Format: 3.0 (quilt)
 Directory: pool/main/p/python-django
 Files:
- 07093a2ae9c280295fb72c49b4a94924 2795 python-django_1.8.7-1ubuntu5.2.dsc
+ f0da8c6535a1cc5271b1d2932cf418c7 2795 python-django_1.8.7-1ubuntu5.4.dsc
  44c01355b5efa01938a89b8bd798b1ed 7276831 python-django_1.8.7.orig.tar.gz
- 1def8a5b04116cd38b2fbbdc06a9c174 34376 python-django_1.8.7-1ubuntu5.2.debian.tar.xz
+ df10486cc452192ddb8d50713e0d75f9 36464 python-django_1.8.7-1ubuntu5.4.debian.tar.xz
 Uploaders: Luke Faraone <lfaraone@debian.org>, Raphaël Hertzog <hertzog@debian.org>, Brian May <bam@debian.org>
 Homepage: http://www.djangoproject.com/
 Vcs-Browser: http://anonscm.debian.org/cgit/python-modules/packages/python-django.git
@@ -2648,13 +2721,13 @@ Package-List:
  python-django-doc deb doc optional arch=all
  python3-django deb python optional arch=all
 Checksums-Sha1:
- 59c4bc55e595394b2f309405e61cf81c3eba8cf3 2795 python-django_1.8.7-1ubuntu5.2.dsc
+ 0184b59cae5985c2aba099a0c84a064e37383959 2795 python-django_1.8.7-1ubuntu5.4.dsc
  0ad68cb4a631121c715ebe295463bada97d04d74 7276831 python-django_1.8.7.orig.tar.gz
- 6b3d3d8b14bd4d23fec9463d017b9ae4d30f77a3 34376 python-django_1.8.7-1ubuntu5.2.debian.tar.xz
+ d9b4b9d47b56d47cbef41ccf37c5b1102af1f777 36464 python-django_1.8.7-1ubuntu5.4.debian.tar.xz
 Checksums-Sha256:
- c35f5bb97ba18693b0e40f3df76c6aa9d2e07d78d8cc35ca456cf9101955058b 2795 python-django_1.8.7-1ubuntu5.2.dsc
+ 389c33cf3beb9f3c0b1ab4de33b1612bf65cee5e95f8ba72c8d94a43a39cdeb8 2795 python-django_1.8.7-1ubuntu5.4.dsc
  17a66de5cf59b5ee81c3dc57609b145bb45adddc0dc06937b998597d6e7b4523 7276831 python-django_1.8.7.orig.tar.gz
- 5ef162c2cc96ef9bd30471183b4d42aca286f7006a1676e0689268b80d9f388a 34376 python-django_1.8.7-1ubuntu5.2.debian.tar.xz
+ bc226f41f02c6c88773522700f9dd37c970705f3dbec09b314f8b1c80686f9c9 36464 python-django_1.8.7-1ubuntu5.4.debian.tar.xz
 
 Package: qemu
 Binary: qemu, qemu-system, qemu-block-extra, qemu-system-common, qemu-system-misc, qemu-system-arm, qemu-system-mips, qemu-system-ppc, qemu-system-sparc, qemu-system-x86, qemu-user, qemu-user-static, qemu-user-binfmt, qemu-utils, qemu-guest-agent, qemu-kvm, qemu-system-aarch64, qemu-system-s390x

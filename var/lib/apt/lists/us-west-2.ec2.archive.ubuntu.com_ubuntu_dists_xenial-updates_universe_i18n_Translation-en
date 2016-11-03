@@ -1937,6 +1937,43 @@ Description-en: PHP CalDAV and CardDAV Server - technical documentation
  classes and methods in the DAViCal programs. Some user-centric
  configuration documentation is also included.
 
+Package: dbus-tests
+Description-md5: 9ee6acccb46fa9151264da68e2fc9831
+Description-en: simple interprocess messaging system (test infrastructure)
+ D-Bus is a message bus, used for sending messages between applications.
+ Conceptually, it fits somewhere in between raw sockets and CORBA in
+ terms of complexity.
+ .
+ This package provides automated and manual tests for D-Bus, and the
+ dbus-test-tool utility.
+ .
+ See the dbus package description for more information about D-Bus in general.
+
+Package: dbus-user-session
+Description-md5: be4453093922af92deac14b4e8458a83
+Description-en: simple interprocess messaging system (systemd --user integration)
+ D-Bus is a message bus, used for sending messages between applications.
+ Conceptually, it fits somewhere in between raw sockets and CORBA in
+ terms of complexity.
+ .
+ On systemd systems, this package opts in to the session model in which
+ a user's session starts the first time they log in, and does not end
+ until all their login sessions have ended. This model merges all
+ parallel non-graphical login sessions (text mode, ssh, cron, etc.), and up
+ to one graphical session, into a single "user-session" or "super-session"
+ within which all background D-Bus services are shared.
+ .
+ Multiple graphical sessions per user are not currently supported in this
+ mode; as a result, it is particularly suitable for gdm, which responds to
+ requests to open a parallel graphical session by switching to the existing
+ graphical session and unlocking it.
+ .
+ To retain dbus' traditional session semantics, in which login sessions
+ are artificially isolated from each other, remove this package and install
+ dbus-x11 instead.
+ .
+ See the dbus package description for more information about D-Bus in general.
+
 Package: dh-apparmor
 Description-md5: efd212d2f49b2d33d3233f07e30c77cc
 Description-en: AppArmor debhelper routines
