@@ -1,6 +1,6 @@
 Package: flashplugin-nonfree
 Binary: flashplugin-installer, flashplugin-downloader
-Version: 11.2.202.643ubuntu0.16.04.1
+Version: 11.2.202.644ubuntu0.16.04.1
 Priority: optional
 Section: multiverse/web
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -11,18 +11,18 @@ Standards-Version: 3.8.0
 Format: 1.0
 Directory: pool/multiverse/f/flashplugin-nonfree
 Files:
- 3542a32376dc79e2489f69eaf068a4ea 1415 flashplugin-nonfree_11.2.202.643ubuntu0.16.04.1.dsc
- 8f3aad8e6e8d19493d6f126ab61b9901 47228 flashplugin-nonfree_11.2.202.643ubuntu0.16.04.1.tar.gz
+ 3c2374f2fbf8e9f12c3e1405bb90d396 1415 flashplugin-nonfree_11.2.202.644ubuntu0.16.04.1.dsc
+ 582fdb0071342f97056bc65cb252a2cd 47230 flashplugin-nonfree_11.2.202.644ubuntu0.16.04.1.tar.gz
 Homepage: http://www.adobe.com/products/flashplayer.html
 Package-List:
  flashplugin-downloader deb contrib/web optional arch=i386
  flashplugin-installer deb contrib/web optional arch=i386,amd64
 Checksums-Sha1:
- 7258a74407ab1fcb4d4cf1b2a4a2dd98a72526c0 1415 flashplugin-nonfree_11.2.202.643ubuntu0.16.04.1.dsc
- 1eab2d371126fa5dbc432aa06800d3f4b2c69317 47228 flashplugin-nonfree_11.2.202.643ubuntu0.16.04.1.tar.gz
+ e38c8314bd740f9dd002d3899879cb8a849cb485 1415 flashplugin-nonfree_11.2.202.644ubuntu0.16.04.1.dsc
+ dacc2e10ed9fe874defc84fb7a31bfa086161f49 47230 flashplugin-nonfree_11.2.202.644ubuntu0.16.04.1.tar.gz
 Checksums-Sha256:
- f442b74d3bf6512caa9116fa954550175281a7e9ad94e074970007ddb06fbcb8 1415 flashplugin-nonfree_11.2.202.643ubuntu0.16.04.1.dsc
- 5f4a53c42f80cdf81450b308b34d089465aad5515731d3815ab6573476e0d7ae 47228 flashplugin-nonfree_11.2.202.643ubuntu0.16.04.1.tar.gz
+ 05f829635b755385f4436a2a4b4a582049a4417fcce1db4910938e715e527fd9 1415 flashplugin-nonfree_11.2.202.644ubuntu0.16.04.1.dsc
+ 0424c79314b87effcb9db4b6c846ed161283d1f08edb5de4e5f0b3f9eb42e111 47230 flashplugin-nonfree_11.2.202.644ubuntu0.16.04.1.tar.gz
 
 Package: starpu-contrib
 Binary: libstarpu-contrib-dev, libstarpu-contrib-1.1-9, libstarpu-contribfft-1.1-1, libstarpu-contribmpi-1.1-3, starpu-contrib-tools, starpu-contrib-examples, libsocl-contrib-1.1-1

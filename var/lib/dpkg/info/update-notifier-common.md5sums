@@ -2,12 +2,12 @@
 861228819822a3d9bb3b8abee3fd7c2b  usr/lib/update-notifier/apt_check.py
 d01ae246c6ab91403588c1562289f650  usr/lib/update-notifier/backend_helper.py
 37067c1a4b3fb41ac3d01247f5ea30ec  usr/lib/update-notifier/cddistupgrader
-e98de264e8f4e6bdee25969411385f8b  usr/lib/update-notifier/package-data-downloader
+681bd6d7857a127ef8c4c204f4a39c64  usr/lib/update-notifier/package-data-downloader
 2cd79836db62985c7d74290349f08a5c  usr/lib/update-notifier/package-system-locked
 d55ff0a5c35f5c9b86fda8125a09b4c6  usr/lib/update-notifier/update-motd-fsck-at-reboot
 c25756e5d615214a8396bf40cf2a5e6e  usr/lib/update-notifier/update-motd-reboot-required
 7d5db9e54fb07631b20421b118562e47  usr/lib/update-notifier/update-motd-updates-available
-68c02e6b37f44247a70bbc3c56be9cad  usr/share/doc/update-notifier-common/changelog.gz
+1024f2b5de4a5386c32e280391373e19  usr/share/doc/update-notifier-common/changelog.gz
 51917c3789d05776fe0c840e3c147b87  usr/share/doc/update-notifier-common/copyright
 e61d0cd8eb6701ed2df4bdb19ff63483  usr/share/locale/ace/LC_MESSAGES/update-notifier.mo
 c8ebac0c67ad38434fefc9fa65f5c35f  usr/share/locale/af/LC_MESSAGES/update-notifier.mo
@@ -129,6 +129,6 @@ ee0610333a72f70aeb5e5df1b09bb471  usr/share/locale/th/LC_MESSAGES/update-notifie
 d660f6e23de5c956a0121d2a6e8ad8a3  usr/share/locale/zh_TW/LC_MESSAGES/update-notifier.mo
 61864134164f877029a7d313d89df8d3  usr/share/polkit-1/actions/com.ubuntu.update-notifier.policy
 5ecfd4d75e4a3d2f5015f72d50018cd6  usr/share/update-notifier/notify-reboot-required
-3d80fd973a024166709f1a20ec0450ca  usr/share/update-notifier/package-data-downloads-failed
-ba9753856034bf4928ab01675ffd2fcb  usr/share/update-notifier/package-data-downloads-failed-permanently
+d3b2c785f8074be41daf9f2722417bea  usr/share/update-notifier/package-data-downloads-failed
+13618a09aee69927a70882b8985acd35  usr/share/update-notifier/package-data-downloads-failed-permanently
 d27087bfb1cd2d3e045ca23bf5e9af72  usr/share/update-notifier/upgrader-patches/update-manager-downloader-fix2.diff

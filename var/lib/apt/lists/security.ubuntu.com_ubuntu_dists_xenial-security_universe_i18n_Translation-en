@@ -347,6 +347,14 @@ Description-en: Small caching DNS proxy and DHCP/TFTP server
  in a central configuration file. Dnsmasq supports static and dynamic
  DHCP leases and BOOTP/TFTP for network booting of diskless machines.
 
+Package: dwarfdump
+Description-md5: a4b92512442e73f16c782bda5090e7ec
+Description-en: utility to dump DWARF debug information from ELF objects
+ This package contains the newer implementation of dwarfdump written in C++,
+ sometimes called dwarfdump2.
+ .
+ This utility is part of dwarfutils.
+
 Package: expat
 Description-md5: 946951e418841b66002f30694d1a0b72
 Description-en: XML parsing C library - example application
@@ -1040,6 +1048,15 @@ Description-en: Perl5 database interface to the MySQL database
  and dropping databases and restarting the server; auto-reconnection;
  utf8; bind type guessing; bind comment placeholders; automated insert ids;
  transactions; multiple result sets and multithreading.
+
+Package: libdwarf-dev
+Description-md5: 658f348e29356b31c62b50a69886649b
+Description-en: library to consume and produce DWARF debug information
+ The libdwarf package provides a shared library which allows reading/consumer
+ and writing/producer of DWARF debugging information from object files, shared
+ libraries, and executables.
+ .
+ This library is part of dwarfutils.
 
 Package: libgd-tools
 Description-md5: a44edd93634f43d7184a7456c237f804
@@ -3018,6 +3035,15 @@ Description-en: Linux kernel headers for version 4.4.0 on ARMv8 SMP
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-4.4.0-1032/debian.README.gz for details.
 
+Package: linux-headers-4.4.0-1035-snapdragon
+Description-md5: 3b916aad8481e5135c6df42bcca07b00
+Description-en: Linux kernel headers for version 4.4.0 on ARMv8 SMP
+ This package provides kernel header files for version 4.4.0 on
+ ARMv8 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-1035/debian.README.gz for details.
+
 Package: linux-headers-snapdragon
 Description-md5: b91660f4ed21735e89725e56b0700976
 Description-en: Linux kernel headers for the Qualcomm Snapdragon 410c architecture.
@@ -3186,6 +3212,24 @@ Description-en: Linux kernel image for version 4.4.0 on ARMv8 SMP
  the linux-snapdragon meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-image-4.4.0-1035-snapdragon
+Description-md5: ab267365f3ac6b009038c83ece50a88a
+Description-en: Linux kernel image for version 4.4.0 on ARMv8 SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ ARMv8 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-snapdragon meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-image-snapdragon
 Description-md5: 0af4796d3c4ce8fe5783f36d3e8f3e97
 Description-en: Linux kernel image for the Qualcomm Snapdragon 410c architecture.
@@ -3260,6 +3304,13 @@ Description-en: Header files related to Linux kernel version 4.4.0
  This package provides kernel header files for version 4.4.0, for sites
  that want the latest kernel headers. Please read
  /usr/share/doc/linux-snapdragon-headers-4.4.0-1032/debian.README.gz for details
+
+Package: linux-snapdragon-headers-4.4.0-1035
+Description-md5: 56dad06efe036b61b340398234653cc5
+Description-en: Header files related to Linux kernel version 4.4.0
+ This package provides kernel header files for version 4.4.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-snapdragon-headers-4.4.0-1035/debian.README.gz for details
 
 Package: linux-snapdragon-tools-4.4.0-1013
 Description-md5: 599e1b4fb4c9a40b3a4ffe5dfb2ddbe3
@@ -3342,6 +3393,15 @@ Description-en: Linux kernel version specific tools for version 4.4.0-1032
  ARMv8.
  You probabaly want to install linux-tools-<flavour> meta package.
 
+Package: linux-snapdragon-tools-4.4.0-1035
+Description-md5: 2a3c3e3dec0ff1a7133988137ead2b86
+Description-en: Linux kernel version specific tools for version 4.4.0-1035
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-1035 on
+ ARMv8.
+ You probabaly want to install linux-tools-<flavour> meta package.
+
 Package: linux-tools-4.4.0-1013-snapdragon
 Description-md5: f49f2a8caa5fb601e929576c6e40be34
 Description-en: Linux kernel version specific tools for version 4.4.0-1013
@@ -3412,6 +3472,14 @@ Description-en: Linux kernel version specific tools for version 4.4.0-1032
  This package provides the architecture dependant parts for kernel
  version locked tools (such as perf and x86_energy_perf_policy) for
  version 4.4.0-1032 on
+ ARMv8.
+
+Package: linux-tools-4.4.0-1035-snapdragon
+Description-md5: 0ba9d651ead42e660b422162afc851f8
+Description-en: Linux kernel version specific tools for version 4.4.0-1035
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-1035 on
  ARMv8.
 
 Package: linux-tools-snapdragon

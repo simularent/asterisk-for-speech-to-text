@@ -61,7 +61,7 @@ Name-vi.UTF-8: Không thể tải xuống các tập tin dữ liệu cho một v
 Name-zh_CN.UTF-8: 一些软件包的数据文件无法下载
 Name-zh_HK.UTF-8: 某些套件的資料檔案無法下載
 Name-zh_TW.UTF-8: 某些套件的資料檔案無法下載
-Description: 
+Description:
  The following packages requested additional data downloads after package
  installation, but the data could not be downloaded or could not be
  processed.

@@ -5,7 +5,6 @@ c70580b5cabf73080989400422349ab2  /etc/ufw/after6.rules
 24684ce5e87dbef5958a2f62b91396de  /etc/default/grub
 1197b9740d1dc1e7755f8ed472b7bd3c  /run/grub/menu.lst
 3719c04fb954c26afe4e09700b2ffdc1  /etc/ufw/before6.rules
-4c4d0203d3db42331c1517ea26d064da  /etc/apt/apt.conf.d/50unattended-upgrades
 0877786daf8479dd91be0f89f223a102  /etc/php/7.0/mods-available/calendar.ini
 72def1d4663c5350713006af725f21ae  /etc/php/7.0/mods-available/ctype.ini
 7b3bf6064e6bd1749e5f1a3dd56592b3  /etc/php/7.0/mods-available/exif.ini
@@ -27,3 +26,4 @@ cb36a25e9c9d2c975cb49bbb56f16465  /etc/php/7.0/mods-available/tokenizer.ini
 04d2378963688a881deb69b0441f2a80  /etc/php/7.0/mods-available/readline.ini
 2c876fb5d806e1836c4ed2d3fb9e1c0f  /etc/php/7.0/cli/php.ini
 119607f275075f768c738697863e5226  /etc/php/7.0/fpm/php.ini
+a85e73b61a99c4abf2c8385bae46dfe0  /etc/apt/apt.conf.d/50unattended-upgrades

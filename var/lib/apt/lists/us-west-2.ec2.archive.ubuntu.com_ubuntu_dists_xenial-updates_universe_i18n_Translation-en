@@ -2166,6 +2166,14 @@ Description-en: fully-featured content management framework
  .
  This package contains version 7 of Drupal.
 
+Package: dwarfdump
+Description-md5: a4b92512442e73f16c782bda5090e7ec
+Description-en: utility to dump DWARF debug information from ELF objects
+ This package contains the newer implementation of dwarfdump written in C++,
+ sometimes called dwarfdump2.
+ .
+ This utility is part of dwarfutils.
+
 Package: ec2-init
 Description-md5: 4cf74a8ef9cc7376e227720b76813136
 Description-en: package renamed -> cloud-init
@@ -2476,6 +2484,28 @@ Description-en: Touch Frame Library - test tools
  for mtdev, frame and XI2.1.
  .
  This package provides some test tools for the frame library.
+
+Package: fwts
+Description-md5: d6b6141d7ca394b5197f5a8e24578b35
+Description-en: FirmWare Test Suite
+ This is a firmware test suite that performs sanity checks on Intel/AMD
+ PC firmware. It is intended to identify BIOS and ACPI errors and
+ if appropriate it will try to explain the errors and give advice to
+ help workaround or fix firmware bugs.  It is primarily intended to
+ be a Linux-centric firmware troubleshooting tool.
+
+Package: fwts-efi-runtime-dkms
+Description-md5: 872c3fa1034eabae1745eeec37ab3e38
+Description-en: Firmware Test Suite UEFI Runtime Service kernel driver
+ This package provides the efi_runtime kernel driver in DKMS format,
+ which is required for accessing UEFI Runtime Services.
+
+Package: fwts-frontend
+Description-md5: fc98ee1ccd80b6332c879648cc78e424
+Description-en: Firmware Test Suite frontend interface
+ This is a dialog based interface designed to provide an easy to use method
+ to execute tests via Firmware Test Suite and is also used as the primary
+ interface within Firmware Test Suite live images.
 
 Package: g++-5-alpha-linux-gnu
 Description-md5: 2d00942ba5eb012a9fd5c68196421586
@@ -10021,6 +10051,15 @@ Description-en: tools useful during development with libdbusmenu
  This package contains tools that are useful when developing and building
  applications with libdbusmenu.
 
+Package: libdwarf-dev
+Description-md5: 658f348e29356b31c62b50a69886649b
+Description-en: library to consume and produce DWARF debug information
+ The libdwarf package provides a shared library which allows reading/consumer
+ and writing/producer of DWARF debugging information from object files, shared
+ libraries, and executables.
+ .
+ This library is part of dwarfutils.
+
 Package: libegl1-mesa-drivers
 Description-md5: 635a93bcd1440d16621693fe064c2aa9
 Description-en: transitional dummy package
@@ -10181,6 +10220,30 @@ Description-en: libraries of fpgatools
   * simple Makefiles
   * text-based file formats
   * automatic test suite
+
+Package: libfwts1
+Description-md5: 52ff91e0d92988cc3e64dca37e83ded3
+Description-en: FirmWare Test Suite core support library
+ This is the fwts core library. It contains a top level test framework
+ and a rich range of firmware specific testing support code for the
+ various fwts tests.
+
+Package: libfwtsacpica1
+Description-md5: a5000d353030a31da5111f9694fad744
+Description-en: FirmWare Test Suite ACPICA core built for acpiexec functionality
+ The firmware test suite requires the ACPICA core engine to be built in
+ execution mode (with ACPI_EXEC_APP enabled) to support run time execution
+ of ACPI Machine Language (AML) in the ACPI DSDT and SSDTs. This library
+ contains this code with a thin fwts specific API to interface with fwts.
+
+Package: libfwtsiasl1
+Description-md5: 0fdb8bb43f21085e686e7b8bb3529034
+Description-en: FirmWare Test Suite ACPICA core built for iasl functionality
+ The firmware test suite requires the ACPICA core engine to be built in
+ compiler mode (with ACPI_ASL_COMPILER enabled) to support assembly and
+ disassembly of ACPI Machine Language (AML) in the ACPI DSDT and SSDTs.
+ This library contains this code with a thin fwts specific API to
+ interface with fwts.
 
 Package: libgcc-5-dev-alpha-cross
 Description-md5: 4ab7cb439b47e1d0796fbaf8447229ac
@@ -17834,6 +17897,14 @@ Description-en: transitional package for ubuntu-drivers-common
  This is a transitional package for ubuntu-drivers-common. You can remove it
  after upgrading.
 
+Package: nvme-cli
+Description-md5: 50cd6c8d88aeb616570db136de8ec92d
+Description-en: userspace tooling to control NVMe drives
+ NVMe is a fast, scalable, direct attached storage interface, accessing
+ solid state drives through PCIe.
+ .
+ The nvme CLI contains core management tools with minimal dependencies.
+
 Package: oce-draw
 Description-md5: 533f6a4b76d456eb78b823615dee7662
 Description-en: OpenCASCADE Community Edition CAE platform shared library
@@ -18969,6 +19040,12 @@ Description-en: Python-2 wrapper for the Montage mosaicking toolkit
  commands, and high-level functions to facilitate mosaicking and
  re-projecting.
 
+Package: python-nova.lxd
+Description-md5: a9b3f6596c73a62b37413702be61b600
+Description-en: transitional dummy package for python-nova.lxd
+ This transitional package is safe to remove and use python-nova-lxd
+ instead.
+
 Package: python-oslo-concurrency
 Description-md5: e7ed5597aef95d13e290effb166a989f
 Description-en: transitional dummy package for python-oslo-concurrency
@@ -19911,6 +19988,22 @@ Description-en: Provide limited super user privileges to specific users
  This version is built with LDAP support, which allows an equivalent of the
  sudoers database to be distributed via LDAP.  Authentication is still
  performed via pam.
+
+Package: supertux
+Description-md5: 83819c096307dca07762d7b9f833f8be
+Description-en: Classic 2D jump 'n run sidescroller with Tux
+ SuperTux is a classic 2D jump 'n run sidescroller game in a similar
+ style like the original SuperMario games. You play the role of Tux the
+ Penguin, who must rescue Penny from the hands of the evil Nolok.
+
+Package: supertux-data
+Description-md5: c2c5a5da6b5987f1181c1535a993e11f
+Description-en: Classic 2D jump 'n run sidescroller with Tux (data files)
+ SuperTux is a classic 2D jump 'n run sidescroller game in a similar
+ style like the original SuperMario games. You play the role of Tux the
+ Penguin, who must rescue Penny from the hands of the evil Nolok.
+ .
+ This package contains the data files required by SuperTux.
 
 Package: swauth
 Description-md5: 4c3a63f7bf0db136895246211635b1cd
@@ -21562,6 +21655,15 @@ Description-en: Linux kernel headers for version 4.4.0 on ARMv8 SMP
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-4.4.0-1032/debian.README.gz for details.
 
+Package: linux-headers-4.4.0-1035-snapdragon
+Description-md5: 3b916aad8481e5135c6df42bcca07b00
+Description-en: Linux kernel headers for version 4.4.0 on ARMv8 SMP
+ This package provides kernel header files for version 4.4.0 on
+ ARMv8 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-1035/debian.README.gz for details.
+
 Package: linux-headers-snapdragon
 Description-md5: b91660f4ed21735e89725e56b0700976
 Description-en: Linux kernel headers for the Qualcomm Snapdragon 410c architecture.
@@ -21730,6 +21832,24 @@ Description-en: Linux kernel image for version 4.4.0 on ARMv8 SMP
  the linux-snapdragon meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-image-4.4.0-1035-snapdragon
+Description-md5: ab267365f3ac6b009038c83ece50a88a
+Description-en: Linux kernel image for version 4.4.0 on ARMv8 SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ ARMv8 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-snapdragon meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-image-snapdragon
 Description-md5: 0af4796d3c4ce8fe5783f36d3e8f3e97
 Description-en: Linux kernel image for the Qualcomm Snapdragon 410c architecture.
@@ -21804,6 +21924,13 @@ Description-en: Header files related to Linux kernel version 4.4.0
  This package provides kernel header files for version 4.4.0, for sites
  that want the latest kernel headers. Please read
  /usr/share/doc/linux-snapdragon-headers-4.4.0-1032/debian.README.gz for details
+
+Package: linux-snapdragon-headers-4.4.0-1035
+Description-md5: 56dad06efe036b61b340398234653cc5
+Description-en: Header files related to Linux kernel version 4.4.0
+ This package provides kernel header files for version 4.4.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-snapdragon-headers-4.4.0-1035/debian.README.gz for details
 
 Package: linux-snapdragon-tools-4.4.0-1013
 Description-md5: 599e1b4fb4c9a40b3a4ffe5dfb2ddbe3
@@ -21886,6 +22013,15 @@ Description-en: Linux kernel version specific tools for version 4.4.0-1032
  ARMv8.
  You probabaly want to install linux-tools-<flavour> meta package.
 
+Package: linux-snapdragon-tools-4.4.0-1035
+Description-md5: 2a3c3e3dec0ff1a7133988137ead2b86
+Description-en: Linux kernel version specific tools for version 4.4.0-1035
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-1035 on
+ ARMv8.
+ You probabaly want to install linux-tools-<flavour> meta package.
+
 Package: linux-tools-4.4.0-1013-snapdragon
 Description-md5: f49f2a8caa5fb601e929576c6e40be34
 Description-en: Linux kernel version specific tools for version 4.4.0-1013
@@ -21956,6 +22092,14 @@ Description-en: Linux kernel version specific tools for version 4.4.0-1032
  This package provides the architecture dependant parts for kernel
  version locked tools (such as perf and x86_energy_perf_policy) for
  version 4.4.0-1032 on
+ ARMv8.
+
+Package: linux-tools-4.4.0-1035-snapdragon
+Description-md5: 0ba9d651ead42e660b422162afc851f8
+Description-en: Linux kernel version specific tools for version 4.4.0-1035
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-1035 on
  ARMv8.
 
 Package: linux-tools-snapdragon

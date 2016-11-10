@@ -62,6 +62,33 @@ Checksums-Sha256:
  c52a58b79bfb27bb87e4a0a6ff213001485fbc747657b290f75d39ddce07dcc3 460878628 chromium-browser_53.0.2785.143.orig.tar.xz
  0766d7eebdfa99a26574616d4152daec50ed2b4de2667a7fb2ff41ab016a7f6d 543120 chromium-browser_53.0.2785.143-0ubuntu0.16.04.1.1254.debian.tar.xz
 
+Package: dwarfutils
+Binary: dwarfdump, libdwarf-dev
+Version: 20120410-2+deb7u2build0.16.04.1
+Priority: optional
+Section: universe/libs
+Maintainer: Fabian Wolff <fabi.wolff@arcor.de>
+Build-Depends: debhelper (>> 9), quilt (>= 0.47), libelf-dev, binutils-dev
+Architecture: any
+Standards-Version: 3.9.3.1
+Format: 3.0 (quilt)
+Directory: pool/universe/d/dwarfutils
+Files:
+ f2bb95e3e716fda52a5a13137bb9346b 1880 dwarfutils_20120410-2+deb7u2build0.16.04.1.dsc
+ 77c8b351f11738bc9fa50474a69d5b36 1465839 dwarfutils_20120410.orig.tar.gz
+ 1d5c95114785b90bbc7f9b76b59e5e44 13388 dwarfutils_20120410-2+deb7u2build0.16.04.1.debian.tar.xz
+Package-List:
+ dwarfdump deb utils optional arch=any
+ libdwarf-dev deb libdevel optional arch=any
+Checksums-Sha1:
+ 1f73b95bd1f4d8d8b064e699ec40f95e57ea6f33 1880 dwarfutils_20120410-2+deb7u2build0.16.04.1.dsc
+ d634ef7aee475ef118dc40f5d684290ff54cda8a 1465839 dwarfutils_20120410.orig.tar.gz
+ 9ce64989b141e1dfaf33e82f891987cdb5dc664e 13388 dwarfutils_20120410-2+deb7u2build0.16.04.1.debian.tar.xz
+Checksums-Sha256:
+ 966fdc22c6ff8b557b9bc1528d51453495997395caf7ac04eaa0cea299d28793 1880 dwarfutils_20120410-2+deb7u2build0.16.04.1.dsc
+ ad148f07f0937689e6c8265beca09c74c92fad039900967eb9340a4c46a10b6c 1465839 dwarfutils_20120410.orig.tar.gz
+ 501162e446fedf84522db05e784c30742ed5b3b749b1c0d843303e02f732a0fa 13388 dwarfutils_20120410-2+deb7u2build0.16.04.1.debian.tar.xz
+
 Package: extplorer
 Binary: extplorer
 Version: 2.1.0b6+dfsg.3-4+deb7u4ubuntu0.16.04.1
@@ -437,7 +464,7 @@ Checksums-Sha256:
 
 Package: linux-meta-snapdragon
 Binary: linux-headers-snapdragon, linux-image-snapdragon, linux-snapdragon, linux-tools-snapdragon
-Version: 4.4.0.1032.24
+Version: 4.4.0.1035.27
 Priority: optional
 Section: universe/devel
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
@@ -447,8 +474,8 @@ Standards-Version: 3.6.1
 Format: 1.0
 Directory: pool/universe/l/linux-meta-snapdragon
 Files:
- ecb5236e6a8cc88527dba2992bd3a279 1852 linux-meta-snapdragon_4.4.0.1032.24.dsc
- 958986c0921116a07a7a278af8846e5d 3625 linux-meta-snapdragon_4.4.0.1032.24.tar.gz
+ 0c2a41a785f49a79c2ddece7ab92676f 1850 linux-meta-snapdragon_4.4.0.1035.27.dsc
+ 5d466666f9882c2de62d6b1c637c27a3 3652 linux-meta-snapdragon_4.4.0.1035.27.tar.gz
 Vcs-Git: git://kernel.ubuntu.com/ubuntu/ubuntu-xenial-meta.git snapdragon
 Package-List:
  linux-headers-snapdragon deb metapackages optional arch=arm64
@@ -456,11 +483,11 @@ Package-List:
  linux-snapdragon deb metapackages optional arch=arm64
  linux-tools-snapdragon deb metapackages optional arch=arm64
 Checksums-Sha1:
- 1bca391587affb94fdd35cc24dcd161be0d4572c 1852 linux-meta-snapdragon_4.4.0.1032.24.dsc
- f484d69184fbc869349670bee150accd6a802ba9 3625 linux-meta-snapdragon_4.4.0.1032.24.tar.gz
+ 55ebd19018f6521752b867faa78e82215e6e2078 1850 linux-meta-snapdragon_4.4.0.1035.27.dsc
+ a0087faf922e1a37d3b9853fe5fb03725a75aa8f 3652 linux-meta-snapdragon_4.4.0.1035.27.tar.gz
 Checksums-Sha256:
- 190b496f9b7fed214a4b15bbbba64443588e7b225816118b3f4ad2b8a9869b86 1852 linux-meta-snapdragon_4.4.0.1032.24.dsc
- d08724d431591764abf704e06462274df72a2219442ca19c1584a692221e07ca 3625 linux-meta-snapdragon_4.4.0.1032.24.tar.gz
+ b29fb6e9941233a0d71e607cec73023bd69a95b0f32858799781e8b86a244b40 1850 linux-meta-snapdragon_4.4.0.1035.27.dsc
+ 4ebf7e8bc441788a2dc88e668bd1861d568f6947703ab3be10f7b608c7dd90e4 3652 linux-meta-snapdragon_4.4.0.1035.27.tar.gz
 
 Package: linux-raspi2
 Binary: linux-raspi2-headers-4.4.0-1029, linux-raspi2-tools-4.4.0-1029, linux-image-4.4.0-1029-raspi2, linux-headers-4.4.0-1029-raspi2, linux-image-4.4.0-1029-raspi2-dbgsym, linux-tools-4.4.0-1029-raspi2
@@ -497,8 +524,8 @@ Checksums-Sha256:
  1f3a90d2ca6a8aa2ea9c3842ec8a3eb13327f571c1a30f5b19fff10a99ee3345 12979820 linux-raspi2_4.4.0-1029.36.diff.gz
 
 Package: linux-snapdragon
-Binary: linux-snapdragon-headers-4.4.0-1032, linux-snapdragon-tools-4.4.0-1032, linux-image-4.4.0-1032-snapdragon, linux-headers-4.4.0-1032-snapdragon, linux-image-4.4.0-1032-snapdragon-dbgsym, linux-tools-4.4.0-1032-snapdragon
-Version: 4.4.0-1032.36
+Binary: linux-snapdragon-headers-4.4.0-1035, linux-snapdragon-tools-4.4.0-1035, linux-image-4.4.0-1035-snapdragon, linux-headers-4.4.0-1035-snapdragon, linux-image-4.4.0-1035-snapdragon-dbgsym, linux-tools-4.4.0-1035-snapdragon
+Version: 4.4.0-1035.39
 Priority: optional
 Section: universe/devel
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
@@ -509,26 +536,26 @@ Standards-Version: 3.9.4.0
 Format: 1.0
 Directory: pool/universe/l/linux-snapdragon
 Files:
- b1f973b809a360cb89fe6725bf12f937 3362 linux-snapdragon_4.4.0-1032.36.dsc
+ 683336b6f8a151ecaa856146b4ea764e 3360 linux-snapdragon_4.4.0-1035.39.dsc
  2070b49688e8d7ee7ff4c33590afc698 132860730 linux-snapdragon_4.4.0.orig.tar.gz
- e40480585e7ea29897b2e3da80a1ccf7 12832877 linux-snapdragon_4.4.0-1032.36.diff.gz
+ ffc6b0d5559af930e1cf26464881ad58 13011520 linux-snapdragon_4.4.0-1035.39.diff.gz
 Vcs-Git: git://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/xenial
 Testsuite: autopkgtest
 Package-List:
- linux-headers-4.4.0-1032-snapdragon deb devel optional arch=arm64 profile=!stage1
- linux-image-4.4.0-1032-snapdragon deb kernel optional arch=arm64 profile=!stage1
- linux-image-4.4.0-1032-snapdragon-dbgsym deb devel optional arch=arm64 profile=!stage1
- linux-snapdragon-headers-4.4.0-1032 deb devel optional arch=arm64 profile=!stage1
- linux-snapdragon-tools-4.4.0-1032 deb devel optional arch=arm64 profile=!stage1
- linux-tools-4.4.0-1032-snapdragon deb devel optional arch=arm64 profile=!stage1
+ linux-headers-4.4.0-1035-snapdragon deb devel optional arch=arm64 profile=!stage1
+ linux-image-4.4.0-1035-snapdragon deb kernel optional arch=arm64 profile=!stage1
+ linux-image-4.4.0-1035-snapdragon-dbgsym deb devel optional arch=arm64 profile=!stage1
+ linux-snapdragon-headers-4.4.0-1035 deb devel optional arch=arm64 profile=!stage1
+ linux-snapdragon-tools-4.4.0-1035 deb devel optional arch=arm64 profile=!stage1
+ linux-tools-4.4.0-1035-snapdragon deb devel optional arch=arm64 profile=!stage1
 Checksums-Sha1:
- 148c623c81ae3e1860b23304c6a06f3cee6f2111 3362 linux-snapdragon_4.4.0-1032.36.dsc
+ fc2044403011963662e4501d55cce5ced17addcc 3360 linux-snapdragon_4.4.0-1035.39.dsc
  180ab617036593212274177eff3a67f437c1b5ea 132860730 linux-snapdragon_4.4.0.orig.tar.gz
- 0b150b04a0ecf990b797d80de59def5848979c93 12832877 linux-snapdragon_4.4.0-1032.36.diff.gz
+ 1739ac91bb593793aef379f3b4e25a886d8eb475 13011520 linux-snapdragon_4.4.0-1035.39.diff.gz
 Checksums-Sha256:
- 48de976217c0dc81a201c5f72adea4227c42fab0dd5d793a4a11e9c5f630e622 3362 linux-snapdragon_4.4.0-1032.36.dsc
+ 98b0e63e8d3a71574f3f99bfd43e8f3a40bd07c570aa8660d3220b23ae974f2d 3360 linux-snapdragon_4.4.0-1035.39.dsc
  730e75919b5d30a9bc934ccb300eaedfdf44994ca9ee1d07a46901c46c221357 132860730 linux-snapdragon_4.4.0.orig.tar.gz
- 8e5eda18abd47b42bf99eb389b8f16d2062526a203693c103859c5bfbd781af0 12832877 linux-snapdragon_4.4.0-1032.36.diff.gz
+ b8e144ba8d5cc6770338d1160e0141bc1b6279f219bdeaaafef76f8b31196ac3 13011520 linux-snapdragon_4.4.0-1035.39.diff.gz
 
 Package: mariadb-10.0
 Binary: libmariadbd18, libmariadbd-dev, mariadb-common, mariadb-client-core-10.0, mariadb-client-10.0, mariadb-server-core-10.0, mariadb-test, mariadb-test-data, mariadb-server-10.0, mariadb-server, mariadb-client, mariadb-plugin-connect, mariadb-plugin-oqgraph, mariadb-plugin-tokudb, mariadb-plugin-mroonga, mariadb-plugin-spider

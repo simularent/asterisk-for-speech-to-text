@@ -2670,3 +2670,549 @@ Oct 17 12:04:10 localhost [CLOUDINIT] helpers.py[DEBUG]: config-apt-pipelining a
 Oct 17 12:04:10 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
 Oct 17 12:04:10 localhost [CLOUDINIT] util.py[DEBUG]: Read 20 bytes from /proc/uptime
 Oct 17 12:04:10 localhost [CLOUDINIT] util.py[DEBUG]: cloud-init mode 'single' took 0.073 seconds (0.07)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Cloud-init v. 0.7.8 running 'init-local' at Thu, 10 Nov 2016 20:53:01 +0000. Up 5.18 seconds.
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Writing to /var/log/cloud-init.log - ab: [420] 0 bytes
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Changing the ownership of /var/log/cloud-init.log to 101:4
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Attempting to remove /var/lib/cloud/instance/boot-finished
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Attempting to remove /var/lib/cloud/data/no-net
+Nov 10 15:53:01 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-local/check-cache: attempting to read from cache [check]
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/instance/obj.pkl (quiet=False)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Read 6718 bytes from /var/lib/cloud/instance/obj.pkl
+Nov 10 15:53:01 localhost [CLOUDINIT] stages.py[DEBUG]: cache invalid in datasource: DataSourceEc2
+Nov 10 15:53:01 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-local/check-cache: SUCCESS: cache invalid in datasource: DataSourceEc2
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Attempting to remove /var/lib/cloud/instance
+Nov 10 15:53:01 localhost [CLOUDINIT] stages.py[DEBUG]: Using distro class <class 'cloudinit.distros.ubuntu.Distro'>
+Nov 10 15:53:01 localhost [CLOUDINIT] __init__.py[DEBUG]: Looking for for data source in: ['NoCloud', 'ConfigDrive', 'OpenNebula', 'Azure', 'AltCloud', 'OVF', 'MAAS', 'GCE', 'OpenStack', 'CloudSigma', 'Ec2', 'CloudStack', 'SmartOS', 'None'], via packages ['', 'cloudinit.sources'] that matches dependencies ['FILESYSTEM']
+Nov 10 15:53:01 localhost [CLOUDINIT] __init__.py[DEBUG]: Searching for local data source in: ['DataSourceNoCloud', 'DataSourceConfigDrive', 'DataSourceOpenNebula', 'DataSourceOVF', 'DataSourceSmartOS']
+Nov 10 15:53:01 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-local/search-NoCloud: searching for local data from DataSourceNoCloud
+Nov 10 15:53:01 localhost [CLOUDINIT] __init__.py[DEBUG]: Seeing if we can get any data from <class 'cloudinit.sources.DataSourceNoCloud.DataSourceNoCloud'>
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud/user-data (quiet=False)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud/meta-data (quiet=False)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud/vendor-data (quiet=False)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud/network-config (quiet=False)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud-net/user-data (quiet=False)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud-net/meta-data (quiet=False)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud-net/vendor-data (quiet=False)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud-net/network-config (quiet=False)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-odevice', '/dev/sr0'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-odevice', '/dev/sr1'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-tTYPE=vfat', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-tTYPE=iso9660', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-tLABEL=cidata', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:01 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-local/search-NoCloud: SUCCESS: no local data found from DataSourceNoCloud
+Nov 10 15:53:01 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-local/search-ConfigDrive: searching for local data from DataSourceConfigDrive
+Nov 10 15:53:01 localhost [CLOUDINIT] __init__.py[DEBUG]: Seeing if we can get any data from <class 'cloudinit.sources.DataSourceConfigDrive.DataSourceConfigDrive'>
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-odevice', '/dev/sr0'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-odevice', '/dev/sr1'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-odevice', '/dev/cd0'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-odevice', '/dev/cd1'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-tTYPE=vfat', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-tTYPE=iso9660', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-tLABEL=config-2', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:01 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-local/search-ConfigDrive: SUCCESS: no local data found from DataSourceConfigDrive
+Nov 10 15:53:01 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-local/search-OpenNebula: searching for local data from DataSourceOpenNebula
+Nov 10 15:53:01 localhost [CLOUDINIT] __init__.py[DEBUG]: Seeing if we can get any data from <class 'cloudinit.sources.DataSourceOpenNebula.DataSourceOpenNebula'>
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-tLABEL=CONTEXT', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-tLABEL=CDROM', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-tTYPE=iso9660', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:01 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-local/search-OpenNebula: SUCCESS: no local data found from DataSourceOpenNebula
+Nov 10 15:53:01 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-local/search-OVF: searching for local data from DataSourceOVF
+Nov 10 15:53:01 localhost [CLOUDINIT] __init__.py[DEBUG]: Seeing if we can get any data from <class 'cloudinit.sources.DataSourceOVF.DataSourceOVF'>
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: querying dmi data /sys/class/dmi/id/product_name
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /sys/class/dmi/id/product_name (quiet=False)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Read 9 bytes from /sys/class/dmi/id/product_name
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: dmi data /sys/class/dmi/id/product_name returned HVM domU
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /proc/mounts (quiet=False)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Read 2421 bytes from /proc/mounts
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Fetched {'devpts': {'opts': 'rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000', 'mountpoint': '/dev/pts', 'fstype': 'devpts'}, 'sysfs': {'opts': 'rw,nosuid,nodev,noexec,relatime', 'mountpoint': '/sys', 'fstype': 'sysfs'}, 'lxcfs': {'opts': 'rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other', 'mountpoint': '/var/lib/lxcfs', 'fstype': 'fuse.lxcfs'}, '/dev/xvda1': {'opts': 'rw,relatime,discard,data=ordered', 'mountpoint': '/', 'fstype': 'ext4'}, 'cgroup': {'opts': 'rw,nosuid,nodev,noexec,relatime,devices', 'mountpoint': '/sys/fs/cgroup/devices', 'fstype': 'cgroup'}, 'proc': {'opts': 'rw,nosuid,nodev,noexec,relatime', 'mountpoint': '/proc', 'fstype': 'proc'}, 'pstore': {'opts': 'rw,nosuid,nodev,noexec,relatime', 'mountpoint': '/sys/fs/pstore', 'fstype': 'pstore'}, 'tmpfs': {'opts': 'rw,size=507228k,nr_inodes=126807,mode=755', 'mountpoint': '/sys/fs/cgroup', 'fstype': 'tmpfs'}, 'mqueue': {'opts': 'rw,relatime', 'mountpoint': '/dev/mqueue', 'fstype': 'mqueue'}, 'debugfs': {'opts': 'rw,relatime', 'mountpoint': '/sys/kernel/debug', 'fstype': 'debugfs'}, 'fusectl': {'opts': 'rw,relatime', 'mountpoint': '/sys/fs/fuse/connections', 'fstype': 'fusectl'}, 'udev': {'opts': 'rw,nosuid,relatime,size=487560k,nr_inodes=121890,mode=755', 'mountpoint': '/dev', 'fstype': 'devtmpfs'}, 'securityfs': {'opts': 'rw,nosuid,nodev,noexec,relatime', 'mountpoint': '/sys/kernel/security', 'fstype': 'securityfs'}, 'cgmfs': {'opts': 'rw,relatime,size=100k,mode=755', 'mountpoint': '/run/cgmanager/fs', 'fstype': 'tmpfs'}, 'hugetlbfs': {'opts': 'rw,relatime', 'mountpoint': '/dev/hugepages', 'fstype': 'hugetlbfs'}, 'systemd-1': {'opts': 'rw,relatime,fd=27,pgrp=1,timeout=0,minproto=5,maxproto=5,direct', 'mountpoint': '/proc/sys/fs/binfmt_misc', 'fstype': 'autofs'}} mounts from proc
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Peeking at /dev/xvda (max_bytes=512)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /proc/mounts (quiet=False)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Read 2421 bytes from /proc/mounts
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Fetched {'devpts': {'opts': 'rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000', 'mountpoint': '/dev/pts', 'fstype': 'devpts'}, 'sysfs': {'opts': 'rw,nosuid,nodev,noexec,relatime', 'mountpoint': '/sys', 'fstype': 'sysfs'}, 'lxcfs': {'opts': 'rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other', 'mountpoint': '/var/lib/lxcfs', 'fstype': 'fuse.lxcfs'}, '/dev/xvda1': {'opts': 'rw,relatime,discard,data=ordered', 'mountpoint': '/', 'fstype': 'ext4'}, 'cgroup': {'opts': 'rw,nosuid,nodev,noexec,relatime,devices', 'mountpoint': '/sys/fs/cgroup/devices', 'fstype': 'cgroup'}, 'proc': {'opts': 'rw,nosuid,nodev,noexec,relatime', 'mountpoint': '/proc', 'fstype': 'proc'}, 'pstore': {'opts': 'rw,nosuid,nodev,noexec,relatime', 'mountpoint': '/sys/fs/pstore', 'fstype': 'pstore'}, 'tmpfs': {'opts': 'rw,size=507228k,nr_inodes=126807,mode=755', 'mountpoint': '/sys/fs/cgroup', 'fstype': 'tmpfs'}, 'mqueue': {'opts': 'rw,relatime', 'mountpoint': '/dev/mqueue', 'fstype': 'mqueue'}, 'debugfs': {'opts': 'rw,relatime', 'mountpoint': '/sys/kernel/debug', 'fstype': 'debugfs'}, 'fusectl': {'opts': 'rw,relatime', 'mountpoint': '/sys/fs/fuse/connections', 'fstype': 'fusectl'}, 'udev': {'opts': 'rw,nosuid,relatime,size=487560k,nr_inodes=121890,mode=755', 'mountpoint': '/dev', 'fstype': 'devtmpfs'}, 'securityfs': {'opts': 'rw,nosuid,nodev,noexec,relatime', 'mountpoint': '/sys/kernel/security', 'fstype': 'securityfs'}, 'cgmfs': {'opts': 'rw,relatime,size=100k,mode=755', 'mountpoint': '/run/cgmanager/fs', 'fstype': 'tmpfs'}, 'hugetlbfs': {'opts': 'rw,relatime', 'mountpoint': '/dev/hugepages', 'fstype': 'hugetlbfs'}, 'systemd-1': {'opts': 'rw,relatime,fd=27,pgrp=1,timeout=0,minproto=5,maxproto=5,direct', 'mountpoint': '/proc/sys/fs/binfmt_misc', 'fstype': 'autofs'}} mounts from proc
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['mount', '-o', 'ro,sync', '-t', 'iso9660', '/dev/xvda', '/tmp/tmpwkk593n_'] with allowed return codes [0] (shell=False, capture=True)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Failed mount of '/dev/xvda' as 'iso9660': Unexpected error while running command.#012Command: ['mount', '-o', 'ro,sync', '-t', 'iso9660', '/dev/xvda', '/tmp/tmpwkk593n_']#012Exit code: 32#012Reason: -#012Stdout: ''#012Stderr: 'mount: /dev/xvda is already mounted or /tmp/tmpwkk593n_ busy\n'
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Recursively deleting /tmp/tmpwkk593n_
+Nov 10 15:53:01 localhost [CLOUDINIT] DataSourceOVF.py[DEBUG]: /dev/xvda not mountable as iso9660
+Nov 10 15:53:01 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-local/search-OVF: SUCCESS: no local data found from DataSourceOVF
+Nov 10 15:53:01 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-local/search-SmartOS: searching for local data from DataSourceSmartOS
+Nov 10 15:53:01 localhost [CLOUDINIT] __init__.py[DEBUG]: Seeing if we can get any data from <class 'cloudinit.sources.DataSourceSmartOS.DataSourceSmartOS'>
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: querying dmi data /sys/class/dmi/id/product_name
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /sys/class/dmi/id/product_name (quiet=False)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Read 9 bytes from /sys/class/dmi/id/product_name
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: dmi data /sys/class/dmi/id/product_name returned HVM domU
+Nov 10 15:53:01 localhost [CLOUDINIT] DataSourceSmartOS.py[DEBUG]: Not running on smartos
+Nov 10 15:53:01 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-local/search-SmartOS: SUCCESS: no local data found from DataSourceSmartOS
+Nov 10 15:53:01 localhost [CLOUDINIT] main.py[DEBUG]: No local datasource found
+Nov 10 15:53:01 localhost [CLOUDINIT] stages.py[INFO]: network config is disabled by /var/lib/cloud/data/upgraded-network
+Nov 10 15:53:01 localhost [CLOUDINIT] main.py[DEBUG]: [local] Exiting without datasource in local mode
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: Read 10 bytes from /proc/uptime
+Nov 10 15:53:01 localhost [CLOUDINIT] util.py[DEBUG]: cloud-init mode 'init' took 0.275 seconds (0.28)
+Nov 10 15:53:01 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-local: SUCCESS: searching for local datasources
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Cloud-init v. 0.7.8 running 'init' at Thu, 10 Nov 2016 20:53:30 +0000. Up 34.35 seconds.
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Writing to /var/log/cloud-init.log - ab: [420] 0 bytes
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Changing the ownership of /var/log/cloud-init.log to 101:4
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['ifconfig', '-a'] with allowed return codes [0] (shell=False, capture=True)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['netstat', '-rn'] with allowed return codes [0] (shell=False, capture=True)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['netstat', '-A', 'inet6', '-n'] with allowed return codes [0] (shell=False, capture=True)
+Nov 10 15:53:30 localhost [CLOUDINIT] main.py[DEBUG]: Checking to see if files that we need already exist from a previous run that would allow us to stop early.
+Nov 10 15:53:30 localhost [CLOUDINIT] main.py[DEBUG]: Execution continuing, no previous run detected that would allow us to stop early.
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/check-cache: attempting to read from cache [trust]
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/instance/obj.pkl (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: no cache found
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/check-cache: SUCCESS: no cache found
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Attempting to remove /var/lib/cloud/instance
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Using distro class <class 'cloudinit.distros.ubuntu.Distro'>
+Nov 10 15:53:30 localhost [CLOUDINIT] __init__.py[DEBUG]: Looking for for data source in: ['NoCloud', 'ConfigDrive', 'OpenNebula', 'Azure', 'AltCloud', 'OVF', 'MAAS', 'GCE', 'OpenStack', 'CloudSigma', 'Ec2', 'CloudStack', 'SmartOS', 'None'], via packages ['', 'cloudinit.sources'] that matches dependencies ['FILESYSTEM', 'NETWORK']
+Nov 10 15:53:30 localhost [CLOUDINIT] __init__.py[DEBUG]: Searching for network data source in: ['DataSourceNoCloudNet', 'DataSourceAzureNet', 'DataSourceAltCloud', 'DataSourceOVFNet', 'DataSourceMAAS', 'DataSourceGCE', 'DataSourceOpenStack', 'DataSourceEc2', 'DataSourceCloudStack', 'DataSourceNone']
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/search-NoCloudNet: searching for network data from DataSourceNoCloudNet
+Nov 10 15:53:30 localhost [CLOUDINIT] __init__.py[DEBUG]: Seeing if we can get any data from <class 'cloudinit.sources.DataSourceNoCloud.DataSourceNoCloudNet'>
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud/user-data (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud/meta-data (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud/vendor-data (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud/network-config (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud-net/user-data (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud-net/meta-data (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud-net/vendor-data (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud-net/network-config (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-odevice', '/dev/sr0'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-odevice', '/dev/sr1'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-tTYPE=vfat', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-tTYPE=iso9660', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-tLABEL=cidata', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/search-NoCloudNet: SUCCESS: no network data found from DataSourceNoCloudNet
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/search-AzureNet: searching for network data from DataSourceAzureNet
+Nov 10 15:53:30 localhost [CLOUDINIT] __init__.py[DEBUG]: Seeing if we can get any data from <class 'cloudinit.sources.DataSourceAzure.DataSourceAzureNet'>
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-tTYPE=iso9660', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['blkid', '-tTYPE=udf', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/search-AzureNet: SUCCESS: no network data found from DataSourceAzureNet
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/search-AltCloud: searching for network data from DataSourceAltCloud
+Nov 10 15:53:30 localhost [CLOUDINIT] __init__.py[DEBUG]: Seeing if we can get any data from <class 'cloudinit.sources.DataSourceAltCloud.DataSourceAltCloud'>
+Nov 10 15:53:30 localhost [CLOUDINIT] DataSourceAltCloud.py[DEBUG]: Invoked get_data()
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: querying dmi data /sys/class/dmi/id/product_name
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /sys/class/dmi/id/product_name (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 9 bytes from /sys/class/dmi/id/product_name
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: dmi data /sys/class/dmi/id/product_name returned HVM domU
+Nov 10 15:53:30 localhost [CLOUDINIT] DataSourceAltCloud.py[DEBUG]: cloud_type: UNKNOWN
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/search-AltCloud: SUCCESS: no network data found from DataSourceAltCloud
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/search-OVFNet: searching for network data from DataSourceOVFNet
+Nov 10 15:53:30 localhost [CLOUDINIT] __init__.py[DEBUG]: Seeing if we can get any data from <class 'cloudinit.sources.DataSourceOVF.DataSourceOVFNet'>
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: querying dmi data /sys/class/dmi/id/product_name
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /sys/class/dmi/id/product_name (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 9 bytes from /sys/class/dmi/id/product_name
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: dmi data /sys/class/dmi/id/product_name returned HVM domU
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /proc/mounts (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 2421 bytes from /proc/mounts
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Fetched {'systemd-1': {'mountpoint': '/proc/sys/fs/binfmt_misc', 'opts': 'rw,relatime,fd=27,pgrp=1,timeout=0,minproto=5,maxproto=5,direct', 'fstype': 'autofs'}, 'cgmfs': {'mountpoint': '/run/cgmanager/fs', 'opts': 'rw,relatime,size=100k,mode=755', 'fstype': 'tmpfs'}, 'mqueue': {'mountpoint': '/dev/mqueue', 'opts': 'rw,relatime', 'fstype': 'mqueue'}, 'udev': {'mountpoint': '/dev', 'opts': 'rw,nosuid,relatime,size=487560k,nr_inodes=121890,mode=755', 'fstype': 'devtmpfs'}, 'cgroup': {'mountpoint': '/sys/fs/cgroup/devices', 'opts': 'rw,nosuid,nodev,noexec,relatime,devices', 'fstype': 'cgroup'}, 'sysfs': {'mountpoint': '/sys', 'opts': 'rw,nosuid,nodev,noexec,relatime', 'fstype': 'sysfs'}, 'pstore': {'mountpoint': '/sys/fs/pstore', 'opts': 'rw,nosuid,nodev,noexec,relatime', 'fstype': 'pstore'}, 'fusectl': {'mountpoint': '/sys/fs/fuse/connections', 'opts': 'rw,relatime', 'fstype': 'fusectl'}, '/dev/xvda1': {'mountpoint': '/', 'opts': 'rw,relatime,discard,data=ordered', 'fstype': 'ext4'}, 'hugetlbfs': {'mountpoint': '/dev/hugepages', 'opts': 'rw,relatime', 'fstype': 'hugetlbfs'}, 'devpts': {'mountpoint': '/dev/pts', 'opts': 'rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000', 'fstype': 'devpts'}, 'securityfs': {'mountpoint': '/sys/kernel/security', 'opts': 'rw,nosuid,nodev,noexec,relatime', 'fstype': 'securityfs'}, 'proc': {'mountpoint': '/proc', 'opts': 'rw,nosuid,nodev,noexec,relatime', 'fstype': 'proc'}, 'debugfs': {'mountpoint': '/sys/kernel/debug', 'opts': 'rw,relatime', 'fstype': 'debugfs'}, 'tmpfs': {'mountpoint': '/sys/fs/cgroup', 'opts': 'rw,size=507228k,nr_inodes=126807,mode=755', 'fstype': 'tmpfs'}, 'lxcfs': {'mountpoint': '/var/lib/lxcfs', 'opts': 'rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other', 'fstype': 'fuse.lxcfs'}} mounts from proc
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Peeking at /dev/xvda (max_bytes=512)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /proc/mounts (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 2421 bytes from /proc/mounts
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Fetched {'systemd-1': {'mountpoint': '/proc/sys/fs/binfmt_misc', 'opts': 'rw,relatime,fd=27,pgrp=1,timeout=0,minproto=5,maxproto=5,direct', 'fstype': 'autofs'}, 'cgmfs': {'mountpoint': '/run/cgmanager/fs', 'opts': 'rw,relatime,size=100k,mode=755', 'fstype': 'tmpfs'}, 'mqueue': {'mountpoint': '/dev/mqueue', 'opts': 'rw,relatime', 'fstype': 'mqueue'}, 'udev': {'mountpoint': '/dev', 'opts': 'rw,nosuid,relatime,size=487560k,nr_inodes=121890,mode=755', 'fstype': 'devtmpfs'}, 'cgroup': {'mountpoint': '/sys/fs/cgroup/devices', 'opts': 'rw,nosuid,nodev,noexec,relatime,devices', 'fstype': 'cgroup'}, 'sysfs': {'mountpoint': '/sys', 'opts': 'rw,nosuid,nodev,noexec,relatime', 'fstype': 'sysfs'}, 'pstore': {'mountpoint': '/sys/fs/pstore', 'opts': 'rw,nosuid,nodev,noexec,relatime', 'fstype': 'pstore'}, 'fusectl': {'mountpoint': '/sys/fs/fuse/connections', 'opts': 'rw,relatime', 'fstype': 'fusectl'}, '/dev/xvda1': {'mountpoint': '/', 'opts': 'rw,relatime,discard,data=ordered', 'fstype': 'ext4'}, 'hugetlbfs': {'mountpoint': '/dev/hugepages', 'opts': 'rw,relatime', 'fstype': 'hugetlbfs'}, 'devpts': {'mountpoint': '/dev/pts', 'opts': 'rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000', 'fstype': 'devpts'}, 'securityfs': {'mountpoint': '/sys/kernel/security', 'opts': 'rw,nosuid,nodev,noexec,relatime', 'fstype': 'securityfs'}, 'proc': {'mountpoint': '/proc', 'opts': 'rw,nosuid,nodev,noexec,relatime', 'fstype': 'proc'}, 'debugfs': {'mountpoint': '/sys/kernel/debug', 'opts': 'rw,relatime', 'fstype': 'debugfs'}, 'tmpfs': {'mountpoint': '/sys/fs/cgroup', 'opts': 'rw,size=507228k,nr_inodes=126807,mode=755', 'fstype': 'tmpfs'}, 'lxcfs': {'mountpoint': '/var/lib/lxcfs', 'opts': 'rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other', 'fstype': 'fuse.lxcfs'}} mounts from proc
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['mount', '-o', 'ro,sync', '-t', 'iso9660', '/dev/xvda', '/tmp/tmp6an9agj4'] with allowed return codes [0] (shell=False, capture=True)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Failed mount of '/dev/xvda' as 'iso9660': Unexpected error while running command.#012Command: ['mount', '-o', 'ro,sync', '-t', 'iso9660', '/dev/xvda', '/tmp/tmp6an9agj4']#012Exit code: 32#012Reason: -#012Stdout: ''#012Stderr: 'mount: /dev/xvda is already mounted or /tmp/tmp6an9agj4 busy\n'
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Recursively deleting /tmp/tmp6an9agj4
+Nov 10 15:53:30 localhost [CLOUDINIT] DataSourceOVF.py[DEBUG]: /dev/xvda not mountable as iso9660
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/search-OVFNet: SUCCESS: no network data found from DataSourceOVFNet
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/search-MAAS: searching for network data from DataSourceMAAS
+Nov 10 15:53:30 localhost [CLOUDINIT] __init__.py[DEBUG]: Seeing if we can get any data from <class 'cloudinit.sources.DataSourceMAAS.DataSourceMAAS'>
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/search-MAAS: SUCCESS: no network data found from DataSourceMAAS
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/search-GCE: searching for network data from DataSourceGCE
+Nov 10 15:53:30 localhost [CLOUDINIT] __init__.py[DEBUG]: Seeing if we can get any data from <class 'cloudinit.sources.DataSourceGCE.DataSourceGCE'>
+Nov 10 15:53:30 localhost [CLOUDINIT] DataSourceGCE.py[DEBUG]: http://metadata.google.internal/computeMetadata/v1/ is not resolvable
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/search-GCE: SUCCESS: no network data found from DataSourceGCE
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/search-OpenStack: searching for network data from DataSourceOpenStack
+Nov 10 15:53:30 localhost [CLOUDINIT] __init__.py[DEBUG]: Seeing if we can get any data from <class 'cloudinit.sources.DataSourceOpenStack.DataSourceOpenStack'>
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/1] open 'http://169.254.169.254/openstack' with {'url': 'http://169.254.169.254/openstack', 'method': 'GET', 'timeout': 10.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/openstack (404, 345b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Calling 'http://169.254.169.254/openstack' failed [0/-1s]: bad status code [404]
+Nov 10 15:53:30 localhost [CLOUDINIT] DataSourceOpenStack.py[DEBUG]: Giving up on OpenStack md from ['http://169.254.169.254/openstack'] after 0 seconds
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/search-OpenStack: SUCCESS: no network data found from DataSourceOpenStack
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/search-Ec2: searching for network data from DataSourceEc2
+Nov 10 15:53:30 localhost [CLOUDINIT] __init__.py[DEBUG]: Seeing if we can get any data from <class 'cloudinit.sources.DataSourceEc2.DataSourceEc2'>
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/seed/ec2/meta-data (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] DataSourceEc2.py[DEBUG]: Removed the following from metadata urls: ['http://instance-data.:8773']
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/1] open 'http://169.254.169.254/2009-04-04/meta-data/instance-id' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/instance-id', 'method': 'GET', 'timeout': 50.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/instance-id (200, 10b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] DataSourceEc2.py[DEBUG]: Using metadata source: 'http://169.254.169.254'
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/user-data' with {'url': 'http://169.254.169.254/2009-04-04/user-data', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/ (200, 231b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/block-device-mapping/' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/block-device-mapping/', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/block-device-mapping/ (200, 8b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/block-device-mapping/ami' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/block-device-mapping/ami', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/block-device-mapping/ami (200, 9b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/block-device-mapping/root' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/block-device-mapping/root', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/block-device-mapping/root (200, 9b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/placement/' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/placement/', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/placement/ (200, 17b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/placement/availability-zone' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/placement/availability-zone', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/placement/availability-zone (200, 10b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/public-keys/' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/public-keys/', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/public-keys/ (200, 12b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/public-keys/0/openssh-key' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/public-keys/0/openssh-key', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/public-keys/0/openssh-key (200, 392b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/public-hostname' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/public-hostname', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/public-hostname (200, 48b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/reservation-id' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/reservation-id', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/reservation-id (200, 10b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/security-groups' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/security-groups', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/security-groups (200, 7b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/ami-id' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/ami-id', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/ami-id (200, 12b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/local-ipv4' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/local-ipv4', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/local-ipv4 (200, 13b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/instance-id' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/instance-id', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/instance-id (200, 10b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/instance-type' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/instance-type', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/instance-type (200, 8b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/ami-launch-index' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/ami-launch-index', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/ami-launch-index (200, 1b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/public-ipv4' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/public-ipv4', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/public-ipv4 (200, 12b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/ami-manifest-path' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/ami-manifest-path', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/ami-manifest-path (200, 9b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/local-hostname' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/local-hostname', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/local-hostname (200, 43b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/profile' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/profile', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/profile (200, 11b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/instance-action' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/instance-action', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/instance-action (200, 4b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: [0/6] open 'http://169.254.169.254/2009-04-04/meta-data/hostname' with {'url': 'http://169.254.169.254/2009-04-04/meta-data/hostname', 'method': 'GET', 'timeout': 5.0, 'allow_redirects': True, 'headers': {'User-Agent': 'Cloud-Init/0.7.8'}} configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] url_helper.py[DEBUG]: Read from http://169.254.169.254/2009-04-04/meta-data/hostname (200, 43b) after 1 attempts
+Nov 10 15:53:30 localhost [CLOUDINIT] DataSourceEc2.py[DEBUG]: Crawl of metadata service took 0 seconds
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/search-Ec2: SUCCESS: found network data from DataSourceEc2
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[INFO]: Loaded datasource DataSourceEc2 - DataSourceEc2
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 3018 bytes from /etc/cloud/cloud.cfg
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Attempting to load yaml from string of length 3018 with allowed root types (<class 'dict'>,)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/90_dpkg.cfg (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 197 bytes from /etc/cloud/cloud.cfg.d/90_dpkg.cfg
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Attempting to load yaml from string of length 197 with allowed root types (<class 'dict'>,)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/05_logging.cfg (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 1910 bytes from /etc/cloud/cloud.cfg.d/05_logging.cfg
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Attempting to load yaml from string of length 1910 with allowed root types (<class 'dict'>,)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Attempting to remove /var/lib/cloud/instance
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Creating symbolic link from '/var/lib/cloud/instance' => '/var/lib/cloud/instances/i-aafaaab2'
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/instances/i-aafaaab2/datasource (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 29 bytes from /var/lib/cloud/instances/i-aafaaab2/datasource
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Writing to /var/lib/cloud/instances/i-aafaaab2/datasource - wb: [420] 29 bytes
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Writing to /var/lib/cloud/data/previous-datasource - wb: [420] 29 bytes
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/data/instance-id (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 11 bytes from /var/lib/cloud/data/instance-id
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: previous iid found to be i-aafaaab2
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Writing to /var/lib/cloud/data/instance-id - wb: [420] 11 bytes
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Writing to /run/cloud-init/.instance-id - wb: [420] 11 bytes
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Writing to /var/lib/cloud/data/previous-instance-id - wb: [420] 11 bytes
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Writing to /var/lib/cloud/instance/obj.pkl - wb: [256] 6718 bytes
+Nov 10 15:53:30 localhost [CLOUDINIT] main.py[DEBUG]: [net] init will now be targeting instance id: i-aafaaab2. new=False
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 3018 bytes from /etc/cloud/cloud.cfg
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Attempting to load yaml from string of length 3018 with allowed root types (<class 'dict'>,)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/90_dpkg.cfg (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 197 bytes from /etc/cloud/cloud.cfg.d/90_dpkg.cfg
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Attempting to load yaml from string of length 197 with allowed root types (<class 'dict'>,)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/05_logging.cfg (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 1910 bytes from /etc/cloud/cloud.cfg.d/05_logging.cfg
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Attempting to load yaml from string of length 1910 with allowed root types (<class 'dict'>,)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/instance/cloud-config.txt (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 0 bytes from /var/lib/cloud/instance/cloud-config.txt
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Attempting to load yaml from string of length 0 with allowed root types (<class 'dict'>,)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: load_yaml given empty string, returning default
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[INFO]: network config is disabled by /var/lib/cloud/data/upgraded-network
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Writing to /var/lib/cloud/instances/i-aafaaab2/user-data.txt - wb: [384] 0 bytes
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Writing to /var/lib/cloud/instances/i-aafaaab2/user-data.txt.i - wb: [384] 308 bytes
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Writing to /var/lib/cloud/instances/i-aafaaab2/vendor-data.txt - wb: [384] 0 bytes
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Writing to /var/lib/cloud/instances/i-aafaaab2/vendor-data.txt.i - wb: [384] 308 bytes
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Using distro class <class 'cloudinit.distros.ubuntu.Distro'>
+Nov 10 15:53:30 localhost [CLOUDINIT] helpers.py[DEBUG]: consume_data already ran (freq=once-per-instance)
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/consume-user-data: reading and applying user-data
+Nov 10 15:53:30 localhost [CLOUDINIT] launch_index.py[DEBUG]: Discarding 0 multipart messages which do not match launch index 0
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Added default handler for {'text/cloud-config-jsonp', 'text/cloud-config'} from CloudConfigPartHandler: [['text/cloud-config', 'text/cloud-config-jsonp']]
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Added default handler for {'text/x-shellscript'} from ShellScriptPartHandler: [['text/x-shellscript']]
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Added default handler for {'text/cloud-boothook'} from BootHookPartHandler: [['text/cloud-boothook']]
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Added default handler for {'text/upstart-job'} from UpstartJobPartHandler: [['text/upstart-job']]
+Nov 10 15:53:30 localhost [CLOUDINIT] __init__.py[DEBUG]: Calling handler CloudConfigPartHandler: [['text/cloud-config', 'text/cloud-config-jsonp']] (__begin__, None, 3) with frequency always
+Nov 10 15:53:30 localhost [CLOUDINIT] __init__.py[DEBUG]: Calling handler ShellScriptPartHandler: [['text/x-shellscript']] (__begin__, None, 2) with frequency always
+Nov 10 15:53:30 localhost [CLOUDINIT] __init__.py[DEBUG]: Calling handler BootHookPartHandler: [['text/cloud-boothook']] (__begin__, None, 2) with frequency always
+Nov 10 15:53:30 localhost [CLOUDINIT] __init__.py[DEBUG]: {'MIME-Version': '1.0', 'Content-Disposition': 'attachment; filename="part-001"', 'Content-Type': 'text/x-not-multipart'}
+Nov 10 15:53:30 localhost [CLOUDINIT] __init__.py[DEBUG]: Empty payload of type text/x-not-multipart
+Nov 10 15:53:30 localhost [CLOUDINIT] __init__.py[DEBUG]: Calling handler CloudConfigPartHandler: [['text/cloud-config', 'text/cloud-config-jsonp']] (__end__, None, 3) with frequency always
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Writing to /var/lib/cloud/instances/i-aafaaab2/cloud-config.txt - wb: [384] 0 bytes
+Nov 10 15:53:30 localhost [CLOUDINIT] __init__.py[DEBUG]: Calling handler ShellScriptPartHandler: [['text/x-shellscript']] (__end__, None, 2) with frequency always
+Nov 10 15:53:30 localhost [CLOUDINIT] __init__.py[DEBUG]: Calling handler BootHookPartHandler: [['text/cloud-boothook']] (__end__, None, 2) with frequency always
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/consume-user-data: SUCCESS: reading and applying user-data
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/consume-vendor-data: reading and applying vendor-data
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: no vendordata from datasource
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/consume-vendor-data: SUCCESS: reading and applying vendor-data
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 3018 bytes from /etc/cloud/cloud.cfg
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Attempting to load yaml from string of length 3018 with allowed root types (<class 'dict'>,)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/90_dpkg.cfg (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 197 bytes from /etc/cloud/cloud.cfg.d/90_dpkg.cfg
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Attempting to load yaml from string of length 197 with allowed root types (<class 'dict'>,)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/05_logging.cfg (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 1910 bytes from /etc/cloud/cloud.cfg.d/05_logging.cfg
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Attempting to load yaml from string of length 1910 with allowed root types (<class 'dict'>,)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/instance/cloud-config.txt (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 0 bytes from /var/lib/cloud/instance/cloud-config.txt
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Attempting to load yaml from string of length 0 with allowed root types (<class 'dict'>,)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: load_yaml given empty string, returning default
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/instance/cloud-config.txt (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 0 bytes from /var/lib/cloud/instance/cloud-config.txt
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Attempting to load yaml from string of length 0 with allowed root types (<class 'dict'>,)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: load_yaml given empty string, returning default
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Using distro class <class 'cloudinit.distros.ubuntu.Distro'>
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Running module migrator (<module 'cloudinit.config.cc_migrator' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_migrator.py'>) with frequency always
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/config-migrator: running config-migrator with frequency always
+Nov 10 15:53:30 localhost [CLOUDINIT] helpers.py[DEBUG]: Running config-migrator using lock (<cloudinit.helpers.DummyLock object at 0x7fd23c9aabe0>)
+Nov 10 15:53:30 localhost [CLOUDINIT] cc_migrator.py[DEBUG]: Migrated 0 semaphore files to there canonicalized names
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/config-migrator: SUCCESS: config-migrator ran successfully
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Running module ubuntu-init-switch (<module 'cloudinit.config.cc_ubuntu_init_switch' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_ubuntu_init_switch.py'>) with frequency once-per-instance
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/config-ubuntu-init-switch: running config-ubuntu-init-switch with frequency once-per-instance
+Nov 10 15:53:30 localhost [CLOUDINIT] helpers.py[DEBUG]: config-ubuntu-init-switch already ran (freq=once-per-instance)
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/config-ubuntu-init-switch: SUCCESS: config-ubuntu-init-switch previously ran
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Running module seed_random (<module 'cloudinit.config.cc_seed_random' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_seed_random.py'>) with frequency once-per-instance
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/config-seed_random: running config-seed_random with frequency once-per-instance
+Nov 10 15:53:30 localhost [CLOUDINIT] helpers.py[DEBUG]: config-seed_random already ran (freq=once-per-instance)
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/config-seed_random: SUCCESS: config-seed_random previously ran
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Running module bootcmd (<module 'cloudinit.config.cc_bootcmd' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_bootcmd.py'>) with frequency always
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/config-bootcmd: running config-bootcmd with frequency always
+Nov 10 15:53:30 localhost [CLOUDINIT] helpers.py[DEBUG]: Running config-bootcmd using lock (<cloudinit.helpers.DummyLock object at 0x7fd23ce3ff60>)
+Nov 10 15:53:30 localhost [CLOUDINIT] cc_bootcmd.py[DEBUG]: Skipping module named bootcmd, no 'bootcmd' key in configuration
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/config-bootcmd: SUCCESS: config-bootcmd ran successfully
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Running module write-files (<module 'cloudinit.config.cc_write_files' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_write_files.py'>) with frequency once-per-instance
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/config-write-files: running config-write-files with frequency once-per-instance
+Nov 10 15:53:30 localhost [CLOUDINIT] helpers.py[DEBUG]: config-write-files already ran (freq=once-per-instance)
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/config-write-files: SUCCESS: config-write-files previously ran
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Running module growpart (<module 'cloudinit.config.cc_growpart' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_growpart.py'>) with frequency always
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/config-growpart: running config-growpart with frequency always
+Nov 10 15:53:30 localhost [CLOUDINIT] helpers.py[DEBUG]: Running config-growpart using lock (<cloudinit.helpers.DummyLock object at 0x7fd23ce3f7f0>)
+Nov 10 15:53:30 localhost [CLOUDINIT] cc_growpart.py[DEBUG]: No 'growpart' entry in cfg.  Using default: {'mode': 'auto', 'ignore_growroot_disabled': False, 'devices': ['/']}
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['growpart', '--help'] with allowed return codes [0] (shell=False, capture=True)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /proc/1051/mountinfo (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 3105 bytes from /proc/1051/mountinfo
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /sys/class/block/xvda1/partition (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 2 bytes from /sys/class/block/xvda1/partition
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /sys/devices/vbd-768/block/xvda/dev (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 6 bytes from /sys/devices/vbd-768/block/xvda/dev
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['growpart', '--dry-run', '/dev/xvda', '1'] with allowed return codes [0] (shell=False, capture=True)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: resize_devices took 0.042 seconds
+Nov 10 15:53:30 localhost [CLOUDINIT] cc_growpart.py[DEBUG]: '/' NOCHANGE: no change necessary (/dev/xvda, 1)
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/config-growpart: SUCCESS: config-growpart ran successfully
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Running module resizefs (<module 'cloudinit.config.cc_resizefs' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_resizefs.py'>) with frequency always
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/config-resizefs: running config-resizefs with frequency always
+Nov 10 15:53:30 localhost [CLOUDINIT] helpers.py[DEBUG]: Running config-resizefs using lock (<cloudinit.helpers.DummyLock object at 0x7fd23d592eb8>)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /proc/1051/mountinfo (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 3105 bytes from /proc/1051/mountinfo
+Nov 10 15:53:30 localhost [CLOUDINIT] cc_resizefs.py[DEBUG]: resize_info: dev=/dev/xvda1 mnt_point=/ path=/
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['systemd-detect-virt', '--quiet', '--container'] with allowed return codes [0] (shell=False, capture=True)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['running-in-container'] with allowed return codes [0] (shell=False, capture=True)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['lxc-is-container'] with allowed return codes [0] (shell=False, capture=True)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /proc/1/environ (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 152 bytes from /proc/1/environ
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /proc/self/status (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 902 bytes from /proc/self/status
+Nov 10 15:53:30 localhost [CLOUDINIT] cc_resizefs.py[DEBUG]: Resizing / (ext4) using resize2fs /dev/xvda1
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Running command ('resize2fs', '/dev/xvda1') with allowed return codes [0] (shell=False, capture=True)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Resizing took 0.010 seconds
+Nov 10 15:53:30 localhost [CLOUDINIT] cc_resizefs.py[DEBUG]: Resized root filesystem (type=ext4, val=True)
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/config-resizefs: SUCCESS: config-resizefs ran successfully
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Running module set_hostname (<module 'cloudinit.config.cc_set_hostname' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_set_hostname.py'>) with frequency once-per-instance
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/config-set_hostname: running config-set_hostname with frequency once-per-instance
+Nov 10 15:53:30 localhost [CLOUDINIT] helpers.py[DEBUG]: config-set_hostname already ran (freq=once-per-instance)
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/config-set_hostname: SUCCESS: config-set_hostname previously ran
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Running module update_hostname (<module 'cloudinit.config.cc_update_hostname' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_update_hostname.py'>) with frequency always
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/config-update_hostname: running config-update_hostname with frequency always
+Nov 10 15:53:30 localhost [CLOUDINIT] helpers.py[DEBUG]: Running config-update_hostname using lock (<cloudinit.helpers.DummyLock object at 0x7fd23d592be0>)
+Nov 10 15:53:30 localhost [CLOUDINIT] cc_update_hostname.py[DEBUG]: Updating hostname to ip-172-31-36-132.us-west-2.compute.internal (ip-172-31-36-132)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /var/lib/cloud/data/previous-hostname (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 17 bytes from /var/lib/cloud/data/previous-hostname
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /etc/hostname (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 9 bytes from /etc/hostname
+Nov 10 15:53:30 localhost [CLOUDINIT] __init__.py[INFO]: /var/lib/cloud/data/previous-hostname differs from /etc/hostname, assuming user maintained hostname.
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/config-update_hostname: SUCCESS: config-update_hostname ran successfully
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Running module update_etc_hosts (<module 'cloudinit.config.cc_update_etc_hosts' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_update_etc_hosts.py'>) with frequency always
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/config-update_etc_hosts: running config-update_etc_hosts with frequency always
+Nov 10 15:53:30 localhost [CLOUDINIT] helpers.py[DEBUG]: Running config-update_etc_hosts using lock (<cloudinit.helpers.DummyLock object at 0x7fd23ce16a90>)
+Nov 10 15:53:30 localhost [CLOUDINIT] cc_update_etc_hosts.py[DEBUG]: Configuration option 'manage_etc_hosts' is not set, not managing /etc/hosts in module update_etc_hosts
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/config-update_etc_hosts: SUCCESS: config-update_etc_hosts ran successfully
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Running module ca-certs (<module 'cloudinit.config.cc_ca_certs' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_ca_certs.py'>) with frequency once-per-instance
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/config-ca-certs: running config-ca-certs with frequency once-per-instance
+Nov 10 15:53:30 localhost [CLOUDINIT] helpers.py[DEBUG]: config-ca-certs already ran (freq=once-per-instance)
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/config-ca-certs: SUCCESS: config-ca-certs previously ran
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Running module rsyslog (<module 'cloudinit.config.cc_rsyslog' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_rsyslog.py'>) with frequency once-per-instance
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/config-rsyslog: running config-rsyslog with frequency once-per-instance
+Nov 10 15:53:30 localhost [CLOUDINIT] helpers.py[DEBUG]: config-rsyslog already ran (freq=once-per-instance)
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/config-rsyslog: SUCCESS: config-rsyslog previously ran
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Running module users-groups (<module 'cloudinit.config.cc_users_groups' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_users_groups.py'>) with frequency once-per-instance
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/config-users-groups: running config-users-groups with frequency once-per-instance
+Nov 10 15:53:30 localhost [CLOUDINIT] helpers.py[DEBUG]: config-users-groups already ran (freq=once-per-instance)
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/config-users-groups: SUCCESS: config-users-groups previously ran
+Nov 10 15:53:30 localhost [CLOUDINIT] stages.py[DEBUG]: Running module ssh (<module 'cloudinit.config.cc_ssh' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_ssh.py'>) with frequency once-per-instance
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: start: init-network/config-ssh: running config-ssh with frequency once-per-instance
+Nov 10 15:53:30 localhost [CLOUDINIT] helpers.py[DEBUG]: config-ssh already ran (freq=once-per-instance)
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network/config-ssh: SUCCESS: config-ssh previously ran
+Nov 10 15:53:30 localhost [CLOUDINIT] main.py[DEBUG]: Ran 14 modules with 0 failures
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: Read 12 bytes from /proc/uptime
+Nov 10 15:53:30 localhost [CLOUDINIT] util.py[DEBUG]: cloud-init mode 'init' took 0.581 seconds (0.59)
+Nov 10 15:53:30 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: init-network: SUCCESS: searching for network datasources
+Nov 10 15:53:32 localhost [CLOUDINIT] util.py[DEBUG]: Cloud-init v. 0.7.8 running 'modules:config' at Thu, 10 Nov 2016 20:53:32 +0000. Up 36.03 seconds.
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Using distro class <class 'cloudinit.distros.ubuntu.Distro'>
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module emit_upstart (<module 'cloudinit.config.cc_emit_upstart' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_emit_upstart.py'>) with frequency always
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-config/config-emit_upstart: running config-emit_upstart with frequency always
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: Running config-emit_upstart using lock (<cloudinit.helpers.DummyLock object at 0x7f7369485e10>)
+Nov 10 15:53:32 localhost [CLOUDINIT] util.py[DEBUG]: Running command ['initctl', 'version'] with allowed return codes [0] (shell=False, capture=True)
+Nov 10 15:53:32 localhost [CLOUDINIT] cc_emit_upstart.py[DEBUG]: 'initctl version' returned '1', not using upstart
+Nov 10 15:53:32 localhost [CLOUDINIT] cc_emit_upstart.py[DEBUG]: not upstart system, 'emit_upstart' disabled
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-config/config-emit_upstart: SUCCESS: config-emit_upstart ran successfully
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module disk_setup (<module 'cloudinit.config.cc_disk_setup' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_disk_setup.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-config/config-disk_setup: running config-disk_setup with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-disk_setup already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-config/config-disk_setup: SUCCESS: config-disk_setup previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module mounts (<module 'cloudinit.config.cc_mounts' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_mounts.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-config/config-mounts: running config-mounts with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-mounts already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-config/config-mounts: SUCCESS: config-mounts previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module ssh-import-id (<module 'cloudinit.config.cc_ssh_import_id' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_ssh_import_id.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-config/config-ssh-import-id: running config-ssh-import-id with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-ssh-import-id already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-config/config-ssh-import-id: SUCCESS: config-ssh-import-id previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module locale (<module 'cloudinit.config.cc_locale' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_locale.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-config/config-locale: running config-locale with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-locale already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-config/config-locale: SUCCESS: config-locale previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module set-passwords (<module 'cloudinit.config.cc_set_passwords' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_set_passwords.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-config/config-set-passwords: running config-set-passwords with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-set-passwords already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-config/config-set-passwords: SUCCESS: config-set-passwords previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module grub-dpkg (<module 'cloudinit.config.cc_grub_dpkg' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_grub_dpkg.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-config/config-grub-dpkg: running config-grub-dpkg with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-grub-dpkg already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-config/config-grub-dpkg: SUCCESS: config-grub-dpkg previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module apt-pipelining (<module 'cloudinit.config.cc_apt_pipelining' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_apt_pipelining.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-config/config-apt-pipelining: running config-apt-pipelining with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-apt-pipelining already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-config/config-apt-pipelining: SUCCESS: config-apt-pipelining previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module apt-configure (<module 'cloudinit.config.cc_apt_configure' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_apt_configure.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-config/config-apt-configure: running config-apt-configure with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-apt-configure already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-config/config-apt-configure: SUCCESS: config-apt-configure previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module ntp (<module 'cloudinit.config.cc_ntp' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_ntp.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-config/config-ntp: running config-ntp with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-ntp already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-config/config-ntp: SUCCESS: config-ntp previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module timezone (<module 'cloudinit.config.cc_timezone' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_timezone.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-config/config-timezone: running config-timezone with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-timezone already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-config/config-timezone: SUCCESS: config-timezone previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module disable-ec2-metadata (<module 'cloudinit.config.cc_disable_ec2_metadata' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_disable_ec2_metadata.py'>) with frequency always
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-config/config-disable-ec2-metadata: running config-disable-ec2-metadata with frequency always
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: Running config-disable-ec2-metadata using lock (<cloudinit.helpers.DummyLock object at 0x7f73694885c0>)
+Nov 10 15:53:32 localhost [CLOUDINIT] cc_disable_ec2_metadata.py[DEBUG]: Skipping module named disable-ec2-metadata, disabling the ec2 route not enabled
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-config/config-disable-ec2-metadata: SUCCESS: config-disable-ec2-metadata ran successfully
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module runcmd (<module 'cloudinit.config.cc_runcmd' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_runcmd.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-config/config-runcmd: running config-runcmd with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-runcmd already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-config/config-runcmd: SUCCESS: config-runcmd previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module byobu (<module 'cloudinit.config.cc_byobu' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_byobu.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-config/config-byobu: running config-byobu with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-byobu already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-config/config-byobu: SUCCESS: config-byobu previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] main.py[DEBUG]: Ran 14 modules with 0 failures
+Nov 10 15:53:32 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+Nov 10 15:53:32 localhost [CLOUDINIT] util.py[DEBUG]: Read 12 bytes from /proc/uptime
+Nov 10 15:53:32 localhost [CLOUDINIT] util.py[DEBUG]: cloud-init mode 'modules' took 0.180 seconds (0.18)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-config: SUCCESS: running modules for config
+Nov 10 15:53:32 localhost [CLOUDINIT] util.py[DEBUG]: Cloud-init v. 0.7.8 running 'modules:final' at Thu, 10 Nov 2016 20:53:32 +0000. Up 36.66 seconds.
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Using distro class <class 'cloudinit.distros.ubuntu.Distro'>
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module snappy (<module 'cloudinit.config.cc_snappy' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_snappy.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-final/config-snappy: running config-snappy with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-snappy already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final/config-snappy: SUCCESS: config-snappy previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module package-update-upgrade-install (<module 'cloudinit.config.cc_package_update_upgrade_install' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_package_update_upgrade_install.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-final/config-package-update-upgrade-install: running config-package-update-upgrade-install with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-package-update-upgrade-install already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final/config-package-update-upgrade-install: SUCCESS: config-package-update-upgrade-install previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module fan (<module 'cloudinit.config.cc_fan' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_fan.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-final/config-fan: running config-fan with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-fan already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final/config-fan: SUCCESS: config-fan previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module landscape (<module 'cloudinit.config.cc_landscape' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_landscape.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-final/config-landscape: running config-landscape with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-landscape already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final/config-landscape: SUCCESS: config-landscape previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module lxd (<module 'cloudinit.config.cc_lxd' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_lxd.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-final/config-lxd: running config-lxd with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-lxd already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final/config-lxd: SUCCESS: config-lxd previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module puppet (<module 'cloudinit.config.cc_puppet' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_puppet.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-final/config-puppet: running config-puppet with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-puppet already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final/config-puppet: SUCCESS: config-puppet previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module chef (<module 'cloudinit.config.cc_chef' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_chef.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-final/config-chef: running config-chef with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-chef already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final/config-chef: SUCCESS: config-chef previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module salt-minion (<module 'cloudinit.config.cc_salt_minion' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_salt_minion.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-final/config-salt-minion: running config-salt-minion with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-salt-minion already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final/config-salt-minion: SUCCESS: config-salt-minion previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module mcollective (<module 'cloudinit.config.cc_mcollective' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_mcollective.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-final/config-mcollective: running config-mcollective with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-mcollective already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final/config-mcollective: SUCCESS: config-mcollective previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module rightscale_userdata (<module 'cloudinit.config.cc_rightscale_userdata' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_rightscale_userdata.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-final/config-rightscale_userdata: running config-rightscale_userdata with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-rightscale_userdata already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final/config-rightscale_userdata: SUCCESS: config-rightscale_userdata previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module scripts-vendor (<module 'cloudinit.config.cc_scripts_vendor' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_scripts_vendor.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-final/config-scripts-vendor: running config-scripts-vendor with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-scripts-vendor already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final/config-scripts-vendor: SUCCESS: config-scripts-vendor previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module scripts-per-once (<module 'cloudinit.config.cc_scripts_per_once' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_scripts_per_once.py'>) with frequency once
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-final/config-scripts-per-once: running config-scripts-per-once with frequency once
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-scripts-per-once already ran (freq=once)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final/config-scripts-per-once: SUCCESS: config-scripts-per-once previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module scripts-per-boot (<module 'cloudinit.config.cc_scripts_per_boot' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_scripts_per_boot.py'>) with frequency always
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-final/config-scripts-per-boot: running config-scripts-per-boot with frequency always
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: Running config-scripts-per-boot using lock (<cloudinit.helpers.DummyLock object at 0x7f1551bd3cc0>)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final/config-scripts-per-boot: SUCCESS: config-scripts-per-boot ran successfully
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module scripts-per-instance (<module 'cloudinit.config.cc_scripts_per_instance' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_scripts_per_instance.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-final/config-scripts-per-instance: running config-scripts-per-instance with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-scripts-per-instance already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final/config-scripts-per-instance: SUCCESS: config-scripts-per-instance previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module scripts-user (<module 'cloudinit.config.cc_scripts_user' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_scripts_user.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-final/config-scripts-user: running config-scripts-user with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-scripts-user already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final/config-scripts-user: SUCCESS: config-scripts-user previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module ssh-authkey-fingerprints (<module 'cloudinit.config.cc_ssh_authkey_fingerprints' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_ssh_authkey_fingerprints.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-final/config-ssh-authkey-fingerprints: running config-ssh-authkey-fingerprints with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-ssh-authkey-fingerprints already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final/config-ssh-authkey-fingerprints: SUCCESS: config-ssh-authkey-fingerprints previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module keys-to-console (<module 'cloudinit.config.cc_keys_to_console' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_keys_to_console.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-final/config-keys-to-console: running config-keys-to-console with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-keys-to-console already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final/config-keys-to-console: SUCCESS: config-keys-to-console previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module phone-home (<module 'cloudinit.config.cc_phone_home' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_phone_home.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-final/config-phone-home: running config-phone-home with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-phone-home already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final/config-phone-home: SUCCESS: config-phone-home previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module final-message (<module 'cloudinit.config.cc_final_message' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_final_message.py'>) with frequency always
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-final/config-final-message: running config-final-message with frequency always
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: Running config-final-message using lock (<cloudinit.helpers.DummyLock object at 0x7f1551bd3c18>)
+Nov 10 15:53:32 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+Nov 10 15:53:32 localhost [CLOUDINIT] util.py[DEBUG]: Read 12 bytes from /proc/uptime
+Nov 10 15:53:32 localhost [CLOUDINIT] util.py[DEBUG]: Cloud-init v. 0.7.8 finished at Thu, 10 Nov 2016 20:53:32 +0000. Datasource DataSourceEc2.  Up 36.80 seconds
+Nov 10 15:53:32 localhost [CLOUDINIT] util.py[DEBUG]: Writing to /var/lib/cloud/instance/boot-finished - wb: [420] 51 bytes
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final/config-final-message: SUCCESS: config-final-message ran successfully
+Nov 10 15:53:32 localhost [CLOUDINIT] stages.py[DEBUG]: Running module power-state-change (<module 'cloudinit.config.cc_power_state_change' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_power_state_change.py'>) with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: start: modules-final/config-power-state-change: running config-power-state-change with frequency once-per-instance
+Nov 10 15:53:32 localhost [CLOUDINIT] helpers.py[DEBUG]: config-power-state-change already ran (freq=once-per-instance)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final/config-power-state-change: SUCCESS: config-power-state-change previously ran
+Nov 10 15:53:32 localhost [CLOUDINIT] main.py[DEBUG]: Ran 20 modules with 0 failures
+Nov 10 15:53:32 localhost [CLOUDINIT] util.py[DEBUG]: Creating symbolic link from '/run/cloud-init/result.json' => '../../var/lib/cloud/data/result.json'
+Nov 10 15:53:32 localhost [CLOUDINIT] util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+Nov 10 15:53:32 localhost [CLOUDINIT] util.py[DEBUG]: Read 12 bytes from /proc/uptime
+Nov 10 15:53:32 localhost [CLOUDINIT] util.py[DEBUG]: cloud-init mode 'modules' took 0.155 seconds (0.15)
+Nov 10 15:53:32 localhost [CLOUDINIT] handlers.py[DEBUG]: finish: modules-final: SUCCESS: running modules for final

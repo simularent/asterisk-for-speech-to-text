@@ -1,3 +1,0 @@
-getty@tty1.service
-remote-fs.target
-systemd-timesyncd.service

@@ -20,6 +20,24 @@ Description-en: Adobe Flash Player plugin installer
  Adobe Flash Player plugin is available at www.adobe.com. Installing this
  Ubuntu package implies that you have accepted the terms of that license.
 
+Package: libcuda1-331
+Description-md5: a10363c018e08f69fb7494b3d411a6f6
+Description-en: Transitional package for libcuda1-340
+ This is a transitional package for libcuda1-340, and can be
+ safely removed after the installation is complete.
+
+Package: libcuda1-331-updates
+Description-md5: a10363c018e08f69fb7494b3d411a6f6
+Description-en: Transitional package for libcuda1-340
+ This is a transitional package for libcuda1-340, and can be
+ safely removed after the installation is complete.
+
+Package: libcuda1-340-updates
+Description-md5: a10363c018e08f69fb7494b3d411a6f6
+Description-en: Transitional package for libcuda1-340
+ This is a transitional package for libcuda1-340, and can be
+ safely removed after the installation is complete.
+
 Package: libsocl-contrib-1.1-1
 Description-md5: 607f8f9648f71dbaceaaeeaa04f4c6e8
 Description-en: Task scheduler for heterogeneous multicore machines
@@ -84,6 +102,74 @@ Description-en: Task scheduler for heterogeneous multicore machines
  efficiently as possible.
  .
  This package contains MPI extensions for StarPU.
+
+Package: nvidia-libopencl1-304
+Description-md5: b847113bb2144ba87848ff3f7ae69ec2
+Description-en: NVIDIA OpenCL Driver and ICD Loader library
+ OpenCL (Open Computing Language) is a multivendor open standard for
+ general-purpose parallel programming of heterogeneous systems that include
+ CPUs, GPUs and other processors.
+ .
+ This package contains NVIDIA's OpenCL implementation and the ICD Loader
+ library. This library supports only OpenCL 1.1.
+
+Package: nvidia-libopencl1-304-updates
+Description-md5: b75658e0bed2f0080631d2168d802d7f
+Description-en: Transitional package for nvidia-libopencl1-304
+ This is a transitional package for nvidia-libopencl1-304, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-libopencl1-331
+Description-md5: c0bc1edc3452a373d95e34ed168d26d3
+Description-en: Transitional package for nvidia-libopencl1-340
+ This is a transitional package for nvidia-libopencl1-340, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-libopencl1-331-updates
+Description-md5: c0bc1edc3452a373d95e34ed168d26d3
+Description-en: Transitional package for nvidia-libopencl1-340
+ This is a transitional package for nvidia-libopencl1-340, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-libopencl1-340
+Description-md5: b847113bb2144ba87848ff3f7ae69ec2
+Description-en: NVIDIA OpenCL Driver and ICD Loader library
+ OpenCL (Open Computing Language) is a multivendor open standard for
+ general-purpose parallel programming of heterogeneous systems that include
+ CPUs, GPUs and other processors.
+ .
+ This package contains NVIDIA's OpenCL implementation and the ICD Loader
+ library. This library supports only OpenCL 1.1.
+
+Package: nvidia-libopencl1-340-updates
+Description-md5: c0bc1edc3452a373d95e34ed168d26d3
+Description-en: Transitional package for nvidia-libopencl1-340
+ This is a transitional package for nvidia-libopencl1-340, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-libopencl1-361
+Description-md5: 81e751bafa04a99aee20554c5d5426c5
+Description-en: Transitional package for nvidia-libopencl1-367
+ This is a transitional package for nvidia-libopencl1-367, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-opencl-icd-331
+Description-md5: 5698808952d1d1454e2b98d80ab83d79
+Description-en: Transitional package for nvidia-opencl-icd-340
+ This is a transitional package for nvidia-opencl-icd-340, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-opencl-icd-331-updates
+Description-md5: 5698808952d1d1454e2b98d80ab83d79
+Description-en: Transitional package for nvidia-opencl-icd-340
+ This is a transitional package for nvidia-opencl-icd-340, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-opencl-icd-340-updates
+Description-md5: 5698808952d1d1454e2b98d80ab83d79
+Description-en: Transitional package for nvidia-opencl-icd-340
+ This is a transitional package for nvidia-opencl-icd-340, and can be
+ safely removed after the installation is complete.
 
 Package: starpu-contrib-examples
 Description-md5: 601fd3c318d53962421cdbdd364f312b

@@ -1,6 +1,6 @@
 Package: autopkgtest
 Binary: autopkgtest
-Version: 4.0.5~ubuntu16.04.1
+Version: 4.2~ubuntu16.04.1
 Priority: optional
 Section: devel
 Maintainer: Autopkgtest team <autopkgtest-devel@lists.alioth.debian.org>
@@ -10,8 +10,8 @@ Standards-Version: 3.9.8
 Format: 3.0 (native)
 Directory: pool/main/a/autopkgtest
 Files:
- ec2a5f48c2be332858b470401226a832 1927 autopkgtest_4.0.5~ubuntu16.04.1.dsc
- 56ae573d4559078ef1d75de8212de955 167804 autopkgtest_4.0.5~ubuntu16.04.1.tar.xz
+ feeed244b7663876308c54d2c29bdbf6 1919 autopkgtest_4.2~ubuntu16.04.1.dsc
+ 173eabc91078261cc27fa04d56c4a366 171668 autopkgtest_4.2~ubuntu16.04.1.tar.xz
 Uploaders: Ian Jackson <ijackson@chiark.greenend.org.uk>, Martin Pitt <mpitt@debian.org>
 Vcs-Browser: https://anonscm.debian.org/git/autopkgtest/autopkgtest.git
 Vcs-Git: https://anonscm.debian.org/git/autopkgtest/autopkgtest.git
@@ -20,11 +20,11 @@ Testsuite-Triggers: autodep8, build-essential, debhelper, fakeroot, lxd, lxd-cli
 Package-List:
  autopkgtest deb devel optional arch=all
 Checksums-Sha1:
- 89b42f421c0cef1b428bded94d835fc886f8de8e 1927 autopkgtest_4.0.5~ubuntu16.04.1.dsc
- 27e62f73b4b2c4b8b2fed0e54a385687af904c8d 167804 autopkgtest_4.0.5~ubuntu16.04.1.tar.xz
+ ad2d54da78866cdf7fd490dc150caa86000675a1 1919 autopkgtest_4.2~ubuntu16.04.1.dsc
+ ff92f6ba32eb923c78fc48edbbf44ffecffa38dd 171668 autopkgtest_4.2~ubuntu16.04.1.tar.xz
 Checksums-Sha256:
- f91a5e5d9b03a3731f8cd956dd659af279f4437bfa1081607f737c628c1a1213 1927 autopkgtest_4.0.5~ubuntu16.04.1.dsc
- 47e2fcc1bf48587c91316d3c10848f357476007fc5b4a50c6710e6aa2ea3f8cf 167804 autopkgtest_4.0.5~ubuntu16.04.1.tar.xz
+ 11f5cfd0e89e089dd2a828037e748a64047352436def2b02d857b43685954533 1919 autopkgtest_4.2~ubuntu16.04.1.dsc
+ bc1ec2ac7dc2402a90fe4ad567c9a10c4f9339ec0d025b9a837788ec41cadf7d 171668 autopkgtest_4.2~ubuntu16.04.1.tar.xz
 
 Package: libarchive
 Binary: libarchive-dev, libarchive13, libarchive-tools, bsdtar, bsdcpio

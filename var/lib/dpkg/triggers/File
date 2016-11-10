@@ -1,6 +1,4 @@
 /etc/sgml sgml-base
-/etc/dbus-1/system.d dbus/noawait
-/usr/share/dbus-1/system-services dbus/noawait
 /etc/ufw/applications.d ufw/noawait
 /etc/init ureadahead/noawait
 /etc/init.d ureadahead/noawait
@@ -17,10 +15,12 @@
 /usr/local/share/man man-db/noawait
 /usr/X11R6/man man-db/noawait
 /opt/man man-db/noawait
-/usr/share/package-data-downloads update-notifier-common
 /usr/share/mime/packages shared-mime-info
+/etc/php/7.0/fpm/conf.d php7.0-fpm/noawait
+/etc/php/7.0/cli/conf.d php7.0-cli/noawait
+/etc/dbus-1/system.d dbus/noawait
+/usr/share/dbus-1/system-services dbus/noawait
 /usr/lib/systemd/catalog systemd/noawait
 /etc/init.d systemd/noawait
 /lib/udev/hwdb.d udev/noawait
-/etc/php/7.0/fpm/conf.d php7.0-fpm/noawait
-/etc/php/7.0/cli/conf.d php7.0-cli/noawait
+/usr/share/package-data-downloads update-notifier-common

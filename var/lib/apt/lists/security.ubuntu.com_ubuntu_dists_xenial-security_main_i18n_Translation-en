@@ -6697,6 +6697,28 @@ Description-en: Linux kernel version specific cloud tools for version 4.4.0-45
  version locked tools for cloud for version 4.4.0-45 on
  64 bit x86.
 
+Package: linux-cloud-tools-4.4.0-47
+Description-md5: 58c3cb77db193ea04ed659ab133b60df
+Description-en: Linux kernel version specific cloud tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud tools for version 4.4.0-47 on
+ 64 bit x86.
+ You probably want to install linux-cloud-tools-4.4.0-47-<flavour>.
+
+Package: linux-cloud-tools-4.4.0-47-generic
+Description-md5: 91a955983d49e81110d1b1051dd7c739
+Description-en: Linux kernel version specific cloud tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud for version 4.4.0-47 on
+ 64 bit x86.
+
+Package: linux-cloud-tools-4.4.0-47-lowlatency
+Description-md5: 91a955983d49e81110d1b1051dd7c739
+Description-en: Linux kernel version specific cloud tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud for version 4.4.0-47 on
+ 64 bit x86.
+
 Package: linux-cloud-tools-common
 Description-md5: 40c33b3480c95887a96d8ab598d6f6fd
 Description-en: Linux kernel version specific cloud tools for version 4.4.0
@@ -7055,6 +7077,31 @@ Description-en: Linux kernel headers for version 4.4.0 on 64 bit x86 SMP
  .
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-4.4.0-45/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-47
+Description-md5: 2ae77c25472629f6c57dcc9a07ba676a
+Description-en: Header files related to Linux kernel version 4.4.0
+ This package provides kernel header files for version 4.4.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-headers-4.4.0-47/debian.README.gz for details
+
+Package: linux-headers-4.4.0-47-generic
+Description-md5: b40c1f7e7de35c4e3753a80526a8b8d8
+Description-en: Linux kernel headers for version 4.4.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-47/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-47-lowlatency
+Description-md5: b40c1f7e7de35c4e3753a80526a8b8d8
+Description-en: Linux kernel headers for version 4.4.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-47/debian.README.gz for details.
 
 Package: linux-headers-generic
 Description-md5: 9c9742ab9c289b1e900fab477bc0070d
@@ -7467,6 +7514,42 @@ Description-en: Linux kernel image for version 4.4.0 on 64 bit x86 SMP
  the linux-lowlatency meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-image-4.4.0-47-generic
+Description-md5: 301993998617cbcae03feb3fe5d3aa55
+Description-en: Linux kernel image for version 4.4.0 on 64 bit x86 SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.4.0-47-lowlatency
+Description-md5: 2cfaa2c49188157f1075beae9c10d663
+Description-en: Linux kernel image for version 4.4.0 on 64 bit x86 SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Lowlatency processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-lowlatency meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-image-extra-4.4.0-22-generic
 Description-md5: 8ddf4399af85f43e9127757b98ea6afe
 Description-en: Linux kernel extra modules for version 4.4.0 on 64 bit x86 SMP
@@ -7612,6 +7695,24 @@ Description-en: Linux kernel extra modules for version 4.4.0 on 64 bit x86 SMP
  correctly, and that supporting packages are also installed.
 
 Package: linux-image-extra-4.4.0-45-generic
+Description-md5: 8ddf4399af85f43e9127757b98ea6afe
+Description-en: Linux kernel extra modules for version 4.4.0 on 64 bit x86 SMP
+ This package contains the Linux kernel extra modules for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-extra-4.4.0-47-generic
 Description-md5: 8ddf4399af85f43e9127757b98ea6afe
 Description-en: Linux kernel extra modules for version 4.4.0 on 64 bit x86 SMP
  This package contains the Linux kernel extra modules for version 4.4.0 on
@@ -7905,6 +8006,18 @@ Description-en: Signed kernel image generic
  Canonical's UEFI signing key.
 
 Package: linux-signed-image-4.4.0-45-lowlatency
+Description-md5: d033c93139790e893a4e35936dd49bc8
+Description-en: Signed kernel image lowlatency
+ A kernel image for lowlatency.  This version of it is signed with
+ Canonical's UEFI signing key.
+
+Package: linux-signed-image-4.4.0-47-generic
+Description-md5: 58606405946683c4d2ca4f105784fd91
+Description-en: Signed kernel image generic
+ A kernel image for generic.  This version of it is signed with
+ Canonical's UEFI signing key.
+
+Package: linux-signed-image-4.4.0-47-lowlatency
 Description-md5: d033c93139790e893a4e35936dd49bc8
 Description-en: Signed kernel image lowlatency
  A kernel image for lowlatency.  This version of it is signed with
@@ -8216,6 +8329,31 @@ Description-en: Linux kernel version specific tools for version 4.4.0-45
  version 4.4.0-45 on
  64 bit x86.
 
+Package: linux-tools-4.4.0-47
+Description-md5: 0aecae8939e25e02a5d4247d8598ec22
+Description-en: Linux kernel version specific tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-47 on
+ 64 bit x86.
+ You probably want to install linux-tools-4.4.0-47-<flavour>.
+
+Package: linux-tools-4.4.0-47-generic
+Description-md5: 87680b72f67da34e08569bcdc9776809
+Description-en: Linux kernel version specific tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-47 on
+ 64 bit x86.
+
+Package: linux-tools-4.4.0-47-lowlatency
+Description-md5: 87680b72f67da34e08569bcdc9776809
+Description-en: Linux kernel version specific tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-47 on
+ 64 bit x86.
+
 Package: linux-tools-common
 Description-md5: 6b449e2b4c662be2ed8e90b2e556a13a
 Description-en: Linux kernel version specific tools for version 4.4.0
@@ -8379,6 +8517,23 @@ Description-en: Powerful, web-based mailing list manager
  has all of the features you expect from such a product, plus
  integrated support for the web (including web based archiving),
  automated bounce handling and integrated spam prevention.
+
+Package: memcached
+Description-md5: f7b1936bf072e208b59db960aca4de8a
+Description-en: high-performance memory object caching system
+ Danga Interactive developed memcached to enhance the speed of LiveJournal.com,
+ a site which was already doing 20 million+ dynamic page views per day for 1
+ million users with a bunch of webservers and a bunch of database servers.
+ memcached dropped the database load to almost nothing, yielding faster page
+ load times for users, better resource utilization, and faster access to the
+ databases on a memcache miss.
+ .
+ memcached optimizes specific high-load serving applications that are designed
+ to take advantage of its versatile no-locking memory access system. Clients
+ are available in several different programming languages, to suit the needs
+ of the specific application. Traditionally this has been used in mod_perl
+ apps to avoid storing large chunks of data in Apache memory, and to share
+ this burden across several machines.
 
 Package: mysql-client
 Description-md5: 2f84e14e4be72461e753c2cc8fc8446a
@@ -10331,6 +10486,15 @@ Description-en: Linux kernel headers for version 4.4.0 on ARMv8 SMP
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-4.4.0-45/debian.README.gz for details.
 
+Package: linux-headers-4.4.0-47-generic
+Description-md5: 2c845021461e71d01192c6a1cf334992
+Description-en: Linux kernel headers for version 4.4.0 on ARMv8 SMP
+ This package provides kernel header files for version 4.4.0 on
+ ARMv8 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-47/debian.README.gz for details.
+
 Package: linux-image-4.4.0-22-generic
 Description-md5: 984b69f2e95cfc004a161be8c6ecf6d7
 Description-en: Linux kernel image for version 4.4.0 on ARMv8 SMP
@@ -10476,6 +10640,24 @@ Description-en: Linux kernel image for version 4.4.0 on ARMv8 SMP
  correctly, and that supporting packages are also installed.
 
 Package: linux-image-4.4.0-45-generic
+Description-md5: 984b69f2e95cfc004a161be8c6ecf6d7
+Description-en: Linux kernel image for version 4.4.0 on ARMv8 SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ ARMv8 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.4.0-47-generic
 Description-md5: 984b69f2e95cfc004a161be8c6ecf6d7
 Description-en: Linux kernel image for version 4.4.0 on ARMv8 SMP
  This package contains the Linux kernel image for version 4.4.0 on
@@ -10644,6 +10826,23 @@ Description-en: Linux kernel version specific tools for version 4.4.0-45
  This package provides the architecture dependant parts for kernel
  version locked tools (such as perf and x86_energy_perf_policy) for
  version 4.4.0-45 on
+ ARMv8.
+
+Package: linux-tools-4.4.0-47
+Description-md5: 2df54708bb60d4dbf42036d8d32d12b1
+Description-en: Linux kernel version specific tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-47 on
+ ARMv8.
+ You probably want to install linux-tools-4.4.0-47-<flavour>.
+
+Package: linux-tools-4.4.0-47-generic
+Description-md5: 4441a18e46a469ab0665719e8dd767cc
+Description-en: Linux kernel version specific tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-47 on
  ARMv8.
 
 Package: qemu-system-aarch64
@@ -10965,6 +11164,24 @@ Description-en: Linux kernel headers for version 4.4.0 on ARM (hard float) SMP
  .
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-4.4.0-45/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-47-generic
+Description-md5: b330019396ad1afce272acb0f4cd61a7
+Description-en: Linux kernel headers for version 4.4.0 on ARM (hard float) SMP
+ This package provides kernel header files for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-47/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-47-generic-lpae
+Description-md5: b330019396ad1afce272acb0f4cd61a7
+Description-en: Linux kernel headers for version 4.4.0 on ARM (hard float) SMP
+ This package provides kernel header files for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-47/debian.README.gz for details.
 
 Package: linux-headers-generic-lpae
 Description-md5: 524e59387d004d4d0338fcaa6e48d61e
@@ -11316,6 +11533,42 @@ Description-en: Linux kernel image for version 4.4.0 on ARM (hard float) SMP
  the linux-generic-lpae meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-image-4.4.0-47-generic
+Description-md5: 7548b5f340c9984a5ab1fecc4e75eea6
+Description-en: Linux kernel image for version 4.4.0 on ARM (hard float) SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.4.0-47-generic-lpae
+Description-md5: c48da6af0c774fcf4c8a90b032d1f7af
+Description-en: Linux kernel image for version 4.4.0 on ARM (hard float) SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic LPAE processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic-lpae meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-image-generic-lpae
 Description-md5: e29522a6c639beb013f80cde5da08963
 Description-en: Generic Linux kernel image
@@ -11565,6 +11818,31 @@ Description-en: Linux kernel version specific tools for version 4.4.0-45
  This package provides the architecture dependant parts for kernel
  version locked tools (such as perf and x86_energy_perf_policy) for
  version 4.4.0-45 on
+ ARM (hard float).
+
+Package: linux-tools-4.4.0-47
+Description-md5: e466966ae95e4f9644c0fc5fb933ef98
+Description-en: Linux kernel version specific tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-47 on
+ ARM (hard float).
+ You probably want to install linux-tools-4.4.0-47-<flavour>.
+
+Package: linux-tools-4.4.0-47-generic
+Description-md5: cde28092eeb1274a57f2c0edbce067e0
+Description-en: Linux kernel version specific tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-47 on
+ ARM (hard float).
+
+Package: linux-tools-4.4.0-47-generic-lpae
+Description-md5: cde28092eeb1274a57f2c0edbce067e0
+Description-en: Linux kernel version specific tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-47 on
  ARM (hard float).
 
 Package: linux-tools-generic-lpae
@@ -12011,6 +12289,28 @@ Description-en: Linux kernel version specific cloud tools for version 4.4.0-45
  version locked tools for cloud for version 4.4.0-45 on
  32 bit x86.
 
+Package: linux-cloud-tools-4.4.0-47
+Description-md5: 943d85ea10df483263a95b75213969ac
+Description-en: Linux kernel version specific cloud tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud tools for version 4.4.0-47 on
+ 32 bit x86.
+ You probably want to install linux-cloud-tools-4.4.0-47-<flavour>.
+
+Package: linux-cloud-tools-4.4.0-47-generic
+Description-md5: 7505d9d24b7287bb622ad01afad6b71e
+Description-en: Linux kernel version specific cloud tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud for version 4.4.0-47 on
+ 32 bit x86.
+
+Package: linux-cloud-tools-4.4.0-47-lowlatency
+Description-md5: 7505d9d24b7287bb622ad01afad6b71e
+Description-en: Linux kernel version specific cloud tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud for version 4.4.0-47 on
+ 32 bit x86.
+
 Package: linux-headers-4.4.0-22-generic
 Description-md5: 42bb60a54b16d51662da0be1ad78b10d
 Description-en: Linux kernel headers for version 4.4.0 on 32 bit x86 SMP
@@ -12172,6 +12472,24 @@ Description-en: Linux kernel headers for version 4.4.0 on 32 bit x86 SMP
  .
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-4.4.0-45/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-47-generic
+Description-md5: f36d700c81c82fea660504d2ef72b4e4
+Description-en: Linux kernel headers for version 4.4.0 on 32 bit x86 SMP
+ This package provides kernel header files for version 4.4.0 on
+ 32 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-47/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-47-lowlatency
+Description-md5: f36d700c81c82fea660504d2ef72b4e4
+Description-en: Linux kernel headers for version 4.4.0 on 32 bit x86 SMP
+ This package provides kernel header files for version 4.4.0 on
+ 32 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-47/debian.README.gz for details.
 
 Package: linux-image-4.4.0-22-generic
 Description-md5: d8c758773cd280a8dba3d60d3965014d
@@ -12497,6 +12815,42 @@ Description-en: Linux kernel image for version 4.4.0 on 32 bit x86 SMP
  the linux-lowlatency meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-image-4.4.0-47-generic
+Description-md5: d8c758773cd280a8dba3d60d3965014d
+Description-en: Linux kernel image for version 4.4.0 on 32 bit x86 SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ 32 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.4.0-47-lowlatency
+Description-md5: 96a89422a078f50d70bacbbff0095565
+Description-en: Linux kernel image for version 4.4.0 on 32 bit x86 SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ 32 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Lowlatency processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-lowlatency meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-image-extra-4.4.0-22-generic
 Description-md5: 830b276ede2c2a36e5918788adc175ca
 Description-en: Linux kernel extra modules for version 4.4.0 on 32 bit x86 SMP
@@ -12642,6 +12996,24 @@ Description-en: Linux kernel extra modules for version 4.4.0 on 32 bit x86 SMP
  correctly, and that supporting packages are also installed.
 
 Package: linux-image-extra-4.4.0-45-generic
+Description-md5: 830b276ede2c2a36e5918788adc175ca
+Description-en: Linux kernel extra modules for version 4.4.0 on 32 bit x86 SMP
+ This package contains the Linux kernel extra modules for version 4.4.0 on
+ 32 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-extra-4.4.0-47-generic
 Description-md5: 830b276ede2c2a36e5918788adc175ca
 Description-en: Linux kernel extra modules for version 4.4.0 on 32 bit x86 SMP
  This package contains the Linux kernel extra modules for version 4.4.0 on
@@ -12882,6 +13254,31 @@ Description-en: Linux kernel version specific tools for version 4.4.0-45
  This package provides the architecture dependant parts for kernel
  version locked tools (such as perf and x86_energy_perf_policy) for
  version 4.4.0-45 on
+ 32 bit x86.
+
+Package: linux-tools-4.4.0-47
+Description-md5: 762b9fc30402e478613a7ba4a9fa149a
+Description-en: Linux kernel version specific tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-47 on
+ 32 bit x86.
+ You probably want to install linux-tools-4.4.0-47-<flavour>.
+
+Package: linux-tools-4.4.0-47-generic
+Description-md5: 02854d4dd95f1ecbebbab80ced61172f
+Description-en: Linux kernel version specific tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-47 on
+ 32 bit x86.
+
+Package: linux-tools-4.4.0-47-lowlatency
+Description-md5: 02854d4dd95f1ecbebbab80ced61172f
+Description-en: Linux kernel version specific tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-47 on
  32 bit x86.
 
 Package: linux-headers-4.4.0-22-powerpc-e500mc
@@ -13207,6 +13604,42 @@ Description-en: Linux kernel headers for version 4.4.0 on 64-bit PowerPC SMP
  .
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-4.4.0-45/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-47-powerpc-e500mc
+Description-md5: 08d04bc70ad7b987835d176aa449fd7e
+Description-en: Linux kernel headers for version 4.4.0 on 32-bit Freescale Power e500mc
+ This package provides kernel header files for version 4.4.0 on
+ 32-bit Freescale Power e500mc.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-47/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-47-powerpc-smp
+Description-md5: 45e7110800724fc75f0900724e35a77a
+Description-en: Linux kernel headers for version 4.4.0 on 32-bit PowerPC SMP
+ This package provides kernel header files for version 4.4.0 on
+ 32-bit PowerPC SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-47/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-47-powerpc64-emb
+Description-md5: 4808bccdb4c925fd1ac1f806f4da7b07
+Description-en: Linux kernel headers for version 4.4.0 on 64-bit PowerPC SMP Book3E
+ This package provides kernel header files for version 4.4.0 on
+ 64-bit PowerPC SMP Book3E.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-47/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-47-powerpc64-smp
+Description-md5: a0f6fc68d60e977c454d5658f5cc7d2e
+Description-en: Linux kernel headers for version 4.4.0 on 64-bit PowerPC SMP
+ This package provides kernel header files for version 4.4.0 on
+ 64-bit PowerPC SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-47/debian.README.gz for details.
 
 Package: linux-headers-powerpc-e500mc
 Description-md5: 3b2c7fd666e90325c917a6e03dc63de4
@@ -13962,6 +14395,78 @@ Description-en: Linux kernel image for version 4.4.0 on 64-bit PowerPC SMP
  the linux-powerpc64-smp meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-image-4.4.0-47-powerpc-e500mc
+Description-md5: 8b17b05f6c0695786c7c774b0b676fbc
+Description-en: Linux kernel image for version 4.4.0 on 32-bit Freescale Power e500mc
+ This package contains the Linux kernel image for version 4.4.0 on
+ 32-bit Freescale Power e500mc.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports 32-bit Freescale Power e500mc processors.
+ .
+ Geared toward server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-powerpc-e500mc meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.4.0-47-powerpc-smp
+Description-md5: 79aa0d78b56ae3be3c910b0e8d4e1d1a
+Description-en: Linux kernel image for version 4.4.0 on 32-bit PowerPC SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ 32-bit PowerPC SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports 32-bit PowerPC SMP processors.
+ .
+ Geared toward desktop or server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-powerpc-smp meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.4.0-47-powerpc64-emb
+Description-md5: 5325b69e8fbee9a51d9b42dfaa07e13c
+Description-en: Linux kernel image for version 4.4.0 on 64-bit PowerPC SMP Book3E
+ This package contains the Linux kernel image for version 4.4.0 on
+ 64-bit PowerPC SMP Book3E.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports 64-bit PowerPC SMP Book3E processors.
+ .
+ Geared toward desktop or server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-powerpc64-emb meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.4.0-47-powerpc64-smp
+Description-md5: 56a6628cbf0f9585089ea8e79e40b49e
+Description-en: Linux kernel image for version 4.4.0 on 64-bit PowerPC SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ 64-bit PowerPC SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports 64-bit PowerPC SMP processors.
+ .
+ Geared toward desktop or server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-powerpc64-smp meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-image-powerpc-e500mc
 Description-md5: 17d8963894328e93e6ba05ebce3c4134
 Description-en: Linux kernel image on Freescale Power e500mc.
@@ -14543,6 +15048,47 @@ Description-en: Linux kernel version specific tools for version 4.4.0-45
  version 4.4.0-45 on
  PowerPC (32 bit userspace).
 
+Package: linux-tools-4.4.0-47
+Description-md5: 438a380bee1bed5d5bd325f9761960cd
+Description-en: Linux kernel version specific tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-47 on
+ PowerPC (32 bit userspace).
+ You probably want to install linux-tools-4.4.0-47-<flavour>.
+
+Package: linux-tools-4.4.0-47-powerpc-e500mc
+Description-md5: efe8d4c56ac41e7bafa9924f633e1f29
+Description-en: Linux kernel version specific tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-47 on
+ PowerPC (32 bit userspace).
+
+Package: linux-tools-4.4.0-47-powerpc-smp
+Description-md5: efe8d4c56ac41e7bafa9924f633e1f29
+Description-en: Linux kernel version specific tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-47 on
+ PowerPC (32 bit userspace).
+
+Package: linux-tools-4.4.0-47-powerpc64-emb
+Description-md5: efe8d4c56ac41e7bafa9924f633e1f29
+Description-en: Linux kernel version specific tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-47 on
+ PowerPC (32 bit userspace).
+
+Package: linux-tools-4.4.0-47-powerpc64-smp
+Description-md5: efe8d4c56ac41e7bafa9924f633e1f29
+Description-en: Linux kernel version specific tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-47 on
+ PowerPC (32 bit userspace).
+
 Package: linux-tools-powerpc-e500mc
 Description-md5: fff044490ba363aae3c3689af016c5a0
 Description-en: Linux kernel tools for Freescale Power e500mc.
@@ -14728,6 +15274,15 @@ Description-en: Linux kernel headers for version 4.4.0 on PowerPC 64el SMP
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-4.4.0-45/debian.README.gz for details.
 
+Package: linux-headers-4.4.0-47-generic
+Description-md5: f8b3d46236cfb314b69e6159a98a2c45
+Description-en: Linux kernel headers for version 4.4.0 on PowerPC 64el SMP
+ This package provides kernel header files for version 4.4.0 on
+ PowerPC 64el SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-47/debian.README.gz for details.
+
 Package: linux-image-4.4.0-22-generic
 Description-md5: ff3b72a3b6cacab9bae45bb52fbd2afe
 Description-en: Linux kernel image for version 4.4.0 on PowerPC 64el SMP
@@ -14890,6 +15445,24 @@ Description-en: Linux kernel image for version 4.4.0 on PowerPC 64el SMP
  the linux-generic meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-image-4.4.0-47-generic
+Description-md5: ff3b72a3b6cacab9bae45bb52fbd2afe
+Description-en: Linux kernel image for version 4.4.0 on PowerPC 64el SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ PowerPC 64el SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-image-extra-4.4.0-22-generic
 Description-md5: 1d5769be9e0fcc5184bc3223ceb1afcc
 Description-en: Linux kernel extra modules for version 4.4.0 on PowerPC 64el SMP
@@ -15035,6 +15608,24 @@ Description-en: Linux kernel extra modules for version 4.4.0 on PowerPC 64el SMP
  correctly, and that supporting packages are also installed.
 
 Package: linux-image-extra-4.4.0-45-generic
+Description-md5: 1d5769be9e0fcc5184bc3223ceb1afcc
+Description-en: Linux kernel extra modules for version 4.4.0 on PowerPC 64el SMP
+ This package contains the Linux kernel extra modules for version 4.4.0 on
+ PowerPC 64el SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-extra-4.4.0-47-generic
 Description-md5: 1d5769be9e0fcc5184bc3223ceb1afcc
 Description-en: Linux kernel extra modules for version 4.4.0 on PowerPC 64el SMP
  This package contains the Linux kernel extra modules for version 4.4.0 on
@@ -15205,6 +15796,23 @@ Description-en: Linux kernel version specific tools for version 4.4.0-45
  version 4.4.0-45 on
  PowerPC 64el.
 
+Package: linux-tools-4.4.0-47
+Description-md5: 3854ae487a9452414d615f2a9aa414da
+Description-en: Linux kernel version specific tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-47 on
+ PowerPC 64el.
+ You probably want to install linux-tools-4.4.0-47-<flavour>.
+
+Package: linux-tools-4.4.0-47-generic
+Description-md5: 35a2929887043a29ffb236895823afe1
+Description-en: Linux kernel version specific tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-47 on
+ PowerPC 64el.
+
 Package: linux-headers-4.4.0-22-generic
 Description-md5: 5b8aee5476720c8bf625bf157ec9c452
 Description-en: Linux kernel headers for version 4.4.0 on System 390x SMP
@@ -15285,6 +15893,15 @@ Description-en: Linux kernel headers for version 4.4.0 on System 390x SMP
  .
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-4.4.0-45/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-47-generic
+Description-md5: 9ddad43415ff69c02d89525c00dbcc86
+Description-en: Linux kernel headers for version 4.4.0 on System 390x SMP
+ This package provides kernel header files for version 4.4.0 on
+ System 390x SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-47/debian.README.gz for details.
 
 Package: linux-image-4.4.0-22-generic
 Description-md5: 7d5d5ccd5fc19e30c57dcb4a46bceeaa
@@ -15431,6 +16048,24 @@ Description-en: Linux kernel image for version 4.4.0 on System 390x SMP
  correctly, and that supporting packages are also installed.
 
 Package: linux-image-4.4.0-45-generic
+Description-md5: 7d5d5ccd5fc19e30c57dcb4a46bceeaa
+Description-en: Linux kernel image for version 4.4.0 on System 390x SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ System 390x SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.4.0-47-generic
 Description-md5: 7d5d5ccd5fc19e30c57dcb4a46bceeaa
 Description-en: Linux kernel image for version 4.4.0 on System 390x SMP
  This package contains the Linux kernel image for version 4.4.0 on
@@ -15610,6 +16245,24 @@ Description-en: Linux kernel extra modules for version 4.4.0 on System 390x SMP
  the linux-generic meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-image-extra-4.4.0-47-generic
+Description-md5: d85a0154e57e3d70dc719c5f2b0cb06a
+Description-en: Linux kernel extra modules for version 4.4.0 on System 390x SMP
+ This package contains the Linux kernel extra modules for version 4.4.0 on
+ System 390x SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-tools-4.4.0-22
 Description-md5: 393d199e115d76b1d99d88dad89f1d91
 Description-en: Linux kernel version specific tools for version 4.4.0-22
@@ -15761,6 +16414,23 @@ Description-en: Linux kernel version specific tools for version 4.4.0-45
  This package provides the architecture dependant parts for kernel
  version locked tools (such as perf and x86_energy_perf_policy) for
  version 4.4.0-45 on
+ System 390x.
+
+Package: linux-tools-4.4.0-47
+Description-md5: f4173c9d75333caa461079707496aef2
+Description-en: Linux kernel version specific tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-47 on
+ System 390x.
+ You probably want to install linux-tools-4.4.0-47-<flavour>.
+
+Package: linux-tools-4.4.0-47-generic
+Description-md5: 67e86e0c8bdaa2833e9ba7fdc744b2ea
+Description-en: Linux kernel version specific tools for version 4.4.0-47
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-47 on
  System 390x.
 
 Package: qemu-system-s390x

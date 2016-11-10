@@ -45,7 +45,11 @@ GNU Utilities
 * gpg: (gnupg1).                OpenPGP encryption and signing tool (v1).
 
 Individual utilities
+* aclocal-invocation: (automake-1.15)aclocal Invocation.
+                                                Generating aclocal.m4.
 * arch: (coreutils)arch invocation.             Print machine hardware name.
+* automake-invocation: (automake-1.15)automake Invocation.
+                                                Generating Makefile.in.
 * base32: (coreutils)base32 invocation.         Base32 encode/decode data.
 * base64: (coreutils)base64 invocation.         Base64 encode/decode data.
 * basename: (coreutils)basename invocation.     Strip directory and suffix.
@@ -191,7 +195,11 @@ Math
 Network applications
 * Wget: (wget).                 Non-interactive network downloader.
 
+Software development
+* Automake: (automake-1.15).    Making GNU standards-compliant Makefiles.
+
 Text creation and manipulation
 * Diffutils: (diffutils).       Comparing and merging files.
+* M4: (m4).                     A powerful macro processor.
 * grep: (grep).                 Print lines matching a pattern.
 * sed: (sed).                   Stream EDitor.  

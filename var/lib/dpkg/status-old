@@ -28,8 +28,8 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.23)
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.23)
 Description: GCC Quad-Precision Math Library
  A library, which provides quad-precision mathematical functions on targets
  supporting the __float128 datatype. The library is used to provide on such
@@ -189,10 +189,10 @@ Installed-Size: 128
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: dnsutils (<< 1:9.0.0), host (<< 1:9.7.0)
 Provides: host
-Depends: libbind9-140 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libc6 (>= 2.4), libdns162 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libisc160 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libisccfg140 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), liblwres141 (= 1:9.10.3.dfsg.P4-8ubuntu1.1)
+Depends: libbind9-140 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libc6 (>= 2.4), libdns162 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libisc160 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libisccfg140 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), liblwres141 (= 1:9.10.3.dfsg.P4-8ubuntu1.2)
 Conflicts: dnsutils (<< 1:9.0.0), host (<< 1:9.7.0)
 Description: Version of 'host' bundled with BIND 9.X
  This package provides the 'host' program in the form that is bundled with
@@ -412,8 +412,8 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.17)
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.17)
 Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
 Description: GCC OpenMP (GOMP) support library
  GOMP is an implementation of OpenMP for the C, C++, and Fortran compilers
@@ -468,8 +468,8 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.14)
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.14)
 Description: support library providing __atomic built-in functions
  library providing __atomic built-in functions. When an atomic call cannot
  be turned into lock-free instructions, GCC will make calls into this library.
@@ -978,7 +978,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: systemd
-Version: 229-4ubuntu11
+Version: 229-4ubuntu12
 Depends: libc6 (>= 2.16)
 Description: libudev shared library
  This library provides access to udev device information.
@@ -1541,7 +1541,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: libbind0
 Depends: libc6 (>= 2.14), libgeoip1, libgssapi-krb5-2 (>= 1.10+dfsg~), libisc160, libkrb5-3 (>= 1.6.dfsg.2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4)
 Conflicts: libbind0, libbind9-41
@@ -1677,8 +1677,8 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.15), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.15), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
 Description: GCC cc1 plugin for GDB
  libcc1 is a plugin for GDB.
 Homepage: http://gcc.gnu.org/
@@ -2147,8 +2147,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: systemd
-Version: 229-4ubuntu11
-Depends: libc6 (>= 2.17), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), systemd (= 229-4ubuntu11), libpam-runtime (>= 1.0.1-6), dbus, systemd-shim (>= 8-2) | systemd-sysv
+Version: 229-4ubuntu12
+Depends: libc6 (>= 2.17), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), systemd (= 229-4ubuntu12), libpam-runtime (>= 1.0.1-6), dbus, systemd-shim (>= 8-2) | systemd-sysv
 Description: system and service manager - PAM module
  This package contains the PAM module which registers user sessions in
  the systemd control group hierarchy for logind.
@@ -2240,7 +2240,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: libbind0
 Depends: libc6 (>= 2.15), libxml2 (>= 2.7.4)
 Conflicts: libbind0, libbind9-41
@@ -2683,7 +2683,7 @@ Installed-Size: 435
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Depends: libc6 (>= 2.15)
 Description: Exported ISC Shared Library
  The Berkeley Internet Name Domain (BIND) implements an Internet domain
@@ -2955,8 +2955,8 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.17)
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.17)
 Description: Intel memory protection extensions (runtime)
  Intel MPX is a set of processor features which, with compiler,
  runtime library and OS support, brings increased robustness to
@@ -3089,11 +3089,11 @@ Package: update-notifier-common
 Status: install ok installed
 Priority: optional
 Section: gnome
-Installed-Size: 1373
+Installed-Size: 1375
 Maintainer: Michael Vogt <michael.vogt@ubuntu.com>
 Architecture: all
 Source: update-notifier
-Version: 3.168.1
+Version: 3.168.2
 Replaces: update-notifier (<< 0.75.1)
 Depends: python3:any, python3-apt, python3-dbus, python3-debian, debconf, patch
 Pre-Depends: dpkg (>= 1.15.7.2)
@@ -3408,8 +3408,8 @@ Installed-Size: 330
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 7.47.0-1ubuntu2.1
-Depends: libc6 (>= 2.17), libcurl3-gnutls (= 7.47.0-1ubuntu2.1), zlib1g (>= 1:1.1.4)
+Version: 7.47.0-1ubuntu2.2
+Depends: libc6 (>= 2.17), libcurl3-gnutls (= 7.47.0-1ubuntu2.2), zlib1g (>= 1:1.1.4)
 Description: command line tool for transferring data with URL syntax
  curl is a command line tool for transferring data with URL syntax, supporting
  DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3,
@@ -3875,7 +3875,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: curl
-Version: 7.47.0-1ubuntu2.1
+Version: 7.47.0-1ubuntu2.2
 Depends: libc6 (>= 2.17), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libldap-2.4-2 (>= 2.4.7), librtmp1 (>= 2.4+20131018.git79459a2-3~), libssl1.0.0 (>= 1.0.2~beta3), zlib1g (>= 1:1.1.4)
 Recommends: ca-certificates
 Description: easy-to-use client-side URL transfer library (OpenSSL flavour)
@@ -3984,8 +3984,8 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.14), libgcc1 (>= 1:4.8), libstdc++6 (>= 4.1.1)
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.14), libgcc1 (>= 1:4.8), libstdc++6 (>= 4.1.1)
 Description: Intel Cilk Plus language extensions (runtime)
  Intel Cilk Plus is an extension to the C and C++ languages to support
  data and task parallelism.
@@ -4331,7 +4331,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: curl
-Version: 7.47.0-1ubuntu2.1
+Version: 7.47.0-1ubuntu2.2
 Depends: libc6 (>= 2.17), libgnutls30 (>= 3.4.2), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libldap-2.4-2 (>= 2.4.7), libnettle6, librtmp1 (>= 2.4+20131018.git79459a2-3~), zlib1g (>= 1:1.1.4)
 Recommends: ca-certificates
 Description: easy-to-use client-side URL transfer library (GnuTLS flavour)
@@ -4713,7 +4713,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: systemd
-Version: 229-4ubuntu11
+Version: 229-4ubuntu12
 Replaces: sysvinit (<< 2.88dsf-44~), sysvinit-core, upstart (<< 1.13.2-0ubuntu10~), upstart-sysv
 Pre-Depends: systemd
 Conflicts: file-rc, openrc, sysvinit-core, upstart (<< 1.13.2-0ubuntu10~), upstart-sysv
@@ -4922,8 +4922,8 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.4), libgcc1 (>= 1:3.3), libstdc++6 (>= 4.1.1)
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.4), libgcc1 (>= 1:3.3), libstdc++6 (>= 4.1.1)
 Description: UBSan -- undefined behaviour sanitizer (runtime)
  UndefinedBehaviorSanitizer can be enabled via -fsanitize=undefined.
  Various computations will be instrumented to detect undefined behavior
@@ -4940,8 +4940,8 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.23), libgcc1 (>= 1:3.3)
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.23), libgcc1 (>= 1:3.3)
 Description: ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
  ThreadSanitizer (Tsan) is a data race detector for C/C++ programs.
  The Linux and Mac versions are based on Valgrind.
@@ -5285,7 +5285,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: libbind0
 Depends: libc6 (>= 2.4), libdns162, libisc160, libisccc140
 Conflicts: libbind0, libbind9-41
@@ -5608,12 +5608,12 @@ Package: linux-libc-dev
 Status: install ok installed
 Priority: optional
 Section: devel
-Installed-Size: 4257
+Installed-Size: 4275
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: linux
-Version: 4.4.0-45.66
+Version: 4.4.0-47.68
 Replaces: linux-kernel-headers
 Provides: linux-kernel-headers
 Conflicts: linux-kernel-headers
@@ -5831,7 +5831,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: systemd
-Version: 229-4ubuntu11
+Version: 229-4ubuntu12
 Pre-Depends: libc6 (>= 2.17), libgcrypt20 (>= 1.6.1), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32)
 Description: systemd utility library
  The libsystemd0 library provides interfaces to various systemd components.
@@ -5846,7 +5846,7 @@ Installed-Size: 1931
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Depends: libc6 (>= 2.14), libisc-export160
 Description: Exported DNS Shared Library
  The Berkeley Internet Name Domain (BIND) implements an Internet domain
@@ -6133,7 +6133,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: libgd2
-Version: 2.1.1-4ubuntu0.16.04.3
+Version: 2.1.1-4ubuntu0.16.04.5
 Depends: libc6 (>= 2.14), libfontconfig1 (>= 2.11.94), libfreetype6 (>= 2.2.1), libjpeg8 (>= 8c), libpng12-0 (>= 1.2.13-4), libtiff5 (>= 4.0.3), libvpx3 (>= 1.5.0), libxpm4, zlib1g (>= 1:1.1.4)
 Suggests: libgd-tools
 Description: GD Graphics Library
@@ -6311,8 +6311,8 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.23), libgcc1 (>= 1:3.3)
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.23), libgcc1 (>= 1:3.3)
 Description: AddressSanitizer -- a fast memory error detector
  AddressSanitizer (ASan) is a fast memory error detector.  It finds
  use-after-free and {heap,stack,global}-buffer overflow bugs in C/C++ programs.
@@ -6884,9 +6884,9 @@ Installed-Size: 311
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: bind, bind9 (<< 1:9.1.0-3)
-Depends: libbind9-140 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libc6 (>= 2.4), libdns162 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libisc160 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libisccfg140 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), libkrb5-3 (>= 1.6.dfsg.2), liblwres141 (= 1:9.10.3.dfsg.P4-8ubuntu1.1), bind9-host | host
+Depends: libbind9-140 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libc6 (>= 2.4), libdns162 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libisc160 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libisccfg140 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), libkrb5-3 (>= 1.6.dfsg.2), liblwres141 (= 1:9.10.3.dfsg.P4-8ubuntu1.2), bind9-host | host
 Suggests: rblcheck
 Conflicts: netstd (<< 2.00)
 Description: Clients provided with BIND
@@ -8978,8 +8978,8 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.4), libgcc1 (>= 1:3.3)
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.4), libgcc1 (>= 1:3.3)
 Description: LeakSanitizer -- a memory leak detector (runtime)
  LeakSanitizer (Lsan) is a memory leak detector which is integrated
  into AddressSanitizer.
@@ -9772,7 +9772,7 @@ Installed-Size: 312
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 9.4ubuntu4.2
+Version: 9.4ubuntu4.3
 Replaces: base, dpkg (<= 1.15.0), miscutils
 Provides: base
 Pre-Depends: awk
@@ -9913,7 +9913,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: libbind0
 Depends: libc6 (>= 2.4), libisc160
 Conflicts: libbind0, libbind9-41
@@ -10337,7 +10337,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: postgresql-9.5
-Version: 9.5.4-0ubuntu0.16.04
+Version: 9.5.5-0ubuntu0.16.04
 Depends: libc6 (>= 2.14), libgssapi-krb5-2 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libssl1.0.0 (>= 1.0.0)
 Description: PostgreSQL C client library
  libpq is a C library that enables user programs to communicate with
@@ -10854,9 +10854,9 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: systemd
-Version: 229-4ubuntu11
+Version: 229-4ubuntu12
 Replaces: bash-completion (<< 1:2.1), systemd (<< 224-2)
-Depends: libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), lsb-base (>= 4.1+Debian11ubuntu7), adduser, libudev1 (= 229-4ubuntu11), util-linux (>= 2.27.1), procps
+Depends: libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), lsb-base (>= 4.1+Debian11ubuntu7), adduser, libudev1 (= 229-4ubuntu12), util-linux (>= 2.27.1), procps
 Pre-Depends: dpkg (>= 1.17.14)
 Breaks: bash-completion (<< 1:2.1), consolekit (<< 0.4.6-1), ifupdown (<< 0.8.5~), kmod (<< 14), lvm2 (<< 2.02.133-1ubuntu1), mdadm (<< 3.3-2ubuntu3), plymouth (<< 0.9.0-7), systemd (<< 224-2)
 Conffiles:
@@ -11788,9 +11788,9 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Replaces: gccgo-5 (<< 5.4.0-6ubuntu1~16.04.2)
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libgcc1 (>= 1:5.4.0-6ubuntu1~16.04.2), libgomp1 (>= 5.4.0-6ubuntu1~16.04.2), libitm1 (>= 5.4.0-6ubuntu1~16.04.2), libatomic1 (>= 5.4.0-6ubuntu1~16.04.2), libasan2 (>= 5.4.0-6ubuntu1~16.04.2), liblsan0 (>= 5.4.0-6ubuntu1~16.04.2), libtsan0 (>= 5.4.0-6ubuntu1~16.04.2), libubsan0 (>= 5.4.0-6ubuntu1~16.04.2), libcilkrts5 (>= 5.4.0-6ubuntu1~16.04.2), libmpx0 (>= 5.4.0-6ubuntu1~16.04.2), libquadmath0 (>= 5.4.0-6ubuntu1~16.04.2)
+Version: 5.4.0-6ubuntu1~16.04.4
+Replaces: gccgo-5 (<< 5.4.0-6ubuntu1~16.04.4)
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libgcc1 (>= 1:5.4.0-6ubuntu1~16.04.4), libgomp1 (>= 5.4.0-6ubuntu1~16.04.4), libitm1 (>= 5.4.0-6ubuntu1~16.04.4), libatomic1 (>= 5.4.0-6ubuntu1~16.04.4), libasan2 (>= 5.4.0-6ubuntu1~16.04.4), liblsan0 (>= 5.4.0-6ubuntu1~16.04.4), libtsan0 (>= 5.4.0-6ubuntu1~16.04.4), libubsan0 (>= 5.4.0-6ubuntu1~16.04.4), libcilkrts5 (>= 5.4.0-6ubuntu1~16.04.4), libmpx0 (>= 5.4.0-6ubuntu1~16.04.4), libquadmath0 (>= 5.4.0-6ubuntu1~16.04.4)
 Recommends: libc6-dev (>= 2.13-0ubuntu6)
 Description: GCC support library (development files)
  This package contains the headers and static library files necessary for
@@ -12002,10 +12002,10 @@ Installed-Size: 18844
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 229-4ubuntu11
+Version: 229-4ubuntu12
 Replaces: systemd-services, udev (<< 228-5)
 Provides: systemd-services
-Depends: libacl1 (>= 2.2.51-8), libapparmor1 (>= 2.9.0-3+exp2), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.19.1), libcap2 (>= 1:2.10), libcryptsetup4 (>= 2:1.4.3), libgpg-error0 (>= 1.14), libkmod2 (>= 5~), libmount1 (>= 2.26.2), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.1.0), libselinux1 (>= 2.1.9), libsystemd0 (= 229-4ubuntu11), util-linux (>= 2.27.1), mount (>= 2.26), adduser, libcap2-bin
+Depends: libacl1 (>= 2.2.51-8), libapparmor1 (>= 2.9.0-3+exp2), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.19.1), libcap2 (>= 1:2.10), libcryptsetup4 (>= 2:1.4.3), libgpg-error0 (>= 1.14), libkmod2 (>= 5~), libmount1 (>= 2.26.2), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.1.0), libselinux1 (>= 2.1.9), libsystemd0 (= 229-4ubuntu12), util-linux (>= 2.27.1), mount (>= 2.26), adduser, libcap2-bin
 Pre-Depends: libc6 (>= 2.17), libgcrypt20 (>= 1.6.1), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32)
 Recommends: libpam-systemd, dbus
 Suggests: systemd-ui, systemd-container
@@ -12108,7 +12108,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: libbind0
 Depends: libc6 (>= 2.15)
 Conflicts: libbind0
@@ -12533,7 +12533,7 @@ Section: admin
 Installed-Size: 304
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
-Version: 0.90
+Version: 0.90ubuntu0.1
 Depends: debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), debconf, python3, python3-apt, apt-utils, apt, ucf, lsb-release, lsb-base (>= 3.2-14), xz-utils
 Recommends: cron | cron-daemon | anacron
 Suggests: bsd-mailx, mail-transport-agent
@@ -13744,9 +13744,9 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Replaces: libstdc++6-5-dbg (<< 4.9.0-3)
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.18), libgcc1 (>= 1:4.2)
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.18), libgcc1 (>= 1:4.2)
 Breaks: blockattack (<= 1.4.1+ds1-2.1build2), boo (<= 0.9.5~git20110729.r1.202a430-2), c++-annotations (<= 10.2.0-1), chromium-browser (<= 43.0.2357.130-0ubuntu2), clustalx (<= 2.1+lgpl-2), dff (<= 1.3.0+dfsg.1-4.1build2), emscripten (<= 1.22.1-1), ergo (<= 3.4.0-1), fceux (<= 2.2.2+dfsg0-1), flush (<= 0.9.12-3.1ubuntu1), freeorion (<= 0.4.4+git20150327-2), fslview (<= 4.0.1-4), fwbuilder (<= 5.1.0-4), gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2), gnote (<= 3.16.2-1), gnudatalanguage (<= 0.9.5-2build1), innoextract (<= 1.4-1build1), libantlr-dev (<= 2.7.7+dfsg-6), libapache2-mod-passenger (<= 4.0.53-1), libaqsis1 (<= 1.8.2-1), libassimp3 (<= 3.0~dfsg-4), libboost-date-time1.55.0, libcpprest2.2 (<= 2.2.0-1), libdap17 (<= 3.14.0-2), libdapclient6 (<= 3.14.0-2), libdapserver7 (<= 3.14.0-2), libdavix0 (<= 0.4.0-1build1), libdballe6 (<= 6.8-1), libdiet-admin2.8 (<= 2.8.0-1build3), libdiet-client2.8 (<= 2.8.0-1build3), libdiet-sed2.8 (<= 2.8.0-1build3), libfreefem++ (<= 3.37.1-1), libgazebo5 (<= 5.0.1+dfsg-2.1), libgetfem4++ (<= 4.2.1~beta1~svn4482~dfsg-3ubuntu3), libgmsh2 (<= 2.8.5+dfsg-1.1ubuntu1), libinsighttoolkit4.6 (<= 4.6.0-3ubuntu3), libkgeomap2 (<= 4:15.04.2-0ubuntu1), libkolabxml1 (<= 1.1.0-3), libkvkontakte1 (<= 1.0~digikam4.10.0-0ubuntu2), libmarisa0 (<= 0.2.4-8build1), libmediawiki1 (<= 1.0~digikam4.10.0-0ubuntu2), libogre-1.8.0 (<= 1.8.1+dfsg-0ubuntu5), libogre-1.9.0 (<= 1.9.0+dfsg1-4), libopenwalnut1 (<= 1.4.0~rc1+hg3a3147463ee2-1ubuntu2), libpqxx-4.0 (<= 4.0.1+dfsg-3ubuntu1), libreoffice-core (<= 1:4.4.4~rc3-0ubuntu1), librime1 (<= 1.2+dfsg-2), libwibble-dev (<= 1.1-1), libwreport2 (<= 2.14-1), libxmltooling6 (<= 1.5.3-2.1), lightspark (<= 0.7.2+git20150512-2), mira-assembler (<= 4.9.5-1), mongodb (<= 1:2.6.3-0ubuntu7), mongodb-server (<= 1:2.6.3-0ubuntu7), ncbi-blast+ (<= 2.2.30-4), openscad (<= 2014.03+dfsg-1build1), passepartout (<= 0.7.1-1.1), pdf2djvu (<= 0.7.19-1ubuntu2), photoprint (<= 0.4.2~pre2-2.3), plastimatch (<= 1.6.2+dfsg-1), plee-the-bear (<= 0.6.0-3.1), povray (<= 1:3.7.0.0-8), powertop (<= 2.6.1-1), printer-driver-brlaser (<= 3-3), psi4 (<= 4.0~beta5+dfsg-2build1), python-healpy (<= 1.8.1-1), python3-taglib (<= 0.3.6+dfsg-2build2), realtimebattle (<= 1.0.8-14), ruby-passenger (<= 4.0.53-1), sqlitebrowser (<= 3.5.1-3), tecnoballz (<= 0.93.1-6), wesnoth-1.12-core (<= 1:1.12.4-1), widelands (<= 1:18-3build1), xflr5 (<= 6.09.06-2)
 Conflicts: scim (<< 1.4.2-1)
 Description: GNU Standard C++ Library v3
@@ -13949,15 +13949,15 @@ Package: gcc-5
 Status: install ok installed
 Priority: optional
 Section: devel
-Installed-Size: 23644
+Installed-Size: 23632
 Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 5.4.0-6ubuntu1~16.04.2
-Replaces: gcc-5-base (<< 5-20150329-1), gcc-5-plugin-dev (<< 5-20150321-1), gccgo-5 (<< 5.4.0-6ubuntu1~16.04.2)
+Version: 5.4.0-6ubuntu1~16.04.4
+Replaces: gcc-5-base (<< 5-20150329-1), gcc-5-plugin-dev (<< 5-20150321-1), gccgo-5 (<< 5.4.0-6ubuntu1~16.04.4)
 Provides: c-compiler
-Depends: cpp-5 (= 5.4.0-6ubuntu1~16.04.2), gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libcc1-0 (>= 5.4.0-6ubuntu1~16.04.2), binutils (>= 2.26.1), libgcc-5-dev (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.15), libgcc1 (>= 1:3.0), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
+Depends: cpp-5 (= 5.4.0-6ubuntu1~16.04.4), gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libcc1-0 (>= 5.4.0-6ubuntu1~16.04.4), binutils (>= 2.26.1), libgcc-5-dev (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.15), libgcc1 (>= 1:3.0), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
 Recommends: libc6-dev (>= 2.13-0ubuntu6)
-Suggests: gcc-5-multilib, gcc-5-doc (>= 5.2.1-23), gcc-5-locales (>= 5.2.1-23), libgcc1-dbg (>= 1:5.4.0-6ubuntu1~16.04.2), libgomp1-dbg (>= 5.4.0-6ubuntu1~16.04.2), libitm1-dbg (>= 5.4.0-6ubuntu1~16.04.2), libatomic1-dbg (>= 5.4.0-6ubuntu1~16.04.2), libasan2-dbg (>= 5.4.0-6ubuntu1~16.04.2), liblsan0-dbg (>= 5.4.0-6ubuntu1~16.04.2), libtsan0-dbg (>= 5.4.0-6ubuntu1~16.04.2), libubsan0-dbg (>= 5.4.0-6ubuntu1~16.04.2), libcilkrts5-dbg (>= 5.4.0-6ubuntu1~16.04.2), libmpx0-dbg (>= 5.4.0-6ubuntu1~16.04.2), libquadmath0-dbg (>= 5.4.0-6ubuntu1~16.04.2)
+Suggests: gcc-5-multilib, gcc-5-doc (>= 5.2.1-23), gcc-5-locales (>= 5.2.1-23), libgcc1-dbg (>= 1:5.4.0-6ubuntu1~16.04.4), libgomp1-dbg (>= 5.4.0-6ubuntu1~16.04.4), libitm1-dbg (>= 5.4.0-6ubuntu1~16.04.4), libatomic1-dbg (>= 5.4.0-6ubuntu1~16.04.4), libasan2-dbg (>= 5.4.0-6ubuntu1~16.04.4), liblsan0-dbg (>= 5.4.0-6ubuntu1~16.04.4), libtsan0-dbg (>= 5.4.0-6ubuntu1~16.04.4), libubsan0-dbg (>= 5.4.0-6ubuntu1~16.04.4), libcilkrts5-dbg (>= 5.4.0-6ubuntu1~16.04.4), libmpx0-dbg (>= 5.4.0-6ubuntu1~16.04.4), libquadmath0-dbg (>= 5.4.0-6ubuntu1~16.04.4)
 Description: GNU C compiler
  This is the GNU C compiler, a fairly portable optimizing compiler for C.
 Homepage: http://gcc.gnu.org/
@@ -14278,7 +14278,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: bind9
-Version: 1:9.10.3.dfsg.P4-8ubuntu1.1
+Version: 1:9.10.3.dfsg.P4-8ubuntu1.2
 Replaces: libbind0
 Depends: libc6 (>= 2.4), libdns162, libisc160, libisccfg140
 Conflicts: libbind0, libbind9-41
@@ -14373,8 +14373,8 @@ Installed-Size: 536
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 1.10.6-1ubuntu3
-Depends: libapparmor1 (>= 2.8.95), libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libcap-ng0, libdbus-1-3 (= 1.10.6-1ubuntu3), libexpat1 (>= 2.0.1), libselinux1 (>= 2.0.65), libsystemd0, lsb-base (>= 4.1+Debian11ubuntu7), adduser
+Version: 1.10.6-1ubuntu3.1
+Depends: libapparmor1 (>= 2.8.95), libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libcap-ng0, libdbus-1-3 (= 1.10.6-1ubuntu3.1), libexpat1 (>= 2.0.1), libselinux1 (>= 2.0.65), libsystemd0, lsb-base (>= 4.1+Debian11ubuntu7), adduser
 Suggests: dbus-user-session | dbus-x11
 Conffiles:
  /etc/default/dbus 0d0f25a2f993509c857eb262f6e22015
@@ -14536,14 +14536,14 @@ Package: g++-5
 Status: install ok installed
 Priority: optional
 Section: devel
-Installed-Size: 22843
+Installed-Size: 22835
 Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Provides: c++-compiler, c++abi2-dev
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gcc-5 (= 5.4.0-6ubuntu1~16.04.2), libstdc++-5-dev (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4)
-Suggests: g++-5-multilib, gcc-5-doc (>= 5.2.1-23), libstdc++6-5-dbg (>= 5.4.0-6ubuntu1~16.04.2)
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gcc-5 (= 5.4.0-6ubuntu1~16.04.4), libstdc++-5-dev (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4)
+Suggests: g++-5-multilib, gcc-5-doc (>= 5.2.1-23), libstdc++6-5-dbg (>= 5.4.0-6ubuntu1~16.04.4)
 Description: GNU C++ compiler
  This is the GNU C++ compiler, a fairly portable optimizing compiler for C++.
 Homepage: http://gcc.gnu.org/
@@ -15671,9 +15671,9 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: curl
-Version: 7.47.0-1ubuntu2.1
+Version: 7.47.0-1ubuntu2.2
 Provides: libcurl-dev, libcurl-ssl-dev, libcurl3-gnutls-dev, libcurl4-dev
-Depends: libcurl3-gnutls (= 7.47.0-1ubuntu2.1)
+Depends: libcurl3-gnutls (= 7.47.0-1ubuntu2.2)
 Suggests: libcurl4-doc, libcurl3-dbg, libgnutls-dev, libidn11-dev, libkrb5-dev, libldap2-dev, librtmp-dev, pkg-config, zlib1g-dev
 Conflicts: libcurl4-nss-dev, libcurl4-openssl-dev
 Description: development files and documentation for libcurl (GnuTLS flavour)
@@ -16041,13 +16041,13 @@ Package: cpp-5
 Status: install ok installed
 Priority: optional
 Section: interpreters
-Installed-Size: 21377
+Installed-Size: 21373
 Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Replaces: gccgo-5 (<< 5.4.0-6ubuntu1~16.04.2)
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4)
+Version: 5.4.0-6ubuntu1~16.04.4
+Replaces: gccgo-5 (<< 5.4.0-6ubuntu1~16.04.4)
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4)
 Suggests: gcc-5-locales (>= 5.2.1-23)
 Description: GNU C preprocessor
  A macro processor that is used automatically by the GNU C compiler
@@ -16479,8 +16479,8 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.14)
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.14)
 Description: GNU Transactional Memory Library
  GNU Transactional Memory Library (libitm) provides transaction support for
  accesses to the memory of a process, enabling easy-to-use synchronization of
@@ -16831,7 +16831,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: dbus
-Version: 1.10.6-1ubuntu3
+Version: 1.10.6-1ubuntu3.1
 Depends: libc6 (>= 2.17), libsystemd0
 Recommends: dbus
 Breaks: dbus (<< 1.9.16-1~)
@@ -16945,7 +16945,7 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Breaks: gcc-4.4-base (<< 4.4.7), gcc-4.7-base (<< 4.7.3), gcj-4.4-base (<< 4.4.6-9~), gcj-4.6-base (<< 4.6.1-4~), gnat-4.4-base (<< 4.4.6-3~), gnat-4.6 (<< 4.6.1-5~)
 Description: GCC, the GNU Compiler Collection (base package)
  This package contains files common to all languages and libraries
@@ -17320,9 +17320,9 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Provides: libstdc++-dev
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libgcc-5-dev (= 5.4.0-6ubuntu1~16.04.2), libstdc++6 (>= 5.4.0-6ubuntu1~16.04.2), libc6-dev (>= 2.13-0ubuntu6)
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libgcc-5-dev (= 5.4.0-6ubuntu1~16.04.4), libstdc++6 (>= 5.4.0-6ubuntu1~16.04.4), libc6-dev (>= 2.13-0ubuntu6)
 Suggests: libstdc++-5-doc
 Conflicts: libg++2.8-dev, libg++27-dev, libg++272-dev (<< 2.7.2.8-1), libstdc++2.10-dev (<< 1:2.95.3-2), libstdc++2.8-dev, libstdc++2.9-dev, libstdc++2.9-glibc2.1-dev, libstdc++3.0-dev
 Description: GNU Standard C++ Library v3 (development files)

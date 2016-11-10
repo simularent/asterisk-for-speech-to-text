@@ -4,30 +4,30 @@ Section: utils
 Installed-Size: 2622
 Maintainer: Alin Andrei <webupd8@gmail.com>
 Architecture: amd64
-Version: 0.8.11-1~webupd8~xenial0
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libmuparser2v5 (>= 2.2.3), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libqt5x11extras5 (>= 5.1.0), libstdc++6 (>= 5.2), libx11-6
-Filename: pool/main/a/albert/albert_0.8.11-1~webupd8~xenial0_amd64.deb
-Size: 585616
-MD5sum: cfdd6a7d5e445a3f0ad2e6874b0a7245
-SHA1: 6f042027cbe10108b264cefb8c7fa7acbd879b94
-SHA256: 909a7de627ae46fd0e2b521bcc32ea8393ca06ef2d9125f6051ed1057a32ea05
+Version: 0.8.11-1~webupd8~xenial1
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libmuparser2v5 (>= 2.2.3), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libqt5x11extras5 (>= 5.1.0), libstdc++6 (>= 5.2), libx11-6, libqt5sql5-sqlite
+Filename: pool/main/a/albert/albert_0.8.11-1~webupd8~xenial1_amd64.deb
+Size: 586704
+MD5sum: a22dd6c076103c7be9f9a55fdb2d8bc0
+SHA1: adc73d2afcad2d48a27a0c2666f59cb68717ef79
+SHA256: c5100f9281ef87df343cb28d8ffec852bebf5d43dd481e1b8fc62eb5726c7121
 Description: Albert Launcher
 Description-md5: 65340123144b0fbe1500f64d763ee55a
 
 Package: youtube-dl
 Priority: extra
 Section: web
-Installed-Size: 4310
+Installed-Size: 4343
 Maintainer: Rogério Brito <rbrito@ime.usp.br>
 Architecture: all
-Version: 1:2016.10.31-1~webupd8~xenial0
+Version: 1:2016.11.08.1-1~webupd8~xenial0
 Recommends: aria2 | wget | curl, ca-certificates, ffmpeg | libav-tools, mpv | mplayer | mplayer2, rtmpdump
 Depends: python-pkg-resources, python:any (<< 2.8), python:any (>= 2.7.5-5~)
-Filename: pool/main/y/youtube-dl/youtube-dl_2016.10.31-1~webupd8~xenial0_all.deb
-Size: 810544
-MD5sum: 8a51ababf89c6ff4f372f7d162cbfa04
-SHA1: ffe5de57d4fa08a658b977cb264fa1ea5a862845
-SHA256: 5341942ccae1096aa6fe6ccdfbcb89bcaa149149b23c84beb12c7c099ca4358c
+Filename: pool/main/y/youtube-dl/youtube-dl_2016.11.08.1-1~webupd8~xenial0_all.deb
+Size: 816490
+MD5sum: 628116747042054300637eee9b83b14c
+SHA1: 4ab1dae30c9cd900fb0cb1e3c4ed9cae535cfb9a
+SHA256: 5080bf38c382f0e26fbddcfb32c1d2df23b381c11af86d9411e566423f265d3a
 Description: downloader of videos from YouTube and other sites
 Description-md5: 26e4ffa66f541a7d0f35c8f7a62a2d56
 
@@ -1970,14 +1970,14 @@ Section: misc
 Installed-Size: 75
 Maintainer: Alin Andrei <webupd8@gmail.com>
 Architecture: all
-Version: 8.7-1~webupd8~0
+Version: 9.0-1~webupd8~0
 Suggests: textadept-default-cli
 Depends: debconf (>= 0.5) | debconf-2.0, libpng12-0, libgtk2.0-0 (>= 2.18), libncurses5, libncursesw5, libglib2.0-0 (>= 2.28)
-Filename: pool/main/t/textadept/textadept_8.7-1~webupd8~0_all.deb
-Size: 7080
-MD5sum: 5152c47f7166536305d59e63276d987c
-SHA1: 9c53a782ecc6a1da680e3151bf8c376cee3e22ca
-SHA256: 29564f9103c8a4fc8fb3ba7f10dffcc5b70f270db653a378e253f1713540bcb9
+Filename: pool/main/t/textadept/textadept_9.0-1~webupd8~0_all.deb
+Size: 7122
+MD5sum: 46d5d0098a752ad60e5689750b444494
+SHA1: 31c1f80d31b1706e31921ca2f4df18a38998a1c7
+SHA256: 67445b132a51f62b1bca7eea1a0a0182275e7bc3d0ee2823965babfd2ffe9ab5
 Description: Textadept
 Description-md5: 9e2e0f3b564f6e3720da812e08e75bbc
 
@@ -2039,13 +2039,13 @@ Section: x11
 Installed-Size: 402
 Maintainer: Colin GILLE / congelli501 <colingille@hotmail.com>
 Architecture: amd64
-Version: 1.0.11.1+git20160816+1-1~webupd8~xenial0
+Version: 1.0.11.1+git20161105-1~webupd8~xenial0
 Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), libwxbase3.0-0v5 (>= 3.0.2+dfsg), libwxgtk3.0-0v5 (>= 3.0.2+dfsg), parted, coreutils, bash, grub-pc | grub-efi | grub-efi-amd64 | grub-efi-ia32, grub-pc-bin, gksu, ntfsprogs | ntfs-3g (>= 1:2011), p7zip-full
-Filename: pool/main/w/winusb/winusb_1.0.11.1+git20160816+1-1~webupd8~xenial0_amd64.deb
-Size: 168084
-MD5sum: 2d04ab4f60e194494bb41f6d534a7992
-SHA1: 70d5f09de09481c61aeaff316260ac7ff108c029
-SHA256: 36e04637cbe0f90ceb7194fd941299bdd85223c414629bc043bbbe084b3de14b
+Filename: pool/main/w/winusb/winusb_1.0.11.1+git20161105-1~webupd8~xenial0_amd64.deb
+Size: 167484
+MD5sum: 4e90a493bc33e5b2f4928c852bbc4cc0
+SHA1: 7a544470001d2939e4b5fca0a79b55c6451299a5
+SHA256: 65265d6030dc660068756f569598f67ebc7fbe375fd578c585b0f9f63513199c
 Description: WinUSB can create bootable windows installer on usb.
 Description-md5: 2eeec1880f4c6d52b0df7907d46d20fd
 
@@ -2440,13 +2440,13 @@ Section: misc
 Installed-Size: 35
 Maintainer: Alin Andrei <webupd8@gmail.com>
 Architecture: all
-Version: 8.7-1~webupd8~0
+Version: 9.0-1~webupd8~0
 Depends: textadept
-Filename: pool/main/t/textadept/textadept-default-cli_8.7-1~webupd8~0_all.deb
-Size: 2966
-MD5sum: 0ea6f4411ee1adcef218d603ede218f6
-SHA1: d0297da80157ab55cae834973555d01b69a20151
-SHA256: 5794a66c29f8383a15a003f6ef01b8d36cf7c46d0534eb19b7c0bbb9c8e99c41
+Filename: pool/main/t/textadept/textadept-default-cli_9.0-1~webupd8~0_all.deb
+Size: 2974
+MD5sum: 53f6f01ae5e0e3fd9fc2499227d91487
+SHA1: eb8930fa98cdc734d8e511fc2974225c5767bbb4
+SHA256: 7a3e66d39c7c3ee815e43578871e1978532674dbf86c26de9ec2b82b95e157b0
 Description: Textadept default cli
 Description-md5: 28d439f85f85fd834d68c6f09d25bcee
 
@@ -3111,30 +3111,30 @@ Section: misc
 Installed-Size: 21
 Maintainer: Alin Andrei <andrew@webupd8.org>
 Architecture: all
-Version: 1.0+hg20161024-1~webupd8~xenial0
+Version: 1.0+hg20161103-1~webupd8~xenial0
 Depends: purple-hangouts
-Filename: pool/main/p/purple-hangouts/pidgin-hangouts_1.0+hg20161024-1~webupd8~xenial0_all.deb
-Size: 6418
-MD5sum: 80e4eb505147332b633a0b7cd3b5d59b
-SHA1: 2e35ede0f6079544f00ca6b214c86281f55ad0ee
-SHA256: 245fd6e5f952d1b098dc5972b594e80a23388bbabd6aedc57b16cd63095b750d
+Filename: pool/main/p/purple-hangouts/pidgin-hangouts_1.0+hg20161103-1~webupd8~xenial0_all.deb
+Size: 6446
+MD5sum: a246c015b6516e4425b7796c86820a05
+SHA1: 9e9f13d3a2cbe4a45a4acddb2a59be8f8e3d9100
+SHA256: 7118c6c0a02aad7ceea62637aa013c25843c230d0d0ca3e4e2b976b7d1dee8d5
 Description: Hangouts icons and for Pidgin
 Description-md5: 8894af0723e13b23bac5cc2e6a275ea9
 
 Package: purple-hangouts
 Priority: optional
 Section: misc
-Installed-Size: 1005
+Installed-Size: 1009
 Maintainer: Alin Andrei <andrew@webupd8.org>
 Architecture: amd64
-Version: 1.0+hg20161024-1~webupd8~xenial0
+Version: 1.0+hg20161103-1~webupd8~xenial0
 Recommends: pidgin-hangouts
 Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.41.1), libjson-glib-1.0-0 (>= 0.13.4), libprotobuf-c1 (>= 1.0.1), libpurple0 (>= 1:2.10.12)
-Filename: pool/main/p/purple-hangouts/purple-hangouts_1.0+hg20161024-1~webupd8~xenial0_amd64.deb
-Size: 168098
-MD5sum: cff2ef8d7924768cb6f4e6e22d887b18
-SHA1: 995b6fc64e1967e92714e873a4bf9ce9797c1c21
-SHA256: 23af3cc332fe156e8114e1e71c4082a221429c8b4ced59499d0331b5dee082fa
+Filename: pool/main/p/purple-hangouts/purple-hangouts_1.0+hg20161103-1~webupd8~xenial0_amd64.deb
+Size: 169528
+MD5sum: a33a69af6526b06266cda0023634327e
+SHA1: 1c40111a91417ec6e52e6183c22085fb6fb30622
+SHA256: aabc1785f5b459b59ba71bfeacc80db051f0461db22a2afa6d2794fefc628212
 Description: Hangouts Plugin for libpurple / Pidgin
 Description-md5: 0e604a6b38392eac2f10e7fa32c2a277
 
@@ -3282,13 +3282,13 @@ Section: net
 Installed-Size: 105
 Maintainer: Alin Andrei <andrew@webupd8.org>
 Architecture: all
-Version: 0+git20161024-0~webupd8~0
+Version: 0+git20161101-0~webupd8~0
 Depends: python, ffmpeg | libav-tools
-Filename: pool/main/s/stream2chromecast/stream2chromecast_0+git20161024-0~webupd8~0_all.deb
-Size: 25402
-MD5sum: 8ea54f2d6650ca638089109bed622a07
-SHA1: f66582dbc5b65ff5c9d1457b426f6a1bd465c221
-SHA256: 5d582734dc9567826215221f669a6caecbdb6cec3b1bee123b988779686ae204
+Filename: pool/main/s/stream2chromecast/stream2chromecast_0+git20161101-0~webupd8~0_all.deb
+Size: 25522
+MD5sum: f963ab72e8c26eca36d06c07e8cf6d24
+SHA1: da199f221995d3d0e10ddb88e5ad9a6c5ea13a59
+SHA256: 09a48cd298ed97b07d6da436a79d7e6880e4ad8574ba9da0e0e1ab166bc4be7c
 Description: Python Chromecast media streamer for Linux
 Description-md5: ec5e08ce7ba56895b5ef83b17fd7858d
 
@@ -3562,18 +3562,18 @@ Description-md5: 62caff5fd871417e7e2392ab39bf66a9
 Package: prime-indicator-plus
 Priority: extra
 Section: x11
-Installed-Size: 72
+Installed-Size: 75
 Maintainer: Alin Andrei <webupd8@gmail.com>
 Architecture: all
-Version: 1.0.2-1~webupd8~1
-Replaces: prime-indicator
+Version: 1.0.3-1~webupd8~2
+Replaces: nvidia-power-indicator, prime-indicator
 Depends: python3, python3-gi, libappindicator3-1, gir1.2-appindicator3-0.1, gir1.2-gtk-3.0, mesa-utils, nvidia-prime, bbswitch-dkms
-Conflicts: prime-indicator
-Filename: pool/main/p/prime-indicator-plus/prime-indicator-plus_1.0.2-1~webupd8~1_all.deb
-Size: 23562
-MD5sum: 112bb807dc95e7c265f4beb7fadb1073
-SHA1: c5148065d51def66ac416ed5895613839e91b2d5
-SHA256: 4484c4a72de2bcf3c987eccbc744988a02c664887c94686ca4f8a06724bfdc75
+Conflicts: nvidia-power-indicator, prime-indicator
+Filename: pool/main/p/prime-indicator-plus/prime-indicator-plus_1.0.3-1~webupd8~2_all.deb
+Size: 24506
+MD5sum: 3c1c835eb9ce80548ec6c2b7356577c3
+SHA1: 9f344376ec3c01c59a5dba431ab4c3a6771e2670
+SHA256: a2f54a45dde646954fe79c868beddb087f5a05586d5de343a5c930ab27c0c844
 Description: PRIME Indicator Plus
 Description-md5: e1318b8e0bab8c39cc1a77b458cc6483
 

@@ -155,7 +155,7 @@ f934448241b4a2595eceb84aad65af1f  usr/include/linux/elf.h
 e338d542ba01aa5b5aa203f5c94a3633  usr/include/linux/elfcore.h
 b74d0a3ea809d9844f117748e589651b  usr/include/linux/errno.h
 93d24524902216143ec707aa8a246e9a  usr/include/linux/errqueue.h
-0693758e9db5c79f1be92def15bc36ff  usr/include/linux/ethtool.h
+28e65a7a696bae88ce5cd047ceb75f68  usr/include/linux/ethtool.h
 a506bc5de468d2b608ac96ecd854f167  usr/include/linux/eventpoll.h
 9f1a919c08472696c656109b2ab186d7  usr/include/linux/fadvise.h
 ae864522f2ece1cae8f70d1bc9fa506d  usr/include/linux/falloc.h
@@ -633,7 +633,7 @@ d87d9d7d86a2f8f970214b0448afd774  usr/include/linux/v4l2-common.h
 9e8eeccaeb55d9ac154d5adad4812cea  usr/include/linux/v4l2-dv-timings.h
 abd361773b51e44dcb1cd773cf8c67c0  usr/include/linux/v4l2-mediabus.h
 b97f7085a932e6f8f1bdaac24943d340  usr/include/linux/v4l2-subdev.h
-129c82bcdb17a57a085460e68ff88c33  usr/include/linux/version.h
+391ad961eefb042226f6a156bc9a16db  usr/include/linux/version.h
 051654f3bc5de6b714561eee6cd4cf71  usr/include/linux/veth.h
 f0ec8575f746b76a4d67c92a90c616e8  usr/include/linux/vfio.h
 9f5532beb19c3bfd68c8a784d31cbcaf  usr/include/linux/vhost.h
@@ -767,5 +767,5 @@ eb8d9b7615a9734fbf13ce3116d800c6  usr/include/xen/evtchn.h
 3165e5505b74f5785fc1a0cc85d9825f  usr/include/xen/gntalloc.h
 1d92cbe97d686b23d15896449adce9ce  usr/include/xen/gntdev.h
 4e8e92efba225dec08ddb0b2121ab6a0  usr/include/xen/privcmd.h
-f4d2275a51f06e227ebe92ac0c87a67c  usr/share/doc/linux-libc-dev/changelog.Debian.gz
+3284987355ec786bb3d4891c520c1ada  usr/share/doc/linux-libc-dev/changelog.Debian.gz
 a8941f8b5b3adb2ab3bb8d0fd69bc2ac  usr/share/doc/linux-libc-dev/copyright

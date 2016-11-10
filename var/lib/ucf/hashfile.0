@@ -26,3 +26,4 @@ cb36a25e9c9d2c975cb49bbb56f16465  /etc/php/7.0/mods-available/tokenizer.ini
 11686c89e38e05a6c1ef41c186588b21  /etc/php/7.0/mods-available/opcache.ini
 04d2378963688a881deb69b0441f2a80  /etc/php/7.0/mods-available/readline.ini
 2c876fb5d806e1836c4ed2d3fb9e1c0f  /etc/php/7.0/cli/php.ini
+119607f275075f768c738697863e5226  /etc/php/7.0/fpm/php.ini

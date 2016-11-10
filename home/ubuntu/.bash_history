@@ -13,3 +13,6 @@ exit
 sudo su
 exit
 sudo su
+apt-get update
+sudo su
+exit

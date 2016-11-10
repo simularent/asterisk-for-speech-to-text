@@ -1,7 +1,7 @@
-S:disk/by-label/cloudimg-rootfs
 S:disk/by-uuid/87d0529b-216b-4930-9b54-45b0cdca9c06
+S:disk/by-label/cloudimg-rootfs
 W:11
-I:1724911
+I:1736734
 E:ID_PART_TABLE_TYPE=dos
 E:ID_FS_LABEL=cloudimg-rootfs
 E:ID_FS_LABEL_ENC=cloudimg-rootfs

@@ -987,6 +987,33 @@ Checksums-Sha256:
  a62971d20edd4ffd4c6dd03eb5fe3d213777d3807f48b7399bb73688dfd4bc5a 3265819 drupal7_7.44.orig.tar.gz
  0d5f613b965ddd35c01710ad89d284b622c81c66c25da236f93815ed3a0c9e3e 180072 drupal7_7.44-1ubuntu1~16.04.0.debian.tar.xz
 
+Package: dwarfutils
+Binary: dwarfdump, libdwarf-dev
+Version: 20120410-2+deb7u2build0.16.04.1
+Priority: optional
+Section: universe/libs
+Maintainer: Fabian Wolff <fabi.wolff@arcor.de>
+Build-Depends: debhelper (>> 9), quilt (>= 0.47), libelf-dev, binutils-dev
+Architecture: any
+Standards-Version: 3.9.3.1
+Format: 3.0 (quilt)
+Directory: pool/universe/d/dwarfutils
+Files:
+ f2bb95e3e716fda52a5a13137bb9346b 1880 dwarfutils_20120410-2+deb7u2build0.16.04.1.dsc
+ 77c8b351f11738bc9fa50474a69d5b36 1465839 dwarfutils_20120410.orig.tar.gz
+ 1d5c95114785b90bbc7f9b76b59e5e44 13388 dwarfutils_20120410-2+deb7u2build0.16.04.1.debian.tar.xz
+Package-List:
+ dwarfdump deb utils optional arch=any
+ libdwarf-dev deb libdevel optional arch=any
+Checksums-Sha1:
+ 1f73b95bd1f4d8d8b064e699ec40f95e57ea6f33 1880 dwarfutils_20120410-2+deb7u2build0.16.04.1.dsc
+ d634ef7aee475ef118dc40f5d684290ff54cda8a 1465839 dwarfutils_20120410.orig.tar.gz
+ 9ce64989b141e1dfaf33e82f891987cdb5dc664e 13388 dwarfutils_20120410-2+deb7u2build0.16.04.1.debian.tar.xz
+Checksums-Sha256:
+ 966fdc22c6ff8b557b9bc1528d51453495997395caf7ac04eaa0cea299d28793 1880 dwarfutils_20120410-2+deb7u2build0.16.04.1.dsc
+ ad148f07f0937689e6c8265beca09c74c92fad039900967eb9340a4c46a10b6c 1465839 dwarfutils_20120410.orig.tar.gz
+ 501162e446fedf84522db05e784c30742ed5b3b749b1c0d843303e02f732a0fa 13388 dwarfutils_20120410-2+deb7u2build0.16.04.1.debian.tar.xz
+
 Package: evolution
 Binary: evolution, libevolution, evolution-common, evolution-dev, evolution-dbg, evolution-plugins, evolution-plugins-experimental
 Version: 3.18.5.2-0ubuntu3
@@ -1233,6 +1260,38 @@ Checksums-Sha256:
  4452e4e34a694bb443b9c94d8cb38e5eee30c4febc3e7fe4489bebc7ff9b91f8 2129 fpgatools_0.0+201212-1build0.1.dsc
  ae85565323b610c3f34e8b57272ea252da6c858571af35a7c7b6729c0e313b05 183364 fpgatools_0.0+201212.orig.tar.gz
  d3ff8889170611a0b9937f5514ff8587a61d709db54cfc9c9fe856d37f6e5e83 7892 fpgatools_0.0+201212-1build0.1.debian.tar.xz
+
+Package: fwts
+Binary: fwts, libfwtsiasl1, libfwtsacpica1, libfwts1, fwts-frontend, fwts-efi-runtime-dkms
+Version: 16.03.00-0ubuntu1.1
+Priority: optional
+Section: universe/devel
+Maintainer: Firmware Testing Team <fwts-devel@lists.ubuntu.com>
+Build-Depends: debhelper (>= 7.0.50~), autoconf, automake, libtool, libjson0-dev (>= 0.9), flex, bison, hardening-wrapper, dh-autoreconf, dkms, libglib2.0-dev, pkg-config
+Architecture: i386 amd64 armel armhf arm64 ppc64 ppc64el s390x
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Directory: pool/universe/f/fwts
+Files:
+ 873b7c9648006a2b8fc6b78110849883 2568 fwts_16.03.00-0ubuntu1.1.dsc
+ 4b431281b89fe4984d8accc7b7a8382a 3436110 fwts_16.03.00.orig.tar.gz
+ 852b11053a4c34fd6fed256e1bc7ca76 40624 fwts_16.03.00-0ubuntu1.1.debian.tar.xz
+Uploaders: Colin King <colin.king@ubuntu.com>, Keng-Yu Lin <kengyu@ubuntu.com>, Alex Hung <alex.hung@canonical.com>, Ivan Hu <ivan.hu@canonical.com>
+Package-List:
+ fwts deb devel optional arch=i386,amd64,armel,armhf,arm64,ppc64,ppc64el,s390x
+ fwts-efi-runtime-dkms deb devel optional arch=i386,amd64,armel,armhf,arm64,ppc64,ppc64el
+ fwts-frontend deb devel optional arch=i386,amd64,armel,armhf,arm64,ppc64,ppc64el,s390x
+ libfwts1 deb devel optional arch=i386,amd64,armel,armhf,arm64,ppc64,ppc64el,s390x
+ libfwtsacpica1 deb devel optional arch=i386,amd64,armel,armhf,arm64,ppc64,ppc64el,s390x
+ libfwtsiasl1 deb devel optional arch=i386,amd64,armel,armhf,arm64,ppc64,ppc64el,s390x
+Checksums-Sha1:
+ 267d2f2d971352acd12b01d21a46d66839a3b40f 2568 fwts_16.03.00-0ubuntu1.1.dsc
+ c8ec2dde4caf91d916734420ba4930fb10c4d67c 3436110 fwts_16.03.00.orig.tar.gz
+ f202fe4548b8150f137ab8066cb7788ecb491970 40624 fwts_16.03.00-0ubuntu1.1.debian.tar.xz
+Checksums-Sha256:
+ 2f38dd1f75ccdfbb35d6a30d63cd074ab30fb96740828c0660f676a89c937a8f 2568 fwts_16.03.00-0ubuntu1.1.dsc
+ 6e2455eb2ed2f12d8b8e75b7c73ae77c8aaec6f7f728a30517178cb334bfceba 3436110 fwts_16.03.00.orig.tar.gz
+ 4d902671d0e9a87f28d6107f813b3caa101eb9091770876c5df61daad3c4d516 40624 fwts_16.03.00-0ubuntu1.1.debian.tar.xz
 
 Package: gambas3
 Binary: gambas3, gambas3-dev, gambas3-templates, gambas3-gb-cairo, gambas3-gb-clipper, gambas3-gb-dbus, gambas3-gb-form-stock, gambas3-gb-gmp, gambas3-gb-chart, gambas3-gb-compress, gambas3-gb-compress-bzlib2, gambas3-gb-compress-zlib, gambas3-gb-crypt, gambas3-gb-db, gambas3-gb-db-form, gambas3-gb-db-mysql, gambas3-gb-db-odbc, gambas3-gb-db-postgresql, gambas3-gb-db-sqlite3, gambas3-gb-desktop, gambas3-gb-desktop-x11, gambas3-gb-form, gambas3-gb-form-dialog, gambas3-gb-form-editor, gambas3-gb-form-mdi, gambas3-gb-gtk, gambas3-gb-gtk3, gambas3-gb-gtk-opengl, gambas3-gb-gui, gambas3-gb-gui-opengl, gambas3-gb-pdf, gambas3-gb-image, gambas3-gb-image-io, gambas3-gb-image-imlib, gambas3-gb-image-effect, gambas3-gb-inotify, gambas3-gb-markdown, gambas3-gb-net, gambas3-gb-scanner, gambas3-gb-util, gambas3-gb-util-web, gambas3-gb-net-curl, gambas3-gb-net-smtp, gambas3-gb-net-pop3, gambas3-gb-openal, gambas3-gb-opengl, gambas3-gb-opengl-glsl, gambas3-gb-opengl-glu,
@@ -3230,7 +3289,7 @@ Checksums-Sha256:
 
 Package: gnome-shell
 Binary: gnome-shell, gnome-shell-common, gnome-shell-dbg
-Version: 3.18.5-0ubuntu0.1
+Version: 3.18.5-0ubuntu0.2
 Priority: optional
 Section: universe/gnome
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -3241,10 +3300,10 @@ Standards-Version: 3.9.6
 Format: 3.0 (quilt)
 Directory: pool/universe/g/gnome-shell
 Files:
- 4185018fc3187cd7f6d34ac097a941c9 3436 gnome-shell_3.18.5-0ubuntu0.1.dsc
+ 952da5935e74598160bc5b568dca986a 3452 gnome-shell_3.18.5-0ubuntu0.2.dsc
  efd5ba75a00027c24fa469c35417b4c4 1591860 gnome-shell_3.18.5.orig.tar.xz
- cab893634e8e898892589cf6330cc0d1 24568 gnome-shell_3.18.5-0ubuntu0.1.debian.tar.xz
-Uploaders: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Michael Biebl <biebl@debian.org>
+ 7ca03177e398aa6347fecef76ccb772e 24908 gnome-shell_3.18.5-0ubuntu0.2.debian.tar.xz
+Uploaders: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Jeremy Bicha <jbicha@ubuntu.com>, Michael Biebl <biebl@debian.org>
 Homepage: https://wiki.gnome.org/Projects/GnomeShell
 Vcs-Browser: https://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gnome-shell/
 Vcs-Svn: svn://anonscm.debian.org/pkg-gnome/desktop/unstable/gnome-shell
@@ -3253,13 +3312,13 @@ Package-List:
  gnome-shell-common deb gnome optional arch=all
  gnome-shell-dbg deb debug extra arch=linux-any
 Checksums-Sha1:
- a84ff6046873d7b38a14c230abf891279b703611 3436 gnome-shell_3.18.5-0ubuntu0.1.dsc
+ e2d66b705d0b5b645da44fc581588c6ba69a7edf 3452 gnome-shell_3.18.5-0ubuntu0.2.dsc
  4cd90b2b46ce29c9db253b5dd2da216b5ebb9bab 1591860 gnome-shell_3.18.5.orig.tar.xz
- 132f2362ee739410ff5a0da72b84f1656c047731 24568 gnome-shell_3.18.5-0ubuntu0.1.debian.tar.xz
+ 18a5a565cbd8a8f4da9d86cccc3640495f59ca00 24908 gnome-shell_3.18.5-0ubuntu0.2.debian.tar.xz
 Checksums-Sha256:
- d227edcbfbad9391c05583d9d0ee3ca995911814fe31bdb7f40eba4191401e38 3436 gnome-shell_3.18.5-0ubuntu0.1.dsc
+ ddd9f5412c99ff573f7ac4f96afd91297080f81ec38f36bdbcf485ba3cb9555f 3452 gnome-shell_3.18.5-0ubuntu0.2.dsc
  6fc9cd8b43b1ca0669e1c5a9de092a67eea648e38585f0cdb960f08a16c6cb20 1591860 gnome-shell_3.18.5.orig.tar.xz
- ca2a77edd3138515decd4938dadca77f881811caf3662f9d697b2d803c757ff7 24568 gnome-shell_3.18.5-0ubuntu0.1.debian.tar.xz
+ 24f60ea72a4d6d33e4923acc2e6f32f1b8f8ebb04dfd4dbab4b1620f7ce8247a 24908 gnome-shell_3.18.5-0ubuntu0.2.debian.tar.xz
 
 Package: gnome-taquin
 Binary: gnome-taquin
@@ -7095,7 +7154,7 @@ Checksums-Sha256:
 
 Package: linux-meta-snapdragon
 Binary: linux-headers-snapdragon, linux-image-snapdragon, linux-snapdragon, linux-tools-snapdragon
-Version: 4.4.0.1032.24
+Version: 4.4.0.1035.27
 Priority: optional
 Section: universe/devel
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
@@ -7105,8 +7164,8 @@ Standards-Version: 3.6.1
 Format: 1.0
 Directory: pool/universe/l/linux-meta-snapdragon
 Files:
- ecb5236e6a8cc88527dba2992bd3a279 1852 linux-meta-snapdragon_4.4.0.1032.24.dsc
- 958986c0921116a07a7a278af8846e5d 3625 linux-meta-snapdragon_4.4.0.1032.24.tar.gz
+ 0c2a41a785f49a79c2ddece7ab92676f 1850 linux-meta-snapdragon_4.4.0.1035.27.dsc
+ 5d466666f9882c2de62d6b1c637c27a3 3652 linux-meta-snapdragon_4.4.0.1035.27.tar.gz
 Vcs-Git: git://kernel.ubuntu.com/ubuntu/ubuntu-xenial-meta.git snapdragon
 Package-List:
  linux-headers-snapdragon deb metapackages optional arch=arm64
@@ -7114,11 +7173,11 @@ Package-List:
  linux-snapdragon deb metapackages optional arch=arm64
  linux-tools-snapdragon deb metapackages optional arch=arm64
 Checksums-Sha1:
- 1bca391587affb94fdd35cc24dcd161be0d4572c 1852 linux-meta-snapdragon_4.4.0.1032.24.dsc
- f484d69184fbc869349670bee150accd6a802ba9 3625 linux-meta-snapdragon_4.4.0.1032.24.tar.gz
+ 55ebd19018f6521752b867faa78e82215e6e2078 1850 linux-meta-snapdragon_4.4.0.1035.27.dsc
+ a0087faf922e1a37d3b9853fe5fb03725a75aa8f 3652 linux-meta-snapdragon_4.4.0.1035.27.tar.gz
 Checksums-Sha256:
- 190b496f9b7fed214a4b15bbbba64443588e7b225816118b3f4ad2b8a9869b86 1852 linux-meta-snapdragon_4.4.0.1032.24.dsc
- d08724d431591764abf704e06462274df72a2219442ca19c1584a692221e07ca 3625 linux-meta-snapdragon_4.4.0.1032.24.tar.gz
+ b29fb6e9941233a0d71e607cec73023bd69a95b0f32858799781e8b86a244b40 1850 linux-meta-snapdragon_4.4.0.1035.27.dsc
+ 4ebf7e8bc441788a2dc88e668bd1861d568f6947703ab3be10f7b608c7dd90e4 3652 linux-meta-snapdragon_4.4.0.1035.27.tar.gz
 
 Package: linux-raspi2
 Binary: linux-raspi2-headers-4.4.0-1029, linux-raspi2-tools-4.4.0-1029, linux-image-4.4.0-1029-raspi2, linux-headers-4.4.0-1029-raspi2, linux-image-4.4.0-1029-raspi2-dbgsym, linux-tools-4.4.0-1029-raspi2
@@ -7155,8 +7214,8 @@ Checksums-Sha256:
  1f3a90d2ca6a8aa2ea9c3842ec8a3eb13327f571c1a30f5b19fff10a99ee3345 12979820 linux-raspi2_4.4.0-1029.36.diff.gz
 
 Package: linux-snapdragon
-Binary: linux-snapdragon-headers-4.4.0-1032, linux-snapdragon-tools-4.4.0-1032, linux-image-4.4.0-1032-snapdragon, linux-headers-4.4.0-1032-snapdragon, linux-image-4.4.0-1032-snapdragon-dbgsym, linux-tools-4.4.0-1032-snapdragon
-Version: 4.4.0-1032.36
+Binary: linux-snapdragon-headers-4.4.0-1035, linux-snapdragon-tools-4.4.0-1035, linux-image-4.4.0-1035-snapdragon, linux-headers-4.4.0-1035-snapdragon, linux-image-4.4.0-1035-snapdragon-dbgsym, linux-tools-4.4.0-1035-snapdragon
+Version: 4.4.0-1035.39
 Priority: optional
 Section: universe/devel
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
@@ -7167,26 +7226,26 @@ Standards-Version: 3.9.4.0
 Format: 1.0
 Directory: pool/universe/l/linux-snapdragon
 Files:
- b1f973b809a360cb89fe6725bf12f937 3362 linux-snapdragon_4.4.0-1032.36.dsc
+ 683336b6f8a151ecaa856146b4ea764e 3360 linux-snapdragon_4.4.0-1035.39.dsc
  2070b49688e8d7ee7ff4c33590afc698 132860730 linux-snapdragon_4.4.0.orig.tar.gz
- e40480585e7ea29897b2e3da80a1ccf7 12832877 linux-snapdragon_4.4.0-1032.36.diff.gz
+ ffc6b0d5559af930e1cf26464881ad58 13011520 linux-snapdragon_4.4.0-1035.39.diff.gz
 Vcs-Git: git://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/xenial
 Testsuite: autopkgtest
 Package-List:
- linux-headers-4.4.0-1032-snapdragon deb devel optional arch=arm64 profile=!stage1
- linux-image-4.4.0-1032-snapdragon deb kernel optional arch=arm64 profile=!stage1
- linux-image-4.4.0-1032-snapdragon-dbgsym deb devel optional arch=arm64 profile=!stage1
- linux-snapdragon-headers-4.4.0-1032 deb devel optional arch=arm64 profile=!stage1
- linux-snapdragon-tools-4.4.0-1032 deb devel optional arch=arm64 profile=!stage1
- linux-tools-4.4.0-1032-snapdragon deb devel optional arch=arm64 profile=!stage1
+ linux-headers-4.4.0-1035-snapdragon deb devel optional arch=arm64 profile=!stage1
+ linux-image-4.4.0-1035-snapdragon deb kernel optional arch=arm64 profile=!stage1
+ linux-image-4.4.0-1035-snapdragon-dbgsym deb devel optional arch=arm64 profile=!stage1
+ linux-snapdragon-headers-4.4.0-1035 deb devel optional arch=arm64 profile=!stage1
+ linux-snapdragon-tools-4.4.0-1035 deb devel optional arch=arm64 profile=!stage1
+ linux-tools-4.4.0-1035-snapdragon deb devel optional arch=arm64 profile=!stage1
 Checksums-Sha1:
- 148c623c81ae3e1860b23304c6a06f3cee6f2111 3362 linux-snapdragon_4.4.0-1032.36.dsc
+ fc2044403011963662e4501d55cce5ced17addcc 3360 linux-snapdragon_4.4.0-1035.39.dsc
  180ab617036593212274177eff3a67f437c1b5ea 132860730 linux-snapdragon_4.4.0.orig.tar.gz
- 0b150b04a0ecf990b797d80de59def5848979c93 12832877 linux-snapdragon_4.4.0-1032.36.diff.gz
+ 1739ac91bb593793aef379f3b4e25a886d8eb475 13011520 linux-snapdragon_4.4.0-1035.39.diff.gz
 Checksums-Sha256:
- 48de976217c0dc81a201c5f72adea4227c42fab0dd5d793a4a11e9c5f630e622 3362 linux-snapdragon_4.4.0-1032.36.dsc
+ 98b0e63e8d3a71574f3f99bfd43e8f3a40bd07c570aa8660d3220b23ae974f2d 3360 linux-snapdragon_4.4.0-1035.39.dsc
  730e75919b5d30a9bc934ccb300eaedfdf44994ca9ee1d07a46901c46c221357 132860730 linux-snapdragon_4.4.0.orig.tar.gz
- 8e5eda18abd47b42bf99eb389b8f16d2062526a203693c103859c5bfbd781af0 12832877 linux-snapdragon_4.4.0-1032.36.diff.gz
+ b8e144ba8d5cc6770338d1160e0141bc1b6279f219bdeaaafef76f8b31196ac3 13011520 linux-snapdragon_4.4.0-1035.39.diff.gz
 
 Package: llvm-defaults
 Binary: llvm, llvm-runtime, llvm-dev, libllvm-ocaml-dev, clang, clang-tidy, clang-format, libclang1, libclang-dev, lldb
@@ -7783,6 +7842,34 @@ Checksums-Sha256:
  6793a1dd2ee8cd47083af449e21a5badae35f807ff9ae1c60dd537b9bac97f6a 2149 nuitka_0.5.21.2+ds-1~16.04.dsc
  b6f1405244f2b62c4dbac3693dd65f6194c7639fbf552d151bd21438c74bc304 687876 nuitka_0.5.21.2+ds.orig.tar.gz
  bed67f037012402a93853f00ba42f7a96dc65da5431ab47687698d6575178e27 10252 nuitka_0.5.21.2+ds-1~16.04.debian.tar.xz
+
+Package: nvme-cli
+Binary: nvme-cli
+Version: 0.5-1ubuntu0.1
+Priority: optional
+Section: universe/misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Breno Leitao <brenohl@br.ibm.com>
+Build-Depends: debhelper (>= 9), libudev-dev
+Architecture: any
+Standards-Version: 3.9.7
+Format: 3.0 (quilt)
+Directory: pool/universe/n/nvme-cli
+Files:
+ 64b180eaed6091f240a81582192a3ffa 1811 nvme-cli_0.5-1ubuntu0.1.dsc
+ 76c93675dbd2af32835894caea27f793 120326 nvme-cli_0.5.orig.tar.gz
+ f77ba0a331162a6fa45494903dfa52fd 3188 nvme-cli_0.5-1ubuntu0.1.debian.tar.xz
+Homepage: https://github.com/linux-nvme/nvme-cli
+Package-List:
+ nvme-cli deb admin optional arch=any
+Checksums-Sha1:
+ cd456e0794ec028821fc66d37278c31c620be578 1811 nvme-cli_0.5-1ubuntu0.1.dsc
+ e273ab930f237d07ba25da9aad91f9d316fe376d 120326 nvme-cli_0.5.orig.tar.gz
+ bf805db0df91bcad425ccf1999dbee7fdbed99ca 3188 nvme-cli_0.5-1ubuntu0.1.debian.tar.xz
+Checksums-Sha256:
+ 19dd6186e21ca7e218ce6e90459058822fdd9884f0bfc3f327cb037d8ff111f9 1811 nvme-cli_0.5-1ubuntu0.1.dsc
+ 9855667bd3d4ec0d7d53ae1e04f25083b7eee5847c9f0aa31e7e967e8a6245e4 120326 nvme-cli_0.5.orig.tar.gz
+ a22991a50869747ebdf47ebe7ec19fcf657c143cfde203e095f96318482157b1 3188 nvme-cli_0.5-1ubuntu0.1.debian.tar.xz
 
 Package: oce
 Binary: liboce-foundation10, liboce-modeling10, liboce-visualization10, liboce-ocaf-lite10, liboce-ocaf10, oce-draw, liboce-foundation-dev, liboce-modeling-dev, liboce-ocaf-lite-dev, liboce-ocaf-dev, liboce-visualization-dev
@@ -8837,7 +8924,7 @@ Checksums-Sha256:
 
 Package: snapcraft
 Binary: snapcraft, snapcraft-parser, snapcraft-examples
-Version: 2.20
+Version: 2.21
 Priority: extra
 Section: universe/utils
 Maintainer: Snapcraft Team <snapcraft@lists.snapcraft.io>
@@ -8847,8 +8934,8 @@ Standards-Version: 3.9.8
 Format: 3.0 (native)
 Directory: pool/universe/s/snapcraft
 Files:
- 01aff84b0a2be61c322d64f41ea0c0ff 2135 snapcraft_2.20.dsc
- 12582b907a5751d086bd41711f866c38 511300 snapcraft_2.20.tar.xz
+ 20081f2d76e329cd80c11775b1dc5a94 2135 snapcraft_2.21.dsc
+ 557662512474f0397d7f116bb5a10347 512216 snapcraft_2.21.tar.xz
 Homepage: https://github.com/snapcore/snapcraft
 Vcs-Browser: https://github.com/snapcore/snapcraft
 Vcs-Git: https://github.com/snapcore/snapcraft.git
@@ -8858,11 +8945,11 @@ Package-List:
  snapcraft-examples deb utils extra arch=all
  snapcraft-parser deb utils extra arch=all
 Checksums-Sha1:
- 63c54e43d4186052b932a316702130229e06fdfd 2135 snapcraft_2.20.dsc
- 7f32ede18a33ccee9c121844ea946e445fb627d5 511300 snapcraft_2.20.tar.xz
+ 2ebf6de22d6a568f12e263d4ec09d050d7d0859f 2135 snapcraft_2.21.dsc
+ 5cf6a858380b92ac648bd813fae905f49672c891 512216 snapcraft_2.21.tar.xz
 Checksums-Sha256:
- a9c3c3851f21a545e442f1df4d5f4ed5ef8c8037132806dceccbbb7cee72b7f1 2135 snapcraft_2.20.dsc
- 9ae88ee851591051b20a2b8cd6dce1670439e34f625c00aec0e228822bbeddef 511300 snapcraft_2.20.tar.xz
+ a1de08b58d016d9199eb05f831d30fbe5cb27f7719cc9304a2735422ad7f3065 2135 snapcraft_2.21.dsc
+ 3ccb2f4af7fc5e6b88bf1ea1a3afd1ac63995627a6381ca182aeee50be913213 512216 snapcraft_2.21.tar.xz
 
 Package: snapd-xdg-open
 Binary: snapd-xdg-open
@@ -9003,6 +9090,38 @@ Checksums-Sha256:
  e84bbdbb91bc6581d412f82157def500a574d46b5183549371c563fc2a90cbaa 2048 stress-ng_0.05.23-1ubuntu2.dsc
  217c1af5d2ad048937fb195156a84e145e18983910d29e0d90c3498571ff1208 303428 stress-ng_0.05.23.orig.tar.gz
  a50c3bb30764a46459627f4af687d2b1b588c3bd24fb0d811821774388c1161a 31112 stress-ng_0.05.23-1ubuntu2.debian.tar.xz
+
+Package: supertux
+Binary: supertux, supertux-data
+Version: 0.4.0-1ubuntu1
+Priority: optional
+Section: universe/games
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Build-Depends: autotools-dev, cmake (>= 2.6), debhelper (>= 9), libboost-dev, libcurl4-gnutls-dev, libglew-dev, libopenal-dev, libphysfs-dev, libsdl2-dev (>= 2.0.1), libsdl2-image-dev (>= 2.0.0), libvorbis-dev, pkg-config
+Architecture: any all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Directory: pool/universe/s/supertux
+Files:
+ 3cf8066a4c508870e92234cbb6b71cd2 2333 supertux_0.4.0-1ubuntu1.dsc
+ 8acc3aa1077f0da95c99fdd5f4925088 79713147 supertux_0.4.0.orig.tar.bz2
+ fce7f60608ecd69a85a557574dd1a6a5 8912 supertux_0.4.0-1ubuntu1.debian.tar.xz
+Uploaders:  Bartosz Fenski <fenio@debian.org>, Christoph Egger <christoph@debian.org>, Vincent Cheng <vcheng@debian.org>
+Homepage: http://supertuxproject.org/
+Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-games/packages/trunk/supertux/
+Vcs-Svn: svn://anonscm.debian.org/pkg-games/packages/trunk/supertux/
+Package-List:
+ supertux deb games optional arch=any
+ supertux-data deb games optional arch=all
+Checksums-Sha1:
+ 405144c6106aebb0d330dd0502ac5da579e99d42 2333 supertux_0.4.0-1ubuntu1.dsc
+ a2c5ac6ac505e833e5c9ee6ffd4b19b71e570879 79713147 supertux_0.4.0.orig.tar.bz2
+ c699a312c57018efa59122dc96cb02da9ae1ebb7 8912 supertux_0.4.0-1ubuntu1.debian.tar.xz
+Checksums-Sha256:
+ 6ad199e331d85e08ca6295881c0f93962fa6a2ecbabd1c2c0603fa979f41219b 2333 supertux_0.4.0-1ubuntu1.dsc
+ d18dde3c415e619b4bb035e694ffc384be16576250c9df16929d9ec38daff782 79713147 supertux_0.4.0.orig.tar.bz2
+ 80069d018f90d3ac90e48f4eef01353bf41a7976910f05be3d6aed9a159136fd 8912 supertux_0.4.0-1ubuntu1.debian.tar.xz
 
 Package: swauth
 Binary: swauth, python-swauth

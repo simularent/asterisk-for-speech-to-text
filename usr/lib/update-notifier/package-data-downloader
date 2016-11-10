@@ -33,13 +33,15 @@ socket.setdefaulttimeout(60)
 
 DATADIR = "/usr/share/package-data-downloads/"
 STAMPDIR = "/var/lib/update-notifier/package-data-downloads/"
-NOTIFIER_SOURCE_FILE = "/usr/share/update-notifier/package-data-downloads-failed"
+NOTIFIER_SOURCE_FILE = \
+    "/usr/share/update-notifier/package-data-downloads-failed"
 NOTIFIER_FILE = "/var/lib/update-notifier/user.d/data-downloads-failed"
 NOTIFIER_PERMANENT_SOURCE_FILE = NOTIFIER_SOURCE_FILE + '-permanently'
 NOTIFIER_PERMANENT_FILE = NOTIFIER_FILE + '-permanently'
 
 failures = []
 permanent_failures = []
+
 
 def create_or_update_stampfile(file):
     """Create or update the indicated stampfile, and remove failure flags"""
@@ -132,7 +134,8 @@ def trigger_update_notifier(failures, permanent=False):
 
     try:
         if permanent:
-            with open(NOTIFIER_PERMANENT_SOURCE_FILE, 'r', encoding='utf-8') as f:
+            with open(NOTIFIER_PERMANENT_SOURCE_FILE, 'r',
+                      encoding='utf-8') as f:
                 input = f.read()
             output_file = open(NOTIFIER_PERMANENT_FILE, 'w', encoding='utf-8')
         else:
@@ -149,36 +152,39 @@ def trigger_update_notifier(failures, permanent=False):
     packages = [os.path.basename(failure) for failure in failures]
     output_file.write(
         string.Template(input).substitute(
-            {'packages' : ", ".join(packages)}))
+            {'packages': ", ".join(packages)}))
     output_file.close()
+
 
 def get_hook_file_names():
     res = []
     for relfile in os.listdir(DATADIR):
         # ignore files ending in .dpkg-*
         if (os.path.splitext(relfile)[1] and
-            os.path.splitext(relfile)[1].startswith(".dpkg")):
-                continue
+                os.path.splitext(relfile)[1].startswith(".dpkg")):
+            continue
         res.append(relfile)
     return res
+
 
 # we use apt-helper here as this gives us the exact same proxy behavior
 # as apt-get itself (environment/apt-config proxy settings/autodiscover)
 def download_file(uri, sha256_hashsum):
     """Download a URI and checks the given hashsum using apt-helper
-    
+
     Returns: path to the downloaded file or None
     """
     download_dir = os.path.join(STAMPDIR, "partial")
     dest_file = os.path.join(download_dir, os.path.basename(uri))
     ret = subprocess.call(
         ["/usr/lib/apt/apt-helper",
-         "download-file", uri, dest_file, "SHA256:"+sha256_hashsum])
+         "download-file", uri, dest_file, "SHA256:" + sha256_hashsum])
     if ret != 0:
         if os.path.exists(dest_file):
             os.remove(dest_file)
         return None
     return dest_file
+
 
 def process_download_requests():
     """Process requests to download package data files
@@ -203,28 +209,34 @@ def process_download_requests():
         stampfile = os.path.join(STAMPDIR, relfile)
         file = os.path.join(DATADIR, relfile)
         try:
-            hook_date = os.stat(file).st_mtime
-            stamp_date = os.stat(stampfile).st_mtime
-            if hook_date < stamp_date:
+            if not os.path.exists(NOTIFIER_FILE) and \
+                    not os.path.exists(NOTIFIER_PERMANENT_FILE):
+                hook_date = os.stat(file).st_mtime
+                stamp_date = os.stat(stampfile).st_mtime
+                if hook_date < stamp_date:
+                    continue
+            elif os.path.exists(stampfile):
                 continue
+
         except Exception as e:
             if not isinstance(e, OSError):
                 traceback.print_exc(file=sys.stderr)
 
+        print("%s: processing..." % (relfile))
         hook = debian.deb822.Deb822()
         files = []
         sums = []
         for para in hook.iter_paragraphs(open(file)):
-            if 'script' in para:
+            if 'Script' in para:
                 if not files:
                     record_failure(relfile)
                     break
-                command = [para['script']]
+                command = [para['Script']]
 
-                if 'should-download' in para:
+                if 'Should-Download' in para:
                     db = debconf.DebconfCommunicator('update-notifier')
                     try:
-                        should = db.get(para['should-download'])
+                        should = db.get(para['Should-Download'])
                         if should == "false":
                             # Do nothing with this file.
                             break
@@ -268,8 +280,8 @@ def process_download_requests():
 
             # Not in a 'script' stanza, so we should have some urls
             try:
-                files.append(para['url'])
-                sums.append(para['sha256'])
+                files.append(para['Url'])
+                sums.append(para['Sha256'])
             except Exception as e:
                 if not isinstance(e, KeyError):
                     traceback.print_exc(file=sys.stderr)
@@ -291,14 +303,24 @@ def process_download_requests():
                 new_failures = True
         if new_failures:
             trigger_update_notifier(previous_failures, permanent=True)
+        # 2016-09-19 14:36 reset the list of permanent_failures as it caused
+        # tests not to be idempotent
+        permanent_failures.clear()
+    if not previous_failures and os.path.exists(NOTIFIER_PERMANENT_FILE):
+        os.unlink(NOTIFIER_PERMANENT_FILE)
 
     # Filter out new failure reports for permanently-failed packages
     our_failures = [x for x in failures if x not in previous_failures]
+    # 2016-09-19 14:36 reset the list of permanent_failures as it caused
+    # tests not to be idempotent
+    failures.clear()
 
     if our_failures:
         for failure in our_failures:
             mark_hook_failed(failure)
         trigger_update_notifier(our_failures)
+    elif os.path.exists(NOTIFIER_FILE):
+        os.unlink(NOTIFIER_FILE)
 
 
 if __name__ == "__main__":

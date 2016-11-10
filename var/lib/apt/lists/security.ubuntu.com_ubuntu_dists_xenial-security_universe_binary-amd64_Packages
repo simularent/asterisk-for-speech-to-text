@@ -812,6 +812,26 @@ Description-md5: d4d0c88134cc703150a59b83cb68304c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: dwarfdump
+Priority: optional
+Section: universe/utils
+Installed-Size: 549
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Fabian Wolff <fabi.wolff@arcor.de>
+Architecture: amd64
+Source: dwarfutils
+Version: 20120410-2+deb7u2build0.16.04.1
+Depends: libc6 (>= 2.14), libelf1 (>= 0.131), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: pool/universe/d/dwarfutils/dwarfdump_20120410-2+deb7u2build0.16.04.1_amd64.deb
+Size: 195518
+MD5sum: 70c799d859baee2f3aac286fe782029a
+SHA1: 502b98c4223bbf28f0bccfa265d11f92091cd93a
+SHA256: 28ded1f612493fc55760833bebfb06965d3e78b9ad9bb216f83b869849164a8d
+Description: utility to dump DWARF debug information from ELF objects
+Description-md5: a4b92512442e73f16c782bda5090e7ec
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: expat
 Priority: optional
 Section: universe/text
@@ -1033,14 +1053,14 @@ Installed-Size: 208
 Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
-Source: gcc-5 (5.4.0-6ubuntu1~16.04.2)
-Version: 1:5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gcc-5 (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.14)
-Filename: pool/universe/g/gcc-5/fixincludes_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 61734
-MD5sum: b07726a37d798f5650b91186f0710e69
-SHA1: b4b73786c63722b0360223c9ad11c3eb432a8647
-SHA256: 78a5ccb87b96ea71d9c0477bd7db68762fb5c65e2b7403a7b004d3854f91a50f
+Source: gcc-5 (5.4.0-6ubuntu1~16.04.4)
+Version: 1:5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gcc-5 (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.14)
+Filename: pool/universe/g/gcc-5/fixincludes_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 61694
+MD5sum: a9ea9c0bb553124b4e3dc2c4efe58d19
+SHA1: 258a2c1c6e1f759303f10b49bca9f75518371075
+SHA256: 9c05e344ba91f20d06d8594e15a5c3406506b1bf980cba4bc43a2ea0f17abf1e
 Description: Fix non-ANSI header files
 Homepage: http://gcc.gnu.org/
 Description-md5: 4eec63ec6a45894436866732b96c2698
@@ -1055,16 +1075,16 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Replaces: gcc-5-hppa64 (<< 5.2.1-22)
 Provides: gcc-5-hppa64
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4), binutils-hppa64-linux-gnu | binutils-hppa64
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4), binutils-hppa64-linux-gnu | binutils-hppa64
 Conflicts: gcc-3.3-hppa64 (<= 1:3.3.4-5), gcc-3.4-hppa64 (<= 3.4.1-3), gcc-4.7-hppa64 (<< 4.7.3-13), gcc-4.8-hppa64 (<< 4.8.2-22), gcc-4.9-hppa64 (<< 4.9.3-1)
-Filename: pool/universe/g/gcc-5/gcc-5-hppa64-linux-gnu_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 9032884
-MD5sum: ac059aaa8b27b56256574de6265bb5a9
-SHA1: 8634b3c158affbb0f9ec3a2f58d609be1e007bc9
-SHA256: 060986c85d912bf5d778dddd9b64921fbc3dd2df70a5d47f35cc65bcc523d458
+Filename: pool/universe/g/gcc-5/gcc-5-hppa64-linux-gnu_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 8870278
+MD5sum: 2fe4b6db0eb30642aeffff614a69bd2e
+SHA1: b611bec36d42f383c674554f0861656d2f9a87ff
+SHA256: 9a9337e77a21af9b2ac492b71efbc1b97416ce4c00aff003d6f2c92086d54337
 Description: GNU C compiler (cross compiler for hppa64)
 Homepage: http://gcc.gnu.org/
 Description-md5: 0ee0959bbc343ff940f7f385554ffc51
@@ -1079,14 +1099,14 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: all
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Depends: gcc-5-base (>= 5.2.1-23), cpp-5 (>= 5.2.1-23)
 Recommends: gcc-5 (>= 5.2.1-23)
-Filename: pool/universe/g/gcc-5/gcc-5-locales_5.4.0-6ubuntu1~16.04.2_all.deb
+Filename: pool/universe/g/gcc-5/gcc-5-locales_5.4.0-6ubuntu1~16.04.4_all.deb
 Size: 1016
-MD5sum: 4604892dc1fe9c500ee42354bab942e2
-SHA1: ccf253ff4c108bf981661198def777321762d21f
-SHA256: 2a04748df0c1a2e7f65702c7f459e0d3c7bfb3f594a60f556d18cb9fbb77b7f0
+MD5sum: 12fb6c42c0c8c261274fcdc98769c195
+SHA1: e49201cbb22d87ba29b2dec49255a96fa3b06bce
+SHA256: ce26dfee1ca986c85ee47a9b848eef0243bf522daffd68f1dc2914b4fdd19a2b
 Description: GCC, the GNU compiler collection (native language support files)
 Homepage: http://gcc.gnu.org/
 Description-md5: eb5e72cb380341d4ed2ad2d24c34f31d
@@ -1096,18 +1116,18 @@ Origin: Ubuntu
 Package: gcc-5-source
 Priority: optional
 Section: universe/devel
-Installed-Size: 80709
+Installed-Size: 80713
 Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: all
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Depends: make, autoconf2.64, quilt, patchutils, gawk
-Filename: pool/universe/g/gcc-5/gcc-5-source_5.4.0-6ubuntu1~16.04.2_all.deb
-Size: 74570210
-MD5sum: 4fc03d3ac04d8740ee2a304a24a8a400
-SHA1: 30f73121f95c8a7dd6939a91195939fa234f1ffd
-SHA256: 3c1c174d100fa404a504c64a13aa9fd932a87821c62534302206666386d4fcee
+Filename: pool/universe/g/gcc-5/gcc-5-source_5.4.0-6ubuntu1~16.04.4_all.deb
+Size: 74574362
+MD5sum: 1bd3d96cdd62c13b18c1db91743dc062
+SHA1: c2f040510d452697aa66293075ce3a9c4301eccc
+SHA256: 5ecf791ee092ca7315ccfef4e67a1fb1b733a10653be9590666fc1b1c5b20647
 Description: Source of the GNU Compiler Collection
 Homepage: http://gcc.gnu.org/
 Description-md5: cb00049993a8c14b73bb041c050eb8c5
@@ -1117,19 +1137,19 @@ Origin: Ubuntu
 Package: gcc-5-test-results
 Priority: extra
 Section: universe/devel
-Installed-Size: 8528
+Installed-Size: 8645
 Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Replaces: g++-5 (<< 5.2.1-28)
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/gcc-5-test-results_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 8714720
-MD5sum: 472fb45057cbbf3322a239c07f5073b0
-SHA1: 80660b0d0e346bc7fe2901889dea8a2541b639d7
-SHA256: 0e640a84c0eb31b4ab823ced0a96a1ecf63b96514ad384c7399252229a25130f
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/gcc-5-test-results_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 8832938
+MD5sum: 48bb2172f8774ad5853df2c769bb6c41
+SHA1: 4743f271a04f704daa47c775f34dd9e3e29b53e5
+SHA256: b9e2fe9f70caf9effab55b72182f535602a2236d2e79d49e7a22338027172dc7
 Description: Test results for the GCC test suite
 Homepage: http://gcc.gnu.org/
 Description-md5: dc68b9fb54342c9f71afbc0efcf1ade0
@@ -1139,21 +1159,21 @@ Origin: Ubuntu
 Package: gccgo-5
 Priority: optional
 Section: universe/devel
-Installed-Size: 70637
+Installed-Size: 70633
 Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Provides: go-compiler
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gcc-5 (= 5.4.0-6ubuntu1~16.04.2), libgo7 (>= 5.4.0-6ubuntu1~16.04.2), libc6-dev (>= 2.13-0ubuntu6), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4)
-Suggests: gccgo-5-doc, libgo7-dbg (>= 5.4.0-6ubuntu1~16.04.2)
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gcc-5 (= 5.4.0-6ubuntu1~16.04.4), libgo7 (>= 5.4.0-6ubuntu1~16.04.4), libc6-dev (>= 2.13-0ubuntu6), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4)
+Suggests: gccgo-5-doc, libgo7-dbg (>= 5.4.0-6ubuntu1~16.04.4)
 Conflicts: golang-go (<< 2:1.3.3-1ubuntu2)
-Filename: pool/universe/g/gcc-5/gccgo-5_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 12992450
-MD5sum: f29093790b1177e13a8efd063d5d3a1b
-SHA1: 771632cecde36c828338683ca43d7153fd4c2879
-SHA256: 171e2306978cde19a40f9b6bf16590ef74c52405c35e2965d8eed870bb3d6857
+Filename: pool/universe/g/gcc-5/gccgo-5_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 13124440
+MD5sum: d2ba956d17e98935a5b92b72f9bfca45
+SHA1: 9f4f6f407dc967bd9e5f048abe6e31ea242a583d
+SHA256: 0a48beaa3f9062d085d90ee15b555c57eee271f42b0c4cbf9de48d8aaf772f77
 Description: GNU Go compiler
 Homepage: http://gcc.gnu.org/
 Description-md5: 58c2a4ce4d3fe6815f7a6ee86b4db16d
@@ -1168,13 +1188,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gccgo-5 (= 5.4.0-6ubuntu1~16.04.2), gcc-5-multilib (= 5.4.0-6ubuntu1~16.04.2), lib32go7 (>= 5.4.0-6ubuntu1~16.04.2), libx32go7 (>= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/gccgo-5-multilib_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 9051750
-MD5sum: 159e57d97e30a1f14ab8c12741f82161
-SHA1: eac55ac93868fd17aec7ef2f67daeda3b967428f
-SHA256: 291e5fcf658344414043bb06af3cea66d72ceced12bea48308e98439e0f2633c
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gccgo-5 (= 5.4.0-6ubuntu1~16.04.4), gcc-5-multilib (= 5.4.0-6ubuntu1~16.04.4), lib32go7 (>= 5.4.0-6ubuntu1~16.04.4), libx32go7 (>= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/gccgo-5-multilib_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 9054216
+MD5sum: 0bc8eb25a01579f8b2832cbb1e3f30e6
+SHA1: 0c74fabe32d22f1d394dcf57aff32f100c996014
+SHA256: 9127fc46635345d59cdb06dff0816dde04b4573ec0a7bc71629f6c5ff66e6914
 Description: GNU Go compiler (multilib support)
 Homepage: http://gcc.gnu.org/
 Description-md5: 25e9a6929ec801c16cd933e711c7f1ed
@@ -1189,13 +1209,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: all
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Depends: gcc-5-base (>= 5.2.1-23), gcj-5-jdk (>= 5.2.1-23)
-Filename: pool/universe/g/gcc-5/gcj-5-source_5.4.0-6ubuntu1~16.04.2_all.deb
-Size: 11659732
-MD5sum: ad27f06c3e2d7f85fc72abe33850bda9
-SHA1: 9e71d5a1c834f28a4cf775cef3e1ed37b573d37a
-SHA256: 7f7a67633304dde458ac47dc089a704e67a18f2c5872445c013559271034d9f8
+Filename: pool/universe/g/gcc-5/gcj-5-source_5.4.0-6ubuntu1~16.04.4_all.deb
+Size: 11663424
+MD5sum: 580bd31f03d8f11c49facacbd5e83fd5
+SHA1: cc8ed1f5c8e8da298a2a4b4bbc3e8b8d3411833c
+SHA256: d5bf6d5ecce1962d02d7098f3cc3957af8eb0f292d20becb3f996ec509e48b89
 Description: GCJ java sources for use in IDEs like eclipse and netbeans
 Homepage: http://gcc.gnu.org/
 Description-md5: 4c55da0bb9881014d9bba36bde1b8806
@@ -1205,20 +1225,20 @@ Origin: Ubuntu
 Package: gdc-5
 Priority: optional
 Section: universe/devel
-Installed-Size: 23153
+Installed-Size: 23145
 Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Replaces: gdc (<< 4.4.6-5), libphobos-5-dev (<< 5.4.0-1~)
 Provides: d-compiler, d-v2-compiler, gdc
 Depends: gcc-5-base (>= 5.2.1-23), g++-5 (>= 5.2.1-23), libphobos-5-dev (>= 5.2.1-23), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4)
-Filename: pool/universe/g/gcc-5/gdc-5_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 8154328
-MD5sum: 234720ecd24bf5984293a9fb6ac75b6a
-SHA1: a6aa6edcdc9179fcb91893ebe3046dbcab053eef
-SHA256: 1741ea00d33d97adbfdb43e92cfd463852d94e87f7548f44d99b58a0f4ab2225
+Filename: pool/universe/g/gcc-5/gdc-5_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 8148980
+MD5sum: ce7db9039134278e549ef74dd102a3f3
+SHA1: ce6d688d03c971fdd4c2e40d94f6f09297d44314
+SHA256: ce1fcdf273ea2f3dfc70b1903362fc55600067debfc2d4da69475cd05f45a575
 Description: GNU D compiler (version 2)
 Homepage: http://gcc.gnu.org/
 Description-md5: 864a87c3c14c54bac8e1eca97a6eb9a7
@@ -1233,14 +1253,14 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Replaces: lib32phobos-5-dev (<< 5.4.0-1~), lib64phobos-5-dev (<< 5.4.0-1~), libhfphobos-5-dev (<< 5.4.0-1~), libn32phobos-5-dev (<< 5.4.0-1~), libsfphobos-5-dev (<< 5.4.0-1~), libx32phobos-5-dev (<< 5.4.0-1~)
-Depends: gcc-5-base (>= 5.2.1-23), gdc-5 (= 5.4.0-6ubuntu1~16.04.2), gcc-5-multilib (= 5.4.0-6ubuntu1~16.04.2), lib32phobos-5-dev (= 5.4.0-6ubuntu1~16.04.2), libx32phobos-5-dev (= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/gdc-5-multilib_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 1044
-MD5sum: 500578b81fdcd5ceeb6aab45cca77e8e
-SHA1: 7b99147c5559f614a6e3e473b874e2f684e41210
-SHA256: 0e2c055eda5c6e2c984b846c9b6e7e931f450814b96a55761902ecb86c5bf648
+Depends: gcc-5-base (>= 5.2.1-23), gdc-5 (= 5.4.0-6ubuntu1~16.04.4), gcc-5-multilib (= 5.4.0-6ubuntu1~16.04.4), lib32phobos-5-dev (= 5.4.0-6ubuntu1~16.04.4), libx32phobos-5-dev (= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/gdc-5-multilib_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 1040
+MD5sum: ac3cf4662ba0248561be774543889ea5
+SHA1: f2dfdc89623f97ec4076fc02ce52a3bde1f1ba18
+SHA256: 3115b069c4b82139c270c5d4e1ea61b3cd5be8daf45444f65e1cacd80d814c9a
 Description: GNU D compiler (version 2, multilib support)
 Homepage: http://gcc.gnu.org/
 Description-md5: 5bd997d730190f1d6151d11f184d631d
@@ -1328,17 +1348,17 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Replaces: dh-ada-library (<< 6.0), gnat (<< 4.6.1), gnat-4.6-base (= 4.6.4-2), gnat-4.9-base (= 4.9-20140330-1)
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gcc-5 (>= 5.2.1-23), libgnat-5 (>= 5.4.0-6ubuntu1~16.04.2), libc6-dev (>= 2.13-0ubuntu6), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libgnatprj5 (>= 5.4.0-6ubuntu1~16.04.2), libgnatvsn5 (>= 5.4.0-6ubuntu1~16.04.2), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4)
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gcc-5 (>= 5.2.1-23), libgnat-5 (>= 5.4.0-6ubuntu1~16.04.4), libc6-dev (>= 2.13-0ubuntu6), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libgnatprj5 (>= 5.4.0-6ubuntu1~16.04.4), libgnatvsn5 (>= 5.4.0-6ubuntu1~16.04.4), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4)
 Suggests: gnat-5-doc, ada-reference-manual-2012, gnat-5-sjlj
 Conflicts: gnat (<< 4.1), gnat-3.1, gnat-3.2, gnat-3.3, gnat-3.4, gnat-3.5, gnat-4.0, gnat-4.1, gnat-4.2, gnat-4.3, gnat-4.4, gnat-4.6, gnat-4.7, gnat-4.8, gnat-4.9
 Breaks: dh-ada-library (<< 6.0), gnat (<< 4.6.1), gnat-4.6-base (= 4.6.4-2), gnat-4.9-base (= 4.9-20140330-1)
-Filename: pool/universe/g/gcc-5/gnat-5_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 13504186
-MD5sum: 0126295545e6a295897eff2cd6bf72f1
-SHA1: 8c1e11557b4deed7ed3b7cef8a533d6f2d3fa570
-SHA256: 8c3c35a3737de7d65fecfa13eb965b318e9b0cfd5c329db5e05a170fd754c78b
+Filename: pool/universe/g/gcc-5/gnat-5_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 13548190
+MD5sum: 275d8ffb71948da863815f62a576cd0d
+SHA1: 9f4dd45b5d66ec8d45bb83986ffa760971c38a47
+SHA256: 6f9e4dd7c9f99114ca921c35882ee3c327040c6645b49f095849df83bf752582
 Description: GNU Ada compiler
 Homepage: http://gcc.gnu.org/
 Description-md5: 8cebde0cd6b861927a7a457cacc8851f
@@ -1353,15 +1373,15 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: all
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Depends: dpkg (>= 1.15.4) | install-info
 Suggests: gnat-5
 Conflicts: gnat-4.1-doc, gnat-4.2-doc, gnat-4.3-doc, gnat-4.4-doc, gnat-4.6-doc, gnat-4.9-doc
-Filename: pool/universe/g/gcc-5/gnat-5-doc_5.4.0-6ubuntu1~16.04.2_all.deb
-Size: 1154544
-MD5sum: ac5e2e9cae678aa87d534201971f3fc2
-SHA1: 4519cdf524eccb933412cbf457b43a5c2d591ff3
-SHA256: c30db6806593ea0f434db78e4bdc492d1eddc31fdd98cb1d6036af92e6d97c90
+Filename: pool/universe/g/gcc-5/gnat-5-doc_5.4.0-6ubuntu1~16.04.4_all.deb
+Size: 1153550
+MD5sum: a2ca6ae38ecfde3f13b8b246264c35c8
+SHA1: 064e8a2c3dc173117e10d59f4a23b56e870ec4f0
+SHA256: d69454b665b25106908d5d374245c46ba6711b094fb24835ea4449d45ce8753c
 Description: GNU Ada compiler (documentation)
 Homepage: http://gcc.gnu.org/
 Description-md5: 8139d6afb41aa31e17dbd1884d4ab725
@@ -1376,13 +1396,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gnat-5 (= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/gnat-5-sjlj_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 2184556
-MD5sum: 2f48ebd9f9a999fbddd8db3e09551ac2
-SHA1: 585e0d9ddb1e814698e657260bda54ff471b90a4
-SHA256: 22dd6365dd61c440a4760597fa32af4af15b3c977c772e2edd91dc819d643b50
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gnat-5 (= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/gnat-5-sjlj_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 2187516
+MD5sum: aa5af3cfc4e51da140e3a092b78b801b
+SHA1: 72d2ba717a688db6e0b97120d6efbaca57cd07a5
+SHA256: 5ce6d950f26e5b24f6873d831f49b4b524d5754abda1a834e1186dc5ec01f165
 Description: GNU Ada compiler (setjump/longjump runtime library)
 Homepage: http://gcc.gnu.org/
 Description-md5: 38183a5764143bf77935e8455d8574ce
@@ -1414,20 +1434,20 @@ Origin: Ubuntu
 Package: gobjc++-5
 Priority: optional
 Section: universe/devel
-Installed-Size: 22192
+Installed-Size: 22184
 Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Provides: objc++-compiler
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gobjc-5 (= 5.4.0-6ubuntu1~16.04.2), g++-5 (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4), libobjc-5-dev (= 5.4.0-6ubuntu1~16.04.2)
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gobjc-5 (= 5.4.0-6ubuntu1~16.04.4), g++-5 (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4), libobjc-5-dev (= 5.4.0-6ubuntu1~16.04.4)
 Suggests: gobjc++-5-multilib, gcc-5-doc (>= 5.2.1-23)
-Filename: pool/universe/g/gcc-5/gobjc++-5_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 8204782
-MD5sum: 2c0c5da77ddc4a8ee92556059516e36c
-SHA1: f0ebb4ffac760bc649db131e7dedec41bb43e518
-SHA256: 6f6f679c511060a07912ee373f5aa9f513d2e1e8fb4c5c070af91f9b6ba01f1c
+Filename: pool/universe/g/gcc-5/gobjc++-5_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 8197288
+MD5sum: b905a7cf17a112b35cf85d856636a6d8
+SHA1: c601fcd6fce2b42d24113a43779e87169f77c0d8
+SHA256: fea0a542733bf51ee25d20e79c31012f67abb837df77d792f0f8164ee832297b
 Description: GNU Objective-C++ compiler
 Homepage: http://gcc.gnu.org/
 Description-md5: b9baa94c6e3efdfa23b7927008258616
@@ -1442,13 +1462,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gobjc++-5 (= 5.4.0-6ubuntu1~16.04.2), g++-5-multilib (= 5.4.0-6ubuntu1~16.04.2), gobjc-5-multilib (= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/gobjc++-5-multilib_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 972
-MD5sum: 1447206046bccc20acd581fa6264107c
-SHA1: 0c5ea13fa994bb57bb6bfffdda6fce586e45b3b0
-SHA256: 26ec92a2aef7f8175a5d2185d2b5267b2dca952fd35b0bb7e81e881c91f6791f
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gobjc++-5 (= 5.4.0-6ubuntu1~16.04.4), g++-5-multilib (= 5.4.0-6ubuntu1~16.04.4), gobjc-5-multilib (= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/gobjc++-5-multilib_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 976
+MD5sum: 05f38830ef32e3195fadb9b93b6be637
+SHA1: 2eb4b1ce05fea3b477a9f64ba97b86937fe7dc44
+SHA256: ecc14cce79ccfd72313d9924c52920470111dbf0c8f05752cf386ded126a5ace
 Description: GNU Objective-C++ compiler (multilib support)
 Homepage: http://gcc.gnu.org/
 Description-md5: 4ebddb68adf8e3d2b7023dd3d5bac0b7
@@ -1458,20 +1478,20 @@ Origin: Ubuntu
 Package: gobjc-5
 Priority: optional
 Section: universe/devel
-Installed-Size: 20689
+Installed-Size: 20681
 Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Provides: objc-compiler
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gcc-5 (= 5.4.0-6ubuntu1~16.04.2), libc6-dev (>= 2.13-0ubuntu6), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4), libobjc-5-dev (= 5.4.0-6ubuntu1~16.04.2)
-Suggests: gobjc-5-multilib, gcc-5-doc (>= 5.2.1-23), libobjc4-dbg (>= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/gobjc-5_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 7562980
-MD5sum: 394fa55fece82978c046df12956c4491
-SHA1: d930e6b600bd4b3e2e12459f0bed07f279194e5c
-SHA256: 3882e6f0c4cb46c2953dfe1833e706f30ce054f43040111d31354512d4ae0c1a
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gcc-5 (= 5.4.0-6ubuntu1~16.04.4), libc6-dev (>= 2.13-0ubuntu6), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4), libobjc-5-dev (= 5.4.0-6ubuntu1~16.04.4)
+Suggests: gobjc-5-multilib, gcc-5-doc (>= 5.2.1-23), libobjc4-dbg (>= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/gobjc-5_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 7559554
+MD5sum: 63003de732b87790bb1643443f4ecb34
+SHA1: e6fd84249ca5f225e7a1257313bf173d5af2e091
+SHA256: acec1c81902ab63e00bd953dfb1dd85aa13ed4837bd2e8cdbc5012fc9bbdc672
 Description: GNU Objective-C compiler
 Homepage: http://gcc.gnu.org/
 Description-md5: ef51de6b57526dc4a161944678606486
@@ -1486,13 +1506,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gobjc-5 (= 5.4.0-6ubuntu1~16.04.2), gcc-5-multilib (= 5.4.0-6ubuntu1~16.04.2), lib32objc-5-dev (= 5.4.0-6ubuntu1~16.04.2), libx32objc-5-dev (= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/gobjc-5-multilib_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 978
-MD5sum: 9bb7afcb20429ac510b88e9abb5115a5
-SHA1: 5495cbb63656d410e4783cb828c3b508b8f2890a
-SHA256: 9d7c47f3533cf1f794a50633d7c491df44806f33b4a841aa46831d866c2d2f79
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gobjc-5 (= 5.4.0-6ubuntu1~16.04.4), gcc-5-multilib (= 5.4.0-6ubuntu1~16.04.4), lib32objc-5-dev (= 5.4.0-6ubuntu1~16.04.4), libx32objc-5-dev (= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/gobjc-5-multilib_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 980
+MD5sum: 1f48a17ed6a9acf81e9853909df71d56
+SHA1: 7cc7317942ae463e98a34ee2479b2510d5b3ff19
+SHA256: 1f6e0aa61ff11f9fc2a81b552bed9b97b2435f406dff2d32ccab7f023ecc59cb
 Description: GNU Objective-C compiler (multilib support)
 Homepage: http://gcc.gnu.org/
 Description-md5: b79f5c8e5ac0b4d1089b9028a80813f3
@@ -1731,14 +1751,14 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Replaces: lib32go3
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), lib32gcc1 (>= 1:4.2), libc6-i386 (>= 2.10)
-Filename: pool/universe/g/gcc-5/lib32go7_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 5100990
-MD5sum: 4bdd734c3faef92c1ec02d79a35b2a85
-SHA1: ae7861b2f472a66d157300fc443f580660ca2a06
-SHA256: 1fd64d43c6be28d1b744bf6d35c1a04321ddc4ef7ccd146232f79b6acb861d9c
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), lib32gcc1 (>= 1:4.2), libc6-i386 (>= 2.10)
+Filename: pool/universe/g/gcc-5/lib32go7_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 5098618
+MD5sum: 09c55ee04ceb608ab87fd4f570ad6d27
+SHA1: d268b29b3786de9198cda99f32c5fbe977d83a8e
+SHA256: 157637604802c0977b72c20916bd78deeb02c187348caf9973bb584d731d39cb
 Description: Runtime library for GNU Go applications (32bit)
 Homepage: http://gcc.gnu.org/
 Description-md5: 7174520aedfeba49e54b8c36f55b7e95
@@ -1753,13 +1773,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), lib32go7 (= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/lib32go7-dbg_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 956
-MD5sum: 3221909c19d2057f66cfa29ed5ee0b4b
-SHA1: 65e94b75ba2b9608ea2dad573b4d7f4b0eaf5a6b
-SHA256: 9abce7716b00f823fc3e6db96c41eb8e4b552d75506c9c2a8e08cf5f2d341bd7
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), lib32go7 (= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/lib32go7-dbg_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 952
+MD5sum: 460514b613a27d1395c467695661421c
+SHA1: c3c57f7a9f73bd8ee353f9b1e14bb282cb473ed6
+SHA256: 95b05ac2b68af7730bed3aee8f272594ac169ae3d0afab482bb2de04e3901560
 Description: Runtime library for GNU Go applications (32 bit debug symbols)
 Homepage: http://gcc.gnu.org/
 Description-md5: c72834060f6b473c88c959fce8644a48
@@ -2198,6 +2218,26 @@ Origin: Ubuntu
 Supported: 3y
 Task: mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master
 
+Package: libdwarf-dev
+Priority: optional
+Section: universe/libdevel
+Installed-Size: 1146
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Fabian Wolff <fabi.wolff@arcor.de>
+Architecture: amd64
+Source: dwarfutils
+Version: 20120410-2+deb7u2build0.16.04.1
+Conflicts: libdw-dev
+Filename: pool/universe/d/dwarfutils/libdwarf-dev_20120410-2+deb7u2build0.16.04.1_amd64.deb
+Size: 652732
+MD5sum: 0ca3dfcf55f55ea41fc95fa9e999170f
+SHA1: bda16912b062ff80d81e246003b2a1b377237b13
+SHA256: 52de52be8cb117b45d7a0fe92bab8a52d2357def941a56db2a42850146e807b6
+Description: library to consume and produce DWARF debug information
+Description-md5: 658f348e29356b31c62b50a69886649b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: libgd-tools
 Priority: optional
 Section: universe/graphics
@@ -2295,13 +2335,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.15), libgcc1 (>= 1:4.2)
-Filename: pool/universe/g/gcc-5/libgnat-5_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 926042
-MD5sum: e1cbedf5ade0eaea6912c9dceebe0417
-SHA1: 041f48ff74472be18ddf45df8aafcb93673fe942
-SHA256: 13c878ba8b59f0de9afb770a3ba0a20d6fd78ccd722f29718adc5691c81a56b3
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.15), libgcc1 (>= 1:4.2)
+Filename: pool/universe/g/gcc-5/libgnat-5_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 926842
+MD5sum: 8e8d9cbd3307f631839842ee1bc80c41
+SHA1: 69f58cc34b05c2d509bdbec4d6051102b51ea3b5
+SHA256: 950e126c36856fb621d32c331659e0e7984d77cbd443c7339ea91f194a5abd9e
 Description: runtime for applications compiled with GNAT (shared library)
 Multi-Arch: same
 Homepage: http://gcc.gnu.org/
@@ -2317,13 +2357,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libgnat-5 (= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/libgnat-5-dbg_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 1711300
-MD5sum: b2a166b3bcb79555e7179027b1eaeeee
-SHA1: d24f39045eca36f2a38b8430342e0a38a8ceadd5
-SHA256: 4ebf868ae84b3b1cc8b45e07af1e94046592aa97cb8cc1c954ad4d7460d786f5
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libgnat-5 (= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/libgnat-5-dbg_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 1711126
+MD5sum: ba2eb04f5eb7e099ded4ce4825a65793
+SHA1: 5b7d9e3cd8b00004203f1397a20084c6efcc65e7
+SHA256: beb861875b614f6c6d3ed8785b2c0c8d13b13970bb50c0fa3b2920aa68b4dffa
 Description: runtime for applications compiled with GNAT (debugging symbols)
 Multi-Arch: same
 Homepage: http://gcc.gnu.org/
@@ -2339,13 +2379,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libgnat-5 (= 5.4.0-6ubuntu1~16.04.2), libgnatvsn5 (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.14), libgcc1 (>= 1:3.0)
-Filename: pool/universe/g/gcc-5/libgnatprj5_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 651228
-MD5sum: 35d78f2bcf699d083796c0141fd80645
-SHA1: 059fa447f7f809fef92dbd9f0e9ceef98ad10b86
-SHA256: 71280817d2d604e181dea38d7b1377d6492de8c011af1497b4bfc2fe49f9b681
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libgnat-5 (= 5.4.0-6ubuntu1~16.04.4), libgnatvsn5 (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.14), libgcc1 (>= 1:3.0)
+Filename: pool/universe/g/gcc-5/libgnatprj5_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 651378
+MD5sum: f791848792056ad76029c12c66167233
+SHA1: 7202e2effbdaaac4a3e9c5e10288d81ea82803e9
+SHA256: 90f86b8b5b9abf692a21ca1f3ce299a45aea68963a985e8010164e4a160509c8
 Description: GNU Ada compiler Project Manager (shared library)
 Multi-Arch: same
 Homepage: http://gcc.gnu.org/
@@ -2361,14 +2401,14 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libgnatprj5 (= 5.4.0-6ubuntu1~16.04.2)
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libgnatprj5 (= 5.4.0-6ubuntu1~16.04.4)
 Suggests: gnat
-Filename: pool/universe/g/gcc-5/libgnatprj5-dbg_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 1502110
-MD5sum: 4bdeb7b0314b536fe95d4151318a296e
-SHA1: 53a4a50dbf99b56bedbae673439d82373b2fddc9
-SHA256: 7d6fce0d1d6ad229655112b223efdd5fef56ef7280dd20b55828ed358a132c0d
+Filename: pool/universe/g/gcc-5/libgnatprj5-dbg_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 1504280
+MD5sum: 11771929540b4fe059d6f2adf2e6b049
+SHA1: d9f1c5eaf22f3606bf7250e7c00aef01f3402fd5
+SHA256: be679ee3dc50fe48bed603b591013cf2e26ffedbfb404ea1217db539c7f2b0a7
 Description: GNU Ada compiler Project Manager (debugging symbols)
 Multi-Arch: same
 Homepage: http://gcc.gnu.org/
@@ -2384,14 +2424,14 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gnat-5 (= 5.4.0-6ubuntu1~16.04.2), libgnatprj5 (= 5.4.0-6ubuntu1~16.04.2), libgnatvsn5-dev (= 5.4.0-6ubuntu1~16.04.2)
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gnat-5 (= 5.4.0-6ubuntu1~16.04.4), libgnatprj5 (= 5.4.0-6ubuntu1~16.04.4), libgnatvsn5-dev (= 5.4.0-6ubuntu1~16.04.4)
 Conflicts: libgnatprj-dev (<< 5), libgnatprj4.1-dev, libgnatprj4.3-dev, libgnatprj4.4-dev, libgnatprj4.5-dev, libgnatprj4.6-dev, libgnatprj4.9-dev
-Filename: pool/universe/g/gcc-5/libgnatprj5-dev_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 3260966
-MD5sum: f5008b7ca8de70ccdabb60e283f46112
-SHA1: f032c2ea6ede8ae2897e47ea7ae0164a103f82c4
-SHA256: a5e3f09f3e111c3bf1f35fa812268146e435501b1dcf3912e21a54b87a229323
+Filename: pool/universe/g/gcc-5/libgnatprj5-dev_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 3261928
+MD5sum: b0f61926cd850432bdf7e3e40f68d448
+SHA1: bbaa9825011d32ed98c1c227105752661366d655
+SHA256: 5199087720ab63ca527d4b427e9f4bf1719d549addd24adff6dac023508b55ff
 Description: GNU Ada compiler Project Manager (development files)
 Homepage: http://gcc.gnu.org/
 Description-md5: ee8c8bb38216ee28da6c5f1eb6380715
@@ -2406,13 +2446,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libgnat-5 (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.14), libgcc1 (>= 1:3.0)
-Filename: pool/universe/g/gcc-5/libgnatvsn5_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 292020
-MD5sum: a92ed4d07dceab847951eda6f1f03674
-SHA1: 7bb760b7ed720d3204eccd1168e3c457d2142427
-SHA256: f302ad72f3505cbc1bf763b4b433135ae084873056dc792f2e7d8de896427002
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libgnat-5 (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.14), libgcc1 (>= 1:3.0)
+Filename: pool/universe/g/gcc-5/libgnatvsn5_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 291596
+MD5sum: 232f049661d65a57a37910b5f3adb5d6
+SHA1: 74f844f60636e1c34a5c82fd6556a0b74393603e
+SHA256: f3aef09f268169c7800a89b011f88050dc1fa96aca5c88aa7f14bcf82131fd9e
 Description: GNU Ada compiler selected components (shared library)
 Multi-Arch: same
 Homepage: http://gcc.gnu.org/
@@ -2428,14 +2468,14 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libgnatvsn5 (= 5.4.0-6ubuntu1~16.04.2)
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libgnatvsn5 (= 5.4.0-6ubuntu1~16.04.4)
 Suggests: gnat
-Filename: pool/universe/g/gcc-5/libgnatvsn5-dbg_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 474690
-MD5sum: 1755f4c9943c13805fdb607f8680c02d
-SHA1: 5f41907977891202144b8ac1c1c8198bbe1aa3a6
-SHA256: 9ffd6584d4739b42d9bdf5cbe3effea58023641ed51da954f3ec40466574f344
+Filename: pool/universe/g/gcc-5/libgnatvsn5-dbg_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 474470
+MD5sum: 370c3c3dacf54bd486ebb7ac33dff32f
+SHA1: ce803c4c8cecfbf01d85e1e18581d62c2e30de32
+SHA256: c7af316904b5a855fca62ad4261748df8576909951fd14b4ceae6554e70f6794
 Description: GNU Ada compiler selected components (debugging symbols)
 Multi-Arch: same
 Homepage: http://gcc.gnu.org/
@@ -2451,14 +2491,14 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gnat-5 (= 5.4.0-6ubuntu1~16.04.2), libgnatvsn5 (= 5.4.0-6ubuntu1~16.04.2)
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gnat-5 (= 5.4.0-6ubuntu1~16.04.4), libgnatvsn5 (= 5.4.0-6ubuntu1~16.04.4)
 Conflicts: libgnatvsn-dev (<< 5), libgnatvsn4.1-dev, libgnatvsn4.3-dev, libgnatvsn4.4-dev, libgnatvsn4.5-dev, libgnatvsn4.6-dev, libgnatvsn4.9-dev
-Filename: pool/universe/g/gcc-5/libgnatvsn5-dev_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 1470444
-MD5sum: 8293f3da9902108f155d897439cd7c46
-SHA1: 967f5cc39a9166bdfe50af3394aab2a89016370d
-SHA256: 25c4c72ae04553001d9f7adfe3f1385d6203defdb145b54bb1d4bb66d947066d
+Filename: pool/universe/g/gcc-5/libgnatvsn5-dev_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 1471448
+MD5sum: 7b58c22098764a87f87e8671d87de83f
+SHA1: 30f879616647ff86f089ebb912385adc12f98bd8
+SHA256: 3fab73892372762828b2a5f97983c650861afd838447eade7eb6698c06843d6d
 Description: GNU Ada compiler selected components (development files)
 Homepage: http://gcc.gnu.org/
 Description-md5: fa344c0d231c640dd6ef6c54f6b9640a
@@ -2473,13 +2513,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libgo7 (= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/libgo7-dbg_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 958
-MD5sum: 88f13be409e9a9e5bb30de6fdf6d25c5
-SHA1: 7f27d6417ddceca11d1dd16bb0c05634b9ca9784
-SHA256: ea9fdc48a020196785c62fdab9fa529dfb33d87e8d316da9fb13ea076dd69efd
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libgo7 (= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/libgo7-dbg_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 956
+MD5sum: 4cb6e847a6cc58d7b1f3201653d598b2
+SHA1: 8d417b223177c793e2f0df3d45c5cc165d071f51
+SHA256: c58f58e2f45abf5f26e075837c648cf187ec8dfc70673e00f12b2dcddf825cf0
 Description: Runtime library for GNU Go applications (debug symbols)
 Multi-Arch: same
 Homepage: http://gcc.gnu.org/
@@ -3805,14 +3845,14 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Replaces: libx32go3
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libc6-x32 (>= 2.16), libx32gcc1 (>= 1:4.2)
-Filename: pool/universe/g/gcc-5/libx32go7_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 6194494
-MD5sum: 19705e19cd382f21ed3c1f315cbe40a0
-SHA1: 291494174d8a1f61b42195d14126135792cd45dc
-SHA256: 09a9a48cb98d241ee2f9ebe6303b3fd5832818de8c3acd7359977bdd20b9b3db
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libc6-x32 (>= 2.16), libx32gcc1 (>= 1:4.2)
+Filename: pool/universe/g/gcc-5/libx32go7_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 6197488
+MD5sum: 3ba60e6df524ce539046c4cf49a4b05e
+SHA1: b191b10da24df1e1889e6381b5160cbc5c8bc2b2
+SHA256: 2448e8cfa2886a1d5c02472a3752f31af06881751d99d0c60f9207f36e443df1
 Description: Runtime library for GNU Go applications (x32)
 Homepage: http://gcc.gnu.org/
 Description-md5: 274d67a4807b2168ae6370f3e1f6a565
@@ -3828,13 +3868,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libx32go7 (= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/libx32go7-dbg_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 952
-MD5sum: 7c5f07e6950b2f746e7e773e64ae770e
-SHA1: d189a2af4a20c13e247b86dc38cb6fe304e3b6d5
-SHA256: 258bb08ea56710145d90cb50016d9a8caee7fa2d1cc9e6d3707b9c742995ed72
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libx32go7 (= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/libx32go7-dbg_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 950
+MD5sum: e360e4138a497ea76f0fe5e267dba04a
+SHA1: 5ba0860c31c5ff21cd2f50faa8437ffcf60a199b
+SHA256: 03a86a354630d1e669f7d00db031fe99dd620802de2571fbee6d8384fef8ea32
 Description: Runtime library for GNU Go applications (x32 debug symbols)
 Homepage: http://gcc.gnu.org/
 Description-md5: ecdc36ec2c26f4d5b8faf65a52d45fa4
@@ -4414,18 +4454,17 @@ Supported: 3y
 Package: openjdk-8-jre-zero
 Priority: extra
 Section: universe/java
-Installed-Size: 6598
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
+Installed-Size: 6606
+Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: amd64
 Source: openjdk-8
-Version: 8u91-b14-3ubuntu1~16.04.1
-Depends: openjdk-8-jre-headless (= 8u91-b14-3ubuntu1~16.04.1), libc6 (>= 2.14), libstdc++6 (>= 4.1.1)
-Filename: pool/universe/o/openjdk-8/openjdk-8-jre-zero_8u91-b14-3ubuntu1~16.04.1_amd64.deb
-Size: 1983914
-MD5sum: 65ff6ab8aeb78fa8f7adcfe8089ebf4f
-SHA1: 51f3bcdfe4e219096ba8709ccbaa0eef2c37854f
-SHA256: a439cc56147b04940d62d3334b8282b44dc771b769be3b3fa171f2cea928deea
+Version: 8u111-b14-2ubuntu0.16.04.2
+Depends: openjdk-8-jre-headless (= 8u111-b14-2ubuntu0.16.04.2), libc6 (>= 2.14), libstdc++6 (>= 4.1.1)
+Filename: pool/universe/o/openjdk-8/openjdk-8-jre-zero_8u111-b14-2ubuntu0.16.04.2_amd64.deb
+Size: 1984782
+MD5sum: 2cc24176c7e84320730da651f46212a4
+SHA1: 514a015903a137860ce61ab2f43561a39afd31f0
+SHA256: 6522ec858bb7969ff51a16a3d916c02ca1361fd721c39918f624c61c0fadc793
 Description: Alternative JVM for OpenJDK, using Zero/Shark
 Multi-Arch: same
 Homepage: http://openjdk.java.net/
@@ -5132,18 +5171,18 @@ Origin: Ubuntu
 Package: qemu
 Priority: optional
 Section: universe/metapackages
-Installed-Size: 458
+Installed-Size: 459
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Architecture: amd64
-Version: 1:2.5+dfsg-5ubuntu10.4
-Depends: qemu-system (>= 1:2.5+dfsg-5ubuntu10.4), qemu-user (>= 1:2.5+dfsg-5ubuntu10.4), qemu-utils (>= 1:2.5+dfsg-5ubuntu10.4)
+Version: 1:2.5+dfsg-5ubuntu10.6
+Depends: qemu-system (>= 1:2.5+dfsg-5ubuntu10.6), qemu-user (>= 1:2.5+dfsg-5ubuntu10.6), qemu-utils (>= 1:2.5+dfsg-5ubuntu10.6)
 Suggests: qemu-user-static
-Filename: pool/universe/q/qemu/qemu_2.5+dfsg-5ubuntu10.4_amd64.deb
-Size: 82974
-MD5sum: 7ff196620bf7cf65f37c8f8882192e4c
-SHA1: 9e6b6c82d1caf9535d4de667644296ea20f7ca5c
-SHA256: fbbd6e1ae51a615d75fddaf8c4527bf09e6d9c4bbbe1e8bee4f5b7655c94da36
+Filename: pool/universe/q/qemu/qemu_2.5+dfsg-5ubuntu10.6_amd64.deb
+Size: 83006
+MD5sum: 59143b5e32ec9ffd72fa7e2fbab0f6ec
+SHA1: 7df00075e08042872a6c289a200b4cac6273ee24
+SHA256: 62ea27c58bb799ed33577a2b1e93e132a0e7c02075f66192757238af28c6f142
 Description: fast processor emulator
 Multi-Arch: foreign
 Homepage: http://www.qemu.org/
@@ -5154,18 +5193,18 @@ Origin: Ubuntu
 Package: qemu-guest-agent
 Priority: optional
 Section: universe/misc
-Installed-Size: 507
+Installed-Size: 508
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: qemu
-Version: 1:2.5+dfsg-5ubuntu10.4
+Version: 1:2.5+dfsg-5ubuntu10.6
 Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.4), libglib2.0-0 (>= 2.16.0)
-Filename: pool/universe/q/qemu/qemu-guest-agent_2.5+dfsg-5ubuntu10.4_amd64.deb
-Size: 132076
-MD5sum: a72d109636c704e51495dbf1519852b3
-SHA1: 7ec46cf29269b085f06fe93f85b7521813f9dbb5
-SHA256: 0eb3979d3096f4ea737aa8d8fd8486d7a510508b6e32ad3ae21a97caa101869e
+Filename: pool/universe/q/qemu/qemu-guest-agent_2.5+dfsg-5ubuntu10.6_amd64.deb
+Size: 133846
+MD5sum: 8ade0e041a93de8ddcd21a1e3e62e44a
+SHA1: e05cfc2d572b0f7cc50acbdc982724b5f6d6312d
+SHA256: 5250bff9e905a1625dd5ca1799d33826760f90c4f54597a340fe4527a1d71b67
 Description: Guest-side qemu-system agent
 Multi-Arch: foreign
 Homepage: http://www.qemu.org/
@@ -5176,22 +5215,22 @@ Origin: Ubuntu
 Package: qemu-user
 Priority: optional
 Section: universe/misc
-Installed-Size: 51154
+Installed-Size: 51155
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: qemu
-Version: 1:2.5+dfsg-5ubuntu10.4
+Version: 1:2.5+dfsg-5ubuntu10.6
 Replaces: qemu-kvm (<< 1.2.0.dfsg-1)
 Depends: libc6 (>= 2.16), libgcc1 (>= 1:4.7), libglib2.0-0 (>= 2.24.0), libstdc++6 (>= 4.6), zlib1g (>= 1:1.1.4)
 Recommends: qemu-user-binfmt
 Suggests: sudo
 Breaks: qemu-kvm (<< 1.2.0.dfsg-1)
-Filename: pool/universe/q/qemu/qemu-user_2.5+dfsg-5ubuntu10.4_amd64.deb
-Size: 6454504
-MD5sum: ff12bfa048083b81abb74e67ac2ee677
-SHA1: affc34e363a32273ea6a710e458c9de6991acb6e
-SHA256: 0c497c744550f003dee4e9be0ff3411e175d4c9a7cadb4fd70c7bbfff56cecc1
+Filename: pool/universe/q/qemu/qemu-user_2.5+dfsg-5ubuntu10.6_amd64.deb
+Size: 6200954
+MD5sum: 1a206bdf5ee6c71e26327f71aa8d699d
+SHA1: 78d6a0102a5404f12b269e4dabcf4db7dd322ad0
+SHA256: 8e701809ab3f4656620c0d9e71fe7fb4d31b3487fd15a0efee29075bb272cd0b
 Description: QEMU user mode emulation binaries
 Multi-Arch: foreign
 Homepage: http://www.qemu.org/
@@ -5207,14 +5246,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: qemu
-Version: 1:2.5+dfsg-5ubuntu10.4
-Depends: qemu-user (= 1:2.5+dfsg-5ubuntu10.4), binfmt-support
+Version: 1:2.5+dfsg-5ubuntu10.6
+Depends: qemu-user (= 1:2.5+dfsg-5ubuntu10.6), binfmt-support
 Conflicts: qemu-user-static
-Filename: pool/universe/q/qemu/qemu-user-binfmt_2.5+dfsg-5ubuntu10.4_amd64.deb
-Size: 2626
-MD5sum: b0fd657572d0fdd38a158374f4d1afca
-SHA1: 60813e3796f12332cc25f0bfa09a2f560b638097
-SHA256: 154257d7cac521c6a265fb362610471f1217890ff23991a75895c62b1f3b401b
+Filename: pool/universe/q/qemu/qemu-user-binfmt_2.5+dfsg-5ubuntu10.6_amd64.deb
+Size: 2640
+MD5sum: a63a607d1230202701f6c4f6445d2c79
+SHA1: bbcbe89f95c29c4de724d57a9dc61dbfb4e07a6c
+SHA256: 2c7ae180c4e7171195a422e8edb469d6f1581f18800da08b26fb1df86d10016c
 Description: QEMU user mode binfmt registration for qemu-user
 Multi-Arch: foreign
 Homepage: http://www.qemu.org/
@@ -5225,23 +5264,23 @@ Origin: Ubuntu
 Package: qemu-user-static
 Priority: optional
 Section: universe/otherosfs
-Installed-Size: 83776
+Installed-Size: 83777
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: qemu
-Version: 1:2.5+dfsg-5ubuntu10.4
+Version: 1:2.5+dfsg-5ubuntu10.6
 Provides: qemu-user-binfmt
 Recommends: binfmt-support
 Suggests: sudo
 Conflicts: qemu-user-binfmt
-Filename: pool/universe/q/qemu/qemu-user-static_2.5+dfsg-5ubuntu10.4_amd64.deb
-Size: 7903184
-MD5sum: b2532ab0260ac477c53ea375f2777b06
-SHA1: 7db6d2471d0b3f54b3c78db14e3af91bdc45ac66
-SHA256: 94c1161f077ef35fa474154f1e1cf61242a4675c29a80b234264625f9a3e3acf
+Filename: pool/universe/q/qemu/qemu-user-static_2.5+dfsg-5ubuntu10.6_amd64.deb
+Size: 7529244
+MD5sum: 12d0e874ede76d6992434c067fc8a8e0
+SHA1: 978d29575adcc8c5b6e926a54c4556778ce8c3e4
+SHA256: a3e3f3e36f3394e5279b8fe095a8e51c193c29ae1f1400e5ff7e202bf64e0fbe
 Description: QEMU user mode emulation binaries (static version)
-Built-Using: gcc-5 (= 5.4.0-6ubuntu1~16.04.2), gccgo-6 (= 6.0.1-0ubuntu1), glib2.0 (= 2.48.0-1ubuntu4), glibc (= 2.23-0ubuntu3), zlib (= 1:1.2.8.dfsg-2ubuntu4)
+Built-Using: gcc-5 (= 5.4.0-6ubuntu1~16.04.4), gccgo-6 (= 6.0.1-0ubuntu1), glib2.0 (= 2.48.0-1ubuntu4), glibc (= 2.23-0ubuntu3), zlib (= 1:1.2.8.dfsg-2ubuntu4)
 Multi-Arch: foreign
 Homepage: http://www.qemu.org/
 Description-md5: 5d8ec17cec68244efa918fa841e2964c

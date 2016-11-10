@@ -11,9 +11,9 @@ lease {
   option broadcast-address 172.31.47.255;
   option host-name "ip-172-31-36-132";
   option domain-name "us-west-2.compute.internal";
-  renew 4 2016/11/03 04:03:41;
-  rebind 4 2016/11/03 04:32:54;
-  expire 4 2016/11/03 04:40:24;
+  renew 4 2016/11/10 20:52:36;
+  rebind 4 2016/11/10 20:52:36;
+  expire 4 2016/11/10 20:52:36;
 }
 lease {
   interface "eth0";
@@ -28,9 +28,9 @@ lease {
   option broadcast-address 172.31.47.255;
   option host-name "ip-172-31-36-132";
   option domain-name "us-west-2.compute.internal";
-  renew 4 2016/11/03 04:28:08;
-  rebind 4 2016/11/03 04:56:11;
-  expire 4 2016/11/03 05:03:41;
+  renew 4 2016/11/10 21:16:34;
+  rebind 4 2016/11/10 21:45:31;
+  expire 4 2016/11/10 21:53:01;
 }
 lease {
   interface "eth0";
@@ -45,7 +45,24 @@ lease {
   option broadcast-address 172.31.47.255;
   option host-name "ip-172-31-36-132";
   option domain-name "us-west-2.compute.internal";
-  renew 4 2016/11/03 04:56:40;
-  rebind 4 2016/11/03 05:20:39;
-  expire 4 2016/11/03 05:28:09;
+  renew 4 2016/11/10 21:39:59;
+  rebind 4 2016/11/10 22:09:04;
+  expire 4 2016/11/10 22:16:34;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.31.36.132;
+  option subnet-mask 255.255.240.0;
+  option routers 172.31.32.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 172.31.0.2;
+  option dhcp-server-identifier 172.31.32.1;
+  option interface-mtu 9001;
+  option broadcast-address 172.31.47.255;
+  option host-name "ip-172-31-36-132";
+  option domain-name "us-west-2.compute.internal";
+  renew 4 2016/11/10 22:09:41;
+  rebind 4 2016/11/10 22:32:29;
+  expire 4 2016/11/10 22:39:59;
 }

@@ -3,8 +3,8 @@ libstdc++ library.
 A baseline file for x86_64-linux-gnu was found.
 Running the check-abi script ...
 
-make[2]: Entering directory '/build/gcc-5-WCNom7/gcc-5-5.4.0/build/x86_64-linux-gnu/libstdc++-v3/testsuite'
-Test Run By buildd on Mon Aug  8 17:10:12 2016
+make[2]: Entering directory '/build/gcc-5-yqC4FC/gcc-5-5.4.0/build/x86_64-linux-gnu/libstdc++-v3/testsuite'
+Test Run By buildd on Thu Nov  3 01:44:21 2016
 Native configuration is x86_64-pc-linux-gnu
 
 		=== libstdc++ tests ===
@@ -21,4 +21,4 @@ Running ../../../../src/libstdc++-v3/testsuite/libstdc++-abi/abi.exp ...
 		=== libstdc++ Summary ===
 
 # of expected passes		1
-make[2]: Leaving directory '/build/gcc-5-WCNom7/gcc-5-5.4.0/build/x86_64-linux-gnu/libstdc++-v3/testsuite'
+make[2]: Leaving directory '/build/gcc-5-yqC4FC/gcc-5-5.4.0/build/x86_64-linux-gnu/libstdc++-v3/testsuite'

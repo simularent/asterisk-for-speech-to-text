@@ -191,7 +191,7 @@ Checksums-Sha256:
 
 Package: curl
 Binary: curl, libcurl3, libcurl3-gnutls, libcurl3-nss, libcurl4-openssl-dev, libcurl4-gnutls-dev, libcurl4-nss-dev, libcurl3-dbg, libcurl4-doc
-Version: 7.47.0-1ubuntu2.1
+Version: 7.47.0-1ubuntu2.2
 Priority: standard
 Section: web
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -203,9 +203,9 @@ Standards-Version: 3.9.6
 Format: 3.0 (quilt)
 Directory: pool/main/c/curl
 Files:
- b45c95f14c2aa4095ea9464d184f83f1 2715 curl_7.47.0-1ubuntu2.1.dsc
+ eac71f560f473139b7018d1012f01dda 2715 curl_7.47.0-1ubuntu2.2.dsc
  5109d1232d208dfd712c0272b8360393 4563163 curl_7.47.0.orig.tar.gz
- 83d16d5907305eae5ef4f7d39aa93b77 30236 curl_7.47.0-1ubuntu2.1.debian.tar.xz
+ 83c3fca2fac0e1cd6adc0ad7a1db9f8a 38164 curl_7.47.0-1ubuntu2.2.debian.tar.xz
 Uploaders: Ian Jackson <ijackson@chiark.greenend.org.uk>
 Homepage: http://curl.haxx.se
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/curl.git
@@ -221,13 +221,13 @@ Package-List:
  libcurl4-nss-dev deb libdevel optional arch=any
  libcurl4-openssl-dev deb libdevel optional arch=any
 Checksums-Sha1:
- 1f648e40d62499df4744a95a8d04e20fd418b2f5 2715 curl_7.47.0-1ubuntu2.1.dsc
+ 0242d6810ab1eb536956cf927fa219dc256b5792 2715 curl_7.47.0-1ubuntu2.2.dsc
  2f8d3edacb1073e1c8f67dc68bba6dc5f3fdbf85 4563163 curl_7.47.0.orig.tar.gz
- 34927d08a56bfd0edb23c363696e933f9c1d0ab5 30236 curl_7.47.0-1ubuntu2.1.debian.tar.xz
+ 7ee3f6957c34a9cf9ae6afe0cc8485c3c92b0e2c 38164 curl_7.47.0-1ubuntu2.2.debian.tar.xz
 Checksums-Sha256:
- 59e3fc297c08e1d141be9defcf2711d261f922accf404911e2f37984d8d6f31f 2715 curl_7.47.0-1ubuntu2.1.dsc
+ d386b77cfb463ae8cf3c3f12b5dc29ec53deb51c4c403bb6feb330af9a64804d 2715 curl_7.47.0-1ubuntu2.2.dsc
  df01bd42af361978d9de7de8529718bcafe01897a544a7650139a1954c55bdfe 4563163 curl_7.47.0.orig.tar.gz
- 092551707bdf5597c7cf95ca7b6f305dbc36bf7409e0fd659fe0f7ccc265889b 30236 curl_7.47.0-1ubuntu2.1.debian.tar.xz
+ 4a0154bfec096266dba8bfc9c27fa0772b35e427defc019b0758c3ac6a8d0e0c 38164 curl_7.47.0-1ubuntu2.2.debian.tar.xz
 
 Package: dbus
 Binary: dbus, dbus-udeb, dbus-x11, libdbus-1-3, libdbus-1-3-udeb, dbus-1-doc, libdbus-1-dev, dbus-1-dbg, dbus-tests, dbus-user-session
@@ -650,10 +650,10 @@ Binary: gcc-5-base, libgcc-5-dev, libgcc4, libgcc4-dbg, lib64gcc-5-dev, lib32gcc
  libhfobjc-5-dev, libsfobjc-5-dev, libobjc4, libobjc4-dbg, lib64objc4, lib64objc4-dbg, lib32objc4, lib32objc4-dbg, libn32objc4, libn32objc4-dbg, libx32objc4, libx32objc4-dbg, libhfobjc4, libhfobjc4-dbg, libsfobjc4, libsfobjc4-dbg, gfortran-5, gfortran-5-multilib, gfortran-5-doc, libgfortran-5-dev, lib64gfortran-5-dev, lib32gfortran-5-dev, libn32gfortran-5-dev, libx32gfortran-5-dev, libhfgfortran-5-dev, libsfgfortran-5-dev, libgfortran3, libgfortran3-dbg, lib64gfortran3, lib64gfortran3-dbg, lib32gfortran3, lib32gfortran3-dbg, libn32gfortran3, libn32gfortran3-dbg, libx32gfortran3, libx32gfortran3-dbg, libhfgfortran3, libhfgfortran3-dbg, libsfgfortran3, libsfgfortran3-dbg, gccgo-5, gccgo-5-multilib, gccgo-5-doc, libgo7, libgo7-dbg, lib64go7, lib64go7-dbg, lib32go7, lib32go7-dbg, libn32go7, libn32go7-dbg, libx32go7, libx32go7-dbg, gcj-5, gcj-5-jdk, gcj-5-jre-headless, gcj-5-jre, libgcj16, gcj-5-jre-lib, libgcj16-awt, libgcj16-dev, libgcj16-dbg, gcj-5-source, libgcj-doc,
  libstdc++6, lib32stdc++6, lib64stdc++6, libn32stdc++6, libx32stdc++6, libhfstdc++6, libsfstdc++6, libstdc++-5-dev, libstdc++-5-pic, libstdc++6-5-dbg, lib32stdc++-5-dev, lib32stdc++6-5-dbg, lib64stdc++-5-dev, lib64stdc++6-5-dbg, libn32stdc++-5-dev, libn32stdc++6-5-dbg, libx32stdc++-5-dev, libx32stdc++6-5-dbg, libhfstdc++-5-dev, libhfstdc++6-5-dbg, libsfstdc++-5-dev, libsfstdc++6-5-dbg, libstdc++-5-doc, gnat-5, gnat-5-sjlj, libgnat-5, libgnat-5-dbg, libgnatvsn5-dev, libgnatvsn5, libgnatvsn5-dbg, libgnatprj5-dev, libgnatprj5, libgnatprj5-dbg, gnat-5-doc, gdc-5, gdc-5-multilib, libphobos-5-dev, lib64phobos-5-dev, lib32phobos-5-dev, libx32phobos-5-dev, libhfphobos-5-dev, libsfphobos-5-dev, fixincludes, gcc-5-doc,
  gcc-5-source
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Priority: important
 Section: devel
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Build-Depends: debhelper (>= 9.20141010), dpkg-dev (>= 1.17.14), g++-multilib [amd64 armel armhf i386 kfreebsd-amd64 mips mips64 mips64el mipsel mipsn32 mipsn32el powerpc ppc64 s390 s390x sparc sparc64 x32] <!cross>, g++-5 [arm64] <!cross>, libc6.1-dev (>= 2.13-0ubuntu6) [alpha ia64] | libc0.3-dev (>= 2.13-0ubuntu6) [hurd-i386] | libc0.1-dev (>= 2.13-0ubuntu6) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.13-0ubuntu6), libc6-dev (>= 2.13-31) [armel armhf], libc6-dev-amd64 [i386 x32], libc6-dev-sparc64 [sparc], libc6-dev-sparc [sparc64], libc6-dev-s390 [s390x], libc6-dev-s390x [s390], libc6-dev-i386 [amd64 x32], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64 mipsn32 mipsn32el mips64 mips64el s390x sparc64 x32], libn32gcc1 [mips mipsel mips64 mips64el], lib64gcc1 [i386 mips mipsel mipsn32 mipsn32el powerpc sparc s390 x32], libc6-dev-mips64 [mips mipsel mipsn32 mipsn32el], libc6-dev-mipsn32 [mips mipsel mips64 mips64el], libc6-dev-mips32 [mipsn32 mipsn32el mips64 mips64el], libc6-dev-x32 [amd64 i386], libx32gcc1 [amd64 i386], libc6-dev-armhf [armel], libhfgcc1 [armel], libc6-dev-armel [armhf], libsfgcc1 [armhf], libc6.1-dbg [alpha ia64] | libc0.3-dbg [hurd-i386] | libc0.1-dbg [kfreebsd-i386 kfreebsd-amd64] | libc6-dbg, kfreebsd-kernel-headers (>= 0.84) [kfreebsd-any], linux-libc-dev [m68k], m4, libtool, autoconf2.64, libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], autogen, gawk, lzma, xz-utils, patchutils, zlib1g-dev, systemtap-sdt-dev [linux-any kfreebsd-any hurd-any], binutils:native (>= 2.26.1) | binutils-multiarch:native (>= 2.26.1), binutils-hppa64-linux-gnu:native (>= 2.26.1) [hppa amd64 i386 x32], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, gdb:native, texinfo (>= 4.3), locales, sharutils, procps, libantlr-java, python:native, libffi-dev, fastjar, libmagic-dev, libecj-java (>= 3.3.0-2), zip, libasound2-dev [!hurd-any !kfreebsd-any], libxtst-dev, libxt-dev, libgtk2.0-dev (>= 2.4.4-2), libart-2.0-dev, libcairo2-dev, libgraphite2-dev, gnat-5:native [!m32r !sh3 !sh3eb !sh4eb !powerpcspe !mips64 !x32], g++-5:native, netbase, libisl-dev, libmpc-dev (>= 1.0), libmpfr-dev (>= 3.0.0-9~), libgmp-dev (>= 2:5.0.1~), dejagnu [!m68k], realpath (>= 1.9.12), chrpath, lsb-release, quilt, g++-5-alpha-linux-gnu [alpha] <cross>, gobjc-5-alpha-linux-gnu [alpha] <cross>, gfortran-5-alpha-linux-gnu [alpha] <cross>, gcj-5-alpha-linux-gnu [alpha] <cross>, gdc-5-alpha-linux-gnu [alpha] <cross>, gccgo-5-alpha-linux-gnu [alpha] <cross>, gnat-5-alpha-linux-gnu [alpha] <cross>, g++-5-x86-64-linux-gnu [amd64] <cross>, gobjc-5-x86-64-linux-gnu [amd64] <cross>, gfortran-5-x86-64-linux-gnu [amd64] <cross>, gcj-5-x86-64-linux-gnu [amd64] <cross>, gdc-5-x86-64-linux-gnu [amd64] <cross>, gccgo-5-x86-64-linux-gnu [amd64] <cross>, gnat-5-x86-64-linux-gnu [amd64] <cross>, g++-5-arm-linux-gnueabi [armel] <cross>, gobjc-5-arm-linux-gnueabi [armel] <cross>, gfortran-5-arm-linux-gnueabi [armel] <cross>, gcj-5-arm-linux-gnueabi [armel] <cross>, gdc-5-arm-linux-gnueabi [armel] <cross>, gccgo-5-arm-linux-gnueabi [armel] <cross>, gnat-5-arm-linux-gnueabi [armel] <cross>, g++-5-arm-linux-gnueabihf [armhf] <cross>, gobjc-5-arm-linux-gnueabihf [armhf] <cross>, gfortran-5-arm-linux-gnueabihf [armhf] <cross>, gcj-5-arm-linux-gnueabihf [armhf] <cross>, gdc-5-arm-linux-gnueabihf [armhf] <cross>, gccgo-5-arm-linux-gnueabihf [armhf] <cross>, gnat-5-arm-linux-gnueabihf [armhf] <cross>, g++-5-aarch64-linux-gnu [arm64] <cross>, gobjc-5-aarch64-linux-gnu [arm64] <cross>, gfortran-5-aarch64-linux-gnu [arm64] <cross>, gcj-5-aarch64-linux-gnu [arm64] <cross>, gdc-5-aarch64-linux-gnu [arm64] <cross>, gccgo-5-aarch64-linux-gnu [arm64] <cross>, gnat-5-aarch64-linux-gnu [arm64] <cross>, g++-5-i686-linux-gnu [i386] <cross>, gobjc-5-i686-linux-gnu [i386] <cross>, gfortran-5-i686-linux-gnu [i386] <cross>, gcj-5-i686-linux-gnu [i386] <cross>, gdc-5-i686-linux-gnu [i386] <cross>, gccgo-5-i686-linux-gnu [i386] <cross>, gnat-5-i686-linux-gnu [i386] <cross>, g++-5-mips-linux-gnu [mips] <cross>, gobjc-5-mips-linux-gnu [mips] <cross>, gfortran-5-mips-linux-gnu [mips] <cross>, gcj-5-mips-linux-gnu [mips] <cross>, gdc-5-mips-linux-gnu [mips] <cross>, gccgo-5-mips-linux-gnu [mips] <cross>, gnat-5-mips-linux-gnu [mips] <cross>, g++-5-mipsel-linux-gnu [mipsel] <cross>, gobjc-5-mipsel-linux-gnu [mipsel] <cross>, gfortran-5-mipsel-linux-gnu [mipsel] <cross>, gcj-5-mipsel-linux-gnu [mipsel] <cross>, gdc-5-mipsel-linux-gnu [mipsel] <cross>, gccgo-5-mipsel-linux-gnu [mipsel] <cross>, gnat-5-mipsel-linux-gnu [mipsel] <cross>, g++-5-mips64-linux-gnuabi64 [mips64] <cross>, gobjc-5-mips64-linux-gnuabi64 [mips64] <cross>, gfortran-5-mips64-linux-gnuabi64 [mips64] <cross>, gcj-5-mips64-linux-gnuabi64 [mips64] <cross>, gdc-5-mips64-linux-gnuabi64 [mips64] <cross>, gccgo-5-mips64-linux-gnuabi64 [mips64] <cross>, g++-5-mips64el-linux-gnuabi64 [mips64el] <cross>, gobjc-5-mips64el-linux-gnuabi64 [mips64el] <cross>, gfortran-5-mips64el-linux-gnuabi64 [mips64el] <cross>, gcj-5-mips64el-linux-gnuabi64 [mips64el] <cross>, gdc-5-mips64el-linux-gnuabi64 [mips64el] <cross>, gccgo-5-mips64el-linux-gnuabi64 [mips64el] <cross>, gnat-5-mips64el-linux-gnuabi64 [mips64el] <cross>, g++-5-powerpc-linux-gnu [powerpc] <cross>, gobjc-5-powerpc-linux-gnu [powerpc] <cross>, gfortran-5-powerpc-linux-gnu [powerpc] <cross>, gcj-5-powerpc-linux-gnu [powerpc] <cross>, gdc-5-powerpc-linux-gnu [powerpc] <cross>, gccgo-5-powerpc-linux-gnu [powerpc] <cross>, gnat-5-powerpc-linux-gnu [powerpc] <cross>, g++-5-powerpc64-linux-gnu [ppc64] <cross>, gobjc-5-powerpc64-linux-gnu [ppc64] <cross>, gfortran-5-powerpc64-linux-gnu [ppc64] <cross>, gcj-5-powerpc64-linux-gnu [ppc64] <cross>, gdc-5-powerpc64-linux-gnu [ppc64] <cross>, gccgo-5-powerpc64-linux-gnu [ppc64] <cross>, gnat-5-powerpc64-linux-gnu [ppc64] <cross>, g++-5-powerpc64le-linux-gnu [ppc64el] <cross>, gobjc-5-powerpc64le-linux-gnu [ppc64el] <cross>, gfortran-5-powerpc64le-linux-gnu [ppc64el] <cross>, gcj-5-powerpc64le-linux-gnu [ppc64el] <cross>, gdc-5-powerpc64le-linux-gnu [ppc64el] <cross>, gccgo-5-powerpc64le-linux-gnu [ppc64el] <cross>, gnat-5-powerpc64le-linux-gnu [ppc64el] <cross>, g++-5-m68k-linux-gnu [m68k] <cross>, gobjc-5-m68k-linux-gnu [m68k] <cross>, gfortran-5-m68k-linux-gnu [m68k] <cross>, gcj-5-m68k-linux-gnu [m68k] <cross>, gdc-5-m68k-linux-gnu [m68k] <cross>, g++-5-sh4-linux-gnu [sh4] <cross>, gobjc-5-sh4-linux-gnu [sh4] <cross>, gfortran-5-sh4-linux-gnu [sh4] <cross>, gcj-5-sh4-linux-gnu [sh4] <cross>, g++-5-sparc64-linux-gnu [sparc64] <cross>, gobjc-5-sparc64-linux-gnu [sparc64] <cross>, gfortran-5-sparc64-linux-gnu [sparc64] <cross>, gcj-5-sparc64-linux-gnu [sparc64] <cross>, gdc-5-sparc64-linux-gnu [sparc64] <cross>, gccgo-5-sparc64-linux-gnu [sparc64] <cross>, g++-5-s390x-linux-gnu [s390x] <cross>, gobjc-5-s390x-linux-gnu [s390x] <cross>, gfortran-5-s390x-linux-gnu [s390x] <cross>, gcj-5-s390x-linux-gnu [s390x] <cross>, gdc-5-s390x-linux-gnu [s390x] <cross>, gccgo-5-s390x-linux-gnu [s390x] <cross>, gnat-5-s390x-linux-gnu [s390x] <cross>, g++-5-x86-64-linux-gnux32 [x32] <cross>, gobjc-5-x86-64-linux-gnux32 [x32] <cross>, gfortran-5-x86-64-linux-gnux32 [x32] <cross>, gcj-5-x86-64-linux-gnux32 [x32] <cross>, gdc-5-x86-64-linux-gnux32 [x32] <cross>, gccgo-5-x86-64-linux-gnux32 [x32] <cross>
 Build-Depends-Indep: doxygen (>= 1.7.2), graphviz (>= 2.2), ghostscript, texlive-latex-base, xsltproc, libxml2-utils, docbook-xsl-ns
@@ -662,9 +662,9 @@ Standards-Version: 3.9.8
 Format: 1.0
 Directory: pool/main/g/gcc-5
 Files:
- 9e035b57ea9105812bf9d7b2c499c316 28620 gcc-5_5.4.0-6ubuntu1~16.04.2.dsc
+ 81a57d6f3f50cbefc69427ea090dcc6e 28631 gcc-5_5.4.0-6ubuntu1~16.04.4.dsc
  6d814e90c59bdc8ec48d447e3b1cd7c8 73530162 gcc-5_5.4.0.orig.tar.gz
- 0f38ff8660ac5ab88c5e76691d497c0e 1451005 gcc-5_5.4.0-6ubuntu1~16.04.2.diff.gz
+ aa4eb096d7c9aa1b2cdbc03c539c32c2 1451941 gcc-5_5.4.0-6ubuntu1~16.04.4.diff.gz
 Uploaders: Matthias Klose <doko@debian.org>
 Homepage: http://gcc.gnu.org/
 Vcs-Browser: http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-5/
@@ -912,13 +912,13 @@ Package-List:
  libx32ubsan0 deb libs optional arch=amd64,i386
  libx32ubsan0-dbg deb debug extra arch=amd64,i386
 Checksums-Sha1:
- fe5c71ea074d7f8996a46191e53943eb557d51fd 28620 gcc-5_5.4.0-6ubuntu1~16.04.2.dsc
+ f15109e5b6af2817244323d09114bbcf4816135d 28631 gcc-5_5.4.0-6ubuntu1~16.04.4.dsc
  6d4f2c656a767fc37f8c307d9c291dba895868c8 73530162 gcc-5_5.4.0.orig.tar.gz
- c3552bf6719dffbf033bf0d9aed02c3bbc4982ab 1451005 gcc-5_5.4.0-6ubuntu1~16.04.2.diff.gz
+ b99d846952689be475e13fbae1a63cdfabebdbe2 1451941 gcc-5_5.4.0-6ubuntu1~16.04.4.diff.gz
 Checksums-Sha256:
- ec87d3abbe966eecead9c1adecce5501bfb9f8623629229eef646199eb19c3a7 28620 gcc-5_5.4.0-6ubuntu1~16.04.2.dsc
+ aa1bf24191d929638953b9420d6c90df7f3dbd82d0bb2e27f02b9bd598c489c5 28631 gcc-5_5.4.0-6ubuntu1~16.04.4.dsc
  00f73e8382aa8653aa501ce2263597c2c4429912bfa18102f47cc362f00ed88d 73530162 gcc-5_5.4.0.orig.tar.gz
- 054be60bd4d1de950f2c2bf9a001877dc67fe928df317d1b8b9bec15935e4214 1451005 gcc-5_5.4.0-6ubuntu1~16.04.2.diff.gz
+ 87c63d2da53e46bf05bef082b015ac14ffcb46467e2fdfd87a4891d742d4697d 1451941 gcc-5_5.4.0-6ubuntu1~16.04.4.diff.gz
 
 Package: gdk-pixbuf
 Binary: libgdk-pixbuf2.0-0, libgdk-pixbuf2.0-0-dbg, libgdk-pixbuf2.0-common, libgdk-pixbuf2.0-dev, libgdk-pixbuf2.0-doc, libgdk-pixbuf2.0-0-udeb, gir1.2-gdkpixbuf-2.0
@@ -1801,10 +1801,10 @@ Checksums-Sha256:
  567ce579212d508e596f88280bca39b73141f0c22fb34c64cf41a5b01d86af6d 37956 libxml2_2.9.3+dfsg1-1ubuntu0.1.debian.tar.xz
 
 Package: linux
-Binary: linux-source-4.4.0, linux-doc, linux-headers-4.4.0-45, linux-libc-dev, linux-tools-common, linux-tools-4.4.0-45, linux-cloud-tools-common, linux-cloud-tools-4.4.0-45, linux-image-4.4.0-45-generic, linux-image-extra-4.4.0-45-generic, linux-headers-4.4.0-45-generic, linux-image-4.4.0-45-generic-dbgsym, linux-tools-4.4.0-45-generic, linux-cloud-tools-4.4.0-45-generic, linux-udebs-generic, linux-image-4.4.0-45-generic-lpae, linux-image-extra-4.4.0-45-generic-lpae, linux-headers-4.4.0-45-generic-lpae, linux-image-4.4.0-45-generic-lpae-dbgsym, linux-tools-4.4.0-45-generic-lpae, linux-cloud-tools-4.4.0-45-generic-lpae, linux-udebs-generic-lpae, linux-image-4.4.0-45-lowlatency, linux-image-extra-4.4.0-45-lowlatency, linux-headers-4.4.0-45-lowlatency, linux-image-4.4.0-45-lowlatency-dbgsym, linux-tools-4.4.0-45-lowlatency, linux-cloud-tools-4.4.0-45-lowlatency, linux-udebs-lowlatency, linux-image-4.4.0-45-powerpc-e500mc, linux-image-extra-4.4.0-45-powerpc-e500mc,
- linux-headers-4.4.0-45-powerpc-e500mc, linux-image-4.4.0-45-powerpc-e500mc-dbgsym, linux-tools-4.4.0-45-powerpc-e500mc, linux-cloud-tools-4.4.0-45-powerpc-e500mc, linux-udebs-powerpc-e500mc, linux-image-4.4.0-45-powerpc-smp, linux-image-extra-4.4.0-45-powerpc-smp, linux-headers-4.4.0-45-powerpc-smp, linux-image-4.4.0-45-powerpc-smp-dbgsym, linux-tools-4.4.0-45-powerpc-smp, linux-cloud-tools-4.4.0-45-powerpc-smp, linux-udebs-powerpc-smp, linux-image-4.4.0-45-powerpc64-emb, linux-image-extra-4.4.0-45-powerpc64-emb, linux-headers-4.4.0-45-powerpc64-emb, linux-image-4.4.0-45-powerpc64-emb-dbgsym, linux-tools-4.4.0-45-powerpc64-emb, linux-cloud-tools-4.4.0-45-powerpc64-emb, linux-udebs-powerpc64-emb, linux-image-4.4.0-45-powerpc64-smp, linux-image-extra-4.4.0-45-powerpc64-smp, linux-headers-4.4.0-45-powerpc64-smp, linux-image-4.4.0-45-powerpc64-smp-dbgsym, linux-tools-4.4.0-45-powerpc64-smp, linux-cloud-tools-4.4.0-45-powerpc64-smp,
+Binary: linux-source-4.4.0, linux-doc, linux-headers-4.4.0-47, linux-libc-dev, linux-tools-common, linux-tools-4.4.0-47, linux-cloud-tools-common, linux-cloud-tools-4.4.0-47, linux-image-4.4.0-47-generic, linux-image-extra-4.4.0-47-generic, linux-headers-4.4.0-47-generic, linux-image-4.4.0-47-generic-dbgsym, linux-tools-4.4.0-47-generic, linux-cloud-tools-4.4.0-47-generic, linux-udebs-generic, linux-image-4.4.0-47-generic-lpae, linux-image-extra-4.4.0-47-generic-lpae, linux-headers-4.4.0-47-generic-lpae, linux-image-4.4.0-47-generic-lpae-dbgsym, linux-tools-4.4.0-47-generic-lpae, linux-cloud-tools-4.4.0-47-generic-lpae, linux-udebs-generic-lpae, linux-image-4.4.0-47-lowlatency, linux-image-extra-4.4.0-47-lowlatency, linux-headers-4.4.0-47-lowlatency, linux-image-4.4.0-47-lowlatency-dbgsym, linux-tools-4.4.0-47-lowlatency, linux-cloud-tools-4.4.0-47-lowlatency, linux-udebs-lowlatency, linux-image-4.4.0-47-powerpc-e500mc, linux-image-extra-4.4.0-47-powerpc-e500mc,
+ linux-headers-4.4.0-47-powerpc-e500mc, linux-image-4.4.0-47-powerpc-e500mc-dbgsym, linux-tools-4.4.0-47-powerpc-e500mc, linux-cloud-tools-4.4.0-47-powerpc-e500mc, linux-udebs-powerpc-e500mc, linux-image-4.4.0-47-powerpc-smp, linux-image-extra-4.4.0-47-powerpc-smp, linux-headers-4.4.0-47-powerpc-smp, linux-image-4.4.0-47-powerpc-smp-dbgsym, linux-tools-4.4.0-47-powerpc-smp, linux-cloud-tools-4.4.0-47-powerpc-smp, linux-udebs-powerpc-smp, linux-image-4.4.0-47-powerpc64-emb, linux-image-extra-4.4.0-47-powerpc64-emb, linux-headers-4.4.0-47-powerpc64-emb, linux-image-4.4.0-47-powerpc64-emb-dbgsym, linux-tools-4.4.0-47-powerpc64-emb, linux-cloud-tools-4.4.0-47-powerpc64-emb, linux-udebs-powerpc64-emb, linux-image-4.4.0-47-powerpc64-smp, linux-image-extra-4.4.0-47-powerpc64-smp, linux-headers-4.4.0-47-powerpc64-smp, linux-image-4.4.0-47-powerpc64-smp-dbgsym, linux-tools-4.4.0-47-powerpc64-smp, linux-cloud-tools-4.4.0-47-powerpc64-smp,
  linux-udebs-powerpc64-smp
-Version: 4.4.0-45.66
+Version: 4.4.0-47.68
 Priority: optional
 Section: devel
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
@@ -1815,61 +1815,61 @@ Standards-Version: 3.9.4.0
 Format: 1.0
 Directory: pool/main/l/linux
 Files:
- 9692978a248732053f1eec4515e6284b 9613 linux_4.4.0-45.66.dsc
+ a3f061d68d129dc2a685fd8678ec90c6 9613 linux_4.4.0-47.68.dsc
  2070b49688e8d7ee7ff4c33590afc698 132860730 linux_4.4.0.orig.tar.gz
- 177a0ef1d9d4d45dfd4bda2f1179351e 11831805 linux_4.4.0-45.66.diff.gz
+ ebf4061ae9535bef40227d432c26bbee 12000806 linux_4.4.0-47.68.diff.gz
 Vcs-Git: git://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/xenial
 Testsuite: autopkgtest
 Package-List:
- linux-cloud-tools-4.4.0-45 deb devel optional arch=i386,amd64,armhf profile=!stage1
- linux-cloud-tools-4.4.0-45-generic deb devel optional arch=i386,amd64,armhf,arm64,ppc64el,s390x profile=!stage1
- linux-cloud-tools-4.4.0-45-generic-lpae deb devel optional arch=armhf profile=!stage1
- linux-cloud-tools-4.4.0-45-lowlatency deb devel optional arch=i386,amd64 profile=!stage1
- linux-cloud-tools-4.4.0-45-powerpc-e500mc deb devel optional arch=powerpc profile=!stage1
- linux-cloud-tools-4.4.0-45-powerpc-smp deb devel optional arch=powerpc profile=!stage1
- linux-cloud-tools-4.4.0-45-powerpc64-emb deb devel optional arch=powerpc profile=!stage1
- linux-cloud-tools-4.4.0-45-powerpc64-smp deb devel optional arch=powerpc profile=!stage1
+ linux-cloud-tools-4.4.0-47 deb devel optional arch=i386,amd64,armhf profile=!stage1
+ linux-cloud-tools-4.4.0-47-generic deb devel optional arch=i386,amd64,armhf,arm64,ppc64el,s390x profile=!stage1
+ linux-cloud-tools-4.4.0-47-generic-lpae deb devel optional arch=armhf profile=!stage1
+ linux-cloud-tools-4.4.0-47-lowlatency deb devel optional arch=i386,amd64 profile=!stage1
+ linux-cloud-tools-4.4.0-47-powerpc-e500mc deb devel optional arch=powerpc profile=!stage1
+ linux-cloud-tools-4.4.0-47-powerpc-smp deb devel optional arch=powerpc profile=!stage1
+ linux-cloud-tools-4.4.0-47-powerpc64-emb deb devel optional arch=powerpc profile=!stage1
+ linux-cloud-tools-4.4.0-47-powerpc64-smp deb devel optional arch=powerpc profile=!stage1
  linux-cloud-tools-common deb kernel optional arch=all profile=!stage1
  linux-doc deb doc optional arch=all profile=!stage1
- linux-headers-4.4.0-45 deb devel optional arch=all profile=!stage1
- linux-headers-4.4.0-45-generic deb devel optional arch=i386,amd64,armhf,arm64,ppc64el,s390x profile=!stage1
- linux-headers-4.4.0-45-generic-lpae deb devel optional arch=armhf profile=!stage1
- linux-headers-4.4.0-45-lowlatency deb devel optional arch=i386,amd64 profile=!stage1
- linux-headers-4.4.0-45-powerpc-e500mc deb devel optional arch=powerpc profile=!stage1
- linux-headers-4.4.0-45-powerpc-smp deb devel optional arch=powerpc profile=!stage1
- linux-headers-4.4.0-45-powerpc64-emb deb devel optional arch=powerpc profile=!stage1
- linux-headers-4.4.0-45-powerpc64-smp deb devel optional arch=powerpc profile=!stage1
- linux-image-4.4.0-45-generic deb kernel optional arch=i386,amd64,armhf,arm64,ppc64el,s390x profile=!stage1
- linux-image-4.4.0-45-generic-dbgsym deb devel optional arch=i386,amd64,armhf,arm64,ppc64el,s390x profile=!stage1
- linux-image-4.4.0-45-generic-lpae deb kernel optional arch=armhf profile=!stage1
- linux-image-4.4.0-45-generic-lpae-dbgsym deb devel optional arch=armhf profile=!stage1
- linux-image-4.4.0-45-lowlatency deb kernel optional arch=i386,amd64 profile=!stage1
- linux-image-4.4.0-45-lowlatency-dbgsym deb devel optional arch=i386,amd64 profile=!stage1
- linux-image-4.4.0-45-powerpc-e500mc deb kernel optional arch=powerpc profile=!stage1
- linux-image-4.4.0-45-powerpc-e500mc-dbgsym deb devel optional arch=powerpc profile=!stage1
- linux-image-4.4.0-45-powerpc-smp deb kernel optional arch=powerpc profile=!stage1
- linux-image-4.4.0-45-powerpc-smp-dbgsym deb devel optional arch=powerpc profile=!stage1
- linux-image-4.4.0-45-powerpc64-emb deb kernel optional arch=powerpc profile=!stage1
- linux-image-4.4.0-45-powerpc64-emb-dbgsym deb devel optional arch=powerpc profile=!stage1
- linux-image-4.4.0-45-powerpc64-smp deb kernel optional arch=powerpc profile=!stage1
- linux-image-4.4.0-45-powerpc64-smp-dbgsym deb devel optional arch=powerpc profile=!stage1
- linux-image-extra-4.4.0-45-generic deb kernel optional arch=i386,amd64,armhf,arm64,ppc64el,s390x profile=!stage1
- linux-image-extra-4.4.0-45-generic-lpae deb kernel optional arch=armhf profile=!stage1
- linux-image-extra-4.4.0-45-lowlatency deb kernel optional arch=i386,amd64 profile=!stage1
- linux-image-extra-4.4.0-45-powerpc-e500mc deb kernel optional arch=powerpc profile=!stage1
- linux-image-extra-4.4.0-45-powerpc-smp deb kernel optional arch=powerpc profile=!stage1
- linux-image-extra-4.4.0-45-powerpc64-emb deb kernel optional arch=powerpc profile=!stage1
- linux-image-extra-4.4.0-45-powerpc64-smp deb kernel optional arch=powerpc profile=!stage1
+ linux-headers-4.4.0-47 deb devel optional arch=all profile=!stage1
+ linux-headers-4.4.0-47-generic deb devel optional arch=i386,amd64,armhf,arm64,ppc64el,s390x profile=!stage1
+ linux-headers-4.4.0-47-generic-lpae deb devel optional arch=armhf profile=!stage1
+ linux-headers-4.4.0-47-lowlatency deb devel optional arch=i386,amd64 profile=!stage1
+ linux-headers-4.4.0-47-powerpc-e500mc deb devel optional arch=powerpc profile=!stage1
+ linux-headers-4.4.0-47-powerpc-smp deb devel optional arch=powerpc profile=!stage1
+ linux-headers-4.4.0-47-powerpc64-emb deb devel optional arch=powerpc profile=!stage1
+ linux-headers-4.4.0-47-powerpc64-smp deb devel optional arch=powerpc profile=!stage1
+ linux-image-4.4.0-47-generic deb kernel optional arch=i386,amd64,armhf,arm64,ppc64el,s390x profile=!stage1
+ linux-image-4.4.0-47-generic-dbgsym deb devel optional arch=i386,amd64,armhf,arm64,ppc64el,s390x profile=!stage1
+ linux-image-4.4.0-47-generic-lpae deb kernel optional arch=armhf profile=!stage1
+ linux-image-4.4.0-47-generic-lpae-dbgsym deb devel optional arch=armhf profile=!stage1
+ linux-image-4.4.0-47-lowlatency deb kernel optional arch=i386,amd64 profile=!stage1
+ linux-image-4.4.0-47-lowlatency-dbgsym deb devel optional arch=i386,amd64 profile=!stage1
+ linux-image-4.4.0-47-powerpc-e500mc deb kernel optional arch=powerpc profile=!stage1
+ linux-image-4.4.0-47-powerpc-e500mc-dbgsym deb devel optional arch=powerpc profile=!stage1
+ linux-image-4.4.0-47-powerpc-smp deb kernel optional arch=powerpc profile=!stage1
+ linux-image-4.4.0-47-powerpc-smp-dbgsym deb devel optional arch=powerpc profile=!stage1
+ linux-image-4.4.0-47-powerpc64-emb deb kernel optional arch=powerpc profile=!stage1
+ linux-image-4.4.0-47-powerpc64-emb-dbgsym deb devel optional arch=powerpc profile=!stage1
+ linux-image-4.4.0-47-powerpc64-smp deb kernel optional arch=powerpc profile=!stage1
+ linux-image-4.4.0-47-powerpc64-smp-dbgsym deb devel optional arch=powerpc profile=!stage1
+ linux-image-extra-4.4.0-47-generic deb kernel optional arch=i386,amd64,armhf,arm64,ppc64el,s390x profile=!stage1
+ linux-image-extra-4.4.0-47-generic-lpae deb kernel optional arch=armhf profile=!stage1
+ linux-image-extra-4.4.0-47-lowlatency deb kernel optional arch=i386,amd64 profile=!stage1
+ linux-image-extra-4.4.0-47-powerpc-e500mc deb kernel optional arch=powerpc profile=!stage1
+ linux-image-extra-4.4.0-47-powerpc-smp deb kernel optional arch=powerpc profile=!stage1
+ linux-image-extra-4.4.0-47-powerpc64-emb deb kernel optional arch=powerpc profile=!stage1
+ linux-image-extra-4.4.0-47-powerpc64-smp deb kernel optional arch=powerpc profile=!stage1
  linux-libc-dev deb devel optional arch=i386,amd64,armhf,arm64,x32,powerpc,ppc64el,s390x
  linux-source-4.4.0 deb devel optional arch=all profile=!stage1
- linux-tools-4.4.0-45 deb devel optional arch=i386,amd64,armhf,arm64,powerpc,ppc64el,s390x profile=!stage1
- linux-tools-4.4.0-45-generic deb devel optional arch=i386,amd64,armhf,arm64,ppc64el,s390x profile=!stage1
- linux-tools-4.4.0-45-generic-lpae deb devel optional arch=armhf profile=!stage1
- linux-tools-4.4.0-45-lowlatency deb devel optional arch=i386,amd64 profile=!stage1
- linux-tools-4.4.0-45-powerpc-e500mc deb devel optional arch=powerpc profile=!stage1
- linux-tools-4.4.0-45-powerpc-smp deb devel optional arch=powerpc profile=!stage1
- linux-tools-4.4.0-45-powerpc64-emb deb devel optional arch=powerpc profile=!stage1
- linux-tools-4.4.0-45-powerpc64-smp deb devel optional arch=powerpc profile=!stage1
+ linux-tools-4.4.0-47 deb devel optional arch=i386,amd64,armhf,arm64,powerpc,ppc64el,s390x profile=!stage1
+ linux-tools-4.4.0-47-generic deb devel optional arch=i386,amd64,armhf,arm64,ppc64el,s390x profile=!stage1
+ linux-tools-4.4.0-47-generic-lpae deb devel optional arch=armhf profile=!stage1
+ linux-tools-4.4.0-47-lowlatency deb devel optional arch=i386,amd64 profile=!stage1
+ linux-tools-4.4.0-47-powerpc-e500mc deb devel optional arch=powerpc profile=!stage1
+ linux-tools-4.4.0-47-powerpc-smp deb devel optional arch=powerpc profile=!stage1
+ linux-tools-4.4.0-47-powerpc64-emb deb devel optional arch=powerpc profile=!stage1
+ linux-tools-4.4.0-47-powerpc64-smp deb devel optional arch=powerpc profile=!stage1
  linux-tools-common deb kernel optional arch=all profile=!stage1
  linux-udebs-generic udeb debian-installer optional arch=i386,amd64,armhf,arm64,ppc64el,s390x profile=!stage1
  linux-udebs-generic-lpae udeb debian-installer optional arch=armhf profile=!stage1
@@ -1879,13 +1879,13 @@ Package-List:
  linux-udebs-powerpc64-emb udeb debian-installer optional arch=powerpc profile=!stage1
  linux-udebs-powerpc64-smp udeb debian-installer optional arch=powerpc profile=!stage1
 Checksums-Sha1:
- 7e44ae91d5bf9b00f606fe3a9dafe42e3fa0259b 9613 linux_4.4.0-45.66.dsc
+ 902da722f168164527fc6bffcf97c2c3c37bca47 9613 linux_4.4.0-47.68.dsc
  180ab617036593212274177eff3a67f437c1b5ea 132860730 linux_4.4.0.orig.tar.gz
- b32f77deccc33e6fae34e4ef3b267e25e304cbd3 11831805 linux_4.4.0-45.66.diff.gz
+ 39faaac061224cfddc1c5a2ce76a31588ae1de17 12000806 linux_4.4.0-47.68.diff.gz
 Checksums-Sha256:
- f096e5b72106b56776c6577d6b7dc6408f2c4083fbfd832f2e4df1bc3b55aea0 9613 linux_4.4.0-45.66.dsc
+ dfc17d6aaf29288167c51ec7a2982fd7073fc618926518e08e95bd33121424c8 9613 linux_4.4.0-47.68.dsc
  730e75919b5d30a9bc934ccb300eaedfdf44994ca9ee1d07a46901c46c221357 132860730 linux_4.4.0.orig.tar.gz
- c6e4bcfb02995ee3faa379a193059bf72635d87f52d9a5aa05ae1fc49bd6ff33 11831805 linux_4.4.0-45.66.diff.gz
+ ad39cfbaea9add01813c0e4192b1d9c0a6784d9b20217a1114e4a7571a700161 12000806 linux_4.4.0-47.68.diff.gz
 
 Package: linux-firmware
 Binary: linux-firmware, nic-firmware, scsi-firmware
@@ -1922,18 +1922,18 @@ Binary: linux-source, linux-crashdump, linux-headers-generic, linux-image-generi
  linux-image-virtual-lts-wily, linux-tools-virtual-lts-wily, linux-cloud-tools-virtual-lts-wily, linux-virtual-lts-wily, linux-image-extra-virtual-lts-wily, linux-headers-generic-lts-xenial, linux-image-generic-lts-xenial, linux-tools-generic-lts-xenial, linux-cloud-tools-generic-lts-xenial, linux-generic-lts-xenial, linux-headers-generic-lpae-lts-xenial, linux-image-generic-lpae-lts-xenial, linux-tools-generic-lpae-lts-xenial, linux-generic-lpae-lts-xenial, linux-headers-lowlatency-lts-xenial, linux-image-lowlatency-lts-xenial, linux-tools-lowlatency-lts-xenial, linux-cloud-tools-lowlatency-lts-xenial, linux-lowlatency-lts-xenial, linux-headers-powerpc-e500mc-lts-xenial, linux-image-powerpc-e500mc-lts-xenial, linux-tools-powerpc-e500mc-lts-xenial, linux-powerpc-e500mc-lts-xenial, linux-headers-powerpc-smp-lts-xenial, linux-image-powerpc-smp-lts-xenial, linux-tools-powerpc-smp-lts-xenial, linux-powerpc-smp-lts-xenial, linux-headers-powerpc64-emb-lts-xenial,
  linux-image-powerpc64-emb-lts-xenial, linux-tools-powerpc64-emb-lts-xenial, linux-powerpc64-emb-lts-xenial, linux-headers-powerpc64-smp-lts-xenial, linux-image-powerpc64-smp-lts-xenial, linux-tools-powerpc64-smp-lts-xenial, linux-powerpc64-smp-lts-xenial, linux-signed-image-generic-lts-xenial, linux-signed-generic-lts-xenial, linux-signed-image-lowlatency-lts-xenial, linux-signed-lowlatency-lts-xenial, linux-headers-virtual-lts-xenial, linux-image-virtual-lts-xenial, linux-tools-virtual-lts-xenial, linux-cloud-tools-virtual-lts-xenial, linux-virtual-lts-xenial, linux-image-extra-virtual-lts-xenial, linux-headers-virtual, linux-image-virtual, linux-tools-virtual, linux-cloud-tools-virtual, linux-virtual,
  linux-image-extra-virtual
-Version: 4.4.0.45.48
+Version: 4.4.0.47.50
 Priority: optional
 Section: devel
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk, linux-headers-4.4.0-45, linux-headers-4.4.0-45-generic [i386 amd64 armhf arm64 ppc64el s390x], linux-headers-4.4.0-45-powerpc-smp [powerpc]
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk, linux-headers-4.4.0-47, linux-headers-4.4.0-47-generic [i386 amd64 armhf arm64 ppc64el s390x], linux-headers-4.4.0-47-powerpc-smp [powerpc]
 Architecture: all i386 amd64 armhf ppc64el s390x arm64 powerpc
 Standards-Version: 3.6.1
 Format: 1.0
 Directory: pool/main/l/linux-meta
 Files:
- d9ca6c164727ad9929f2835ae12df282 22532 linux-meta_4.4.0.45.48.dsc
- 127c7591ae2474b3346600d96e63bd92 12327 linux-meta_4.4.0.45.48.tar.gz
+ 79d8dcde4cdf1fbd1f56dd8f1635d252 22532 linux-meta_4.4.0.47.50.dsc
+ bb2585a4175d431e584dc88d2910415e 12496 linux-meta_4.4.0.47.50.tar.gz
 Vcs-Git: git://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux-meta/+git/xenial
 Package-List:
  linux-cloud-tools-generic deb kernel optional arch=i386,amd64
@@ -2140,36 +2140,36 @@ Package-List:
  linux-virtual-lts-wily deb oldlibs optional arch=i386,amd64,ppc64el
  linux-virtual-lts-xenial deb oldlibs optional arch=i386,amd64,ppc64el
 Checksums-Sha1:
- 8d7c64ed857c9e176d75b6e17470cb628d7b4aa2 22532 linux-meta_4.4.0.45.48.dsc
- e5f0a084e1b1d4f31131cd1c1c521bac378d964b 12327 linux-meta_4.4.0.45.48.tar.gz
+ d2825bf5014be6f559bc40f0335c1ee8ed7738cb 22532 linux-meta_4.4.0.47.50.dsc
+ 7f9e6adacf33b1e7b3450ce97f9dbb2e15ba2e1c 12496 linux-meta_4.4.0.47.50.tar.gz
 Checksums-Sha256:
- 460feae79ea3fcc456b74824b5f6291253e90bbed6dd7fe6a1545c10bc235390 22532 linux-meta_4.4.0.45.48.dsc
- 7b47e40092a9c179dbd058bbb191510726138d5178afba190b264f23c222bad1 12327 linux-meta_4.4.0.45.48.tar.gz
+ 2338f474f09d8d59844757c1d0a08b97dc36467fdf8828c08d7884134985fb92 22532 linux-meta_4.4.0.47.50.dsc
+ af42e215c5632903a01ce0dc0264716abf2bfe30eb9c8e401e2f464552e5746a 12496 linux-meta_4.4.0.47.50.tar.gz
 
 Package: linux-signed
-Binary: linux-signed-image-4.4.0-45-generic, linux-signed-image-4.4.0-45-lowlatency, kernel-signed-image-4.4.0-45-generic-di
-Version: 4.4.0-45.66
+Binary: linux-signed-image-4.4.0-47-generic, linux-signed-image-4.4.0-47-lowlatency, kernel-signed-image-4.4.0-47-generic-di
+Version: 4.4.0-47.68
 Priority: optional
 Section: utils
 Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
-Build-Depends: debhelper (>= 9), lsb-release, python3, python3-apt, sbsigntool, linux-image-4.4.0-45-generic (>= 4.4.0-45.66), linux-image-4.4.0-45-lowlatency (>= 4.4.0-45.66)
+Build-Depends: debhelper (>= 9), lsb-release, python3, python3-apt, sbsigntool, linux-image-4.4.0-47-generic (>= 4.4.0-47.68), linux-image-4.4.0-47-lowlatency (>= 4.4.0-47.68)
 Architecture: linux-amd64
 Standards-Version: 3.9.4
 Format: 3.0 (native)
 Directory: pool/main/l/linux-signed
 Files:
- 4fff176420ea10f7a924a93f25cc1e25 1892 linux-signed_4.4.0-45.66.dsc
- d6d77666d337a5aefa0291699b0e2d63 9276 linux-signed_4.4.0-45.66.tar.xz
+ 77a6db1f6bcb980293745b828adaade8 1892 linux-signed_4.4.0-47.68.dsc
+ b3afe6a8f9d8b0f027b56b66acc27fcc 9328 linux-signed_4.4.0-47.68.tar.xz
 Package-List:
- kernel-signed-image-4.4.0-45-generic-di udeb debian-installer extra arch=linux-amd64
- linux-signed-image-4.4.0-45-generic deb utils optional arch=linux-amd64
- linux-signed-image-4.4.0-45-lowlatency deb utils optional arch=linux-amd64
+ kernel-signed-image-4.4.0-47-generic-di udeb debian-installer extra arch=linux-amd64
+ linux-signed-image-4.4.0-47-generic deb utils optional arch=linux-amd64
+ linux-signed-image-4.4.0-47-lowlatency deb utils optional arch=linux-amd64
 Checksums-Sha1:
- 72e27dea52947118db73368a385d61829cbb8068 1892 linux-signed_4.4.0-45.66.dsc
- 66ad8983e81a649b6602663d19c2debe7e439541 9276 linux-signed_4.4.0-45.66.tar.xz
+ d759e92e7c4fcd204a78f16991e5a9781cf32d40 1892 linux-signed_4.4.0-47.68.dsc
+ 497eb585680aa86b69aec2b7949dcb2f0d28bf45 9328 linux-signed_4.4.0-47.68.tar.xz
 Checksums-Sha256:
- 01872f731e005e46cbe4e295629cd5ab5687f0cd7d75f68de70ae248abc39e7f 1892 linux-signed_4.4.0-45.66.dsc
- 17fc391ff3cc1917297021cf87a5c030355aedb8ed3f34ea8b192d5766064872 9276 linux-signed_4.4.0-45.66.tar.xz
+ 252c9b80aaf67698b0d620e97d0bf5304e7b6b4b3fe3f7471c87af675e6ff3e6 1892 linux-signed_4.4.0-47.68.dsc
+ 701eeff1537e8d6721a4c69671a82791bae4c3a82972979b92b37eaeb288e151 9328 linux-signed_4.4.0-47.68.tar.xz
 
 Package: lxd
 Binary: lxd-client, lxd, lxc2, lxd-tools, golang-github-lxc-lxd-dev
@@ -2236,6 +2236,38 @@ Checksums-Sha256:
  a62a71b5cb4fd882d5d4c4849b590d90fb4d98d4a2b828f7ff762f39d5308ef8 2158 mailman_2.1.20-1ubuntu0.1.dsc
  522c2b5c5ab91398fdf949a8961162c314f6323cd1bfeb907e0fb2d88277711f 9204867 mailman_2.1.20.orig.tar.gz
  56ee05939974127c85202fbf7455ffb2c2a8ed769eaf8c34a9d31a3ef29cd466 104924 mailman_2.1.20-1ubuntu0.1.debian.tar.xz
+
+Package: memcached
+Binary: memcached
+Version: 1.4.25-2ubuntu1.2
+Priority: optional
+Section: web
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: David Martínez Moreno <ender@debian.org>
+Build-Depends: debhelper (>= 9), libevent-dev, libsasl2-dev, adduser, autotools-dev, dh-systemd (>= 1.5), dh-autoreconf
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Directory: pool/main/m/memcached
+Files:
+ e575a389110da4e1cd6780a27a1c8ae6 2121 memcached_1.4.25-2ubuntu1.2.dsc
+ 55ca94e02639365fef3eac2b3f96de7c 359709 memcached_1.4.25.orig.tar.gz
+ f4d88df044c7a1a4e4898d55eb447555 19228 memcached_1.4.25-2ubuntu1.2.debian.tar.xz
+Uploaders: Guillaume Delacour <gui@iroqwa.org>
+Homepage: http://www.memcached.org/
+Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/memcached.git
+Vcs-Git: https://anonscm.debian.org/git/collab-maint/memcached.git
+Testsuite: autopkgtest
+Package-List:
+ memcached deb web optional arch=any
+Checksums-Sha1:
+ 197338bcdbdaa7bf2e429a6c5ab2fa4adb266c67 2121 memcached_1.4.25-2ubuntu1.2.dsc
+ 7fd0ba9283c61204f196638ecf2e9295688b2314 359709 memcached_1.4.25.orig.tar.gz
+ 06dbadf2ca614ea9b00a96a24ed01cc78a8d612c 19228 memcached_1.4.25-2ubuntu1.2.debian.tar.xz
+Checksums-Sha256:
+ 00dd4b2736ae76acd76344e4eac5bd30ad116837938d8c81ce30a0af46ad745c 2121 memcached_1.4.25-2ubuntu1.2.dsc
+ f058437b3c224d321919a9a6bb4e3eedb2312ed718c0caf087ff2f04ab795dda 359709 memcached_1.4.25.orig.tar.gz
+ 2d6a979eda7d5def6847947b5f1941e35e84fffc91ae916e3e0468adf784dcbb 19228 memcached_1.4.25-2ubuntu1.2.debian.tar.xz
 
 Package: mysql-5.7
 Binary: libmysqlclient20, libmysqld-dev, libmysqlclient-dev, mysql-common, mysql-client-core-5.7, mysql-client-5.7, mysql-server-core-5.7, mysql-server-5.7, mysql-server, mysql-client, mysql-testsuite, mysql-testsuite-5.7, mysql-source-5.7
@@ -2429,24 +2461,24 @@ Checksums-Sha256:
 
 Package: openjdk-8
 Binary: openjdk-8-jdk-headless, openjdk-8-jre-headless, openjdk-8-jdk, openjdk-8-jre, openjdk-8-demo, openjdk-8-source, openjdk-8-doc, openjdk-8-dbg, openjdk-8-jre-jamvm, openjdk-8-jre-zero
-Version: 8u91-b14-3ubuntu1~16.04.1
+Version: 8u111-b14-2ubuntu0.16.04.2
 Priority: optional
 Section: java
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
-Build-Depends: debhelper (>= 5), quilt, m4, lsb-release, zip, unzip, sharutils, gawk, cpio, pkg-config, procps, wdiff, fastjar (>= 2:0.96-0ubuntu2), autoconf (>= 2.69), automake, autotools-dev, ant, ant-optional, libtool, g++-5, openjdk-8-jdk | openjdk-7-jdk, libxtst-dev, libxi-dev, libxt-dev, libxaw7-dev, libxrender-dev, libcups2-dev, libasound2-dev, liblcms2-dev, libfreetype6-dev (>= 2.2.1), libgtk2.0-dev, libxinerama-dev, libkrb5-dev, xsltproc, libpcsclite-dev, libffi-dev, zlib1g-dev, libattr1-dev, libpng-dev, libjpeg-dev, libgif-dev, libpulse-dev (>= 0.9.12) [!alpha], systemtap-sdt-dev [!sh4], libnss3-dev (>= 2:3.17.1), tzdata, mauve, jtreg, xvfb, xauth, xfonts-base, libgl1-mesa-dri [!x32], twm | metacity, twm | dbus-x11, x11-xkb-utils, time, openjdk-8-jdk-headless <cross>
+Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
+Build-Depends: debhelper (>= 9), quilt, m4, lsb-release, zip, unzip, sharutils, gawk, cpio, pkg-config, procps, wdiff, fastjar (>= 2:0.96-0ubuntu2), autoconf (>= 2.69), automake, autotools-dev, ant, ant-optional, libtool, g++-5, openjdk-8-jdk | openjdk-7-jdk, libxtst-dev, libxi-dev, libxt-dev, libxaw7-dev, libxrender-dev, libcups2-dev, libasound2-dev, liblcms2-dev, libfreetype6-dev (>= 2.2.1), libgtk2.0-dev, libxinerama-dev, libkrb5-dev, xsltproc, libpcsclite-dev, libffi-dev, zlib1g-dev, libattr1-dev, libpng-dev, libjpeg-dev, libgif-dev, libpulse-dev (>= 0.9.12) [!alpha], systemtap-sdt-dev [!sh4], libnss3-dev (>= 2:3.17.1), tzdata, jtreg, xvfb, xauth, xfonts-base, libgl1-mesa-dri [!x32], twm | metacity, twm | dbus-x11, x11-xkb-utils, time, openjdk-8-jdk-headless <cross>, dpkg-dev (>= 1.17.14)
 Architecture: alpha amd64 armel armhf arm64 i386 ia64 mips mipsel mips64 mips64el powerpc powerpcspe ppc64 ppc64el m68k sh4 sparc sparc64 s390x x32 kfreebsd-i386 kfreebsd-amd64 all
-Standards-Version: 3.9.7
+Standards-Version: 3.9.8
 Format: 3.0 (quilt)
 Directory: pool/main/o/openjdk-8
 Files:
- 989ee8f378a0ab94423b40698b2fbc5d 4593 openjdk-8_8u91-b14-3ubuntu1~16.04.1.dsc
- 35305d230cd88fbbed3cbc75a74c9f8f 63240172 openjdk-8_8u91-b14.orig.tar.xz
- d6e4d92053316b63a5dc0e90a3859ac5 264924 openjdk-8_8u91-b14-3ubuntu1~16.04.1.debian.tar.xz
+ 0770410938256c6777cd6bd6c2b9b4c2 4568 openjdk-8_8u111-b14-2ubuntu0.16.04.2.dsc
+ 1f154e1b10b482b0fa58b6335b5af06a 63946090 openjdk-8_8u111-b14.orig.tar.gz
+ 998a6d5580721155ef858980d3ec37d7 232720 openjdk-8_8u111-b14-2ubuntu0.16.04.2.debian.tar.xz
 Uploaders: Matthias Klose <doko@ubuntu.com>
 Homepage: http://openjdk.java.net/
 Vcs-Browser: https://code.launchpad.net/~openjdk/openjdk/openjdk8
 Vcs-Bzr: http://bazaar.launchpad.net/~openjdk/openjdk/openjdk8
+Testsuite: autopkgtest
 Package-List:
  openjdk-8-dbg deb debug extra arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64
  openjdk-8-demo deb java extra arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64
@@ -2456,16 +2488,16 @@ Package-List:
  openjdk-8-jre deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64
  openjdk-8-jre-headless deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64
  openjdk-8-jre-jamvm deb java extra arch=amd64,armel,armhf,i386,powerpc,kfreebsd-i386,kfreebsd-amd64,mips,mipsel
- openjdk-8-jre-zero deb java extra arch=amd64,i386,arm64,ppc64,ppc64el,kfreebsd-amd64,kfreebsd-i386
+ openjdk-8-jre-zero deb java extra arch=amd64,i386,arm64,ppc64,ppc64el,sparc64,kfreebsd-amd64,kfreebsd-i386
  openjdk-8-source deb java extra arch=all
 Checksums-Sha1:
- 3d8c112af29260b068f797414baa94ec0763537b 4593 openjdk-8_8u91-b14-3ubuntu1~16.04.1.dsc
- 8af916389a0c5d0fb9298088ec05028ea2d28715 63240172 openjdk-8_8u91-b14.orig.tar.xz
- 150a14ae8054c9194252880f690109be605bff15 264924 openjdk-8_8u91-b14-3ubuntu1~16.04.1.debian.tar.xz
+ ffc10f1cafbac9be751002ad723d5d8206fcbe4d 4568 openjdk-8_8u111-b14-2ubuntu0.16.04.2.dsc
+ 6cf8ce169b49429dcbb71f1dfff794295ea61ba8 63946090 openjdk-8_8u111-b14.orig.tar.gz
+ fdca426c70dbe181ee04b6cdacf31a5bdd47d43d 232720 openjdk-8_8u111-b14-2ubuntu0.16.04.2.debian.tar.xz
 Checksums-Sha256:
- e500d42a9f353cb1e9422beed89600064fa8fb42bf1493dc058dabdb7fe3aa3a 4593 openjdk-8_8u91-b14-3ubuntu1~16.04.1.dsc
- 2228dfdaf8389763b49fdb3a8457abbda74edd8dc3028fd21de4d47ad6d86282 63240172 openjdk-8_8u91-b14.orig.tar.xz
- 3b66aee4cc05a3efaeab9d66e0361960372eb082b2d9210bf49bb0613477d15b 264924 openjdk-8_8u91-b14-3ubuntu1~16.04.1.debian.tar.xz
+ 3c4974ee94759fcd494a777da49cfd20c14571b00e9a404d73ee3887bb21f8af 4568 openjdk-8_8u111-b14-2ubuntu0.16.04.2.dsc
+ 353e7382c88bcf2b10d673b9b305c87ed733bd00c02b8497c565b37741ae1c30 63946090 openjdk-8_8u111-b14.orig.tar.gz
+ b51a22600b5a393059f1444eb1b12b8a005f646d19bdf571f55aed9be1bbd57f 232720 openjdk-8_8u111-b14-2ubuntu0.16.04.2.debian.tar.xz
 
 Package: openssh
 Binary: openssh-client, openssh-client-ssh1, openssh-server, openssh-sftp-server, ssh, ssh-krb5, ssh-askpass-gnome, openssh-client-udeb, openssh-server-udeb
@@ -2731,7 +2763,7 @@ Checksums-Sha256:
 
 Package: qemu
 Binary: qemu, qemu-system, qemu-block-extra, qemu-system-common, qemu-system-misc, qemu-system-arm, qemu-system-mips, qemu-system-ppc, qemu-system-sparc, qemu-system-x86, qemu-user, qemu-user-static, qemu-user-binfmt, qemu-utils, qemu-guest-agent, qemu-kvm, qemu-system-aarch64, qemu-system-s390x
-Version: 1:2.5+dfsg-5ubuntu10.4
+Version: 1:2.5+dfsg-5ubuntu10.6
 Priority: optional
 Section: misc
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -2743,9 +2775,9 @@ Standards-Version: 3.9.6
 Format: 3.0 (quilt)
 Directory: pool/main/q/qemu
 Files:
- 0085879faaaf254adbfb09421286b544 6243 qemu_2.5+dfsg-5ubuntu10.4.dsc
+ a5f77a98f4baf67981fcab704266b7f1 6243 qemu_2.5+dfsg-5ubuntu10.6.dsc
  83a1b1bc152dd9b46a3bd992930a8db7 5917224 qemu_2.5+dfsg.orig.tar.xz
- 5f6fe2478c275357582afdaea95b0878 109420 qemu_2.5+dfsg-5ubuntu10.4.debian.tar.xz
+ 05a3409b2dfe34995d73aca5c88346f8 124412 qemu_2.5+dfsg-5ubuntu10.6.debian.tar.xz
 Uploaders: Aurelien Jarno <aurel32@debian.org>, Riku Voipio <riku.voipio@iki.fi>, Vagrant Cascadian <vagrant@debian.org>, Michael Tokarev <mjt@tls.msk.ru>
 Homepage: http://www.qemu.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-qemu/qemu.git;a=shortlog;h=refs/heads/ubuntu-dev
@@ -2770,13 +2802,13 @@ Package-List:
  qemu-user-static deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,hppa,i386,ia64,mips,mipsel,powerpc,powerpcspe,ppc64,ppc64el,s390x,sparc,sparc64,x32
  qemu-utils deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,hppa,i386,ia64,kfreebsd-amd64,kfreebsd-i386,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,s390x,sparc,sparc64,x32
 Checksums-Sha1:
- 30feb34c9ac2aa5e94debf15315019ec87c35e22 6243 qemu_2.5+dfsg-5ubuntu10.4.dsc
+ 69a168072f890fb2f7bb46ceabd92f11e1b1d604 6243 qemu_2.5+dfsg-5ubuntu10.6.dsc
  75dbdc7d2faaf988276ee45fb696faa0b9ef5bcb 5917224 qemu_2.5+dfsg.orig.tar.xz
- b810e86796ceb192b660601371629b22054f7760 109420 qemu_2.5+dfsg-5ubuntu10.4.debian.tar.xz
+ 143173f84f3466cfd6bc3bd5eb37752d15fb1c52 124412 qemu_2.5+dfsg-5ubuntu10.6.debian.tar.xz
 Checksums-Sha256:
- 24e30f03cfb7d01233133d4a5c35fda166af680b28a99547654a9a98a9973042 6243 qemu_2.5+dfsg-5ubuntu10.4.dsc
+ 8c6fa250e314ec00e9d7c22d83863453c4fa2933bd117c941183852f165b736f 6243 qemu_2.5+dfsg-5ubuntu10.6.dsc
  7507dc37281ac7a42e13fff062a88e8742734d42fad2b6c2aeb6cc96060b120a 5917224 qemu_2.5+dfsg.orig.tar.xz
- 1e4cb4cba8c68e9ccb5d9c3fda82aac98efdb9684c5b4d4b29662924af256d18 109420 qemu_2.5+dfsg-5ubuntu10.4.debian.tar.xz
+ 3d72bfc7bab01a35d5c2373e1df5f82503f483b3d47f87c8472590103e970ade 124412 qemu_2.5+dfsg-5ubuntu10.6.debian.tar.xz
 Debian-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-qemu/qemu.git
 Debian-Vcs-Git: git://anonscm.debian.org/pkg-qemu/qemu.git
 

@@ -154,3 +154,24 @@ Cloud-init v. 0.7.8 running 'modules:config' at Tue, 11 Oct 2016 18:06:22 +0000.
 Cloud-init v. 0.7.8 running 'modules:final' at Tue, 11 Oct 2016 18:06:23 +0000. Up 37.54 seconds.
 Cloud-init v. 0.7.8 finished at Tue, 11 Oct 2016 18:06:23 +0000. Datasource DataSourceEc2.  Up 37.68 seconds
 Cloud-init v. 0.7.8 running 'single' at Mon, 17 Oct 2016 16:04:10 +0000. Up 511104.35 seconds.
+Cloud-init v. 0.7.8 running 'init-local' at Thu, 10 Nov 2016 20:53:01 +0000. Up 5.18 seconds.
+Cloud-init v. 0.7.8 running 'init' at Thu, 10 Nov 2016 20:53:30 +0000. Up 34.35 seconds.
+ci-info: ++++++++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+-----------------------------+---------------+-------+-------------------+
+ci-info: | Device |  Up  |           Address           |      Mask     | Scope |     Hw-Address    |
+ci-info: +--------+------+-----------------------------+---------------+-------+-------------------+
+ci-info: |   lo   | True |          127.0.0.1          |   255.0.0.0   |   .   |         .         |
+ci-info: |   lo   | True |           ::1/128           |       .       |  host |         .         |
+ci-info: |  eth0  | True |        172.31.36.132        | 255.255.240.0 |   .   | 06:56:1b:9d:f4:4d |
+ci-info: |  eth0  | True | fe80::456:1bff:fe9d:f44d/64 |       .       |  link | 06:56:1b:9d:f4:4d |
+ci-info: +--------+------+-----------------------------+---------------+-------+-------------------+
+ci-info: +++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+ci-info: | Route | Destination |   Gateway   |    Genmask    | Interface | Flags |
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 172.31.32.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   | 172.31.32.0 |   0.0.0.0   | 255.255.240.0 |    eth0   |   U   |
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+Cloud-init v. 0.7.8 running 'modules:config' at Thu, 10 Nov 2016 20:53:32 +0000. Up 36.03 seconds.
+Cloud-init v. 0.7.8 running 'modules:final' at Thu, 10 Nov 2016 20:53:32 +0000. Up 36.66 seconds.
+Cloud-init v. 0.7.8 finished at Thu, 10 Nov 2016 20:53:32 +0000. Datasource DataSourceEc2.  Up 36.80 seconds

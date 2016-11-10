@@ -1,5 +1,5 @@
 S:input/by-path/platform-i8042-serio-1-event-mouse
-I:4596769
+I:3512550
 E:ID_INPUT=1
 E:ID_INPUT_MOUSE=1
 E:ID_SERIAL=noserial

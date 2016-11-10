@@ -63,7 +63,7 @@ Name-zh_HK.UTF-8: 下載額外資料檔案失敗
 Name-zh_TW.UTF-8: 下載額外資料檔案失敗
 Terminal: True
 Command: pkexec /usr/lib/update-notifier/package-data-downloader
-Description: 
+Description:
  The following packages requested additional data downloads after package
  installation, but the data could not be downloaded or could not be
  processed.

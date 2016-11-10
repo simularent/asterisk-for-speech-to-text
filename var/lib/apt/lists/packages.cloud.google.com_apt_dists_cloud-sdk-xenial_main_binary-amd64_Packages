@@ -1,98 +1,114 @@
 Package: google-cloud-sdk
-Version: 132.0.0-0
-Installed-Size: 50115
+Version: 134.0.0-0
+Installed-Size: 50349
 Maintainer: Stephen Weinberg <stephenmw@google.com>
 Architecture: all
 Depends: python2.7
+Recommends: python-crcmod
+Suggests: google-cloud-sdk-app-engine-java, google-cloud-sdk-app-engine-python, google-cloud-sdk-pubsub-emulator, google-cloud-sdk-bigtable-emulator, google-cloud-sdk-datastore-emulator, kubectl
 Conflicts: gsutil
 Description: Utilities for the Google Cloud Platform
 Homepage: https://cloud.google.com/sdk/
-Filename: pool/google-cloud-sdk_132.0.0-0_all_622edee41cdb4eead7b4f740fd0304a647b1f8b760310e5e6e5473eefdd653f8.deb
+Filename: pool/google-cloud-sdk_134.0.0-0_all_d0470dacbea8a607a809498f1d15bf0e411ab159b9d2d785e799c8045927e37c.deb
 Priority: optional
-SHA256: 622edee41cdb4eead7b4f740fd0304a647b1f8b760310e5e6e5473eefdd653f8
+SHA256: d0470dacbea8a607a809498f1d15bf0e411ab159b9d2d785e799c8045927e37c
 Section: misc
-Size: 6765070
+Size: 6568218
 
 Package: google-cloud-sdk-app-engine-java
-Version: 132.0.0-0
-Installed-Size: 151950
+Version: 134.0.0-0
+Installed-Size: 143185
 Maintainer: Stephen Weinberg <stephenmw@google.com>
 Architecture: all
 Depends: google-cloud-sdk-app-engine-python, openjdk-7-jdk | openjdk-8-jdk
 Description: Java runtime for Google App Engine
 Homepage: https://cloud.google.com/sdk/
-Filename: pool/google-cloud-sdk-app-engine-java_132.0.0-0_all_18eb1e1ded33d25a5f59fd6d1015798664160111885dd6b0850758889ec121ce.deb
+Filename: pool/google-cloud-sdk-app-engine-java_134.0.0-0_all_17c58f8d4446af385041ba62e2722f01f836b3a50beaceb79114b6cff3a33883.deb
 Priority: optional
-SHA256: 18eb1e1ded33d25a5f59fd6d1015798664160111885dd6b0850758889ec121ce
+SHA256: 17c58f8d4446af385041ba62e2722f01f836b3a50beaceb79114b6cff3a33883
 Section: misc
-Size: 125956870
+Size: 114595772
 
 Package: google-cloud-sdk-app-engine-python
-Version: 132.0.0-0
-Installed-Size: 33395
+Version: 134.0.0-0
+Installed-Size: 33396
 Maintainer: Stephen Weinberg <stephenmw@google.com>
 Architecture: all
 Depends: python2.7, google-cloud-sdk
 Description: Python runtime for Google App Engine
 Homepage: https://cloud.google.com/sdk/
-Filename: pool/google-cloud-sdk-app-engine-python_132.0.0-0_all_e6c29d6a116a7e23542d732c92955aae50a5c35da2df06d1129cf2ef2e3fa3bb.deb
+Filename: pool/google-cloud-sdk-app-engine-python_134.0.0-0_all_ef42befe2172cafefc15ffcc86ae2614dc20647bd93d6f530339eff2d3806d9f.deb
 Priority: optional
-SHA256: e6c29d6a116a7e23542d732c92955aae50a5c35da2df06d1129cf2ef2e3fa3bb
+SHA256: ef42befe2172cafefc15ffcc86ae2614dc20647bd93d6f530339eff2d3806d9f
 Section: misc
-Size: 5109836
+Size: 5212654
 
 Package: google-cloud-sdk-bigtable-emulator
-Version: 132.0.0-0
+Version: 134.0.0-0
 Installed-Size: 9394
 Maintainer: Stephen Weinberg <stephenmw@google.com>
 Architecture: amd64
 Depends: google-cloud-sdk
 Description: Emulator for Google Cloud Bigtable.
 Homepage: https://cloud.google.com/sdk/
-Filename: pool/google-cloud-sdk-bigtable-emulator_132.0.0-0_amd64_f270b6e83e932dd5390e1ef350eb847fc75750bbc970a72bd370204ced1687ba.deb
+Filename: pool/google-cloud-sdk-bigtable-emulator_134.0.0-0_amd64_77020f3db3b0934107715aee2bee35aaeadda4477a232614dc8f16ac91ae8cdd.deb
 Priority: optional
-SHA256: f270b6e83e932dd5390e1ef350eb847fc75750bbc970a72bd370204ced1687ba
+SHA256: 77020f3db3b0934107715aee2bee35aaeadda4477a232614dc8f16ac91ae8cdd
 Section: misc
-Size: 1968454
+Size: 1966794
 
 Package: google-cloud-sdk-datastore-emulator
-Version: 132.0.0-0
+Version: 134.0.0-0
 Installed-Size: 17511
 Maintainer: Stephen Weinberg <stephenmw@google.com>
 Architecture: all
 Depends: google-cloud-sdk, openjdk-7-jdk | openjdk-8-jdk
 Description: Emulator for Google Cloud Datastore.
 Homepage: https://cloud.google.com/sdk/
-Filename: pool/google-cloud-sdk-datastore-emulator_132.0.0-0_all_ea516e412d9aeb79bbfda318a4fa89200fe0c8f278b7d7512422e551d214479d.deb
+Filename: pool/google-cloud-sdk-datastore-emulator_134.0.0-0_all_2e2f154249f220795a9b01f157791784fbd47f2037c2781c5d180fc6cff1ddd8.deb
 Priority: optional
-SHA256: ea516e412d9aeb79bbfda318a4fa89200fe0c8f278b7d7512422e551d214479d
+SHA256: 2e2f154249f220795a9b01f157791784fbd47f2037c2781c5d180fc6cff1ddd8
 Section: misc
-Size: 16045442
+Size: 16045724
 
 Package: google-cloud-sdk-pubsub-emulator
-Version: 132.0.0-0
+Version: 134.0.0-0
 Installed-Size: 18633
 Maintainer: Stephen Weinberg <stephenmw@google.com>
 Architecture: all
 Depends: google-cloud-sdk, openjdk-7-jdk | openjdk-8-jdk
 Description: Emulator for Google Cloud Pubsub.
 Homepage: https://cloud.google.com/sdk/
-Filename: pool/google-cloud-sdk-pubsub-emulator_132.0.0-0_all_c724a13a128e44c847a600bb57d02884b9fc5fb276e0fb65d221c6a8fdb4ea13.deb
+Filename: pool/google-cloud-sdk-pubsub-emulator_134.0.0-0_all_001e9f93239d319544044ec2fd05c302a5d756172e639d09f17e90c584937c53.deb
 Priority: optional
-SHA256: c724a13a128e44c847a600bb57d02884b9fc5fb276e0fb65d221c6a8fdb4ea13
+SHA256: 001e9f93239d319544044ec2fd05c302a5d756172e639d09f17e90c584937c53
 Section: misc
-Size: 16730784
+Size: 16729490
 
 Package: google-cloud-sdk-tests
-Version: 132.0.0-0
-Installed-Size: 25735
+Version: 134.0.0-0
+Installed-Size: 25820
 Maintainer: Stephen Weinberg <stephenmw@google.com>
 Architecture: all
 Depends: google-cloud-sdk, git, openssh-client, python-pytest, python-pytest-xdist, python-setuptools
 Description: Tests for verifying Google Cloud SDK packages.
 Homepage: https://cloud.google.com/sdk/
-Filename: pool/google-cloud-sdk-tests_132.0.0-0_all_0c6b6b592f830ac2fe930c9f20b3529e5c0ffa696e306654f559caf8f5a8e111.deb
+Filename: pool/google-cloud-sdk-tests_134.0.0-0_all_5d10f918ccb725a7e249053e3f0cd40156d9ca653028d30ae774e16471f70fa4.deb
 Priority: optional
-SHA256: 0c6b6b592f830ac2fe930c9f20b3529e5c0ffa696e306654f559caf8f5a8e111
+SHA256: 5d10f918ccb725a7e249053e3f0cd40156d9ca653028d30ae774e16471f70fa4
 Section: misc
-Size: 12799284
+Size: 12818654
+
+Package: kubectl
+Version: 1.4.4-00
+Installed-Size: 81288
+Maintainer: Kubernetes Authors <kubernetes-dev+release@googlegroups.com>
+Architecture: amd64
+Description: Kubernetes Command Line Tool
+ The Kubernetes command line tool for interacting with the Kubernetes API.
+Homepage: https://kubernetes.io
+Filename: pool/kubectl_1.4.4-00_amd64_9de9792fb4a0105cb547dc73446a3f279b9e84d30dd259a10d3178398ff8ce91.deb
+Priority: optional
+SHA256: 9de9792fb4a0105cb547dc73446a3f279b9e84d30dd259a10d3178398ff8ce91
+Section: misc
+Size: 10292542

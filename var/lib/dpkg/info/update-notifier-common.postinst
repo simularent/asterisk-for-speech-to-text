@@ -9,6 +9,19 @@ if [ "$1" = configure ] && dpkg --compare-versions "$2" le-nl "0.89"; then
     fi
 fi
 
+# Remove stamp files and permanent failures that may have been created incorrectly. (LP: #1621629)
+STAMPDIR=/var/lib/update-notifier/package-data-downloads/
+if [ "$1" = configure ] && dpkg --compare-versions "$2" le-nl "3.168.2"; then
+    for trigger in $(ls /usr/share/package-data-downloads); do
+        if [ -e $STAMPDIR/$trigger ]; then
+            rm $STAMPDIR/$trigger
+        fi
+        if [ -e $STAMPDIR/$trigger.permanent-failure ]; then
+            rm $STAMPDIR/$trigger.permanent-failure
+        fi
+    done
+fi
+
 if [ "$1" = triggered ]; then
 	for trigger in $2; do
 		case $trigger in

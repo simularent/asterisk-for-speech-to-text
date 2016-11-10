@@ -6,6 +6,6 @@
 /usr/share
 /usr/share/doc
 /usr/share/doc/libpq5
-/usr/share/doc/libpq5/changelog.Debian.gz
 /usr/share/doc/libpq5/copyright
+/usr/share/doc/libpq5/changelog.Debian.gz
 /usr/lib/x86_64-linux-gnu/libpq.so.5

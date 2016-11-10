@@ -1751,3 +1751,96 @@ cd /
 vi .gitignore 
 /root/backup.sh 
 mount
+/root/backup.sh 
+cd /
+/root/backup.sh 
+git status
+apt-get update
+apt-get upgrade
+ls
+reboot
+ls
+cd /
+ls
+top
+cd /devops/
+ls
+cat just-convert.sh 
+cd /etc
+ls
+cd asterisk/
+ls
+cat onsite.sh 
+cat onsite-wait.sh 
+vi extensions.conf 
+cd /options/officer-rainbow/
+ls
+cat hello-world.call 
+cp hello-world.call nova.call
+ls -la
+mv hello-world.call onsite.call
+ls
+vi onsite.call 
+vi nova.call 
+ls
+cd /var/www/
+ls
+cd html/
+ls
+cd /
+find / | grep onsite-in.wav | more
+cd /var/spool/asterisk/monitor/
+ls
+cp onsite-transcribe.php nova-transcribe.php
+vi nova-transcribe.php 
+ls -la
+vi onsite-transcribe.php 
+cd /options/officer-rainbow/
+ls
+cd /etc/asterisk/
+vi extensions.conf 
+vi /options/officer-rainbow/nova.call 
+cp onsite.sh nova.sh
+vi nova.sh 
+cp onsite-wait.sh nova-wait.sh
+vi nova-wait.sh 
+vi extensions.conf 
+ls -la *.sh
+asterisk -c
+asterisk -rvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+cd /var/spool/asterisk/outgoing/
+ls
+cd /options/officer-rainbow/
+ls
+vi nova.call 
+vi /etc/asterisk/extensions.conf 
+asterisk -rvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+ls
+cat onsite.call 
+vi /etc/asterisk/extensions.conf 
+ls
+cat /var/spool/asterisk/monitor/
+cat /var/spool/asterisk/monitor/onsite-transcribe.php 
+vi /var/spool/asterisk/monitor/onsite-transcribe.php 
+asterisk -rvvvvvvvvvvvvvvvvvvvvvvvv
+vi /etc/asterisk/extensions.conf 
+ls
+vi onsite.call 
+vi nova.call 
+cat onsite.call 
+cat nova.call 
+vi /etc/asterisk/extensions.conf 
+asterisk reload
+asterisk -r
+/etc/init.d/asterisk restart
+asterisk -rvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+vi nova.call 
+vi onsite.call 
+asterisk -rvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+vi /etc/asterisk/extensions.conf 
+/etc/init.d/asterisk restart
+asterisk -rvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+vi /etc/asterisk/extensions.conf 
+/etc/init.d/asterisk restart
+asterisk -rvvvvvvvvvvvvvvvvvvvvvvvvvv
+exit

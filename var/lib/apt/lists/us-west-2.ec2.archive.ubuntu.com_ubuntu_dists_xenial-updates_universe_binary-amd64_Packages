@@ -4322,6 +4322,26 @@ Description-md5: dd7e5186ca307310e24c18e49f63e5d9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: dwarfdump
+Priority: optional
+Section: universe/utils
+Installed-Size: 549
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Fabian Wolff <fabi.wolff@arcor.de>
+Architecture: amd64
+Source: dwarfutils
+Version: 20120410-2+deb7u2build0.16.04.1
+Depends: libc6 (>= 2.14), libelf1 (>= 0.131), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: pool/universe/d/dwarfutils/dwarfdump_20120410-2+deb7u2build0.16.04.1_amd64.deb
+Size: 195518
+MD5sum: 70c799d859baee2f3aac286fe782029a
+SHA1: 502b98c4223bbf28f0bccfa265d11f92091cd93a
+SHA256: 28ded1f612493fc55760833bebfb06965d3e78b9ad9bb216f83b869849164a8d
+Description: utility to dump DWARF debug information from ELF objects
+Description-md5: a4b92512442e73f16c782bda5090e7ec
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: ec2-init
 Priority: extra
 Section: universe/admin
@@ -4764,14 +4784,14 @@ Installed-Size: 208
 Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
-Source: gcc-5 (5.4.0-6ubuntu1~16.04.2)
-Version: 1:5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gcc-5 (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.14)
-Filename: pool/universe/g/gcc-5/fixincludes_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 61734
-MD5sum: b07726a37d798f5650b91186f0710e69
-SHA1: b4b73786c63722b0360223c9ad11c3eb432a8647
-SHA256: 78a5ccb87b96ea71d9c0477bd7db68762fb5c65e2b7403a7b004d3854f91a50f
+Source: gcc-5 (5.4.0-6ubuntu1~16.04.4)
+Version: 1:5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gcc-5 (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.14)
+Filename: pool/universe/g/gcc-5/fixincludes_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 61694
+MD5sum: a9ea9c0bb553124b4e3dc2c4efe58d19
+SHA1: 258a2c1c6e1f759303f10b49bca9f75518371075
+SHA256: 9c05e344ba91f20d06d8594e15a5c3406506b1bf980cba4bc43a2ea0f17abf1e
 Description: Fix non-ANSI header files
 Homepage: http://gcc.gnu.org/
 Description-md5: 4eec63ec6a45894436866732b96c2698
@@ -4907,6 +4927,66 @@ Homepage: https://launchpad.net/frame
 Description-md5: 7cb9eae5a916f8c23e99e81a1ed7d538
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+
+Package: fwts
+Priority: optional
+Section: universe/devel
+Installed-Size: 1133
+Maintainer: Firmware Testing Team <fwts-devel@lists.ubuntu.com>
+Architecture: amd64
+Version: 16.03.00-0ubuntu1.1
+Depends: libfwtsiasl1 (= 16.03.00-0ubuntu1.1), libfwtsacpica1 (= 16.03.00-0ubuntu1.1), libfwts1 (= 16.03.00-0ubuntu1.1), fwts-efi-runtime-dkms (= 16.03.00-0ubuntu1.1), libc6 (>= 2.14), libglib2.0-0 (>= 2.12.0), libjson-c2 (>= 0.10), pciutils
+Suggests: dmidecode
+Filename: pool/universe/f/fwts/fwts_16.03.00-0ubuntu1.1_amd64.deb
+Size: 285098
+MD5sum: 8dd075d49811906ac272499e744f9571
+SHA1: 2dbae21daba8c8f991474b619e02f099bfe81352
+SHA256: 64d9c7580fab2774e56c3aa494caf796db99024a0598c597d64e46a84934fb9b
+Description: FirmWare Test Suite
+Description-md5: d6b6141d7ca394b5197f5a8e24578b35
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Phased-Update-Percentage: 60
+
+Package: fwts-efi-runtime-dkms
+Priority: optional
+Section: universe/devel
+Installed-Size: 85
+Maintainer: Firmware Testing Team <fwts-devel@lists.ubuntu.com>
+Architecture: amd64
+Source: fwts
+Version: 16.03.00-0ubuntu1.1
+Depends: dkms (>= 2.1.0.0), linux-headers-generic | linux-headers | linux-headers-generic-lts-quantal | linux-headers-generic-lts-raring | linux-headers-generic-lts-saucy
+Filename: pool/universe/f/fwts/fwts-efi-runtime-dkms_16.03.00-0ubuntu1.1_amd64.deb
+Size: 18176
+MD5sum: cb3582d0b25c849987d6e590eb6b6a94
+SHA1: 46026c7b80a00dd54778898c7dd40521a4c8515c
+SHA256: 7538d111b91a5a21f8e4501399b82e2d2d0a013e78c23a90466b08e1ddf8d4be
+Description: Firmware Test Suite UEFI Runtime Service kernel driver
+Description-md5: 872c3fa1034eabae1745eeec37ab3e38
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Phased-Update-Percentage: 60
+
+Package: fwts-frontend
+Priority: optional
+Section: universe/devel
+Installed-Size: 69
+Maintainer: Firmware Testing Team <fwts-devel@lists.ubuntu.com>
+Architecture: amd64
+Source: fwts
+Version: 16.03.00-0ubuntu1.1
+Depends: dialog, fwts
+Filename: pool/universe/f/fwts/fwts-frontend_16.03.00-0ubuntu1.1_amd64.deb
+Size: 8078
+MD5sum: b2806b0d31f9037c50235b6dd63d1dea
+SHA1: c097ae5dc77d4ff1ac1ea7a567c6a1324cf83d14
+SHA256: f1df0a089d30858760893130ed9798a936e55535c27b6777697ce44749896b97
+Description: Firmware Test Suite frontend interface
+Description-md5: fc98ee1ccd80b6332c879648cc78e424
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Phased-Update-Percentage: 60
 
 Package: g++-5-alpha-linux-gnu
 Priority: extra
@@ -7719,16 +7799,16 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Replaces: gcc-5-hppa64 (<< 5.2.1-22)
 Provides: gcc-5-hppa64
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4), binutils-hppa64-linux-gnu | binutils-hppa64
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4), binutils-hppa64-linux-gnu | binutils-hppa64
 Conflicts: gcc-3.3-hppa64 (<= 1:3.3.4-5), gcc-3.4-hppa64 (<= 3.4.1-3), gcc-4.7-hppa64 (<< 4.7.3-13), gcc-4.8-hppa64 (<< 4.8.2-22), gcc-4.9-hppa64 (<< 4.9.3-1)
-Filename: pool/universe/g/gcc-5/gcc-5-hppa64-linux-gnu_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 9032884
-MD5sum: ac059aaa8b27b56256574de6265bb5a9
-SHA1: 8634b3c158affbb0f9ec3a2f58d609be1e007bc9
-SHA256: 060986c85d912bf5d778dddd9b64921fbc3dd2df70a5d47f35cc65bcc523d458
+Filename: pool/universe/g/gcc-5/gcc-5-hppa64-linux-gnu_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 8870278
+MD5sum: 2fe4b6db0eb30642aeffff614a69bd2e
+SHA1: b611bec36d42f383c674554f0861656d2f9a87ff
+SHA256: 9a9337e77a21af9b2ac492b71efbc1b97416ce4c00aff003d6f2c92086d54337
 Description: GNU C compiler (cross compiler for hppa64)
 Homepage: http://gcc.gnu.org/
 Description-md5: 0ee0959bbc343ff940f7f385554ffc51
@@ -7743,14 +7823,14 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: all
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Depends: gcc-5-base (>= 5.2.1-23), cpp-5 (>= 5.2.1-23)
 Recommends: gcc-5 (>= 5.2.1-23)
-Filename: pool/universe/g/gcc-5/gcc-5-locales_5.4.0-6ubuntu1~16.04.2_all.deb
+Filename: pool/universe/g/gcc-5/gcc-5-locales_5.4.0-6ubuntu1~16.04.4_all.deb
 Size: 1016
-MD5sum: 4604892dc1fe9c500ee42354bab942e2
-SHA1: ccf253ff4c108bf981661198def777321762d21f
-SHA256: 2a04748df0c1a2e7f65702c7f459e0d3c7bfb3f594a60f556d18cb9fbb77b7f0
+MD5sum: 12fb6c42c0c8c261274fcdc98769c195
+SHA1: e49201cbb22d87ba29b2dec49255a96fa3b06bce
+SHA256: ce26dfee1ca986c85ee47a9b848eef0243bf522daffd68f1dc2914b4fdd19a2b
 Description: GCC, the GNU compiler collection (native language support files)
 Homepage: http://gcc.gnu.org/
 Description-md5: eb5e72cb380341d4ed2ad2d24c34f31d
@@ -8748,18 +8828,18 @@ Origin: Ubuntu
 Package: gcc-5-source
 Priority: optional
 Section: universe/devel
-Installed-Size: 80709
+Installed-Size: 80713
 Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: all
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Depends: make, autoconf2.64, quilt, patchutils, gawk
-Filename: pool/universe/g/gcc-5/gcc-5-source_5.4.0-6ubuntu1~16.04.2_all.deb
-Size: 74570210
-MD5sum: 4fc03d3ac04d8740ee2a304a24a8a400
-SHA1: 30f73121f95c8a7dd6939a91195939fa234f1ffd
-SHA256: 3c1c174d100fa404a504c64a13aa9fd932a87821c62534302206666386d4fcee
+Filename: pool/universe/g/gcc-5/gcc-5-source_5.4.0-6ubuntu1~16.04.4_all.deb
+Size: 74574362
+MD5sum: 1bd3d96cdd62c13b18c1db91743dc062
+SHA1: c2f040510d452697aa66293075ce3a9c4301eccc
+SHA256: 5ecf791ee092ca7315ccfef4e67a1fb1b733a10653be9590666fc1b1c5b20647
 Description: Source of the GNU Compiler Collection
 Homepage: http://gcc.gnu.org/
 Description-md5: cb00049993a8c14b73bb041c050eb8c5
@@ -8820,19 +8900,19 @@ Origin: Ubuntu
 Package: gcc-5-test-results
 Priority: extra
 Section: universe/devel
-Installed-Size: 8528
+Installed-Size: 8645
 Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Replaces: g++-5 (<< 5.2.1-28)
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/gcc-5-test-results_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 8714720
-MD5sum: 472fb45057cbbf3322a239c07f5073b0
-SHA1: 80660b0d0e346bc7fe2901889dea8a2541b639d7
-SHA256: 0e640a84c0eb31b4ab823ced0a96a1ecf63b96514ad384c7399252229a25130f
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/gcc-5-test-results_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 8832938
+MD5sum: 48bb2172f8774ad5853df2c769bb6c41
+SHA1: 4743f271a04f704daa47c775f34dd9e3e29b53e5
+SHA256: b9e2fe9f70caf9effab55b72182f535602a2236d2e79d49e7a22338027172dc7
 Description: Test results for the GCC test suite
 Homepage: http://gcc.gnu.org/
 Description-md5: dc68b9fb54342c9f71afbc0efcf1ade0
@@ -8842,21 +8922,21 @@ Origin: Ubuntu
 Package: gccgo-5
 Priority: optional
 Section: universe/devel
-Installed-Size: 70637
+Installed-Size: 70633
 Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Provides: go-compiler
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gcc-5 (= 5.4.0-6ubuntu1~16.04.2), libgo7 (>= 5.4.0-6ubuntu1~16.04.2), libc6-dev (>= 2.13-0ubuntu6), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4)
-Suggests: gccgo-5-doc, libgo7-dbg (>= 5.4.0-6ubuntu1~16.04.2)
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gcc-5 (= 5.4.0-6ubuntu1~16.04.4), libgo7 (>= 5.4.0-6ubuntu1~16.04.4), libc6-dev (>= 2.13-0ubuntu6), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4)
+Suggests: gccgo-5-doc, libgo7-dbg (>= 5.4.0-6ubuntu1~16.04.4)
 Conflicts: golang-go (<< 2:1.3.3-1ubuntu2)
-Filename: pool/universe/g/gcc-5/gccgo-5_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 12992450
-MD5sum: f29093790b1177e13a8efd063d5d3a1b
-SHA1: 771632cecde36c828338683ca43d7153fd4c2879
-SHA256: 171e2306978cde19a40f9b6bf16590ef74c52405c35e2965d8eed870bb3d6857
+Filename: pool/universe/g/gcc-5/gccgo-5_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 13124440
+MD5sum: d2ba956d17e98935a5b92b72f9bfca45
+SHA1: 9f4f6f407dc967bd9e5f048abe6e31ea242a583d
+SHA256: 0a48beaa3f9062d085d90ee15b555c57eee271f42b0c4cbf9de48d8aaf772f77
 Description: GNU Go compiler
 Homepage: http://gcc.gnu.org/
 Description-md5: 58c2a4ce4d3fe6815f7a6ee86b4db16d
@@ -9079,13 +9159,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gccgo-5 (= 5.4.0-6ubuntu1~16.04.2), gcc-5-multilib (= 5.4.0-6ubuntu1~16.04.2), lib32go7 (>= 5.4.0-6ubuntu1~16.04.2), libx32go7 (>= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/gccgo-5-multilib_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 9051750
-MD5sum: 159e57d97e30a1f14ab8c12741f82161
-SHA1: eac55ac93868fd17aec7ef2f67daeda3b967428f
-SHA256: 291e5fcf658344414043bb06af3cea66d72ceced12bea48308e98439e0f2633c
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gccgo-5 (= 5.4.0-6ubuntu1~16.04.4), gcc-5-multilib (= 5.4.0-6ubuntu1~16.04.4), lib32go7 (>= 5.4.0-6ubuntu1~16.04.4), libx32go7 (>= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/gccgo-5-multilib_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 9054216
+MD5sum: 0bc8eb25a01579f8b2832cbb1e3f30e6
+SHA1: 0c74fabe32d22f1d394dcf57aff32f100c996014
+SHA256: 9127fc46635345d59cdb06dff0816dde04b4573ec0a7bc71629f6c5ff66e6914
 Description: GNU Go compiler (multilib support)
 Homepage: http://gcc.gnu.org/
 Description-md5: 25e9a6929ec801c16cd933e711c7f1ed
@@ -9856,13 +9936,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: all
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Depends: gcc-5-base (>= 5.2.1-23), gcj-5-jdk (>= 5.2.1-23)
-Filename: pool/universe/g/gcc-5/gcj-5-source_5.4.0-6ubuntu1~16.04.2_all.deb
-Size: 11659732
-MD5sum: ad27f06c3e2d7f85fc72abe33850bda9
-SHA1: 9e71d5a1c834f28a4cf775cef3e1ed37b573d37a
-SHA256: 7f7a67633304dde458ac47dc089a704e67a18f2c5872445c013559271034d9f8
+Filename: pool/universe/g/gcc-5/gcj-5-source_5.4.0-6ubuntu1~16.04.4_all.deb
+Size: 11663424
+MD5sum: 580bd31f03d8f11c49facacbd5e83fd5
+SHA1: cc8ed1f5c8e8da298a2a4b4bbc3e8b8d3411833c
+SHA256: d5bf6d5ecce1962d02d7098f3cc3957af8eb0f292d20becb3f996ec509e48b89
 Description: GCJ java sources for use in IDEs like eclipse and netbeans
 Homepage: http://gcc.gnu.org/
 Description-md5: 4c55da0bb9881014d9bba36bde1b8806
@@ -9940,20 +10020,20 @@ Origin: Ubuntu
 Package: gdc-5
 Priority: optional
 Section: universe/devel
-Installed-Size: 23153
+Installed-Size: 23145
 Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Replaces: gdc (<< 4.4.6-5), libphobos-5-dev (<< 5.4.0-1~)
 Provides: d-compiler, d-v2-compiler, gdc
 Depends: gcc-5-base (>= 5.2.1-23), g++-5 (>= 5.2.1-23), libphobos-5-dev (>= 5.2.1-23), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4)
-Filename: pool/universe/g/gcc-5/gdc-5_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 8154328
-MD5sum: 234720ecd24bf5984293a9fb6ac75b6a
-SHA1: a6aa6edcdc9179fcb91893ebe3046dbcab053eef
-SHA256: 1741ea00d33d97adbfdb43e92cfd463852d94e87f7548f44d99b58a0f4ab2225
+Filename: pool/universe/g/gcc-5/gdc-5_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 8148980
+MD5sum: ce7db9039134278e549ef74dd102a3f3
+SHA1: ce6d688d03c971fdd4c2e40d94f6f09297d44314
+SHA256: ce1fcdf273ea2f3dfc70b1903362fc55600067debfc2d4da69475cd05f45a575
 Description: GNU D compiler (version 2)
 Homepage: http://gcc.gnu.org/
 Description-md5: 864a87c3c14c54bac8e1eca97a6eb9a7
@@ -10218,14 +10298,14 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Replaces: lib32phobos-5-dev (<< 5.4.0-1~), lib64phobos-5-dev (<< 5.4.0-1~), libhfphobos-5-dev (<< 5.4.0-1~), libn32phobos-5-dev (<< 5.4.0-1~), libsfphobos-5-dev (<< 5.4.0-1~), libx32phobos-5-dev (<< 5.4.0-1~)
-Depends: gcc-5-base (>= 5.2.1-23), gdc-5 (= 5.4.0-6ubuntu1~16.04.2), gcc-5-multilib (= 5.4.0-6ubuntu1~16.04.2), lib32phobos-5-dev (= 5.4.0-6ubuntu1~16.04.2), libx32phobos-5-dev (= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/gdc-5-multilib_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 1044
-MD5sum: 500578b81fdcd5ceeb6aab45cca77e8e
-SHA1: 7b99147c5559f614a6e3e473b874e2f684e41210
-SHA256: 0e2c055eda5c6e2c984b846c9b6e7e931f450814b96a55761902ecb86c5bf648
+Depends: gcc-5-base (>= 5.2.1-23), gdc-5 (= 5.4.0-6ubuntu1~16.04.4), gcc-5-multilib (= 5.4.0-6ubuntu1~16.04.4), lib32phobos-5-dev (= 5.4.0-6ubuntu1~16.04.4), libx32phobos-5-dev (= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/gdc-5-multilib_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 1040
+MD5sum: ac3cf4662ba0248561be774543889ea5
+SHA1: f2dfdc89623f97ec4076fc02ce52a3bde1f1ba18
+SHA256: 3115b069c4b82139c270c5d4e1ea61b3cd5be8daf45444f65e1cacd80d814c9a
 Description: GNU D compiler (version 2, multilib support)
 Homepage: http://gcc.gnu.org/
 Description-md5: 5bd997d730190f1d6151d11f184d631d
@@ -11592,17 +11672,17 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Replaces: dh-ada-library (<< 6.0), gnat (<< 4.6.1), gnat-4.6-base (= 4.6.4-2), gnat-4.9-base (= 4.9-20140330-1)
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gcc-5 (>= 5.2.1-23), libgnat-5 (>= 5.4.0-6ubuntu1~16.04.2), libc6-dev (>= 2.13-0ubuntu6), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libgnatprj5 (>= 5.4.0-6ubuntu1~16.04.2), libgnatvsn5 (>= 5.4.0-6ubuntu1~16.04.2), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4)
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gcc-5 (>= 5.2.1-23), libgnat-5 (>= 5.4.0-6ubuntu1~16.04.4), libc6-dev (>= 2.13-0ubuntu6), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libgnatprj5 (>= 5.4.0-6ubuntu1~16.04.4), libgnatvsn5 (>= 5.4.0-6ubuntu1~16.04.4), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4)
 Suggests: gnat-5-doc, ada-reference-manual-2012, gnat-5-sjlj
 Conflicts: gnat (<< 4.1), gnat-3.1, gnat-3.2, gnat-3.3, gnat-3.4, gnat-3.5, gnat-4.0, gnat-4.1, gnat-4.2, gnat-4.3, gnat-4.4, gnat-4.6, gnat-4.7, gnat-4.8, gnat-4.9
 Breaks: dh-ada-library (<< 6.0), gnat (<< 4.6.1), gnat-4.6-base (= 4.6.4-2), gnat-4.9-base (= 4.9-20140330-1)
-Filename: pool/universe/g/gcc-5/gnat-5_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 13504186
-MD5sum: 0126295545e6a295897eff2cd6bf72f1
-SHA1: 8c1e11557b4deed7ed3b7cef8a533d6f2d3fa570
-SHA256: 8c3c35a3737de7d65fecfa13eb965b318e9b0cfd5c329db5e05a170fd754c78b
+Filename: pool/universe/g/gcc-5/gnat-5_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 13548190
+MD5sum: 275d8ffb71948da863815f62a576cd0d
+SHA1: 9f4dd45b5d66ec8d45bb83986ffa760971c38a47
+SHA256: 6f9e4dd7c9f99114ca921c35882ee3c327040c6645b49f095849df83bf752582
 Description: GNU Ada compiler
 Homepage: http://gcc.gnu.org/
 Description-md5: 8cebde0cd6b861927a7a457cacc8851f
@@ -11725,15 +11805,15 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: all
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Depends: dpkg (>= 1.15.4) | install-info
 Suggests: gnat-5
 Conflicts: gnat-4.1-doc, gnat-4.2-doc, gnat-4.3-doc, gnat-4.4-doc, gnat-4.6-doc, gnat-4.9-doc
-Filename: pool/universe/g/gcc-5/gnat-5-doc_5.4.0-6ubuntu1~16.04.2_all.deb
-Size: 1154544
-MD5sum: ac5e2e9cae678aa87d534201971f3fc2
-SHA1: 4519cdf524eccb933412cbf457b43a5c2d591ff3
-SHA256: c30db6806593ea0f434db78e4bdc492d1eddc31fdd98cb1d6036af92e6d97c90
+Filename: pool/universe/g/gcc-5/gnat-5-doc_5.4.0-6ubuntu1~16.04.4_all.deb
+Size: 1153550
+MD5sum: a2ca6ae38ecfde3f13b8b246264c35c8
+SHA1: 064e8a2c3dc173117e10d59f4a23b56e870ec4f0
+SHA256: d69454b665b25106908d5d374245c46ba6711b094fb24835ea4449d45ce8753c
 Description: GNU Ada compiler (documentation)
 Homepage: http://gcc.gnu.org/
 Description-md5: 8139d6afb41aa31e17dbd1884d4ab725
@@ -12018,13 +12098,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gnat-5 (= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/gnat-5-sjlj_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 2184556
-MD5sum: 2f48ebd9f9a999fbddd8db3e09551ac2
-SHA1: 585e0d9ddb1e814698e657260bda54ff471b90a4
-SHA256: 22dd6365dd61c440a4760597fa32af4af15b3c977c772e2edd91dc819d643b50
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gnat-5 (= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/gnat-5-sjlj_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 2187516
+MD5sum: aa5af3cfc4e51da140e3a092b78b801b
+SHA1: 72d2ba717a688db6e0b97120d6efbaca57cd07a5
+SHA256: 5ce6d950f26e5b24f6873d831f49b4b524d5754abda1a834e1186dc5ec01f165
 Description: GNU Ada compiler (setjump/longjump runtime library)
 Homepage: http://gcc.gnu.org/
 Description-md5: 38183a5764143bf77935e8455d8574ce
@@ -12620,23 +12700,23 @@ Installed-Size: 6848
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Architecture: amd64
-Version: 3.18.5-0ubuntu0.1
+Version: 3.18.5-0ubuntu0.2
 Provides: notification-daemon
-Depends: gir1.2-clutter-1.0 (>= 1.22), gir1.2-glib-2.0 (>= 1.45.3), gir1.2-gtk-3.0 (>= 3.16), gir1.2-mutter-3.0 (>= 3.18.1), gir1.2-networkmanager-1.0, gir1.2-soup-2.4 (>= 2.40.1), gir1.2-telepathyglib-0.12, adwaita-icon-theme, dconf-gsettings-backend | gsettings-backend, libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo2 (>= 1.10.0), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libclutter-1.0-0 (>= 1.23.4), libcogl-pango20 (>= 1.17.4), libcogl20 (>= 1.17.4), libcroco3 (>= 0.6.2), libdbus-glib-1-2 (>= 0.78), libecal-1.2-19 (>= 3.17), libedataserver-1.2-21 (>= 3.17), libgcr-base-3-1 (>= 3.8.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgirepository-1.0-1 (>= 0.9.2), libgjs0-libmozjs-24-0, libgjs0e (>= 1.44.0), libglib2.0-0 (>= 2.45.3), libgstreamer1.0-0 (>= 1.4.0), libgtk-3-0 (>= 3.16), libical1a (>= 1.0), libjson-glib-1.0-0 (>= 0.13.2), libmozjs-24-0v5, libmutter0g, libnm-glib4 (>= 0.8.998), libnm-util2 (>= 0.8.998), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpolkit-agent-1-0 (>= 0.99), libpolkit-gobject-1-0 (>= 0.94), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libsecret-1-0 (>= 0.7), libstartup-notification0 (>= 0.11), libsystemd0, libtelepathy-glib0 (>= 0.17.5), libx11-6, libxfixes3, evolution-data-server (>= 3.17.2), gir1.2-gdm-1.0 (>= 3.18.2), gir1.2-accountsservice-1.0, gir1.2-atspi-2.0 (>= 2.9.91), gir1.2-caribou-1.0 (>= 0.4.8), gir1.2-freedesktop, gir1.2-gdesktopenums-3.0 (>= 3.12), gir1.2-gcr-3 (>= 3.7.5), gir1.2-gkbd-3.0, gir1.2-gnomebluetooth-1.0 (>= 3.12.0), gir1.2-gnomedesktop-3.0 (>= 3.12.0), gir1.2-gweather-3.0, gir1.2-ibus-1.0 (>= 1.5.2), gir1.2-nmgtk-1.0 (>= 0.9.8), gir1.2-pango-1.0, gir1.2-polkit-1.0, gir1.2-telepathylogger-0.2 (>= 0.8.0), gir1.2-upowerglib-1.0 (>= 0.99), gjs (>= 1.39.0), gnome-session, gnome-settings-daemon (>= 3.16.0), gnome-shell-common (= 3.18.5-0ubuntu0.1), gnome-backgrounds (>= 3.13.90), gsettings-desktop-schemas (>= 3.14), mutter (>= 3.18.1), python3, telepathy-mission-control-5
+Depends: gir1.2-clutter-1.0 (>= 1.22), gir1.2-glib-2.0 (>= 1.45.3), gir1.2-gtk-3.0 (>= 3.16), gir1.2-mutter-3.0 (>= 3.18.1), gir1.2-networkmanager-1.0, gir1.2-soup-2.4 (>= 2.40.1), gir1.2-telepathyglib-0.12, adwaita-icon-theme, dconf-gsettings-backend | gsettings-backend, libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo2 (>= 1.10.0), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libclutter-1.0-0 (>= 1.23.4), libcogl-pango20 (>= 1.17.4), libcogl20 (>= 1.17.4), libcroco3 (>= 0.6.2), libdbus-glib-1-2 (>= 0.78), libecal-1.2-19 (>= 3.17), libedataserver-1.2-21 (>= 3.17), libgcr-base-3-1 (>= 3.8.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgirepository-1.0-1 (>= 0.9.2), libgjs0-libmozjs-24-0, libgjs0e (>= 1.44.0), libglib2.0-0 (>= 2.45.3), libgstreamer1.0-0 (>= 1.4.0), libgtk-3-0 (>= 3.16), libical1a (>= 1.0), libjson-glib-1.0-0 (>= 0.13.2), libmozjs-24-0v5, libmutter0g, libnm-glib4 (>= 0.8.998), libnm-util2 (>= 0.8.998), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpolkit-agent-1-0 (>= 0.99), libpolkit-gobject-1-0 (>= 0.94), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libsecret-1-0 (>= 0.7), libstartup-notification0 (>= 0.11), libsystemd0, libtelepathy-glib0 (>= 0.17.5), libx11-6, libxfixes3, evolution-data-server (>= 3.17.2), gir1.2-gdm-1.0 (>= 3.18.2), gir1.2-accountsservice-1.0, gir1.2-atspi-2.0 (>= 2.9.91), gir1.2-caribou-1.0 (>= 0.4.8), gir1.2-freedesktop, gir1.2-gdesktopenums-3.0 (>= 3.12), gir1.2-gcr-3 (>= 3.7.5), gir1.2-gkbd-3.0, gir1.2-gnomebluetooth-1.0 (>= 3.12.0), gir1.2-gnomedesktop-3.0 (>= 3.12.0), gir1.2-gweather-3.0, gir1.2-ibus-1.0 (>= 1.5.2), gir1.2-nmgtk-1.0 (>= 0.9.8), gir1.2-pango-1.0, gir1.2-polkit-1.0, gir1.2-telepathylogger-0.2 (>= 0.8.0), gir1.2-upowerglib-1.0 (>= 0.99), gjs (>= 1.39.0), gnome-session, gnome-settings-daemon (>= 3.16.0), gnome-shell-common (= 3.18.5-0ubuntu0.2), gnome-backgrounds (>= 3.13.90), gsettings-desktop-schemas (>= 3.14), mutter (>= 3.18.1), python3, telepathy-mission-control-5
 Recommends: gkbd-capplet, gnome-contacts, gnome-control-center, gnome-themes-standard-data, gnome-user-guide, gdm3 (>= 3.10.0.1-3~), iio-sensor-proxy, unzip
 Conflicts: gnome-screensaver (<< 3.6)
 Breaks: gdm3 (<< 3.10.0.1-3~), gnome-tweak-tool (<< 3.5)
-Filename: pool/universe/g/gnome-shell/gnome-shell_3.18.5-0ubuntu0.1_amd64.deb
-Size: 621234
-MD5sum: 41557c01db50f9f4341a98a4fa5f153a
-SHA1: 44652763f771260f8e8e9f6010c1f24956a2d5b5
-SHA256: ddda925794355ee5dd6d2e06f99c6337fe2710bf4ded7153f724ec67094019e4
+Filename: pool/universe/g/gnome-shell/gnome-shell_3.18.5-0ubuntu0.2_amd64.deb
+Size: 621020
+MD5sum: 7ccf902c79d39081713dab661fbcc2be
+SHA1: 4ab555a2f0dd6714b3cd928424897d8cdc58934e
+SHA256: 2044da41fb1aff38b8a38c8c7d26641e90c4a687736b355ff12a30a04e396e46
 Description: graphical shell for the GNOME desktop
 Homepage: https://wiki.gnome.org/Projects/GnomeShell
 Description-md5: 51a5a94e6b632e350489b7b8d27ab9fc
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 0
+Phased-Update-Percentage: 10
 Supported: 3y
 Task: ubuntu-gnome-desktop
 
@@ -12648,19 +12728,19 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: gnome-shell
-Version: 3.18.5-0ubuntu0.1
+Version: 3.18.5-0ubuntu0.2
 Depends: dconf-gsettings-backend | gsettings-backend
-Filename: pool/universe/g/gnome-shell/gnome-shell-common_3.18.5-0ubuntu0.1_all.deb
-Size: 608786
-MD5sum: 93cadb6d68825240cef40d3ef454a22a
-SHA1: bce509a4de23ef68c3645cb862d31899f07be34d
-SHA256: cabb085e800e06275cb6a7f71a42849c0b79075eb55450bdf1a377dd4350d521
+Filename: pool/universe/g/gnome-shell/gnome-shell-common_3.18.5-0ubuntu0.2_all.deb
+Size: 608314
+MD5sum: 2b43485157b48a7101e8e518d309940e
+SHA1: 44d867ede81c46c87d78f0b27482aec3c5874973
+SHA256: 9bbf71eeecf7bfc16cbc9d6b17af9712801acf8f6aadbc018e9c91845461130b
 Description: common files for the GNOME graphical shell
 Homepage: https://wiki.gnome.org/Projects/GnomeShell
 Description-md5: 2b326fbe771cf911adfb09b06fd267b5
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 0
+Phased-Update-Percentage: 10
 Supported: 3y
 Task: edubuntu-desktop-gnome, ubuntu-gnome-desktop
 
@@ -12672,21 +12752,21 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: gnome-shell
-Version: 3.18.5-0ubuntu0.1
-Depends: gnome-shell (= 3.18.5-0ubuntu0.1)
+Version: 3.18.5-0ubuntu0.2
+Depends: gnome-shell (= 3.18.5-0ubuntu0.2)
 Recommends: mutter-dbg
-Filename: pool/universe/g/gnome-shell/gnome-shell-dbg_3.18.5-0ubuntu0.1_amd64.deb
-Size: 980048
-MD5sum: de67d06d80698a52949230dcd88ec086
-SHA1: e4fa54f231c73c689743887fec870432c6bc7d1a
-SHA256: 5f5da9a1aa4ab35b2a434c089b00306a357833d27b561fddb62b809a73b61e96
+Filename: pool/universe/g/gnome-shell/gnome-shell-dbg_3.18.5-0ubuntu0.2_amd64.deb
+Size: 979922
+MD5sum: 7b7d15dba38085de307c2a91a2d58b74
+SHA1: 0f4254165be6486329f7db58405ff876f252f510
+SHA256: 8b3fa9e12ad232302ada2b72f82fe13a070b49c92e1bcbfdc27178ee3df08d3f
 Description: Debugging symbols for GNOME Shell
 Homepage: https://wiki.gnome.org/Projects/GnomeShell
-Build-Ids: 3fd97bb02a1078429e5d4be2f184fc9ece3bdfa0 470607a2cf5e639fb0e42919b1545d2081ca745d 5ea89a2ae9e7defc010d581b5de71ddcacab4c29 a0d5cf490a9d40a0f774329735b692dc47c8b936 a3bbd36bce5276670800ab0f238cfbdc56463053 bbedc393fc06b87c96c80d0319f767a2074b71db e7a4b11ac5ec0ca453203689dece5dd1ab3a7490 ea10962c6ec8cabfbb84498693d554dfd3aab994 f92dc97a5953ba576bb28f7bd6b083409e2446be ff3342d0d486d15be2f6debd68a25516ff5e42d3
+Build-Ids: 0f4dedf90ae70e5067c988b502324f4b5a709cf9 12691f2ecffb9761a6323522a27ed4d41bb3b3ee 1c2b38909bf42278cbaf79e83252562b141ae822 47af9c5ce3e0ec3e139d1addbba84225ff40b130 6d58b0fe88ed2ee7cebfc4877586b4047b941f1c 9ceb5c977cd65db250143a6e3837a6f56074e0f8 b195ddb741b4b2c3c579d5cca22805e5f9886f5e b649ae6fb3a9e49616c22c5bfdd259ea9ca312c7 e5230fcea499c024f1fa055c6155eec8191434c3 f69cb44f36986b7657e3f21ac0a620ddb712fc62
 Description-md5: d214a0288f70f3b60517aa485782d59a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 0
+Phased-Update-Percentage: 10
 Supported: 3y
 
 Package: gnome-taquin
@@ -12755,20 +12835,20 @@ Origin: Ubuntu
 Package: gobjc++-5
 Priority: optional
 Section: universe/devel
-Installed-Size: 22192
+Installed-Size: 22184
 Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Provides: objc++-compiler
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gobjc-5 (= 5.4.0-6ubuntu1~16.04.2), g++-5 (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4), libobjc-5-dev (= 5.4.0-6ubuntu1~16.04.2)
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gobjc-5 (= 5.4.0-6ubuntu1~16.04.4), g++-5 (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4), libobjc-5-dev (= 5.4.0-6ubuntu1~16.04.4)
 Suggests: gobjc++-5-multilib, gcc-5-doc (>= 5.2.1-23)
-Filename: pool/universe/g/gcc-5/gobjc++-5_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 8204782
-MD5sum: 2c0c5da77ddc4a8ee92556059516e36c
-SHA1: f0ebb4ffac760bc649db131e7dedec41bb43e518
-SHA256: 6f6f679c511060a07912ee373f5aa9f513d2e1e8fb4c5c070af91f9b6ba01f1c
+Filename: pool/universe/g/gcc-5/gobjc++-5_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 8197288
+MD5sum: b905a7cf17a112b35cf85d856636a6d8
+SHA1: c601fcd6fce2b42d24113a43779e87169f77c0d8
+SHA256: fea0a542733bf51ee25d20e79c31012f67abb837df77d792f0f8164ee832297b
 Description: GNU Objective-C++ compiler
 Homepage: http://gcc.gnu.org/
 Description-md5: b9baa94c6e3efdfa23b7927008258616
@@ -13033,13 +13113,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gobjc++-5 (= 5.4.0-6ubuntu1~16.04.2), g++-5-multilib (= 5.4.0-6ubuntu1~16.04.2), gobjc-5-multilib (= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/gobjc++-5-multilib_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 972
-MD5sum: 1447206046bccc20acd581fa6264107c
-SHA1: 0c5ea13fa994bb57bb6bfffdda6fce586e45b3b0
-SHA256: 26ec92a2aef7f8175a5d2185d2b5267b2dca952fd35b0bb7e81e881c91f6791f
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gobjc++-5 (= 5.4.0-6ubuntu1~16.04.4), g++-5-multilib (= 5.4.0-6ubuntu1~16.04.4), gobjc-5-multilib (= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/gobjc++-5-multilib_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 976
+MD5sum: 05f38830ef32e3195fadb9b93b6be637
+SHA1: 2eb4b1ce05fea3b477a9f64ba97b86937fe7dc44
+SHA256: ecc14cce79ccfd72313d9924c52920470111dbf0c8f05752cf386ded126a5ace
 Description: GNU Objective-C++ compiler (multilib support)
 Homepage: http://gcc.gnu.org/
 Description-md5: 4ebddb68adf8e3d2b7023dd3d5bac0b7
@@ -13454,20 +13534,20 @@ Origin: Ubuntu
 Package: gobjc-5
 Priority: optional
 Section: universe/devel
-Installed-Size: 20689
+Installed-Size: 20681
 Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Provides: objc-compiler
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gcc-5 (= 5.4.0-6ubuntu1~16.04.2), libc6-dev (>= 2.13-0ubuntu6), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4), libobjc-5-dev (= 5.4.0-6ubuntu1~16.04.2)
-Suggests: gobjc-5-multilib, gcc-5-doc (>= 5.2.1-23), libobjc4-dbg (>= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/gobjc-5_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 7562980
-MD5sum: 394fa55fece82978c046df12956c4491
-SHA1: d930e6b600bd4b3e2e12459f0bed07f279194e5c
-SHA256: 3882e6f0c4cb46c2953dfe1833e706f30ce054f43040111d31354512d4ae0c1a
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gcc-5 (= 5.4.0-6ubuntu1~16.04.4), libc6-dev (>= 2.13-0ubuntu6), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl15 (>= 0.15), libmpc3, libmpfr4 (>= 3.1.3), zlib1g (>= 1:1.1.4), libobjc-5-dev (= 5.4.0-6ubuntu1~16.04.4)
+Suggests: gobjc-5-multilib, gcc-5-doc (>= 5.2.1-23), libobjc4-dbg (>= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/gobjc-5_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 7559554
+MD5sum: 63003de732b87790bb1643443f4ecb34
+SHA1: e6fd84249ca5f225e7a1257313bf173d5af2e091
+SHA256: acec1c81902ab63e00bd953dfb1dd85aa13ed4837bd2e8cdbc5012fc9bbdc672
 Description: GNU Objective-C compiler
 Homepage: http://gcc.gnu.org/
 Description-md5: ef51de6b57526dc4a161944678606486
@@ -13732,13 +13812,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gobjc-5 (= 5.4.0-6ubuntu1~16.04.2), gcc-5-multilib (= 5.4.0-6ubuntu1~16.04.2), lib32objc-5-dev (= 5.4.0-6ubuntu1~16.04.2), libx32objc-5-dev (= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/gobjc-5-multilib_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 978
-MD5sum: 9bb7afcb20429ac510b88e9abb5115a5
-SHA1: 5495cbb63656d410e4783cb828c3b508b8f2890a
-SHA256: 9d7c47f3533cf1f794a50633d7c491df44806f33b4a841aa46831d866c2d2f79
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gobjc-5 (= 5.4.0-6ubuntu1~16.04.4), gcc-5-multilib (= 5.4.0-6ubuntu1~16.04.4), lib32objc-5-dev (= 5.4.0-6ubuntu1~16.04.4), libx32objc-5-dev (= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/gobjc-5-multilib_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 980
+MD5sum: 1f48a17ed6a9acf81e9853909df71d56
+SHA1: 7cc7317942ae463e98a34ee2479b2510d5b3ff19
+SHA256: 1f6e0aa61ff11f9fc2a81b552bed9b97b2435f406dff2d32ccab7f023ecc59cb
 Description: GNU Objective-C compiler (multilib support)
 Homepage: http://gcc.gnu.org/
 Description-md5: b79f5c8e5ac0b4d1089b9028a80813f3
@@ -19393,14 +19473,14 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Replaces: lib32go3
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), lib32gcc1 (>= 1:4.2), libc6-i386 (>= 2.10)
-Filename: pool/universe/g/gcc-5/lib32go7_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 5100990
-MD5sum: 4bdd734c3faef92c1ec02d79a35b2a85
-SHA1: ae7861b2f472a66d157300fc443f580660ca2a06
-SHA256: 1fd64d43c6be28d1b744bf6d35c1a04321ddc4ef7ccd146232f79b6acb861d9c
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), lib32gcc1 (>= 1:4.2), libc6-i386 (>= 2.10)
+Filename: pool/universe/g/gcc-5/lib32go7_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 5098618
+MD5sum: 09c55ee04ceb608ab87fd4f570ad6d27
+SHA1: d268b29b3786de9198cda99f32c5fbe977d83a8e
+SHA256: 157637604802c0977b72c20916bd78deeb02c187348caf9973bb584d731d39cb
 Description: Runtime library for GNU Go applications (32bit)
 Homepage: http://gcc.gnu.org/
 Description-md5: 7174520aedfeba49e54b8c36f55b7e95
@@ -19415,13 +19495,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), lib32go7 (= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/lib32go7-dbg_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 956
-MD5sum: 3221909c19d2057f66cfa29ed5ee0b4b
-SHA1: 65e94b75ba2b9608ea2dad573b4d7f4b0eaf5a6b
-SHA256: 9abce7716b00f823fc3e6db96c41eb8e4b552d75506c9c2a8e08cf5f2d341bd7
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), lib32go7 (= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/lib32go7-dbg_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 952
+MD5sum: 460514b613a27d1395c467695661421c
+SHA1: c3c57f7a9f73bd8ee353f9b1e14bb282cb473ed6
+SHA256: 95b05ac2b68af7730bed3aee8f272594ac169ae3d0afab482bb2de04e3901560
 Description: Runtime library for GNU Go applications (32 bit debug symbols)
 Homepage: http://gcc.gnu.org/
 Description-md5: c72834060f6b473c88c959fce8644a48
@@ -24707,6 +24787,26 @@ Description-md5: 8868484dcc04142a5081a5a8f9557c3d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: libdwarf-dev
+Priority: optional
+Section: universe/libdevel
+Installed-Size: 1146
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Fabian Wolff <fabi.wolff@arcor.de>
+Architecture: amd64
+Source: dwarfutils
+Version: 20120410-2+deb7u2build0.16.04.1
+Conflicts: libdw-dev
+Filename: pool/universe/d/dwarfutils/libdwarf-dev_20120410-2+deb7u2build0.16.04.1_amd64.deb
+Size: 652732
+MD5sum: 0ca3dfcf55f55ea41fc95fa9e999170f
+SHA1: bda16912b062ff80d81e246003b2a1b377237b13
+SHA256: 52de52be8cb117b45d7a0fe92bab8a52d2357def941a56db2a42850146e807b6
+Description: library to consume and produce DWARF debug information
+Description-md5: 658f348e29356b31c62b50a69886649b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: libegl1-mesa-drivers
 Priority: optional
 Section: universe/libs
@@ -25155,6 +25255,66 @@ Homepage: https://github.com/Wolfgang-Spraul/fpgatools
 Description-md5: 8338afc24aca323f6b287f1ee399c49f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+
+Package: libfwts1
+Priority: optional
+Section: universe/devel
+Installed-Size: 260
+Maintainer: Firmware Testing Team <fwts-devel@lists.ubuntu.com>
+Architecture: amd64
+Source: fwts
+Version: 16.03.00-0ubuntu1.1
+Depends: libc6 (>= 2.15), libfwtsiasl1, libglib2.0-0 (>= 2.26.0), libjson-c2 (>= 0.10)
+Filename: pool/universe/f/fwts/libfwts1_16.03.00-0ubuntu1.1_amd64.deb
+Size: 75016
+MD5sum: ae51bd0367c8c158d2b9ef68d4f4a0f9
+SHA1: 2d80193a95bb6891413feda1423909820c740463
+SHA256: 8092671cacadd08036155446a8a90ab520d7b18ac2508f268b89812089cd70bc
+Description: FirmWare Test Suite core support library
+Description-md5: 52ff91e0d92988cc3e64dca37e83ded3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Phased-Update-Percentage: 60
+
+Package: libfwtsacpica1
+Priority: optional
+Section: universe/devel
+Installed-Size: 757
+Maintainer: Firmware Testing Team <fwts-devel@lists.ubuntu.com>
+Architecture: amd64
+Source: fwts
+Version: 16.03.00-0ubuntu1.1
+Depends: libc6 (>= 2.14), libfwts1
+Filename: pool/universe/f/fwts/libfwtsacpica1_16.03.00-0ubuntu1.1_amd64.deb
+Size: 255684
+MD5sum: 005d644e89071966fd88a7cd2cc9db02
+SHA1: b0622dec87fcecfccc9a0c9dbb655ef79d914f9c
+SHA256: ada8fe895926057b5e4d1180bfb77ca8020bb9a9bcea76fa407223f8e6c8e5e3
+Description: FirmWare Test Suite ACPICA core built for acpiexec functionality
+Description-md5: a5000d353030a31da5111f9694fad744
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Phased-Update-Percentage: 60
+
+Package: libfwtsiasl1
+Priority: optional
+Section: universe/devel
+Installed-Size: 1054
+Maintainer: Firmware Testing Team <fwts-devel@lists.ubuntu.com>
+Architecture: amd64
+Source: fwts
+Version: 16.03.00-0ubuntu1.1
+Depends: libc6 (>= 2.14)
+Filename: pool/universe/f/fwts/libfwtsiasl1_16.03.00-0ubuntu1.1_amd64.deb
+Size: 315984
+MD5sum: 67b59a8f2bd8ef2bdd02a6c20f9782cf
+SHA1: 71ac3f95c8339c74cab17ae277d44774e9ed1b92
+SHA256: c8c6255d3937191e62cafabb71c5a8e961f375c1f5620b9bc3b42bec898cc31a
+Description: FirmWare Test Suite ACPICA core built for iasl functionality
+Description-md5: 0fdb8bb43f21085e686e7b8bb3529034
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Phased-Update-Percentage: 60
 
 Package: libgcc-5-dev-alpha-cross
 Priority: extra
@@ -27402,13 +27562,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.15), libgcc1 (>= 1:4.2)
-Filename: pool/universe/g/gcc-5/libgnat-5_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 926042
-MD5sum: e1cbedf5ade0eaea6912c9dceebe0417
-SHA1: 041f48ff74472be18ddf45df8aafcb93673fe942
-SHA256: 13c878ba8b59f0de9afb770a3ba0a20d6fd78ccd722f29718adc5691c81a56b3
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.15), libgcc1 (>= 1:4.2)
+Filename: pool/universe/g/gcc-5/libgnat-5_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 926842
+MD5sum: 8e8d9cbd3307f631839842ee1bc80c41
+SHA1: 69f58cc34b05c2d509bdbec4d6051102b51ea3b5
+SHA256: 950e126c36856fb621d32c331659e0e7984d77cbd443c7339ea91f194a5abd9e
 Description: runtime for applications compiled with GNAT (shared library)
 Multi-Arch: same
 Homepage: http://gcc.gnu.org/
@@ -27512,13 +27672,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libgnat-5 (= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/libgnat-5-dbg_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 1711300
-MD5sum: b2a166b3bcb79555e7179027b1eaeeee
-SHA1: d24f39045eca36f2a38b8430342e0a38a8ceadd5
-SHA256: 4ebf868ae84b3b1cc8b45e07af1e94046592aa97cb8cc1c954ad4d7460d786f5
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libgnat-5 (= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/libgnat-5-dbg_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 1711126
+MD5sum: ba2eb04f5eb7e099ded4ce4825a65793
+SHA1: 5b7d9e3cd8b00004203f1397a20084c6efcc65e7
+SHA256: beb861875b614f6c6d3ed8785b2c0c8d13b13970bb50c0fa3b2920aa68b4dffa
 Description: runtime for applications compiled with GNAT (debugging symbols)
 Multi-Arch: same
 Homepage: http://gcc.gnu.org/
@@ -28106,13 +28266,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libgnat-5 (= 5.4.0-6ubuntu1~16.04.2), libgnatvsn5 (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.14), libgcc1 (>= 1:3.0)
-Filename: pool/universe/g/gcc-5/libgnatprj5_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 651228
-MD5sum: 35d78f2bcf699d083796c0141fd80645
-SHA1: 059fa447f7f809fef92dbd9f0e9ceef98ad10b86
-SHA256: 71280817d2d604e181dea38d7b1377d6492de8c011af1497b4bfc2fe49f9b681
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libgnat-5 (= 5.4.0-6ubuntu1~16.04.4), libgnatvsn5 (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.14), libgcc1 (>= 1:3.0)
+Filename: pool/universe/g/gcc-5/libgnatprj5_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 651378
+MD5sum: f791848792056ad76029c12c66167233
+SHA1: 7202e2effbdaaac4a3e9c5e10288d81ea82803e9
+SHA256: 90f86b8b5b9abf692a21ca1f3ce299a45aea68963a985e8010164e4a160509c8
 Description: GNU Ada compiler Project Manager (shared library)
 Multi-Arch: same
 Homepage: http://gcc.gnu.org/
@@ -28216,14 +28376,14 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libgnatprj5 (= 5.4.0-6ubuntu1~16.04.2)
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libgnatprj5 (= 5.4.0-6ubuntu1~16.04.4)
 Suggests: gnat
-Filename: pool/universe/g/gcc-5/libgnatprj5-dbg_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 1502110
-MD5sum: 4bdeb7b0314b536fe95d4151318a296e
-SHA1: 53a4a50dbf99b56bedbae673439d82373b2fddc9
-SHA256: 7d6fce0d1d6ad229655112b223efdd5fef56ef7280dd20b55828ed358a132c0d
+Filename: pool/universe/g/gcc-5/libgnatprj5-dbg_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 1504280
+MD5sum: 11771929540b4fe059d6f2adf2e6b049
+SHA1: d9f1c5eaf22f3606bf7250e7c00aef01f3402fd5
+SHA256: be679ee3dc50fe48bed603b591013cf2e26ffedbfb404ea1217db539c7f2b0a7
 Description: GNU Ada compiler Project Manager (debugging symbols)
 Multi-Arch: same
 Homepage: http://gcc.gnu.org/
@@ -28584,14 +28744,14 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gnat-5 (= 5.4.0-6ubuntu1~16.04.2), libgnatprj5 (= 5.4.0-6ubuntu1~16.04.2), libgnatvsn5-dev (= 5.4.0-6ubuntu1~16.04.2)
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gnat-5 (= 5.4.0-6ubuntu1~16.04.4), libgnatprj5 (= 5.4.0-6ubuntu1~16.04.4), libgnatvsn5-dev (= 5.4.0-6ubuntu1~16.04.4)
 Conflicts: libgnatprj-dev (<< 5), libgnatprj4.1-dev, libgnatprj4.3-dev, libgnatprj4.4-dev, libgnatprj4.5-dev, libgnatprj4.6-dev, libgnatprj4.9-dev
-Filename: pool/universe/g/gcc-5/libgnatprj5-dev_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 3260966
-MD5sum: f5008b7ca8de70ccdabb60e283f46112
-SHA1: f032c2ea6ede8ae2897e47ea7ae0164a103f82c4
-SHA256: a5e3f09f3e111c3bf1f35fa812268146e435501b1dcf3912e21a54b87a229323
+Filename: pool/universe/g/gcc-5/libgnatprj5-dev_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 3261928
+MD5sum: b0f61926cd850432bdf7e3e40f68d448
+SHA1: bbaa9825011d32ed98c1c227105752661366d655
+SHA256: 5199087720ab63ca527d4b427e9f4bf1719d549addd24adff6dac023508b55ff
 Description: GNU Ada compiler Project Manager (development files)
 Homepage: http://gcc.gnu.org/
 Description-md5: ee8c8bb38216ee28da6c5f1eb6380715
@@ -29193,13 +29353,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libgnat-5 (= 5.4.0-6ubuntu1~16.04.2), libc6 (>= 2.14), libgcc1 (>= 1:3.0)
-Filename: pool/universe/g/gcc-5/libgnatvsn5_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 292020
-MD5sum: a92ed4d07dceab847951eda6f1f03674
-SHA1: 7bb760b7ed720d3204eccd1168e3c457d2142427
-SHA256: f302ad72f3505cbc1bf763b4b433135ae084873056dc792f2e7d8de896427002
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libgnat-5 (= 5.4.0-6ubuntu1~16.04.4), libc6 (>= 2.14), libgcc1 (>= 1:3.0)
+Filename: pool/universe/g/gcc-5/libgnatvsn5_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 291596
+MD5sum: 232f049661d65a57a37910b5f3adb5d6
+SHA1: 74f844f60636e1c34a5c82fd6556a0b74393603e
+SHA256: f3aef09f268169c7800a89b011f88050dc1fa96aca5c88aa7f14bcf82131fd9e
 Description: GNU Ada compiler selected components (shared library)
 Multi-Arch: same
 Homepage: http://gcc.gnu.org/
@@ -29303,14 +29463,14 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libgnatvsn5 (= 5.4.0-6ubuntu1~16.04.2)
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libgnatvsn5 (= 5.4.0-6ubuntu1~16.04.4)
 Suggests: gnat
-Filename: pool/universe/g/gcc-5/libgnatvsn5-dbg_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 474690
-MD5sum: 1755f4c9943c13805fdb607f8680c02d
-SHA1: 5f41907977891202144b8ac1c1c8198bbe1aa3a6
-SHA256: 9ffd6584d4739b42d9bdf5cbe3effea58023641ed51da954f3ec40466574f344
+Filename: pool/universe/g/gcc-5/libgnatvsn5-dbg_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 474470
+MD5sum: 370c3c3dacf54bd486ebb7ac33dff32f
+SHA1: ce803c4c8cecfbf01d85e1e18581d62c2e30de32
+SHA256: c7af316904b5a855fca62ad4261748df8576909951fd14b4ceae6554e70f6794
 Description: GNU Ada compiler selected components (debugging symbols)
 Multi-Arch: same
 Homepage: http://gcc.gnu.org/
@@ -29671,14 +29831,14 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), gnat-5 (= 5.4.0-6ubuntu1~16.04.2), libgnatvsn5 (= 5.4.0-6ubuntu1~16.04.2)
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), gnat-5 (= 5.4.0-6ubuntu1~16.04.4), libgnatvsn5 (= 5.4.0-6ubuntu1~16.04.4)
 Conflicts: libgnatvsn-dev (<< 5), libgnatvsn4.1-dev, libgnatvsn4.3-dev, libgnatvsn4.4-dev, libgnatvsn4.5-dev, libgnatvsn4.6-dev, libgnatvsn4.9-dev
-Filename: pool/universe/g/gcc-5/libgnatvsn5-dev_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 1470444
-MD5sum: 8293f3da9902108f155d897439cd7c46
-SHA1: 967f5cc39a9166bdfe50af3394aab2a89016370d
-SHA256: 25c4c72ae04553001d9f7adfe3f1385d6203defdb145b54bb1d4bb66d947066d
+Filename: pool/universe/g/gcc-5/libgnatvsn5-dev_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 1471448
+MD5sum: 7b58c22098764a87f87e8671d87de83f
+SHA1: 30f879616647ff86f089ebb912385adc12f98bd8
+SHA256: 3fab73892372762828b2a5f97983c650861afd838447eade7eb6698c06843d6d
 Description: GNU Ada compiler selected components (development files)
 Homepage: http://gcc.gnu.org/
 Description-md5: fa344c0d231c640dd6ef6c54f6b9640a
@@ -30372,13 +30532,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libgo7 (= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/libgo7-dbg_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 958
-MD5sum: 88f13be409e9a9e5bb30de6fdf6d25c5
-SHA1: 7f27d6417ddceca11d1dd16bb0c05634b9ca9784
-SHA256: ea9fdc48a020196785c62fdab9fa529dfb33d87e8d316da9fb13ea076dd69efd
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libgo7 (= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/libgo7-dbg_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 956
+MD5sum: 4cb6e847a6cc58d7b1f3201653d598b2
+SHA1: 8d417b223177c793e2f0df3d45c5cc165d071f51
+SHA256: c58f58e2f45abf5f26e075837c648cf187ec8dfc70673e00f12b2dcddf825cf0
 Description: Runtime library for GNU Go applications (debug symbols)
 Multi-Arch: same
 Homepage: http://gcc.gnu.org/
@@ -34892,22 +35052,21 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: systemd
-Version: 229-4ubuntu11
+Version: 229-4ubuntu12
 Replaces: systemd (<< 222-1)
 Depends: libc6 (>= 2.17), libselinux1 (>= 1.32)
 Breaks: systemd (<< 222-1)
-Filename: pool/universe/s/systemd/libnss-mymachines_229-4ubuntu11_amd64.deb
-Size: 117526
-MD5sum: 47d6b9dcc3c6f9ff8e2f5b0f6ca1160a
-SHA1: 94feefd2d73fad91633a77372659620520369ae9
-SHA256: e5a2e7ec1b57cba2857fdc1d93842e6f79f8a1f037c07255f58b930313ad3134
+Filename: pool/universe/s/systemd/libnss-mymachines_229-4ubuntu12_amd64.deb
+Size: 116710
+MD5sum: 41408af83001927c8de3e4385d43265e
+SHA1: b5dc95a808102d854a88f60e207af9aab526e875
+SHA256: 5d2deca366a653d96a401c0217fe20b74a4b4b6b91c30f12419bf3de030aed65
 Description: nss module to resolve hostnames for local container instances
 Multi-Arch: same
 Homepage: http://www.freedesktop.org/wiki/Software/systemd
 Description-md5: 588342105e1fdd6ff74c093651cb80cc
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 0
 
 Package: libnss-resolve
 Priority: extra
@@ -34917,22 +35076,21 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: systemd
-Version: 229-4ubuntu11
+Version: 229-4ubuntu12
 Replaces: systemd (<< 227-3)
 Depends: libc6 (>= 2.17), libselinux1 (>= 1.32), systemd
 Breaks: systemd (<< 227-3)
-Filename: pool/universe/s/systemd/libnss-resolve_229-4ubuntu11_amd64.deb
-Size: 112544
-MD5sum: 9edc7334f9869dbcd87b31facf4eba15
-SHA1: 8ea46d5df5c8e0f1ccb537e03e2416120bcc2ca9
-SHA256: bd45ffb18b8842ef065874b7db9317ef9ca69b889452f6439052bfc823dfe325
+Filename: pool/universe/s/systemd/libnss-resolve_229-4ubuntu12_amd64.deb
+Size: 112664
+MD5sum: a2961fb2a9b86badbe83a8f79e49cc24
+SHA1: 8d0a6ad430730e89ee7d4de2dc53e3f06b97e291
+SHA256: cceee6b7e59bc126408b4fd2e97dd9d2a4833a703b860d69881a03d399dbda5d
 Description: nss module to resolve names via systemd-resolved
 Multi-Arch: same
 Homepage: http://www.freedesktop.org/wiki/Software/systemd
 Description-md5: fa2bc74d218dfae9ad286df8f31fa19f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 0
 
 Package: libnss3-tools
 Priority: optional
@@ -40447,14 +40605,14 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
+Version: 5.4.0-6ubuntu1~16.04.4
 Replaces: libx32go3
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libc6-x32 (>= 2.16), libx32gcc1 (>= 1:4.2)
-Filename: pool/universe/g/gcc-5/libx32go7_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 6194494
-MD5sum: 19705e19cd382f21ed3c1f315cbe40a0
-SHA1: 291494174d8a1f61b42195d14126135792cd45dc
-SHA256: 09a9a48cb98d241ee2f9ebe6303b3fd5832818de8c3acd7359977bdd20b9b3db
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libc6-x32 (>= 2.16), libx32gcc1 (>= 1:4.2)
+Filename: pool/universe/g/gcc-5/libx32go7_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 6197488
+MD5sum: 3ba60e6df524ce539046c4cf49a4b05e
+SHA1: b191b10da24df1e1889e6381b5160cbc5c8bc2b2
+SHA256: 2448e8cfa2886a1d5c02472a3752f31af06881751d99d0c60f9207f36e443df1
 Description: Runtime library for GNU Go applications (x32)
 Homepage: http://gcc.gnu.org/
 Description-md5: 274d67a4807b2168ae6370f3e1f6a565
@@ -40470,13 +40628,13 @@ Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Source: gcc-5
-Version: 5.4.0-6ubuntu1~16.04.2
-Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.2), libx32go7 (= 5.4.0-6ubuntu1~16.04.2)
-Filename: pool/universe/g/gcc-5/libx32go7-dbg_5.4.0-6ubuntu1~16.04.2_amd64.deb
-Size: 952
-MD5sum: 7c5f07e6950b2f746e7e773e64ae770e
-SHA1: d189a2af4a20c13e247b86dc38cb6fe304e3b6d5
-SHA256: 258bb08ea56710145d90cb50016d9a8caee7fa2d1cc9e6d3707b9c742995ed72
+Version: 5.4.0-6ubuntu1~16.04.4
+Depends: gcc-5-base (= 5.4.0-6ubuntu1~16.04.4), libx32go7 (= 5.4.0-6ubuntu1~16.04.4)
+Filename: pool/universe/g/gcc-5/libx32go7-dbg_5.4.0-6ubuntu1~16.04.4_amd64.deb
+Size: 950
+MD5sum: e360e4138a497ea76f0fe5e267dba04a
+SHA1: 5ba0860c31c5ff21cd2f50faa8437ffcf60a199b
+SHA256: 03a86a354630d1e669f7d00db031fe99dd620802de2571fbee6d8384fef8ea32
 Description: Runtime library for GNU Go applications (x32 debug symbols)
 Homepage: http://gcc.gnu.org/
 Description-md5: ecdc36ec2c26f4d5b8faf65a52d45fa4
@@ -42174,17 +42332,18 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Chuck Short <zulcss@ubuntu.com>
 Architecture: all
 Source: neutron
-Version: 2:8.2.0-0ubuntu1
-Depends: neutron-common (= 2:8.2.0-0ubuntu1), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.6~)
-Filename: pool/universe/n/neutron/neutron-bgp-dragent_8.2.0-0ubuntu1_all.deb
-Size: 6986
-MD5sum: d9e0cc50740d8c19ab8aea02974eaecb
-SHA1: a82bc643498b75994c98e6dbcf60106a1e55679c
-SHA256: e9fa6bac4f58e874292f16b0b86152a4bc20042226d11fa9281b0bdff76265ea
+Version: 2:8.3.0-0ubuntu1
+Depends: neutron-common (= 2:8.3.0-0ubuntu1), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.6~)
+Filename: pool/universe/n/neutron/neutron-bgp-dragent_8.3.0-0ubuntu1_all.deb
+Size: 6992
+MD5sum: 0a27ac83d365290d3d61b882b729fb18
+SHA1: fbc4f9937e3b8de26eb604ad9ae7afbad6975a5d
+SHA256: 05e5ada657c47049b66965f846c39a5d186121157bdb890071fc495ba9b3d196
 Description: Neutron is a virtual network service for Openstack - BGP Dynamic Routing agent
 Description-md5: 78c899c2d392778ba596bdafe41f1fef
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: neutron-lbaasv2-agent
 Priority: optional
@@ -42193,18 +42352,19 @@ Installed-Size: 31
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: neutron-lbaas
-Version: 2:8.2.0-0ubuntu1
-Depends: neutron-lbaas-common (= 2:8.2.0-0ubuntu1), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any
-Filename: pool/universe/n/neutron-lbaas/neutron-lbaasv2-agent_8.2.0-0ubuntu1_all.deb
-Size: 5074
-MD5sum: 315154399c8666da72c18db72054421a
-SHA1: 48ab9f21ac98894b02a7154bb13edec37975ccfe
-SHA256: f5c7c640f58ebb622f6de975739eebe29a8108c865bf6d97171354a5bf2c4ac6
+Version: 2:8.3.0-0ubuntu1
+Depends: neutron-lbaas-common (= 2:8.3.0-0ubuntu1), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any
+Filename: pool/universe/n/neutron-lbaas/neutron-lbaasv2-agent_8.3.0-0ubuntu1_all.deb
+Size: 5062
+MD5sum: 98a1a8fe4de015b69617472c0dddccb5
+SHA1: b04ec08c5467d44efe70ec999eb6a19988ce4e5b
+SHA256: 514caa90fa72aba9e41ac44c39cf03712a1f59dd12c275b689d3898bcf7d41af
 Description: Neutron is a virtual network service for Openstack - LBaaSv2 agent
 Homepage: http://github.com/openstack/neutron-lbaas
 Description-md5: 23e0aa339dfdd3dca549b4ed1809482d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: neutron-macvtap-agent
 Priority: optional
@@ -42214,17 +42374,18 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Chuck Short <zulcss@ubuntu.com>
 Architecture: all
 Source: neutron
-Version: 2:8.2.0-0ubuntu1
-Depends: neutron-common (= 2:8.2.0-0ubuntu1), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.6~)
-Filename: pool/universe/n/neutron/neutron-macvtap-agent_8.2.0-0ubuntu1_all.deb
-Size: 7242
-MD5sum: 9a93a95a9f9f9c7eb00fb95bd38d28f7
-SHA1: eeb9c7a35041fa8e024740b96152784ffb6b761d
-SHA256: 651495d62d38ddd4b304739fd7b4deaeea66533125a417d5e3f6194f04879e6e
+Version: 2:8.3.0-0ubuntu1
+Depends: neutron-common (= 2:8.3.0-0ubuntu1), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.6~)
+Filename: pool/universe/n/neutron/neutron-macvtap-agent_8.3.0-0ubuntu1_all.deb
+Size: 7238
+MD5sum: c2a1d6c3e4d1cc1ff159d07b5d3137f9
+SHA1: 708f06da471c32ccf8065940485f4fd000006f30
+SHA256: b5df2d20d007a9ec2f90d660bd865bcead967982cb6716af896101b93c67b9ef
 Description: Neutron is a virtual network service for Openstack - Macvtap L2 Agent
 Description-md5: e60c41b51b193c7b7bd59c74ab9bbcd9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: neutron-metering-agent
 Priority: optional
@@ -42234,19 +42395,20 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Chuck Short <zulcss@ubuntu.com>
 Architecture: all
 Source: neutron
-Version: 2:8.2.0-0ubuntu1
+Version: 2:8.3.0-0ubuntu1
 Replaces: neutron-plugin-metering-agent (<< 1:2014.1~b3-0ubuntu2~)
-Depends: neutron-common (= 2:8.2.0-0ubuntu1), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.6~)
+Depends: neutron-common (= 2:8.3.0-0ubuntu1), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.6~)
 Breaks: neutron-plugin-metering-agent (<< 1:2014.1~b3-0ubuntu2~)
-Filename: pool/universe/n/neutron/neutron-metering-agent_8.2.0-0ubuntu1_all.deb
-Size: 6558
-MD5sum: 2c00dffd2017805758cc76e01cfcaed7
-SHA1: a3205c14c34ccf7f3bef16533ec6a5fa5986ba0c
-SHA256: 761d0a2bc98ff1052de1ac1bffab79a6fe776588c88a3f86b0bcd078fc190ffa
+Filename: pool/universe/n/neutron/neutron-metering-agent_8.3.0-0ubuntu1_all.deb
+Size: 6566
+MD5sum: b9367d28a4c965dcd6c2d7f6046f372c
+SHA1: 154ddde20aeaa7a2660d1d372aba209740031edb
+SHA256: c2e704f6c8ea08f20fda38cd78c4c7c9374b22b61d3b3a0e5f2dc18401d98efe
 Description: Neutron is a virtual network service for Openstack - metering agent
 Description-md5: 65dae36f4a24be77bcb88d08a02f05f3
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: neutron-plugin-linuxbridge-agent
 Priority: optional
@@ -42256,17 +42418,18 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Chuck Short <zulcss@ubuntu.com>
 Architecture: all
 Source: neutron
-Version: 2:8.2.0-0ubuntu1
-Depends: neutron-linuxbridge-agent (= 2:8.2.0-0ubuntu1)
-Filename: pool/universe/n/neutron/neutron-plugin-linuxbridge-agent_8.2.0-0ubuntu1_all.deb
-Size: 2212
-MD5sum: 5ab8e204127ffbc54024535008c99381
-SHA1: 752bba39124887ac0a4c6c2d4773c79b1930c74f
-SHA256: d17857741c78b587d6dce4b1b96ad687684d4eb6372c32d351e03bcce71ded0a
+Version: 2:8.3.0-0ubuntu1
+Depends: neutron-linuxbridge-agent (= 2:8.3.0-0ubuntu1)
+Filename: pool/universe/n/neutron/neutron-plugin-linuxbridge-agent_8.3.0-0ubuntu1_all.deb
+Size: 2208
+MD5sum: f880f6d8a034844a34e92d3b0c1edb5f
+SHA1: 5f008e2b59569760bddc5d61ab85439891026d0a
+SHA256: 4664c7d2c39af508425f800754871bc45dc2715775fc7272fa3d29b33a2a513a
 Description: Transitional package for neutron-linuxbridge-agent
 Description-md5: 2b3933b495672e8963f37054b8e8ffbe
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: neutron-plugin-openvswitch-agent
 Priority: optional
@@ -42276,17 +42439,18 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Chuck Short <zulcss@ubuntu.com>
 Architecture: all
 Source: neutron
-Version: 2:8.2.0-0ubuntu1
-Depends: neutron-openvswitch-agent (= 2:8.2.0-0ubuntu1)
-Filename: pool/universe/n/neutron/neutron-plugin-openvswitch-agent_8.2.0-0ubuntu1_all.deb
-Size: 2210
-MD5sum: c3d5528dc7050e0a901d56e0c46fff7d
-SHA1: 9ddc670e80a31621012d9176b8a2920f305ca219
-SHA256: a56a857dfbc05f74ba54e1a91a5d0f419681c947dc41f806c9b2441f26996c7d
+Version: 2:8.3.0-0ubuntu1
+Depends: neutron-openvswitch-agent (= 2:8.3.0-0ubuntu1)
+Filename: pool/universe/n/neutron/neutron-plugin-openvswitch-agent_8.3.0-0ubuntu1_all.deb
+Size: 2208
+MD5sum: a778b5a95b4c510d0c6e7dadfbc94963
+SHA1: e90d4c1a43ed5520f07fce4ea143502f9b546624
+SHA256: 368de09ce467b0810782c9807cb0b5e7951ea648f31db3a08ef3ceb039f50e6b
 Description: Transitional package for neutron-openvswitch-agent
 Description-md5: 739a968407df5f0c9d1119f1ce56c018
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: neutron-plugin-sriov-agent
 Priority: optional
@@ -42296,17 +42460,18 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Chuck Short <zulcss@ubuntu.com>
 Architecture: all
 Source: neutron
-Version: 2:8.2.0-0ubuntu1
-Depends: neutron-sriov-agent (= 2:8.2.0-0ubuntu1)
-Filename: pool/universe/n/neutron/neutron-plugin-sriov-agent_8.2.0-0ubuntu1_all.deb
-Size: 2196
-MD5sum: 66f1de48f67c278abab849c1665bc73d
-SHA1: e689cf0ea3a205ef3e6e05324e93aa2fe518f256
-SHA256: 13be143954ad9f7ec4e15dfe5d7ff040320f500a01f3f61a5371556abc433a53
+Version: 2:8.3.0-0ubuntu1
+Depends: neutron-sriov-agent (= 2:8.3.0-0ubuntu1)
+Filename: pool/universe/n/neutron/neutron-plugin-sriov-agent_8.3.0-0ubuntu1_all.deb
+Size: 2190
+MD5sum: d97b87f89b4f885f62360964f7b6dc5e
+SHA1: 0271d14ec157c45925815e784df2acd141e0d279
+SHA256: 287d6b57d75b32bfd5fd73f21b053a6074cca1cc9d5c29d2312ed13152b2325d
 Description: Transitional package for neutron-sriov-agent
 Description-md5: ade5136ccbce440e1010705aab7e6c1a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: neutron-sriov-agent
 Priority: optional
@@ -42316,19 +42481,20 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Chuck Short <zulcss@ubuntu.com>
 Architecture: all
 Source: neutron
-Version: 2:8.2.0-0ubuntu1
+Version: 2:8.3.0-0ubuntu1
 Replaces: neutron-plugin-ml2 (<< 2:8.0.0~b2-0ubuntu5~)
-Depends: neutron-common (= 2:8.2.0-0ubuntu1), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.6~)
+Depends: neutron-common (= 2:8.3.0-0ubuntu1), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.6~)
 Breaks: neutron-plugin-ml2 (<< 2:8.0.0~b2-0ubuntu5~)
-Filename: pool/universe/n/neutron/neutron-sriov-agent_8.2.0-0ubuntu1_all.deb
-Size: 6840
-MD5sum: e703287dbabf0c530ba0f3f6693c8967
-SHA1: dda9ced740145fc55af447df316e66f0680e43ae
-SHA256: b12622dde6af6a82dd62bbebf1e69b78ff7a502f12e965af8dc34c2b482cf4a0
+Filename: pool/universe/n/neutron/neutron-sriov-agent_8.3.0-0ubuntu1_all.deb
+Size: 6834
+MD5sum: 36a87bb58159ce52577b59966ac3bdcf
+SHA1: 64b824226e22e9a4cc21e0e8745cb8d81098e9c7
+SHA256: b5564fa3f0809751f3ecf39d89729ad227ff2f3c2a8b5d9c6e3d8a2199e5f7ab
 Description: Neutron is a virtual network service for Openstack - SR-IOV agent
 Description-md5: 42989299f1b85c4fc6eccec9138ca534
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: nginx-extras
 Priority: optional
@@ -42575,18 +42741,19 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2:13.1.1-0ubuntu1.1
-Depends: nova-common (= 2:13.1.1-0ubuntu1.1)
-Filename: pool/universe/n/nova/nova-ajax-console-proxy_13.1.1-0ubuntu1.1_all.deb
-Size: 2602
-MD5sum: d06a9b1d02bd0a850716d06553f12f55
-SHA1: 771e908749dcdf0d6c835aa438d271a7bb9a784c
-SHA256: cd2f344f4c9e9343244fc278fb4edf18d0b1c436fd3aec1f2cb9c169bec0c835
+Version: 2:13.1.2-0ubuntu2
+Depends: nova-common (= 2:13.1.2-0ubuntu2)
+Filename: pool/universe/n/nova/nova-ajax-console-proxy_13.1.2-0ubuntu2_all.deb
+Size: 2608
+MD5sum: 8298ba2b52508181d0ccdd634bc9fc15
+SHA1: 194d4789df28f754f5851febc1ca43ceb7923b0b
+SHA256: 31b2aee704ab91a97648be2fdab6e39a78eae78b5f40a3b0ce97169d180b16b8
 Description: OpenStack Compute - AJAX console proxy - transitional package
 Homepage: http://launchpad.net/nova
 Description-md5: 571664bc0008e44d5df6784807a6ecf0
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: nova-api-metadata
 Priority: extra
@@ -42596,19 +42763,20 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2:13.1.1-0ubuntu1.1
-Depends: nova-common (= 2:13.1.1-0ubuntu1.1), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.7~)
+Version: 2:13.1.2-0ubuntu2
+Depends: nova-common (= 2:13.1.2-0ubuntu2), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.7~)
 Conflicts: nova-api
-Filename: pool/universe/n/nova/nova-api-metadata_13.1.1-0ubuntu1.1_all.deb
-Size: 6660
-MD5sum: 88e1ac52b4c1946c7894ca75364d9b51
-SHA1: feb37a64f278708d9edd2ed31d0551cc2dca559a
-SHA256: 96d7b8aa2885b9fbd507634cce96b1776e3a2222441b19a9ee388ff467048984
+Filename: pool/universe/n/nova/nova-api-metadata_13.1.2-0ubuntu2_all.deb
+Size: 6664
+MD5sum: 3ede4d76bdbb71bd9d65a33af148dbec
+SHA1: c30cdceebf65e01cf02e84aa5d33205fcfbba08a
+SHA256: dc4509f244974ff14007ae0551608dfee2f3bf0844ba91626dc03e2f7f92a5a0
 Description: OpenStack Compute - metadata API frontend
 Homepage: http://launchpad.net/nova
 Description-md5: ae9cd778d7894b1a89d138fe3587a7da
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: nova-api-os-compute
 Priority: extra
@@ -42618,19 +42786,20 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2:13.1.1-0ubuntu1.1
-Depends: nova-common (= 2:13.1.1-0ubuntu1.1), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.7~)
+Version: 2:13.1.2-0ubuntu2
+Depends: nova-common (= 2:13.1.2-0ubuntu2), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.7~)
 Conflicts: nova-api
-Filename: pool/universe/n/nova/nova-api-os-compute_13.1.1-0ubuntu1.1_all.deb
-Size: 6348
-MD5sum: ce05aec24f3990c0dd42250549f35634
-SHA1: e1af79182e288537d7a85a69ea6556685903b869
-SHA256: e70e90ad3c67d513d900884c83630d9977ab071772c3074ef24a0e56477e5f65
+Filename: pool/universe/n/nova/nova-api-os-compute_13.1.2-0ubuntu2_all.deb
+Size: 6354
+MD5sum: dcfa426257e9d2373531491fae94d32a
+SHA1: 19e6b23ea4e2be470ec30a202f1072caeae348fb
+SHA256: a7ae2076273594dc4575d0222eb99557f47f65e9c600bdc37d7bb5aefd84f1d4
 Description: OpenStack Compute - OpenStack Compute API frontend
 Homepage: http://launchpad.net/nova
 Description-md5: 32fe3c17415adfec970c371f4bdff9b6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: nova-api-os-volume
 Priority: extra
@@ -42640,18 +42809,19 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2:13.1.1-0ubuntu1.1
+Version: 2:13.1.2-0ubuntu2
 Depends: cinder-api
-Filename: pool/universe/n/nova/nova-api-os-volume_13.1.1-0ubuntu1.1_all.deb
-Size: 3876
-MD5sum: 784fa40dddf371b780564f5c8ac32891
-SHA1: d274767523eacbfbf3e4652f4727cad188989af9
-SHA256: 58d2d015bb97c8472993299ba9037233edfa45d57095f58f1d3de7c4df1770e3
+Filename: pool/universe/n/nova/nova-api-os-volume_13.1.2-0ubuntu2_all.deb
+Size: 3472
+MD5sum: 04ca4d472054d2eb9f878dd0123980d9
+SHA1: f0f18114091ba52d4d71759dc39d8217bb87ad7a
+SHA256: bb7ea376e19c95ca5a9849326f00b4d74763c778d81bf9f4bb5d033720498afe
 Description: OpenStack Compute - OpenStack Volume API frontend
 Homepage: http://launchpad.net/nova
 Description-md5: f8cc143de25afd88a62e482808826104
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: nova-cells
 Priority: extra
@@ -42661,18 +42831,19 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2:13.1.1-0ubuntu1.1
-Depends: nova-common (= 2:13.1.1-0ubuntu1.1), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.7~)
-Filename: pool/universe/n/nova/nova-cells_13.1.1-0ubuntu1.1_all.deb
-Size: 5530
-MD5sum: 4337d90588883a90581226c2cfcd66f6
-SHA1: 43753a28ce0842a4b125d3f89df30099c964dde1
-SHA256: c1f079c60e42a3e3ee517f893cbf2901757e87ad31f09f47a58bfeacc2962378
+Version: 2:13.1.2-0ubuntu2
+Depends: nova-common (= 2:13.1.2-0ubuntu2), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.7~)
+Filename: pool/universe/n/nova/nova-cells_13.1.2-0ubuntu2_all.deb
+Size: 5520
+MD5sum: ab953c11fc85328238be132007d1f543
+SHA1: 8bb376c63dcd42fe8e5601d2e6d2d94add181373
+SHA256: 0d9c4a21aa2d3bba87a3a7a7769ea579932fcba3038502d307f7afe84bcdebcc
 Description: Openstack Compute - cells
 Homepage: http://launchpad.net/nova
 Description-md5: a630a337cf802c4d29d91c1a6283fac5
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: nova-compute-qemu
 Priority: extra
@@ -42682,20 +42853,21 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2:13.1.1-0ubuntu1.1
+Version: 2:13.1.2-0ubuntu2
 Provides: nova-compute-hypervisor
-Depends: nova-compute-libvirt (= 2:13.1.1-0ubuntu1.1), qemu
+Depends: nova-compute-libvirt (= 2:13.1.2-0ubuntu2), qemu
 Conflicts: nova-compute-hypervisor
-Filename: pool/universe/n/nova/nova-compute-qemu_13.1.1-0ubuntu1.1_all.deb
-Size: 2820
-MD5sum: 0839862d6450d3060316710f4a44fb56
-SHA1: 1cc849a4f26f9d46ff1731758b17f3e9ad68f78c
-SHA256: 4aaeb1d60758da0023d5989aecd20df8b7f95fedc2868ecc8480b693aee42622
+Filename: pool/universe/n/nova/nova-compute-qemu_13.1.2-0ubuntu2_all.deb
+Size: 2814
+MD5sum: 975f084a5e4381ac031219c2ef51837f
+SHA1: ee782cd26c7c508c77a0baffb199a1b8221c7489
+SHA256: 5195a73377f20f258e99d9e4dfa4c7fd310fdced2ac2d9f4c4c12ddff08fd416
 Description: OpenStack Compute - compute node (QEmu)
 Homepage: http://launchpad.net/nova
 Description-md5: 46acbb1c9b077142e1930821f7a05aed
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: nova-compute-vmware
 Priority: extra
@@ -42705,20 +42877,21 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2:13.1.1-0ubuntu1.1
+Version: 2:13.1.2-0ubuntu2
 Provides: nova-compute-hypervisor
-Depends: genisoimage, nova-compute (= 2:13.1.1-0ubuntu1.1), python-oslo.vmware (>= 0.11.0)
+Depends: genisoimage, nova-compute (= 2:13.1.2-0ubuntu2), python-oslo.vmware (>= 0.11.0)
 Conflicts: nova-compute-hypervisor
-Filename: pool/universe/n/nova/nova-compute-vmware_13.1.1-0ubuntu1.1_all.deb
-Size: 2838
-MD5sum: a2dac7f18ea93d56423506e492741811
-SHA1: 0e1f6ea5e1b0a6c701a870664e5a3a29ef357c8e
-SHA256: d0e4e6450b74835327632edef6c868a2688e4e89e4b806d28ee2fbc8dc0818f9
+Filename: pool/universe/n/nova/nova-compute-vmware_13.1.2-0ubuntu2_all.deb
+Size: 2836
+MD5sum: ae186d69a80d049bfd4890905796a213
+SHA1: f786ff87946b7ac8cb7a9d6412411363d45e3d6f
+SHA256: 03a44501989c482731d626993bfe61c45d090f906247d313560dcd677e64aaa2
 Description: OpenStack Compute - compute node (VMware)
 Homepage: http://launchpad.net/nova
 Description-md5: 3246e65f6c94fc6b7eccb5b2f332c4f1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: nova-compute-xen
 Priority: extra
@@ -42728,20 +42901,21 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2:13.1.1-0ubuntu1.1
+Version: 2:13.1.2-0ubuntu2
 Provides: nova-compute-hypervisor
-Depends: nova-compute-libvirt (= 2:13.1.1-0ubuntu1.1), xen-system-amd64 | xen-system-i386
+Depends: nova-compute-libvirt (= 2:13.1.2-0ubuntu2), xen-system-amd64 | xen-system-i386
 Conflicts: nova-compute-hypervisor
-Filename: pool/universe/n/nova/nova-compute-xen_13.1.1-0ubuntu1.1_all.deb
-Size: 2830
-MD5sum: f1cf1fc88ff9fd05b54c5caded922da7
-SHA1: 3b4db5458ffa8cb45e60dc84b2ebb5e495563080
-SHA256: f9940322a576e82fbec5fde1e10ec19098530857d4b058d1c66e8ddda0a2bb57
+Filename: pool/universe/n/nova/nova-compute-xen_13.1.2-0ubuntu2_all.deb
+Size: 2826
+MD5sum: 1aee5b331d371589d25be51a7d095afd
+SHA1: 7c4d3d8a7f0103760f2c39b97f6bdf68bd0bb09e
+SHA256: 556c5834f7843f51d9759c58b986cf556a41c648aa8c6de641fea09553187261
 Description: OpenStack Compute - compute node (Xen)
 Homepage: http://launchpad.net/nova
 Description-md5: 8268c70ad765a6427d184e1c58a4472c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: nova-conductor
 Priority: extra
@@ -42751,18 +42925,19 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2:13.1.1-0ubuntu1.1
-Depends: nova-common (= 2:13.1.1-0ubuntu1.1), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.7~)
-Filename: pool/universe/n/nova/nova-conductor_13.1.1-0ubuntu1.1_all.deb
-Size: 6446
-MD5sum: 015b258ba90fd9e05c688efbf781a2e1
-SHA1: 52b5da9adba314222cc0a71293c3409db7a2b34b
-SHA256: cf38cf9c375a0dd8d4295c7154785d9f67cf1acd64e186da846de9e507729f23
+Version: 2:13.1.2-0ubuntu2
+Depends: nova-common (= 2:13.1.2-0ubuntu2), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.7~)
+Filename: pool/universe/n/nova/nova-conductor_13.1.2-0ubuntu2_all.deb
+Size: 6456
+MD5sum: b8340f89dce92c1758611daf27cce83f
+SHA1: e85fb5d927a37a94f4ffd2c48f7eb8162eb936e0
+SHA256: 6684ad50dcb1df3e4efa5b37abf54fe9700dc30a6923a0306b65a7e42f70c88e
 Description: OpenStack Compute - conductor service
 Homepage: http://launchpad.net/nova
 Description-md5: 0b6894258f8fbaad9a8f7daf4cae4456
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: nova-console
 Priority: extra
@@ -42772,19 +42947,20 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2:13.1.1-0ubuntu1.1
-Depends: nova-common (= 2:13.1.1-0ubuntu1.1), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.7~)
+Version: 2:13.1.2-0ubuntu2
+Depends: nova-common (= 2:13.1.2-0ubuntu2), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.7~)
 Recommends: nova-consoleauth (>= 2012.1~rc1-0ubuntu2)
-Filename: pool/universe/n/nova/nova-console_13.1.1-0ubuntu1.1_all.deb
-Size: 6536
-MD5sum: 3a5186fb45154a59b2b6b97cb98fa572
-SHA1: cebbd1087eea40f92ba58a838597623adb637353
-SHA256: b53ecdbeba6b4e98a4347fb28e891d72e491aa1ef0689bd97007fc74ac6f48d5
+Filename: pool/universe/n/nova/nova-console_13.1.2-0ubuntu2_all.deb
+Size: 6544
+MD5sum: 443b20b9a29c38d908d309d311036ef9
+SHA1: 69948a2ba74c87ecf2cf401f1581fb2ae66caf92
+SHA256: 60470e83d2028860ab93936002b455f7749f1afe4e29812fb05cf145e9271d86
 Description: OpenStack Compute - Console
 Homepage: http://launchpad.net/nova
 Description-md5: 095d3c39f30a44dd0768d8a869e4fa67
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: nova-consoleauth
 Priority: extra
@@ -42794,20 +42970,21 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2:13.1.1-0ubuntu1.1
+Version: 2:13.1.2-0ubuntu2
 Replaces: nova-console (<< 2012.1~rc1-0ubuntu2)
-Depends: nova-common (= 2:13.1.1-0ubuntu1.1), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.7~)
+Depends: nova-common (= 2:13.1.2-0ubuntu2), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.7~)
 Breaks: nova-console (<< 2012.1~rc1-0ubuntu2)
-Filename: pool/universe/n/nova/nova-consoleauth_13.1.1-0ubuntu1.1_all.deb
-Size: 6514
-MD5sum: 05edc4c46f878c3682c81b37e2d834a4
-SHA1: 7069acbf6e9fc2c969aaad1dfdbf80d1ad155148
-SHA256: fed1d9dbff7ea8904f70b07ea7c4681cbb9f54b0010c753c7855647fa482bdd8
+Filename: pool/universe/n/nova/nova-consoleauth_13.1.2-0ubuntu2_all.deb
+Size: 6526
+MD5sum: bb22ecdf151d4120191bed608660c2c0
+SHA1: 7b27b266d7925191a5dc6b1f158117efecca8b8c
+SHA256: f187674e2d0bf3356d68b126971ee5a0a77751afca27548ae711a459c5b071f4
 Description: OpenStack Compute - Console Authenticator
 Homepage: http://launchpad.net/nova
 Description-md5: 471ffbc52e68b19718599b8e938708d2
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: nova-novncproxy
 Priority: extra
@@ -42817,18 +42994,19 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2:13.1.1-0ubuntu1.1
-Depends: nova-common (= 2:13.1.1-0ubuntu1.1), novnc, init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.7~)
-Filename: pool/universe/n/nova/nova-novncproxy_13.1.1-0ubuntu1.1_all.deb
-Size: 6456
-MD5sum: 3e6d609e23aca4e7a24b11dd43ec3c05
-SHA1: 59b7fac70b22cc885d449dc37dd2837297265325
-SHA256: 84a56460a10de6597fea98ee476144c0d813f19887bfeff4f6d67d612035d1cd
+Version: 2:13.1.2-0ubuntu2
+Depends: nova-common (= 2:13.1.2-0ubuntu2), novnc, init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.7~)
+Filename: pool/universe/n/nova/nova-novncproxy_13.1.2-0ubuntu2_all.deb
+Size: 6476
+MD5sum: 81b18b70233497549bfd8b14086350a5
+SHA1: 3a0f0e7e4cb367ca1f5563b2f87cd16b1a24fc78
+SHA256: 112b7cd56d18b7f627381f079c484345bff1c00b92a274b2c41767b84b1908fb
 Description: OpenStack Compute - NoVNC proxy
 Homepage: http://launchpad.net/nova
 Description-md5: f71a025ccadd58aa7f26e66e99818fa8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: nova-serialproxy
 Priority: extra
@@ -42838,20 +43016,21 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2:13.1.1-0ubuntu1.1
+Version: 2:13.1.2-0ubuntu2
 Replaces: nova-compute (<< 1:2015.1-0ubuntu3~)
-Depends: nova-common (= 2:13.1.1-0ubuntu1.1), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.7~)
+Depends: nova-common (= 2:13.1.2-0ubuntu2), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.7~)
 Breaks: nova-compute (<< 1:2015.1-0ubuntu3~)
-Filename: pool/universe/n/nova/nova-serialproxy_13.1.1-0ubuntu1.1_all.deb
-Size: 6484
-MD5sum: 1983ee037034bdd6643ee1851e423c5e
-SHA1: 51213628cb18293fe88e146f40beb91a94d27d2c
-SHA256: 438872e716b541be317e118ec2203bd69301bc87923fe37597063a9bbf49340c
+Filename: pool/universe/n/nova/nova-serialproxy_13.1.2-0ubuntu2_all.deb
+Size: 6512
+MD5sum: 221271df524ddc9b60df50e6cf8beae5
+SHA1: 3cf8bbb253f3b381059745b3c1890783fdf49e67
+SHA256: 5b22cb72be4aff7368b0918cec6f91d92d4e793c18c7d20069611ea0b69a786a
 Description: OpenStack Compute - serial proxy
 Homepage: http://launchpad.net/nova
 Description-md5: a8fd3f5d6ac9bda37bd109530d1cfc96
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: nova-spiceproxy
 Priority: extra
@@ -42861,18 +43040,19 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2:13.1.1-0ubuntu1.1
-Depends: nova-common (= 2:13.1.1-0ubuntu1.1), spice-html5, init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.7~)
-Filename: pool/universe/n/nova/nova-spiceproxy_13.1.1-0ubuntu1.1_all.deb
-Size: 6482
-MD5sum: 1852df9780ad84ee4bc8d14a43564aee
-SHA1: 4b9c54fbbfa96a0e916d43869bb5feba46195acb
-SHA256: b1ff8dff0ed556e8a1df9cea0e6455a79c065f9bf17bdd523aec3ae2b161f3d1
+Version: 2:13.1.2-0ubuntu2
+Depends: nova-common (= 2:13.1.2-0ubuntu2), spice-html5, init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.7~)
+Filename: pool/universe/n/nova/nova-spiceproxy_13.1.2-0ubuntu2_all.deb
+Size: 6492
+MD5sum: 811d9e8ddb6426656d08e4990e1a428a
+SHA1: 5d7173db3983c3262d0aa0420ac5e46b35e3a0ae
+SHA256: ee8a28e9ad5838438a0e928f87dd7cd4d22cb5ff4a3a0ed17239979e53366e15
 Description: OpenStack Compute - spice html5 proxy
 Homepage: http://launchpad.net/nova
 Description-md5: ea77a7b8b1a9e5a1953479bb5b89e219
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: nova-xvpvncproxy
 Priority: extra
@@ -42882,18 +43062,19 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2:13.1.1-0ubuntu1.1
-Depends: nova-common (= 2:13.1.1-0ubuntu1.1), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.7~)
-Filename: pool/universe/n/nova/nova-xvpvncproxy_13.1.1-0ubuntu1.1_all.deb
-Size: 6392
-MD5sum: ad48e57ca3982f280df61c5a47d5b059
-SHA1: ed99d4eec72ca5254b50b541c02815aac07b7e6a
-SHA256: ae39998d5bbc7771a5fabd47e522a6f64f0583877bd781d1dce6c32a65bb82f5
+Version: 2:13.1.2-0ubuntu2
+Depends: nova-common (= 2:13.1.2-0ubuntu2), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), python:any (>= 2.7~)
+Filename: pool/universe/n/nova/nova-xvpvncproxy_13.1.2-0ubuntu2_all.deb
+Size: 6410
+MD5sum: fc0e549d478dea334ffc898c937f6e80
+SHA1: 5ab4846025a2b8ab6f7daba5a3730f0474f90949
+SHA256: 162b0264088be43ed9af2e67f1b47ad3bef4959242437d856bdfbd2b11d6ab1d
 Description: OpenStack Compute - XVP VNC proxy
 Homepage: http://launchpad.net/nova
 Description-md5: b3739b7ab9595f5c68b1c0e141861b74
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: nplan
 Priority: standard
@@ -42915,7 +43096,6 @@ Multi-Arch: foreign
 Description-md5: 171990596b9adbbde53590d783767a6d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: nscd
 Priority: optional
@@ -42979,6 +43159,27 @@ Description: transitional package for ubuntu-drivers-common
 Description-md5: f11494e618e154235d7240541a9fc755
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+
+Package: nvme-cli
+Priority: optional
+Section: universe/admin
+Installed-Size: 181
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Breno Leitao <brenohl@br.ibm.com>
+Architecture: amd64
+Version: 0.5-1ubuntu0.1
+Depends: libc6 (>= 2.14), libudev1 (>= 183)
+Filename: pool/universe/n/nvme-cli/nvme-cli_0.5-1ubuntu0.1_amd64.deb
+Size: 87606
+MD5sum: 8684f9b2d22cebb8511a84457659d097
+SHA1: 87f1044dc4b65f21fb7b0b4a67120c4d30d88ca9
+SHA256: bf41acb828fc7914d480117ebd59ae5dd429d4709dc2fda0b73061136ae1f8be
+Description: userspace tooling to control NVMe drives
+Homepage: https://github.com/linux-nvme/nvme-cli
+Description-md5: 50cd6c8d88aeb616570db136de8ec92d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Phased-Update-Percentage: 60
 
 Package: oce-draw
 Priority: extra
@@ -43197,18 +43398,17 @@ Origin: Ubuntu
 Package: openjdk-8-jre-zero
 Priority: extra
 Section: universe/java
-Installed-Size: 6598
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
+Installed-Size: 6606
+Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: amd64
 Source: openjdk-8
-Version: 8u91-b14-3ubuntu1~16.04.1
-Depends: openjdk-8-jre-headless (= 8u91-b14-3ubuntu1~16.04.1), libc6 (>= 2.14), libstdc++6 (>= 4.1.1)
-Filename: pool/universe/o/openjdk-8/openjdk-8-jre-zero_8u91-b14-3ubuntu1~16.04.1_amd64.deb
-Size: 1983914
-MD5sum: 65ff6ab8aeb78fa8f7adcfe8089ebf4f
-SHA1: 51f3bcdfe4e219096ba8709ccbaa0eef2c37854f
-SHA256: a439cc56147b04940d62d3334b8282b44dc771b769be3b3fa171f2cea928deea
+Version: 8u111-b14-2ubuntu0.16.04.2
+Depends: openjdk-8-jre-headless (= 8u111-b14-2ubuntu0.16.04.2), libc6 (>= 2.14), libstdc++6 (>= 4.1.1)
+Filename: pool/universe/o/openjdk-8/openjdk-8-jre-zero_8u111-b14-2ubuntu0.16.04.2_amd64.deb
+Size: 1984782
+MD5sum: 2cc24176c7e84320730da651f46212a4
+SHA1: 514a015903a137860ce61ab2f43561a39afd31f0
+SHA256: 6522ec858bb7969ff51a16a3d916c02ca1361fd721c39918f624c61c0fadc793
 Description: Alternative JVM for OpenJDK, using Zero/Shark
 Multi-Arch: same
 Homepage: http://openjdk.java.net/
@@ -44676,14 +44876,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
 Architecture: amd64
 Source: postgresql-9.5
-Version: 9.5.4-0ubuntu0.16.04
+Version: 9.5.5-0ubuntu0.16.04
 Provides: postgresql-plperl
-Depends: libc6 (>= 2.4), libperl5.22 (>= 5.22.1), postgresql-9.5 (= 9.5.4-0ubuntu0.16.04), perl
-Filename: pool/universe/p/postgresql-9.5/postgresql-plperl-9.5_9.5.4-0ubuntu0.16.04_amd64.deb
-Size: 40480
-MD5sum: d64c92a61d35c5378f6bee9f938cece3
-SHA1: aba31423cbd37c3f1ba83cfd01dd16a1ab270abd
-SHA256: b507934473f5c9acc1b8c1b11caf592854d493f900f1d06d0f141868488af05f
+Depends: libc6 (>= 2.4), libperl5.22 (>= 5.22.1), postgresql-9.5 (= 9.5.5-0ubuntu0.16.04), perl
+Filename: pool/universe/p/postgresql-9.5/postgresql-plperl-9.5_9.5.5-0ubuntu0.16.04_amd64.deb
+Size: 40354
+MD5sum: aee59b607553cc6c452dfd96534a0be1
+SHA1: f52e73cdeda816fde5f86be22d486b7eb458dc58
+SHA256: 4ce92ac1f3f33aaeb6071a260c5712d2e5a781e978bcc40f4f679905264f4c99
 Description: PL/Perl procedural language for PostgreSQL 9.5
 Homepage: http://www.postgresql.org/
 Description-md5: 72a8d9aac6d121326f37aff0b19abbdf
@@ -44698,14 +44898,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
 Architecture: amd64
 Source: postgresql-9.5
-Version: 9.5.4-0ubuntu0.16.04
+Version: 9.5.5-0ubuntu0.16.04
 Provides: postgresql-plpython
-Depends: libc6 (>= 2.14), libpython2.7 (>= 2.7), postgresql-9.5 (= 9.5.4-0ubuntu0.16.04)
-Filename: pool/universe/p/postgresql-9.5/postgresql-plpython-9.5_9.5.4-0ubuntu0.16.04_amd64.deb
-Size: 42560
-MD5sum: 91c7f90af7b7f155befb8f8001e41ceb
-SHA1: 116c83d767bbba842e40600f4f3a01e536f74c8c
-SHA256: 3766d045ab218eebc423b269e6024be4139300b2f38a18aa057817ea58e9e06c
+Depends: libc6 (>= 2.14), libpython2.7 (>= 2.7), postgresql-9.5 (= 9.5.5-0ubuntu0.16.04)
+Filename: pool/universe/p/postgresql-9.5/postgresql-plpython-9.5_9.5.5-0ubuntu0.16.04_amd64.deb
+Size: 42592
+MD5sum: 69e48e81ceff88ddc8d84d6bbd13cb77
+SHA1: 4cae23a5329138d599749f5fabe67c0d69a6c668
+SHA256: cc11eef9c77b352ceaa71c5e920d0ec2bad32e743a8c9e677ee9a294f4ca9630
 Description: PL/Python procedural language for PostgreSQL 9.5
 Homepage: http://www.postgresql.org/
 Description-md5: e9f3ccd737d3fad8edbddb52bb883c73
@@ -44720,14 +44920,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
 Architecture: amd64
 Source: postgresql-9.5
-Version: 9.5.4-0ubuntu0.16.04
+Version: 9.5.5-0ubuntu0.16.04
 Provides: postgresql-plpython3
-Depends: libc6 (>= 2.14), libpython3.5 (>= 3.5.0~b1), postgresql-9.5 (= 9.5.4-0ubuntu0.16.04)
-Filename: pool/universe/p/postgresql-9.5/postgresql-plpython3-9.5_9.5.4-0ubuntu0.16.04_amd64.deb
-Size: 40788
-MD5sum: 3c1d7c71708e938bd24c821c80730610
-SHA1: b65ce1d56fb4fc7a918e7b9ce4cb47d3bf6d0e60
-SHA256: 901831218381b11d1bfa2487474225ab59588a4c5ba0f7ccf6102b1ac0d3f9b5
+Depends: libc6 (>= 2.14), libpython3.5 (>= 3.5.0~b1), postgresql-9.5 (= 9.5.5-0ubuntu0.16.04)
+Filename: pool/universe/p/postgresql-9.5/postgresql-plpython3-9.5_9.5.5-0ubuntu0.16.04_amd64.deb
+Size: 40662
+MD5sum: 3e9d8ded291c5fdc0c3a72cb2d26c3c5
+SHA1: aed2287daf7650c7319a182cd90ade799d20a20e
+SHA256: 7e867759a3edfb26ed246d867f5689d73b40fe9131afadb6c9abb4897a06d396
 Description: PL/Python 3 procedural language for PostgreSQL 9.5
 Homepage: http://www.postgresql.org/
 Description-md5: a977badee37f47f7ed08208cfbfbc14d
@@ -44742,14 +44942,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
 Architecture: amd64
 Source: postgresql-9.5
-Version: 9.5.4-0ubuntu0.16.04
+Version: 9.5.5-0ubuntu0.16.04
 Provides: postgresql-pltcl
-Depends: libc6 (>= 2.4), libtcl8.6 (>= 8.6.0), postgresql-9.5 (= 9.5.4-0ubuntu0.16.04)
-Filename: pool/universe/p/postgresql-9.5/postgresql-pltcl-9.5_9.5.4-0ubuntu0.16.04_amd64.deb
-Size: 21026
-MD5sum: b06bc42d5721032f7a8545c2c717708c
-SHA1: 99df60ff961c4e174ea16cefb97d8ed87a67a85e
-SHA256: a95ca3485f4169e05c16c2d5fd8f3b9cfe0d36938dce1eac6ab42225638a28e4
+Depends: libc6 (>= 2.4), libtcl8.6 (>= 8.6.0), postgresql-9.5 (= 9.5.5-0ubuntu0.16.04)
+Filename: pool/universe/p/postgresql-9.5/postgresql-pltcl-9.5_9.5.5-0ubuntu0.16.04_amd64.deb
+Size: 20926
+MD5sum: c2e46f1e9d1bd98d24dcf98dd9b05e8d
+SHA1: a88e13ef52e8c0f8f54c3b2ea07b8ac18c5bfcbc
+SHA256: 91c0ea023b028f6b21ce50b0c02662c2ebb8c1d24219c7a4aed008d61f82dc34
 Description: PL/Tcl procedural language for PostgreSQL 9.5
 Homepage: http://www.postgresql.org/
 Description-md5: 6ade04a534309cb1db46beb57d9b1d16
@@ -44759,18 +44959,18 @@ Origin: Ubuntu
 Package: postgresql-server-dev-9.5
 Priority: optional
 Section: universe/libdevel
-Installed-Size: 4053
+Installed-Size: 4067
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
 Architecture: amd64
 Source: postgresql-9.5
-Version: 9.5.4-0ubuntu0.16.04
+Version: 9.5.5-0ubuntu0.16.04
 Depends: libc6 (>= 2.14), libpq-dev (>= 9.5~~), postgresql-common (>= 142~)
-Filename: pool/universe/p/postgresql-9.5/postgresql-server-dev-9.5_9.5.4-0ubuntu0.16.04_amd64.deb
-Size: 712448
-MD5sum: 2bd9c0d4f96e81ccf41100c6cab1aa3e
-SHA1: fd97ed425c558d2bceeeb8bd8bd553a0ad820597
-SHA256: 7cfc2f8a6d554c2dafc465620063818e1e9c283f7bc655f3c18503d08a6d0611
+Filename: pool/universe/p/postgresql-9.5/postgresql-server-dev-9.5_9.5.5-0ubuntu0.16.04_amd64.deb
+Size: 717478
+MD5sum: 55c40a6c795012e0ac85ecabf27acb40
+SHA1: 0f75bb124227561616d568caf91ee6454bc44bf0
+SHA256: 16402ae2a73496f3aa0d75f2de193f44c69642687df6c28cbd5ab96a0d24de89
 Description: development files for PostgreSQL 9.5 server-side programming
 Homepage: http://www.postgresql.org/
 Description-md5: 09ec7e2d9fec5c8f07fd96f6ac33317e
@@ -45474,6 +45674,27 @@ Homepage: http://www.astropy.org/montage-wrapper/
 Description-md5: 8a9abffc65b85ccf5afa90c887d782ee
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+
+Package: python-nova.lxd
+Priority: extra
+Section: universe/python
+Installed-Size: 9
+Maintainer: Chuck Short <zulcss@ubuntu.com>
+Architecture: all
+Source: nova-lxd
+Version: 13.0.0-0ubuntu3.1
+Depends: python-nova-lxd
+Filename: pool/universe/n/nova-lxd/python-nova.lxd_13.0.0-0ubuntu3.1_all.deb
+Size: 1480
+MD5sum: 2c2c36d4a9de22cde4f1389b5018a85a
+SHA1: 2408682a5070bea218c051ed52ee0b6c7cccb7bb
+SHA256: c815f241cbe51a6785f677fae51c55985804041523e611828063bce10c05ddbf
+Description: transitional dummy package for python-nova.lxd
+Homepage: http://github.com/lxd/nova-lxd
+Description-md5: a9b3f6596c73a62b37413702be61b600
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Phased-Update-Percentage: 50
 
 Package: python-oslo-concurrency
 Priority: optional
@@ -46536,18 +46757,18 @@ Origin: Ubuntu
 Package: qemu
 Priority: optional
 Section: universe/metapackages
-Installed-Size: 458
+Installed-Size: 459
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Architecture: amd64
-Version: 1:2.5+dfsg-5ubuntu10.5
-Depends: qemu-system (>= 1:2.5+dfsg-5ubuntu10.5), qemu-user (>= 1:2.5+dfsg-5ubuntu10.5), qemu-utils (>= 1:2.5+dfsg-5ubuntu10.5)
+Version: 1:2.5+dfsg-5ubuntu10.6
+Depends: qemu-system (>= 1:2.5+dfsg-5ubuntu10.6), qemu-user (>= 1:2.5+dfsg-5ubuntu10.6), qemu-utils (>= 1:2.5+dfsg-5ubuntu10.6)
 Suggests: qemu-user-static
-Filename: pool/universe/q/qemu/qemu_2.5+dfsg-5ubuntu10.5_amd64.deb
-Size: 83048
-MD5sum: 5ebf1548f327a0ad44fe1d2d84076702
-SHA1: 61a3b8e5ac4dc7cfc94793fe4301fa0c5d303d0c
-SHA256: 3e808cdcd93e4f37b4dc629ce4270befb82a096b412b5a49dd9f9a50195d7a1e
+Filename: pool/universe/q/qemu/qemu_2.5+dfsg-5ubuntu10.6_amd64.deb
+Size: 83006
+MD5sum: 59143b5e32ec9ffd72fa7e2fbab0f6ec
+SHA1: 7df00075e08042872a6c289a200b4cac6273ee24
+SHA256: 62ea27c58bb799ed33577a2b1e93e132a0e7c02075f66192757238af28c6f142
 Description: fast processor emulator
 Multi-Arch: foreign
 Homepage: http://www.qemu.org/
@@ -46558,18 +46779,18 @@ Origin: Ubuntu
 Package: qemu-guest-agent
 Priority: optional
 Section: universe/misc
-Installed-Size: 507
+Installed-Size: 508
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: qemu
-Version: 1:2.5+dfsg-5ubuntu10.5
+Version: 1:2.5+dfsg-5ubuntu10.6
 Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.4), libglib2.0-0 (>= 2.16.0)
-Filename: pool/universe/q/qemu/qemu-guest-agent_2.5+dfsg-5ubuntu10.5_amd64.deb
-Size: 132310
-MD5sum: 0e022ffdf8a850c7f5dfd3b58edd3db1
-SHA1: 15d1ac7b4f53b8b8f8b4096d706d898ae549d9cf
-SHA256: de5b908e3a0cd5e9d9b65b2f8eb80c089b981e603216fc3d06775cbaf2304c85
+Filename: pool/universe/q/qemu/qemu-guest-agent_2.5+dfsg-5ubuntu10.6_amd64.deb
+Size: 133846
+MD5sum: 8ade0e041a93de8ddcd21a1e3e62e44a
+SHA1: e05cfc2d572b0f7cc50acbdc982724b5f6d6312d
+SHA256: 5250bff9e905a1625dd5ca1799d33826760f90c4f54597a340fe4527a1d71b67
 Description: Guest-side qemu-system agent
 Multi-Arch: foreign
 Homepage: http://www.qemu.org/
@@ -46580,22 +46801,22 @@ Origin: Ubuntu
 Package: qemu-user
 Priority: optional
 Section: universe/misc
-Installed-Size: 51154
+Installed-Size: 51155
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: qemu
-Version: 1:2.5+dfsg-5ubuntu10.5
+Version: 1:2.5+dfsg-5ubuntu10.6
 Replaces: qemu-kvm (<< 1.2.0.dfsg-1)
 Depends: libc6 (>= 2.16), libgcc1 (>= 1:4.7), libglib2.0-0 (>= 2.24.0), libstdc++6 (>= 4.6), zlib1g (>= 1:1.1.4)
 Recommends: qemu-user-binfmt
 Suggests: sudo
 Breaks: qemu-kvm (<< 1.2.0.dfsg-1)
-Filename: pool/universe/q/qemu/qemu-user_2.5+dfsg-5ubuntu10.5_amd64.deb
-Size: 6800490
-MD5sum: e0eb53edc1c4711a20c282bfe76b0707
-SHA1: 3a1c1dbd9856f7a6f81cbd7ee260b0e365e12a0b
-SHA256: 8b62b8bdc255beff794e891bc40d666ac11ce40cae4c33fe6ead695bb5cbdda2
+Filename: pool/universe/q/qemu/qemu-user_2.5+dfsg-5ubuntu10.6_amd64.deb
+Size: 6200954
+MD5sum: 1a206bdf5ee6c71e26327f71aa8d699d
+SHA1: 78d6a0102a5404f12b269e4dabcf4db7dd322ad0
+SHA256: 8e701809ab3f4656620c0d9e71fe7fb4d31b3487fd15a0efee29075bb272cd0b
 Description: QEMU user mode emulation binaries
 Multi-Arch: foreign
 Homepage: http://www.qemu.org/
@@ -46611,14 +46832,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: qemu
-Version: 1:2.5+dfsg-5ubuntu10.5
-Depends: qemu-user (= 1:2.5+dfsg-5ubuntu10.5), binfmt-support
+Version: 1:2.5+dfsg-5ubuntu10.6
+Depends: qemu-user (= 1:2.5+dfsg-5ubuntu10.6), binfmt-support
 Conflicts: qemu-user-static
-Filename: pool/universe/q/qemu/qemu-user-binfmt_2.5+dfsg-5ubuntu10.5_amd64.deb
-Size: 2626
-MD5sum: bc6d264f98637bda3945e27ad6f2ca19
-SHA1: a986299281a9226a4402987b6334b79aa81ad911
-SHA256: 9d8b94eb5ad97fcca60a74b1d74c6f90dc7053d0da874dd195cfc674798ea732
+Filename: pool/universe/q/qemu/qemu-user-binfmt_2.5+dfsg-5ubuntu10.6_amd64.deb
+Size: 2640
+MD5sum: a63a607d1230202701f6c4f6445d2c79
+SHA1: bbcbe89f95c29c4de724d57a9dc61dbfb4e07a6c
+SHA256: 2c7ae180c4e7171195a422e8edb469d6f1581f18800da08b26fb1df86d10016c
 Description: QEMU user mode binfmt registration for qemu-user
 Multi-Arch: foreign
 Homepage: http://www.qemu.org/
@@ -46629,23 +46850,23 @@ Origin: Ubuntu
 Package: qemu-user-static
 Priority: optional
 Section: universe/otherosfs
-Installed-Size: 83776
+Installed-Size: 83777
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: qemu
-Version: 1:2.5+dfsg-5ubuntu10.5
+Version: 1:2.5+dfsg-5ubuntu10.6
 Provides: qemu-user-binfmt
 Recommends: binfmt-support
 Suggests: sudo
 Conflicts: qemu-user-binfmt
-Filename: pool/universe/q/qemu/qemu-user-static_2.5+dfsg-5ubuntu10.5_amd64.deb
-Size: 7633576
-MD5sum: 54a94424c19476f39f2a5b42f5fabb71
-SHA1: 99904c63084814637a7bb3f5f167c62e24caf20a
-SHA256: ea774d4b1f2977ea6db7354f9654e00ccff8929303865a67fc89c347a8920b28
+Filename: pool/universe/q/qemu/qemu-user-static_2.5+dfsg-5ubuntu10.6_amd64.deb
+Size: 7529244
+MD5sum: 12d0e874ede76d6992434c067fc8a8e0
+SHA1: 978d29575adcc8c5b6e926a54c4556778ce8c3e4
+SHA256: a3e3f3e36f3394e5279b8fe095a8e51c193c29ae1f1400e5ff7e202bf64e0fbe
 Description: QEMU user mode emulation binaries (static version)
-Built-Using: gcc-5 (= 5.4.0-6ubuntu1~16.04.2), gccgo-6 (= 6.0.1-0ubuntu1), glib2.0 (= 2.48.1-1~ubuntu16.04.1), glibc (= 2.23-0ubuntu3), zlib (= 1:1.2.8.dfsg-2ubuntu4)
+Built-Using: gcc-5 (= 5.4.0-6ubuntu1~16.04.4), gccgo-6 (= 6.0.1-0ubuntu1), glib2.0 (= 2.48.0-1ubuntu4), glibc (= 2.23-0ubuntu3), zlib (= 1:1.2.8.dfsg-2ubuntu4)
 Multi-Arch: foreign
 Homepage: http://www.qemu.org/
 Description-md5: 5d8ec17cec68244efa918fa841e2964c
@@ -47102,24 +47323,23 @@ Origin: Ubuntu
 Package: snapcraft
 Priority: extra
 Section: universe/utils
-Installed-Size: 523
+Installed-Size: 527
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Snapcraft Team <snapcraft@lists.snapcraft.io>
 Architecture: all
-Version: 2.20
+Version: 2.21
 Depends: python3-apt, python3-docopt, python3-jsonschema, python3-lxml, python3-magic, python3-petname, python3-pkg-resources, python3-progressbar, python3-pymacaroons, python3-requests, python3-requests-toolbelt, python3-simplejson, python3-tabulate, python3-xdg, python3-yaml, squashfs-tools, sudo, python3:any (>= 3.3.2-2~)
 Suggests: lxd, snapd (>= 2.15~)
-Filename: pool/universe/s/snapcraft/snapcraft_2.20_all.deb
-Size: 88492
-MD5sum: 03a7d49e099286bc820a3e980689a591
-SHA1: 3a1beb8161fac972c5a5ae7a329b4c7311a7cb8e
-SHA256: f12fe2c38cafad1fb23012c9753ec6df6ba6eca93724477e0a08408b7a28cef0
+Filename: pool/universe/s/snapcraft/snapcraft_2.21_all.deb
+Size: 89066
+MD5sum: 472d7ad875245a5a8fd36cf2f9473c07
+SHA1: 92aaef2e3c957e7791181c8c5c0c14c0e78f4c6f
+SHA256: dc8bba9796d3ec66cb4d7fcd931430bd32c8a78b0f4cf4a2f156bd12ec468900
 Description: easily craft snaps
 Homepage: https://github.com/snapcore/snapcraft
 Description-md5: f2b9ada80f848158a030d4fdb4463569
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 70
 
 Package: snapcraft-examples
 Priority: extra
@@ -47129,19 +47349,18 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Snapcraft Team <snapcraft@lists.snapcraft.io>
 Architecture: all
 Source: snapcraft
-Version: 2.20
-Depends: snapcraft (= 2.20)
-Filename: pool/universe/s/snapcraft/snapcraft-examples_2.20_all.deb
-Size: 56532
-MD5sum: d097b13c287bba9228871c8f91f01942
-SHA1: c10b31b8f113d3ac4a6c275a7a0a72730f91dccb
-SHA256: 6605654c401100121e50f7f8b71653890dc41c0fcc3c5dccbea97e55c063594d
+Version: 2.21
+Depends: snapcraft (= 2.21)
+Filename: pool/universe/s/snapcraft/snapcraft-examples_2.21_all.deb
+Size: 56528
+MD5sum: 4f2a4155b68f72366f494216836ea595
+SHA1: 80ee18fccd37d1fc9e0feec2ea3504b445ca6bb8
+SHA256: 6142ceb5e7b2e5858a0f3ae70ada693029824ecdd7868956dc7d311fb66446fb
 Description: examples and demos for snapcraft
 Homepage: https://github.com/snapcore/snapcraft
 Description-md5: f08d4b5a77b9d3d8337a205fe1e9301b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 70
 
 Package: snapcraft-parser
 Priority: extra
@@ -47151,19 +47370,18 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Snapcraft Team <snapcraft@lists.snapcraft.io>
 Architecture: all
 Source: snapcraft
-Version: 2.20
-Depends: snapcraft (= 2.20), python3:any
-Filename: pool/universe/s/snapcraft/snapcraft-parser_2.20_all.deb
-Size: 2844
-MD5sum: e7382045ba5a91162ce58a3beb985f73
-SHA1: 33ba5e9302a98bfd321e7b5716595b47ee8c2ce9
-SHA256: 50439f2157867d32dec13aee6753465202fbae9175dc67eb6ceed3627f30af1b
+Version: 2.21
+Depends: snapcraft (= 2.21), python3:any
+Filename: pool/universe/s/snapcraft/snapcraft-parser_2.21_all.deb
+Size: 2836
+MD5sum: 41ce5989e84a832082ff1c49c13d89f0
+SHA1: 528ebb2f4f85579d139f11cb4e99a082399cf428
+SHA256: a4208f71b7f16ac20905107291c98354c715311f2e56a7566dd7882e69e1031f
 Description: cloud parser for shared snapcraft parts.
 Homepage: https://github.com/snapcore/snapcraft
 Description-md5: ac163e3bf5626a17120e80de44b62434
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 70
 
 Package: snapd-xdg-open
 Priority: optional
@@ -47427,6 +47645,49 @@ Description-md5: 3eb434e5d9cece945618eca8df3cf9a0
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: supertux
+Priority: optional
+Section: universe/games
+Installed-Size: 2913
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: amd64
+Version: 0.4.0-1ubuntu1
+Depends: supertux-data (= 0.4.0-1ubuntu1), libc6 (>= 2.14), libcurl3-gnutls (>= 7.16.2), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libglew1.13 (>= 1.12.0), libopenal1 (>= 1.14), libphysfs1, libsdl2-2.0-0 (>= 2.0.4), libsdl2-image-2.0-0 (>= 2.0.1), libstdc++6 (>= 5.2), libvorbisfile3 (>= 1.1.2)
+Filename: pool/universe/s/supertux/supertux_0.4.0-1ubuntu1_amd64.deb
+Size: 832508
+MD5sum: eb80d1812e006d88541792a31639a65a
+SHA1: 252ddc684eac74c8993a041843eb524573160147
+SHA256: 6c2a43dd413c4900ee7133b45141d9f43db188fd62569e4a8b8f052994488db3
+Description: Classic 2D jump 'n run sidescroller with Tux
+Homepage: http://supertuxproject.org/
+Description-md5: 83819c096307dca07762d7b9f833f8be
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Phased-Update-Percentage: 50
+
+Package: supertux-data
+Priority: optional
+Section: universe/games
+Installed-Size: 121318
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: all
+Source: supertux
+Version: 0.4.0-1ubuntu1
+Suggests: supertux
+Filename: pool/universe/s/supertux/supertux-data_0.4.0-1ubuntu1_all.deb
+Size: 76207174
+MD5sum: b1c1cc14aca0b05ab5dc101f757e1c04
+SHA1: 4e49df3a26c370fbe000145496aac1751d6a2e45
+SHA256: 37c275c758ec1eae526d4f46c8436eda3cc486a52cf62e9ed86624b4ebfaf23f
+Description: Classic 2D jump 'n run sidescroller with Tux (data files)
+Homepage: http://supertuxproject.org/
+Description-md5: c2c5a5da6b5987f1181c1535a993e11f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Phased-Update-Percentage: 50
+
 Package: swauth
 Priority: optional
 Section: universe/net
@@ -47454,23 +47715,22 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: systemd
-Version: 229-4ubuntu11
+Version: 229-4ubuntu12
 Replaces: systemd (<< 224-2)
 Depends: libblkid1 (>= 2.19.1), libbz2-1.0, libc6 (>= 2.17), libcap2 (>= 1:2.10), libcurl3-gnutls (>= 7.16.3), libgcrypt20 (>= 1.6.1), liblzma5 (>= 5.1.1alpha+20120614), libseccomp2 (>= 1.0.1), libselinux1 (>= 1.32), zlib1g (>= 1:1.1.4), systemd
 Recommends: btrfs-tools
 Breaks: systemd (<< 224-2)
-Filename: pool/universe/s/systemd/systemd-container_229-4ubuntu11_amd64.deb
-Size: 649550
-MD5sum: b177eb5b69ed18eb290303903a847328
-SHA1: 265aeb31abc9feea6b2ccf363b76f009bf9fb58b
-SHA256: f41372f9ad2e38d6e9800816676bb9dca415f2d2b596b3cd7facd22ed1ae57e6
+Filename: pool/universe/s/systemd/systemd-container_229-4ubuntu12_amd64.deb
+Size: 649302
+MD5sum: 3d00e7eef673e1c0b2ab94eddc8e7897
+SHA1: d7f078ccd43a13629c2b4c64e58ef18f52dd2d77
+SHA256: f6e952bc1a75e61539db23a5fb98296a3c8a98d28f70f0bf500abbbe5cc54965
 Description: systemd container/nspawn tools
 Multi-Arch: foreign
 Homepage: http://www.freedesktop.org/wiki/Software/systemd
 Description-md5: b7c71babcc98683461816fc34c8f42ba
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 0
 
 Package: systemd-coredump
 Priority: optional
@@ -47480,24 +47740,23 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: systemd
-Version: 229-4ubuntu11
+Version: 229-4ubuntu12
 Replaces: core-dump-handler, systemd (<< 229-2)
 Provides: core-dump-handler
 Depends: libacl1 (>= 2.2.51-8), libc6 (>= 2.17), libcap2 (>= 1:2.10), libdw1 (>= 0.158), libelf1 (>= 0.131), libgcrypt20 (>= 1.6.1), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32), adduser, systemd
 Conflicts: core-dump-handler
 Breaks: systemd (<< 229-2)
-Filename: pool/universe/s/systemd/systemd-coredump_229-4ubuntu11_amd64.deb
-Size: 107028
-MD5sum: 4c846ffc387e615c49c50c97a009fcb5
-SHA1: 0bf7f80f09b086a4eef0ca604991115f922d053e
-SHA256: 23e7bb49c67404a3d0fe7a6b3055dfce0f3ce716daacdd7e59e450d90509eb8d
+Filename: pool/universe/s/systemd/systemd-coredump_229-4ubuntu12_amd64.deb
+Size: 106960
+MD5sum: 4ed4fecc032993c37b2a226c92f17958
+SHA1: 64894cde7da30af3728652bcd41e56b4d4f3c965
+SHA256: eb4f251de8ea2b00405be630e629dfa7d3b34f5f6b25704edbc86aa4b844cf24
 Description: tools for storing and retrieving coredumps
 Multi-Arch: foreign
 Homepage: http://www.freedesktop.org/wiki/Software/systemd
 Description-md5: 149b22bdf2366b7d731957d1b710e54f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 0
 
 Package: systemd-journal-remote
 Priority: optional
@@ -47507,20 +47766,19 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: systemd
-Version: 229-4ubuntu11
+Version: 229-4ubuntu12
 Depends: libc6 (>= 2.17), libcurl3-gnutls (>= 7.16.2), libgcrypt20 (>= 1.6.1), libgnutls30 (>= 3.4.0), liblzma5 (>= 5.1.1alpha+20120614), libmicrohttpd10 (>= 0.9.44), libselinux1 (>= 1.32), systemd, adduser
-Filename: pool/universe/s/systemd/systemd-journal-remote_229-4ubuntu11_amd64.deb
-Size: 263132
-MD5sum: ab75ef723b0d4ad2dd619cc6cf1fc257
-SHA1: 3bf90b4bd6a5a4090f4b2ec091f3dbe6c2fe4a73
-SHA256: 416a50081fffb3751964d7a1c023c5bdb8395a29be477e7ec463e84e35c2a0fc
+Filename: pool/universe/s/systemd/systemd-journal-remote_229-4ubuntu12_amd64.deb
+Size: 262584
+MD5sum: 649348c997293f2f422786dec9e56ebe
+SHA1: 7fd81173d6544f9a895aeae1115c1c55d432bd8d
+SHA256: d4b0d63492a4cef5881e836340597a3ced779a975087beb66686527477c875f8
 Description: tools for sending and receiving remote journal logs
 Multi-Arch: foreign
 Homepage: http://www.freedesktop.org/wiki/Software/systemd
 Description-md5: 6bd80842a0c96acb169877c7a6a25ff6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 0
 
 Package: tatan
 Priority: extra
