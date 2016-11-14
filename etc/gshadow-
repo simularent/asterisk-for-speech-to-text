@@ -55,3 +55,5 @@ systemd-resolve:!::
 systemd-bus-proxy:!::
 uuidd:!::
 lxd:!::ubuntu
+input:!::
+redis:!::

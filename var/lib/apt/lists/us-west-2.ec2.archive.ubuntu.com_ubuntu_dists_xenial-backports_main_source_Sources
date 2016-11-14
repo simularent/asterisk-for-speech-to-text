@@ -26,6 +26,59 @@ Checksums-Sha256:
  11f5cfd0e89e089dd2a828037e748a64047352436def2b02d857b43685954533 1919 autopkgtest_4.2~ubuntu16.04.1.dsc
  bc1ec2ac7dc2402a90fe4ad567c9a10c4f9339ec0d025b9a837788ec41cadf7d 171668 autopkgtest_4.2~ubuntu16.04.1.tar.xz
 
+Package: debhelper
+Binary: debhelper, dh-systemd
+Version: 10.2.2ubuntu1~ubuntu16.04.1
+Priority: optional
+Section: devel
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debhelper Maintainers <debhelper-devel@lists.alioth.debian.org>
+Build-Depends: dpkg-dev (>= 1.18.0~), perl:any, po4a (>= 0.24)
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (native)
+Directory: pool/main/d/debhelper
+Files:
+ 2e7247c676ce191d24e831a9f673add8 1864 debhelper_10.2.2ubuntu1~ubuntu16.04.1.dsc
+ 6eb194d5b6b9bb422f1d232a2d9da3fb 354740 debhelper_10.2.2ubuntu1~ubuntu16.04.1.tar.xz
+Uploaders: Niels Thykier <niels@thykier.net>, Bernhard R. Link <brlink@debian.org>
+Vcs-Browser: https://anonscm.debian.org/git/debhelper/debhelper.git
+Vcs-Git: https://anonscm.debian.org/git/debhelper/debhelper.git
+Package-List:
+ debhelper deb devel optional arch=all
+ dh-systemd deb oldlibs extra arch=all
+Checksums-Sha1:
+ f1cec404bd1b38692c6854b681c0de292f2b0065 1864 debhelper_10.2.2ubuntu1~ubuntu16.04.1.dsc
+ f11df68a1181862ce719a2b3f114e39218992f81 354740 debhelper_10.2.2ubuntu1~ubuntu16.04.1.tar.xz
+Checksums-Sha256:
+ b591c58d40ac045f36f5be3f32dd0cf78c69ff21e58ccd5717d0293b768b6174 1864 debhelper_10.2.2ubuntu1~ubuntu16.04.1.dsc
+ 3c38ef741ecc21dd52c2b86ae3dab3a0cb8991a6e76d484801c1dd2e860ef47f 354740 debhelper_10.2.2ubuntu1~ubuntu16.04.1.tar.xz
+
+Package: dh-autoreconf
+Binary: dh-autoreconf
+Version: 12~ubuntu16.04.1
+Priority: optional
+Section: devel
+Maintainer: Julian Andres Klode <jak@debian.org>
+Build-Depends: debhelper (>= 9)
+Architecture: all
+Standards-Version: 3.9.7
+Format: 3.0 (native)
+Directory: pool/main/d/dh-autoreconf
+Files:
+ cff744c0abf1befc1fd5cd727d41c496 1580 dh-autoreconf_12~ubuntu16.04.1.dsc
+ 208eaac316abf7aaa38cf0021a7c1603 7052 dh-autoreconf_12~ubuntu16.04.1.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/dh-autoreconf.git
+Vcs-Git: git://anonscm.debian.org/collab-maint/dh-autoreconf.git
+Package-List:
+ dh-autoreconf deb devel optional arch=all
+Checksums-Sha1:
+ 08bde951d3b9b4b6d549f04907fe888c9eaa2ae6 1580 dh-autoreconf_12~ubuntu16.04.1.dsc
+ b2fbff1bc9b8a31914d0a7466173bdc240c0be0d 7052 dh-autoreconf_12~ubuntu16.04.1.tar.xz
+Checksums-Sha256:
+ b5bd4b7265fb6ee517201dbc1cc3843efdc1cf8c4be8c682a1744125a9427484 1580 dh-autoreconf_12~ubuntu16.04.1.dsc
+ a0cbaf684b7d222644fa190b5d03d186c3a24248d394b598b1f55e11aa4d0bb8 7052 dh-autoreconf_12~ubuntu16.04.1.tar.xz
+
 Package: libarchive
 Binary: libarchive-dev, libarchive13, libarchive-tools, bsdtar, bsdcpio
 Version: 3.2.1-2~ubuntu16.04.1

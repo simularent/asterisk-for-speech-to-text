@@ -5,15 +5,15 @@ Installed-Size: 428
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Alessio Treglia <alessio@debian.org>
 Architecture: amd64
-Version: 0.6.40-2ubuntu11.2
-Depends: dbus, libaccountsservice0 (= 0.6.40-2ubuntu11.2), init-system-helpers (>= 1.18~), libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libpolkit-gobject-1-0 (>= 0.99)
+Version: 0.6.40-2ubuntu11.3
+Depends: dbus, libaccountsservice0 (= 0.6.40-2ubuntu11.3), init-system-helpers (>= 1.18~), libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libpolkit-gobject-1-0 (>= 0.99)
 Suggests: gnome-control-center
 Breaks: libpam-pin
-Filename: pool/main/a/accountsservice/accountsservice_0.6.40-2ubuntu11.2_amd64.deb
-Size: 56180
-MD5sum: 6bea6a08b0a3a74c847aa27ccdba1b9e
-SHA1: 90cc35a5a6d4499768f340d831ab0bccb8c42b45
-SHA256: b78bf17db8ea2ab6c3f40da7e7d0c1eae57a919b3637eb2f62a1970d62eb90fc
+Filename: pool/main/a/accountsservice/accountsservice_0.6.40-2ubuntu11.3_amd64.deb
+Size: 56054
+MD5sum: b95cd60fcd9b2d0243c9075beb8d541b
+SHA1: 1eb4081d6acacd0dcbf4beecd9665d3d17fe74e1
+SHA256: dabbb6495088d9789dc7117cc3507d8709ce8c255928fc27515df7e49d0a8a9c
 Description: query and manipulate user account information
 Homepage: http://www.freedesktop.org/wiki/Software/AccountsService/
 Description-md5: 8aeed0a03c7cd494f0c4b8d977483d7e
@@ -6421,15 +6421,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Alessio Treglia <alessio@debian.org>
 Architecture: amd64
 Source: accountsservice
-Version: 0.6.40-2ubuntu11.2
+Version: 0.6.40-2ubuntu11.3
 Replaces: gir1.2-accountservice-1.0 (<< 0.6.12-4)
 Depends: gir1.2-glib-2.0, libaccountsservice0 (>= 0.6.40)
 Breaks: gir1.2-accountservice-1.0 (<< 0.6.12-4)
-Filename: pool/main/a/accountsservice/gir1.2-accountsservice-1.0_0.6.40-2ubuntu11.2_amd64.deb
+Filename: pool/main/a/accountsservice/gir1.2-accountsservice-1.0_0.6.40-2ubuntu11.3_amd64.deb
 Size: 4650
-MD5sum: d529f2b10c77c3da17a6898930557589
-SHA1: 21822d0ff69893c027edba6a9d823e8897bc7fcf
-SHA256: 9626c0ed6824aa9f02d2eeae2ea16b6907d3a52019f6aa88bb5bd2b89af82591
+MD5sum: 71d3a3fa6858d0df52b79d3ce0ec28e8
+SHA1: 57c06bfbd7db60830d4b33804069d5465764ef13
+SHA256: 430d79f7896bd4fff6e9cda4cdcafdcd9158a590a7e8d2fdb80367df1838c741
 Description: GObject introspection data for AccountService
 Multi-Arch: foreign
 Homepage: http://www.freedesktop.org/wiki/Software/AccountsService/
@@ -19802,17 +19802,17 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Alessio Treglia <alessio@debian.org>
 Architecture: amd64
 Source: accountsservice
-Version: 0.6.40-2ubuntu11.2
-Depends: libaccountsservice0 (= 0.6.40-2ubuntu11.2)
-Filename: pool/main/a/accountsservice/libaccountsservice-dbg_0.6.40-2ubuntu11.2_amd64.deb
-Size: 202506
-MD5sum: e13282b3d609292b7df64277038bb94a
-SHA1: 5365a34b645cd8c8c3ef0864a841b7200c924909
-SHA256: 97fe8517b64f7e7780ee3f609c0bfd4161093649c5b38734d8f5bd61a27e6fe6
+Version: 0.6.40-2ubuntu11.3
+Depends: libaccountsservice0 (= 0.6.40-2ubuntu11.3)
+Filename: pool/main/a/accountsservice/libaccountsservice-dbg_0.6.40-2ubuntu11.3_amd64.deb
+Size: 202498
+MD5sum: 6ee07892d28a6034d1f72a19011c07ab
+SHA1: d25e4598d751982d4c52dd132b03f4bbf22fd78c
+SHA256: 2059f73af99c7c2d4c191b48704f4af05945141a84c07dbbca618661df51bf8c
 Description: query and manipulate user account information - debug
 Multi-Arch: same
 Homepage: http://www.freedesktop.org/wiki/Software/AccountsService/
-Build-Ids: 34216b40719f1c0a37726cca64bd5bfc4c27bafa
+Build-Ids: c815652e6cfc7673c01f2cc37308dd777c849db5
 Description-md5: 67e2c3a1e0dc7dd3b34232ab48d143a8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
@@ -19826,13 +19826,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Alessio Treglia <alessio@debian.org>
 Architecture: amd64
 Source: accountsservice
-Version: 0.6.40-2ubuntu11.2
-Depends: libaccountsservice0 (= 0.6.40-2ubuntu11.2), gir1.2-accountsservice-1.0 (= 0.6.40-2ubuntu11.2), libglib2.0-dev (>= 2.25.11), libpolkit-gobject-1-dev
-Filename: pool/main/a/accountsservice/libaccountsservice-dev_0.6.40-2ubuntu11.2_amd64.deb
-Size: 9876
-MD5sum: 035f697a004233b8e13d5ad4e79047e7
-SHA1: 94c6b7e7951150d757ce5839c966748a0e908f21
-SHA256: db8eadbbb7faac97c8a967aab896be7a51dadd52afd3583c0d6abd874fd59a6d
+Version: 0.6.40-2ubuntu11.3
+Depends: libaccountsservice0 (= 0.6.40-2ubuntu11.3), gir1.2-accountsservice-1.0 (= 0.6.40-2ubuntu11.3), libglib2.0-dev (>= 2.25.11), libpolkit-gobject-1-dev
+Filename: pool/main/a/accountsservice/libaccountsservice-dev_0.6.40-2ubuntu11.3_amd64.deb
+Size: 9852
+MD5sum: f772cb32806630e6e44f47b998a5d327
+SHA1: 11aff64959319213bb201effc64d0661d5434068
+SHA256: 30cd42a56dbb58936383b99a90774add9be13a752923e5f13cb3c27b18645592
 Description: query and manipulate user account information - header files
 Multi-Arch: same
 Homepage: http://www.freedesktop.org/wiki/Software/AccountsService/
@@ -19849,12 +19849,12 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Alessio Treglia <alessio@debian.org>
 Architecture: all
 Source: accountsservice
-Version: 0.6.40-2ubuntu11.2
-Filename: pool/main/a/accountsservice/libaccountsservice-doc_0.6.40-2ubuntu11.2_all.deb
-Size: 20020
-MD5sum: 808b42159786739576545fe57a5bec54
-SHA1: 5cf0742e45a399e53310151723c2bd84ddf1b895
-SHA256: f9f70ccd9071dbd0365a0f9b1b02075aadd076caba5cc6211e7550c0093236b4
+Version: 0.6.40-2ubuntu11.3
+Filename: pool/main/a/accountsservice/libaccountsservice-doc_0.6.40-2ubuntu11.3_all.deb
+Size: 20140
+MD5sum: 20f6b650aa1d20ad2edc160673f8eeec
+SHA1: b85811809f662255fdca696d1d4f147b1163046e
+SHA256: 926538c70dc16d4757738660a381fa710e05b41b0fb6607129267c1b8ebb4a3e
 Description: query and manipulate user account information - documentation
 Homepage: http://www.freedesktop.org/wiki/Software/AccountsService/
 Description-md5: 15ee25a15ef232cbf860503a04604aa7
@@ -19870,14 +19870,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Alessio Treglia <alessio@debian.org>
 Architecture: amd64
 Source: accountsservice
-Version: 0.6.40-2ubuntu11.2
+Version: 0.6.40-2ubuntu11.3
 Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libsystemd0
 Breaks: accountsservice (<< 0.6.5)
-Filename: pool/main/a/accountsservice/libaccountsservice0_0.6.40-2ubuntu11.2_amd64.deb
-Size: 68856
-MD5sum: 607cc8b17a6a5ed940060400d964e189
-SHA1: 10adba790f49500bedff8de4a8d64f5cacc611b4
-SHA256: 67c0120b542c96689d1793b1af7999599dd7533bab93151abd3cdf7fbe9b2b33
+Filename: pool/main/a/accountsservice/libaccountsservice0_0.6.40-2ubuntu11.3_amd64.deb
+Size: 68730
+MD5sum: 68be2b361d99978d30dd900fda8775bf
+SHA1: b154a8d5454ca9af26326b468bf928ca25ecd51f
+SHA256: 622e10d455792b8455c5efffdc68ef33c5e15391f7248f483529b32f9666e3d3
 Description: query and manipulate user account information - shared libraries
 Multi-Arch: same
 Homepage: http://www.freedesktop.org/wiki/Software/AccountsService/
@@ -48314,7 +48314,6 @@ Description: Neutron is a virtual network service for Openstack - common
 Description-md5: 9f5f5f895b7bd1154ecaff251ebad064
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: neutron-dhcp-agent
@@ -48336,7 +48335,6 @@ Description: Neutron is a virtual network service for Openstack - DHCP agent
 Description-md5: 572c3866ff7d431ed7a69af059be88b1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: neutron-l3-agent
@@ -48358,7 +48356,6 @@ Description: Neutron is a virtual network service for Openstack - l3 agent
 Description-md5: 7dc64a3d701aa413a40358ba3069904a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: neutron-lbaas-agent
@@ -48380,7 +48377,6 @@ Homepage: http://github.com/openstack/neutron-lbaas
 Description-md5: d83e4461d001c52fe3847b97d170869c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: neutron-lbaas-common
@@ -48404,7 +48400,6 @@ Homepage: http://github.com/openstack/neutron-lbaas
 Description-md5: 8005a9cfb123df357e2edf42c30e9f83
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: neutron-linuxbridge-agent
@@ -48428,7 +48423,6 @@ Description: Neutron is a virtual network service for Openstack - linuxbridge ag
 Description-md5: 7438b6586091536457c1094f075e5bfb
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: neutron-metadata-agent
@@ -48450,7 +48444,6 @@ Description: Neutron is a virtual network service for Openstack - metadata agent
 Description-md5: 7f661aa618ba5bb4655c68b01afa2e23
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: neutron-openvswitch-agent
@@ -48474,7 +48467,6 @@ Description: Neutron is a virtual network service for Openstack - Open vSwitch p
 Description-md5: e9697f8391ec5ff56d028b4049eb9f25
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: neutron-plugin-ml2
@@ -48497,7 +48489,6 @@ Description: Neutron is a virtual network service for Openstack - ML2 plugin
 Description-md5: 04c3b1da612333dffe94afb38e17f6ee
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: neutron-server
@@ -48520,7 +48511,6 @@ Description: Neutron is a virtual network service for Openstack - server
 Description-md5: 1b00fccfd02ac8a9014e7ee4bfb0ddd5
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: neutron-vpn-agent
@@ -48685,7 +48675,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: 93751a4c42a717b98a076fc37e614e1c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: nova-cert
@@ -48708,7 +48697,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: 171b61c56d67b812f80c5642bfa0d1d2
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: nova-common
@@ -48732,7 +48720,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: ca300a4c4a13a67629e52754451325a3
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: nova-compute
@@ -48755,7 +48742,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: 3ba5242ed5b20ea217068529d959352e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: nova-compute-kvm
@@ -48780,7 +48766,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: 3a3f4fc6eb0e0d1a1a52636f4a84daa1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: nova-compute-libvirt
@@ -48804,7 +48789,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: 128101f3838791afe92b57c5afcef336
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: nova-compute-lxc
@@ -48829,7 +48813,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: 8c74b0f3d56b3da8c70cf752f98f7869
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: nova-compute-lxd
@@ -48853,7 +48836,6 @@ Homepage: http://github.com/lxd/nova-lxd
 Description-md5: 3e8ac4c60a91bfee777f630566fdec66
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: nova-doc
@@ -48876,7 +48858,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: 1c367fcc5afa32969a8f351c6365dd1c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: nova-network
@@ -48900,7 +48881,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: ce3e77d724d3353406c26c4d4af8c565
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: nova-scheduler
@@ -48923,7 +48903,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: 8edec11a409c894d59bffef4d16d21b6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: nova-volume
@@ -48946,7 +48925,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: f85e1ba6a9aabcaf096890562606c8de
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: ntp
@@ -51321,7 +51299,6 @@ Python-Version: 2.7
 Description-md5: f4b6db85f94dfd9c5b93f1c3c4b12cc8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: python-neutron-fwaas
@@ -51368,7 +51345,6 @@ Homepage: http://github.com/openstack/neutron-lbaas
 Description-md5: 21b9e5971dbfca142255dc9e5967aafe
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: python-neutron-vpnaas
@@ -51418,7 +51394,6 @@ Python-Version: 2.7
 Description-md5: 9e7471c108af7843da4a920afe750d19
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: python-nova-lxd
@@ -51440,7 +51415,6 @@ Homepage: http://github.com/lxd/nova-lxd
 Description-md5: 4371d62e2d5bab9ab45645c23663b69b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 Supported: 5y
 
 Package: python-novaclient
@@ -53655,15 +53629,15 @@ Section: utils
 Installed-Size: 1296
 Maintainer: Steve Langasek <steve.langasek@ubuntu.com>
 Architecture: amd64
-Source: shim-signed (1.18~16.04.1)
-Version: 1.18~16.04.1+0.8-0ubuntu2
+Source: shim-signed (1.19~16.04.1)
+Version: 1.19~16.04.1+0.8-0ubuntu2
 Depends: debconf (>= 0.5) | debconf-2.0, shim (= 0.8-0ubuntu2), grub-efi-amd64-bin, grub2-common (>= 2.00), mokutil
 Recommends: secureboot-db
-Filename: pool/main/s/shim-signed/shim-signed_1.18~16.04.1+0.8-0ubuntu2_amd64.deb
-Size: 314864
-MD5sum: e9b5797317cff63547542b5a1b175a08
-SHA1: 0bd3214cd6b8ec183f9c9a545c73aa538ed37074
-SHA256: 00cd99665538fcfdaf26acfe33ac30d02a17b4cb721fc09a25ae3b9a6d002748
+Filename: pool/main/s/shim-signed/shim-signed_1.19~16.04.1+0.8-0ubuntu2_amd64.deb
+Size: 314736
+MD5sum: 448ff1c95d29a3a46276f14a4e946c87
+SHA1: 3fb5e4d172bac2cec6513fad2e69e92114a32948
+SHA256: a2b33cb8326541db89cb34090b889333f7d4e2eead4d58fe21a4c73ac53816fa
 Description: Secure Boot chain-loading bootloader (Microsoft-signed binary)
 Built-Using: shim (= 0.8-0ubuntu2)
 Description-md5: a481805ba65b750cfdd6438a7d8539a2

@@ -10,6 +10,9 @@
 # Last Search Pattern:
 ~MSle0~/99
 
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :wq!
 :q!
@@ -17,6 +20,7 @@
 
 # Search String History (newest to oldest):
 ?/99
+? @$
 ?/98
 ?/onsite
 ?/onsit
@@ -65,7 +69,6 @@
 ?/google
 ?/incoming-motif
 ?/local
-?/res_xmpp
 
 # Expression History (newest to oldest):
 
@@ -74,6 +77,8 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+"0	CHAR	0
+	.
 "1	LINE	0
 	
 "2	LINE	0
@@ -93,23 +98,37 @@
 "9	LINE	0
 	[123654987](office-phone)
 ""-	CHAR	0
-	5
+	g
 
 # File marks:
-'0  595  20  /etc/asterisk/extensions.conf
-'1  571  7  /etc/asterisk/extensions.conf
-'2  1  32  /options/officer-rainbow/onsite.call
-'3  1  30  /options/officer-rainbow/nova.call
-'4  587  0  /etc/asterisk/extensions.conf
-'5  609  0  /etc/asterisk/extensions.conf
-'6  2  12  /options/officer-rainbow/nova.call
-'7  2  14  /options/officer-rainbow/onsite.call
-'8  626  20  /etc/asterisk/extensions.conf
-'9  2  60  /var/spool/asterisk/monitor/onsite-transcribe.php
+'0  582  20  /etc/asterisk/extensions.conf
+'1  592  9  /etc/asterisk/extensions.conf
+'2  3  0  /devops/nova-php-log.sh
+'3  5  45  /var/spool/asterisk/monitor/nova-transcribe.php
+'4  8  0  /var/spool/asterisk/monitor
+'5  6  22  /etc/stunnel/redis-client.conf
+'6  6  8  /etc/default/stunnel4
+'7  1  0  ~/backup.sh
+'8  595  20  /etc/asterisk/extensions.conf
+'9  571  7  /etc/asterisk/extensions.conf
 
 # Jumplist (newest first):
--'  595  20  /etc/asterisk/extensions.conf
+-'  582  20  /etc/asterisk/extensions.conf
+-'  16  0  /etc/asterisk/extensions.conf
 -'  1  0  /etc/asterisk/extensions.conf
+-'  592  9  /etc/asterisk/extensions.conf
+-'  3  0  /devops/nova-php-log.sh
+-'  1  0  /devops/nova-php-log.sh
+-'  5  45  /var/spool/asterisk/monitor/nova-transcribe.php
+-'  1  0  /var/spool/asterisk/monitor/nova-transcribe.php
+-'  8  0  /var/spool/asterisk/monitor
+-'  1  0  /var/spool/asterisk/monitor
+-'  6  22  /etc/stunnel/redis-client.conf
+-'  1  0  /etc/stunnel/redis-client.conf
+-'  6  8  /etc/default/stunnel4
+-'  1  0  /etc/default/stunnel4
+-'  1  0  ~/backup.sh
+-'  595  20  /etc/asterisk/extensions.conf
 -'  571  7  /etc/asterisk/extensions.conf
 -'  1  32  /options/officer-rainbow/onsite.call
 -'  1  30  /options/officer-rainbow/nova.call
@@ -128,14 +147,12 @@
 -'  1  0  /etc/asterisk/nova.sh
 -'  607  37  /etc/asterisk/extensions.conf
 -'  4  15  /var/spool/asterisk/monitor/nova-transcribe.php
--'  1  0  /var/spool/asterisk/monitor/nova-transcribe.php
 -'  3  12  /options/officer-rainbow/nova.call
 -'  643  0  /etc/asterisk/extensions.conf
 -'  7  9  /.gitignore
 -'  1  0  /.gitignore
 -'  6  0  /.gitignore
 -'  3  19  ~/backup.sh
--'  1  0  ~/backup.sh
 -'  22  0  /tmp/crontab.BKegcS/crontab
 -'  1  0  /tmp/crontab.BKegcS/crontab
 -'  69  7  /etc/asterisk/sip.conf
@@ -193,26 +210,13 @@
 -'  1  153  /etc/asterisk/just-convert.sh
 -'  3  0  /etc/asterisk/onsite-wait.sh
 -'  2  69  /etc/asterisk/onsite-wait.sh
--'  615  12  /etc/asterisk/extensions.conf
--'  59  0  /etc/asterisk/watcher.sh
--'  1  0  /etc/asterisk/watcher.sh
--'  3  0  /etc/asterisk/onsite.sh
--'  633  33  /etc/asterisk/extensions.conf
--'  1  0  /etc/shadow
--'  25  68  /etc/passwd
--'  1  0  /etc/asterisk/extensions.
--'  547  2  /etc/asterisk/extensions.conf
--'  545  63  /etc/asterisk/extensions.conf
--'  331  2  /etc/asterisk/extensions.conf
--'  278  6  /etc/asterisk/extensions.conf
 
 # History of marks within files (newest to oldest):
 
 > /etc/asterisk/extensions.conf
-	"	595	20
+	"	582	20
 	^	595	21
-	.	595	20
-	+	625	0
+	.	582	20
 	+	625	125
 	+	625	0
 	+	609	10
@@ -312,6 +316,46 @@
 	+	596	0
 	+	593	19
 	+	595	20
+	+	582	20
+
+> /devops/nova-php-log.sh
+	"	3	0
+	^	3	0
+	.	2	0
+	+	2	0
+
+> /var/spool/asterisk/monitor/nova-transcribe.php
+	"	5	45
+	^	5	46
+	.	5	45
+	+	2	58
+	+	4	15
+	+	7	0
+	+	2	7
+	+	3	18
+	+	5	7
+	+	6	18
+	+	7	27
+	+	5	45
+
+> /etc/stunnel/redis-client.conf
+	"	6	22
+	^	6	23
+	.	6	10
+	+	6	0
+	+	1	1
+	+	6	10
+
+> /etc/default/stunnel4
+	"	6	8
+	.	6	8
+	+	6	8
+
+> ~/backup.sh
+	"	1	0
+	^	3	20
+	.	3	19
+	+	3	19
 
 > /options/officer-rainbow/onsite.call
 	"	1	32
@@ -349,25 +393,12 @@
 	.	2	17
 	+	2	17
 
-> /var/spool/asterisk/monitor/nova-transcribe.php
-	"	4	15
-	^	4	16
-	.	4	15
-	+	2	58
-	+	4	15
-
 > /.gitignore
 	"	7	9
 	^	7	10
 	.	7	9
 	+	6	0
 	+	7	9
-
-> ~/backup.sh
-	"	3	19
-	^	3	20
-	.	3	19
-	+	3	19
 
 > /tmp/crontab.BKegcS/crontab
 	"	22	0

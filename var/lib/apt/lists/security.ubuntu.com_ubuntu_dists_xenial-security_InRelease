@@ -6,25 +6,25 @@ Label: Ubuntu
 Suite: xenial-security
 Version: 16.04
 Codename: xenial
-Date: Thu, 10 Nov 2016 12:41:06 UTC
+Date: Fri, 11 Nov 2016  8:26:19 UTC
 Architectures: amd64 arm64 armhf i386 powerpc ppc64el s390x
 Components: main restricted universe multiverse
 Description: Ubuntu Xenial Security
 MD5Sum:
- be12d3c4be3b2d5b6887ce878d1f5b1b         75004049 Contents-powerpc
- d2f1ed59ba4806b7b11f930e178cb6b6          4448635 Contents-armhf.gz
- 735f2ab5e0f8c2f5b42c12d561f68177         77154091 Contents-armhf
- f97cea12d208d7c6a3bafc313b16993a          2452236 Contents-ppc64el.gz
- 76041d5d401af1098bf8f8770978e0d0         68020764 Contents-arm64
- d5a9b40f7cd0d724b66c49de4639da30         52337313 Contents-amd64
- 01d85e9bedf59b1b1eef1c3622eec311          3837951 Contents-arm64.gz
- bed6ecfc026fa9ac49ab1147ec23fc5a          3223569 Contents-amd64.gz
- a952187275da4c44c252db4699748c01         31692550 Contents-s390x
- 5d103e6dd0f2a43bc727d51388146d97         52804147 Contents-i386
- b6ff0d52083a3a3498795459fe27c015          1987720 Contents-s390x.gz
- 8e9e96fc6b3f0635714d9c0804d7776e         39389090 Contents-ppc64el
- 1d8581b0914605ce47c341597d84e698          4376694 Contents-powerpc.gz
- b7b9a7db7867913743070acbfc82f675          3241344 Contents-i386.gz
+ 16a7d2bfcebda15bf0389578e14dce77         81435948 Contents-powerpc
+ 2cf407c20c80e2d3ee02db3b2eff3991          4690117 Contents-armhf.gz
+ 54680a54bab1ccbee9674e19e4fc9811         81201879 Contents-armhf
+ 97980cb6a9e95d80074bc5109a6bf400          2600245 Contents-ppc64el.gz
+ c8f495897867969ec767bb590e5820d5         73675197 Contents-arm64
+ fb232a831edf1a1076ca725f15a3828e         56316318 Contents-amd64
+ 7aaa1b32a94d8f85ebc6c1e3edab5853          4140997 Contents-arm64.gz
+ 64b1cd7ef230c9855cbd8ff7ffcfbd6b          3463541 Contents-amd64.gz
+ 28ccae88f9745b62a2a47cf847850972         33313981 Contents-s390x
+ fc7fe18a2d20ddf6858e19e16b097f15         56808013 Contents-i386
+ fdf7b94bf989dbf2879faaa657275108          2082615 Contents-s390x.gz
+ 418f7cd405ed0077ae66839608a9a30a         41862472 Contents-ppc64el
+ 8066bdc5f34e5f1e0b675438ddbdac2e          4736483 Contents-powerpc.gz
+ 2f5734a57e0be11e04f2b5b208c62870          3481911 Contents-i386.gz
  b861cef8a298e867b7a36f7c2a32ba72          1029837 main/binary-amd64/Packages
  fdde954289ee05f4f10891a625f7e6a2              105 main/binary-amd64/Release
  3b1b1f00caaeb5414ee1da35c07425bb           202589 main/binary-amd64/Packages.gz
@@ -318,20 +318,20 @@ MD5Sum:
  33c3d226e23fe2317cfcbc9b010f10d8            13812 universe/source/Sources.gz
  01bb718ad6d56fa2d9cc6ebb955b45f3              110 universe/source/Release
 SHA1:
- c43620277336ff9326ef31d5d3557110b856b47d         75004049 Contents-powerpc
- 0f33b1eb2898b0f34f13862d33a5a80d43c8f567          4448635 Contents-armhf.gz
- 2fe6b02e8c6a3f30cad14dad688e03e37330e667         77154091 Contents-armhf
- c7c15465dd19a29bf2139411b78f197654c2b489          2452236 Contents-ppc64el.gz
- b873bdf8820881577f6e4d0c3a02f3ce5b2cc5ea         68020764 Contents-arm64
- 808c19d00183e478546909260bb8c919268efd34         52337313 Contents-amd64
- 4362aa84ca8d2328aae0a5aa6904643eaaeb7a07          3837951 Contents-arm64.gz
- 154c40b412b3f6cba88db0d2c6209294065496e2          3223569 Contents-amd64.gz
- 341eec1007cc4be91a895951fd4787be4b197981         31692550 Contents-s390x
- 6dc79f6bf24fc5dbe4be955695dca9d9bcc45068         52804147 Contents-i386
- be6050ccfcdc29ac1a25c4b3352e89d2efb896c1          1987720 Contents-s390x.gz
- b1004731e66d78e212b9b7beb89beff53abcdbfd         39389090 Contents-ppc64el
- 7f1296cc904d1e537b5cc6ae713f56fc0638ef77          4376694 Contents-powerpc.gz
- d158cf4a41f096df576b6ad0be46e0cd767aca3c          3241344 Contents-i386.gz
+ 8ed3efc2da4a9ca4d29668e27a4a6bfb974d14a3         81435948 Contents-powerpc
+ 7c816e1ac55e396ca66b021e2e6c6feeb3b16c63          4690117 Contents-armhf.gz
+ d599a4879d5d30bdb00778a0d02c0de8dc3c8bf7         81201879 Contents-armhf
+ facc4cfe9a42cc7ed1cda093eeaf3c08b87aae0c          2600245 Contents-ppc64el.gz
+ 890ebe19b4d1e5937f282a8c4b0475a816fe35a8         73675197 Contents-arm64
+ afae440b1088498fdbd9f0202266fc0a85c1c016         56316318 Contents-amd64
+ f977a1efddc0494cb897d372ddd46755498b97cf          4140997 Contents-arm64.gz
+ dcdd5242fb039231a9a770e2eded7e3f3668b1ba          3463541 Contents-amd64.gz
+ c68a96bb2416573045566e53af29a2288d5c45a9         33313981 Contents-s390x
+ a0f7fc24cf90b0071e78697e8c7909b27caf4dcc         56808013 Contents-i386
+ 50e9896866f55eb48b09812a7628db70a3f4f97b          2082615 Contents-s390x.gz
+ db570dff956361b3849fa879532cbac98d9e9703         41862472 Contents-ppc64el
+ cb5e43d8ca344518948e7fcbc4071086edcfa301          4736483 Contents-powerpc.gz
+ 39ecf743d279f89ca04e370b4b10727f5f4b645a          3481911 Contents-i386.gz
  32c3f7ff6b7b13ec38f0526cc5c09e42d5413fb2          1029837 main/binary-amd64/Packages
  c2d04fc4ecdf01907955208e31ff3e5836160809              105 main/binary-amd64/Release
  5d40bd540efe2980000eb5ace94e6328ce29013e           202589 main/binary-amd64/Packages.gz
@@ -625,20 +625,20 @@ SHA1:
  fae72a345fbfb542f46d665ff6ae87d445ece3a9            13812 universe/source/Sources.gz
  024125d2bd78b6c7c2a223107f497fbea54bdddd              110 universe/source/Release
 SHA256:
- 7d27787295fa0e08865a285aa28c28c692594488e831a765531cf487ab76671c         75004049 Contents-powerpc
- 93801a027dd096a4c66f5e960337009e56d3e7071409e7dc27688c3f2b173273          4448635 Contents-armhf.gz
- 969762db7881be3d23dd7f292c4d6778531af8c6d36a6a5b280b2b0d7d1f3940         77154091 Contents-armhf
- acfd80b17bd009a04d6ad372482db11c988b85343c77c95d3697be41e2998275          2452236 Contents-ppc64el.gz
- f580b05772ba7bf50fe9633b38811503b15aac54e3ea48d16dd06fa420747df4         68020764 Contents-arm64
- 2d27122143d514e30a738fa54193ce93a97ce3df3bdf34bd7ae3d7a5bbd26167         52337313 Contents-amd64
- cf952c1bdb194a86e0146f88c613c31b7c74600a950ab6fbeb3f3bf28e293b79          3837951 Contents-arm64.gz
- 2c64feea32661e2fee18ac6e644ce266ddb676b4725d552c267bbcf1e49d5ef7          3223569 Contents-amd64.gz
- 31195cf7ce6515c62367d40ebbb2460040096a2b274da04568e94c2d425469a7         31692550 Contents-s390x
- 820ab86890345b61d438ac396a7370c98b9c6f0218858ed560580d57df66c788         52804147 Contents-i386
- 503ffdaba54714f537f3248aaf5131256c538b5e366de5797d6890991b391929          1987720 Contents-s390x.gz
- 49e9c2b4a92ca7a026f4d39f5b1b373ef226a62591635ecf14eae22e058bb95b         39389090 Contents-ppc64el
- d16e9744de9a0c79c1f117215dbc7f79331a648e91c03ad2d720fdf67013e0d2          4376694 Contents-powerpc.gz
- 7f3d5f4869f5d9b2ca20d18b970fc3199df640ac69973c28bd06b6a6c529e4d6          3241344 Contents-i386.gz
+ fa271235af653c2baa9e22c7b82dc1d29ba89f1d0119b442d0f71f6f0a4c2fae         81435948 Contents-powerpc
+ 1cc103a10cfc86d4817e1c2f945d0214825ea837cc119b49d42c14b339a6064c          4690117 Contents-armhf.gz
+ 17611d091930d3d781e95ee66eeb4dff2efdb81b66dc33ac9b89dd09e70b23e6         81201879 Contents-armhf
+ f606380d7e0d04b0c616009f72cfa011176f5bdca694415242eb8a971fc92a73          2600245 Contents-ppc64el.gz
+ 9b3c551c836faad9730cc498f83fac198f9f4cf879dd1a7b9b9c978994bac702         73675197 Contents-arm64
+ 52a0e4346735cecc5eaf0d61f78a5af41cbc47fe8e2234dec0e31fb9d3633df0         56316318 Contents-amd64
+ f005c9f12dc7fe141c8d63a93aab029983c7ac7c3a65f9c9553138c229b8ed81          4140997 Contents-arm64.gz
+ b8d4b42cb708ea8cc686a07c03897f48de0054201145b87f9974007ec38fc382          3463541 Contents-amd64.gz
+ 90c0f32d34da8d4d0938ffcfe2ec77f2b5fa6888b1fa9f628fc51d6644e4fb0c         33313981 Contents-s390x
+ c05b45302768eb7f3ca06fc8bd5e5a8c9018b0ff2285e0a28f837598e3c1fe25         56808013 Contents-i386
+ b84b38254926da3346dc916fac74695b1eceb1fff47ea6ab7d348c48ca04c4ff          2082615 Contents-s390x.gz
+ 0143fea7bb0cfe2b257e8416258811bc534fb416fc8b338500bd3eb996605692         41862472 Contents-ppc64el
+ c392d27cd6856e2e07d5f36e5742b9c361e5b1dce5743828456b1dd48b60fd3a          4736483 Contents-powerpc.gz
+ ac17f8a78c371c07e0745dea28add35790b6b8833bb44e7fc291e8daf6774657          3481911 Contents-i386.gz
  619c387a12d01121448a43e478205dac60cfeb6dd74907bc82ecd959d36fb3bd          1029837 main/binary-amd64/Packages
  0a704ee27655704a71ec375f99867e0f2279b9f1a55662380236ccb69bfe2728              105 main/binary-amd64/Release
  80bf5ce07dfd690c7f46331ba76fa614c12b3ee73281e59ea8944873f65e9ba1           202589 main/binary-amd64/Packages.gz
@@ -935,18 +935,18 @@ Acquire-By-Hash: yes
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.11 (GNU/Linux)
 
-iEYEAREKAAYFAlgkausACgkQQJdur0N9BbUB3ACeIOVqyeFZfTnMzYV73oAPK5Qd
-5swAmwbURxnKh4Cwn2B2uaK3jEVCgtJPiQIcBAEBCgAGBQJYJGrrAAoJEDtP5qzA
-sh8yCRIP/2a+leBNmTuNIFSG9EsNYbDaz/3dYAAIixSm+PODEdnBgsgk96RQDiW/
-rHyQHngn8+sXvrCkIny+Z59gc1ATU9n7mkD4OImiVTItFQ39QFG3OIgUe805h6QD
-iPScKxPEA/WMgkiSchL0vTGtZFQIm+NRXmVK+du265n2A41si10QlBjoMCSBY4LJ
-Wb49qwPGFdZD67fLrv4r+tbwWmjOLNXdDxZ7TVb/7ikiSly2RGuEZ5VnmLrw3Oak
-AEpZGcXP5GrT4RBgN2o3qfiYBvlMXHJj1rNDsDkQMB50eDLovnUBlFOsqScNDXlP
-keeXyh6R05/+/Uykk4bVqDZnMY9GmX+AVGU/LixpLFYu1/Y5cuqKp/cQ7f4331Ym
-GPiZ20VdWF7pimPqsf9crkcitDAVcZTdyNxwbpCmcaNjFzyiklEUTH5eSfBerGg0
-ny/UJIXrVUP48QL3veVfGtRrWn+5eHGRUs9vNPPABSwJYELC9KUJ0jhreCSf0E99
-jrYxdR/zwxtWpAIf8Dt0bOqaf5OC5CfbTqFyri2YGOjl61VlofDJhMGejONkGkcH
-lWjNnP2t/PpkKsQq/BlZ64qqDlED1Y5Vahl7m/BlD/HRf+YmoADgdI3sISvM+GoW
-pZXfKp632lHmuS/cifkhKutuph5p3p9i0UDrWvgAhciY4dzn8qTE
-=YTx0
+iEYEAREKAAYFAlglgU4ACgkQQJdur0N9BbVdeQCffoaH12ly5OV6l98kxEEvt52e
+EEYAnRDkcnBiqp0TdQ7s8pZoDpIIZ4xIiQIcBAEBCgAGBQJYJYFOAAoJEDtP5qzA
+sh8ycNAP/0WfXTt32zm+oDxPiFF6r9/wYIYzPm6e7rYpateVXZb0fiHKRGevGNPA
+/6sOYx6I4yar8eGhsHEY8PVdSP3uHqPR8M3xlA3F3zRVu9nM7feQgUqAuu7Ou2Ju
+x7WIxmKlbI1IPnNoJhkkYYOgRfZ+XIQksrWsE5mi0TUoUUDPBUFqswFBTRnWXKtD
+fCRR0sJwYxbdXzr6/0SezXh9fVgFWv/dOnpz/ADI98b9oDG9+NORszNVpvBcdHdr
+STD4bdZJxWpsLSxO3OHqXVFkVe9gvSmFEytykf5U+W1107QxBkXrr54e70iqeKaD
+qVcQH1d0D7XrXW5Ooh+cSuiKNlVxVpOGfj1SUOtWr13g2RYzI/AzxQ3cqcHvSFih
+zt792eOmDSJk4lEt5A1/a8yite8voh0UYEVtRYnr0CF3bqSsQ/GcyYdbIGPmAmWX
+w7q1zgnpNlyBxwGJyoEtl8jfWJLuC7B94ysGpc2+5KF9iajiMf+C5rZdJGdkKQ38
+78RKzNzm9J+Q/6P53YL/VdJd1rqZm1zQfdb/FNtOeCFez2APc4ZaHl3kkqsLH7e/
+bACXW8+pYYsD7GGmWW20jTzS2Ueizdx5GctYTTbc4u+vdtC6aFDOsYiYhdGd8lfy
+5UBq0xJwdxL/4lzP9TgtHiqS/eQQ3un38sfzKEP3lw2qRRKYnqLC
+=G+VV
 -----END PGP SIGNATURE-----

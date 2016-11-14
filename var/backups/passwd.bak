@@ -31,3 +31,5 @@ uuidd:x:100:101::/run/uuidd:/bin/false
 lxd:x:111:65534::/var/lib/lxd/:/bin/false
 _apt:x:112:65534::/nonexistent:/bin/false
 dnsmasq:x:113:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+redis:x:114:119::/var/lib/redis:/bin/false
+stunnel4:x:115:120::/var/run/stunnel4:/bin/false

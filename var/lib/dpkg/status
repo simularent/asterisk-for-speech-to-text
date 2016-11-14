@@ -2026,6 +2026,28 @@ Description: simple but powerful config file reader and writer for Python 2
 Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Homepage: http://www.voidspace.org.uk/python/configobj.html
 
+Package: redis-tools
+Status: install ok installed
+Priority: optional
+Section: database
+Installed-Size: 337
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: redis
+Version: 2:3.0.6-1
+Replaces: redis-server (<< 2:2.6.16-1)
+Depends: libc6 (>= 2.14), libjemalloc1 (>= 2.1.1)
+Suggests: ruby-redis
+Breaks: redis-server (<< 2:2.6.16-1)
+Description: Persistent key-value database with network interface (client)
+ Redis is a key-value database in a similar vein to memcache but the dataset
+ is non-volatile. Redis additionally provides native support for atomically
+ manipulating and querying data structures such as lists and sets.
+ .
+ This package contains the command line client and other tools.
+Original-Maintainer: Chris Lamb <lamby@debian.org>
+Homepage: http://redis.io/
+
 Package: python3.4-minimal
 Status: deinstall ok config-files
 Priority: optional
@@ -3288,6 +3310,25 @@ Description: PJ Project - Audio devices
  This package includes an audio devices handling library.
 Original-Maintainer: Tzafrir Cohen <tzafrir@debian.org>
 Homepage: http://www.pjsip.org/
+
+Package: libjemalloc1
+Status: install ok installed
+Priority: extra
+Section: libs
+Installed-Size: 237
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: jemalloc
+Version: 3.6.0-9ubuntu1
+Depends: libc6 (>= 2.14)
+Description: general-purpose scalable concurrent malloc(3) implementation
+ A library providing a malloc(3) implementation for multi-threaded processes on
+ multi-processor systems.
+ .
+ Notable features are reduced lock contention, predictable low fragmentation,
+ and introspection with heap profiling.
+Original-Maintainer: Stig Sandbeck Mathisen <ssm@debian.org>
+Homepage: http://www.canonware.com/jemalloc/
 
 Package: sudo
 Status: install ok installed
@@ -9381,6 +9422,42 @@ Description: interactive high-level object-oriented language (default python ver
  Python version (currently v2.7).
 Original-Maintainer: Matthias Klose <doko@debian.org>
 Homepage: http://www.python.org/
+
+Package: stunnel4
+Status: install ok installed
+Priority: optional
+Section: net
+Installed-Size: 422
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 3:5.30-1
+Replaces: stunnel
+Provides: stunnel
+Depends: libc6 (>= 2.14), libssl1.0.0 (>= 1.0.2~beta3), libsystemd0, libwrap0 (>= 7.6-4~), perl, openssl, netbase
+Pre-Depends: adduser
+Suggests: logcheck-database
+Breaks: stunnel (<< 3:4.20-3)
+Conffiles:
+ /etc/default/stunnel4 6943036c95e69313ee1ea8589ad92e1c
+ /etc/init.d/stunnel4 bb2bc81b6c872e8b9e60b869800bd4da
+ /etc/logrotate.d/stunnel4 cf296257edaea0041db097e4d6b6e475
+ /etc/ppp/ip-down.d/0stunnel4 150260657c12abdc38c924d3c8f59b0f
+ /etc/ppp/ip-up.d/0stunnel4 f8b011ff23198b122569bdb803f05f6e
+ /etc/stunnel/README 85477baab1a6221e8dc6aebef5ee29ef
+Description: Universal SSL tunnel for network daemons
+ The stunnel program is designed to work  as  SSL  encryption
+ wrapper between remote client and local (inetd-startable) or
+ remote server. The concept is that having non-SSL aware daemons
+ running  on  your  system you can easily setup them to
+ communicate with clients over secure SSL channel.
+ .
+ stunnel can be used to add  SSL  functionality  to  commonly
+ used  inetd  daemons  like  POP-2,  POP-3  and  IMAP servers
+ without any changes in the programs' code.
+ .
+ This package contains a wrapper script for compatibility with stunnel 3.x
+Original-Maintainer: Peter Pentchev <roam@ringlet.net>
+Homepage: http://www.stunnel.org/
 
 Package: python3-prettytable
 Status: install ok installed
@@ -15740,6 +15817,34 @@ Description: Python virtual environment creator
  This is the command line script and manpage.
 Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Homepage: https://pypi.python.org/pypi/virtualenv
+
+Package: redis-server
+Status: install ok installed
+Priority: optional
+Section: database
+Installed-Size: 896
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: redis
+Version: 2:3.0.6-1
+Depends: adduser, redis-tools (= 2:3.0.6-1), init-system-helpers (>= 1.18~), libc6 (>= 2.14), libjemalloc1 (>= 2.1.1)
+Conffiles:
+ /etc/default/redis-server 45e997df22f4c5c2b5c9ae159775a089
+ /etc/init.d/redis-server 74bda2f5bf07a952921f5291949c2f70
+ /etc/logrotate.d/redis-server f4b38d0bd720dea3edc8b96b8502447d
+ /etc/redis/redis-server.post-down.d/00_example 58815a3191574715e4c32ba0dee25aa9
+ /etc/redis/redis-server.post-up.d/00_example 3f2898acd95a4b75d0f5e7152220c74e
+ /etc/redis/redis-server.pre-down.d/00_example dc818c1d4354a8b3d7d26dab3e012937
+ /etc/redis/redis-server.pre-up.d/00_example cebcf87d97617bf3d776f2b18d132e1b
+ /etc/redis/redis.conf c0a75bff934736de53251e0dff80c5b3
+Description: Persistent key-value database with network interface
+ Redis is a key-value database in a similar vein to memcache but the dataset
+ is non-volatile. Redis additionally provides native support for atomically
+ manipulating and querying data structures such as lists and sets.
+ .
+ The dataset is stored entirely in memory and periodically flushed to disk.
+Original-Maintainer: Chris Lamb <lamby@debian.org>
+Homepage: http://redis.io/
 
 Package: cron
 Status: install ok installed

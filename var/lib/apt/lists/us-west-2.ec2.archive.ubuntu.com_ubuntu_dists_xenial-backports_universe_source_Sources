@@ -28,6 +28,38 @@ Checksums-Sha256:
  61e739c123923ba90169f42c54e5f51df759ed40b4e332a7160d7db963d5678b 1844349 ansible_2.1.1.0.orig.tar.gz
  8e180fafd4ab47c79786c6f15b239cb1b4897d8ae8cbeb833c5f8d7e0a176052 19784 ansible_2.1.1.0-1~ubuntu16.04.1.debian.tar.xz
 
+Package: ldc
+Binary: ldc, libphobos2-ldc-dev, libphobos2-ldc71
+Version: 1:1.1.0+b3-1build1~ubuntu16.04.1
+Priority: optional
+Section: universe/devel
+Maintainer: Debian D Language Group <pkg-d-devel@lists.alioth.debian.org>
+Build-Depends: cmake, debhelper (>= 10), dh-exec (>= 0.3), ldc | d-compiler | d-v2-compiler, libconfig++-dev, libconfig-dev, libcurl4-gnutls-dev, libedit-dev, libffi-dev, libtinfo-dev, llvm-3.8-dev, pkg-config (>= 0.20), quilt (>= 0.40), zlib1g-dev
+Architecture: amd64 armhf i386 ppc64el
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Directory: pool/universe/l/ldc
+Files:
+ 18558cf3108226cc4aa5845d6645c6f9 2429 ldc_1.1.0+b3-1build1~ubuntu16.04.1.dsc
+ 7d796d7195df23a44136bd2ea74d23f3 6054630 ldc_1.1.0+b3.orig.tar.gz
+ 3b75f142c47d2bbf783af21f36bc4de0 13196 ldc_1.1.0+b3-1build1~ubuntu16.04.1.debian.tar.xz
+Uploaders: Konstantinos Margaritis <markos@debian.org>, Matthias Klumpp <mak@debian.org>
+Homepage: https://github.com/ldc-developers/ldc
+Vcs-Browser: https://anonscm.debian.org/git/pkg-d/ldc.git/
+Vcs-Git: https://anonscm.debian.org/git/pkg-d/ldc.git
+Package-List:
+ ldc deb devel optional arch=amd64,armhf,i386,ppc64el
+ libphobos2-ldc-dev deb libdevel optional arch=amd64,armhf,i386,ppc64el
+ libphobos2-ldc71 deb libdevel optional arch=amd64,armhf,i386,ppc64el
+Checksums-Sha1:
+ d80bdc3d68580981895b80f0b80d1cb162ae7de2 2429 ldc_1.1.0+b3-1build1~ubuntu16.04.1.dsc
+ 6ab6d6bcde10759b4e9f16d9f51c26694989e710 6054630 ldc_1.1.0+b3.orig.tar.gz
+ c948cfc4bc1a79ce5b12e2b7679b02446bda5b63 13196 ldc_1.1.0+b3-1build1~ubuntu16.04.1.debian.tar.xz
+Checksums-Sha256:
+ 2d0aaa69a265ad6eb30369142ea5434b59268ecfd6266dcff858cb8a1c05d000 2429 ldc_1.1.0+b3-1build1~ubuntu16.04.1.dsc
+ cf4aeb393eada610aa3bad18c3ae6a5de94250eaa968fe2d1b0a6afdf8ea54f6 6054630 ldc_1.1.0+b3.orig.tar.gz
+ 184d2f962fbc97addee916ed70a2332ca3beba1554b30aa8c1fb8d34c523a87f 13196 ldc_1.1.0+b3-1build1~ubuntu16.04.1.debian.tar.xz
+
 Package: mustache-d
 Binary: libmustache-d-dev
 Version: 0.1.1-1~ubuntu16.04.1

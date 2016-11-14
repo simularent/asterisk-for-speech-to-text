@@ -27,10 +27,39 @@ Description-en: transitional dummy package for moving bsdtar to libarchive-tools
  This is a transitional package for the migration of the bsdtar tool to
  the libarchive-tools package.
 
+Package: dh-systemd
+Description-md5: 67a68071a0cbbaa9df2bcd81ec5a29b1
+Description-en: debhelper add-on to handle systemd unit files - transitional package
+ This package is for transitional purposes and can be removed safely.
+
+Package: ldc
+Description-md5: 486f2a4a0d475755a0957a9b047ea2ef
+Description-en: LLVM D Compiler
+ LDC is a compiler for the D programming Language. It is based on the
+ latest DMD frontend and uses LLVM as backend.
+ .
+ This is the actual ldc compiler
+
 Package: libmustache-d-dev
 Description-md5: dd778293605d48aeb3ccb2c396a14f94
 Description-en: Mustache rendering engine for D
  Mustache is a push-strategy (a.k.a logic-less) template engine.
  .
  This package contains an implementation in the D programming language.
+
+Package: libphobos2-ldc-dev
+Description-md5: b341b8776d65d648c3d9a2d216c9f827
+Description-en: LLVM D Compiler - Phobos2 Standard library, imports
+ LDC is a compiler for the D programming Language. It is based on the
+ latest DMD frontend and uses LLVM as backend.
+ .
+ This package includes the D imports for Phobos2 Standard Library
+
+Package: libphobos2-ldc71
+Description-md5: 008779e61b9f161b2f64c0069b695f3a
+Description-en: LLVM D Compiler - Phobos2 Standard library, shared objects
+ LDC is a compiler for the D programming Language. It is based on the
+ latest DMD frontend and uses LLVM as backend.
+ .
+ This package includes the libs for Phobos2 Standard Library
 

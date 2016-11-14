@@ -1,6 +1,6 @@
 Package: accountsservice
 Binary: accountsservice, libaccountsservice0, libaccountsservice-dev, gir1.2-accountsservice-1.0, libaccountsservice-dbg, libaccountsservice-doc
-Version: 0.6.40-2ubuntu11.2
+Version: 0.6.40-2ubuntu11.3
 Priority: standard
 Section: gnome
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -11,9 +11,9 @@ Standards-Version: 3.9.6
 Format: 3.0 (quilt)
 Directory: pool/main/a/accountsservice
 Files:
- c3ce513df039edac3e5830116f1aa68d 2807 accountsservice_0.6.40-2ubuntu11.2.dsc
+ 8011765d9959ee9471ee2773a4455ebb 2443 accountsservice_0.6.40-2ubuntu11.3.dsc
  8b21fe2fbb2b0cf1ba8329596898b203 367772 accountsservice_0.6.40.orig.tar.xz
- a9a9226cb90e82aaf57e9444c54925ca 35740 accountsservice_0.6.40-2ubuntu11.2.debian.tar.xz
+ dca3e50d18b4a28c28c9b5ba7994f402 36592 accountsservice_0.6.40-2ubuntu11.3.debian.tar.xz
 Homepage: http://www.freedesktop.org/wiki/Software/AccountsService/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/accountsservice.git
 Vcs-Git: git://anonscm.debian.org/collab-maint/accountsservice.git
@@ -25,13 +25,13 @@ Package-List:
  libaccountsservice-doc deb doc optional arch=all
  libaccountsservice0 deb libs optional arch=any
 Checksums-Sha1:
- 83a967796dcdef77415bf2476630639e29597339 2807 accountsservice_0.6.40-2ubuntu11.2.dsc
+ dac6d499d236b8d100d1a48bb63ca883d82e41a4 2443 accountsservice_0.6.40-2ubuntu11.3.dsc
  2afbcddf6e1d1a97b4cc5c4c7897201f06378ec3 367772 accountsservice_0.6.40.orig.tar.xz
- 7442dae6b3e8f982a786ee0bf2e6e570a4570761 35740 accountsservice_0.6.40-2ubuntu11.2.debian.tar.xz
+ 3d46b52e684544a25343333aa3b7fa1c6a4b53f0 36592 accountsservice_0.6.40-2ubuntu11.3.debian.tar.xz
 Checksums-Sha256:
- 8f12ecf67e54465c117487df017ede7097e4ed52a9504bc7fcba9691f3293db0 2807 accountsservice_0.6.40-2ubuntu11.2.dsc
+ bd133d5780dcd01fd198cb8fb3b0e14a15615df09fffb6f0e1343e6446122f71 2443 accountsservice_0.6.40-2ubuntu11.3.dsc
  f04f756600cbab558671658ab8e77212de2a000c07bc0469e7b51541871fcb2b 367772 accountsservice_0.6.40.orig.tar.xz
- f0c532b94116d7461172b2d75d6ac25a8c2dbcba1f97264725fbbc3a8ff12fca 35740 accountsservice_0.6.40-2ubuntu11.2.debian.tar.xz
+ 10c11da812104261fcbd28701dbcf3ca7e342993151f2f5a39af713cfe6cffad 36592 accountsservice_0.6.40-2ubuntu11.3.debian.tar.xz
 
 Package: adium-theme-ubuntu
 Binary: adium-theme-ubuntu
@@ -17686,7 +17686,7 @@ Checksums-Sha256:
 
 Package: shim-signed
 Binary: shim-signed
-Version: 1.18~16.04.1
+Version: 1.19~16.04.1
 Priority: optional
 Section: utils
 Maintainer: Steve Langasek <steve.langasek@ubuntu.com>
@@ -17696,16 +17696,16 @@ Standards-Version: 3.9.4
 Format: 3.0 (native)
 Directory: pool/main/s/shim-signed
 Files:
- 1f662b10a8a97a541409a0e210c68bb7 1489 shim-signed_1.18~16.04.1.dsc
- d7a94c700fff059b450815e145bd12af 316372 shim-signed_1.18~16.04.1.tar.xz
+ 304bab2cd8192503b5924ae16625211e 1471 shim-signed_1.19~16.04.1.dsc
+ 46059b8c68e36fec42644974677681ea 316348 shim-signed_1.19~16.04.1.tar.xz
 Package-List:
  shim-signed deb utils optional arch=amd64
 Checksums-Sha1:
- 08ed1114a4107cc8f7768f389ffe8d9014ff43b4 1489 shim-signed_1.18~16.04.1.dsc
- 6f7ad7c8e1982be4effb4ee497a992dc93aa8176 316372 shim-signed_1.18~16.04.1.tar.xz
+ 19b15e11dc0afb17f4f154989c5b3bc809aa28a8 1471 shim-signed_1.19~16.04.1.dsc
+ 740d7e46c245c9b26e3cf5ebddb2f83616b7d71f 316348 shim-signed_1.19~16.04.1.tar.xz
 Checksums-Sha256:
- 3f9fc6d0301d98e5fc90b1d89a8464349cedc820e5712d66c9940699c2511c5c 1489 shim-signed_1.18~16.04.1.dsc
- 615bd7bd887d53b2bb3904388dee7fdd271b49e04a22f3774344ea094f16b8ec 316372 shim-signed_1.18~16.04.1.tar.xz
+ d93e54b350039ec36ed30e12f5e8b0cc7a655dbd8c27652f254d3174db7a3a02 1471 shim-signed_1.19~16.04.1.dsc
+ 4462608aeb12ac746ba63c8956076107e4c23d0be787b985ce1fba7154102f5a 316348 shim-signed_1.19~16.04.1.tar.xz
 
 Package: simplestreams
 Binary: simplestreams, python3-simplestreams, python-simplestreams, python-simplestreams-openstack

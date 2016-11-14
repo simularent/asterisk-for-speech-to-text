@@ -22,7 +22,7 @@ landscape:*:16996:0:99999:7:::
 sshd:*:16996:0:99999:7:::
 pollinate:*:16996:0:99999:7:::
 ubuntu:!:17049:0:99999:7:::
-asterisk:!:17050:0:99999:7:::
+asterisk:$6$4PuMpOHW$0cXDunEsXo4h.VIh6sza.WmHXN2MZsPD1zm9cIqU5ZsfVsL7jqKljZD2qPFuecLJd7S/63y2AL9B5uEUzy3II.:17061:0:99999:7:::
 systemd-timesync:*:17050:0:99999:7:::
 systemd-network:*:17050:0:99999:7:::
 systemd-resolve:*:17050:0:99999:7:::
@@ -31,3 +31,5 @@ uuidd:!:16996:0:99999:7:::
 lxd:*:17050:0:99999:7:::
 _apt:*:17050:0:99999:7:::
 dnsmasq:*:17050:0:99999:7:::
+redis:*:17116:0:99999:7:::
+stunnel4:!:17116:0:99999:7:::

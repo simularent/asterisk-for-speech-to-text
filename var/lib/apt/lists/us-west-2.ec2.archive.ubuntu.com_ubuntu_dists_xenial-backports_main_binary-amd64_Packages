@@ -20,6 +20,53 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: debhelper
+Priority: optional
+Section: devel
+Installed-Size: 1307
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debhelper Maintainers <debhelper-devel@lists.alioth.debian.org>
+Architecture: all
+Version: 10.2.2ubuntu1~ubuntu16.04.1
+Replaces: dh-systemd (<< 1.38)
+Depends: autotools-dev, binutils, dh-autoreconf (>= 12~), dh-strip-nondeterminism, dpkg (>= 1.16.2), dpkg-dev (>= 1.18.2~), file (>= 3.23), libdpkg-perl (>= 1.17.14), man-db (>= 2.5.1-1), po-debconf, perl
+Suggests: dh-make
+Breaks: dh-systemd (<< 1.38)
+Filename: pool/main/d/debhelper/debhelper_10.2.2ubuntu1~ubuntu16.04.1_all.deb
+Size: 743304
+MD5sum: 51b8365ad88bd3d6d32da2fa2bd144a8
+SHA1: 5a967a4603acc7b2bcd4a22daef3c554ebe82038
+SHA256: 596b7ee7e9f1efa3c4a8547a11e11462155484347c639744387cf0f84412a5c7
+Description: helper programs for debian/rules
+Multi-Arch: foreign
+Description-md5: c3d35229c1ce392f77324206e097b92e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-sdk
+
+Package: dh-autoreconf
+Priority: optional
+Section: devel
+Installed-Size: 44
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Julian Andres Klode <jak@debian.org>
+Architecture: all
+Version: 12~ubuntu16.04.1
+Depends: perl, debhelper, autoconf, automake | automaken, autopoint, libtool (>= 2.4.2)
+Filename: pool/main/d/dh-autoreconf/dh-autoreconf_12~ubuntu16.04.1_all.deb
+Size: 15694
+MD5sum: 43d4d5c09998e771d54eddd4ce2610ec
+SHA1: 16fcf599fbc7ad863043710e9fd010e8e1b46ec2
+SHA256: a11908df3373fb609d0dff96a67cba456dfdc51c0d72ca954614b81fd1956c51
+Description: debhelper add-on to call autoreconf and clean up after the build
+Enhances: cdbs, debhelper
+Multi-Arch: foreign
+Description-md5: 64431da0ae4318a5fbf441743bd5ffc5
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
 Package: golang-github-lxc-lxd-dev
 Priority: optional
 Section: admin

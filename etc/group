@@ -56,3 +56,5 @@ systemd-bus-proxy:x:116:
 uuidd:x:101:
 lxd:x:117:ubuntu
 input:x:118:
+redis:x:119:
+stunnel4:x:120:

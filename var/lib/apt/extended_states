@@ -1042,3 +1042,11 @@ Package: libpcrecpp0v5
 Architecture: amd64
 Auto-Installed: 1
 
+Package: redis-tools
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjemalloc1
+Architecture: amd64
+Auto-Installed: 1
+

@@ -13,6 +13,31 @@ Description-en: automatic as-installed testing for Debian packages
  For generating tests of well-known source packages such as Perl and Ruby
  libraries you should install the autodep8 package.
 
+Package: debhelper
+Description-md5: c3d35229c1ce392f77324206e097b92e
+Description-en: helper programs for debian/rules
+ A collection of programs that can be used in a debian/rules file to
+ automate common tasks related to building Debian packages. Programs
+ are included to install various files into your package, compress
+ files, fix file permissions, integrate your package with the Debian
+ menu system, debconf, doc-base, etc. Most Debian packages use debhelper
+ as part of their build process.
+
+Package: dh-autoreconf
+Description-md5: 64431da0ae4318a5fbf441743bd5ffc5
+Description-en: debhelper add-on to call autoreconf and clean up after the build
+ dh-autoreconf provides a debhelper sequence addon named 'autoreconf' and two
+ commands, dh_autoreconf and dh_autoreconf_clean.
+ .
+ The dh_autoreconf command creates a list of the files and their checksums,
+ calls autoreconf and then creates a second list for the new files.
+ .
+ The dh_autoreconf_clean command compares these two lists and removes all
+ files which have been added or changed (files may be excluded if needed).
+ .
+ For CDBS users, a rule is provided to call the dh-autoreconf programs at
+ the right time.
+
 Package: golang-github-lxc-lxd-dev
 Description-md5: bf546539c311f366eeb0ad488709554f
 Description-en: Container hypervisor based on LXC - go source

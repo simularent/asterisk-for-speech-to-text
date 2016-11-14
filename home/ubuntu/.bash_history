@@ -16,3 +16,4 @@ sudo su
 apt-get update
 sudo su
 exit
+sudo su

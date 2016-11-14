@@ -4946,7 +4946,6 @@ Description: FirmWare Test Suite
 Description-md5: d6b6141d7ca394b5197f5a8e24578b35
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 60
 
 Package: fwts-efi-runtime-dkms
 Priority: optional
@@ -4966,7 +4965,6 @@ Description: Firmware Test Suite UEFI Runtime Service kernel driver
 Description-md5: 872c3fa1034eabae1745eeec37ab3e38
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 60
 
 Package: fwts-frontend
 Priority: optional
@@ -4986,7 +4984,6 @@ Description: Firmware Test Suite frontend interface
 Description-md5: fc98ee1ccd80b6332c879648cc78e424
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 60
 
 Package: g++-5-alpha-linux-gnu
 Priority: extra
@@ -12716,7 +12713,6 @@ Homepage: https://wiki.gnome.org/Projects/GnomeShell
 Description-md5: 51a5a94e6b632e350489b7b8d27ab9fc
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 10
 Supported: 3y
 Task: ubuntu-gnome-desktop
 
@@ -12740,7 +12736,6 @@ Homepage: https://wiki.gnome.org/Projects/GnomeShell
 Description-md5: 2b326fbe771cf911adfb09b06fd267b5
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 10
 Supported: 3y
 Task: edubuntu-desktop-gnome, ubuntu-gnome-desktop
 
@@ -12766,7 +12761,6 @@ Build-Ids: 0f4dedf90ae70e5067c988b502324f4b5a709cf9 12691f2ecffb9761a6323522a27e
 Description-md5: d214a0288f70f3b60517aa485782d59a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 10
 Supported: 3y
 
 Package: gnome-taquin
@@ -25274,7 +25268,6 @@ Description: FirmWare Test Suite core support library
 Description-md5: 52ff91e0d92988cc3e64dca37e83ded3
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 60
 
 Package: libfwtsacpica1
 Priority: optional
@@ -25294,7 +25287,6 @@ Description: FirmWare Test Suite ACPICA core built for acpiexec functionality
 Description-md5: a5000d353030a31da5111f9694fad744
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 60
 
 Package: libfwtsiasl1
 Priority: optional
@@ -25314,7 +25306,6 @@ Description: FirmWare Test Suite ACPICA core built for iasl functionality
 Description-md5: 0fdb8bb43f21085e686e7b8bb3529034
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 60
 
 Package: libgcc-5-dev-alpha-cross
 Priority: extra
@@ -42343,7 +42334,6 @@ Description: Neutron is a virtual network service for Openstack - BGP Dynamic Ro
 Description-md5: 78c899c2d392778ba596bdafe41f1fef
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: neutron-lbaasv2-agent
 Priority: optional
@@ -42364,7 +42354,6 @@ Homepage: http://github.com/openstack/neutron-lbaas
 Description-md5: 23e0aa339dfdd3dca549b4ed1809482d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: neutron-macvtap-agent
 Priority: optional
@@ -42385,7 +42374,6 @@ Description: Neutron is a virtual network service for Openstack - Macvtap L2 Age
 Description-md5: e60c41b51b193c7b7bd59c74ab9bbcd9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: neutron-metering-agent
 Priority: optional
@@ -42408,7 +42396,6 @@ Description: Neutron is a virtual network service for Openstack - metering agent
 Description-md5: 65dae36f4a24be77bcb88d08a02f05f3
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: neutron-plugin-linuxbridge-agent
 Priority: optional
@@ -42429,7 +42416,6 @@ Description: Transitional package for neutron-linuxbridge-agent
 Description-md5: 2b3933b495672e8963f37054b8e8ffbe
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: neutron-plugin-openvswitch-agent
 Priority: optional
@@ -42450,7 +42436,6 @@ Description: Transitional package for neutron-openvswitch-agent
 Description-md5: 739a968407df5f0c9d1119f1ce56c018
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: neutron-plugin-sriov-agent
 Priority: optional
@@ -42471,7 +42456,6 @@ Description: Transitional package for neutron-sriov-agent
 Description-md5: ade5136ccbce440e1010705aab7e6c1a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: neutron-sriov-agent
 Priority: optional
@@ -42494,7 +42478,6 @@ Description: Neutron is a virtual network service for Openstack - SR-IOV agent
 Description-md5: 42989299f1b85c4fc6eccec9138ca534
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: nginx-extras
 Priority: optional
@@ -42753,7 +42736,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: 571664bc0008e44d5df6784807a6ecf0
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: nova-api-metadata
 Priority: extra
@@ -42776,7 +42758,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: ae9cd778d7894b1a89d138fe3587a7da
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: nova-api-os-compute
 Priority: extra
@@ -42799,7 +42780,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: 32fe3c17415adfec970c371f4bdff9b6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: nova-api-os-volume
 Priority: extra
@@ -42821,7 +42801,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: f8cc143de25afd88a62e482808826104
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: nova-cells
 Priority: extra
@@ -42843,7 +42822,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: a630a337cf802c4d29d91c1a6283fac5
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: nova-compute-qemu
 Priority: extra
@@ -42867,7 +42845,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: 46acbb1c9b077142e1930821f7a05aed
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: nova-compute-vmware
 Priority: extra
@@ -42891,7 +42868,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: 3246e65f6c94fc6b7eccb5b2f332c4f1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: nova-compute-xen
 Priority: extra
@@ -42915,7 +42891,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: 8268c70ad765a6427d184e1c58a4472c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: nova-conductor
 Priority: extra
@@ -42937,7 +42912,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: 0b6894258f8fbaad9a8f7daf4cae4456
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: nova-console
 Priority: extra
@@ -42960,7 +42934,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: 095d3c39f30a44dd0768d8a869e4fa67
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: nova-consoleauth
 Priority: extra
@@ -42984,7 +42957,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: 471ffbc52e68b19718599b8e938708d2
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: nova-novncproxy
 Priority: extra
@@ -43006,7 +42978,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: f71a025ccadd58aa7f26e66e99818fa8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: nova-serialproxy
 Priority: extra
@@ -43030,7 +43001,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: a8fd3f5d6ac9bda37bd109530d1cfc96
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: nova-spiceproxy
 Priority: extra
@@ -43052,7 +43022,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: ea77a7b8b1a9e5a1953479bb5b89e219
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: nova-xvpvncproxy
 Priority: extra
@@ -43074,7 +43043,6 @@ Homepage: http://launchpad.net/nova
 Description-md5: b3739b7ab9595f5c68b1c0e141861b74
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: nplan
 Priority: standard
@@ -43179,7 +43147,6 @@ Homepage: https://github.com/linux-nvme/nvme-cli
 Description-md5: 50cd6c8d88aeb616570db136de8ec92d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 60
 
 Package: oce-draw
 Priority: extra
@@ -45694,7 +45661,6 @@ Homepage: http://github.com/lxd/nova-lxd
 Description-md5: a9b3f6596c73a62b37413702be61b600
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: python-oslo-concurrency
 Priority: optional
@@ -47664,7 +47630,6 @@ Homepage: http://supertuxproject.org/
 Description-md5: 83819c096307dca07762d7b9f833f8be
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: supertux-data
 Priority: optional
@@ -47686,7 +47651,6 @@ Homepage: http://supertuxproject.org/
 Description-md5: c2c5a5da6b5987f1181c1535a993e11f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Phased-Update-Percentage: 50
 
 Package: swauth
 Priority: optional

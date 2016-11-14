@@ -1844,3 +1844,78 @@ vi /etc/asterisk/extensions.conf
 /etc/init.d/asterisk restart
 asterisk -rvvvvvvvvvvvvvvvvvvvvvvvvvv
 exit
+cd /root/
+ls
+./backup.sh 
+git pull origin master
+git pull asterisk master
+./backup.sh 
+exit
+vi /root/backup.sh 
+apt-get install redis-server
+/etc/init.d/redis-server stop
+update-rc.d redis-server disable
+apt-get install stunnel4
+vi /etc/default/stunnel4
+scp root@scp root@10.0.3.65:/etc/stunnel/private.pem /etc/stunnel/:/etc/stunnel/private.pem /etc/stunnel/
+scp roooot@10.0.3.65:/etc/stunnel/private.pem /etc/stunnel/:/etc/stunnel/private.pem /etc/stunnel/
+scp root@10.0.3.65:/etc/stunnel/private.pem /etc/stunnel/:/etc/stunnel/private.pem /etc/stunnel/
+scp root@10172.31.23.199etc/stunnel/private.pem /etc/stunnel/:/etc/stunnel/private.pem /etc/stunnel/
+scp root@10172.31.23.199 /etc/stunnel/private.pem /etc/stunnel/:/etc/stunnel/private.pem /etc/stunnel/
+scp root@172.31.23.199 /etc/stunnel/private.pem /etc/stunnel/:/etc/stunnel/private.pem /etc/stunnel/
+scp root@172.31.23.199 /etc/stunnel/private.pem /etc/stunnel/
+scp root@172.31.23.199:/etc/stunnel/private.pem /etc/stunnel/
+chmod 640 /etc/stunnel/private.pem
+vi /etc/stunnel/redis-client.conf
+/etc/init.d/stunnel4 start
+redis-cli -h localhost
+/etc/init.d/redis-server start
+redis-cli -h localhost
+cat /var/log/asterisk/messages
+cat /var/log/asterisk/queue_log
+cat /var/log/asterisk/cdr-csv/Master.csv
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | grep ANSWERED
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | sed -e 's/,,/, ,/g'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $3}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $1}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $2}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $4}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $5}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $6}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $7}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $8}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $9}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $0}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $3}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $4}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $4,$3}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $4,$3,$10}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $4,$3,$11}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $4,$3,$12}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $4,$3,$13}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $4,$3,$14}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $4,$3,$15}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $4,$3,$16}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $4,$3,$17}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep 2016-11-10 | awk -F "\"*,\"*" '{print $4,$3,$15}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep `date +%F` | awk -F "\"*,\"*" '{print $4,$3,$15}'
+tail -f /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep `date +%F` | awk -F "\"*,\"*" '{print $4,$3,$15}'
+cat /var/log/asterisk/cdr-csv/Master.csv | grep nova | grep `date +%F` | awk -F "\"*,\"*" '{print $4,$3,$15}'
+vi /var/spool/asterisk/monitor/
+vi /var/spool/asterisk/monitor/nova-transcribe.php 
+vi /devops/nova-php-log.sh
+ls
+vi /etc/asterisk/extensions.conf 
+watch “asterisk -vvvvvrx ‘show channels’ | grep calls
+watch “asterisk -vvvvvrx ‘show channels verbose'”
+watch "asterisk -vvvvvrx ‘show channels’ | grep calls"
+asterisk -rvvvvvvvvvvvvvv
+date
+date %b
+date +%F
+vi /etc/asterisk/extensions.conf 
+/etc/init.d/asterisk restart
+vi /etc/asterisk/extensions.conf 
