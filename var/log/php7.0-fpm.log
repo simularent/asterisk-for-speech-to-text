@@ -1,8 +1,1 @@
-[06-Nov-2016 06:25:01] NOTICE: error log file re-opened
-[10-Nov-2016 15:52:34] NOTICE: Terminating ...
-[10-Nov-2016 15:52:34] NOTICE: exiting, bye-bye!
-[10-Nov-2016 15:53:30] NOTICE: configuration file /etc/php/7.0/fpm/php-fpm.conf test is successful
-
-[10-Nov-2016 15:53:30] NOTICE: fpm is running, pid 1064
-[10-Nov-2016 15:53:30] NOTICE: ready to handle connections
-[10-Nov-2016 15:53:30] NOTICE: systemd monitor interval set to 10000ms
+[14-Nov-2016 06:25:02] NOTICE: error log file re-opened

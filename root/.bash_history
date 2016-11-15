@@ -1919,3 +1919,5 @@ date +%F
 vi /etc/asterisk/extensions.conf 
 /etc/init.d/asterisk restart
 vi /etc/asterisk/extensions.conf 
+cd /root/
+./backup.sh 
